@@ -9,7 +9,10 @@ set -euo pipefail
 
 MARKER="$HOME/.qos/setup-done"
 ETAMIL_RELEASE="https://github.com/Maruff/eTamil_lang/releases/latest/download"
-ETAMIL_PACKAGE="etamil-linux-arm64.tar.gz"
+# The Android build first: it looks host names up through Android's resolver.
+# eTamil releases before 1.5.0 have only the Linux one, which runs here but
+# cannot resolve names.
+ETAMIL_PACKAGES="etamil-android-arm64 etamil-linux-arm64"
 
 step() { printf '\n\033[1;34m==> %s\033[0m\n' "$1"; }
 
@@ -33,11 +36,19 @@ if [ "$(uname -m)" != aarch64 ]; then
 else
     work="$(mktemp -d)"
     trap 'rm -rf "$work"' EXIT
-    curl -fsSL -o "$work/$ETAMIL_PACKAGE" "$ETAMIL_RELEASE/$ETAMIL_PACKAGE"
-    curl -fsSL -o "$work/$ETAMIL_PACKAGE.sha256" "$ETAMIL_RELEASE/$ETAMIL_PACKAGE.sha256"
-    (cd "$work" && sha256sum -c "$ETAMIL_PACKAGE.sha256")
-    tar -xzf "$work/$ETAMIL_PACKAGE" -C "$work"
-    PREFIX="$PREFIX" sh "$work/etamil-linux-arm64/install.sh" >/dev/null
+    package=""
+    for candidate in $ETAMIL_PACKAGES; do
+        if curl -fsSL -o "$work/$candidate.tar.gz" "$ETAMIL_RELEASE/$candidate.tar.gz"; then
+            package="$candidate"
+            break
+        fi
+    done
+    [ -n "$package" ] || { echo "No eTamil package could be downloaded."; exit 1; }
+    curl -fsSL -o "$work/$package.tar.gz.sha256" "$ETAMIL_RELEASE/$package.tar.gz.sha256"
+    (cd "$work" && sha256sum -c "$package.tar.gz.sha256")
+    tar -xzf "$work/$package.tar.gz" -C "$work"
+    PREFIX="$PREFIX" sh "$work/$package/install.sh" >/dev/null
+    echo "Installed $package"
     etamil --version
 fi
 
