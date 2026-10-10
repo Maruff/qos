@@ -11,23 +11,16 @@ DISPLAY_NUMBER=":1"
 
 step() { printf '\n\033[1;34m==> %s\033[0m\n' "$1"; }
 
-# Read the whole list before matching it. Piping pm into `grep -q` stops reading
-# at the first match, pm then dies of SIGPIPE, and under pipefail a found
-# package would read as missing.
-packages="$(pm list packages 2>/dev/null || true)"
-case "
-$packages
-" in
-    *"
-package:com.termux.x11
-"*) ;;
-    *)
-        echo "qos Desktop is not installed."
-        echo "Install it from the qos F-Droid repository (https://qos.ae), or download"
-        echo "qos-desktop.apk from https://github.com/Maruff/qos-desktop/releases/latest"
-        exit 1
-        ;;
-esac
+# Is qos Desktop installed? Not `pm list packages`: run from inside an app, pm
+# fails on many phones ("Failure calling service package: Failed
+# transaction"). qos Desktop shares qos's Android user, so qos can see the data
+# folder Android creates for it on install.
+if [ ! -d /data/data/com.termux.x11 ]; then
+    echo "qos Desktop is not installed."
+    echo "Install it from the qos F-Droid repository (https://qos.ae), or download"
+    echo "qos-desktop.apk from https://github.com/Maruff/qos-desktop/releases/latest"
+    exit 1
+fi
 
 if ! command -v xfce4-session >/dev/null; then
     step "Installing the XFCE desktop (first time only)"
