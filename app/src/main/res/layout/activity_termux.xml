@@ -89,6 +89,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/action_new_session" />
+
+                    <Button
+                        android:id="@+id/code_button"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/action_open_code" />
                 </LinearLayout>
             </LinearLayout>
 

@@ -40,6 +40,7 @@ import com.termux.shared.data.DataUtils;
 import com.termux.shared.termux.TermuxConstants;
 import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
 import com.termux.app.activities.HelpActivity;
+import com.termux.app.activities.CodeActivity;
 import com.termux.app.activities.SettingsActivity;
 import com.termux.shared.termux.crash.TermuxCrashUtils;
 import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
@@ -248,6 +249,8 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         setSettingsButtonView();
 
         setNewSessionButtonView();
+
+        findViewById(R.id.code_button).setOnClickListener(v -> startActivity(new Intent(this, CodeActivity.class)));
 
         setToggleKeyboardView();
 

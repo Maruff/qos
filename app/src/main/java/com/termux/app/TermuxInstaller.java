@@ -6,6 +6,7 @@ import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.Build;
 import android.os.Environment;
+import android.system.ErrnoException;
 import android.system.Os;
 import android.util.Pair;
 import android.view.WindowManager;
@@ -27,6 +28,8 @@ import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
@@ -216,6 +219,8 @@ final class TermuxInstaller {
                         throw new RuntimeException("Moving termux prefix staging to prefix directory failed");
                     }
 
+                    installQosFiles(activity);
+
                     Logger.logInfo(LOG_TAG, "Bootstrap packages installed successfully.");
 
                     // Recreate env file since termux prefix was wiped earlier
@@ -237,6 +242,29 @@ final class TermuxInstaller {
                 }
             }
         }.start();
+    }
+
+    /** Copy the qos first-run setup into the freshly installed prefix. */
+    private static void installQosFiles(Context context) throws IOException {
+        copyAsset(context, "qos/qos-setup", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-setup", 0700);
+        copyAsset(context, "qos/qos.sh", TERMUX_PREFIX_DIR_PATH + "/etc/profile.d/qos.sh", 0600);
+    }
+
+    private static void copyAsset(Context context, String asset, String path, int mode) throws IOException {
+        File target = new File(path);
+        target.getParentFile().mkdirs();
+        try (InputStream in = context.getAssets().open(asset);
+             FileOutputStream out = new FileOutputStream(target)) {
+            byte[] buffer = new byte[8096];
+            int read;
+            while ((read = in.read(buffer)) != -1)
+                out.write(buffer, 0, read);
+        }
+        try {
+            Os.chmod(path, mode);
+        } catch (ErrnoException e) {
+            throw new IOException(e);
+        }
     }
 
     public static void showBootstrapErrorDialog(Activity activity, Runnable whenDone, String message) {

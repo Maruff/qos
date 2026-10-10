@@ -3,3 +3,5 @@
 *.gradle    text eol=lf
 *.mk        text eol=lf
 *.sh        text eol=lf
+# qos: shell scripts copied onto the device must keep LF line endings.
+app/src/main/assets/qos/* text eol=lf

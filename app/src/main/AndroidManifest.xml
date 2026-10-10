@@ -44,6 +44,7 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/application_name"
         android:requestLegacyExternalStorage="true"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/Theme.TermuxApp.DayNight.DarkActionBar"
@@ -95,6 +96,14 @@
             android:parentActivityName=".app.TermuxActivity"
             android:resizeableActivity="true"
             tools:targetApi="n" />
+
+        <activity
+            android:name=".app.activities.CodeActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden"
+            android:exported="false"
+            android:label="@string/action_open_code"
+            android:parentActivityName=".app.TermuxActivity"
+            android:windowSoftInputMode="adjustResize" />
 
         <activity
             android:name=".app.activities.SettingsActivity"

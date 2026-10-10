@@ -1,0 +1,48 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# qos first-run setup: turns a fresh Termux prefix into a development machine.
+#
+# Runs once from the login shell (see etc/profile.d/qos.sh), and can be run again
+# by hand at any time — every step is safe to repeat. A failed run leaves the
+# marker unwritten, so the next login tries again.
+
+set -euo pipefail
+
+MARKER="$HOME/.qos/setup-done"
+ETAMIL_RELEASE="https://github.com/Maruff/eTamil_lang/releases/latest/download"
+ETAMIL_PACKAGE="etamil-linux-arm64.tar.gz"
+
+step() { printf '\n\033[1;34m==> %s\033[0m\n' "$1"; }
+
+step "Updating package lists"
+pkg update -y
+pkg upgrade -y
+
+step "Compilers and runtimes"
+pkg install -y git clang make python rust openjdk-17
+
+# code-server lives in the Termux User Repository, and brings its own Node.js.
+step "code-server (VS Code)"
+pkg install -y tur-repo
+pkg update -y
+pkg install -y code-server
+command -v node >/dev/null || pkg install -y nodejs-lts
+
+step "eTamil toolchain"
+if [ "$(uname -m)" != aarch64 ]; then
+    echo "eTamil ships an arm64 build only; skipping on $(uname -m)."
+else
+    work="$(mktemp -d)"
+    trap 'rm -rf "$work"' EXIT
+    curl -fsSL -o "$work/$ETAMIL_PACKAGE" "$ETAMIL_RELEASE/$ETAMIL_PACKAGE"
+    curl -fsSL -o "$work/$ETAMIL_PACKAGE.sha256" "$ETAMIL_RELEASE/$ETAMIL_PACKAGE.sha256"
+    (cd "$work" && sha256sum -c "$ETAMIL_PACKAGE.sha256")
+    tar -xzf "$work/$ETAMIL_PACKAGE" -C "$work"
+    PREFIX="$PREFIX" sh "$work/etamil-linux-arm64/install.sh" >/dev/null
+    etamil --version
+fi
+
+mkdir -p "$(dirname "$MARKER")"
+date > "$MARKER"
+
+step "Done"
+echo "Open VS Code from the drawer (swipe in from the left), or run: code-server"
