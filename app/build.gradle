@@ -47,6 +47,9 @@ android {
         versionName "0.118.0"
 
         if (appVersionName) versionName = appVersionName
+        // qos: release builds set their own versionCode from the tag (see qos_release.yml).
+        def qosVersionCode = System.getenv("QOS_VERSION_CODE")
+        if (qosVersionCode) versionCode qosVersionCode.toInteger()
         validateVersionName(versionName)
 
         buildConfigField "String", "TERMUX_PACKAGE_VARIANT", "\"" + project.ext.packageVariant + "\"" // Used by TermuxApplication class
@@ -84,6 +87,17 @@ android {
             storePassword 'xrj45yWGLbsO7W0v'
             keyPassword 'xrj45yWGLbsO7W0v'
         }
+
+        // qos: the release key is supplied only by qos_release.yml, from repository secrets.
+        if (System.getenv("QOS_KEYSTORE_FILE")) {
+            release {
+                storeFile file(System.getenv("QOS_KEYSTORE_FILE"))
+                storeType "pkcs12"
+                storePassword System.getenv("QOS_KEYSTORE_PASSWORD")
+                keyAlias System.getenv("QOS_KEY_ALIAS")
+                keyPassword System.getenv("QOS_KEYSTORE_PASSWORD")
+            }
+        }
     }
 
     buildTypes {
@@ -91,6 +105,7 @@ android {
             minifyEnabled true
             shrinkResources false // Reproducible builds
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            if (System.getenv("QOS_KEYSTORE_FILE")) signingConfig signingConfigs.release
         }
 
         debug {
@@ -136,6 +151,9 @@ android {
             } else if (variant.buildType.name == "release") {
                 def abi = output.getFilter(com.android.build.OutputFile.ABI)
                 outputFileName = new File("termux-app_" + (apkVersionTag ? apkVersionTag : project.ext.packageVariant + "-" + "release") + "_" + (abi ? abi : "universal") + ".apk")
+                // qos: F-Droid needs a distinct versionCode for each ABI's APK.
+                def abiCodes = ["armeabi-v7a": 1, "arm64-v8a": 2, "x86": 3, "x86_64": 4]
+                output.versionCodeOverride = variant.versionCode * 10 + (abi ? abiCodes[abi] : 0)
             }
         }
     }

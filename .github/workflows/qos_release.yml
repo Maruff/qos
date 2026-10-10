@@ -1,0 +1,62 @@
+name: qos release
+
+# A v* tag builds release APKs signed with the qos key, one per ABI, and
+# publishes them as a GitHub release. The qos F-Droid repository
+# (Maruff/qos-fdroid) picks them up from there.
+#
+# versionCode is derived from the tag: major*10000 + minor*100 + patch, then
+# app/build.gradle multiplies by 10 and adds the ABI (1-4), so each ABI's APK
+# has its own versionCode, as F-Droid requires.
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v6
+
+      - name: Setup java 17
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Build signed APKs
+        env:
+          QOS_KEYSTORE_BASE64: ${{ secrets.QOS_KEYSTORE_BASE64 }}
+          QOS_KEYSTORE_PASSWORD: ${{ secrets.QOS_KEYSTORE_PASSWORD }}
+          QOS_KEY_ALIAS: ${{ secrets.QOS_KEY_ALIAS }}
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME#v}"
+          IFS=. read -r major minor patch <<< "${version%%[-+]*}"
+          export TERMUX_APP_VERSION_NAME="$version"
+          export QOS_VERSION_CODE=$((major * 10000 + minor * 100 + patch))
+          export TERMUX_SPLIT_APKS_FOR_RELEASE_BUILDS=1
+          export TERMUX_APK_VERSION_TAG="qos"
+          export QOS_KEYSTORE_FILE="$RUNNER_TEMP/qos-release.p12"
+          printf '%s' "$QOS_KEYSTORE_BASE64" | base64 -d > "$QOS_KEYSTORE_FILE"
+          ./gradlew assembleRelease
+          rm -f "$QOS_KEYSTORE_FILE"
+
+          mkdir dist
+          for abi in arm64-v8a armeabi-v7a x86_64 x86; do
+            cp "app/build/outputs/apk/release/termux-app_qos_$abi.apk" "dist/qos-$version-$abi.apk"
+          done
+          (cd dist && sha256sum *.apk > sha256sums.txt && cat sha256sums.txt)
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/* \
+            --title "qos $GITHUB_REF_NAME" \
+            --notes "Signed APKs, one per CPU type. Most phones need arm64-v8a. qos uses the package name com.termux, so it replaces Termux and cannot be installed next to it."
