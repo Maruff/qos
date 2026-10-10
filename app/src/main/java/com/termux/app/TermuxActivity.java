@@ -251,6 +251,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         setNewSessionButtonView();
 
         findViewById(R.id.code_button).setOnClickListener(v -> startActivity(new Intent(this, CodeActivity.class)));
+        findViewById(R.id.desktop_button).setOnClickListener(v -> openDesktop());
 
         setToggleKeyboardView();
 
@@ -571,6 +572,26 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         settingsButton.setOnClickListener(v -> {
             ActivityUtils.startActivity(this, new Intent(this, SettingsActivity.class));
         });
+    }
+
+    /** qos: run qos-desktop in a new session, which sets up XFCE the first time and opens qos Desktop. */
+    private void openDesktop() {
+        try {
+            TermuxInstaller.installQosFiles(this);
+        } catch (java.io.IOException e) {
+            Logger.logStackTraceWithMessage(LOG_TAG, "Failed to install qos scripts", e);
+            Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
+            return;
+        }
+        Uri executable = new Uri.Builder().scheme(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.URI_SCHEME_SERVICE_EXECUTE)
+            .path(TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-desktop").build();
+        Intent intent = new Intent(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.ACTION_SERVICE_EXECUTE, executable);
+        intent.setClass(this, TermuxService.class);
+        intent.putExtra(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.EXTRA_SESSION_ACTION,
+            String.valueOf(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.VALUE_EXTRA_SESSION_ACTION_SWITCH_TO_NEW_SESSION_AND_OPEN_ACTIVITY));
+        intent.putExtra(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.EXTRA_COMMAND_LABEL, "qos Desktop");
+        startService(intent);
+        getDrawer().closeDrawers();
     }
 
     private void setNewSessionButtonView() {

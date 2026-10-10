@@ -244,9 +244,10 @@ final class TermuxInstaller {
         }.start();
     }
 
-    /** Copy the qos first-run setup into the freshly installed prefix. */
-    private static void installQosFiles(Context context) throws IOException {
+    /** Copy the qos scripts into the prefix: at first install, and again from the drawer so updates reach them. */
+    static void installQosFiles(Context context) throws IOException {
         copyAsset(context, "qos/qos-setup", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-setup", 0700);
+        copyAsset(context, "qos/qos-desktop", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-desktop", 0700);
         copyAsset(context, "qos/qos.sh", TERMUX_PREFIX_DIR_PATH + "/etc/profile.d/qos.sh", 0600);
     }
 

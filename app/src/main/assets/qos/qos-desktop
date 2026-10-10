@@ -1,0 +1,51 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# qos-desktop: open the XFCE desktop on the qos Desktop display.
+#
+# The first run installs XFCE (about 100 MB to download) and qos-x11, the
+# termux-x11 command whose loader trusts the qos key. Every step is safe to repeat.
+
+set -euo pipefail
+
+RELEASE="https://github.com/Maruff/qos-desktop/releases/latest/download"
+DISPLAY_NUMBER=":1"
+
+step() { printf '\n\033[1;34m==> %s\033[0m\n' "$1"; }
+
+if ! pm list packages 2>/dev/null | grep -qx 'package:com.termux.x11'; then
+    echo "qos Desktop is not installed."
+    echo "Install it from the qos F-Droid repository (https://qos.ae), or download"
+    echo "qos-desktop.apk from https://github.com/Maruff/qos-desktop/releases/latest"
+    exit 1
+fi
+
+if ! command -v xfce4-session >/dev/null; then
+    step "Installing the XFCE desktop (first time only)"
+    pkg install -y x11-repo
+    pkg update -y
+    pkg install -y xfce4 xfce4-terminal dbus
+fi
+
+if ! dpkg -s qos-x11 >/dev/null 2>&1; then
+    step "Installing qos-x11"
+    work="$(mktemp -d)"
+    trap 'rm -rf "$work"' EXIT
+    curl -fsSL -o "$work/qos-x11.deb" "$RELEASE/qos-x11.deb"
+    curl -fsSL -o "$work/sha256sums.txt" "$RELEASE/sha256sums.txt"
+    (cd "$work" && grep ' qos-x11.deb$' sha256sums.txt | sha256sum -c -)
+    apt install -y "$work/qos-x11.deb"
+fi
+
+if [ -S "${TMPDIR:-$PREFIX/tmp}/.X11-unix/X${DISPLAY_NUMBER#:}" ]; then
+    step "The desktop is already running"
+    am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null
+    exit 0
+fi
+
+step "Starting the desktop"
+termux-x11 "$DISPLAY_NUMBER" -xstartup "dbus-launch --exit-with-session xfce4-session" &
+server=$!
+sleep 2
+am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null
+echo "The desktop is open in qos Desktop. To stop it, log out from XFCE,"
+echo "use Exit in the qos Desktop notification, or press Ctrl+C here."
+wait "$server"
