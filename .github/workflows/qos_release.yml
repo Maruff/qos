@@ -44,7 +44,9 @@ jobs:
           export TERMUX_APK_VERSION_TAG="qos"
           export QOS_KEYSTORE_FILE="$RUNNER_TEMP/qos-release.p12"
           printf '%s' "$QOS_KEYSTORE_BASE64" | base64 -d > "$QOS_KEYSTORE_FILE"
-          ./gradlew assembleRelease
+          # The native build embeds the bootstrap zips, but upstream only orders their
+          # download before Java compilation, which a release build can reach later.
+          ./gradlew downloadBootstraps assembleRelease
           rm -f "$QOS_KEYSTORE_FILE"
 
           mkdir dist
