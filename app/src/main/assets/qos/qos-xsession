@@ -78,7 +78,8 @@ if [ ! -f "$WALLPAPER_MARKER" ] && [ -n "$display_name" ]; then
     date > "$WALLPAPER_MARKER"
 fi
 
-# qos on the panel: the Applications menu button shows the qos mark and "qos".
+# qos on the panel: the Applications menu button shows the qos mark, which is
+# the q, followed by "os".
 # The panel writes its layout on its first start, so wait for it, then find the
 # menu button by type, not by number.
 brand_panel() {
@@ -89,7 +90,7 @@ brand_panel() {
             case "$kind" in
                 applicationsmenu|whiskermenu)
                     xfconf-query -c xfce4-panel -p "$id/button-icon" -n -t string -s "$PREFIX/share/pixmaps/qos.png"
-                    xfconf-query -c xfce4-panel -p "$id/button-title" -n -t string -s "qos"
+                    xfconf-query -c xfce4-panel -p "$id/button-title" -n -t string -s "os"
                     xfconf-query -c xfce4-panel -p "$id/show-button-title" -n -t bool -s true
                     date > "$BRAND_MARKER"
                     return
