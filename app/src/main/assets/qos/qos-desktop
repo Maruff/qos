@@ -41,7 +41,7 @@ fi
 
 if [ -S "${TMPDIR:-$PREFIX/tmp}/.X11-unix/X${DISPLAY_NUMBER#:}" ]; then
     step "The desktop is already running"
-    am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null
+    am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null 2>&1 || echo "Open qos Desktop to see the desktop."
     exit 0
 fi
 
@@ -49,7 +49,7 @@ step "Starting the desktop"
 termux-x11 "$DISPLAY_NUMBER" -xstartup "dbus-launch --exit-with-session xfce4-session" &
 server=$!
 sleep 2
-am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null
+am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null 2>&1 || echo "Open qos Desktop to see the desktop."
 echo "The desktop is open in qos Desktop. To stop it, log out from XFCE,"
 echo "use Exit in the qos Desktop notification, or press Ctrl+C here."
 wait "$server"

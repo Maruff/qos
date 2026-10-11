@@ -717,7 +717,8 @@ public final class TermuxService extends Service implements AppShell.AppShellCli
         // For android >= 10, apps require Display over other apps permission to start foreground activities
         // from background (services). If it is not granted, then TermuxSessions that are started will
         // show in Termux notification but will not run until user manually clicks the notification.
-        if (PermissionUtils.validateDisplayOverOtherAppsPermissionForPostAndroid10(this, true)) {
+        // qos: qos Desktop's Start button runs while its window, in qos's process, is in front.
+        if (PermissionUtils.isAppInForeground() || PermissionUtils.validateDisplayOverOtherAppsPermissionForPostAndroid10(this, true)) {
             TermuxActivity.startTermuxActivity(this);
         } else {
             TermuxAppSharedPreferences preferences = TermuxAppSharedPreferences.build(this);

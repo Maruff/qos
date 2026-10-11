@@ -216,8 +216,10 @@ public class AmSocketServer {
              ByteArrayOutputStream stderrByteStream = new ByteArrayOutputStream();
              PrintStream stderrPrintStream = new PrintStream(stderrByteStream)) {
 
+            // qos: not when a window of this app is in front; Android allows the start then.
             if (checkDisplayOverAppsPermission && amCommandArray.length >= 1 &&
                 (amCommandArray[0].equals("start") || amCommandArray[0].equals("startservice")) &&
+                !PermissionUtils.isAppInForeground() &&
                 !PermissionUtils.validateDisplayOverOtherAppsPermissionForPostAndroid10(context, true)) {
                 throw new IllegalStateException(context.getString(R.string.error_display_over_other_apps_permission_not_granted,
                     PackageUtils.getAppNameForPackage(context)));
