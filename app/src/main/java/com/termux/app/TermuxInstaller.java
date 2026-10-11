@@ -255,6 +255,16 @@ final class TermuxInstaller {
         copyAsset(context, "qos/qos-setup", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-setup", 0700);
         copyAsset(context, "qos/qos-desktop", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-desktop", 0700);
         copyAsset(context, "qos/qos-xsession", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-xsession", 0700);
+        copyAsset(context, "qos/wallpaper.jpg", TERMUX_PREFIX_DIR_PATH + "/share/backgrounds/qos/qos.jpg", 0644);
+        copyAsset(context, "qos/gtk-theme.css", TERMUX_PREFIX_DIR_PATH + "/share/themes/qos/gtk-3.0/gtk.css", 0644);
+        copyAsset(context, "qos/gtk-theme.index", TERMUX_PREFIX_DIR_PATH + "/share/themes/qos/index.theme", 0644);
+        copyAsset(context, "qos/qos-mark.png", TERMUX_PREFIX_DIR_PATH + "/share/pixmaps/qos.png", 0644);
+        // XFCE's About: the qos mark under the icon names its dialog and menu entry use, and the
+        // entry itself as "About qos". In the home folder, where they take precedence.
+        String home = TermuxConstants.TERMUX_HOME_DIR_PATH + "/.local/share";
+        copyAsset(context, "qos/qos-mark.png", home + "/icons/hicolor/256x256/apps/org.xfce.about.png", 0644);
+        copyAsset(context, "qos/qos-mark.png", home + "/icons/hicolor/256x256/apps/xfce4-logo.png", 0644);
+        copyAsset(context, "qos/xfce4-about.desktop", home + "/applications/xfce4-about.desktop", 0644);
         // qos's welcome text; a ~/.termux/motd.sh of your own is shown instead.
         copyAsset(context, "qos/motd", TERMUX_PREFIX_DIR_PATH + "/etc/motd", 0644);
         copyAsset(context, "qos/qos.sh", TERMUX_PREFIX_DIR_PATH + "/etc/profile.d/qos.sh", 0600);

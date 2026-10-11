@@ -1,0 +1,100 @@
+/* qos: GTK 3 theme. Adwaita's dark style, with qos's black and teal.
+ * Installed by qos as $PREFIX/share/themes/qos/gtk-3.0/gtk.css. Text stays
+ * light on dark everywhere; teal marks what is selected or active. */
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+
+@define-color qos_teal #10F3BE;
+@define-color qos_ink #00241B;
+@define-color qos_bg #0C1110;
+@define-color qos_surface #111816;
+@define-color qos_text #E9F1EF;
+
+/* The standard GTK colour names. The window manager and the panel colour title
+ * bars and their background from these rather than from widget rules. */
+@define-color theme_bg_color #0C1110;
+@define-color theme_fg_color #E9F1EF;
+@define-color theme_base_color #111816;
+@define-color theme_text_color #E9F1EF;
+@define-color theme_selected_bg_color #10F3BE;
+@define-color theme_selected_fg_color #00241B;
+@define-color theme_unfocused_bg_color #0C1110;
+@define-color theme_unfocused_fg_color #9CB1AC;
+@define-color theme_unfocused_selected_bg_color #0B9C7A;
+@define-color theme_unfocused_selected_fg_color #E9F1EF;
+@define-color insensitive_bg_color #0C1110;
+@define-color insensitive_fg_color #6F8A84;
+@define-color borders #1D2825;
+@define-color wm_title #E9F1EF;
+@define-color wm_unfocused_title #9CB1AC;
+@define-color wm_bg #000000;
+@define-color wm_border #1D2825;
+
+window, dialog, popover, menu, .menu, .context-menu {
+    background-color: @qos_bg;
+    color: @qos_text;
+}
+
+headerbar, .titlebar, menubar, toolbar, .toolbar {
+    background-color: #000000;
+    background-image: none;
+    border-color: #1D2825;
+    color: @qos_text;
+}
+
+entry, textview text, treeview.view, list, row {
+    background-color: @qos_surface;
+}
+
+*:selected, selection, *:selected:focus, row:selected, treeview.view:selected,
+menuitem:hover, menu menuitem:hover, .menu menuitem:hover {
+    background-color: @qos_teal;
+    color: @qos_ink;
+}
+
+button.suggested-action, button:checked, togglebutton:checked,
+switch:checked, scale highlight, progressbar progress, levelbar block.filled,
+checkbutton check:checked, radiobutton radio:checked,
+check:checked, radio:checked {
+    background-color: @qos_teal;
+    background-image: none;
+    border-color: @qos_teal;
+    color: @qos_ink;
+}
+
+entry:focus, button:focus, spinbutton:focus {
+    border-color: @qos_teal;
+    box-shadow: inset 0 0 0 1px @qos_teal;
+}
+
+link, *:link, label link {
+    color: @qos_teal;
+}
+
+/* The panel: solid black, light text. */
+.xfce4-panel.background, .xfce4-panel.background button {
+    background-color: #000000;
+    background-image: none;
+    color: @qos_text;
+}
+
+/* Desktop icons (xfdesktop) sit on the wallpaper, not on a window: their view
+ * stays transparent, and each label is light text on a dark, rounded backing
+ * so it reads on any picture. */
+XfdesktopIconView.view {
+    background-color: transparent;
+    color: #FFFFFF;
+}
+XfdesktopIconView.view.label {
+    background-color: rgba(0, 0, 0, 0.55);
+    color: #FFFFFF;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+XfdesktopIconView.view.label:selected, XfdesktopIconView.view:selected {
+    background-color: @qos_teal;
+    color: @qos_ink;
+    text-shadow: none;
+}
+XfdesktopIconView.view.rubberband {
+    background-color: alpha(@qos_teal, 0.25);
+    border: 1px solid @qos_teal;
+}

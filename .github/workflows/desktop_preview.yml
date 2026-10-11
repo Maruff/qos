@@ -1,0 +1,42 @@
+name: Desktop preview
+
+# Screenshots of qos Desktop's XFCE session, rendered with Termux's own
+# packages, so a change to the desktop's look is seen before it ships.
+
+on:
+  push:
+    branches: [desktop-theme, 'preview/**']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: phone
+            size: 2400x1080
+            scale: 2
+          - name: tablet
+            size: 1920x1200
+            scale: 1
+    steps:
+      - uses: actions/checkout@v4
+      - name: Render in Termux
+        run: |
+          mkdir -p out && chmod 777 out
+          docker run --rm --privileged -v "$PWD:/work:ro" -v "$PWD/out:/out" \
+            termux/termux-docker:x86_64 bash /work/tools/desktop-preview.sh "${{ matrix.size }}" "${{ matrix.scale }}"
+      - name: Convert screenshots
+        run: |
+          sudo apt-get install -y imagemagick > /dev/null
+          for f in out/*.xwd; do convert "$f" "${f%.xwd}.png" && rm "$f"; done
+          ls -la out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: desktop-${{ matrix.name }}
+          path: out

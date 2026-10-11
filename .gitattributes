@@ -6,3 +6,4 @@
 # qos: shell scripts copied onto the device must keep LF line endings.
 app/src/main/assets/qos/* text eol=lf
 app/src/main/assets/qos/*.png binary
+app/src/main/assets/qos/*.jpg binary
