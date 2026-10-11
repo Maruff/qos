@@ -6,6 +6,20 @@
 
 set -euo pipefail
 
+# Keep a record of every run: the first attempt is the one that matters, and
+# its session, and with it its output, is gone once it ends. Everything shown,
+# the X server's messages included, also goes to the log, and the line-by-line
+# trace goes only there. The run before is kept beside it. Read them with:
+#   cat ~/.qos/qos-desktop.log ~/.qos/qos-desktop.log.previous
+mkdir -p "$HOME/.qos"
+LOG="$HOME/.qos/qos-desktop.log"
+[ -f "$LOG" ] && mv -f "$LOG" "$LOG.previous"
+exec > >(tee -a "$LOG") 2>&1
+exec 3>> "$LOG"
+BASH_XTRACEFD=3
+PS4='+ [$(date +%H:%M:%S)] '
+set -x
+
 RELEASE="https://github.com/Maruff/qos-desktop/releases/latest/download"
 DISPLAY_NUMBER=":1"
 
