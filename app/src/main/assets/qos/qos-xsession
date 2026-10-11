@@ -1,14 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# qos-xsession: the XFCE session qos Desktop shows, with qos's look.
+# qos-xsession: the XFCE session qos Desktop shows.
 #
-# qos's defaults are applied once each: after that anything changed in XFCE's
-# own settings stays changed. Delete the marker in ~/.qos to have one applied
-# again: desktop-defaults for scaling, desktop-look-2 for the theme, wallpaper
-# and terminal colours.
+# It sets the desktop's language and, once, its scaling; after that anything
+# changed in XFCE's own settings stays changed. Delete ~/.qos/desktop-defaults
+# to have the scaling applied again.
 
 SCALING_MARKER="$HOME/.qos/desktop-defaults"
-LOOK_MARKER="$HOME/.qos/desktop-look-2"
-WALLPAPER="$PREFIX/share/backgrounds/qos/qos.png"
+RESET_MARKER="$HOME/.qos/desktop-reset-1"
 
 mkdir -p "$HOME/.qos"
 
@@ -35,57 +33,34 @@ if [ ! -f "$SCALING_MARKER" ]; then
     date > "$SCALING_MARKER"
 fi
 
-# The qos look: the qos GTK theme (in $PREFIX/share/themes/qos, also listed in
-# Settings > Appearance), the qos wallpaper and qos terminal colours.
-if [ ! -f "$LOOK_MARKER" ]; then
-    xfconf-query -c xsettings -p /Net/ThemeName -n -t string -s "qos"
-    xfconf-query -c xsettings -p /Net/IconThemeName -n -t string -s "Adwaita"
-
-    # xfdesktop names its settings after the display: Termux:X11's is "screen".
-    # monitor0 is what older xfdesktop versions use.
-    for monitor in monitorscreen monitor0; do
-        base="/backdrop/screen0/$monitor/workspace0"
-        xfconf-query -c xfce4-desktop -p "$base/last-image" -n -t string -s "$WALLPAPER"
-        xfconf-query -c xfce4-desktop -p "$base/image-style" -n -t int -s 5
+# XFCE's own look, back. qos 0.3 to 0.5 set a qos theme, wallpaper, terminal
+# colours, panel colours and About icons that made text unreadable; they are
+# being redesigned. Undo every one of them, once.
+if [ ! -f "$RESET_MARKER" ]; then
+    xfconf-query -c xsettings -p /Net/ThemeName -r 2>/dev/null
+    xfconf-query -c xsettings -p /Net/IconThemeName -r 2>/dev/null
+    xfconf-query -c xfce4-desktop -p /backdrop -r -R 2>/dev/null
+    for p in /color-use-theme /color-background /color-foreground /color-cursor; do
+        xfconf-query -c xfce4-terminal -p "$p" -r 2>/dev/null
     done
-
-    xfconf-query -c xfce4-terminal -p /color-use-theme -n -t bool -s false
-    xfconf-query -c xfce4-terminal -p /color-background -n -t string -s "#000000"
-    xfconf-query -c xfce4-terminal -p /color-foreground -n -t string -s "#E9F1EF"
-    xfconf-query -c xfce4-terminal -p /color-cursor -n -t string -s "#10F3BE"
-
-    date > "$LOOK_MARKER"
-fi
-
-# qos on the panel: the Applications menu button shows the qos mark and "qos",
-# and every panel is solid black. The panel writes its layout on its first
-# start, so wait for it, then find the menu button by type, not by number.
-BRAND_MARKER="$HOME/.qos/desktop-brand-2"
-brand_panel() {
-    local id kind panel found=0
-    for _ in $(seq 1 60); do
-        for id in $(xfconf-query -c xfce4-panel -l 2>/dev/null | grep -E '^/plugins/plugin-[0-9]+$'); do
-            kind="$(xfconf-query -c xfce4-panel -p "$id" 2>/dev/null)"
-            case "$kind" in
-                applicationsmenu|whiskermenu)
-                    xfconf-query -c xfce4-panel -p "$id/button-icon" -n -t string -s "$PREFIX/share/pixmaps/qos.png"
-                    xfconf-query -c xfce4-panel -p "$id/button-title" -n -t string -s "qos"
-                    xfconf-query -c xfce4-panel -p "$id/show-button-title" -n -t bool -s true
-                    found=1
-                    ;;
-            esac
-        done
-        if [ "$found" = 1 ]; then
-            for panel in $(xfconf-query -c xfce4-panel -l 2>/dev/null | grep -oE '^/panels/panel-[0-9]+' | sort -u); do
-                xfconf-query -c xfce4-panel -p "$panel/background-style" -n -t int -s 1
-                xfconf-query -c xfce4-panel -p "$panel/background-rgba" -n                     -t double -s 0 -t double -s 0 -t double -s 0 -t double -s 1
+    for id in $(xfconf-query -c xfce4-panel -l 2>/dev/null | grep -E '^/plugins/plugin-[0-9]+$'); do
+        if [ "$(xfconf-query -c xfce4-panel -p "$id/button-icon" 2>/dev/null)" = "$PREFIX/share/pixmaps/qos.png" ]; then
+            for p in button-icon button-title show-button-title; do
+                xfconf-query -c xfce4-panel -p "$id/$p" -r 2>/dev/null
             done
-            date > "$BRAND_MARKER"
-            return
         fi
-        sleep 1
     done
-}
-[ -f "$BRAND_MARKER" ] || brand_panel &
+    for panel in $(xfconf-query -c xfce4-panel -l 2>/dev/null | grep -oE '^/panels/panel-[0-9]+' | sort -u); do
+        xfconf-query -c xfce4-panel -p "$panel/background-style" -r 2>/dev/null
+        xfconf-query -c xfce4-panel -p "$panel/background-rgba" -r 2>/dev/null
+    done
+    rm -rf "$PREFIX/share/themes/qos" "$PREFIX/share/backgrounds/qos"
+    rm -f "$PREFIX/share/pixmaps/qos.png" \
+        "$HOME/.local/share/icons/hicolor/256x256/apps/org.xfce.about.png" \
+        "$HOME/.local/share/icons/hicolor/256x256/apps/xfce4-logo.png" \
+        "$HOME/.local/share/applications/xfce4-about.desktop" \
+        "$HOME/.qos/desktop-look-2" "$HOME/.qos/desktop-brand-1" "$HOME/.qos/desktop-brand-2"
+    date > "$RESET_MARKER"
+fi
 
 exec xfce4-session
