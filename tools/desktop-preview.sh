@@ -102,6 +102,9 @@ xfconf-query -c xsettings -p /Gdk/WindowScalingFactor -n -t int -s $SCALE
 date > "\$HOME/.qos/desktop-defaults"
 
 qos-xsession > "$OUT/session.log" 2>&1 &
+# Programs started from the menu and panel inherit the session's library; those
+# this script starts get the same, as qos-xsession sets it.
+[ "$LANGUAGE_SETTING" = ta ] && export LANGUAGE=ta LANG=ta_IN.UTF-8 LD_PRELOAD="\$PREFIX/lib/libqosintl.so"
 sleep 45
 shot() { cp "$FB/Xvfb_screen0" "$OUT/\$1.xwd"; }
 shot 1-desktop
