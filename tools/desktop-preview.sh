@@ -18,6 +18,10 @@ pkg install -y xfce4 xfce4-terminal dbus
 pkg install -y xorg-xrandr
 dpkg -l | awk '/^ii/ {print $2, $3}' > "$OUT/packages.txt"
 pkg install -y xorg-server-xvfb xdotool
+# A package mirror can fail mid-install; then there is nothing to render.
+for tool in xfce4-session Xvfb xdotool; do
+    command -v "$tool" > /dev/null || { echo "$tool did not install" >&2; exit 1; }
+done
 command -v xfdesktop >/dev/null || { echo "xfdesktop is not part of xfce4's install" >> "$OUT/notes.txt"; pkg install -y xfdesktop; }
 
 # The files qos copies at start (TermuxInstaller.installQosFiles).
