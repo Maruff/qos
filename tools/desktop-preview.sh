@@ -87,6 +87,8 @@ shot() { cp "$FB/Xvfb_screen0" "$OUT/\$1.xwd"; }
 shot 1-desktop
 
 xfce4-popup-applicationsmenu; sleep 4; shot 2-menu
+# Hover over Android, the eighth row of the menu, to open its submenu.
+xdotool mousemove $((75 * $SCALE)) $((196 * $SCALE)); sleep 3; shot 5-android
 xdotool key Escape; sleep 1
 
 thunar "\$HOME" > /dev/null 2>&1 &
