@@ -8,6 +8,7 @@
 SCALING_MARKER="$HOME/.qos/desktop-defaults"
 LOOK_MARKER="$HOME/.qos/desktop-look-3"
 BRAND_MARKER="$HOME/.qos/desktop-brand-3"
+WALLPAPER_MARKER="$HOME/.qos/desktop-wallpaper-1"
 WALLPAPER="$PREFIX/share/backgrounds/qos/qos.jpg"
 
 mkdir -p "$HOME/.qos"
@@ -35,27 +36,12 @@ if [ ! -f "$SCALING_MARKER" ]; then
     date > "$SCALING_MARKER"
 fi
 
-# The qos look, once (marker desktop-look-3): the qos GTK theme, the qos
-# wallpaper, readable desktop-icon labels and qos terminal colours. Icons stay
+# The qos look, once (marker desktop-look-3): the qos GTK theme, readable
+# desktop-icon labels and qos terminal colours. Icons stay
 # XFCE's own. Delete ~/.qos/desktop-look-3 to have it applied again.
 if [ ! -f "$LOOK_MARKER" ]; then
     xfconf-query -c xsettings -p /Net/ThemeName -n -t string -s "qos"
     xfconf-query -c xsettings -p /Net/IconThemeName -r 2>/dev/null
-
-    # The wallpaper. xfdesktop keys it by the display's connector name, which
-    # qos cannot know before X starts; a wrong name is silently ignored, which
-    # is why the qos wallpaper never showed before. So clear every backdrop
-    # setting, write the old numbered form (monitor0), and ask xfdesktop to run
-    # its settings migration again: it renames monitor0 to the real display.
-    xfconf-query -c xfce4-desktop -p /backdrop -r -R 2>/dev/null
-    legacy=/backdrop/screen0/monitor0
-    xfconf-query -c xfce4-desktop -p "$legacy/image-path" -n -t string -s "$WALLPAPER"
-    xfconf-query -c xfce4-desktop -p "$legacy/last-image" -n -t string -s "$WALLPAPER"
-    xfconf-query -c xfce4-desktop -p "$legacy/image-style" -n -t int -s 5
-    xfconf-query -c xfce4-desktop -p "$legacy/color-style" -n -t int -s 0
-    xfconf-query -c xfce4-desktop -p "$legacy/rgba1" -n \
-        -t double -s 0.024 -t double -s 0.063 -t double -s 0.055 -t double -s 1
-    xfconf-query -c xfce4-desktop -p /last-settings-migration-version -r 2>/dev/null
 
     # Desktop-icon labels: white on a dark backing, whatever the wallpaper.
     xfconf-query -c xfce4-desktop -p /desktop-icons/use-custom-label-text-color -n -t bool -s true
@@ -71,6 +57,25 @@ if [ ! -f "$LOOK_MARKER" ]; then
     xfconf-query -c xfce4-terminal -p /color-cursor -n -t string -s "#10F3BE"
 
     date > "$LOOK_MARKER"
+fi
+
+# The qos wallpaper, once (marker desktop-wallpaper-1). xfdesktop keys it by
+# the display's name as X reports it, and ignores a wrong name without a word,
+# which is why the wallpaper never showed before; xrandr (installed by
+# qos-desktop) gives the real one. Without a name nothing is marked done, so
+# the next start tries again.
+display_name="$(xrandr --query 2>/dev/null | awk '/ connected/ {print $1; exit}')"
+if [ ! -f "$WALLPAPER_MARKER" ] && [ -n "$display_name" ]; then
+    xfconf-query -c xfce4-desktop -p /backdrop -r -R 2>/dev/null
+    for ws in 0 1 2 3; do
+        base="/backdrop/screen0/monitor$display_name/workspace$ws"
+        xfconf-query -c xfce4-desktop -p "$base/last-image" -n -t string -s "$WALLPAPER"
+        xfconf-query -c xfce4-desktop -p "$base/image-style" -n -t int -s 5
+        xfconf-query -c xfce4-desktop -p "$base/color-style" -n -t int -s 0
+        xfconf-query -c xfce4-desktop -p "$base/rgba1" -n \
+            -t double -s 0.024 -t double -s 0.063 -t double -s 0.055 -t double -s 1
+    done
+    date > "$WALLPAPER_MARKER"
 fi
 
 # qos on the panel: the Applications menu button shows the qos mark and "qos".

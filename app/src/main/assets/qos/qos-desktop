@@ -17,6 +17,9 @@ if ! command -v xfce4-session >/dev/null; then
     pkg install -y xfce4 xfce4-terminal dbus
 fi
 
+# xrandr names the display, so qos-xsession can set the wallpaper for it.
+command -v xrandr >/dev/null || pkg install -y xorg-xrandr
+
 if ! command -v termux-x11 >/dev/null; then
     echo "Installing qos-x11"
     work="$(mktemp -d)"

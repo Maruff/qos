@@ -14,6 +14,7 @@ OUT=/out
 pkg install -y x11-repo
 pkg update -y
 pkg install -y xfce4 xfce4-terminal dbus
+pkg install -y xorg-xrandr
 dpkg -l | awk '/^ii/ {print $2, $3}' > "$OUT/packages.txt"
 pkg install -y xorg-server-xvfb xdotool
 command -v xfdesktop >/dev/null || { echo "xfdesktop is not part of xfce4's install" >> "$OUT/notes.txt"; pkg install -y xfdesktop; }
@@ -56,6 +57,7 @@ sleep 6; shot 3-windows
 xfce4-about > /dev/null 2>&1 &
 sleep 5; shot 4-about
 
+xrandr --query > "$OUT/xrandr.txt" 2>&1
 for c in xsettings xfce4-desktop xfce4-panel xfwm4; do
     echo "== \$c"; xfconf-query -c \$c -l -v
 done > "$OUT/xfconf.txt" 2>&1
