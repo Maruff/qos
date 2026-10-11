@@ -37,6 +37,9 @@ msgstr "வெளியேறு"
 msgid "_Quit"
 msgstr "விலகு (_Q)"
 
+msgid "Log out %s"
+msgstr "%s — வெளியேறு"
+
 msgid "_Log Out"
 msgstr "வெளியேறு (_L)"
 

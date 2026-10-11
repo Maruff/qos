@@ -62,6 +62,9 @@ static const char *current_language(void) {
 
 static const struct catalogue *find_catalogue(const char *domain) {
     const char *lang = current_language();
+    /* No domain means the program's own, as textdomain() set it; XFCE's programs
+     * name theirs after themselves (thunar, xfce4-terminal and the rest). */
+    if (domain == NULL) domain = getprogname();
     if (domain == NULL || *lang == '\0' || strlen(domain) >= sizeof catalogues[0].domain) return NULL;
 
     pthread_mutex_lock(&lock);
