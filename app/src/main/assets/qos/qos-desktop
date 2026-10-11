@@ -1,88 +1,39 @@
 #!/data/data/com.termux/files/usr/bin/bash
-# qos-desktop: open the XFCE desktop on the qos Desktop display.
+# qos-desktop: open the XFCE desktop on qos Desktop.
 #
-# The first run installs XFCE (about 100 MB to download) and qos-x11, the
-# termux-x11 command whose loader trusts the qos key. Every step is safe to repeat.
+# The first run installs XFCE (about 100 MB) and qos-x11, the termux-x11
+# command that works with qos Desktop. Every run then starts a fresh X server
+# with an XFCE session; one left from before is stopped first, so nothing from
+# an earlier run can get in the way.
 
-set -euo pipefail
-
-# Keep a record of every run: the first attempt is the one that matters, and
-# its session, and with it its output, is gone once it ends. Everything shown,
-# the X server's messages included, also goes to the log, and the line-by-line
-# trace goes only there. The run before is kept beside it. Read them with:
-#   cat ~/.qos/qos-desktop.log ~/.qos/qos-desktop.log.previous
-mkdir -p "$HOME/.qos"
-LOG="$HOME/.qos/qos-desktop.log"
-[ -f "$LOG" ] && mv -f "$LOG" "$LOG.previous"
-exec > >(tee -a "$LOG") 2>&1
-exec 3>> "$LOG"
-BASH_XTRACEFD=3
-PS4='+ [$(date +%H:%M:%S)] '
-set -x
+set -eu
 
 RELEASE="https://github.com/Maruff/qos-desktop/releases/latest/download"
-DISPLAY_NUMBER=":1"
-
-step() { printf '\n\033[1;34m==> %s\033[0m\n' "$1"; }
-
-# Is qos Desktop installed? Not `pm list packages`: run from inside an app, pm
-# fails on many phones ("Failure calling service package: Failed
-# transaction"). qos Desktop shares qos's Android user, so qos can see the data
-# folder Android creates for it on install.
-if [ ! -d /data/data/com.termux.x11 ]; then
-    echo "qos Desktop is not installed."
-    echo "Install it from the qos F-Droid repository (https://qos.ae), or download"
-    echo "qos-desktop.apk from https://github.com/Maruff/qos-desktop/releases/latest"
-    exit 1
-fi
 
 if ! command -v xfce4-session >/dev/null; then
-    step "Installing the XFCE desktop (first time only)"
+    echo "Installing the XFCE desktop (first time only)"
     pkg install -y x11-repo
     pkg update -y
     pkg install -y xfce4 xfce4-terminal dbus
 fi
 
-if ! dpkg -s qos-x11 >/dev/null 2>&1; then
-    step "Installing qos-x11"
+if ! command -v termux-x11 >/dev/null; then
+    echo "Installing qos-x11"
     work="$(mktemp -d)"
-    trap 'rm -rf "$work"' EXIT
     curl -fsSL -o "$work/qos-x11.deb" "$RELEASE/qos-x11.deb"
     curl -fsSL -o "$work/sha256sums.txt" "$RELEASE/sha256sums.txt"
     (cd "$work" && grep ' qos-x11.deb$' sha256sums.txt | sha256sum -c -)
     apt install -y "$work/qos-x11.deb"
+    rm -rf "$work"
 fi
 
-# A socket alone does not mean a server: one that was stopped leaves its socket and
-# lock file behind. termux-x11 names its process "termux-x11 com.termux.x11 :1 ...",
-# and qos can see its own processes in /proc.
-server_running() {
-    local cmdline
-    for f in /proc/[0-9]*/cmdline; do
-        cmdline="$(tr '\0' ' ' < "$f" 2>/dev/null)" || continue
-        case "$cmdline" in
-            "termux-x11 com.termux.x11 $DISPLAY_NUMBER"*) return 0 ;;
-        esac
-    done
-    return 1
-}
+# A fresh start: stop a desktop from before, and clear what it left behind.
+pkill -f termux-x11 2>/dev/null || true
+rm -f "$PREFIX/tmp/.X11-unix/X1" "$PREFIX/tmp/.X1-lock"
 
-X_TMP="${TMPDIR:-$PREFIX/tmp}"
-if [ -S "$X_TMP/.X11-unix/X${DISPLAY_NUMBER#:}" ] && ! server_running; then
-    rm -f "$X_TMP/.X11-unix/X${DISPLAY_NUMBER#:}" "$X_TMP/.X${DISPLAY_NUMBER#:}-lock"
-fi
+# Bring qos Desktop forward once the server is up. That needs qos to have the
+# "Display over other apps" permission; without it, open qos Desktop yourself.
+(sleep 3; am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null 2>&1 || true) &
 
-if server_running; then
-    step "The desktop is already running"
-    am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null 2>&1 || echo "Open qos Desktop to see the desktop."
-    exit 0
-fi
-
-step "Starting the desktop"
-termux-x11 "$DISPLAY_NUMBER" -xstartup "dbus-launch --exit-with-session xfce4-session" &
-server=$!
-sleep 2
-am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null 2>&1 || echo "Open qos Desktop to see the desktop."
-echo "The desktop is open in qos Desktop. To stop it, log out from XFCE,"
-echo "use Exit in the qos Desktop notification, or press Ctrl+C here."
-wait "$server"
+echo "Starting the desktop. If qos Desktop does not come up by itself, open it."
+exec termux-x11 :1 -xstartup "dbus-launch --exit-with-session xfce4-session"

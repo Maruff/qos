@@ -498,18 +498,6 @@ public class PermissionUtils {
      * @param logResults If it should be logged that permission has been granted or not.
      * @return Returns {@code true} if permission is granted, otherwise {@code false}.
      */
-    /**
-     * qos: whether this process has a window in the foreground. Android lets an app start an
-     * activity then without the Display over other apps permission, so a check for that permission
-     * is only needed when this returns {@code false}. qos Desktop shares qos's process, so its
-     * window counts too.
-     */
-    public static boolean isAppInForeground() {
-        android.app.ActivityManager.RunningAppProcessInfo info = new android.app.ActivityManager.RunningAppProcessInfo();
-        android.app.ActivityManager.getMyMemoryState(info);
-        return info.importance == android.app.ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND;
-    }
-
     public static boolean validateDisplayOverOtherAppsPermissionForPostAndroid10(@NonNull Context context,
                                                                                  boolean logResults) {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.Q) return true;
