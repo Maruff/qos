@@ -21,6 +21,7 @@ command -v xfdesktop >/dev/null || { echo "xfdesktop is not part of xfce4's inst
 
 # The files qos copies at start (TermuxInstaller.installQosFiles).
 install -D -m 700 "$ASSETS/qos-xsession" "$PREFIX/bin/qos-xsession"
+install -D -m 700 "$ASSETS/qos-open" "$PREFIX/bin/qos-open"
 install -D -m 644 "$ASSETS/wallpaper.jpg" "$PREFIX/share/backgrounds/qos/qos.jpg"
 install -D -m 644 "$ASSETS/gtk-theme.css" "$PREFIX/share/themes/qos/gtk-3.0/gtk.css"
 install -D -m 644 "$ASSETS/gtk-theme.index" "$PREFIX/share/themes/qos/index.theme"
@@ -62,6 +63,10 @@ NoDisplay=false
 Categories=X-Qos-Android;
 '         "${app%%:*}" "${app#*:}" "$PREFIX/share/pixmaps/qos.png" > "$HOME/.local/share/applications/qos-android-${app#*:}.desktop"
 done
+
+{ ls -laR "$HOME/.config/menus" "$HOME/.local/share/desktop-directories"; ls -la "$HOME/.local/share/applications"
+  cat "$HOME/.config/menus/applications-merged/qos-android.menu" "$HOME/.local/share/applications/qos-android-com.android.chrome.desktop"
+  ls "$PREFIX/etc/xdg/menus" 2>&1; env | grep -E '^XDG' ; } > "$OUT/menu-files.txt" 2>&1
 
 FB="$TMPDIR/fb"
 mkdir -p "$FB"
