@@ -109,6 +109,12 @@
         </service>
 
         <activity
+            android:name=".app.activities.AppsActivity"
+            android:exported="false"
+            android:label="@string/apps_title"
+            android:parentActivityName=".app.TermuxActivity" />
+
+        <activity
             android:name=".app.activities.PackagesActivity"
             android:exported="false"
             android:label="@string/packages_title"
@@ -204,6 +210,10 @@
 
         <receiver
             android:name=".app.TermuxOpenReceiver"
+            android:exported="false" />
+
+        <receiver
+            android:name=".app.QosAppReceiver"
             android:exported="false" />
 
         <receiver

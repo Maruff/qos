@@ -39,6 +39,7 @@ import com.termux.shared.android.PermissionUtils;
 import com.termux.shared.data.DataUtils;
 import com.termux.shared.termux.TermuxConstants;
 import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
+import com.termux.app.activities.AppsActivity;
 import com.termux.app.activities.HelpActivity;
 import com.termux.app.activities.CodeActivity;
 import com.termux.app.activities.PackagesActivity;
@@ -257,6 +258,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
             startActivityForResult(new Intent(this, PackagesActivity.class), REQUEST_QOS_PACKAGES);
             getDrawer().closeDrawers();
         });
+        findViewById(R.id.apps_button).setOnClickListener(v -> startActivity(new Intent(this, AppsActivity.class)));
 
         setToggleKeyboardView();
 

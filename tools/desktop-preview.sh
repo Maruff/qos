@@ -29,6 +29,40 @@ install -D -m 644 "$ASSETS/qos-mark.png" "$HOME/.local/share/icons/hicolor/256x2
 install -D -m 644 "$ASSETS/qos-mark.png" "$HOME/.local/share/icons/hicolor/256x256/apps/xfce4-logo.png"
 install -D -m 644 "$ASSETS/xfce4-about.desktop" "$HOME/.local/share/applications/xfce4-about.desktop"
 
+# The Android menu as qos writes it (QosApps.syncDesktopMenu), for three
+# sample apps; the container has no Android apps of its own.
+install -D -m 644 /dev/stdin "$HOME/.config/menus/applications-merged/qos-android.menu" <<'MENU'
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+  "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+<Menu>
+  <Name>Xfce</Name>
+  <Menu>
+    <Name>Android</Name>
+    <Directory>qos-android.directory</Directory>
+    <Include><Category>X-Qos-Android</Category></Include>
+  </Menu>
+</Menu>
+MENU
+printf '[Desktop Entry]
+Version=1.0
+Type=Directory
+Name=Android
+Name[ta]=ஆண்ட்ராய்டு
+Icon=%s
+'     "$PREFIX/share/pixmaps/qos.png" | install -D -m 644 /dev/stdin "$HOME/.local/share/desktop-directories/qos-android.directory"
+for app in "Camera:com.android.camera2" "Chrome:com.android.chrome" "Files:com.google.android.documentsui"; do
+    printf '[Desktop Entry]
+Version=1.0
+Type=Application
+Name=%s
+Exec=qos-open %s
+Icon=%s
+Terminal=false
+NoDisplay=false
+Categories=X-Qos-Android;
+'         "${app%%:*}" "${app#*:}" "$PREFIX/share/pixmaps/qos.png" > "$HOME/.local/share/applications/qos-android-${app#*:}.desktop"
+done
+
 FB="$TMPDIR/fb"
 mkdir -p "$FB"
 Xvfb :1 -screen 0 "${SIZE}x24" -fbdir "$FB" -nolisten tcp > "$OUT/xvfb.log" 2>&1 &
@@ -47,7 +81,8 @@ sleep 45
 shot() { cp "$FB/Xvfb_screen0" "$OUT/\$1.xwd"; }
 shot 1-desktop
 
-xfce4-popup-applicationsmenu; sleep 4; shot 2-menu; xdotool key Escape; sleep 1
+xfce4-popup-applicationsmenu; sleep 4; shot 2-menu
+xdotool key Escape; sleep 1
 
 thunar "\$HOME" > /dev/null 2>&1 &
 sleep 6

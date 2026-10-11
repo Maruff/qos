@@ -77,6 +77,11 @@
     <string name="kit_security_desc">For learning and defending your own systems: nmap, encryption, VPN, malware scanning and app analysis.</string>
     <string name="kit_ai">Local AI</string>
     <string name="kit_ai_desc">llama.cpp and Ollama to run open models on the phone, and NumPy, SciPy and ONNX Runtime.</string>
+    <!-- qos: the Apps screen, and opening Android apps from qos Desktop. -->
+    <string name="action_open_apps">Apps</string>
+    <string name="apps_title">Android apps</string>
+    <string name="apps_search">Search apps</string>
+    <string name="apps_not_found">No app to open for %1$s</string>
     <!-- qos: the app's language, and the VS Code screen. -->
     <string name="qos_language_title">Language / மொழி</string>
     <string name="qos_language_system">Phone\'s language</string>

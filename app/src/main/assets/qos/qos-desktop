@@ -30,6 +30,10 @@ if ! command -v termux-x11 >/dev/null; then
     rm -rf "$work"
 fi
 
+# The Android menu: qos writes an entry for each app on the phone, so an app
+# installed or removed since last time shows as it is now.
+am broadcast -n com.termux/com.termux.app.QosAppReceiver -a com.termux.qos.SYNC_APPS >/dev/null 2>&1 || true
+
 # A fresh start: stop a desktop from before, and clear what it left behind.
 pkill -f termux-x11 2>/dev/null || true
 rm -f "$PREFIX/tmp/.X11-unix/X1" "$PREFIX/tmp/.X1-lock"

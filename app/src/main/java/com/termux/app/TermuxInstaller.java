@@ -255,6 +255,7 @@ final class TermuxInstaller {
         copyAsset(context, "qos/qos-setup", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-setup", 0700);
         copyAsset(context, "qos/qos-desktop", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-desktop", 0700);
         copyAsset(context, "qos/qos-xsession", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-xsession", 0700);
+        copyAsset(context, "qos/qos-open", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-open", 0700);
         copyAsset(context, "qos/wallpaper.jpg", TERMUX_PREFIX_DIR_PATH + "/share/backgrounds/qos/qos.jpg", 0644);
         copyAsset(context, "qos/gtk-theme.css", TERMUX_PREFIX_DIR_PATH + "/share/themes/qos/gtk-3.0/gtk.css", 0644);
         copyAsset(context, "qos/gtk-theme.index", TERMUX_PREFIX_DIR_PATH + "/share/themes/qos/index.theme", 0644);
