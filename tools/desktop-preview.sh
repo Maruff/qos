@@ -76,6 +76,10 @@ mkdir -p "$HOME/.qos"
 # Tamil experiment: does a translation reach XFCE, by .mo file or by Name[ta]?
 if [ "$LANGUAGE_SETTING" = ta ]; then
     pkg install -y gettext
+    # libqosintl, built here for the container's x86_64; the APK carries it per ABI.
+    pkg install -y clang
+    clang -shared -fPIC -O2 -o "$PREFIX/lib/libqosintl.so" /work/app/src/main/cpp/qos-intl/qosintl.c >> "$OUT/intl.txt" 2>&1
+    ls -la "$PREFIX/lib/libqosintl.so" >> "$OUT/intl.txt" 2>&1
     # Android's own Noto Sans Tamil (in /system/fonts on a phone) is not in the
     # container: put it where fontconfig looks, for the preview only.
     mkdir -p "$PREFIX/share/fonts/noto"

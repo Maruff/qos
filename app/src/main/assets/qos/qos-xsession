@@ -23,6 +23,12 @@ case "$language" in
     *)   export LANGUAGE=en LANG=en_US.UTF-8 ;;
 esac
 
+# Termux's glib has no translations of its own; libqosintl reads qos's Tamil
+# catalogues in $PREFIX/share/locale for every program on the desktop.
+if [ "$LANGUAGE" = ta ] && [ -f "$PREFIX/lib/libqosintl.so" ]; then
+    export LD_PRELOAD="${LD_PRELOAD:+$LD_PRELOAD:}$PREFIX/lib/libqosintl.so"
+fi
+
 # Window scaling from the screen's density: phones (about 400 dpi and up) get
 # everything twice the size, tablets stay at 1.
 if [ ! -f "$SCALING_MARKER" ]; then
