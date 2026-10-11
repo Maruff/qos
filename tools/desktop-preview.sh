@@ -76,6 +76,12 @@ mkdir -p "$HOME/.qos"
 # Tamil experiment: does a translation reach XFCE, by .mo file or by Name[ta]?
 if [ "$LANGUAGE_SETTING" = ta ]; then
     pkg install -y gettext
+    # Android's own Noto Sans Tamil (in /system/fonts on a phone) is not in the
+    # container: put it where fontconfig looks, for the preview only.
+    mkdir -p "$PREFIX/share/fonts/noto"
+    curl -fsSL -o "$PREFIX/share/fonts/noto/NotoSansTamil-Regular.ttf" \
+        https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSansTamil/hinted/ttf/NotoSansTamil-Regular.ttf
+    fc-cache -f > /dev/null 2>&1
     python - "$PREFIX" > "$OUT/intl.txt" 2>&1 <<'PY'
 import os, sys
 prefix = sys.argv[1]
@@ -88,7 +94,8 @@ for f in ["bin/xfdesktop", "bin/xfce4-panel", "lib/libglib-2.0.so", "lib/libxfce
 PY
     ls -la "$PREFIX/lib" | grep -i intl >> "$OUT/intl.txt" 2>&1
     mkdir -p "$PREFIX/share/locale/ta/LC_MESSAGES"
-    printf 'msgid ""
+    cat > "$TMPDIR/xfdesktop-ta.po" <<'PO'
+msgid ""
 msgstr "Content-Type: text/plain; charset=UTF-8\n"
 
 msgid "Home"
@@ -99,13 +106,14 @@ msgstr "கோப்பு முறைமை"
 
 msgid "Trash"
 msgstr "குப்பைத் தொட்டி"
-' > "$TMPDIR/xfdesktop-ta.po"
+PO
     msgfmt -o "$PREFIX/share/locale/ta/LC_MESSAGES/xfdesktop.mo" "$TMPDIR/xfdesktop-ta.po" >> "$OUT/intl.txt" 2>&1
-    sed 's/^Name=.*/&
-Name[ta]=முனையம்/' "$PREFIX/share/applications/xfce4-terminal-emulator.desktop" > "$HOME/.local/share/applications/xfce4-terminal-emulator.desktop"
+    add_tamil_name() { awk -v ta="$2" '{print} /^Name=/ && !done {print "Name[ta]=" ta; done=1}' "$1"; }
+    add_tamil_name "$PREFIX/share/applications/xfce4-terminal-emulator.desktop" "முனையம்" \
+        > "$HOME/.local/share/applications/xfce4-terminal-emulator.desktop"
     mkdir -p "$HOME/.local/share/desktop-directories"
-    sed 's/^Name=.*/&
-Name[ta]=அமைப்புகள்/' "$PREFIX/share/desktop-directories/xfce-settings.directory" > "$HOME/.local/share/desktop-directories/xfce-settings.directory"
+    add_tamil_name "$PREFIX/share/desktop-directories/xfce-settings.directory" "அமைப்புகள்" \
+        > "$HOME/.local/share/desktop-directories/xfce-settings.directory"
     grep -n 'Name' "$HOME/.local/share/applications/xfce4-terminal-emulator.desktop" >> "$OUT/intl.txt"
 fi
 
