@@ -39,7 +39,26 @@ if ! dpkg -s qos-x11 >/dev/null 2>&1; then
     apt install -y "$work/qos-x11.deb"
 fi
 
-if [ -S "${TMPDIR:-$PREFIX/tmp}/.X11-unix/X${DISPLAY_NUMBER#:}" ]; then
+# A socket alone does not mean a server: one that was stopped leaves its socket and
+# lock file behind. termux-x11 names its process "termux-x11 com.termux.x11 :1 ...",
+# and qos can see its own processes in /proc.
+server_running() {
+    local cmdline
+    for f in /proc/[0-9]*/cmdline; do
+        cmdline="$(tr '\0' ' ' < "$f" 2>/dev/null)" || continue
+        case "$cmdline" in
+            "termux-x11 com.termux.x11 $DISPLAY_NUMBER"*) return 0 ;;
+        esac
+    done
+    return 1
+}
+
+X_TMP="${TMPDIR:-$PREFIX/tmp}"
+if [ -S "$X_TMP/.X11-unix/X${DISPLAY_NUMBER#:}" ] && ! server_running; then
+    rm -f "$X_TMP/.X11-unix/X${DISPLAY_NUMBER#:}" "$X_TMP/.X${DISPLAY_NUMBER#:}-lock"
+fi
+
+if server_running; then
     step "The desktop is already running"
     am start -n com.termux.x11/com.termux.x11.MainActivity >/dev/null 2>&1 || echo "Open qos Desktop to see the desktop."
     exit 0
