@@ -1,0 +1,55 @@
+#!/data/data/com.termux/files/usr/bin/bash
+# qos-xsession: the XFCE session qos Desktop shows, with qos's look.
+#
+# qos's defaults are applied once, on the first start: after that anything
+# changed in XFCE's own settings stays changed. Delete ~/.qos/desktop-defaults
+# to have them applied again.
+
+MARKER="$HOME/.qos/desktop-defaults"
+WALLPAPER="$PREFIX/share/backgrounds/qos/qos.png"
+
+apply_defaults() {
+    # Window scaling from the screen's density: phones (about 400 dpi and up)
+    # get everything twice the size, tablets stay at 1.
+    local density scale
+    density="$(/system/bin/getprop ro.sf.lcd_density 2>/dev/null)"
+    scale=1
+    [ "${density:-0}" -ge 360 ] && scale=2
+
+    xfconf-query -c xsettings -p /Net/ThemeName -n -t string -s "Adwaita-dark"
+    xfconf-query -c xsettings -p /Net/IconThemeName -n -t string -s "Adwaita"
+    xfconf-query -c xsettings -p /Gdk/WindowScalingFactor -n -t int -s "$scale"
+    if [ "$scale" = 2 ]; then
+        xfconf-query -c xfwm4 -p /general/theme -n -t string -s "Default-xhdpi"
+    fi
+
+    xfconf-query -c xfce4-terminal -p /color-background -n -t string -s "#000000"
+    xfconf-query -c xfce4-terminal -p /color-foreground -n -t string -s "#E9F1EF"
+    xfconf-query -c xfce4-terminal -p /color-cursor -n -t string -s "#10F3BE"
+    xfconf-query -c xfce4-terminal -p /color-use-theme -n -t bool -s false
+
+    mkdir -p "$(dirname "$MARKER")"
+    date > "$MARKER"
+}
+
+# The wallpaper belongs to xfdesktop, which names its settings after the
+# monitor, so set it once xfdesktop has created them.
+apply_wallpaper() {
+    local prop found=0
+    for _ in $(seq 1 30); do
+        for prop in $(xfconf-query -c xfce4-desktop -l 2>/dev/null | grep '/last-image$'); do
+            xfconf-query -c xfce4-desktop -p "$prop" -s "$WALLPAPER"
+            xfconf-query -c xfce4-desktop -p "${prop%/last-image}/image-style" -n -t int -s 5
+            found=1
+        done
+        [ "$found" = 1 ] && return
+        sleep 1
+    done
+}
+
+if [ ! -f "$MARKER" ]; then
+    apply_defaults
+    apply_wallpaper &
+fi
+
+exec xfce4-session

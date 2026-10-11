@@ -34,14 +34,14 @@
         <item name="android:windowAllowReturnTransitionOverlap">true</item>
         <item name="android:windowAllowEnterTransitionOverlap">true</item>
 
-        <!-- Left drawer. -->
-        <item name="buttonBarButtonStyle">@style/TermuxActivity.Drawer.ButtonBarStyle.Light</item>
-        <item name="termuxActivityDrawerBackground">@color/white</item>
-        <item name="termuxActivityDrawerImageTint">@color/black</item>
+        <!-- Left drawer: qos is dark in day and night mode alike. -->
+        <item name="buttonBarButtonStyle">@style/TermuxActivity.Drawer.ButtonBarStyle.Qos</item>
+        <item name="termuxActivityDrawerBackground">@color/qos_surface</item>
+        <item name="termuxActivityDrawerImageTint">@color/qos_text</item>
 
         <!-- Extra keys colors. -->
         <item name="extraKeysButtonTextColor">@color/white</item>
-        <item name="extraKeysButtonActiveTextColor">@color/red_400</item>
+        <item name="extraKeysButtonActiveTextColor">@color/qos_teal</item>
         <item name="extraKeysButtonBackgroundColor">@color/black</item>
         <item name="extraKeysButtonActiveBackgroundColor">@color/grey_500</item>
     </style>

@@ -14,4 +14,9 @@
         <item name="android:textColor">@color/white</item>
     </style>
 
+    <!-- qos: drawer buttons in qos teal. -->
+    <style name="TermuxActivity.Drawer.ButtonBarStyle.Qos" parent="@style/Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/qos_teal</item>
+    </style>
+
 </resources>

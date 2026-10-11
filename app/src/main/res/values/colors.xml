@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- qos: the logo's palette. -->
+    <color name="qos_teal">#10F3BE</color>
+    <color name="qos_surface">#0C1110</color>
+    <color name="qos_text">#E9F1EF</color>
 </resources>

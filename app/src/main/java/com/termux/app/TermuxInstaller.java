@@ -254,6 +254,8 @@ final class TermuxInstaller {
     static void installQosFiles(Context context) throws IOException {
         copyAsset(context, "qos/qos-setup", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-setup", 0700);
         copyAsset(context, "qos/qos-desktop", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-desktop", 0700);
+        copyAsset(context, "qos/qos-xsession", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-xsession", 0700);
+        copyAsset(context, "qos/wallpaper.png", TERMUX_PREFIX_DIR_PATH + "/share/backgrounds/qos/qos.png", 0644);
         copyAsset(context, "qos/qos.sh", TERMUX_PREFIX_DIR_PATH + "/etc/profile.d/qos.sh", 0600);
     }
 
