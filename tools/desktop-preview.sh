@@ -3,10 +3,11 @@
 # it, and take screenshots. Runs inside termux/termux-docker, so the packages
 # are Termux's own; see .github/workflows/desktop_preview.yml.
 #
-#   desktop-preview.sh WIDTHxHEIGHT SCALE   (repository at /work, output to /out)
+#   desktop-preview.sh WIDTHxHEIGHT SCALE [LANGUAGE]   (repository at /work, output to /out)
 set -u
 SIZE="${1:-2400x1080}"
 SCALE="${2:-2}"
+LANGUAGE_SETTING="${3:-}"
 ASSETS=/work/app/src/main/assets/qos
 OUT=/out
 
@@ -67,6 +68,46 @@ done
 { ls -laR "$HOME/.config/menus" "$HOME/.local/share/desktop-directories"; ls -la "$HOME/.local/share/applications"
   cat "$HOME/.config/menus/applications-merged/qos-android.menu" "$HOME/.local/share/applications/qos-android-com.android.chrome.desktop"
   ls "$PREFIX/etc/xdg/menus" 2>&1; env | grep -E '^XDG' ; } > "$OUT/menu-files.txt" 2>&1
+
+# The language qos's Settings would write.
+mkdir -p "$HOME/.qos"
+[ -n "$LANGUAGE_SETTING" ] && echo "$LANGUAGE_SETTING" > "$HOME/.qos/language"
+
+# Tamil experiment: does a translation reach XFCE, by .mo file or by Name[ta]?
+if [ "$LANGUAGE_SETTING" = ta ]; then
+    pkg install -y gettext
+    python - "$PREFIX" > "$OUT/intl.txt" 2>&1 <<'PY'
+import os, sys
+prefix = sys.argv[1]
+for f in ["bin/xfdesktop", "bin/xfce4-panel", "lib/libglib-2.0.so", "lib/libxfce4ui-2.so", "lib/libintl.so"]:
+    path = os.path.join(prefix, f)
+    if not os.path.exists(path):
+        print(f, "missing"); continue
+    data = open(path, "rb").read()
+    print(f, "needs libintl" if b"libintl.so" in data else "no libintl", "| dgettext symbol" if b"dgettext" in data else "")
+PY
+    ls -la "$PREFIX/lib" | grep -i intl >> "$OUT/intl.txt" 2>&1
+    mkdir -p "$PREFIX/share/locale/ta/LC_MESSAGES"
+    printf 'msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Home"
+msgstr "இல்லம்"
+
+msgid "File System"
+msgstr "கோப்பு முறைமை"
+
+msgid "Trash"
+msgstr "குப்பைத் தொட்டி"
+' > "$TMPDIR/xfdesktop-ta.po"
+    msgfmt -o "$PREFIX/share/locale/ta/LC_MESSAGES/xfdesktop.mo" "$TMPDIR/xfdesktop-ta.po" >> "$OUT/intl.txt" 2>&1
+    sed 's/^Name=.*/&
+Name[ta]=முனையம்/' "$PREFIX/share/applications/xfce4-terminal-emulator.desktop" > "$HOME/.local/share/applications/xfce4-terminal-emulator.desktop"
+    mkdir -p "$HOME/.local/share/desktop-directories"
+    sed 's/^Name=.*/&
+Name[ta]=அமைப்புகள்/' "$PREFIX/share/desktop-directories/xfce-settings.directory" > "$HOME/.local/share/desktop-directories/xfce-settings.directory"
+    grep -n 'Name' "$HOME/.local/share/applications/xfce4-terminal-emulator.desktop" >> "$OUT/intl.txt"
+fi
 
 FB="$TMPDIR/fb"
 mkdir -p "$FB"

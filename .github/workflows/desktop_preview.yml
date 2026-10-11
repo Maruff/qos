@@ -24,13 +24,17 @@ jobs:
           - name: tablet
             size: 1920x1200
             scale: 1
+          - name: phone-tamil
+            size: 2400x1080
+            scale: 2
+            language: ta
     steps:
       - uses: actions/checkout@v4
       - name: Render in Termux
         run: |
           mkdir -p out && chmod 777 out
           docker run --rm --privileged -v "$PWD:/work:ro" -v "$PWD/out:/out" \
-            termux/termux-docker:x86_64 bash /work/tools/desktop-preview.sh "${{ matrix.size }}" "${{ matrix.scale }}"
+            termux/termux-docker:x86_64 bash /work/tools/desktop-preview.sh "${{ matrix.size }}" "${{ matrix.scale }}" "${{ matrix.language }}"
       - name: Convert screenshots
         run: |
           sudo apt-get install -y imagemagick > /dev/null
