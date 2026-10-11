@@ -29,6 +29,42 @@ if [ "$LANGUAGE" = ta ] && [ -f "$PREFIX/lib/libqosintl.so" ]; then
     export LD_PRELOAD="${LD_PRELOAD:+$LD_PRELOAD:}$PREFIX/lib/libqosintl.so"
 fi
 
+# Tamil names in the Applications menu: XFCE's menu entries and categories have
+# none of their own, so in Tamil each one named in $PREFIX/share/qos/tamil-names.tsv
+# gets a copy in the home folder with Name[ta] added. They are written afresh at
+# every start, to follow packages as they change, and marked X-Qos-Tamil so that
+# your own copies are never touched.
+tamil_names() {
+    local apps="$HOME/.local/share/applications" dirs="$HOME/.local/share/desktop-directories"
+    local table="$PREFIX/share/qos/tamil-names.tsv" f out
+    mkdir -p "$apps" "$dirs"
+    grep -l '^X-Qos-Tamil=true' "$apps"/*.desktop "$dirs"/*.directory 2>/dev/null | xargs -r rm -f
+    [ "$LANGUAGE" = ta ] && [ -f "$table" ] || return 0
+    for f in "$PREFIX"/share/applications/*.desktop "$PREFIX"/share/desktop-directories/*.directory; do
+        [ -f "$f" ] || continue
+        case "$f" in *.desktop) out="$apps/${f##*/}" ;; *) out="$dirs/${f##*/}" ;; esac
+        [ -e "$out" ] && continue
+        awk -v table="$table" '
+            BEGIN {
+                while ((getline line < table) > 0)
+                    if (line !~ /^#/ && split(line, p, "\t") == 2) ta[p[1]] = p[2]
+            }
+            /^\[/ { entry = ($0 == "[Desktop Entry]") }
+            entry && /^Name\[ta\]=/ { has = 1 }
+            entry && /^Name=/ && !name { name = substr($0, 6) }
+            { lines[++n] = $0 }
+            END {
+                if (has || !(name in ta)) exit 1
+                for (i = 1; i <= n; i++) {
+                    print lines[i]
+                    if (lines[i] == "[Desktop Entry]") print "X-Qos-Tamil=true"
+                    if (lines[i] == "Name=" name && !done) { print "Name[ta]=" ta[name]; done = 1 }
+                }
+            }' "$f" > "$out.tmp" && mv "$out.tmp" "$out" || rm -f "$out.tmp"
+    done
+}
+tamil_names
+
 # Window scaling from the screen's density: phones (about 400 dpi and up) get
 # everything twice the size, tablets stay at 1.
 if [ ! -f "$SCALING_MARKER" ]; then

@@ -73,52 +73,19 @@ done
 mkdir -p "$HOME/.qos"
 [ -n "$LANGUAGE_SETTING" ] && echo "$LANGUAGE_SETTING" > "$HOME/.qos/language"
 
-# Tamil experiment: does a translation reach XFCE, by .mo file or by Name[ta]?
+# Tamil: what qos installs (TermuxInstaller.installQosFiles) for a Tamil desktop.
 if [ "$LANGUAGE_SETTING" = ta ]; then
-    pkg install -y gettext
     # libqosintl, built here for the container's x86_64; the APK carries it per ABI.
     pkg install -y clang
-    clang -shared -fPIC -O2 -o "$PREFIX/lib/libqosintl.so" /work/app/src/main/cpp/qos-intl/qosintl.c >> "$OUT/intl.txt" 2>&1
-    ls -la "$PREFIX/lib/libqosintl.so" >> "$OUT/intl.txt" 2>&1
+    clang -shared -fPIC -O2 -o "$PREFIX/lib/libqosintl.so" /work/app/src/main/cpp/qos-intl/qosintl.c
+    install -D -m 644 -t "$PREFIX/share/locale/ta/LC_MESSAGES" "$ASSETS"/locale/ta/LC_MESSAGES/*.mo
+    install -D -m 644 "$ASSETS/tamil-names.tsv" "$PREFIX/share/qos/tamil-names.tsv"
     # Android's own Noto Sans Tamil (in /system/fonts on a phone) is not in the
     # container: put it where fontconfig looks, for the preview only.
     mkdir -p "$PREFIX/share/fonts/noto"
     curl -fsSL -o "$PREFIX/share/fonts/noto/NotoSansTamil-Regular.ttf" \
         https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSansTamil/hinted/ttf/NotoSansTamil-Regular.ttf
     fc-cache -f > /dev/null 2>&1
-    python - "$PREFIX" > "$OUT/intl.txt" 2>&1 <<'PY'
-import os, sys
-prefix = sys.argv[1]
-for f in ["bin/xfdesktop", "bin/xfce4-panel", "lib/libglib-2.0.so", "lib/libxfce4ui-2.so", "lib/libintl.so"]:
-    path = os.path.join(prefix, f)
-    if not os.path.exists(path):
-        print(f, "missing"); continue
-    data = open(path, "rb").read()
-    print(f, "needs libintl" if b"libintl.so" in data else "no libintl", "| dgettext symbol" if b"dgettext" in data else "")
-PY
-    ls -la "$PREFIX/lib" | grep -i intl >> "$OUT/intl.txt" 2>&1
-    mkdir -p "$PREFIX/share/locale/ta/LC_MESSAGES"
-    cat > "$TMPDIR/xfdesktop-ta.po" <<'PO'
-msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\n"
-
-msgid "Home"
-msgstr "இல்லம்"
-
-msgid "File System"
-msgstr "கோப்பு முறைமை"
-
-msgid "Trash"
-msgstr "குப்பைத் தொட்டி"
-PO
-    msgfmt -o "$PREFIX/share/locale/ta/LC_MESSAGES/xfdesktop.mo" "$TMPDIR/xfdesktop-ta.po" >> "$OUT/intl.txt" 2>&1
-    add_tamil_name() { awk -v ta="$2" '{print} /^Name=/ && !done {print "Name[ta]=" ta; done=1}' "$1"; }
-    add_tamil_name "$PREFIX/share/applications/xfce4-terminal-emulator.desktop" "முனையம்" \
-        > "$HOME/.local/share/applications/xfce4-terminal-emulator.desktop"
-    mkdir -p "$HOME/.local/share/desktop-directories"
-    add_tamil_name "$PREFIX/share/desktop-directories/xfce-settings.directory" "அமைப்புகள்" \
-        > "$HOME/.local/share/desktop-directories/xfce-settings.directory"
-    grep -n 'Name' "$HOME/.local/share/applications/xfce4-terminal-emulator.desktop" >> "$OUT/intl.txt"
 fi
 
 FB="$TMPDIR/fb"
@@ -139,6 +106,9 @@ sleep 45
 shot() { cp "$FB/Xvfb_screen0" "$OUT/\$1.xwd"; }
 shot 1-desktop
 
+# The desktop's own menu: a right click on an empty part of it.
+xdotool mousemove $((900 * $SCALE)) $((300 * $SCALE)) click 3; sleep 3; shot 1b-desktop-menu; xdotool key Escape; sleep 1
+
 xfce4-popup-applicationsmenu; sleep 4; shot 2-menu
 # Hover over Android, the eighth row of the menu, to open its submenu.
 xdotool mousemove $((75 * $SCALE)) $((196 * $SCALE)); sleep 3; shot 5-android
@@ -151,6 +121,9 @@ sleep 6; shot 3-windows
 
 xfce4-about > /dev/null 2>&1 &
 sleep 5; shot 4-about
+
+xfce4-session-logout > /dev/null 2>&1 &
+sleep 5; shot 6-logout
 
 xrandr --query > "$OUT/xrandr.txt" 2>&1
 for c in xsettings xfce4-desktop xfce4-panel xfwm4; do

@@ -1,0 +1,179 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "_Reload"
+msgstr "மீளேற்று (_R)"
+
+msgid "Select _All"
+msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
+
+msgid "A_rrange Icons"
+msgstr "சின்னங்களை அடுக்கு (_R)"
+
+msgid "_Close Window"
+msgstr "சாளரத்தை மூடு (_C)"
+
+msgid "Create _Folder"
+msgstr "கோப்புறை உருவாக்கு (_F)"
+
+msgid "Create _Document"
+msgstr "ஆவணம் உருவாக்கு (_D)"
+
+msgid "_Open"
+msgstr "திற (_O)"
+
+msgid "Ope_n With Other Application"
+msgstr "வேறு செயலியுடன் திற (_N)"
+
+msgid "_Rename"
+msgstr "பெயர்மாற்று (_R)"
+
+msgid "Cu_t"
+msgstr "வெட்டு (_T)"
+
+msgid "_Copy"
+msgstr "நகலெடு (_C)"
+
+msgid "_Paste"
+msgstr "ஒட்டு (_P)"
+
+msgid "Paste _Into Folder"
+msgstr "கோப்புறைக்குள் ஒட்டு (_I)"
+
+msgid "Mo_ve to Trash"
+msgstr "குப்பைத் தொட்டிக்கு நகர்த்து (_V)"
+
+msgid "_Empty Trash"
+msgstr "குப்பைத் தொட்டியைக் காலியாக்கு (_E)"
+
+msgid "_Delete"
+msgstr "நீக்கு (_D)"
+
+msgid "Show _Hidden Files"
+msgstr "மறைந்த கோப்புகளைக் காட்டு (_H)"
+
+msgid "_Properties"
+msgstr "பண்புகள் (_P)"
+
+msgid "Desktop Settings"
+msgstr "மேசைத்தள அமைப்புகள்"
+
+msgid "Quit"
+msgstr "விலகு"
+
+msgid "Desktop"
+msgstr "மேசைத்தளம்"
+
+msgid "Wallpaper for my desktop"
+msgstr "என் மேசைத்தளப் பின்னணி"
+
+msgid "Home"
+msgstr "இல்லம்"
+
+msgid "File System"
+msgstr "கோப்பு முறைமை"
+
+msgid "Trash"
+msgstr "குப்பைத் தொட்டி"
+
+msgid "Devices"
+msgstr "சாதனங்கள்"
+
+msgid "Removable Disks and Drives"
+msgstr "நீக்கக்கூடிய வட்டுகள்"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "Apply"
+msgstr "செயல்படுத்து"
+
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "General"
+msgstr "பொது"
+
+msgid "_Applications"
+msgstr "செயலிகள் (_A)"
+
+msgid "Window List"
+msgstr "சாளரப் பட்டியல்"
+
+msgid "Create _Launcher..."
+msgstr "தொடக்கி உருவாக்கு (_L)..."
+
+msgid "Create _URL Link..."
+msgstr "இணைய இணைப்பு உருவாக்கு (_U)..."
+
+msgid "Create _Folder..."
+msgstr "கோப்புறை உருவாக்கு (_F)..."
+
+msgid "No templates installed"
+msgstr "வார்ப்புருக்கள் எதுவும் இல்லை"
+
+msgid "_Empty File"
+msgstr "வெற்றுக் கோப்பு (_E)"
+
+msgid "_Open All"
+msgstr "அனைத்தையும் திற (_O)"
+
+msgid "_Execute"
+msgstr "இயக்கு (_E)"
+
+msgid "Ope_n With"
+msgstr "இதனுடன் திற (_N)"
+
+msgid "Ope_n With Other Application..."
+msgstr "வேறு செயலியுடன் திற (_N)..."
+
+msgid "Paste Into Folder"
+msgstr "கோப்புறைக்குள் ஒட்டு"
+
+msgid "_Rename..."
+msgstr "பெயர்மாற்று (_R)..."
+
+msgid "_Open in New Window"
+msgstr "புதிய சாளரத்தில் திற (_O)"
+
+msgid "Arrange Desktop _Icons"
+msgstr "மேசைத்தளச் சின்னங்களை அடுக்கு (_I)"
+
+msgid "_Next Background"
+msgstr "அடுத்த பின்னணி (_N)"
+
+msgid "Desktop _Settings..."
+msgstr "மேசைத்தள அமைப்புகள் (_S)..."
+
+msgid "_Properties..."
+msgstr "பண்புகள் (_P)..."
+
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+msgid "Error"
+msgstr "பிழை"
+
+msgid "New Empty File"
+msgstr "புதிய வெற்றுக் கோப்பு"
+
+msgid "C_reate"
+msgstr "உருவாக்கு (_R)"
+
+msgid "New Folder"
+msgstr "புதிய கோப்புறை"
+
+msgid "Arrange Icons"
+msgstr "சின்னங்களை அடுக்கு"
+
+msgid "Trash is empty"
+msgstr "குப்பைத் தொட்டி காலியாக உள்ளது"

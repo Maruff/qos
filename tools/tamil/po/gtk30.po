@@ -1,0 +1,429 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgctxt "keyboard label"
+msgid "Home"
+msgstr "இல்லம்"
+
+msgctxt "keyboard label"
+msgid "Delete"
+msgstr "நீக்கு"
+
+msgctxt "keyboard label"
+msgid "Eject"
+msgstr "வெளியேற்று"
+
+msgctxt "keyboard label"
+msgid "Search"
+msgstr "தேடு"
+
+msgctxt "keyboard label"
+msgid "Forward"
+msgstr "முன்செல்"
+
+msgctxt "keyboard label"
+msgid "Back"
+msgstr "பின்செல்"
+
+msgctxt "keyboard label"
+msgid "Hibernate"
+msgstr "உறங்கு"
+
+msgctxt "keyboard label"
+msgid "Suspend"
+msgstr "இடைநிறுத்து"
+
+msgctxt "Action name"
+msgid "Edit"
+msgstr "திருத்து"
+
+msgctxt "Stock label"
+msgid "_About"
+msgstr "பற்றி (_A)"
+
+msgctxt "Stock label"
+msgid "_Add"
+msgstr "சேர் (_A)"
+
+msgctxt "Stock label"
+msgid "_Clear"
+msgstr "அழி (_C)"
+
+msgctxt "Stock label"
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "Minimize"
+msgstr "சிறிதாக்கு"
+
+msgid "Maximize"
+msgstr "பெரிதாக்கு"
+
+msgid "Restore"
+msgstr "மீட்டெடு"
+
+msgctxt "Stock label"
+msgid "_Copy"
+msgstr "நகலெடு (_C)"
+
+msgctxt "Stock label"
+msgid "Cu_t"
+msgstr "வெட்டு (_T)"
+
+msgctxt "Stock label"
+msgid "_Delete"
+msgstr "நீக்கு (_D)"
+
+msgctxt "Stock label"
+msgid "Error"
+msgstr "பிழை"
+
+msgctxt "Stock label"
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+msgctxt "Stock label"
+msgid "_Execute"
+msgstr "இயக்கு (_E)"
+
+msgctxt "Stock label"
+msgid "_File"
+msgstr "கோப்பு (_F)"
+
+msgctxt "Stock label"
+msgid "_Find"
+msgstr "கண்டுபிடி (_F)"
+
+msgctxt "Stock label"
+msgid "_Fullscreen"
+msgstr "முழுத்திரை (_F)"
+
+msgctxt "Stock label, navigation"
+msgid "_Back"
+msgstr "பின்செல் (_B)"
+
+msgctxt "Stock label, navigation"
+msgid "_Forward"
+msgstr "முன்செல் (_F)"
+
+msgctxt "Stock label"
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgctxt "Stock label"
+msgid "_Home"
+msgstr "இல்லம் (_H)"
+
+msgctxt "Stock label"
+msgid "_Leave Fullscreen"
+msgstr "முழுத்திரையிலிருந்து வெளியேறு (_L)"
+
+msgctxt "Stock label, media"
+msgid "_Forward"
+msgstr "முன்செல் (_F)"
+
+msgctxt "Stock label"
+msgid "_Network"
+msgstr "வலையமைப்பு (_N)"
+
+msgctxt "Stock label"
+msgid "_Open"
+msgstr "திற (_O)"
+
+msgctxt "Stock label"
+msgid "_Paste"
+msgstr "ஒட்டு (_P)"
+
+msgctxt "Stock label"
+msgid "_Properties"
+msgstr "பண்புகள் (_P)"
+
+msgctxt "Stock label"
+msgid "_Quit"
+msgstr "விலகு (_Q)"
+
+msgctxt "Stock label"
+msgid "_Redo"
+msgstr "மீண்டும் செய் (_R)"
+
+msgctxt "Stock label"
+msgid "_Remove"
+msgstr "அகற்று (_R)"
+
+msgctxt "Stock label"
+msgid "_Save"
+msgstr "சேமி (_S)"
+
+msgctxt "Stock label"
+msgid "Select _All"
+msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
+
+msgctxt "Stock label"
+msgid "_Undo"
+msgstr "செயல்தவிர் (_U)"
+
+msgctxt "Stock label"
+msgid "_Normal Size"
+msgstr "இயல்பான அளவு (_N)"
+
+msgctxt "Stock label"
+msgid "Zoom _In"
+msgstr "அருகில் காட்டு (_I)"
+
+msgctxt "Stock label"
+msgid "Zoom _Out"
+msgstr "தொலைவில் காட்டு (_O)"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "_Apply"
+msgstr "செயல்படுத்து (_A)"
+
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgctxt "Stock label"
+msgid "_Apply"
+msgstr "செயல்படுத்து (_A)"
+
+msgctxt "Stock label"
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgctxt "Stock label"
+msgid "_Edit"
+msgstr "திருத்து (_E)"
+
+msgctxt "Stock label"
+msgid "_No"
+msgstr "இல்லை (_N)"
+
+msgctxt "Stock label"
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgctxt "Stock label"
+msgid "_Preferences"
+msgstr "விருப்பங்கள் (_P)"
+
+msgctxt "Stock label"
+msgid "_Yes"
+msgstr "ஆம் (_Y)"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "Cu_t"
+msgstr "வெட்டு (_T)"
+
+msgid "_Copy"
+msgstr "நகலெடு (_C)"
+
+msgid "_Paste"
+msgstr "ஒட்டு (_P)"
+
+msgid "_Delete"
+msgstr "நீக்கு (_D)"
+
+msgid "Select _All"
+msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
+
+msgid "Cut"
+msgstr "வெட்டு"
+
+msgid "Copy"
+msgstr "நகலெடு"
+
+msgid "Paste"
+msgstr "ஒட்டு"
+
+msgid "Desktop"
+msgstr "மேசைத்தளம்"
+
+msgid "_Name"
+msgstr "பெயர் (_N)"
+
+msgid "_Open"
+msgstr "திற (_O)"
+
+msgid "_Save"
+msgstr "சேமி (_S)"
+
+msgid "_Rename"
+msgstr "பெயர்மாற்று (_R)"
+
+msgid "_Move to Trash"
+msgstr "குப்பைத் தொட்டிக்கு நகர்த்து (_M)"
+
+msgid "Show _Hidden Files"
+msgstr "மறைந்த கோப்புகளைக் காட்டு (_H)"
+
+msgid "Location"
+msgstr "இருப்பிடம்"
+
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+msgid "Home"
+msgstr "இல்லம்"
+
+msgid "_Replace"
+msgstr "மாற்றீடு செய் (_R)"
+
+msgid "Create Folder"
+msgstr "கோப்புறை உருவாக்கு"
+
+msgid "File System"
+msgstr "கோப்பு முறைமை"
+
+msgctxt "font"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "Default"
+msgstr "இயல்புநிலை"
+
+msgid "Close"
+msgstr "மூடு"
+
+msgctxt "input method menu"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+msgid "Error"
+msgstr "பிழை"
+
+msgid "_No"
+msgstr "இல்லை (_N)"
+
+msgid "_Yes"
+msgstr "ஆம் (_Y)"
+
+msgid "Recent"
+msgstr "அண்மையவை"
+
+msgid "Trash"
+msgstr "குப்பைத் தொட்டி"
+
+msgid "Name"
+msgstr "பெயர்"
+
+msgid "Open in New _Window"
+msgstr "புதிய சாளரத்தில் திற (_W)"
+
+msgid "_Add Bookmark"
+msgstr "புத்தகக்குறி சேர் (_A)"
+
+msgid "_Remove"
+msgstr "அகற்று (_R)"
+
+msgid "Rename…"
+msgstr "பெயர்மாற்று…"
+
+msgid "_Mount"
+msgstr "ஏற்று (_M)"
+
+msgid "_Unmount"
+msgstr "இறக்கு (_U)"
+
+msgid "_Eject"
+msgstr "வெளியேற்று (_E)"
+
+msgid "Computer"
+msgstr "கணினி"
+
+msgid "Cance_l"
+msgstr "ரத்துசெய் (_L)"
+
+msgid "Unmount"
+msgstr "இறக்கு"
+
+msgid "Search"
+msgstr "தேடு"
+
+msgid "Move"
+msgstr "நகர்த்து"
+
+msgid "Resize"
+msgstr "அளவை மாற்று"
+
+msgid "Always on Top"
+msgstr "எப்போதும் மேலே"
+
+msgctxt "GL version"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgctxt "GL vendor"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgctxt "event phase"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "Properties"
+msgstr "பண்புகள்"
+
+msgctxt "type name"
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+msgctxt "property name"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "Reset"
+msgstr "மீட்டமை"
+
+msgid "Type"
+msgstr "வகை"
+
+msgid "Size"
+msgstr "அளவு"
+
+msgid "Yes"
+msgstr "ஆம்"
+
+msgctxt "sizegroup mode"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "Always"
+msgstr "எப்போதும்"
+
+msgid "General"
+msgstr "பொது"
+
+msgctxt "Script"
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+msgid "About"
+msgstr "பற்றி"
+
+msgid "Preferences"
+msgstr "விருப்பங்கள்"
+
+msgid "_Back"
+msgstr "பின்செல் (_B)"
+
+msgid "Places"
+msgstr "இடங்கள்"
+
+msgid "_Create"
+msgstr "உருவாக்கு (_C)"
+
+msgctxt "cover page"
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "File"
+msgstr "கோப்பு"

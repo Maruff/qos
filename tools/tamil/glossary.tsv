@@ -1,0 +1,203 @@
+# qos Desktop in Tamil: XFCE's own text.
+# English<TAB>Tamil. The English is as XFCE shows it, without the "_" that marks
+# the keyboard shortcut and without a trailing "..."; build.py restores both,
+# writing the shortcut as "(_X)" after the Tamil. %s, %d and the like must be
+# the same on both sides, or build.py leaves the line out.
+#
+# Everyday words
+About	பற்றி
+Add	சேர்
+Always	எப்போதும்
+Apply	செயல்படுத்து
+Back	பின்செல்
+Cancel	ரத்துசெய்
+Clear	அழி
+Close	மூடு
+Copy	நகலெடு
+Create	உருவாக்கு
+Cut	வெட்டு
+Default	இயல்புநிலை
+Delete	நீக்கு
+Edit	திருத்து
+Error	பிழை
+Execute	இயக்கு
+File	கோப்பு
+Find	கண்டுபிடி
+Forward	முன்செல்
+General	பொது
+Go	செல்
+Help	உதவி
+Hide	மறை
+Home	இல்லம்
+Name	பெயர்
+Never	ஒருபோதும் இல்லை
+New Folder	புதிய கோப்புறை
+No	இல்லை
+None	ஏதுமில்லை
+OK	சரி
+Open	திற
+Paste	ஒட்டு
+Preferences	விருப்பங்கள்
+Properties	பண்புகள்
+Quit	விலகு
+Reload	மீளேற்று
+Remove	அகற்று
+Rename	பெயர்மாற்று
+Replace	மாற்றீடு செய்
+Reset	மீட்டமை
+Restore	மீட்டெடு
+Save	சேமி
+Search	தேடு
+Select All	அனைத்தையும் தேர்ந்தெடு
+Settings	அமைப்புகள்
+Show	காட்டு
+Size	அளவு
+Skip	தவிர்
+Type	வகை
+Undo	செயல்தவிர்
+Redo	மீண்டும் செய்
+Unknown	தெரியவில்லை
+View	காட்சி
+Warning	எச்சரிக்கை
+Yes	ஆம்
+#
+# The desktop (xfdesktop)
+Arrange Desktop Icons	மேசைத்தளச் சின்னங்களை அடுக்கு
+Arrange Icons	சின்னங்களை அடுக்கு
+Create Document	ஆவணம் உருவாக்கு
+Create Folder	கோப்புறை உருவாக்கு
+Create Launcher	தொடக்கி உருவாக்கு
+Create URL Link	இணைய இணைப்பு உருவாக்கு
+Desktop	மேசைத்தளம்
+Desktop Settings	மேசைத்தள அமைப்புகள்
+Devices	சாதனங்கள்
+Empty File	வெற்றுக் கோப்பு
+Empty Trash	குப்பைத் தொட்டியைக் காலியாக்கு
+File System	கோப்பு முறைமை
+Move to Trash	குப்பைத் தொட்டிக்கு நகர்த்து
+New Empty File	புதிய வெற்றுக் கோப்பு
+Next Background	அடுத்த பின்னணி
+No templates installed	வார்ப்புருக்கள் எதுவும் இல்லை
+Open All	அனைத்தையும் திற
+Open in New Window	புதிய சாளரத்தில் திற
+Open With	இதனுடன் திற
+Open With Other Application	வேறு செயலியுடன் திற
+Paste Into Folder	கோப்புறைக்குள் ஒட்டு
+Removable Disks and Drives	நீக்கக்கூடிய வட்டுகள்
+Show Hidden Files	மறைந்த கோப்புகளைக் காட்டு
+Trash	குப்பைத் தொட்டி
+Trash is empty	குப்பைத் தொட்டி காலியாக உள்ளது
+Wallpaper for my desktop	என் மேசைத்தளப் பின்னணி
+Window List	சாளரப் பட்டியல்
+#
+# The panel (xfce4-panel)
+Add New Items	புதிய உருப்படிகளைச் சேர்
+Applications	செயலிகள்
+Applications Menu	செயலிகள் பட்டியல்
+Clock	கடிகாரம்
+Close All	அனைத்தையும் மூடு
+Close Window	சாளரத்தை மூடு
+Lock Panel	பலகத்தைப் பூட்டு
+Lock Screen	திரையைப் பூட்டு
+Maximize All	அனைத்தையும் பெரிதாக்கு
+Minimize Window	சாளரத்தைச் சிறிதாக்கு
+Move	நகர்த்து
+No Windows	சாளரங்கள் இல்லை
+Panel	பலகம்
+Panel Preferences	பலக விருப்பங்கள்
+Separator	பிரிப்பான்
+Show Desktop	மேசைத்தளத்தைக் காட்டு
+Unminimize All	அனைத்தையும் மீட்டமை
+Window Buttons	சாளரப் பொத்தான்கள்
+Window Menu	சாளரப் பட்டியல்
+Workspace Switcher	பணியிட மாற்றி
+Workspaces	பணியிடங்கள்
+#
+# Logging out (xfce4-session, and the panel's action buttons)
+Hibernate	உறங்கு
+Hybrid Sleep	கலப்பு உறக்கம்
+Log Out	வெளியேறு
+Log Out of the Xfce Desktop	Xfce மேசைத்தளத்திலிருந்து வெளியேறு
+Log out of the Xfce Desktop	Xfce மேசைத்தளத்திலிருந்து வெளியேறு
+Restart	மறுதொடக்கம்
+Shut Down	அணை
+Suspend	இடைநிறுத்து
+Switch User	பயனரை மாற்று
+Are you sure you want to shut down?	உறுதியாக அணைக்க வேண்டுமா?
+#
+# Windows (xfwm4)
+Always on Top	எப்போதும் மேலே
+Always Below Other Windows	எப்போதும் மற்ற சாளரங்களுக்குக் கீழே
+Always on Visible Workspace	எப்போதும் தெரியும் பணியிடத்தில்
+Fullscreen	முழுத்திரை
+Leave Fullscreen	முழுத்திரையிலிருந்து வெளியேறு
+Maximize	பெரிதாக்கு
+Minimize	சிறிதாக்கு
+Minimize Other Windows	மற்ற சாளரங்களைச் சிறிதாக்கு
+Move to Another Workspace	வேறு பணியிடத்துக்கு நகர்த்து
+Move to Another Monitor	வேறு திரைக்கு நகர்த்து
+Resize	அளவை மாற்று
+Shade	சுருட்டு
+Unmaximize	பழைய அளவுக்கு மீட்டமை
+#
+# Files (Thunar)
+Add Bookmark	புத்தகக்குறி சேர்
+Bookmarks	புத்தகக்குறிகள்
+Browse Network	வலையமைப்பில் உலாவு
+Bulk Rename	தொகுப்பாகப் பெயர்மாற்று
+Close All Windows	அனைத்துச் சாளரங்களையும் மூடு
+Close Tab	தாவலை மூடு
+Compact View	அடர் காட்சி
+Computer	கணினி
+Configure Toolbar	கருவிப்பட்டையை அமை
+Contents	உள்ளடக்கம்
+Date Modified	மாற்றிய நாள்
+Detach Tab	தாவலைப் பிரி
+Duplicate	நகல் உருவாக்கு
+Eject	வெளியேற்று
+Icon View	சின்னக் காட்சி
+Invert Selection	தேர்வைத் தலைகீழாக்கு
+List View	பட்டியல் காட்சி
+Location	இருப்பிடம்
+Location Selector	இருப்பிடத் தேர்வி
+Menubar	பட்டிப்பட்டை
+Mount	ஏற்று
+Network	வலையமைப்பு
+New Tab	புதிய தாவல்
+New Window	புதிய சாளரம்
+Next Tab	அடுத்த தாவல்
+Normal Size	இயல்பான அளவு
+Open Location	இருப்பிடத்தைத் திற
+Open Parent	மேல் கோப்புறையைத் திற
+Places	இடங்கள்
+Previous Tab	முந்தைய தாவல்
+Recent	அண்மையவை
+Search for Files	கோப்புகளைத் தேடு
+Select all Files	அனைத்துக் கோப்புகளையும் தேர்ந்தெடு
+Select by Pattern	வடிவத்தால் தேர்ந்தெடு
+Send To	இதற்கு அனுப்பு
+Side Pane	பக்கப் பலகம்
+Split View	பிரித்த காட்சி
+Statusbar	நிலைப்பட்டை
+Templates	வார்ப்புருக்கள்
+Unmount	இறக்கு
+Unselect all Files	அனைத்துத் தேர்வையும் நீக்கு
+Zoom In	அருகில் காட்டு
+Zoom Out	தொலைவில் காட்டு
+#
+# The terminal (xfce4-terminal)
+Close Other Tabs	மற்ற தாவல்களை மூடு
+Copy as HTML	HTML ஆக நகலெடு
+Find Next	அடுத்ததைக் கண்டுபிடி
+Find Previous	முந்தையதைக் கண்டுபிடி
+Open File Manager Here	இங்கே கோப்பு மேலாளரைத் திற
+Open Tab	தாவலைத் திற
+Open Terminal	முனையத்தைத் திற
+Paste Selection	தேர்வை ஒட்டு
+Save Contents	உள்ளடக்கத்தைச் சேமி
+Set Title	தலைப்பை அமை
+Show Menubar	பட்டிப்பட்டையைக் காட்டு
+Show Toolbar	கருவிப்பட்டையைக் காட்டு
+Tabs	தாவல்கள்
+Terminal	முனையம்
+Undo Close Tab	மூடிய தாவலை மீட்டெடு

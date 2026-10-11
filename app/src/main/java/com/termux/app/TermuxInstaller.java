@@ -27,6 +27,7 @@ import com.termux.shared.termux.shell.command.environment.TermuxShellEnvironment
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -266,16 +267,37 @@ final class TermuxInstaller {
         copyAsset(context, "qos/qos-mark.png", home + "/icons/hicolor/256x256/apps/org.xfce.about.png", 0644);
         copyAsset(context, "qos/qos-mark.png", home + "/icons/hicolor/256x256/apps/xfce4-logo.png", 0644);
         copyAsset(context, "qos/xfce4-about.desktop", home + "/applications/xfce4-about.desktop", 0644);
+        // qos Desktop in Tamil: the catalogues libqosintl reads, the menu's Tamil names, and
+        // libqosintl itself, which the APK carries for the phone's ABI.
+        String[] catalogues = context.getAssets().list("qos/locale/ta/LC_MESSAGES");
+        if (catalogues != null) {
+            for (String mo : catalogues)
+                copyAsset(context, "qos/locale/ta/LC_MESSAGES/" + mo, TERMUX_PREFIX_DIR_PATH + "/share/locale/ta/LC_MESSAGES/" + mo, 0644);
+        }
+        copyAsset(context, "qos/tamil-names.tsv", TERMUX_PREFIX_DIR_PATH + "/share/qos/tamil-names.tsv", 0644);
+        File intl = new File(context.getApplicationInfo().nativeLibraryDir, "libqosintl.so");
+        if (intl.isFile()) copyFile(intl, TERMUX_PREFIX_DIR_PATH + "/lib/libqosintl.so", 0644);
         // qos's welcome text; a ~/.termux/motd.sh of your own is shown instead.
         copyAsset(context, "qos/motd", TERMUX_PREFIX_DIR_PATH + "/etc/motd", 0644);
         copyAsset(context, "qos/qos.sh", TERMUX_PREFIX_DIR_PATH + "/etc/profile.d/qos.sh", 0600);
     }
 
     private static void copyAsset(Context context, String asset, String path, int mode) throws IOException {
+        try (InputStream in = context.getAssets().open(asset)) {
+            copy(in, path, mode);
+        }
+    }
+
+    private static void copyFile(File source, String path, int mode) throws IOException {
+        try (InputStream in = new FileInputStream(source)) {
+            copy(in, path, mode);
+        }
+    }
+
+    private static void copy(InputStream in, String path, int mode) throws IOException {
         File target = new File(path);
         target.getParentFile().mkdirs();
-        try (InputStream in = context.getAssets().open(asset);
-             FileOutputStream out = new FileOutputStream(target)) {
+        try (FileOutputStream out = new FileOutputStream(target)) {
             byte[] buffer = new byte[8096];
             int read;
             while ((read = in.read(buffer)) != -1)

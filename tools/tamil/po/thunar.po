@@ -1,0 +1,403 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "_Open"
+msgstr "திற (_O)"
+
+msgid "_Execute"
+msgstr "இயக்கு (_E)"
+
+msgid "Ope_n With Other Application..."
+msgstr "வேறு செயலியுடன் திற (_N)..."
+
+msgid "_Send To"
+msgstr "இதற்கு அனுப்பு (_S)"
+
+msgid "_Add Bookmark"
+msgstr "புத்தகக்குறி சேர் (_A)"
+
+msgid "_Properties..."
+msgstr "பண்புகள் (_P)..."
+
+msgid "Dup_licate"
+msgstr "நகல் உருவாக்கு (_L)"
+
+msgid "_Rename..."
+msgstr "பெயர்மாற்று (_R)..."
+
+msgid "_Empty Trash"
+msgstr "குப்பைத் தொட்டியைக் காலியாக்கு (_E)"
+
+msgid "Create _Folder..."
+msgstr "கோப்புறை உருவாக்கு (_F)..."
+
+msgid "Create _Document"
+msgstr "ஆவணம் உருவாக்கு (_D)"
+
+msgid "_Restore"
+msgstr "மீட்டெடு (_R)"
+
+msgid "Mo_ve to Trash"
+msgstr "குப்பைத் தொட்டிக்கு நகர்த்து (_V)"
+
+msgid "_Delete"
+msgstr "நீக்கு (_D)"
+
+msgid "_Paste"
+msgstr "ஒட்டு (_P)"
+
+msgid "_Paste Into Folder"
+msgstr "கோப்புறைக்குள் ஒட்டு (_P)"
+
+msgid "_Copy"
+msgstr "நகலெடு (_C)"
+
+msgid "Cu_t"
+msgstr "வெட்டு (_T)"
+
+msgid "_Mount"
+msgstr "ஏற்று (_M)"
+
+msgid "_Unmount"
+msgstr "இறக்கு (_U)"
+
+msgid "_Eject"
+msgstr "வெளியேற்று (_E)"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "Bulk _Rename..."
+msgstr "தொகுப்பாகப் பெயர்மாற்று (_R)..."
+
+msgid "New Folder"
+msgstr "புதிய கோப்புறை"
+
+msgid "New Empty File"
+msgstr "புதிய வெற்றுக் கோப்பு"
+
+msgid "New Empty File..."
+msgstr "புதிய வெற்றுக் கோப்பு..."
+
+msgid "_Empty File"
+msgstr "வெற்றுக் கோப்பு (_E)"
+
+msgid "Ope_n With"
+msgstr "இதனுடன் திற (_N)"
+
+msgid "Move to Trash"
+msgstr "குப்பைத் தொட்டிக்கு நகர்த்து"
+
+msgid "Empty Trash"
+msgstr "குப்பைத் தொட்டியைக் காலியாக்கு"
+
+msgid "Open With"
+msgstr "இதனுடன் திற"
+
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgid "_Remove"
+msgstr "அகற்று (_R)"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "_Show"
+msgstr "காட்டு (_S)"
+
+msgid "Hi_de"
+msgstr "மறை (_D)"
+
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+msgid "C_reate"
+msgstr "உருவாக்கு (_R)"
+
+msgid "_Rename"
+msgstr "பெயர்மாற்று (_R)"
+
+msgid "Error"
+msgstr "பிழை"
+
+msgid "_Yes"
+msgstr "ஆம் (_Y)"
+
+msgid "_Replace"
+msgstr "மாற்றீடு செய் (_R)"
+
+msgid "_Skip"
+msgstr "தவிர் (_S)"
+
+msgid "Re_name"
+msgstr "பெயர்மாற்று (_N)"
+
+msgid "_No"
+msgstr "இல்லை (_N)"
+
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+msgid "Date Modified"
+msgstr "மாற்றிய நாள்"
+
+msgid "Location"
+msgstr "இருப்பிடம்"
+
+msgid "Name"
+msgstr "பெயர்"
+
+msgid "Size"
+msgstr "அளவு"
+
+msgid "Type"
+msgstr "வகை"
+
+msgid "File"
+msgstr "கோப்பு"
+
+msgid "Never"
+msgstr "ஒருபோதும் இல்லை"
+
+msgid "Always"
+msgstr "எப்போதும்"
+
+msgid "Copy"
+msgstr "நகலெடு"
+
+msgid "Move"
+msgstr "நகர்த்து"
+
+msgid "Rename"
+msgstr "பெயர்மாற்று"
+
+msgid "Create Folder"
+msgstr "கோப்புறை உருவாக்கு"
+
+msgid "Trash"
+msgstr "குப்பைத் தொட்டி"
+
+msgid "File System"
+msgstr "கோப்பு முறைமை"
+
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "Icon View"
+msgstr "சின்னக் காட்சி"
+
+msgid "List View"
+msgstr "பட்டியல் காட்சி"
+
+msgid "Compact View"
+msgstr "அடர் காட்சி"
+
+msgid "Side Pane"
+msgstr "பக்கப் பலகம்"
+
+msgid "Search"
+msgstr "தேடு"
+
+msgid "View"
+msgstr "காட்சி"
+
+msgid "General"
+msgstr "பொது"
+
+msgid "_Apply"
+msgstr "செயல்படுத்து (_A)"
+
+msgid "_Reset"
+msgstr "மீட்டமை (_R)"
+
+msgid "Properties"
+msgstr "பண்புகள்"
+
+msgid "Clear"
+msgstr "அழி"
+
+msgid "_About"
+msgstr "பற்றி (_A)"
+
+msgid "Bulk Rename"
+msgstr "தொகுப்பாகப் பெயர்மாற்று"
+
+msgid "Trash is empty"
+msgstr "குப்பைத் தொட்டி காலியாக உள்ளது"
+
+msgid "Devices"
+msgstr "சாதனங்கள்"
+
+msgid "Network"
+msgstr "வலையமைப்பு"
+
+msgid "Browse Network"
+msgstr "வலையமைப்பில் உலாவு"
+
+msgid "Places"
+msgstr "இடங்கள்"
+
+msgid "Computer"
+msgstr "கணினி"
+
+msgid "Recent"
+msgstr "அண்மையவை"
+
+msgid "Select _all Files"
+msgstr "அனைத்துக் கோப்புகளையும் தேர்ந்தெடு (_A)"
+
+msgid "Select _by Pattern..."
+msgstr "வடிவத்தால் தேர்ந்தெடு (_B)..."
+
+msgid "_Invert Selection"
+msgstr "தேர்வைத் தலைகீழாக்கு (_I)"
+
+msgid "U_nselect all Files"
+msgstr "அனைத்துத் தேர்வையும் நீக்கு (_N)"
+
+msgctxt "Select by Pattern dialog: title"
+msgid "Select by Pattern"
+msgstr "வடிவத்தால் தேர்ந்தெடு"
+
+msgctxt "Select by Pattern dialog: buttons"
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "_File"
+msgstr "கோப்பு (_F)"
+
+msgid "New _Tab"
+msgstr "புதிய தாவல் (_T)"
+
+msgid "New _Window"
+msgstr "புதிய சாளரம் (_W)"
+
+msgid "Detac_h Tab"
+msgstr "தாவலைப் பிரி (_H)"
+
+msgid "Close Ta_b"
+msgstr "தாவலை மூடு (_B)"
+
+msgid "_Close Window"
+msgstr "சாளரத்தை மூடு (_C)"
+
+msgid "Close _All Windows"
+msgstr "அனைத்துச் சாளரங்களையும் மூடு (_A)"
+
+msgid "_Edit"
+msgstr "திருத்து (_E)"
+
+msgid "_Undo"
+msgstr "செயல்தவிர் (_U)"
+
+msgid "Red_o"
+msgstr "மீண்டும் செய் (_O)"
+
+msgid "Pr_eferences..."
+msgstr "விருப்பங்கள் (_E)..."
+
+msgid "_View"
+msgstr "காட்சி (_V)"
+
+msgid "_Reload"
+msgstr "மீளேற்று (_R)"
+
+msgid "S_plit View"
+msgstr "பிரித்த காட்சி (_P)"
+
+msgid "Locatio_n Selector"
+msgstr "இருப்பிடத் தேர்வி (_N)"
+
+msgid "_Side Pane"
+msgstr "பக்கப் பலகம் (_S)"
+
+msgid "St_atusbar"
+msgstr "நிலைப்பட்டை (_A)"
+
+msgid "_Menubar"
+msgstr "பட்டிப்பட்டை (_M)"
+
+msgid "Configure _Toolbar..."
+msgstr "கருவிப்பட்டையை அமை (_T)..."
+
+msgid "Show _Hidden Files"
+msgstr "மறைந்த கோப்புகளைக் காட்டு (_H)"
+
+msgid "Zoom I_n"
+msgstr "அருகில் காட்டு (_N)"
+
+msgid "Zoom _Out"
+msgstr "தொலைவில் காட்டு (_O)"
+
+msgid "Normal Si_ze"
+msgstr "இயல்பான அளவு (_Z)"
+
+msgid "_Icon View"
+msgstr "சின்னக் காட்சி (_I)"
+
+msgid "_List View"
+msgstr "பட்டியல் காட்சி (_L)"
+
+msgid "_Compact View"
+msgstr "அடர் காட்சி (_C)"
+
+msgid "_Go"
+msgstr "செல் (_G)"
+
+msgid "F_ile System"
+msgstr "கோப்பு முறைமை (_I)"
+
+msgid "_Home"
+msgstr "இல்லம் (_H)"
+
+msgid "_Desktop"
+msgstr "மேசைத்தளம் (_D)"
+
+msgid "_Computer"
+msgstr "கணினி (_C)"
+
+msgid "_Recent"
+msgstr "அண்மையவை (_R)"
+
+msgid "_Trash"
+msgstr "குப்பைத் தொட்டி (_T)"
+
+msgid "Open _Parent"
+msgstr "மேல் கோப்புறையைத் திற (_P)"
+
+msgid "_Open Location..."
+msgstr "இருப்பிடத்தைத் திற (_O)..."
+
+msgid "T_emplates"
+msgstr "வார்ப்புருக்கள் (_E)"
+
+msgid "Browse _Network"
+msgstr "வலையமைப்பில் உலாவு (_N)"
+
+msgid "_Bookmarks"
+msgstr "புத்தகக்குறிகள் (_B)"
+
+msgid "_Contents"
+msgstr "உள்ளடக்கம் (_C)"
+
+msgid "_Back"
+msgstr "பின்செல் (_B)"
+
+msgid "_Forward"
+msgstr "முன்செல் (_F)"
+
+msgid "_Previous Tab"
+msgstr "முந்தைய தாவல் (_P)"
+
+msgid "_Next Tab"
+msgstr "அடுத்த தாவல் (_N)"
+
+msgid "_Search for Files..."
+msgstr "கோப்புகளைத் தேடு (_S)..."
+
+msgid "Home"
+msgstr "இல்லம்"

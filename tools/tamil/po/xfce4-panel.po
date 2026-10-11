@@ -1,0 +1,197 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "Panel"
+msgstr "பலகம்"
+
+msgid "Remove"
+msgstr "அகற்று"
+
+msgid "_Properties"
+msgstr "பண்புகள் (_P)"
+
+msgid "_About"
+msgstr "பற்றி (_A)"
+
+msgid "_Move"
+msgstr "நகர்த்து (_M)"
+
+msgid "_Remove"
+msgstr "அகற்று (_R)"
+
+msgid "Pane_l"
+msgstr "பலகம் (_L)"
+
+msgid "Add _New Items..."
+msgstr "புதிய உருப்படிகளைச் சேர் (_N)..."
+
+msgid "Panel Pr_eferences..."
+msgstr "பலக விருப்பங்கள் (_E)..."
+
+msgid "Log _Out"
+msgstr "வெளியேறு (_O)"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "About"
+msgstr "பற்றி"
+
+msgid "Execute"
+msgstr "இயக்கு"
+
+msgid "_Quit"
+msgstr "விலகு (_Q)"
+
+msgid "Create _Launcher"
+msgstr "தொடக்கி உருவாக்கு (_L)"
+
+msgid "Quit"
+msgstr "விலகு"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "_Add"
+msgstr "சேர் (_A)"
+
+msgid "Add New Items"
+msgstr "புதிய உருப்படிகளைச் சேர்"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "_Execute"
+msgstr "இயக்கு (_E)"
+
+msgid "Never"
+msgstr "ஒருபோதும் இல்லை"
+
+msgid "Always"
+msgstr "எப்போதும்"
+
+msgid "Panel Preferences"
+msgstr "பலக விருப்பங்கள்"
+
+msgid "_Lock Panel"
+msgstr "பலகத்தைப் பூட்டு (_L)"
+
+msgid "General"
+msgstr "பொது"
+
+msgid "Log Out"
+msgstr "வெளியேறு"
+
+msgid "_Log Out"
+msgstr "வெளியேறு (_L)"
+
+msgid "Log Out..."
+msgstr "வெளியேறு..."
+
+msgid "Log _Out..."
+msgstr "வெளியேறு (_O)..."
+
+msgid "Switch User"
+msgstr "பயனரை மாற்று"
+
+msgid "_Switch User"
+msgstr "பயனரை மாற்று (_S)"
+
+msgid "Lock Screen"
+msgstr "திரையைப் பூட்டு"
+
+msgid "Loc_k Screen"
+msgstr "திரையைப் பூட்டு (_K)"
+
+msgid "Hibernate"
+msgstr "உறங்கு"
+
+msgid "_Hibernate"
+msgstr "உறங்கு (_H)"
+
+msgid "Hybrid Sleep"
+msgstr "கலப்பு உறக்கம்"
+
+msgid "_Hybrid Sleep"
+msgstr "கலப்பு உறக்கம் (_H)"
+
+msgid "Suspend"
+msgstr "இடைநிறுத்து"
+
+msgid "Sus_pend"
+msgstr "இடைநிறுத்து (_P)"
+
+msgid "Restart"
+msgstr "மறுதொடக்கம்"
+
+msgid "_Restart"
+msgstr "மறுதொடக்கம் (_R)"
+
+msgid "Shut Down"
+msgstr "அணை"
+
+msgid "Shut _Down"
+msgstr "அணை (_D)"
+
+msgid "Are you sure you want to shut down?"
+msgstr "உறுதியாக அணைக்க வேண்டுமா?"
+
+msgid "Separator"
+msgstr "பிரிப்பான்"
+
+msgid "Applications Menu"
+msgstr "செயலிகள் பட்டியல்"
+
+msgid "Applications"
+msgstr "செயலிகள்"
+
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgid "Clock"
+msgstr "கடிகாரம்"
+
+msgid "C_reate"
+msgstr "உருவாக்கு (_R)"
+
+msgid "Create Folder..."
+msgstr "கோப்புறை உருவாக்கு..."
+
+msgid "Default"
+msgstr "இயல்புநிலை"
+
+msgid "Workspace Switcher"
+msgstr "பணியிட மாற்றி"
+
+msgid "Show Desktop"
+msgstr "மேசைத்தளத்தைக் காட்டு"
+
+msgid "Clear"
+msgstr "அழி"
+
+msgid "Close Window"
+msgstr "சாளரத்தை மூடு"
+
+msgid "Minimize Window"
+msgstr "சாளரத்தைச் சிறிதாக்கு"
+
+msgid "Window Buttons"
+msgstr "சாளரப் பொத்தான்கள்"
+
+msgid "Un_minimize All"
+msgstr "அனைத்தையும் மீட்டமை (_M)"
+
+msgid "Ma_ximize All"
+msgstr "அனைத்தையும் பெரிதாக்கு (_X)"
+
+msgid "_Close All"
+msgstr "அனைத்தையும் மூடு (_C)"
+
+msgid "Desktop"
+msgstr "மேசைத்தளம்"
+
+msgid "No Windows"
+msgstr "சாளரங்கள் இல்லை"
+
+msgid "Window Menu"
+msgstr "சாளரப் பட்டியல்"

@@ -1,0 +1,155 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "General"
+msgstr "பொது"
+
+msgid "Never"
+msgstr "ஒருபோதும் இல்லை"
+
+msgid "Always"
+msgstr "எப்போதும்"
+
+msgid "Reset"
+msgstr "மீட்டமை"
+
+msgid "Tabs"
+msgstr "தாவல்கள்"
+
+msgid "Terminal"
+msgstr "முனையம்"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "_Paste"
+msgstr "ஒட்டு (_P)"
+
+msgid "Find"
+msgstr "கண்டுபிடி"
+
+msgid "_File"
+msgstr "கோப்பு (_F)"
+
+msgid "Open _Tab"
+msgstr "தாவலைத் திற (_T)"
+
+msgid "Open T_erminal"
+msgstr "முனையத்தைத் திற (_E)"
+
+msgid "_Open File Manager Here"
+msgstr "இங்கே கோப்பு மேலாளரைத் திற (_O)"
+
+msgid "_Undo Close Tab"
+msgstr "மூடிய தாவலை மீட்டெடு (_U)"
+
+msgid "_Detach Tab"
+msgstr "தாவலைப் பிரி (_D)"
+
+msgid "Close T_ab"
+msgstr "தாவலை மூடு (_A)"
+
+msgid "Close Other Ta_bs"
+msgstr "மற்ற தாவல்களை மூடு (_B)"
+
+msgid "Close _Window"
+msgstr "சாளரத்தை மூடு (_W)"
+
+msgid "_Edit"
+msgstr "திருத்து (_E)"
+
+msgid "_Copy"
+msgstr "நகலெடு (_C)"
+
+msgid "Copy as _HTML"
+msgstr "HTML ஆக நகலெடு (_H)"
+
+msgid "Paste _Selection"
+msgstr "தேர்வை ஒட்டு (_S)"
+
+msgid "Select _All"
+msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
+
+msgid "Pr_eferences..."
+msgstr "விருப்பங்கள் (_E)..."
+
+msgid "_View"
+msgstr "காட்சி (_V)"
+
+msgid "Zoom _In"
+msgstr "அருகில் காட்டு (_I)"
+
+msgid "Zoom _Out"
+msgstr "தொலைவில் காட்டு (_O)"
+
+msgid "_Normal Size"
+msgstr "இயல்பான அளவு (_N)"
+
+msgid "_Terminal"
+msgstr "முனையம் (_T)"
+
+msgid "_Set Title..."
+msgstr "தலைப்பை அமை (_S)..."
+
+msgid "_Find..."
+msgstr "கண்டுபிடி (_F)..."
+
+msgid "Find Ne_xt"
+msgstr "அடுத்ததைக் கண்டுபிடி (_X)"
+
+msgid "Find Pre_vious"
+msgstr "முந்தையதைக் கண்டுபிடி (_V)"
+
+msgid "Sa_ve Contents..."
+msgstr "உள்ளடக்கத்தைச் சேமி (_V)..."
+
+msgid "_Reset"
+msgstr "மீட்டமை (_R)"
+
+msgid "T_abs"
+msgstr "தாவல்கள் (_A)"
+
+msgid "_Previous Tab"
+msgstr "முந்தைய தாவல் (_P)"
+
+msgid "_Next Tab"
+msgstr "அடுத்த தாவல் (_N)"
+
+msgid "_Contents"
+msgstr "உள்ளடக்கம் (_C)"
+
+msgid "_About"
+msgstr "பற்றி (_A)"
+
+msgid "Show _Menubar"
+msgstr "பட்டிப்பட்டையைக் காட்டு (_M)"
+
+msgid "Show _Toolbar"
+msgstr "கருவிப்பட்டையைக் காட்டு (_T)"
+
+msgid "_Fullscreen"
+msgstr "முழுத்திரை (_F)"
+
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+msgid "Help"
+msgstr "உதவி"
+
+msgid "Close"
+msgstr "மூடு"
+
+msgid "_Save"
+msgstr "சேமி (_S)"
+
+msgid "Copy"
+msgstr "நகலெடு"
+
+msgid "Paste"
+msgstr "ஒட்டு"

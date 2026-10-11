@@ -1,0 +1,105 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "_Add"
+msgstr "சேர் (_A)"
+
+msgid "Setti_ngs"
+msgstr "அமைப்புகள் (_N)"
+
+msgid "_Remove"
+msgstr "அகற்று (_R)"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgid "Never"
+msgstr "ஒருபோதும் இல்லை"
+
+msgid "Always"
+msgstr "எப்போதும்"
+
+msgid "A_pply"
+msgstr "செயல்படுத்து (_P)"
+
+msgid "_General"
+msgstr "பொது (_G)"
+
+msgid "Apply"
+msgstr "செயல்படுத்து"
+
+msgid "Create"
+msgstr "உருவாக்கு"
+
+msgid "General"
+msgstr "பொது"
+
+msgid "_Edit"
+msgstr "திருத்து (_E)"
+
+msgid "_Devices"
+msgstr "சாதனங்கள் (_D)"
+
+msgid "Size"
+msgstr "அளவு"
+
+msgctxt "Monitor vendor"
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+msgid "_Open"
+msgstr "திற (_O)"
+
+msgid "Unknown"
+msgstr "தெரியவில்லை"
+
+msgid "Cancel"
+msgstr "ரத்துசெய்"
+
+msgid "Delete"
+msgstr "நீக்கு"
+
+msgid "No"
+msgstr "இல்லை"
+
+msgid "Yes"
+msgstr "ஆம்"
+
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+msgid "Open"
+msgstr "திற"
+
+msgid "Default"
+msgstr "இயல்புநிலை"
+
+msgid "Type"
+msgstr "வகை"
+
+msgid "_Reset"
+msgstr "மீட்டமை (_R)"
+
+msgid "Clear"
+msgstr "அழி"
+
+msgid "Close"
+msgstr "மூடு"
+
+msgid "Save"
+msgstr "சேமி"
+
+msgid "Settings"
+msgstr "அமைப்புகள்"

@@ -1,0 +1,71 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "Always"
+msgstr "எப்போதும்"
+
+msgid "Never"
+msgstr "ஒருபோதும் இல்லை"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgid "Cancel"
+msgstr "ரத்துசெய்"
+
+msgid "OK"
+msgstr "சரி"
+
+msgid "Add"
+msgstr "சேர்"
+
+msgid "Remove"
+msgstr "அகற்று"
+
+msgid "Edit"
+msgstr "திருத்து"
+
+msgid "Log Out"
+msgstr "வெளியேறு"
+
+msgid "_Quit"
+msgstr "விலகு (_Q)"
+
+msgid "_Log Out"
+msgstr "வெளியேறு (_L)"
+
+msgid "_Restart"
+msgstr "மறுதொடக்கம் (_R)"
+
+msgid "Shut _Down"
+msgstr "அணை (_D)"
+
+msgid "Sus_pend"
+msgstr "இடைநிறுத்து (_P)"
+
+msgid "_Hibernate"
+msgstr "உறங்கு (_H)"
+
+msgid "H_ybrid Sleep"
+msgstr "கலப்பு உறக்கம் (_Y)"
+
+msgid "Switch _User"
+msgstr "பயனரை மாற்று (_U)"
+
+msgid "Log out of the Xfce Desktop"
+msgstr "Xfce மேசைத்தளத்திலிருந்து வெளியேறு"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "_General"
+msgstr "பொது (_G)"
+
+msgid "_Remove"
+msgstr "அகற்று (_R)"

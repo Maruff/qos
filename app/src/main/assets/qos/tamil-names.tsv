@@ -1,0 +1,51 @@
+# qos Desktop in Tamil: names in the Applications menu.
+# English<TAB>Tamil. The English is the Name= of an application (.desktop) or a
+# menu category (.directory) as installed; qos-xsession gives each a Tamil name.
+#
+# Menu categories
+Accessories	துணைக்கருவிகள்
+Development	மென்பொருள் உருவாக்கம்
+Education	கல்வி
+Games	விளையாட்டுகள்
+Graphics	வரைகலை
+Health	உடல்நலம்
+Multimedia	பல்லூடகம்
+Network	வலையமைப்பு
+Office	அலுவலகம்
+Other	பிற
+Science	அறிவியல்
+Screensavers	திரைக்காப்புகள்
+Settings	அமைப்புகள்
+System	கணினி அமைப்பு
+#
+# Applications
+Accessibility	அணுகல்தன்மை
+Appearance	தோற்றம்
+Application Finder	செயலி தேடி
+Bulk Rename	தொகுப்பாகப் பெயர்மாற்று
+Color Profiles	வண்ணச் சுயவிவரங்கள்
+Default Applications	இயல்புநிலைச் செயலிகள்
+Desktop	மேசைத்தளம்
+Display	திரை
+File Manager	கோப்பு மேலாளர்
+File Manager Settings	கோப்பு மேலாளர் அமைப்புகள்
+Keyboard	விசைப்பலகை
+Log Out	வெளியேறு
+Mail Reader	மின்னஞ்சல்
+MIME Type Editor	MIME வகை திருத்தி
+Mouse and Touchpad	சுட்டியும் தொடுதிட்டும்
+Notifications	அறிவிப்புகள்
+Panel	பலகம்
+Power Manager	மின் மேலாளர்
+Removable Drives and Media	நீக்கக்கூடிய இயக்கிகள்
+Run Program...	நிரலை இயக்கு...
+Session and Startup	அமர்வும் தொடக்கமும்
+Settings Editor	அமைப்புகள் திருத்தி
+Settings Manager	அமைப்புகள் மேலாளர்
+Terminal Emulator	முனையம்
+Thunar File Manager	Thunar கோப்பு மேலாளர்
+Web Browser	இணைய உலாவி
+Window Manager	சாளர மேலாளர்
+Window Manager Tweaks	சாளர மேலாளர் நுணுக்கங்கள்
+Workspaces	பணியிடங்கள்
+Xfce Terminal	Xfce முனையம்

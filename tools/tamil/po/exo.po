@@ -1,0 +1,23 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "_Open"
+msgstr "திற (_O)"
+
+msgid "_OK"
+msgstr "சரி (_O)"
+
+msgid "Create Launcher"
+msgstr "தொடக்கி உருவாக்கு"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "C_reate"
+msgstr "உருவாக்கு (_R)"
+
+msgid "_Save"
+msgstr "சேமி (_S)"

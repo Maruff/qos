@@ -1,0 +1,89 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+msgid "None"
+msgstr "ஏதுமில்லை"
+
+msgid "Workspaces"
+msgstr "பணியிடங்கள்"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "Shade"
+msgstr "சுருட்டு"
+
+msgid "Minimize"
+msgstr "சிறிதாக்கு"
+
+msgid "Maximize"
+msgstr "பெரிதாக்கு"
+
+msgid "Close"
+msgstr "மூடு"
+
+msgid "_Edit"
+msgstr "திருத்து (_E)"
+
+msgid "_Clear"
+msgstr "அழி (_C)"
+
+msgid "_Workspaces"
+msgstr "பணியிடங்கள் (_W)"
+
+msgid "_General"
+msgstr "பொது (_G)"
+
+msgid "Ma_ximize"
+msgstr "பெரிதாக்கு (_X)"
+
+msgid "Unma_ximize"
+msgstr "பழைய அளவுக்கு மீட்டமை (_X)"
+
+msgid "Mi_nimize"
+msgstr "சிறிதாக்கு (_N)"
+
+msgid "Minimize _Other Windows"
+msgstr "மற்ற சாளரங்களைச் சிறிதாக்கு (_O)"
+
+msgid "S_how"
+msgstr "காட்டு (_H)"
+
+msgid "_Move"
+msgstr "நகர்த்து (_M)"
+
+msgid "_Resize"
+msgstr "அளவை மாற்று (_R)"
+
+msgid "Always on _Top"
+msgstr "எப்போதும் மேலே (_T)"
+
+msgid "Always _Below Other Windows"
+msgstr "எப்போதும் மற்ற சாளரங்களுக்குக் கீழே (_B)"
+
+msgid "_Fullscreen"
+msgstr "முழுத்திரை (_F)"
+
+msgid "Leave _Fullscreen"
+msgstr "முழுத்திரையிலிருந்து வெளியேறு (_F)"
+
+msgid "Always on _Visible Workspace"
+msgstr "எப்போதும் தெரியும் பணியிடத்தில் (_V)"
+
+msgid "Move to Another _Workspace"
+msgstr "வேறு பணியிடத்துக்கு நகர்த்து (_W)"
+
+msgid "Move to Another Monitor"
+msgstr "வேறு திரைக்கு நகர்த்து"
+
+msgid "_Quit"
+msgstr "விலகு (_Q)"
+
+msgid "Restart"
+msgstr "மறுதொடக்கம்"

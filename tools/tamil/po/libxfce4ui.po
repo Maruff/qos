@@ -1,0 +1,44 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+
+msgid "_Cancel"
+msgstr "ரத்துசெய் (_C)"
+
+msgid "Close"
+msgstr "மூடு"
+
+msgid "No"
+msgstr "இல்லை"
+
+msgid "Yes"
+msgstr "ஆம்"
+
+msgid "Cancel"
+msgstr "ரத்துசெய்"
+
+msgid "Warning"
+msgstr "எச்சரிக்கை"
+
+msgid "Close T_ab"
+msgstr "தாவலை மூடு (_A)"
+
+msgid "Close _Window"
+msgstr "சாளரத்தை மூடு (_W)"
+
+msgid "Clear"
+msgstr "அழி"
+
+msgid "Panel"
+msgstr "பலகம்"
+
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+msgid "About"
+msgstr "பற்றி"
+
+msgid "Unknown"
+msgstr "தெரியவில்லை"
