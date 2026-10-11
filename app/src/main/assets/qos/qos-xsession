@@ -1,55 +1,74 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # qos-xsession: the XFCE session qos Desktop shows, with qos's look.
 #
-# qos's defaults are applied once, on the first start: after that anything
-# changed in XFCE's own settings stays changed. Delete ~/.qos/desktop-defaults
-# to have them applied again.
+# qos's defaults are applied once each: after that anything changed in XFCE's
+# own settings stays changed. Delete the marker in ~/.qos to have one applied
+# again: desktop-defaults for scaling, desktop-look-2 for the theme, wallpaper
+# and terminal colours.
 
-MARKER="$HOME/.qos/desktop-defaults"
+SCALING_MARKER="$HOME/.qos/desktop-defaults"
+LOOK_MARKER="$HOME/.qos/desktop-look-2"
 WALLPAPER="$PREFIX/share/backgrounds/qos/qos.png"
 
-apply_defaults() {
-    # Window scaling from the screen's density: phones (about 400 dpi and up)
-    # get everything twice the size, tablets stay at 1.
-    local density scale
+mkdir -p "$HOME/.qos"
+
+# Window scaling from the screen's density: phones (about 400 dpi and up) get
+# everything twice the size, tablets stay at 1.
+if [ ! -f "$SCALING_MARKER" ]; then
     density="$(/system/bin/getprop ro.sf.lcd_density 2>/dev/null)"
     scale=1
     [ "${density:-0}" -ge 360 ] && scale=2
-
-    xfconf-query -c xsettings -p /Net/ThemeName -n -t string -s "Adwaita-dark"
-    xfconf-query -c xsettings -p /Net/IconThemeName -n -t string -s "Adwaita"
     xfconf-query -c xsettings -p /Gdk/WindowScalingFactor -n -t int -s "$scale"
     if [ "$scale" = 2 ]; then
         xfconf-query -c xfwm4 -p /general/theme -n -t string -s "Default-xhdpi"
     fi
+    date > "$SCALING_MARKER"
+fi
 
+# The qos look: the qos GTK theme (in $PREFIX/share/themes/qos, also listed in
+# Settings > Appearance), the qos wallpaper and qos terminal colours.
+if [ ! -f "$LOOK_MARKER" ]; then
+    xfconf-query -c xsettings -p /Net/ThemeName -n -t string -s "qos"
+    xfconf-query -c xsettings -p /Net/IconThemeName -n -t string -s "Adwaita"
+
+    # xfdesktop names its settings after the display: Termux:X11's is "screen".
+    # monitor0 is what older xfdesktop versions use.
+    for monitor in monitorscreen monitor0; do
+        base="/backdrop/screen0/$monitor/workspace0"
+        xfconf-query -c xfce4-desktop -p "$base/last-image" -n -t string -s "$WALLPAPER"
+        xfconf-query -c xfce4-desktop -p "$base/image-style" -n -t int -s 5
+    done
+
+    xfconf-query -c xfce4-terminal -p /color-use-theme -n -t bool -s false
     xfconf-query -c xfce4-terminal -p /color-background -n -t string -s "#000000"
     xfconf-query -c xfce4-terminal -p /color-foreground -n -t string -s "#E9F1EF"
     xfconf-query -c xfce4-terminal -p /color-cursor -n -t string -s "#10F3BE"
-    xfconf-query -c xfce4-terminal -p /color-use-theme -n -t bool -s false
 
-    mkdir -p "$(dirname "$MARKER")"
-    date > "$MARKER"
-}
+    date > "$LOOK_MARKER"
+fi
 
-# The wallpaper belongs to xfdesktop, which names its settings after the
-# monitor, so set it once xfdesktop has created them.
-apply_wallpaper() {
-    local prop found=0
-    for _ in $(seq 1 30); do
-        for prop in $(xfconf-query -c xfce4-desktop -l 2>/dev/null | grep '/last-image$'); do
-            xfconf-query -c xfce4-desktop -p "$prop" -s "$WALLPAPER"
-            xfconf-query -c xfce4-desktop -p "${prop%/last-image}/image-style" -n -t int -s 5
-            found=1
+# qos on the panel: the Applications menu button shows the qos mark and "qos".
+# The panel writes its layout on its first start, so wait for it, then find the
+# menu button by type rather than by number.
+BRAND_MARKER="$HOME/.qos/desktop-brand-1"
+brand_panel() {
+    local id kind
+    for _ in $(seq 1 60); do
+        for id in $(xfconf-query -c xfce4-panel -l 2>/dev/null | grep -E '^/plugins/plugin-[0-9]+$'); do
+            kind="$(xfconf-query -c xfce4-panel -p "$id" 2>/dev/null)"
+            case "$kind" in
+                applicationsmenu|whiskermenu)
+                    xfconf-query -c xfce4-panel -p "$id/button-icon" -n -t string -s "$PREFIX/share/pixmaps/qos.png"
+                    xfconf-query -c xfce4-panel -p "$id/button-title" -n -t string -s "qos"
+                    xfconf-query -c xfce4-panel -p "$id/show-button-title" -n -t bool -s true
+                    date > "$BRAND_MARKER"
+                    return
+                    ;;
+            esac
         done
-        [ "$found" = 1 ] && return
         sleep 1
     done
 }
-
-if [ ! -f "$MARKER" ]; then
-    apply_defaults
-    apply_wallpaper &
-fi
+[ -f "$BRAND_MARKER" ] || brand_panel &
 
 exec xfce4-session

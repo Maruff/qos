@@ -59,6 +59,7 @@ public class SettingsActivity extends AppCompatActivity {
             if (context == null) return;
 
             setPreferencesFromResource(R.xml.root_preferences, rootKey);
+            configureLanguagePreference();
 
             new Thread() {
                 @Override
@@ -71,6 +72,18 @@ public class SettingsActivity extends AppCompatActivity {
                     configureDonatePreference(context);
                 }
             }.start();
+        }
+
+        /** qos: English, Tamil, or the phone's language, applied at once by AppCompat. */
+        private void configureLanguagePreference() {
+            androidx.preference.ListPreference language = findPreference("qos_language");
+            if (language == null) return;
+            language.setValue(androidx.appcompat.app.AppCompatDelegate.getApplicationLocales().toLanguageTags());
+            language.setOnPreferenceChangeListener((preference, value) -> {
+                androidx.appcompat.app.AppCompatDelegate.setApplicationLocales(
+                    androidx.core.os.LocaleListCompat.forLanguageTags((String) value));
+                return true;
+            });
         }
 
         private void configureTermuxAPIPreference(@NonNull Context context) {

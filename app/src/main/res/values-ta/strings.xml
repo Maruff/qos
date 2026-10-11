@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- qos: Tamil. The screens people use every day; messages meant for developers stay in English. -->
+<resources>
+    <string name="bootstrap_installer_body">அடிப்படைத் தொகுப்புகள் நிறுவப்படுகின்றன…</string>
+    <string name="bootstrap_error_title">அடிப்படைத் தொகுப்புகளை நிறுவ முடியவில்லை</string>
+    <string name="bootstrap_error_body">qos அடிப்படைத் தொகுப்புகளை நிறுவ முடியவில்லை.</string>
+    <string name="bootstrap_error_abort">நிறுத்து</string>
+    <string name="bootstrap_error_try_again">மீண்டும் முயல்</string>
+
+    <string name="action_new_session">புதிய அமர்வு</string>
+    <string name="action_open_code">VS Code</string>
+    <string name="action_open_desktop">மேசைத்தளம்</string>
+    <string name="action_new_session_failsafe">பாதுகாப்பு முறை</string>
+    <string name="title_max_terminals_reached">முனையங்களின் அதிகபட்ச எண்ணிக்கை</string>
+    <string name="msg_max_terminals_reached">புதியதைத் திறக்கும் முன் இருப்பவற்றில் சிலவற்றை மூடுங்கள்.</string>
+    <string name="title_rename_session">அமர்வுக்குப் பெயரிடுங்கள்</string>
+    <string name="action_rename_session_confirm">அமை</string>
+    <string name="title_create_named_session">பெயருடன் புதிய அமர்வு</string>
+    <string name="action_create_named_session_confirm">உருவாக்கு</string>
+    <string name="action_toggle_soft_keyboard">விசைப்பலகை</string>
+    <string name="msg_enabling_terminal_toolbar">முனையக் கருவிப்பட்டை காட்டப்படுகிறது</string>
+    <string name="msg_disabling_terminal_toolbar">முனையக் கருவிப்பட்டை மறைக்கப்படுகிறது</string>
+
+    <string name="action_select_url">இணைய முகவரியைத் தேர்ந்தெடு</string>
+    <string name="title_select_url_dialog">நகலெடுக்கத் தொடுங்கள், திறக்க நீண்ட நேரம் அழுத்துங்கள்</string>
+    <string name="title_select_url_none_found">முனையத்தில் இணைய முகவரி எதுவும் இல்லை.</string>
+    <string name="msg_select_url_copied_to_clipboard">இணைய முகவரி நகலெடுக்கப்பட்டது</string>
+    <string name="action_share_transcript">முனையப் பதிவைப் பகிர்</string>
+    <string name="title_share_transcript">முனையப் பதிவு</string>
+    <string name="title_share_transcript_with">பதிவை அனுப்ப:</string>
+    <string name="action_share_selected_text">தேர்ந்த உரையைப் பகிர்</string>
+    <string name="title_share_selected_text">முனைய உரை</string>
+    <string name="title_share_selected_text_with">தேர்ந்த உரையை அனுப்ப:</string>
+    <string name="action_autofill_username">பயனர்பெயரைத் தானாக நிரப்பு</string>
+    <string name="action_autofill_password">கடவுச்சொல்லைத் தானாக நிரப்பு</string>
+    <string name="action_reset_terminal">மீட்டமை</string>
+    <string name="msg_terminal_reset">முனையம் மீட்டமைக்கப்பட்டது</string>
+    <string name="action_kill_process">செயல்முறையை நிறுத்து (%d)</string>
+    <string name="title_confirm_kill_process">இந்த அமர்வை நிறுத்தவா?</string>
+    <string name="action_style_terminal">தோற்றம்</string>
+    <string name="action_toggle_keep_screen_on">திரையை அணையாமல் வை</string>
+    <string name="action_open_help">உதவி</string>
+    <string name="action_open_settings">அமைப்புகள்</string>
+    <string name="action_report_issue">சிக்கலைத் தெரிவி</string>
+
+    <string name="notification_action_exit">வெளியேறு</string>
+    <string name="notification_action_wake_lock">விழிப்புப் பூட்டைப் பெறு</string>
+    <string name="notification_action_wake_unlock">விழிப்புப் பூட்டை விடு</string>
+    <string name="error_display_over_other_apps_permission_not_granted_to_start_terminal">பின்னணியிலிருந்து முனைய அமர்வுகளைத் தொடங்க, ஆண்ட்ராய்டு 10 மற்றும் புதியவற்றில் qos-க்கு \"Display over other apps\" அனுமதி தேவை. அமைப்புகள் → செயலிகள் → qos என்பதில் வழங்குங்கள்.</string>
+
+    <string name="title_activity_termux_settings">qos அமைப்புகள்</string>
+    <string name="termux_preferences_title">qos</string>
+    <string name="termux_preferences_summary">qos செயலிக்கான அமைப்புகள்</string>
+
+    <string name="qos_language_title">மொழி / Language</string>
+    <string name="qos_language_system">கைபேசியின் மொழி</string>
+    <string name="code_not_installed">VS Code இன்னும் நிறுவப்படவில்லை.\n\nமுனையத்தைத் திறந்து இயக்குங்கள்:\nqos-setup</string>
+    <string name="code_starting">VS Code தொடங்குகிறது…</string>
+    <string name="code_failed">VS Code தொடங்கவில்லை.\n\nகாரணத்தைப் பார்க்க முனையத்தில் code-server இயக்குங்கள்.</string>
+</resources>

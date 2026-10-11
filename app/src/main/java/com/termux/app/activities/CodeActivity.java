@@ -1,6 +1,6 @@
 package com.termux.app.activities;
 
-import android.app.Activity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
@@ -11,6 +11,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.TextView;
 
+import com.termux.R;
 import com.termux.app.TermuxService;
 import com.termux.shared.termux.TermuxConstants;
 import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_SERVICE;
@@ -32,7 +33,7 @@ import java.net.URLEncoder;
  * config. Password auth stays on because 127.0.0.1 is reachable by every app
  * on the device, and code-server is a shell.
  */
-public final class CodeActivity extends Activity {
+public final class CodeActivity extends AppCompatActivity {
 
     private static final String HOST = "127.0.0.1";
     private static final int PORT = 8080;
@@ -55,7 +56,7 @@ public final class CodeActivity extends Activity {
         setContentView(mStatus);
 
         if (!new File(CODE_SERVER).exists()) {
-            mStatus.setText("VS Code is not installed yet.\n\nOpen the terminal and run:\nqos-setup");
+            mStatus.setText(R.string.code_not_installed);
             return;
         }
 
@@ -72,7 +73,7 @@ public final class CodeActivity extends Activity {
             }
         });
 
-        mStatus.setText("Starting VS Code…");
+        mStatus.setText(R.string.code_starting);
         new Thread(this::startAndLogIn).start();
     }
 
@@ -82,7 +83,7 @@ public final class CodeActivity extends Activity {
             long deadline = System.currentTimeMillis() + START_TIMEOUT_MS;
             while (!isListening()) {
                 if (System.currentTimeMillis() > deadline) {
-                    runOnUiThread(() -> mStatus.setText("VS Code did not start.\n\nRun code-server in the terminal to see why."));
+                    runOnUiThread(() -> mStatus.setText(R.string.code_failed));
                     return;
                 }
                 try {

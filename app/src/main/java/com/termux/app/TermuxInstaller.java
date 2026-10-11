@@ -256,6 +256,11 @@ final class TermuxInstaller {
         copyAsset(context, "qos/qos-desktop", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-desktop", 0700);
         copyAsset(context, "qos/qos-xsession", TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/qos-xsession", 0700);
         copyAsset(context, "qos/wallpaper.png", TERMUX_PREFIX_DIR_PATH + "/share/backgrounds/qos/qos.png", 0644);
+        copyAsset(context, "qos/gtk-theme.css", TERMUX_PREFIX_DIR_PATH + "/share/themes/qos/gtk-3.0/gtk.css", 0644);
+        copyAsset(context, "qos/gtk-theme.index", TERMUX_PREFIX_DIR_PATH + "/share/themes/qos/index.theme", 0644);
+        copyAsset(context, "qos/qos-mark.png", TERMUX_PREFIX_DIR_PATH + "/share/pixmaps/qos.png", 0644);
+        // qos's welcome text; a ~/.termux/motd.sh of your own is shown instead.
+        copyAsset(context, "qos/motd", TERMUX_PREFIX_DIR_PATH + "/etc/motd", 0644);
         copyAsset(context, "qos/qos.sh", TERMUX_PREFIX_DIR_PATH + "/etc/profile.d/qos.sh", 0600);
     }
 

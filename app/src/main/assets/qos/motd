@@ -1,0 +1,10 @@
+
+  qos  —  தமிழ் OS
+  A development machine in your pocket.
+
+  Desktop    ☰ then Desktop, or type  qos-desktop
+  VS Code    ☰ then VS Code
+  Packages   pkg search <name>   ·   pkg install <name>
+  eTamil     etamil --vm program.qmz
+  Help       https://qos.ae/docs/
+

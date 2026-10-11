@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=qos
+Comment=qos: black and teal, on Adwaita's dark style
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=qos
+IconTheme=Adwaita

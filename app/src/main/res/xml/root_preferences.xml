@@ -1,5 +1,14 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <!-- qos: the app's language. Stored by AppCompat, not in shared preferences. -->
+    <ListPreference
+        app:key="qos_language"
+        app:title="@string/qos_language_title"
+        app:entries="@array/qos_language_entries"
+        app:entryValues="@array/qos_language_values"
+        app:persistent="false"
+        app:useSimpleSummaryProvider="true" />
+
     <Preference
         app:key="termux"
         app:title="@string/termux_preferences_title"

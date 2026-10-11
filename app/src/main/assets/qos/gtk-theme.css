@@ -1,0 +1,50 @@
+/* qos: GTK 3 theme. Adwaita's dark style, with qos's black and teal.
+ * Installed by qos as $PREFIX/share/themes/qos/gtk-3.0/gtk.css. */
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+
+@define-color qos_teal #10F3BE;
+@define-color qos_ink #00241B;
+@define-color qos_bg #0C1110;
+@define-color qos_surface #111816;
+@define-color qos_text #E9F1EF;
+
+window, .background, dialog, popover, menu, .menu, .context-menu {
+    background-color: @qos_bg;
+    color: @qos_text;
+}
+
+headerbar, .titlebar, menubar, toolbar, .toolbar {
+    background-color: #000000;
+    background-image: none;
+    border-color: #1D2825;
+    color: @qos_text;
+}
+
+entry, textview text, treeview.view, iconview, list, row {
+    background-color: @qos_surface;
+}
+
+*:selected, selection, *:selected:focus, row:selected, treeview.view:selected,
+menuitem:hover, menu menuitem:hover, .menu menuitem:hover {
+    background-color: @qos_teal;
+    color: @qos_ink;
+}
+
+button.suggested-action, button:checked, togglebutton:checked,
+switch:checked, scale highlight, progressbar progress, levelbar block.filled,
+checkbutton check:checked, radiobutton radio:checked,
+check:checked, radio:checked {
+    background-color: @qos_teal;
+    background-image: none;
+    border-color: @qos_teal;
+    color: @qos_ink;
+}
+
+entry:focus, button:focus, spinbutton:focus {
+    border-color: @qos_teal;
+    box-shadow: inset 0 0 0 1px @qos_teal;
+}
+
+link, *:link, label link {
+    color: @qos_teal;
+}

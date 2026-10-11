@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- qos: the language choices in Settings. Languages are named in their own script. -->
+    <string-array name="qos_language_entries">
+        <item>@string/qos_language_system</item>
+        <item>English</item>
+        <item>தமிழ்</item>
+    </string-array>
+    <string-array name="qos_language_values" translatable="false">
+        <item></item>
+        <item>en</item>
+        <item>ta</item>
+    </string-array>
+</resources>
