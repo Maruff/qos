@@ -408,6 +408,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
                             launchFailsafe = intent.getExtras().getBoolean(TERMUX_ACTIVITY.EXTRA_FAILSAFE_SESSION, false);
                         }
                         mTermuxTerminalSessionActivityClient.addNewSession(launchFailsafe, null);
+                        openQosShortcut(intent);
                     } catch (WindowManager.BadTokenException e) {
                         // Activity finished - ignore.
                     }
@@ -427,6 +428,7 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
             } else {
                 mTermuxTerminalSessionActivityClient.setCurrentSession(mTermuxTerminalSessionActivityClient.getCurrentStoredSessionOrLast());
             }
+            if (!mIsActivityRecreated) openQosShortcut(intent);
         }
 
         // Update the {@link TerminalSession} and {@link TerminalEmulator} clients.
@@ -572,6 +574,25 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         settingsButton.setOnClickListener(v -> {
             ActivityUtils.startActivity(this, new Intent(this, SettingsActivity.class));
         });
+    }
+
+    /** qos: the extra a home-screen shortcut (res/xml/shortcuts.xml) sets: "desktop" or "code". */
+    private static final String EXTRA_QOS_OPEN = "com.termux.qos.open";
+
+    /** qos: a shortcut tapped while qos is already open arrives here, not through onServiceConnected. */
+    @Override
+    protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
+        if (mTermuxService != null) openQosShortcut(intent);
+    }
+
+    /** qos: act on a home-screen shortcut, if the intent came from one. */
+    private void openQosShortcut(Intent intent) {
+        String open = intent == null ? null : intent.getStringExtra(EXTRA_QOS_OPEN);
+        if ("desktop".equals(open))
+            openDesktop();
+        else if ("code".equals(open))
+            startActivity(new Intent(this, CodeActivity.class));
     }
 
     /** qos: run qos-desktop in a new session, which sets up XFCE the first time and opens qos Desktop. */

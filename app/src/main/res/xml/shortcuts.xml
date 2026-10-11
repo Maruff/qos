@@ -10,6 +10,35 @@
         package name.
     -->
 
+    <!-- qos: open the desktop or VS Code straight from the home screen icon. -->
+    <shortcut
+        android:shortcutId="qos_desktop"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/action_open_desktop"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.termux"
+            android:targetClass="com.termux.app.TermuxActivity">
+            <extra android:name="com.termux.qos.open" android:value="desktop"/>
+        </intent>
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="qos_code"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/action_open_code"
+        tools:targetApi="n_mr1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.termux"
+            android:targetClass="com.termux.app.TermuxActivity">
+            <extra android:name="com.termux.qos.open" android:value="code"/>
+        </intent>
+    </shortcut>
+
     <shortcut
         android:shortcutId="new_session"
         android:enabled="true"

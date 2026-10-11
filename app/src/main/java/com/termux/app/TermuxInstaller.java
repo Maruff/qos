@@ -110,6 +110,12 @@ final class TermuxInstaller {
             if (TermuxFileUtils.isTermuxPrefixDirectoryEmpty()) {
                 Logger.logInfo(LOG_TAG, "The termux prefix directory \"" + TERMUX_PREFIX_DIR_PATH + "\" exists but is empty or only contains specific unimportant files.");
             } else {
+                // qos: an update brings new scripts; put them in place on every start.
+                try {
+                    installQosFiles(activity);
+                } catch (IOException e) {
+                    Logger.logStackTraceWithMessage(LOG_TAG, "Failed to refresh the qos scripts", e);
+                }
                 whenDone.run();
                 return;
             }
