@@ -2,11 +2,18 @@
 
 export ETAMIL_PATH="$PREFIX/lib/etamil"
 
-# The qos prompt, q:~/projects>  with the q in qos teal. Termux's bash.bashrc
-# keeps a PS1 that is already set, and ~/.bashrc, read after it, can still
-# replace this one.
+# The qos prompt: q> at home, q projects> in a folder, with the q in qos teal.
+# Termux's bash.bashrc keeps a PS1 that is already set, and ~/.bashrc, read
+# after it, can still replace this one.
 if [ -n "${BASH_VERSION:-}" ]; then
-    PS1='\[\e[1;38;2;16;243;190m\]q\[\e[0m\]:\[\e[0;32m\]\w\[\e[0m\]> '
+    __qos_dir() {
+        case "$PWD" in
+            "$HOME") ;;
+            /) printf ' /' ;;
+            *) printf ' %s' "${PWD##*/}" ;;
+        esac
+    }
+    PS1='\[\e[1;38;2;16;243;190m\]q\[\e[0;32m\]$(__qos_dir)\[\e[0m\]> '
 fi
 
 if [ ! -f "$HOME/.qos/setup-done" ]; then
