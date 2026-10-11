@@ -41,6 +41,7 @@ import com.termux.shared.termux.TermuxConstants;
 import com.termux.shared.termux.TermuxConstants.TERMUX_APP.TERMUX_ACTIVITY;
 import com.termux.app.activities.HelpActivity;
 import com.termux.app.activities.CodeActivity;
+import com.termux.app.activities.PackagesActivity;
 import com.termux.app.activities.SettingsActivity;
 import com.termux.shared.termux.crash.TermuxCrashUtils;
 import com.termux.shared.termux.settings.preferences.TermuxAppSharedPreferences;
@@ -252,6 +253,10 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
 
         findViewById(R.id.code_button).setOnClickListener(v -> startActivity(new Intent(this, CodeActivity.class)));
         findViewById(R.id.desktop_button).setOnClickListener(v -> openDesktop());
+        findViewById(R.id.packages_button).setOnClickListener(v -> {
+            startActivityForResult(new Intent(this, PackagesActivity.class), REQUEST_QOS_PACKAGES);
+            getDrawer().closeDrawers();
+        });
 
         setToggleKeyboardView();
 
@@ -595,6 +600,22 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
             startActivity(new Intent(this, CodeActivity.class));
     }
 
+    /** qos: the request code for the Packages screen. */
+    private static final int REQUEST_QOS_PACKAGES = 0x5150;
+
+    /** qos: run a shell command in a new session, shown in this window. */
+    private void runInNewSession(@NonNull String command, String label) {
+        Uri executable = new Uri.Builder().scheme(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.URI_SCHEME_SERVICE_EXECUTE)
+            .path(TermuxConstants.TERMUX_BIN_PREFIX_DIR_PATH + "/bash").build();
+        Intent intent = new Intent(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.ACTION_SERVICE_EXECUTE, executable);
+        intent.setClass(this, TermuxService.class);
+        intent.putExtra(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.EXTRA_ARGUMENTS, new String[]{"-c", command});
+        intent.putExtra(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.EXTRA_SESSION_ACTION,
+            String.valueOf(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.VALUE_EXTRA_SESSION_ACTION_SWITCH_TO_NEW_SESSION_AND_DONT_OPEN_ACTIVITY));
+        intent.putExtra(TermuxConstants.TERMUX_APP.TERMUX_SERVICE.EXTRA_COMMAND_LABEL, label != null ? label : command);
+        startService(intent);
+    }
+
     /** qos: run qos-desktop in a new session, which sets up XFCE the first time and opens qos Desktop. */
     private void openDesktop() {
         try {
@@ -842,6 +863,10 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         Logger.logVerbose(LOG_TAG, "onActivityResult: requestCode: " + requestCode + ", resultCode: "  + resultCode + ", data: "  + IntentUtils.getIntentString(data));
         if (requestCode == PermissionUtils.REQUEST_GRANT_STORAGE_PERMISSION) {
             requestStoragePermission(true);
+        } else if (requestCode == REQUEST_QOS_PACKAGES && resultCode == RESULT_OK && data != null) {
+            // qos: the Packages screen hands back a pkg command; only it can, as it is not exported.
+            String command = data.getStringExtra(PackagesActivity.EXTRA_COMMAND);
+            if (command != null) runInNewSession(command, data.getStringExtra(PackagesActivity.EXTRA_LABEL));
         }
     }
 

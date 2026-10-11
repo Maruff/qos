@@ -109,6 +109,12 @@
         </service>
 
         <activity
+            android:name=".app.activities.PackagesActivity"
+            android:exported="false"
+            android:label="@string/packages_title"
+            android:parentActivityName=".app.TermuxActivity" />
+
+        <activity
             android:name=".app.activities.CodeActivity"
             android:configChanges="orientation|screenSize|smallestScreenSize|screenLayout|keyboard|keyboardHidden"
             android:exported="false"

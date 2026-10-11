@@ -113,6 +113,14 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="@string/action_open_desktop" />
+
+                    <Button
+                        android:id="@+id/packages_button"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/action_open_packages" />
                 </LinearLayout>
             </LinearLayout>
 

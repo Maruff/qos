@@ -12,6 +12,16 @@ WALLPAPER="$PREFIX/share/backgrounds/qos/qos.png"
 
 mkdir -p "$HOME/.qos"
 
+# The desktop's language follows qos's: Settings > Language writes ~/.qos/language
+# ("ta", "en", or empty for the phone's own). GLib reads these variables directly,
+# so the menu shows each app's Tamil name where the app has one.
+language="$(cat "$HOME/.qos/language" 2>/dev/null)"
+[ -n "$language" ] || language="$(/system/bin/getprop persist.sys.locale 2>/dev/null)"
+case "$language" in
+    ta*) export LANGUAGE=ta LANG=ta_IN.UTF-8 ;;
+    *)   export LANGUAGE=en LANG=en_US.UTF-8 ;;
+esac
+
 # Window scaling from the screen's density: phones (about 400 dpi and up) get
 # everything twice the size, tablets stay at 1.
 if [ ! -f "$SCALING_MARKER" ]; then
@@ -47,12 +57,12 @@ if [ ! -f "$LOOK_MARKER" ]; then
     date > "$LOOK_MARKER"
 fi
 
-# qos on the panel: the Applications menu button shows the qos mark and "qos".
-# The panel writes its layout on its first start, so wait for it, then find the
-# menu button by type rather than by number.
-BRAND_MARKER="$HOME/.qos/desktop-brand-1"
+# qos on the panel: the Applications menu button shows the qos mark and "qos",
+# and every panel is solid black. The panel writes its layout on its first
+# start, so wait for it, then find the menu button by type, not by number.
+BRAND_MARKER="$HOME/.qos/desktop-brand-2"
 brand_panel() {
-    local id kind
+    local id kind panel found=0
     for _ in $(seq 1 60); do
         for id in $(xfconf-query -c xfce4-panel -l 2>/dev/null | grep -E '^/plugins/plugin-[0-9]+$'); do
             kind="$(xfconf-query -c xfce4-panel -p "$id" 2>/dev/null)"
@@ -61,11 +71,18 @@ brand_panel() {
                     xfconf-query -c xfce4-panel -p "$id/button-icon" -n -t string -s "$PREFIX/share/pixmaps/qos.png"
                     xfconf-query -c xfce4-panel -p "$id/button-title" -n -t string -s "qos"
                     xfconf-query -c xfce4-panel -p "$id/show-button-title" -n -t bool -s true
-                    date > "$BRAND_MARKER"
-                    return
+                    found=1
                     ;;
             esac
         done
+        if [ "$found" = 1 ]; then
+            for panel in $(xfconf-query -c xfce4-panel -l 2>/dev/null | grep -oE '^/panels/panel-[0-9]+' | sort -u); do
+                xfconf-query -c xfce4-panel -p "$panel/background-style" -n -t int -s 1
+                xfconf-query -c xfce4-panel -p "$panel/background-rgba" -n                     -t double -s 0 -t double -s 0 -t double -s 0 -t double -s 1
+            done
+            date > "$BRAND_MARKER"
+            return
+        fi
         sleep 1
     done
 }

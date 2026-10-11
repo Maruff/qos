@@ -80,6 +80,13 @@ public class SettingsActivity extends AppCompatActivity {
             if (language == null) return;
             language.setValue(androidx.appcompat.app.AppCompatDelegate.getApplicationLocales().toLanguageTags());
             language.setOnPreferenceChangeListener((preference, value) -> {
+                // For the desktop session too: qos-xsession reads ~/.qos/language.
+                java.io.File file = new java.io.File(com.termux.shared.termux.TermuxConstants.TERMUX_HOME_DIR_PATH + "/.qos/language");
+                file.getParentFile().mkdirs();
+                try (java.io.FileWriter out = new java.io.FileWriter(file)) {
+                    out.write((String) value);
+                } catch (java.io.IOException ignored) {
+                }
                 androidx.appcompat.app.AppCompatDelegate.setApplicationLocales(
                     androidx.core.os.LocaleListCompat.forLanguageTags((String) value));
                 return true;
