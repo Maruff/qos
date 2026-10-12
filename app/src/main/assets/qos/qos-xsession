@@ -8,8 +8,10 @@
 SCALING_MARKER="$HOME/.qos/desktop-defaults"
 LOOK_MARKER="$HOME/.qos/desktop-look-3"
 BRAND_MARKER="$HOME/.qos/desktop-brand-3"
-WALLPAPER_MARKER="$HOME/.qos/desktop-wallpaper-1"
-WALLPAPER="$PREFIX/share/backgrounds/qos/qos.jpg"
+WALLPAPER_MARKER="$HOME/.qos/desktop-wallpaper-2"
+DOCK_MARKER="$HOME/.qos/desktop-dock-1"
+# In XFCE's own wallpaper folder, so Desktop settings lists it too.
+WALLPAPER="$PREFIX/share/backgrounds/xfce/qos.jpg"
 
 mkdir -p "$HOME/.qos"
 
@@ -101,21 +103,22 @@ if [ ! -f "$LOOK_MARKER" ]; then
     date > "$LOOK_MARKER"
 fi
 
-# The qos wallpaper, once (marker desktop-wallpaper-1). xfdesktop keys it by
-# the display's name as X reports it, and ignores a wrong name without a word,
-# which is why the wallpaper never showed before; xrandr (installed by
-# qos-desktop) gives the real one. Without a name nothing is marked done, so
-# the next start tries again.
-display_name="$(xrandr --query 2>/dev/null | awk '/ connected/ {print $1; exit}')"
-if [ ! -f "$WALLPAPER_MARKER" ] && [ -n "$display_name" ]; then
+# The qos wallpaper, once (marker desktop-wallpaper-2). xfdesktop keys it by
+# the display's name, and ignores a wrong name without a word. qos's X server
+# names its display "screen" as it starts, then renames it after the Android
+# display it is shown on: "builtin" for the phone's own screen, "external" or
+# "dex" otherwise. So the wallpaper is set for each of those names.
+if [ ! -f "$WALLPAPER_MARKER" ]; then
     xfconf-query -c xfce4-desktop -p /backdrop -r -R 2>/dev/null
-    for ws in 0 1 2 3; do
-        base="/backdrop/screen0/monitor$display_name/workspace$ws"
-        xfconf-query -c xfce4-desktop -p "$base/last-image" -n -t string -s "$WALLPAPER"
-        xfconf-query -c xfce4-desktop -p "$base/image-style" -n -t int -s 5
-        xfconf-query -c xfce4-desktop -p "$base/color-style" -n -t int -s 0
-        xfconf-query -c xfce4-desktop -p "$base/rgba1" -n \
-            -t double -s 0.024 -t double -s 0.063 -t double -s 0.055 -t double -s 1
+    for monitor in builtin screen external dex; do
+        for ws in 0 1 2 3; do
+            base="/backdrop/screen0/monitor$monitor/workspace$ws"
+            xfconf-query -c xfce4-desktop -p "$base/last-image" -n -t string -s "$WALLPAPER"
+            xfconf-query -c xfce4-desktop -p "$base/image-style" -n -t int -s 5
+            xfconf-query -c xfce4-desktop -p "$base/color-style" -n -t int -s 0
+            xfconf-query -c xfce4-desktop -p "$base/rgba1" -n \
+                -t double -s 0.024 -t double -s 0.063 -t double -s 0.055 -t double -s 1
+        done
     done
     date > "$WALLPAPER_MARKER"
 fi
@@ -143,5 +146,53 @@ brand_panel() {
     done
 }
 [ -f "$BRAND_MARKER" ] || brand_panel &
+
+# The dock (the bottom panel), once (marker desktop-dock-1):
+# - its gear is XFCE's Application Finder, which Termux's XFCE does not have, so
+#   that empty launcher opens the Settings Manager instead;
+# - two launchers are added after its first separator: Android's home screen,
+#   and qos's Apps screen, a touch-friendly list of every Android app.
+dock_launcher() { # dock_launcher ID FILE.desktop: point a launcher plugin at one entry
+    mkdir -p "$HOME/.config/xfce4/panel/launcher-$1"
+    cp "$2" "$HOME/.config/xfce4/panel/launcher-$1/"
+    xfconf-query -c xfce4-panel -p "/plugins/plugin-$1/items" -n -a -t string -s "${2##*/}"
+}
+dock_panel() {
+    local id ids new last panel=/panels/panel-2/plugin-ids
+    for _ in $(seq 1 60); do
+        xfconf-query -c xfce4-panel -p "$panel" > /dev/null 2>&1 && break
+        sleep 1
+    done
+    ids="$(xfconf-query -c xfce4-panel -p "$panel" 2>/dev/null | grep -E '^[0-9]+$')"
+    [ -n "$ids" ] || return
+    for id in $ids; do
+        if [ "$(xfconf-query -c xfce4-panel -p "/plugins/plugin-$id" 2>/dev/null)" = launcher ] &&
+            ! xfconf-query -c xfce4-panel -p "/plugins/plugin-$id/items" 2>/dev/null | grep -q '\.desktop$'; then
+            dock_launcher "$id" "$PREFIX/share/applications/xfce-settings-manager.desktop"
+        fi
+    done
+    last="$(xfconf-query -c xfce4-panel -l | grep -oE '^/plugins/plugin-[0-9]+$' | grep -oE '[0-9]+$' | sort -n | tail -1)"
+    for entry in qos-android-home qos-android-apps; do
+        last=$((last + 1))
+        xfconf-query -c xfce4-panel -p "/plugins/plugin-$last" -n -t string -s launcher
+        dock_launcher "$last" "$HOME/.local/share/applications/$entry.desktop"
+        new="$new $last"
+    done
+    # The new launchers go after the first separator.
+    local args=() placed=0 kind
+    for id in $ids; do
+        args+=(-t int -s "$id")
+        kind="$(xfconf-query -c xfce4-panel -p "/plugins/plugin-$id" 2>/dev/null)"
+        if [ "$placed" = 0 ] && [ "$kind" = separator ]; then
+            for id in $new; do args+=(-t int -s "$id"); done
+            placed=1
+        fi
+    done
+    [ "$placed" = 1 ] || for id in $new; do args+=(-t int -s "$id"); done
+    xfconf-query -c xfce4-panel -p "$panel" -a "${args[@]}"
+    date > "$DOCK_MARKER"
+    xfce4-panel -r
+}
+[ -f "$DOCK_MARKER" ] || dock_panel &
 
 exec xfce4-session

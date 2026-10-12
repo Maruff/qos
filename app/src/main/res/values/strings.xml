@@ -91,6 +91,11 @@
     <string name="qos_home_opens_title">Home opens</string>
     <string name="qos_home_terminal">The terminal</string>
     <string name="qos_home_desktop">The desktop</string>
+    <string name="qos_open_at_boot_title">Open qos when the phone starts</string>
+    <string name="qos_open_at_boot_summary">Opens what Home opens. Android allows this with \"Display over other apps\"; without it, qos shows a notification to tap. Not needed when qos is the home screen.</string>
+    <string name="qos_boot_channel">Phone started</string>
+    <string name="qos_boot_title">qos is ready</string>
+    <string name="qos_boot_text">Tap to open qos.</string>
     <!-- qos: the app's language, and the VS Code screen. -->
     <string name="qos_language_title">Language / மொழி</string>
     <string name="qos_language_system">Phone\'s language</string>

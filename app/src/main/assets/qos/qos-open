@@ -1,17 +1,34 @@
 #!/data/data/com.termux/files/usr/bin/sh
-# qos-open: open an Android app by its package name, from the terminal or from
-# qos Desktop's Android menu, e.g. qos-open com.android.chrome; --home opens
-# Android's own home screen.
+# qos-open: open Android from the terminal or the desktop.
+#
+#   qos-open PACKAGE                     an app, e.g. qos-open com.android.chrome
+#   qos-open --home                      Android's own home screen
+#   qos-open --apps                      qos's Apps screen, with every app
+#   qos-open --url [--package PKG] [URL] a link, in Android's default browser or PKG
 #
 # qos opens it for the shell: a broadcast to qos's own receiver, which only
 # qos's user (this shell's) can reach.
-if [ -z "${1:-}" ]; then
-    echo "usage: qos-open PACKAGE | --home" >&2
-    exit 1
-fi
-if [ "$1" = --home ]; then
-    exec am broadcast -n com.termux/com.termux.app.QosAppReceiver \
-        -a com.termux.qos.OPEN_ANDROID_HOME > /dev/null
-fi
-exec am broadcast -n com.termux/com.termux.app.QosAppReceiver \
-    -a com.termux.qos.OPEN_APP --es package "$1" > /dev/null
+receiver=com.termux/com.termux.app.QosAppReceiver
+case "${1:-}" in
+    "")
+        echo "usage: qos-open PACKAGE | --home | --apps | --url [--package PKG] [URL]" >&2
+        exit 1
+        ;;
+    --home)
+        exec am broadcast -n "$receiver" -a com.termux.qos.OPEN_ANDROID_HOME > /dev/null
+        ;;
+    --apps)
+        exec am broadcast -n "$receiver" -a com.termux.qos.OPEN_APPS > /dev/null
+        ;;
+    --url)
+        shift
+        package=
+        if [ "${1:-}" = --package ]; then
+            package="${2:-}"
+            shift 2
+        fi
+        exec am broadcast -n "$receiver" -a com.termux.qos.OPEN_URL \
+            --es url "${1:-}" --es package "$package" > /dev/null
+        ;;
+esac
+exec am broadcast -n "$receiver" -a com.termux.qos.OPEN_APP --es package "$1" > /dev/null

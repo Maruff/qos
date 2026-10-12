@@ -21,7 +21,30 @@ public final class QosAppReceiver extends BroadcastReceiver {
     public static final String ACTION_SYNC = "com.termux.qos.SYNC_APPS";
     public static final String ACTION_HOME = "com.termux.qos.OPEN_ANDROID_HOME";
     public static final String ACTION_DESKTOP = "com.termux.qos.OPEN_DESKTOP";
+    public static final String ACTION_APPS = "com.termux.qos.OPEN_APPS";
+    public static final String ACTION_URL = "com.termux.qos.OPEN_URL";
     public static final String EXTRA_PACKAGE = "package";
+
+    /** A link from the desktop, in Android's default browser or the one named; with no link,
+     * the browser itself. */
+    private static void openUrl(Context context, String url, String pkg) {
+        boolean named = pkg != null && !pkg.isEmpty();
+        Intent intent;
+        if (url != null && !url.isEmpty()) {
+            intent = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url)).addCategory(Intent.CATEGORY_BROWSABLE);
+            if (named) intent.setPackage(pkg);
+        } else if (named) {
+            intent = context.getPackageManager().getLaunchIntentForPackage(pkg);
+        } else {
+            intent = Intent.makeMainSelectorActivity(Intent.ACTION_MAIN, Intent.CATEGORY_APP_BROWSER);
+        }
+        if (intent == null) return;
+        try {
+            context.startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+        } catch (android.content.ActivityNotFoundException e) {
+            Toast.makeText(context, context.getString(R.string.apps_not_found, String.valueOf(url)), Toast.LENGTH_LONG).show();
+        }
+    }
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -34,6 +57,10 @@ public final class QosAppReceiver extends BroadcastReceiver {
             if (!QosHome.openAndroidHome(context))
                 context.startActivity(new Intent(context, TermuxActivity.class)
                     .putExtra("com.termux.qos.open", "android-home").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+        } else if (ACTION_APPS.equals(intent.getAction())) {
+            context.startActivity(new Intent(context, com.termux.app.activities.AppsActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+        } else if (ACTION_URL.equals(intent.getAction())) {
+            openUrl(context, intent.getStringExtra("url"), intent.getStringExtra(EXTRA_PACKAGE));
         } else if (ACTION_DESKTOP.equals(intent.getAction())) {
             // qos-desktop asks once its X server is starting: show the desktop.
             context.startActivity(new Intent(context, com.termux.x11.MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));

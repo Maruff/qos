@@ -77,6 +77,15 @@ public class SettingsActivity extends AppCompatActivity {
 
         /** qos: the Home app setting is Android's own; this opens it. */
         private void configureHomePreference() {
+            // Opening qos when the phone starts needs "Display over other apps": ask for it when
+            // the setting is turned on without it.
+            Preference boot = findPreference(com.termux.app.QosHome.PREF_OPEN_AT_BOOT);
+            if (boot != null) boot.setOnPreferenceChangeListener((preference, value) -> {
+                if (Boolean.TRUE.equals(value) && !android.provider.Settings.canDrawOverlays(requireContext()))
+                    startActivity(new android.content.Intent(android.provider.Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                        android.net.Uri.parse("package:" + requireContext().getPackageName())));
+                return true;
+            });
             Preference home = findPreference("qos_home_app");
             if (home == null) return;
             home.setOnPreferenceClickListener(preference -> {

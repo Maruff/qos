@@ -34,6 +34,44 @@ public final class QosHome {
 
     private QosHome() {}
 
+    public static final String PREF_OPEN_AT_BOOT = "qos_open_at_boot";
+    /** The extra TermuxActivity is opened with after the phone starts: it then opens what Home would. */
+    public static final String OPEN_AT_BOOT = "boot";
+
+    /**
+     * When the phone has started: open qos, unless it is the home screen (Android opens it then).
+     * Android lets an app open itself here only with "Display over other apps"; without it, qos
+     * posts a notification to tap instead.
+     */
+    public static void onBoot(Context context) {
+        if (!PreferenceManager.getDefaultSharedPreferences(context).getBoolean(PREF_OPEN_AT_BOOT, true)) return;
+        ResolveInfo home = context.getPackageManager().resolveActivity(
+            new Intent(Intent.ACTION_MAIN).addCategory(Intent.CATEGORY_HOME), PackageManager.MATCH_DEFAULT_ONLY);
+        if (home != null && context.getPackageName().equals(home.activityInfo.packageName)) return;
+
+        Intent open = new Intent(context, TermuxActivity.class)
+            .putExtra("com.termux.qos.open", OPEN_AT_BOOT).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        if (android.provider.Settings.canDrawOverlays(context)) {
+            context.startActivity(open);
+            return;
+        }
+        android.app.NotificationManager notifications = context.getSystemService(android.app.NotificationManager.class);
+        if (notifications == null) return;
+        String channel = "qos_boot";
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O)
+            notifications.createNotificationChannel(new android.app.NotificationChannel(channel,
+                context.getString(R.string.qos_boot_channel), android.app.NotificationManager.IMPORTANCE_HIGH));
+        android.app.PendingIntent tap = android.app.PendingIntent.getActivity(context, 0, open,
+            android.app.PendingIntent.FLAG_UPDATE_CURRENT | android.app.PendingIntent.FLAG_IMMUTABLE);
+        notifications.notify(0x9051, new androidx.core.app.NotificationCompat.Builder(context, channel)
+            .setSmallIcon(R.drawable.ic_service_notification)
+            .setContentTitle(context.getString(R.string.qos_boot_title))
+            .setContentText(context.getString(R.string.qos_boot_text))
+            .setContentIntent(tap).setAutoCancel(true)
+            .setPriority(androidx.core.app.NotificationCompat.PRIORITY_HIGH)
+            .build());
+    }
+
     /** Whether the Home button opens the desktop rather than the terminal. */
     public static boolean opensDesktop(Context context) {
         return "desktop".equals(PreferenceManager.getDefaultSharedPreferences(context).getString(PREF_HOME_OPENS, "terminal"));

@@ -23,6 +23,12 @@
         app:defaultValue="terminal"
         app:useSimpleSummaryProvider="true" />
 
+    <SwitchPreferenceCompat
+        app:key="qos_open_at_boot"
+        app:title="@string/qos_open_at_boot_title"
+        app:summary="@string/qos_open_at_boot_summary"
+        app:defaultValue="true" />
+
     <Preference
         app:key="termux"
         app:title="@string/termux_preferences_title"

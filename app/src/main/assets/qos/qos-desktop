@@ -15,18 +15,16 @@ if ! command -v xfce4-session >/dev/null; then
     pkg install -y xfce4 xfce4-terminal dbus
 fi
 
-# The X server's keyboard layouts, and xrandr, which names the display so
-# qos-xsession can set the wallpaper for it.
+# The X server's keyboard layouts.
 [ -d "$PREFIX/share/X11/xkb" ] || pkg install -y xkeyboard-config
-command -v xrandr >/dev/null || pkg install -y xorg-xrandr
 
 if [ -z "${TERMUX_APP__APK_PATH:-}" ] || [ ! -f "$TERMUX_APP__APK_PATH" ]; then
     echo "qos's APK was not found. Close this session and open the desktop again from qos." >&2
     exit 1
 fi
 
-# The Android menu: qos writes an entry for each app on the phone, so an app
-# installed or removed since last time shows as it is now.
+# Android on the desktop: qos writes the Android menu's entries, and an XFCE
+# web-browser choice for each Android browser, as the phone has them now.
 am broadcast -n com.termux/com.termux.app.QosAppReceiver -a com.termux.qos.SYNC_APPS >/dev/null 2>&1 || true
 
 # A fresh start: stop a desktop from before, and clear what it left behind.

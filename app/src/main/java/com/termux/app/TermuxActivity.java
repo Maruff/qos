@@ -599,7 +599,10 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
 
     /** qos: act on a home-screen shortcut, or on the Home button when qos is the home screen. */
     private void openQosShortcut(Intent intent) {
-        if (intent != null && intent.hasCategory(Intent.CATEGORY_HOME) && QosHome.opensDesktop(this)) {
+        // Home, or qos opening itself after the phone has started: as "Home opens" says.
+        boolean home = intent != null && (intent.hasCategory(Intent.CATEGORY_HOME)
+            || QosHome.OPEN_AT_BOOT.equals(intent.getStringExtra(EXTRA_QOS_OPEN)));
+        if (home && QosHome.opensDesktop(this)) {
             if (!sDesktopStartedForHome) {
                 sDesktopStartedForHome = true;
                 openDesktop();

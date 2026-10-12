@@ -27,7 +27,7 @@ command -v xfdesktop >/dev/null || { echo "xfdesktop is not part of xfce4's inst
 # The files qos copies at start (TermuxInstaller.installQosFiles).
 install -D -m 700 "$ASSETS/qos-xsession" "$PREFIX/bin/qos-xsession"
 install -D -m 700 "$ASSETS/qos-open" "$PREFIX/bin/qos-open"
-install -D -m 644 "$ASSETS/wallpaper.jpg" "$PREFIX/share/backgrounds/qos/qos.jpg"
+install -D -m 644 "$ASSETS/wallpaper.jpg" "$PREFIX/share/backgrounds/xfce/qos.jpg"
 install -D -m 644 "$ASSETS/gtk-theme.css" "$PREFIX/share/themes/qos/gtk-3.0/gtk.css"
 install -D -m 644 "$ASSETS/gtk-theme.index" "$PREFIX/share/themes/qos/index.theme"
 install -D -m 644 "$ASSETS/qos-mark.png" "$PREFIX/share/pixmaps/qos.png"
@@ -35,9 +35,10 @@ install -D -m 644 "$ASSETS/qos-mark.png" "$HOME/.local/share/icons/hicolor/256x2
 install -D -m 644 "$ASSETS/qos-mark.png" "$HOME/.local/share/icons/hicolor/256x256/apps/xfce4-logo.png"
 install -D -m 644 "$ASSETS/xfce4-about.desktop" "$HOME/.local/share/applications/xfce4-about.desktop"
 
-# The Android menu as qos writes it (QosApps.syncDesktopMenu), for three
-# sample apps; the container has no Android apps of its own.
-install -D -m 644 /dev/stdin "$HOME/.config/menus/applications-merged/qos-android.menu" <<'MENU'
+# Android on the desktop as qos writes it (QosApps.syncDesktopMenu): the
+# Android menu and its two entries, which the dock's launchers use too.
+mkdir -p "$HOME/.config/menus/applications-merged" "$HOME/.local/share/desktop-directories" "$HOME/.local/share/applications"
+cat > "$HOME/.config/menus/applications-merged/qos-android.menu" <<'MENU'
 <!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
   "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
 <Menu>
@@ -49,28 +50,39 @@ install -D -m 644 /dev/stdin "$HOME/.config/menus/applications-merged/qos-androi
   </Menu>
 </Menu>
 MENU
-printf '[Desktop Entry]
+cat > "$HOME/.local/share/desktop-directories/qos-android.directory" <<DIR
+[Desktop Entry]
 Version=1.0
 Type=Directory
 Name=Android
 Name[ta]=ஆண்ட்ராய்டு
-Icon=%s
-'     "$PREFIX/share/pixmaps/qos.png" | install -D -m 644 /dev/stdin "$HOME/.local/share/desktop-directories/qos-android.directory"
-for app in "Camera:com.android.camera2" "Chrome:com.android.chrome" "Files:com.google.android.documentsui"; do
-    printf '[Desktop Entry]
+Icon=$PREFIX/share/pixmaps/qos.png
+DIR
+cat > "$HOME/.local/share/applications/qos-android-home.desktop" <<ENTRY
+[Desktop Entry]
 Version=1.0
 Type=Application
-Name=%s
-Exec=qos-open %s
-Icon=%s
+Name=Android home screen
+Name[ta]=ஆண்ட்ராய்டு முகப்புத் திரை
+Exec=qos-open --home
+Icon=go-home
 Terminal=false
-NoDisplay=false
 Categories=X-Qos-Android;
-'         "${app%%:*}" "${app#*:}" "$PREFIX/share/pixmaps/qos.png" > "$HOME/.local/share/applications/qos-android-${app#*:}.desktop"
-done
+ENTRY
+cat > "$HOME/.local/share/applications/qos-android-apps.desktop" <<ENTRY
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Android apps
+Name[ta]=ஆண்ட்ராய்டு செயலிகள்
+Exec=qos-open --apps
+Icon=$PREFIX/share/pixmaps/qos.png
+Terminal=false
+Categories=X-Qos-Android;
+ENTRY
 
 { ls -laR "$HOME/.config/menus" "$HOME/.local/share/desktop-directories"; ls -la "$HOME/.local/share/applications"
-  cat "$HOME/.config/menus/applications-merged/qos-android.menu" "$HOME/.local/share/applications/qos-android-com.android.chrome.desktop"
+  cat "$HOME/.config/menus/applications-merged/qos-android.menu" "$HOME/.local/share/applications/qos-android-apps.desktop"
   ls "$PREFIX/etc/xdg/menus" 2>&1; env | grep -E '^XDG' ; } > "$OUT/menu-files.txt" 2>&1
 
 # The language qos's Settings would write.
