@@ -61,25 +61,10 @@ static const char *current_language(void) {
     return language;
 }
 
-static const struct catalogue *find_catalogue(const char *domain) {
+/* The catalogue for domain, loaded on first use; NULL if there is none. */
+static const struct catalogue *load_catalogue(const char *domain) {
     const char *lang = current_language();
-    /* No domain means the program's own, as textdomain() set it; XFCE's programs
-     * name theirs after themselves (thunar, xfce4-terminal and the rest). */
-    char program[64];
-    if (domain == NULL) {
-        /* Android gives the program's path as started, so take its last part, in
-         * lower case as the domains are: Thunar's daemon runs as "Thunar". */
-        const char *name = getprogname();
-        if (name == NULL) return NULL;
-        const char *slash = strrchr(name, '/');
-        if (slash != NULL) name = slash + 1;
-        size_t i = 0;
-        for (; name[i] != '\0' && i + 1 < sizeof program; i++)
-            program[i] = (char) tolower((unsigned char) name[i]);
-        program[i] = '\0';
-        domain = program;
-    }
-    if (domain == NULL || *lang == '\0' || strlen(domain) >= sizeof catalogues[0].domain) return NULL;
+    if (*lang == '\0' || strlen(domain) >= sizeof catalogues[0].domain) return NULL;
 
     pthread_mutex_lock(&lock);
     struct catalogue *found = NULL;
@@ -113,6 +98,44 @@ static const struct catalogue *find_catalogue(const char *domain) {
     }
     pthread_mutex_unlock(&lock);
     return found != NULL && found->data != NULL ? found : NULL;
+}
+
+/* The program's own catalogue, for text asked for without a domain (GtkBuilder's,
+ * and libxfce4ui's menus): XFCE's programs set textdomain() to their package,
+ * which is usually the program's name. Tried in turn: the name in lower case
+ * (Android gives the path as started, and Thunar's daemon runs as "Thunar"), the
+ * About window's package, the name without its trailing "-words"
+ * (xfwm4-tweaks-settings is xfwm4's), and xfce4-settings for its dialogs. */
+static const struct catalogue *program_catalogue(void) {
+    static const struct catalogue *cached;
+    static int resolved;
+    if (resolved) return cached;
+
+    char name[64];
+    const char *progname = getprogname();
+    if (progname == NULL) progname = "";
+    const char *slash = strrchr(progname, '/');
+    if (slash != NULL) progname = slash + 1;
+    size_t n = 0;
+    for (; progname[n] != '\0' && n + 1 < sizeof name; n++)
+        name[n] = (char) tolower((unsigned char) progname[n]);
+    name[n] = '\0';
+
+    const struct catalogue *c = load_catalogue(name);
+    if (c == NULL && strcmp(name, "xfce4-about") == 0) c = load_catalogue("libxfce4ui");
+    int settings = n > 9 && strcmp(name + n - 9, "-settings") == 0;
+    for (char *dash; c == NULL && (dash = strrchr(name, '-')) != NULL;) {
+        *dash = '\0';
+        c = load_catalogue(name);
+    }
+    if (c == NULL && settings) c = load_catalogue("xfce4-settings");
+    cached = c;
+    resolved = 1;
+    return c;
+}
+
+static const struct catalogue *find_catalogue(const char *domain) {
+    return domain != NULL ? load_catalogue(domain) : program_catalogue();
 }
 
 /* The translation of key (a msgid, or "context\004msgid"), with its length; NULL if none. */
