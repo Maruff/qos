@@ -38,6 +38,8 @@ android {
 
         implementation project(":terminal-view")
         implementation project(":termux-shared")
+        // qos Desktop: the X server and its activity.
+        implementation project(":lorie")
     }
 
     defaultConfig {

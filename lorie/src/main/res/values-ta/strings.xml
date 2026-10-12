@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- qos: Tamil for qos Desktop's own messages. -->
+<resources>
+    <string name="not_connected">இணைக்கப்படவில்லை</string>
+    <string name="qos_start_hint">மேசைத்தளத்தைத் தொடங்கு என்பதைத் தொடுங்கள். qos திறக்கும்; முதல் முறை மேசைத்தளத்தை அமைக்கும் — சில நிமிடங்கள் ஆகும். qos-இல் qos-desktop என்று தட்டச்சு செய்தும் தொடங்கலாம்.</string>
+    <string name="qos_start_button">மேசைத்தளத்தைத் தொடங்கு</string>
+    <string name="qos_touch_mode">தொடு முறை: சொடுக்க வேண்டிய இடத்தைத் தொடுங்கள்</string>
+    <string name="qos_mouse_mode">சுட்டி முறை: சுட்டியை நகர்த்த இழுங்கள், சொடுக்கத் தொடுங்கள்</string>
+    <string name="qos_start_failed">qos-ஐ அணுக முடியவில்லை. qos-ஐத் திறந்து qos-desktop என்று தட்டச்சு செய்யுங்கள்.</string>
+</resources>

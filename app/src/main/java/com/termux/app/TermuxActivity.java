@@ -617,14 +617,9 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
             QosHome.openAndroidHome(this);
     }
 
-    /** qos: bring qos Desktop forward, with the desktop already running. */
+    /** qos: bring the desktop forward, with it already running. */
     private void showDesktop() {
-        try {
-            startActivity(new Intent().setClassName("com.termux.x11", "com.termux.x11.MainActivity")
-                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-        } catch (android.content.ActivityNotFoundException e) {
-            openDesktop();
-        }
+        startActivity(new Intent(this, com.termux.x11.MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
     }
 
     /** qos: the request code for the Packages screen. */

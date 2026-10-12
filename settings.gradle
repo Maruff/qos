@@ -1,1 +1,3 @@
 include ':app', ':termux-shared', ':terminal-emulator', ':terminal-view'
+// qos Desktop: the X server and its activity (from Termux:X11), built into qos.
+include ':lorie', ':shell-loader:stub'

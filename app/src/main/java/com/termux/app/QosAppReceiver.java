@@ -8,8 +8,8 @@ import android.widget.Toast;
 import com.termux.R;
 
 /**
- * qos: opens Android apps and Android's home screen for qos-open, and refreshes qos Desktop's
- * Android menu for qos-desktop.
+ * qos: opens Android apps and Android's home screen for qos-open, and, for qos-desktop, shows the
+ * desktop and refreshes its Android menu.
  *
  * Not exported: only qos's own user, which the terminal and qos Desktop run as, can reach it. A
  * broadcast rather than "am start" because Termux's am refuses activity starts without the
@@ -20,6 +20,7 @@ public final class QosAppReceiver extends BroadcastReceiver {
     public static final String ACTION_OPEN = "com.termux.qos.OPEN_APP";
     public static final String ACTION_SYNC = "com.termux.qos.SYNC_APPS";
     public static final String ACTION_HOME = "com.termux.qos.OPEN_ANDROID_HOME";
+    public static final String ACTION_DESKTOP = "com.termux.qos.OPEN_DESKTOP";
     public static final String EXTRA_PACKAGE = "package";
 
     @Override
@@ -33,6 +34,9 @@ public final class QosAppReceiver extends BroadcastReceiver {
             if (!QosHome.openAndroidHome(context))
                 context.startActivity(new Intent(context, TermuxActivity.class)
                     .putExtra("com.termux.qos.open", "android-home").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+        } else if (ACTION_DESKTOP.equals(intent.getAction())) {
+            // qos-desktop asks once its X server is starting: show the desktop.
+            context.startActivity(new Intent(context, com.termux.x11.MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
         } else if (ACTION_SYNC.equals(intent.getAction())) {
             PendingResult result = goAsync();
             new Thread(() -> {

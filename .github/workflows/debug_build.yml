@@ -16,11 +16,15 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        package_variant: [ apt-android-7, apt-android-5 ]
+        package_variant: [ apt-android-7 ] # qos needs Android 7 or newer: its desktop's X server does
 
     steps:
       - name: Clone repository
         uses: actions/checkout@v6
+
+      - name: Fetch submodules
+        # qos Desktop's X server (lorie) builds from these sources.
+        run: git submodule update --init --recursive --jobs 8 --depth 1
 
       - name: Setup java 17
         uses: actions/setup-java@v5

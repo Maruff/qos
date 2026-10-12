@@ -11,7 +11,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        package_variant: [ apt-android-7, apt-android-5 ]
+        package_variant: [ apt-android-7 ] # qos needs Android 7 or newer: its desktop's X server does
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -20,6 +20,10 @@ jobs:
         uses: actions/checkout@v6
         with:
           ref: ${{ env.GITHUB_REF }}
+
+      - name: Fetch submodules
+        # qos Desktop's X server (lorie) builds from these sources.
+        run: git submodule update --init --recursive --jobs 8 --depth 1
 
       - name: Build and attach APKs to release
         shell: bash {0}
