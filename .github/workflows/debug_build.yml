@@ -24,7 +24,15 @@ jobs:
 
       - name: Fetch submodules
         # qos Desktop's X server (lorie) builds from these sources.
-        run: git submodule update --init --recursive --jobs 8 --depth 1
+        # gitlab.freedesktop.org, where most of them live, is sometimes briefly
+        # unavailable (503), so a failed fetch is retried.
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            git submodule update --init --recursive --jobs 4 --depth 1 && exit 0
+            echo "Fetching submodules failed (attempt $attempt); retrying in a minute"
+            sleep 60
+          done
+          exit 1
 
       - name: Setup java 17
         uses: actions/setup-java@v5
