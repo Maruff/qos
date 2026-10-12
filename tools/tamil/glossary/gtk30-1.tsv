@@ -1,0 +1,468 @@
+# qos Desktop in Tamil: GTK (first half).
+# English<TAB>Tamil, or English<TAB>Tamil-one<TAB>Tamil-many for plurals.
+Starting %s	%s தொடங்குகிறது
+Opening %s	%s திறக்கப்படுகிறது
+Opening %d Item	%d உருப்படி திறக்கப்படுகிறது	%d உருப்படிகள் திறக்கப்படுகின்றன
+Toggles the cell	கலத்தை நிலைமாற்றுகிறது
+Toggle	நிலைமாற்று
+Click	சொடுக்கு
+Clicks the button	பொத்தானைச் சொடுக்குகிறது
+Expand or contract	விரி அல்லது சுருக்கு
+Activate	செயலாக்கு
+Expands or contracts the row in the tree view containing this cell	இந்தக் கலத்தைக் கொண்ட மரக் காட்சி வரிசையை விரிக்கிறது அல்லது சுருக்குகிறது
+Creates a widget in which the contents of the cell can be edited	கலத்தின் உள்ளடக்கத்தைத் திருத்தக்கூடிய ஒரு கூறினை உருவாக்குகிறது
+Activates the cell	கலத்தைச் செயலாக்குகிறது
+Select	தேர்ந்தெடு
+Customize	தனிப்பயனாக்கு
+Selects the color	நிறத்தைத் தேர்ந்தெடுக்கிறது
+Activates the color	நிறத்தைச் செயலாக்குகிறது
+Customizes the color	நிறத்தைத் தனிப்பயனாக்குகிறது
+Press	அழுத்து
+Presses the combobox	சேர்க்கைப் பெட்டியை அழுத்துகிறது
+Activates the entry	உள்ளீட்டைச் செயலாக்குகிறது
+Activates the expander	விரிப்பானைச் செயலாக்குகிறது
+Show location	இருப்பிடத்தைக் காட்டு
+Show the File Chooser's Location text field	கோப்புத் தேர்வியின் இருப்பிட உரைப் புலத்தைக் காட்டு
+Bold	தடித்த
+Information	தகவல்
+Question	கேள்வி
+Find and Replace	கண்டுபிடித்து மாற்றீடு செய்
+Floppy	நெகிழ் வட்டு
+Bottom	கீழ்முனை
+First	முதல்
+Last	கடைசி
+Top	மேல்முனை
+Hard Disk	வன்வட்டு
+Increase Indent	உள்தள்ளலை அதிகரி
+Italic	சாய்வு
+Jump to	இதற்குத் தாவு
+Center	மையம்
+Fill	நிரப்பு
+Next	அடுத்து
+Play	இயக்கு
+Previous	முந்தையது
+Record	பதிவுசெய்
+Rewind	பின்சுற்று
+Stop	நிறுத்து
+New	புதியது
+Print Preview	அச்சு முன்தோற்றம்
+Refresh	புதுப்பி
+Revert	பழைய நிலைக்குத் திருப்பு
+Save As	இவ்வாறு சேமி
+Ascending	ஏறுவரிசை
+Descending	இறங்குவரிசை
+Spell Check	எழுத்துப்பிழை சரிபார்
+Strikethrough	அடித்தல்
+Underline	அடிக்கோடு
+Decrease Indent	உள்தள்ளலைக் குறை
+Best Fit	சிறந்த பொருத்தம்
+Menu	பட்டியல்
+Clicks the menuitem	பட்டியல் உருப்படியைச் சொடுக்குகிறது
+Pops up the slider	நகர்த்தியைத் தோன்றச் செய்கிறது
+Dismisses the slider	நகர்த்தியை மறைக்கிறது
+Popup	தோன்றச் செய்
+Dismiss	விலக்கு
+Spinner	சுழலி
+Provides visual indication of progress	முன்னேற்றத்தைக் காட்சியாகக் குறிக்கிறது
+Toggles the switch	நிலைமாற்றியை மாற்றுகிறது
+Select the color you want from the outer ring. Select the darkness or lightness of that color using the inner triangle.	வெளி வளையத்திலிருந்து உங்களுக்கு வேண்டிய நிறத்தைத் தேர்ந்தெடுக்கவும். உள் முக்கோணத்தைக் கொண்டு அந்த நிறத்தின் அடர்வையோ வெளிர்வையோ தேர்ந்தெடுக்கவும்.
+Click the eyedropper, then click a color anywhere on your screen to select that color.	நிற உறிஞ்சியைச் சொடுக்கி, பின் திரையில் எங்காவது உள்ள ஒரு நிறத்தைச் சொடுக்கி அந்த நிறத்தைத் தேர்ந்தெடுக்கவும்.
+Hue:	சாயல்:
+Position on the color wheel.	நிறச் சக்கரத்தில் உள்ள நிலை.
+Saturation:	செறிவு:
+Intensity of the color.	நிறத்தின் அடர்த்தி.
+Value:	மதிப்பு:
+Brightness of the color.	நிறத்தின் ஒளிர்வு.
+Red:	சிவப்பு:
+Amount of red light in the color.	நிறத்தில் உள்ள சிவப்பு ஒளியின் அளவு.
+Green:	பச்சை:
+Amount of green light in the color.	நிறத்தில் உள்ள பச்சை ஒளியின் அளவு.
+Blue:	நீலம்:
+Amount of blue light in the color.	நிறத்தில் உள்ள நீல ஒளியின் அளவு.
+Opacity:	ஒளிபுகாமை:
+Transparency of the color.	நிறத்தின் ஒளிபுகுதன்மை.
+Color name:	நிறத்தின் பெயர்:
+You can enter an HTML-style hexadecimal color value, or simply a color name such as “orange” in this entry.	இந்த உள்ளீட்டில் HTML பாணி பதினறும நிற மதிப்பையோ, “orange” போன்ற நிறப் பெயரையோ உள்ளிடலாம்.
+Palette:	நிறத்தட்டு:
+Color Wheel	நிறச் சக்கரம்
+The previously-selected color, for comparison to the color you’re selecting now. You can drag this color to a palette entry, or select this color as current by dragging it to the other color swatch alongside.	முன்பு தேர்ந்தெடுத்த நிறம்; இப்போது தேர்ந்தெடுக்கும் நிறத்துடன் ஒப்பிடுவதற்கு. இந்த நிறத்தை நிறத்தட்டு உள்ளீட்டுக்கு இழுக்கலாம், அல்லது அருகிலுள்ள மற்ற நிற மாதிரிக்கு இழுத்து இதைத் தற்போதைய நிறமாகத் தேர்ந்தெடுக்கலாம்.
+The color you’ve chosen. You can drag this color to a palette entry to save it for use in the future.	நீங்கள் தேர்ந்தெடுத்த நிறம். பின்னர் பயன்படுத்துவதற்காகச் சேமிக்க இந்த நிறத்தை நிறத்தட்டு உள்ளீட்டுக்கு இழுக்கலாம்.
+The previously-selected color, for comparison to the color you’re selecting now.	முன்பு தேர்ந்தெடுத்த நிறம்; இப்போது தேர்ந்தெடுக்கும் நிறத்துடன் ஒப்பிடுவதற்கு.
+The color you’ve chosen.	நீங்கள் தேர்ந்தெடுத்த நிறம்.
+Save color here	நிறத்தை இங்கே சேமி
+Click this palette entry to make it the current color. To change this entry, drag a color swatch here or right-click it and select “Save color here.”	இதைத் தற்போதைய நிறமாக்க இந்த நிறத்தட்டு உள்ளீட்டைச் சொடுக்கவும். இந்த உள்ளீட்டை மாற்ற, ஒரு நிற மாதிரியை இங்கே இழுக்கவும், அல்லது வலது சொடுக்கு செய்து “நிறத்தை இங்கே சேமி” என்பதைத் தேர்ந்தெடுக்கவும்.
+Color Selection	நிறத் தேர்வு
+abcdefghijk ABCDEFGHIJK	அஆஇஈஉ கஙசஞ abcdefghijk ABCDEFGHIJK
+Family:	குடும்பம்:
+Style:	பாணி:
+Size:	அளவு:
+Preview:	முன்தோற்றம்:
+Font Selection	எழுத்துருத் தேர்வு
+Connect	இணை
+Convert	மாற்று
+Discard	கைவிடு
+Disconnect	துண்டி
+Index	பொருளடக்கம்
+Landscape	கிடைநிலை
+Portrait	நெடுநிலை
+Reverse landscape	தலைகீழ் கிடைநிலை
+Reverse portrait	தலைகீழ் நெடுநிலை
+Page Setup	பக்க அமைப்பு
+Color	நிறம்
+Font	எழுத்துரு
+Undelete	நீக்கியதை மீட்டெடு
+Empty	காலி
+License	உரிமம்
+Custom License	தனிப்பயன் உரிமம்
+GNU General Public License, version 2 or later	GNU General Public License, பதிப்பு 2 அல்லது பிந்தையது
+GNU General Public License, version 3 or later	GNU General Public License, பதிப்பு 3 அல்லது பிந்தையது
+GNU Lesser General Public License, version 2.1 or later	GNU Lesser General Public License, பதிப்பு 2.1 அல்லது பிந்தையது
+GNU Lesser General Public License, version 3 or later	GNU Lesser General Public License, பதிப்பு 3 அல்லது பிந்தையது
+BSD 2-Clause License	BSD 2-பிரிவு உரிமம்
+The MIT License (MIT)	MIT உரிமம் (MIT)
+GNU General Public License, version 2 only	GNU General Public License, பதிப்பு 2 மட்டும்
+GNU General Public License, version 3 only	GNU General Public License, பதிப்பு 3 மட்டும்
+GNU Lesser General Public License, version 2.1 only	GNU Lesser General Public License, பதிப்பு 2.1 மட்டும்
+GNU Lesser General Public License, version 3 only	GNU Lesser General Public License, பதிப்பு 3 மட்டும்
+GNU Affero General Public License, version 3 or later	GNU Affero General Public License, பதிப்பு 3 அல்லது பிந்தையது
+GNU Affero General Public License, version 3 only	GNU Affero General Public License, பதிப்பு 3 மட்டும்
+BSD 3-Clause License	BSD 3-பிரிவு உரிமம்
+Apache License, Version 2.0	Apache License, பதிப்பு 2.0
+Credits	நன்றி
+Could not show link	இணைப்பைக் காட்ட முடியவில்லை
+Website	இணையதளம்
+About %s	%s பற்றி
+Created by	உருவாக்கியவர்கள்
+Documented by	ஆவணமாக்கியவர்கள்
+Translated by	மொழிபெயர்த்தவர்கள்
+Artwork by	கலைப்படைப்பு
+This program comes with absolutely no warranty.\nSee the <a href=\"%s\">%s</a> for details.	இந்த நிரலுக்கு எந்த உத்தரவாதமும் இல்லை.\nவிவரங்களுக்கு <a href=\"%s\">%s</a> பார்க்கவும்.
+Other application	வேறு செயலி
+Select Application	செயலியைத் தேர்ந்தெடு
+Opening “%s”.	“%s” திறக்கப்படுகிறது.
+No applications found for “%s”	“%s” க்குச் செயலிகள் எதுவும் கிடைக்கவில்லை
+Opening “%s” files.	“%s” கோப்புகள் திறக்கப்படுகின்றன.
+No applications found for “%s” files	“%s” கோப்புகளுக்குச் செயலிகள் எதுவும் கிடைக்கவில்லை
+Forget association	தொடர்பை மற
+Failed to start GNOME Software	GNOME Software ஐத் தொடங்க முடியவில்லை
+Default Application	இயல்புநிலைச் செயலி
+No applications found for “%s”.	“%s” க்குச் செயலிகள் எதுவும் கிடைக்கவில்லை.
+Recommended Applications	பரிந்துரைக்கப்பட்ட செயலிகள்
+Related Applications	தொடர்புடைய செயலிகள்
+Other Applications	பிற செயலிகள்
+Application	செயலி
+%s does not exist in the bookmarks list	%s புத்தகக்குறிப் பட்டியலில் இல்லை
+%s already exists in the bookmarks list	%s ஏற்கெனவே புத்தகக்குறிப் பட்டியலில் உள்ளது
+Disabled	முடக்கப்பட்டது
+Invalid	செல்லாதது
+New accelerator	புதிய குறுக்குவிசை
+Pick a Color	ஒரு நிறத்தைத் தேர்ந்தெடு
+Red %d%%, Green %d%%, Blue %d%%, Alpha %d%%	சிவப்பு %d%%, பச்சை %d%%, நீலம் %d%%, ஆல்ஃபா %d%%
+Red %d%%, Green %d%%, Blue %d%%	சிவப்பு %d%%, பச்சை %d%%, நீலம் %d%%
+Color: %s	நிறம்: %s
+Very Light Blue	மிக வெளிர் நீலம்
+Light Blue	வெளிர் நீலம்
+Blue	நீலம்
+Dark Blue	அடர் நீலம்
+Very Dark Blue	மிக அடர் நீலம்
+Very Light Green	மிக வெளிர் பச்சை
+Light Green	வெளிர் பச்சை
+Green	பச்சை
+Dark Green	அடர் பச்சை
+Very Dark Green	மிக அடர் பச்சை
+Very Light Yellow	மிக வெளிர் மஞ்சள்
+Light Yellow	வெளிர் மஞ்சள்
+Yellow	மஞ்சள்
+Dark Yellow	அடர் மஞ்சள்
+Very Dark Yellow	மிக அடர் மஞ்சள்
+Very Light Orange	மிக வெளிர் ஆரஞ்சு
+Light Orange	வெளிர் ஆரஞ்சு
+Orange	ஆரஞ்சு
+Dark Orange	அடர் ஆரஞ்சு
+Very Dark Orange	மிக அடர் ஆரஞ்சு
+Very Light Red	மிக வெளிர் சிவப்பு
+Light Red	வெளிர் சிவப்பு
+Red	சிவப்பு
+Dark Red	அடர் சிவப்பு
+Very Dark Red	மிக அடர் சிவப்பு
+Very Light Purple	மிக வெளிர் ஊதா
+Light Purple	வெளிர் ஊதா
+Purple	ஊதா
+Dark Purple	அடர் ஊதா
+Very Dark Purple	மிக அடர் ஊதா
+Very Light Brown	மிக வெளிர் பழுப்பு
+Light Brown	வெளிர் பழுப்பு
+Brown	பழுப்பு
+Dark Brown	அடர் பழுப்பு
+Very Dark Brown	மிக அடர் பழுப்பு
+White	வெள்ளை
+Light Gray 1	வெளிர் சாம்பல் 1
+Light Gray 2	வெளிர் சாம்பல் 2
+Light Gray 3	வெளிர் சாம்பல் 3
+Light Gray 4	வெளிர் சாம்பல் 4
+Dark Gray 1	அடர் சாம்பல் 1
+Dark Gray 2	அடர் சாம்பல் 2
+Dark Gray 3	அடர் சாம்பல் 3
+Dark Gray 4	அடர் சாம்பல் 4
+Black	கருப்பு
+Custom	தனிப்பயன்
+Custom color	தனிப்பயன் நிறம்
+Create a custom color	தனிப்பயன் நிறத்தை உருவாக்கு
+Custom color %d: %s	தனிப்பயன் நிறம் %d: %s
+Color Plane	நிறத் தளம்
+Hue	சாயல்
+Alpha	ஆல்ஃபா
+Manage Custom Sizes	தனிப்பயன் அளவுகளை நிர்வகி
+inch	அங்குலம்
+Margins from Printer	அச்சுப்பொறியின் ஓரங்கள்
+Custom Size %d	தனிப்பயன் அளவு %d
+Width:	அகலம்:
+Height:	உயரம்:
+Paper Size	தாள் அளவு
+Top:	மேல்:
+Bottom:	கீழ்:
+Left:	இடம்:
+Right:	வலம்:
+Paper Margins	தாள் ஓரங்கள்
+Insert Emoji	உணர்வுருவைச் செருகு
+Select all	அனைத்தையும் தேர்ந்தெடு
+Caps Lock is on	Caps Lock இயக்கத்தில் உள்ளது
+Select a File	ஒரு கோப்பைத் தேர்ந்தெடு
+(None)	(ஏதுமில்லை)
+Other	பிற
+Select which types of files are shown	எந்த வகைக் கோப்புகள் காட்டப்பட வேண்டும் எனத் தேர்ந்தெடு
+%1$s on %2$s	%2$s இல் %1$s
+Type name of new folder	புதிய கோப்புறையின் பெயரைத் தட்டச்சிடவும்
+The folder could not be created	கோப்புறையை உருவாக்க முடியவில்லை
+The folder could not be created, as a file with the same name already exists.	அதே பெயரில் ஒரு கோப்பு ஏற்கெனவே உள்ளதால் கோப்புறையை உருவாக்க முடியவில்லை.
+Try using a different name for the folder, or rename the file first.	கோப்புறைக்கு வேறு பெயரைப் பயன்படுத்தவும், அல்லது முதலில் அந்தக் கோப்பின் பெயரை மாற்றவும்.
+You need to choose a valid filename.	செல்லுபடியான கோப்புப் பெயரைத் தேர்ந்தெடுக்க வேண்டும்.
+Cannot create a file under %s as it is not a folder	%s ஒரு கோப்புறை அல்ல என்பதால் அதன் கீழ் கோப்பை உருவாக்க முடியாது
+Cannot create file as the filename is too long	கோப்புப் பெயர் மிக நீளமாக இருப்பதால் கோப்பை உருவாக்க முடியாது
+Try using a shorter name.	குறுகிய பெயரைப் பயன்படுத்திப் பார்க்கவும்.
+You may only select folders	கோப்புறைகளை மட்டுமே தேர்ந்தெடுக்கலாம்
+The item that you selected is not a folder try using a different item.	நீங்கள் தேர்ந்தெடுத்த உருப்படி கோப்புறை அல்ல; வேறு உருப்படியைப் பயன்படுத்திப் பார்க்கவும்.
+Invalid file name	செல்லாத கோப்புப் பெயர்
+The folder contents could not be displayed	கோப்புறையின் உள்ளடக்கத்தைக் காட்ட முடியவில்லை
+The file could not be deleted	கோப்பை நீக்க முடியவில்லை
+The file could not be moved to the Trash	கோப்பைக் குப்பைத் தொட்டிக்கு நகர்த்த முடியவில்லை
+A folder with that name already exists	அந்தப் பெயரில் ஒரு கோப்புறை ஏற்கெனவே உள்ளது
+A file with that name already exists	அந்தப் பெயரில் ஒரு கோப்பு ஏற்கெனவே உள்ளது
+A folder cannot be called “.”	கோப்புறைக்கு “.” எனப் பெயரிட முடியாது
+A file cannot be called “.”	கோப்புக்கு “.” எனப் பெயரிட முடியாது
+A folder cannot be called “..”	கோப்புறைக்கு “..” எனப் பெயரிட முடியாது
+A file cannot be called “..”	கோப்புக்கு “..” எனப் பெயரிட முடியாது
+Folder names cannot contain “/”	கோப்புறைப் பெயர்களில் “/” இருக்கக் கூடாது
+File names cannot contain “/”	கோப்புப் பெயர்களில் “/” இருக்கக் கூடாது
+Folder names should not begin with a space	கோப்புறைப் பெயர்கள் இடைவெளியுடன் தொடங்கக் கூடாது
+File names should not begin with a space	கோப்புப் பெயர்கள் இடைவெளியுடன் தொடங்கக் கூடாது
+Folder names should not end with a space	கோப்புறைப் பெயர்கள் இடைவெளியுடன் முடியக் கூடாது
+File names should not end with a space	கோப்புப் பெயர்கள் இடைவெளியுடன் முடியக் கூடாது
+Folder names starting with a “.” are hidden	“.” உடன் தொடங்கும் கோப்புறைப் பெயர்கள் மறைக்கப்படும்
+File names starting with a “.” are hidden	“.” உடன் தொடங்கும் கோப்புப் பெயர்கள் மறைக்கப்படும்
+Are you sure you want to permanently delete “%s”?	“%s” ஐ நிரந்தரமாக நீக்க வேண்டும் என உறுதியாக உள்ளீர்களா?
+If you delete an item, it will be permanently lost.	ஒரு உருப்படியை நீக்கினால், அது நிரந்தரமாக இழக்கப்படும்.
+The file could not be renamed	கோப்பின் பெயரை மாற்ற முடியவில்லை
+Could not select file	கோப்பைத் தேர்ந்தெடுக்க முடியவில்லை
+Visit File	கோப்புக்குச் செல்
+Open With File Manager	கோப்பு மேலாளருடன் திற
+Copy Location	இருப்பிடத்தை நகலெடு
+Add to Bookmarks	புத்தகக்குறிகளில் சேர்
+Show Size Column	அளவு நெடுவரிசையைக் காட்டு
+Show Type Column	வகை நெடுவரிசையைக் காட்டு
+Show Time	நேரத்தைக் காட்டு
+Sort Folders before Files	கோப்புகளுக்கு முன் கோப்புறைகளை வரிசைப்படுத்து
+Name:	பெயர்:
+Searching in %s	%s இல் தேடுகிறது
+Searching	தேடுகிறது
+Enter location	இருப்பிடத்தை உள்ளிடு
+Enter location or URL	இருப்பிடம் அல்லது URL ஐ உள்ளிடு
+Modified	மாற்றப்பட்டது
+Could not read the contents of %s	%s இன் உள்ளடக்கத்தைப் படிக்க முடியவில்லை
+Could not read the contents of the folder	கோப்புறையின் உள்ளடக்கத்தைப் படிக்க முடியவில்லை
+Yesterday	நேற்று
+Program	நிரல்
+Audio	ஒலி
+Image	படம்
+Archive	காப்பகம்
+Markup	குறியீட்டு மொழி
+Text	உரை
+Video	காணொளி
+Contacts	தொடர்புகள்
+Calendar	நாட்காட்டி
+Document	ஆவணம்
+Presentation	விளக்கக்காட்சி
+Spreadsheet	விரிதாள்
+Cannot change to folder because it is not local	கோப்புறை உள்ளூரில் இல்லாததால் அதற்கு மாற முடியாது
+A file named “%s” already exists.  Do you want to replace it?	“%s” என்ற பெயரில் ஒரு கோப்பு ஏற்கெனவே உள்ளது. அதை மாற்றீடு செய்ய வேண்டுமா?
+The file already exists in “%s”.  Replacing it will overwrite its contents.	இந்தக் கோப்பு “%s” இல் ஏற்கெனவே உள்ளது. மாற்றீடு செய்தால் அதன் உள்ளடக்கம் மேலெழுதப்படும்.
+You do not have access to the specified folder.	குறிப்பிட்ட கோப்புறையை அணுக உங்களுக்கு அனுமதி இல்லை.
+Could not send the search request	தேடல் கோரிக்கையை அனுப்ப முடியவில்லை
+Accessed	அணுகப்பட்டது
+Pick a Font	ஒரு எழுத்துருவைத் தேர்ந்தெடு
+Width	அகலம்
+Weight	தடிமன்
+Slant	சாய்வு
+Optical Size	ஒளியியல் அளவு
+Ligatures	கூட்டெழுத்துகள்
+Letter Case	எழுத்து நிலை
+Number Case	எண் நிலை
+Number Spacing	எண் இடைவெளி
+Number Formatting	எண் வடிவமைப்பு
+Character Variants	எழுத்து மாறுபாடுகள்
+Application menu	செயலிப் பட்டியல்
+Failed to load icon	சின்னத்தை ஏற்ற முடியவில்லை
+Simple	எளியது
+System	முறைமை
+System (%s)	முறைமை (%s)
+Open Link	இணைப்பைத் திற
+Copy Link Address	இணைப்பு முகவரியை நகலெடு
+Copy URL	URL ஐ நகலெடு
+Invalid URI	செல்லாத URI
+Lock	பூட்டு
+Unlock	பூட்டைத் திற
+Dialog is unlocked.\nClick to prevent further changes	உரையாடல் பூட்டப்படவில்லை.\nமேலும் மாற்றங்களைத் தடுக்கச் சொடுக்கவும்
+Dialog is locked.\nClick to make changes	உரையாடல் பூட்டப்பட்டுள்ளது.\nமாற்றங்கள் செய்யச் சொடுக்கவும்
+System policy prevents changes.\nContact your system administrator	முறைமைக் கொள்கை மாற்றங்களைத் தடுக்கிறது.\nஉங்கள் முறைமை நிர்வாகியைத் தொடர்புகொள்ளவும்
+Connect As	இவ்வாறு இணை
+Anonymous	பெயரிலி
+Registered User	பதிவுசெய்த பயனர்
+Username	பயனர்பெயர்
+Domain	களம்
+Volume type	தொகுதி வகை
+Hidden	மறைக்கப்பட்டது
+Windows system	Windows முறைமை
+Password	கடவுச்சொல்
+Forget password immediately	கடவுச்சொல்லை உடனே மற
+Remember password until you logout	வெளியேறும் வரை கடவுச்சொல்லை நினைவில் வை
+Remember forever	எப்போதும் நினைவில் வை
+Unknown Application (PID %d)	தெரியாத செயலி (PID %d)
+Unable to end process	செயல்முறையை முடிக்க முடியவில்லை
+End Process	செயல்முறையை முடி
+Cannot kill process with PID %d. Operation is not implemented.	PID %d கொண்ட செயல்முறையை முடிக்க முடியாது. இந்தச் செயல் இன்னும் செயல்படுத்தப்படவில்லை.
+Terminal Pager	முனையப் பக்கமாக்கி
+Top Command	top கட்டளை
+Cannot end process with PID %d: %s	PID %d கொண்ட செயல்முறையை முடிக்க முடியாது: %s
+Page %u	பக்கம் %u
+Not a valid page setup file	செல்லுபடியான பக்க அமைப்புக் கோப்பு அல்ல
+Any Printer	ஏதேனும் அச்சுப்பொறி
+For portable documents	கையடக்க ஆவணங்களுக்கு
+Margins:\n Left: %s %s\n Right: %s %s\n Top: %s %s\n Bottom: %s %s	ஓரங்கள்:\n இடம்: %s %s\n வலம்: %s %s\n மேல்: %s %s\n கீழ்: %s %s
+File System Root	கோப்பு முறைமை வேர்
+Open %s	%s ஐத் திற
+Recent files	அண்மைய கோப்புகள்
+Starred	நட்சத்திரமிட்டவை
+Favorite files	விருப்பமான கோப்புகள்
+Open your personal folder	உங்கள் சொந்தக் கோப்புறையைத் திற
+Open the contents of your desktop in a folder	உங்கள் மேசைத்தள உள்ளடக்கத்தை ஒரு கோப்புறையில் திற
+Enter Location	இருப்பிடத்தை உள்ளிடு
+Manually enter a location	இருப்பிடத்தைக் கைமுறையாக உள்ளிடு
+Open the trash	குப்பைத் தொட்டியைத் திற
+Mount and open “%s”	“%s” ஐ ஏற்றித் திற
+Open the contents of the file system	கோப்பு முறைமையின் உள்ளடக்கத்தைத் திற
+New bookmark	புதிய புத்தகக்குறி
+Add a new bookmark	புதிய புத்தகக்குறியைச் சேர்
+Connect to Server	சேவையகத்துடன் இணை
+Connect to a network server address	வலையமைப்புச் சேவையக முகவரியுடன் இணை
+Other Locations	பிற இருப்பிடங்கள்
+Show other locations	பிற இருப்பிடங்களைக் காட்டு
+Start	தொடங்கு
+Power On	மின்னிணைப்பை இயக்கு
+Safely Remove Drive	இயக்ககத்தைப் பாதுகாப்பாக அகற்று
+Connect Drive	இயக்ககத்தை இணை
+Disconnect Drive	இயக்ககத்தைத் துண்டி
+Start Multi-disk Device	பல்வட்டுச் சாதனத்தைத் தொடங்கு
+Stop Multi-disk Device	பல்வட்டுச் சாதனத்தை நிறுத்து
+Unlock Device	சாதனத்தின் பூட்டைத் திற
+Lock Device	சாதனத்தைப் பூட்டு
+Unable to start “%s”	“%s” ஐத் தொடங்க முடியவில்லை
+Error unlocking “%s”	“%s” இன் பூட்டைத் திறப்பதில் பிழை
+Unable to access “%s”	“%s” ஐ அணுக முடியவில்லை
+This name is already taken	இந்தப் பெயர் ஏற்கெனவே பயன்பாட்டில் உள்ளது
+Unable to unmount “%s”	“%s” ஐ இறக்க முடியவில்லை
+Unable to stop “%s”	“%s” ஐ நிறுத்த முடியவில்லை
+Unable to eject “%s”	“%s” ஐ வெளியேற்ற முடியவில்லை
+Unable to eject %s	%s ஐ வெளியேற்ற முடியவில்லை
+Unable to poll “%s” for media changes	ஊடக மாற்றங்களுக்காக “%s” ஐச் சோதிக்க முடியவில்லை
+Open in New Tab	புதிய தாவலில் திற
+Detect Media	ஊடகத்தைக் கண்டறி
+Searching for network locations	வலையமைப்பு இருப்பிடங்களைத் தேடுகிறது
+No network locations found	வலையமைப்பு இருப்பிடங்கள் எதுவும் கிடைக்கவில்லை
+Unable to access location	இருப்பிடத்தை அணுக முடியவில்லை
+Unable to unmount volume	தொகுதியை இறக்க முடியவில்லை
+File Transfer Protocol	கோப்புப் பரிமாற்ற நெறிமுறை
+Network File System	வலையமைப்புக் கோப்பு முறைமை
+SSH File Transfer Protocol	SSH கோப்புப் பரிமாற்ற நெறிமுறை
+Unable to get remote server location	தொலை சேவையக இருப்பிடத்தைப் பெற முடியவில்லை
+Networks	வலையமைப்புகள்
+On This Computer	இந்தக் கணினியில்
+%s / %s available	%s / %s கிடைக்கிறது	%s / %s கிடைக்கிறது
+Authentication	அங்கீகாரம்
+Remember password	கடவுச்சொல்லை நினைவில் வை
+Select a filename	ஒரு கோப்புப் பெயரைத் தேர்ந்தெடு
+Not available	கிடைக்கவில்லை
+%s job #%d	%s பணி #%d
+Initial state	தொடக்க நிலை
+Preparing to print	அச்சிடத் தயாராகிறது
+Generating data	தரவை உருவாக்குகிறது
+Sending data	தரவை அனுப்புகிறது
+Waiting	காத்திருக்கிறது
+Blocking on issue	சிக்கலால் தடைபட்டுள்ளது
+Printing	அச்சிடுகிறது
+Finished	முடிந்தது
+Finished with error	பிழையுடன் முடிந்தது
+Preparing %d	%d தயாராகிறது
+Preparing	தயாராகிறது
+Printing %d	%d அச்சிடுகிறது
+Error creating print preview	அச்சு முன்தோற்றத்தை உருவாக்குவதில் பிழை
+The most probable reason is that a temporary file could not be created.	ஒரு தற்காலிகக் கோப்பை உருவாக்க முடியாமல் போனதே பெரும்பாலும் காரணமாக இருக்கலாம்.
+Printer offline	அச்சுப்பொறி இணைப்பில் இல்லை
+Out of paper	தாள் தீர்ந்துவிட்டது
+Paused	இடைநிறுத்தப்பட்டது
+Need user intervention	பயனர் தலையீடு தேவை
+Custom size	தனிப்பயன் அளவு
+No printer found	அச்சுப்பொறி எதுவும் கிடைக்கவில்லை
+Not enough free memory	போதுமான காலி நினைவகம் இல்லை
+Unspecified error	குறிப்பிடப்படாத பிழை
+Preview	முன்தோற்றம்
+Getting printer information failed	அச்சுப்பொறித் தகவலைப் பெற முடியவில்லை
+Getting printer information	அச்சுப்பொறித் தகவலைப் பெறுகிறது
+Left to right, top to bottom	இடமிருந்து வலம், மேலிருந்து கீழ்
+Left to right, bottom to top	இடமிருந்து வலம், கீழிருந்து மேல்
+Right to left, top to bottom	வலமிருந்து இடம், மேலிருந்து கீழ்
+Right to left, bottom to top	வலமிருந்து இடம், கீழிருந்து மேல்
+Top to bottom, left to right	மேலிருந்து கீழ், இடமிருந்து வலம்
+Top to bottom, right to left	மேலிருந்து கீழ், வலமிருந்து இடம்
+Bottom to top, left to right	கீழிருந்து மேல், இடமிருந்து வலம்
+Bottom to top, right to left	கீழிருந்து மேல், வலமிருந்து இடம்
+Page Ordering	பக்க வரிசைமுறை
+Left to right	இடமிருந்து வலம்
+Right to left	வலமிருந்து இடம்
+Top to bottom	மேலிருந்து கீழ்
+Bottom to top	கீழிருந்து மேல்
+No item for URI '%s' found	URI '%s' க்கான உருப்படி எதுவும் கிடைக்கவில்லை
+Untitled filter	பெயரிடப்படாத வடிகட்டி
+Could not remove item	உருப்படியை அகற்ற முடியவில்லை
+Could not clear list	பட்டியலை அழிக்க முடியவில்லை
+Remove From List	பட்டியலிலிருந்து அகற்று
+Clear List	பட்டியலை அழி
+Show Private Resources	தனிப்பட்ட வளங்களைக் காட்டு
+No items found	உருப்படிகள் எதுவும் கிடைக்கவில்லை
+No recently used resource found with URI '%s'	URI '%s' கொண்ட அண்மையில் பயன்படுத்திய வளம் எதுவும் கிடைக்கவில்லை
+Open '%s'	'%s' ஐத் திற
+Unknown item	தெரியாத உருப்படி
+Unable to find an item with URI '%s'	URI '%s' கொண்ட உருப்படியைக் கண்டுபிடிக்க முடியவில்லை
+Unable to move the item with URI '%s' to '%s'	URI '%s' கொண்ட உருப்படியை '%s' க்கு நகர்த்த முடியவில்லை
+No registered application with name '%s' for item with URI '%s' found	'%s' என்ற பெயரில், URI '%s' கொண்ட உருப்படிக்கான பதிவுசெய்த செயலி எதுவும் கிடைக்கவில்லை
+Show All	அனைத்தையும் காட்டு
+Two finger pinch	இரு விரல் கிள்ளல்
+Two finger stretch	இரு விரல் விரிப்பு
+Rotate clockwise	கடிகாரத் திசையில் சுழற்று
+Rotate counterclockwise	கடிகார எதிர்த் திசையில் சுழற்று
+Two finger swipe left	இரு விரலால் இடப்புறம் தேய்த்தல்
+Two finger swipe right	இரு விரலால் வலப்புறம் தேய்த்தல்
+Shortcuts	குறுக்குவழிகள்
+Search Results	தேடல் முடிவுகள்
+Search Shortcuts	குறுக்குவழிகளைத் தேடு
+No Results Found	முடிவுகள் எதுவும் கிடைக்கவில்லை
+Try a different search	வேறு தேடலை முயற்சிக்கவும்

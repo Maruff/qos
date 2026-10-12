@@ -1,11 +1,26 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Create Launcher on the panel"
+msgstr "பலகத்தில் தொடக்கி உருவாக்கு"
+
+msgid "Add a new launcher to the panel based on the information of this desktop file"
+msgstr "இந்த மேசைத்தளக் கோப்பின் தகவலைக் கொண்டு பலகத்தில் புதிய தொடக்கியைச் சேர்"
 
 msgid "Panel"
 msgstr "பலகம்"
 
+msgid "Customize the panel"
+msgstr "பலகத்தைத் தனிப்பயனாக்கு"
+
 msgid "Remove"
 msgstr "அகற்று"
+
+msgid "Removing the item from the panel also means its configuration will be lost."
+msgstr "பலகத்திலிருந்து உருப்படியை அகற்றினால் அதன் உள்ளமைவும் இழக்கப்படும்."
+
+msgid "Are you sure that you want to remove \"%s\"?"
+msgstr "\"%s\"-ஐ உறுதியாக அகற்ற வேண்டுமா?"
 
 msgid "_Properties"
 msgstr "பண்புகள் (_P)"
@@ -37,17 +52,64 @@ msgstr "உதவி (_H)"
 msgid "About"
 msgstr "பற்றி"
 
+msgid "The Xfce development team. All rights reserved."
+msgstr "Xfce உருவாக்கக் குழு. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+
+msgid "No running instance of %s was found"
+msgstr "இயங்கும் %s நிகழ்வு எதுவும் காணப்படவில்லை"
+
+msgid "Do you want to start the panel? If you do, make sure you save the session on logout, so the panel is automatically started the next time you login."
+msgstr "பலகத்தைத் தொடங்க வேண்டுமா? தொடங்கினால், வெளியேறும்போது அமர்வைச் சேமிப்பதை உறுதிசெய்யுங்கள்; அப்போதுதான் அடுத்த முறை நீங்கள் உள்நுழையும்போது பலகம் தானாகத் தொடங்கும்."
+
 msgid "Execute"
 msgstr "இயக்கு"
+
+msgid "Failed to launch the migration application"
+msgstr "இடமாற்றச் செயலியைத் தொடங்க முடியவில்லை"
+
+msgid "Plugin \"%s\" could not be loaded, do you want to remove it from xfce4-panel configuration?"
+msgstr "\"%s\" செருகுநிரலை ஏற்ற முடியவில்லை. அதை xfce4-panel உள்ளமைவிலிருந்து அகற்ற வேண்டுமா?"
+
+msgid "This plugin is in the current xfce4-panel configuration but could not be loaded, probably due to an installation issue. If you know what you're doing, you can remove it permanently, otherwise you'd better quit and make a backup of the current configuration using %s, before checking your installation and trying to start xfce4-panel again."
+msgstr "இந்தச் செருகுநிரல் தற்போதைய xfce4-panel உள்ளமைவில் உள்ளது, ஆனால் ஏற்ற முடியவில்லை; நிறுவலில் சிக்கல் இருக்கலாம். நீங்கள் செய்வது உங்களுக்குத் தெரிந்தால் அதை நிரந்தரமாக அகற்றலாம்; இல்லையெனில் வெளியேறி, %s மூலம் தற்போதைய உள்ளமைவின் காப்புப்பிரதியை எடுத்து, நிறுவலைச் சரிபார்த்த பின் xfce4-panel-ஐ மீண்டும் தொடங்குவது நல்லது."
+
+msgid "Plugin loading failure"
+msgstr "செருகுநிரல் ஏற்றுவதில் தோல்வி"
 
 msgid "_Quit"
 msgstr "விலகு (_Q)"
 
+msgid "This will create a new launcher plugin on the panel and inserts the dropped files as menu items."
+msgstr "இது பலகத்தில் புதிய தொடக்கிச் செருகுநிரலை உருவாக்கி, இழுத்துவிட்ட கோப்புகளைப் பட்டியல் உருப்படிகளாகச் சேர்க்கும்."
+
 msgid "Create _Launcher"
 msgstr "தொடக்கி உருவாக்கு (_L)"
 
+msgid "Create new launcher from %d desktop file"
+msgid_plural "Create new launcher from %d desktop files"
+msgstr[0] "%d மேசைத்தளக் கோப்பிலிருந்து புதிய தொடக்கி உருவாக்கு"
+msgstr[1] "%d மேசைத்தளக் கோப்புகளிலிருந்து புதிய தொடக்கி உருவாக்கு"
+
+msgid "You have started X without session manager. Clicking Quit will close the X server."
+msgstr "அமர்வு மேலாளர் இல்லாமல் X-ஐத் தொடங்கியுள்ளீர்கள். விலகு என்பதைச் சொடுக்கினால் X சேவையகம் மூடப்படும்."
+
 msgid "Quit"
 msgstr "விலகு"
+
+msgid "Are you sure you want to quit the panel?"
+msgstr "உறுதியாகப் பலகத்திலிருந்து விலக வேண்டுமா?"
+
+msgid "Failed to execute command \"%s\""
+msgstr "\"%s\" கட்டளையை இயக்க முடியவில்லை"
+
+msgid "Unable to open the e-mail address"
+msgstr "மின்னஞ்சல் முகவரியைத் திறக்க முடியவில்லை"
+
+msgid "The panel of the Xfce Desktop Environment"
+msgstr "Xfce மேசைத்தளச் சூழலின் பலகம்"
+
+msgid "Add New Item"
+msgstr "புதிய உருப்படியைச் சேர்"
 
 msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
@@ -55,35 +117,335 @@ msgstr "ரத்துசெய் (_C)"
 msgid "_Add"
 msgstr "சேர் (_A)"
 
+msgid "Please choose a panel for the new plugin:"
+msgstr "புதிய செருகுநிரலுக்கு ஒரு பலகத்தைத் தேர்ந்தெடுங்கள்:"
+
+msgid "Panel %d"
+msgstr "பலகம் %d"
+
+msgid "Because the panel is running in kiosk mode, you are not allowed to make changes to the panel configuration as a regular user"
+msgstr "பலகம் கியோஸ்க் பயன்முறையில் இயங்குவதால், சாதாரணப் பயனராகப் பலக உள்ளமைவில் மாற்றங்கள் செய்ய உங்களுக்கு அனுமதி இல்லை"
+
+msgid "Modifying the panel is not allowed"
+msgstr "பலகத்தை மாற்ற அனுமதி இல்லை"
+
 msgid "Add New Items"
 msgstr "புதிய உருப்படிகளைச் சேர்"
 
 msgid "_Close"
 msgstr "மூடு (_C)"
 
+msgid "_Search:"
+msgstr "தேடு: (_S)"
+
+msgid "Enter search phrase here"
+msgstr "தேட வேண்டியதை இங்கே உள்ளிடுக"
+
+msgid "Plugin \"%s\" unexpectedly left the panel, do you want to restart it?"
+msgstr "\"%s\" செருகுநிரல் எதிர்பாராமல் பலகத்திலிருந்து வெளியேறியது. அதை மறுதொடக்கம் செய்ய வேண்டுமா?"
+
+msgid "The plugin restarted more than once in the last %d seconds. If you press Execute the panel will try to restart the plugin otherwise it will be permanently removed from the panel."
+msgstr "கடந்த %d விநாடிகளில் இந்தச் செருகுநிரல் ஒன்றுக்கு மேற்பட்ட முறை மறுதொடக்கம் ஆனது. இயக்கு என்பதை அழுத்தினால் பலகம் செருகுநிரலை மறுதொடக்கம் செய்ய முயலும்; இல்லையெனில் அது பலகத்திலிருந்து நிரந்தரமாக அகற்றப்படும்."
+
+msgid "Plugin Restart"
+msgstr "செருகுநிரல் மறுதொடக்கம்"
+
 msgid "_Execute"
 msgstr "இயக்கு (_E)"
+
+msgid "Automatic"
+msgstr "தானியங்கி"
+
+msgid "Primary"
+msgstr "முதன்மை"
+
+msgid "Monitor %d"
+msgstr "திரை %d"
+
+msgid "The panel and plugin configurations will be permanently removed"
+msgstr "பலகமும் செருகுநிரல் உள்ளமைவுகளும் நிரந்தரமாக அகற்றப்படும்"
+
+msgid "Are you sure you want to remove panel %d?"
+msgstr "பலகம் %d-ஐ உறுதியாக அகற்ற வேண்டுமா?"
+
+msgid "%s <span color=\"grey\" size=\"small\">(external)</span>"
+msgstr "%s <span color=\"grey\" size=\"small\">(வெளிப்புறம்)</span>"
+
+msgid "Internal name: %s-%d\nPID: %d"
+msgstr "உள் பெயர்: %s-%d\nPID: %d"
+
+msgid "Internal name: %s-%d"
+msgstr "உள் பெயர்: %s-%d"
+
+msgid "If you remove the item from the panel, it is permanently lost."
+msgstr "உருப்படியைப் பலகத்திலிருந்து அகற்றினால், அது நிரந்தரமாக இழக்கப்படும்."
+
+msgid "Are you sure that you want to remove these %d items?"
+msgstr "இந்த %d உருப்படிகளை உறுதியாக அகற்ற வேண்டுமா?"
+
+msgid "If you remove them from the panel, they are permanently lost."
+msgstr "அவற்றைப் பலகத்திலிருந்து அகற்றினால், அவை நிரந்தரமாக இழக்கப்படும்."
 
 msgid "Never"
 msgstr "ஒருபோதும் இல்லை"
 
+msgid "Intelligently"
+msgstr "அறிவார்ந்த முறையில்"
+
 msgid "Always"
 msgstr "எப்போதும்"
+
+msgid "Horizontal"
+msgstr "கிடைமட்டம்"
+
+msgid "Vertical"
+msgstr "செங்குத்து"
+
+msgid "Deskbar"
+msgstr "மேசைப்பட்டை"
+
+msgid "None (use system style)"
+msgstr "ஏதுமில்லை (கணினிப் பாணியைப் பயன்படுத்து)"
+
+msgid "Solid color"
+msgstr "ஒற்றை நிறம்"
+
+msgid "Background image"
+msgstr "பின்னணிப் படம்"
 
 msgid "Panel Preferences"
 msgstr "பலக விருப்பங்கள்"
 
+msgid "Profiles:"
+msgstr "சுயவிவரங்கள்:"
+
+msgid "_Backup and restore"
+msgstr "காப்புப்பிரதியும் மீட்டெடுப்பும் (_B)"
+
+msgid "Switch between panel presets"
+msgstr "பலக முன்னமைவுகளுக்கு இடையே மாறு"
+
+msgid "Add a new panel"
+msgstr "புதிய பலகத்தைச் சேர்"
+
+msgid "Remove the currently selected panel"
+msgstr "தற்போது தேர்ந்தெடுத்த பலகத்தை அகற்று"
+
+msgid "<b>General</b>"
+msgstr "<b>பொது</b>"
+
+msgid "M_ode:"
+msgstr "பயன்முறை: (_O)"
+
+msgid "Span mo_nitors"
+msgstr "திரைகள் முழுவதும் பரப்பு (_N)"
+
+msgid "Select this option to extend the panel over multiple monitors."
+msgstr "பலகத்தைப் பல திரைகளில் நீட்டிக்க இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்."
+
+msgid "_Lock panel"
+msgstr "பலகத்தைப் பூட்டு (_L)"
+
+msgid "Select this option to hide the handles of the panel and lock its position."
+msgstr "பலகத்தின் பிடிகளை மறைத்து அதன் இருப்பிடத்தைப் பூட்ட இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்."
+
+msgid "_Reserve space on screen edges for the panel"
+msgstr "திரையின் விளிம்புகளில் பலகத்துக்கு இடத்தை ஒதுக்கு (_R)"
+
+msgid "Select this option if you don't want maximized windows to cover the area behind the panel. This only works when the panel is attached to a screen edge."
+msgstr "பெரிதாக்கிய சாளரங்கள் பலகத்தின் பின்னுள்ள பகுதியை மறைக்கக் கூடாது எனில் இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள். பலகம் திரையின் விளிம்பில் இணைந்திருக்கும்போது மட்டுமே இது செயல்படும்."
+
+msgid "Au_tomatically hide the panel:"
+msgstr "பலகத்தைத் தானாக மறை: (_T)"
+
+msgid "O_utput:"
+msgstr "வெளியீடு: (_U)"
+
+msgid "<b>Measurements</b>"
+msgstr "<b>அளவீடுகள்</b>"
+
+msgid "Row _size (pixels):"
+msgstr "வரிசை அளவு (படவணுக்கள்): (_S)"
+
+msgid "Num_ber of rows:"
+msgstr "வரிசைகளின் எண்ணிக்கை: (_B)"
+
+msgid "L_ength (pixels):"
+msgstr "நீளம் (படவணுக்கள்): (_E)"
+
+msgid "Border width (pixels):"
+msgstr "விளிம்பு அகலம் (படவணுக்கள்):"
+
+msgid "A_utomatically increase the length"
+msgstr "நீளத்தைத் தானாக அதிகரி (_U)"
+
+msgid "Select this option to automatically increase the length of the panel if the plugins request more space."
+msgstr "செருகுநிரல்கள் கூடுதல் இடம் கோரினால் பலகத்தின் நீளத்தைத் தானாக அதிகரிக்க இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்."
+
+msgid "D_isplay"
+msgstr "திரை (_I)"
+
+msgid "Dark mode"
+msgstr "இருண்ட பயன்முறை"
+
+msgid "<b>Background</b>"
+msgstr "<b>பின்னணி</b>"
+
+msgid "_Style:"
+msgstr "பாணி: (_S)"
+
+msgid "C_olor:"
+msgstr "நிறம்: (_O)"
+
+msgid "Pick a Panel Color"
+msgstr "பலக நிறத்தைத் தேர்ந்தெடு"
+
+msgid "_File:"
+msgstr "கோப்பு: (_F)"
+
+msgid "Select A Background Image"
+msgstr "பின்னணிப் படத்தைத் தேர்ந்தெடு"
+
+msgid "<b>Icons</b>"
+msgstr "<b>சின்னங்கள்</b>"
+
+msgid "Adjust size au_tomatically"
+msgstr "அளவைத் தானாகச் சரிசெய் (_T)"
+
+msgid "Fixed icon _size (pixels):"
+msgstr "நிலையான சின்ன அளவு (படவணுக்கள்): (_S)"
+
+msgid "<b>Opacity</b>"
+msgstr "<b>ஒளிபுகாமை</b>"
+
+msgid "Configure..."
+msgstr "அமை..."
+
+msgid "<b>Compositing is currently disabled</b>\nEnable compositing in the window manager for opacity settings in the panel."
+msgstr "<b>தொகுப்பாக்கம் தற்போது முடக்கப்பட்டுள்ளது</b>\nபலகத்தில் ஒளிபுகாமை அமைப்புகளைப் பயன்படுத்த, சாளர மேலாளரில் தொகுப்பாக்கத்தை இயக்குங்கள்."
+
+msgid "_Enter:"
+msgstr "நுழையும்போது: (_E)"
+
+msgid "_Leave:"
+msgstr "விலகும்போது: (_L)"
+
+msgid "Transparency when the pointer is not hovering over the panel, with 0 being fully transparent and 100 fully opaque."
+msgstr "சுட்டி பலகத்தின் மேல் இல்லாதபோது உள்ள ஒளிபுகுதன்மை; 0 என்பது முழுமையாக ஒளிபுகும், 100 என்பது முழுமையாக ஒளிபுகாது."
+
+msgid "Appeara_nce"
+msgstr "தோற்றம் (_N)"
+
+msgid "Add new item to this panel"
+msgstr "இந்தப் பலகத்தில் புதிய உருப்படியைச் சேர்"
+
+msgid "Remove currently selected item"
+msgstr "தற்போது தேர்ந்தெடுத்த உருப்படியை அகற்று"
+
+msgid "Edit the currently selected item"
+msgstr "தற்போது தேர்ந்தெடுத்த உருப்படியைத் திருத்து"
+
+msgid "Show about information of the currently selected item"
+msgstr "தற்போது தேர்ந்தெடுத்த உருப்படியின் விவரங்களைக் காட்டு"
+
+msgid "Move currently selected item up by one row"
+msgstr "தற்போது தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை மேலே நகர்த்து"
+
+msgid "Move currently selected item down by one row"
+msgstr "தற்போது தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை கீழே நகர்த்து"
+
+msgid "Ite_ms"
+msgstr "உருப்படிகள் (_M)"
+
+msgid "_New Game"
+msgstr "புதிய ஆட்டம் (_N)"
+
+msgid "_Level:"
+msgstr "நிலை: (_L)"
+
+msgid "Novice"
+msgstr "தொடக்கநிலை"
+
+msgid "Intermediate"
+msgstr "இடைநிலை"
+
+msgid "Experienced"
+msgstr "அனுபவம் வாய்ந்தவர்"
+
+msgid "Expert"
+msgstr "நிபுணர்"
+
 msgid "_Lock Panel"
 msgstr "பலகத்தைப் பூட்டு (_L)"
 
+msgid "Failed to load the default configuration"
+msgstr "இயல்புநிலை உள்ளமைவை ஏற்ற முடியவில்லை"
+
+msgid "Panel config needs migration..."
+msgstr "பலக உள்ளமைவை இடமாற்ற வேண்டும்..."
+
+msgid "Failed to migrate the existing configuration"
+msgstr "ஏற்கெனவே உள்ள உள்ளமைவை இடமாற்ற முடியவில்லை"
+
+msgid "Panel configuration has been updated."
+msgstr "பலக உள்ளமைவு புதுப்பிக்கப்பட்டது."
+
+msgid "Action Buttons"
+msgstr "செயல் பொத்தான்கள்"
+
+msgid "Session Menu"
+msgstr "அமர்வுப் பட்டியல்"
+
+msgid "Full Name"
+msgstr "முழுப் பெயர்"
+
+msgid "Username"
+msgstr "பயனர்பெயர்"
+
+msgid "User ID"
+msgstr "பயனர் அடையாள எண்"
+
+msgid "Custom"
+msgstr "தனிப்பயன்"
+
+msgid "Appeara_nce:"
+msgstr "தோற்றம்: (_N)"
+
+msgid "Title:"
+msgstr "தலைப்பு:"
+
+msgid "Custo_m title:"
+msgstr "தனிப்பயன் தலைப்பு: (_M)"
+
 msgid "General"
 msgstr "பொது"
+
+msgid "Visible"
+msgstr "தெரியும்"
+
+msgid "Action"
+msgstr "செயல்"
+
+msgid "_Show confirmation dialog"
+msgstr "உறுதிப்படுத்தல் உரையாடலைக் காட்டு (_S)"
+
+msgid "Show a confirmation dialog with a 30 second timeout for some of the actions."
+msgstr "சில செயல்களுக்கு 30 விநாடி காலக்கெடுவுடன் உறுதிப்படுத்தல் உரையாடலைக் காட்டு."
+
+msgid "_Actions"
+msgstr "செயல்கள் (_A)"
 
 msgid "Log Out"
 msgstr "வெளியேறு"
 
 msgid "_Log Out"
 msgstr "வெளியேறு (_L)"
+
+msgid "Are you sure you want to log out?"
+msgstr "உறுதியாக வெளியேற வேண்டுமா?"
+
+msgid "Logging out in %d seconds."
+msgstr "%d விநாடிகளில் வெளியேறுகிறது."
 
 msgid "Log Out..."
 msgstr "வெளியேறு..."
@@ -109,11 +471,23 @@ msgstr "உறங்கு"
 msgid "_Hibernate"
 msgstr "உறங்கு (_H)"
 
+msgid "Do you want to suspend to disk?"
+msgstr "வட்டுக்கு இடைநிறுத்த வேண்டுமா?"
+
+msgid "Hibernating computer in %d seconds."
+msgstr "%d விநாடிகளில் கணினி உறங்கும்."
+
 msgid "Hybrid Sleep"
 msgstr "கலப்பு உறக்கம்"
 
 msgid "_Hybrid Sleep"
 msgstr "கலப்பு உறக்கம் (_H)"
+
+msgid "Do you want to hibernate and suspend the system?"
+msgstr "கணினியை உறங்கவைத்து இடைநிறுத்த வேண்டுமா?"
+
+msgid "Hibernating and Suspending computer in %d seconds."
+msgstr "%d விநாடிகளில் கணினி உறங்கி இடைநிறுத்தப்படும்."
 
 msgid "Suspend"
 msgstr "இடைநிறுத்து"
@@ -121,11 +495,23 @@ msgstr "இடைநிறுத்து"
 msgid "Sus_pend"
 msgstr "இடைநிறுத்து (_P)"
 
+msgid "Do you want to suspend to RAM?"
+msgstr "RAM-க்கு இடைநிறுத்த வேண்டுமா?"
+
+msgid "Suspending computer in %d seconds."
+msgstr "%d விநாடிகளில் கணினி இடைநிறுத்தப்படும்."
+
 msgid "Restart"
 msgstr "மறுதொடக்கம்"
 
 msgid "_Restart"
 msgstr "மறுதொடக்கம் (_R)"
+
+msgid "Are you sure you want to restart?"
+msgstr "உறுதியாக மறுதொடக்கம் செய்ய வேண்டுமா?"
+
+msgid "Restarting computer in %d seconds."
+msgstr "%d விநாடிகளில் கணினி மறுதொடக்கம் செய்யப்படும்."
 
 msgid "Shut Down"
 msgstr "அணை"
@@ -136,38 +522,774 @@ msgstr "அணை (_D)"
 msgid "Are you sure you want to shut down?"
 msgstr "உறுதியாக அணைக்க வேண்டுமா?"
 
+msgid "Turning off computer in %d seconds."
+msgstr "%d விநாடிகளில் கணினி அணைக்கப்படும்."
+
 msgid "Separator"
 msgstr "பிரிப்பான்"
+
+msgid "Failed to run action \"%s\""
+msgstr "\"%s\" செயலை இயக்க முடியவில்லை"
+
+msgid "Little Mouse"
+msgstr "குட்டிச் சுண்டெலி"
+
+msgid "Log out, lock or other system actions"
+msgstr "வெளியேறுதல், பூட்டுதல் அல்லது பிற கணினிச் செயல்கள்"
 
 msgid "Applications Menu"
 msgstr "செயலிகள் பட்டியல்"
 
+msgid "_Icon:"
+msgstr "சின்னம்: (_I)"
+
+msgid "Button _title:"
+msgstr "பொத்தான் தலைப்பு: (_T)"
+
+msgid "Show button on one _line"
+msgstr "பொத்தானை ஒரே வரியில் காட்டு (_L)"
+
+msgid "_Show button title"
+msgstr "பொத்தான் தலைப்பைக் காட்டு (_S)"
+
+msgid "Show application d_escription in tooltip"
+msgstr "உதவிக்குறிப்பில் செயலியின் விவரத்தைக் காட்டு (_E)"
+
+msgid "Show ic_ons in menu"
+msgstr "பட்டியலில் சின்னங்களைக் காட்டு (_O)"
+
+msgid "Show generic application n_ames"
+msgstr "செயலிகளின் பொதுப் பெயர்களைக் காட்டு (_A)"
+
+msgid "Select this option to show the generic application name in the menu, for example \"File Manager\" instead of \"Thunar\""
+msgstr "பட்டியலில் செயலியின் பொதுப் பெயரைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்; எடுத்துக்காட்டாக \"Thunar\" என்பதற்குப் பதிலாக \"கோப்பு மேலாளர்\""
+
+msgid "Appearance"
+msgstr "தோற்றம்"
+
+msgid "Use the _default menu"
+msgstr "இயல்புநிலைப் பட்டியலைப் பயன்படுத்து (_D)"
+
+msgid "Ed_it Menu"
+msgstr "பட்டியலைத் திருத்து (_I)"
+
+msgid "Use c_ustom menu file:"
+msgstr "தனிப்பயன் பட்டியல் கோப்பைப் பயன்படுத்து: (_U)"
+
+msgid "Menu _file:"
+msgstr "பட்டியல் கோப்பு: (_F)"
+
+msgid "Select A Menu File"
+msgstr "பட்டியல் கோப்பைத் தேர்ந்தெடு"
+
+msgid "Menu File"
+msgstr "பட்டியல் கோப்பு"
+
 msgid "Applications"
 msgstr "செயலிகள்"
+
+msgid "Select An Icon"
+msgstr "சின்னத்தைத் தேர்ந்தெடு"
 
 msgid "_OK"
 msgstr "சரி (_O)"
 
+msgid "Failed to execute command \"%s\"."
+msgstr "\"%s\" கட்டளையை இயக்க முடியவில்லை."
+
+msgid "Show a menu containing categories of installed applications"
+msgstr "நிறுவிய செயலிகளின் வகைகளைக் கொண்ட பட்டியலைக் காட்டு"
+
+msgid "Usage:"
+msgstr "பயன்பாடு:"
+
+msgid "Options:"
+msgstr "விருப்பத்தேர்வுகள்:"
+
+msgctxt "Date"
+msgid "%A %d %B %Y"
+msgstr "%A, %d %B %Y"
+
+msgid "Week %V"
+msgstr "வாரம் %V"
+
+msgid "Failed to execute clock command"
+msgstr "கடிகாரக் கட்டளையை இயக்க முடியவில்லை"
+
+msgid "Custom Format"
+msgstr "தனிப்பயன் வடிவம்"
+
+msgid "Decimal"
+msgstr "பதின்மம்"
+
+msgid "Sexagesimal"
+msgstr "அறுபதின்மம்"
+
+msgid "Binary time"
+msgstr "இரும நேரம்"
+
+msgid "Date, then time"
+msgstr "தேதி, பின் நேரம்"
+
+msgid "Time, then date"
+msgstr "நேரம், பின் தேதி"
+
+msgid "Date Only"
+msgstr "தேதி மட்டும்"
+
+msgid "Time Only"
+msgstr "நேரம் மட்டும்"
+
+msgid "Analog"
+msgstr "முள் கடிகாரம்"
+
+msgid "Binary"
+msgstr "இருமம்"
+
+msgid "Digital"
+msgstr "எண்முறை"
+
+msgid "Fuzzy"
+msgstr "தோராயம்"
+
+msgid "LCD"
+msgstr "LCD"
+
 msgid "Clock"
 msgstr "கடிகாரம்"
+
+msgid "Name of a timezone corresponding a file in the zoneinfo database, for example \"America/New_York\". Leave empty to use the localtime."
+msgstr "zoneinfo தரவுத்தளத்தில் உள்ள ஒரு கோப்புக்கு இணையான நேர மண்டலத்தின் பெயர்; எடுத்துக்காட்டாக \"America/NewYork\". உள்ளூர் நேரத்தைப் பயன்படுத்த வெறுமையாக விடுங்கள். (_Y)"
+
+msgid "Time_zone:"
+msgstr "நேர மண்டலம்: (_Z)"
+
+msgid "Time and Date _Settings..."
+msgstr "நேரம் மற்றும் தேதி அமைப்புகள் (_S)..."
+
+msgid "Time Settings"
+msgstr "நேர அமைப்புகள்"
+
+msgid "If set, this command is run when the plugin is left-clicked, instead of displaying the default calendar."
+msgstr "அமைத்தால், செருகுநிரலை இடது சொடுக்கும்போது இயல்புநிலை நாள்காட்டியைக் காட்டுவதற்குப் பதிலாக இந்தக் கட்டளை இயங்கும்."
+
+msgid "Co_mmand:"
+msgstr "கட்டளை: (_M)"
+
+msgid "_Show week numbers"
+msgstr "வார எண்களைக் காட்டு (_S)"
+
+msgid "Calendar"
+msgstr "நாள்காட்டி"
+
+msgid "The format describes the date and time parts to insert into the panel. For example, %Y will be substituted with the year, %m with the month and %d with the day. Similarly, <b></b> tags will make the text bold. See the \"Help\" page for additional information."
+msgstr "பலகத்தில் இட வேண்டிய தேதி, நேரப் பகுதிகளை வடிவம் விவரிக்கிறது. எடுத்துக்காட்டாக, %Y ஆண்டாலும், %m மாதத்தாலும், %d நாளாலும் மாற்றப்படும். அதுபோல, <b></b> குறிகள் உரையைத் தடித்ததாக்கும். கூடுதல் தகவலுக்கு \"உதவி\" பக்கத்தைப் பாருங்கள்."
+
+msgid "_Tooltip format:"
+msgstr "உதவிக்குறிப்பு வடிவம்: (_T)"
+
+msgid "_Layout:"
+msgstr "தளவமைப்பு: (_L)"
+
+msgid "Sho_w AM/PM"
+msgstr "AM/PM காட்டு (_W)"
+
+msgid "Fl_ash time separators"
+msgstr "நேரப் பிரிப்பான்களை மின்னச்செய் (_A)"
+
+msgid "24-_hour clock"
+msgstr "24 மணி நேரக் கடிகாரம் (_H)"
+
+msgid "Binary mode:"
+msgstr "இரும முறை:"
+
+msgid "Display _seconds"
+msgstr "விநாடிகளைக் காட்டு (_S)"
+
+msgid "F_uzziness:"
+msgstr "தோராய அளவு: (_U)"
+
+msgid "Show _inactive segments"
+msgstr "செயலற்ற பகுதிகளைக் காட்டு (_I)"
+
+msgid "Show gri_d"
+msgstr "கட்டத்தைக் காட்டு (_D)"
+
+msgid "Font:"
+msgstr "எழுத்துரு:"
+
+msgid "Format:"
+msgstr "வடிவம்:"
+
+msgid "The format describes the date and time parts to insert into the panel. For example, %Y will be substituted with the year, %m with the month and %d with the day. Similarly, &lt;b&gt;&lt;/b&gt; tags will make the text bold. See the &quot;Help&quot; page for additional information."
+msgstr "பலகத்தில் இட வேண்டிய தேதி, நேரப் பகுதிகளை வடிவம் விவரிக்கிறது. எடுத்துக்காட்டாக, %Y ஆண்டாலும், %m மாதத்தாலும், %d நாளாலும் மாற்றப்படும். அதுபோல, &lt;b&gt;&lt;/b&gt; குறிகள் உரையைத் தடித்ததாக்கும். கூடுதல் தகவலுக்கு &quot;உதவி&quot; பக்கத்தைப் பாருங்கள்."
+
+msgid "Date"
+msgstr "தேதி"
+
+msgid "Time"
+msgstr "நேரம்"
+
+msgid "Clock Options"
+msgstr "கடிகார விருப்பங்கள்"
+
+msgid "Night"
+msgstr "இரவு"
+
+msgid "Early morning"
+msgstr "அதிகாலை"
+
+msgid "Morning"
+msgstr "காலை"
+
+msgid "Almost noon"
+msgstr "கிட்டத்தட்ட நண்பகல்"
+
+msgid "Noon"
+msgstr "நண்பகல்"
+
+msgid "Afternoon"
+msgstr "பிற்பகல்"
+
+msgid "Evening"
+msgstr "மாலை"
+
+msgid "Late evening"
+msgstr "முன்னிரவு"
+
+msgid "five past %0"
+msgstr "%0 மணி ஐந்து நிமிடம்"
+
+msgid "ten past %0"
+msgstr "%0 மணி பத்து நிமிடம்"
+
+msgid "quarter past %0"
+msgstr "%0 மணி பதினைந்து நிமிடம்"
+
+msgid "twenty past %0"
+msgstr "%0 மணி இருபது நிமிடம்"
+
+msgid "twenty five past %0"
+msgstr "%0 மணி இருபத்தைந்து நிமிடம்"
+
+msgid "half past %0"
+msgstr "%0 மணி முப்பது நிமிடம்"
+
+msgid "twenty five to %1"
+msgstr "%1 மணிக்கு இருபத்தைந்து நிமிடம்"
+
+msgid "twenty to %1"
+msgstr "%1 மணிக்கு இருபது நிமிடம்"
+
+msgid "quarter to %1"
+msgstr "%1 மணிக்குப் பதினைந்து நிமிடம்"
+
+msgid "ten to %1"
+msgstr "%1 மணிக்குப் பத்து நிமிடம்"
+
+msgid "five to %1"
+msgstr "%1 மணிக்கு ஐந்து நிமிடம்"
+
+msgid "%1 o'clock"
+msgstr "%1 மணி"
+
+msgctxt "one"
+msgid "five past %0"
+msgstr "%0 மணி ஐந்து நிமிடம்"
+
+msgctxt "one"
+msgid "ten past %0"
+msgstr "%0 மணி பத்து நிமிடம்"
+
+msgctxt "one"
+msgid "quarter past %0"
+msgstr "%0 மணி பதினைந்து நிமிடம்"
+
+msgctxt "one"
+msgid "twenty past %0"
+msgstr "%0 மணி இருபது நிமிடம்"
+
+msgctxt "one"
+msgid "twenty five past %0"
+msgstr "%0 மணி இருபத்தைந்து நிமிடம்"
+
+msgctxt "one"
+msgid "half past %0"
+msgstr "%0 மணி முப்பது நிமிடம்"
+
+msgctxt "one"
+msgid "twenty five to %1"
+msgstr "%1 மணிக்கு இருபத்தைந்து நிமிடம்"
+
+msgctxt "one"
+msgid "twenty to %1"
+msgstr "%1 மணிக்கு இருபது நிமிடம்"
+
+msgctxt "one"
+msgid "quarter to %1"
+msgstr "%1 மணிக்குப் பதினைந்து நிமிடம்"
+
+msgctxt "one"
+msgid "ten to %1"
+msgstr "%1 மணிக்குப் பத்து நிமிடம்"
+
+msgctxt "one"
+msgid "five to %1"
+msgstr "%1 மணிக்கு ஐந்து நிமிடம்"
+
+msgctxt "one"
+msgid "%1 o'clock"
+msgstr "%1 மணி"
+
+msgctxt "am"
+msgid "one"
+msgstr "ஒன்று"
+
+msgctxt "am"
+msgid "two"
+msgstr "இரண்டு"
+
+msgctxt "am"
+msgid "three"
+msgstr "மூன்று"
+
+msgctxt "am"
+msgid "four"
+msgstr "நான்கு"
+
+msgctxt "am"
+msgid "five"
+msgstr "ஐந்து"
+
+msgctxt "am"
+msgid "six"
+msgstr "ஆறு"
+
+msgctxt "am"
+msgid "seven"
+msgstr "ஏழு"
+
+msgctxt "am"
+msgid "eight"
+msgstr "எட்டு"
+
+msgctxt "am"
+msgid "nine"
+msgstr "ஒன்பது"
+
+msgctxt "am"
+msgid "ten"
+msgstr "பத்து"
+
+msgctxt "am"
+msgid "eleven"
+msgstr "பதினொன்று"
+
+msgctxt "am"
+msgid "twelve"
+msgstr "பன்னிரண்டு"
+
+msgctxt "pm"
+msgid "one"
+msgstr "ஒன்று"
+
+msgctxt "pm"
+msgid "two"
+msgstr "இரண்டு"
+
+msgctxt "pm"
+msgid "three"
+msgstr "மூன்று"
+
+msgctxt "pm"
+msgid "four"
+msgstr "நான்கு"
+
+msgctxt "pm"
+msgid "five"
+msgstr "ஐந்து"
+
+msgctxt "pm"
+msgid "six"
+msgstr "ஆறு"
+
+msgctxt "pm"
+msgid "seven"
+msgstr "ஏழு"
+
+msgctxt "pm"
+msgid "eight"
+msgstr "எட்டு"
+
+msgctxt "pm"
+msgid "nine"
+msgstr "ஒன்பது"
+
+msgctxt "pm"
+msgid "ten"
+msgstr "பத்து"
+
+msgctxt "pm"
+msgid "eleven"
+msgstr "பதினொன்று"
+
+msgctxt "pm"
+msgid "twelve"
+msgstr "பன்னிரண்டு"
+
+msgid "What time is it?"
+msgstr "மணி என்ன?"
+
+msgid "Directory Menu"
+msgstr "கோப்புறைப் பட்டியல்"
+
+msgid "Failed to launch application \"%s\""
+msgstr "\"%s\" செயலியைத் தொடங்க முடியவில்லை"
+
+msgid "Failed to query content type for \"%s\""
+msgstr "\"%s\"-இன் உள்ளடக்க வகையை அறிய முடியவில்லை"
+
+msgid "No default application found for \"%s\""
+msgstr "\"%s\"-க்கு இயல்புநிலைச் செயலி எதுவும் இல்லை"
+
+msgid "Failed to launch default application for \"%s\""
+msgstr "\"%s\"-க்கான இயல்புநிலைச் செயலியைத் தொடங்க முடியவில்லை"
+
+msgid "Failed to execute the preferred application for category \"%s\""
+msgstr "\"%s\" வகைக்கான விருப்பச் செயலியை இயக்க முடியவில்லை"
+
+msgid "Create New Folder"
+msgstr "புதிய கோப்புறை உருவாக்கு"
+
+msgid "Create New Text Document"
+msgstr "புதிய உரை ஆவணம் உருவாக்கு"
 
 msgid "C_reate"
 msgstr "உருவாக்கு (_R)"
 
+msgid "Create & _Open"
+msgstr "உருவாக்கித் திற (_O)"
+
+msgid "Enter the new name:"
+msgstr "புதிய பெயரை உள்ளிடுக:"
+
+msgid "Failed to create folder: %s"
+msgstr "கோப்புறையை உருவாக்க முடியவில்லை: %s"
+
+msgid "Open Folder"
+msgstr "கோப்புறையைத் திற"
+
+msgid "Open in Terminal"
+msgstr "முனையத்தில் திற"
+
 msgid "Create Folder..."
 msgstr "கோப்புறை உருவாக்கு..."
+
+msgid "Create Text Document..."
+msgstr "உரை ஆவணம் உருவாக்கு..."
+
+msgid "Show a directory tree in a menu"
+msgstr "கோப்புறை மரத்தைப் பட்டியலாகக் காட்டு"
+
+msgid "Select A Directory"
+msgstr "கோப்புறையைத் தேர்ந்தெடு"
+
+msgid "_Base Directory:"
+msgstr "அடிப்படைக் கோப்புறை: (_B)"
+
+msgid "Show 'New Text _Document'"
+msgstr "'புதிய உரை ஆவணம்' காட்டு (_D)"
+
+msgid "Show '_New Folder'"
+msgstr "'புதிய கோப்புறை' காட்டு (_N)"
+
+msgid "Show 'Open in _Terminal'"
+msgstr "'முனையத்தில் திற' காட்டு (_T)"
+
+msgid "Show '_Open _Folder'"
+msgstr "'கோப்புறையைத் திற' காட்டு (_O)"
+
+msgid "Menu"
+msgstr "பட்டியல்"
+
+msgid "Show _hidden files"
+msgstr "மறைந்த கோப்புகளைக் காட்டு (_H)"
+
+msgid "Enter a list of patterns that will be used to determine which files are visible in a directory. If you specify more than one pattern here, the list items must be separated with semicolons (e.g. *.txt;*.doc)."
+msgstr "ஒரு கோப்புறையில் எந்தக் கோப்புகள் தெரிய வேண்டும் என்பதைத் தீர்மானிக்கும் வடிவங்களின் பட்டியலை உள்ளிடுக. ஒன்றுக்கு மேற்பட்ட வடிவங்களைக் குறிப்பிட்டால், அவற்றை அரைப்புள்ளியால் பிரிக்க வேண்டும் (எ.கா. *.txt;*.doc)."
+
+msgid "_File Pattern:"
+msgstr "கோப்பு வடிவம்: (_F)"
+
+msgid "Filtering"
+msgstr "வடிகட்டல்"
+
+msgid "Open launcher menu"
+msgstr "தொடக்கிப் பட்டியலைத் திற"
+
+msgid "Unnamed Item"
+msgstr "பெயரிடாத உருப்படி"
+
+msgid "No items"
+msgstr "உருப்படிகள் இல்லை"
+
+msgid "Failed to open desktop item editor"
+msgstr "மேசைத்தள உருப்படித் திருத்தியைத் திறக்க முடியவில்லை"
+
+msgid "If you delete an item, it will be permanently removed"
+msgstr "ஒரு உருப்படியை நீக்கினால், அது நிரந்தரமாக அகற்றப்படும்"
+
+msgid "Unnamed item"
+msgstr "பெயரிடாத உருப்படி"
+
+msgid "Are you sure you want to remove \"%s\"?"
+msgstr "\"%s\"-ஐ உறுதியாக அகற்ற வேண்டுமா?"
 
 msgid "Default"
 msgstr "இயல்புநிலை"
 
+msgid "North"
+msgstr "வடக்கு"
+
+msgid "West"
+msgstr "மேற்கு"
+
+msgid "East"
+msgstr "கிழக்கு"
+
+msgid "South"
+msgstr "தெற்கு"
+
+msgid "Inside Button"
+msgstr "பொத்தானுக்குள்"
+
+msgid "Up"
+msgstr "மேலே"
+
+msgid "Down"
+msgstr "கீழே"
+
+msgid "_Edit Item"
+msgstr "உருப்படியைத் திருத்து (_E)"
+
+msgid "D_elete Item"
+msgstr "உருப்படியை நீக்கு (_E)"
+
+msgid "Add Appli_cation"
+msgstr "செயலியைச் சேர் (_C)"
+
+msgid "New _Application"
+msgstr "புதிய செயலி (_A)"
+
+msgid "New _Link"
+msgstr "புதிய இணைப்பு (_L)"
+
+msgid "Add one or more existing items to the launcher"
+msgstr "ஏற்கெனவே உள்ள ஒன்று அல்லது பல உருப்படிகளைத் தொடக்கியில் சேர்"
+
+msgid "Launcher"
+msgstr "தொடக்கி"
+
+msgid "Delete the currently selected item"
+msgstr "தற்போது தேர்ந்தெடுத்த உருப்படியை நீக்கு"
+
+msgid "Add a new empty item"
+msgstr "புதிய வெற்று உருப்படியைச் சேர்"
+
+msgid "Add a new hyperlink"
+msgstr "புதிய மீயிணைப்பைச் சேர்"
+
+msgid "Disable t_ooltips"
+msgstr "உதவிக்குறிப்புகளை முடக்கு (_O)"
+
+msgid "Select this option to disable the tooltips when moving over the panel button or menu items."
+msgstr "பலகப் பொத்தான் அல்லது பட்டியல் உருப்படிகள் மேல் சுட்டி நகரும்போது உதவிக்குறிப்புகளை முடக்க இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்."
+
+msgid "Show _label instead of icon"
+msgstr "சின்னத்துக்குப் பதிலாகச் சிட்டையைக் காட்டு (_L)"
+
+msgid "Show last _used item in panel"
+msgstr "கடைசியாகப் பயன்படுத்திய உருப்படியைப் பலகத்தில் காட்டு (_U)"
+
+msgid "Select this option to move the clicked menu item to the panel."
+msgstr "சொடுக்கிய பட்டியல் உருப்படியைப் பலகத்துக்கு நகர்த்த இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்."
+
+msgid "_Arrow button position:"
+msgstr "அம்புப் பொத்தானின் இருப்பிடம்: (_A)"
+
+msgid "Advanced"
+msgstr "மேம்பட்டவை"
+
+msgid "Program launcher with optional menu"
+msgstr "விருப்பப் பட்டியலுடன் கூடிய நிரல் தொடக்கி"
+
+msgid "Workspace _Settings..."
+msgstr "பணியிட அமைப்புகள் (_S)..."
+
+msgid "Unable to open the workspace settings"
+msgstr "பணியிட அமைப்புகளைத் திறக்க முடியவில்லை"
+
+msgid "Workspace %d"
+msgstr "பணியிடம் %d"
+
+msgid "Buttons"
+msgstr "பொத்தான்கள்"
+
+msgid "Miniature View"
+msgstr "சிறுவடிவக் காட்சி"
+
 msgid "Workspace Switcher"
 msgstr "பணியிட மாற்றி"
+
+msgid "Number of _rows:"
+msgstr "வரிசைகளின் எண்ணிக்கை: (_R)"
+
+msgid "Show workspace number"
+msgstr "பணியிட எண்ணைக் காட்டு"
+
+msgid "Switch workspaces using the mouse wheel"
+msgstr "சுட்டிச் சக்கரத்தால் பணியிடங்களை மாற்று"
+
+msgid "Wrap around workspaces"
+msgstr "பணியிடங்களைச் சுழற்சியாக மாற்று"
+
+msgid "<b>Appearance</b>"
+msgstr "<b>தோற்றம்</b>"
+
+msgid "Switch between virtual desktops"
+msgstr "மெய்நிகர் மேசைத்தளங்களுக்கு இடையே மாறு"
+
+msgid "Transparent"
+msgstr "ஒளிபுகும்"
+
+msgid "Handle"
+msgstr "பிடி"
+
+msgid "Dots"
+msgstr "புள்ளிகள்"
+
+msgid "_Expand"
+msgstr "விரிவாக்கு (_E)"
+
+msgid "Adds a separator or space between panel items"
+msgstr "பலக உருப்படிகளுக்கு இடையே பிரிப்பானையோ இடைவெளியையோ சேர்க்கும்"
+
+msgid "Restore the minimized windows"
+msgstr "சிறிதாக்கிய சாளரங்களை மீட்டமை"
+
+msgid "Minimize all open windows and show the desktop"
+msgstr "திறந்துள்ள அனைத்துச் சாளரங்களையும் சிறிதாக்கி மேசைத்தளத்தைக் காட்டு"
 
 msgid "Show Desktop"
 msgstr "மேசைத்தளத்தைக் காட்டு"
 
+msgid "_Show on mouse hover"
+msgstr "சுட்டி மேலே வரும்போது காட்டு (_S)"
+
+msgid "Behavior"
+msgstr "நடத்தை"
+
+msgid "Hide all windows and show the desktop"
+msgstr "அனைத்துச் சாளரங்களையும் மறைத்து மேசைத்தளத்தைக் காட்டு"
+
 msgid "Clear"
 msgstr "அழி"
+
+msgid "Are you sure you want to clear the list of known items?"
+msgstr "அறியப்பட்ட உருப்படிகளின் பட்டியலை உறுதியாக அழிக்க வேண்டுமா?"
+
+msgid "Status Tray Items"
+msgstr "நிலைத்தட்டு உருப்படிகள்"
+
+msgid "C_lear Known Items"
+msgstr "அறியப்பட்ட உருப்படிகளை அழி (_L)"
+
+msgid "Resets the list of items and their visibility settings"
+msgstr "உருப்படிகளின் பட்டியலையும் அவற்றின் தெரிவுநிலை அமைப்புகளையும் மீட்டமைக்கும்"
+
+msgid "_Fixed icon size (pixels):"
+msgstr "நிலையான சின்ன அளவு (படவணுக்கள்): (_F)"
+
+msgid "Adjust size _automatically"
+msgstr "அளவைத் தானாகச் சரிசெய் (_A)"
+
+msgid "Icons"
+msgstr "சின்னங்கள்"
+
+msgid "Arrange _items in a single row"
+msgstr "உருப்படிகளை ஒரே வரிசையில் அடுக்கு (_I)"
+
+msgid "If enabled, ensure that the items are laid out in a single row"
+msgstr "இயக்கினால், உருப்படிகள் ஒரே வரிசையில் அமைவதை உறுதிசெய்யும்"
+
+msgid "_Hide items by default"
+msgstr "இயல்பாக உருப்படிகளை மறை (_H)"
+
+msgid "When enabled, all new items will be marked as \"Hidden\""
+msgstr "இயக்கினால், புதிய உருப்படிகள் அனைத்தும் \"மறைக்கப்பட்டது\" எனக் குறிக்கப்படும்"
+
+msgid "_Square items"
+msgstr "சதுர உருப்படிகள் (_S)"
+
+msgid "Item buttons will take a square when it's possible"
+msgstr "இயன்றபோது உருப்படிப் பொத்தான்கள் சதுர வடிவம் பெறும்"
+
+msgid "Item"
+msgstr "உருப்படி"
+
+msgid "Hidden"
+msgstr "மறைக்கப்பட்டது"
+
+msgid "Move the selected item one row up"
+msgstr "தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை மேலே நகர்த்து"
+
+msgid "Move the selected item one row down"
+msgstr "தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை கீழே நகர்த்து"
+
+msgid "Known Items"
+msgstr "அறியப்பட்ட உருப்படிகள்"
+
+msgid "_Menu is primary action"
+msgstr "பட்டியலே முதன்மைச் செயல் (_M)"
+
+msgid "Left click will always display the menu for item"
+msgstr "இடது சொடுக்கு எப்போதும் உருப்படியின் பட்டியலைக் காட்டும்"
+
+msgid "_Request symbolic icons"
+msgstr "குறியீட்டுச் சின்னங்களைக் கோரு (_R)"
+
+msgid "Load symbolic icons if available"
+msgstr "கிடைத்தால் குறியீட்டுச் சின்னங்களை ஏற்று"
+
+msgid "Features"
+msgstr "அம்சங்கள்"
+
+msgid "Status Notifiers"
+msgstr "நிலை அறிவிப்பிகள்"
+
+msgid "Systray Icons"
+msgstr "கணினித்தட்டுச் சின்னங்கள்"
+
+msgid "Unable to start the notification area"
+msgstr "அறிவிப்புப் பகுதியைத் தொடங்க முடியவில்லை"
+
+msgid "Most likely another widget took over the function of a notification area. This area will be unused."
+msgstr "பெரும்பாலும் வேறொரு கருவி அறிவிப்புப் பகுதியின் பணியை எடுத்துக்கொண்டிருக்கலாம். இந்தப் பகுதி பயன்படுத்தப்படாது."
+
+msgid "The notification area lost selection"
+msgstr "அறிவிப்புப் பகுதி தேர்வை இழந்தது"
+
+msgid "Failed to acquire manager selection for screen %d"
+msgstr "திரை %d-க்கான மேலாளர் தேர்வைப் பெற முடியவில்லை"
+
+msgid "Status Tray Plugin"
+msgstr "நிலைத்தட்டுச் செருகுநிரல்"
+
+msgid "Provides status notifier items (application indicators) and legacy systray items"
+msgstr "நிலை அறிவிப்பி உருப்படிகளையும் (செயலிக் குறிகாட்டிகள்) பழைய கணினித்தட்டு உருப்படிகளையும் வழங்குகிறது"
+
+msgid "Nothing"
+msgstr "எதுவுமில்லை"
 
 msgid "Close Window"
 msgstr "சாளரத்தை மூடு"
@@ -175,8 +1297,77 @@ msgstr "சாளரத்தை மூடு"
 msgid "Minimize Window"
 msgstr "சாளரத்தைச் சிறிதாக்கு"
 
+msgid "New Instance"
+msgstr "புதிய நிகழ்வு"
+
+msgid "Timestamp"
+msgstr "நேரமுத்திரை"
+
+msgid "Group title and timestamp"
+msgstr "குழுத் தலைப்பும் நேரமுத்திரையும்"
+
+msgid "Window title"
+msgstr "சாளரத் தலைப்பு"
+
+msgid "Group title and window title"
+msgstr "குழுத் தலைப்பும் சாளரத் தலைப்பும்"
+
+msgid "None, allow drag-and-drop"
+msgstr "ஏதுமில்லை, இழுத்துவிடலை அனுமதி"
+
 msgid "Window Buttons"
 msgstr "சாளரப் பொத்தான்கள்"
+
+msgid "Show button _labels"
+msgstr "பொத்தான் சிட்டைகளைக் காட்டு (_L)"
+
+msgid "Show _flat buttons"
+msgstr "தட்டையான பொத்தான்களைக் காட்டு (_F)"
+
+msgid "Show _handle"
+msgstr "பிடியைக் காட்டு (_H)"
+
+msgid "Show _tooltips"
+msgstr "உதவிக்குறிப்புகளைக் காட்டு (_T)"
+
+msgid "Sorting _order:"
+msgstr "வரிசைப்படுத்தும் முறை: (_O)"
+
+msgid "Mi_ddle click action:"
+msgstr "நடுச் சொடுக்குச் செயல்: (_D)"
+
+msgid "_Group windows by application"
+msgstr "சாளரங்களைச் செயலிவாரியாகக் குழுவாக்கு (_G)"
+
+msgid "Restore minimized windows to current _workspace"
+msgstr "சிறிதாக்கிய சாளரங்களைத் தற்போதைய பணியிடத்தில் மீட்டமை (_W)"
+
+msgid "D_raw window frame when hovering a button"
+msgstr "பொத்தான் மேல் சுட்டி இருக்கும்போது சாளரச் சட்டகத்தை வரை (_R)"
+
+msgid "_Switch windows using the mouse wheel"
+msgstr "சுட்டிச் சக்கரத்தால் சாளரங்களை மாற்று (_S)"
+
+msgid "Behaviour"
+msgstr "நடத்தை"
+
+msgid "Show windows from _all workspaces"
+msgstr "அனைத்துப் பணியிடங்களின் சாளரங்களையும் காட்டு (_A)"
+
+msgid "Show windows from all mo_nitors"
+msgstr "அனைத்துத் திரைகளின் சாளரங்களையும் காட்டு (_N)"
+
+msgid "Show only _minimized windows"
+msgstr "சிறிதாக்கிய சாளரங்களை மட்டும் காட்டு (_M)"
+
+msgid "Unable to start new instance of '%s'"
+msgstr "'%s'-இன் புதிய நிகழ்வைத் தொடங்க முடியவில்லை"
+
+msgid "Launch New Instance"
+msgstr "புதிய நிகழ்வைத் தொடங்கு"
+
+msgid "Mi_nimize All"
+msgstr "அனைத்தையும் சிறிதாக்கு (_N)"
 
 msgid "Un_minimize All"
 msgstr "அனைத்தையும் மீட்டமை (_M)"
@@ -184,8 +1375,14 @@ msgstr "அனைத்தையும் மீட்டமை (_M)"
 msgid "Ma_ximize All"
 msgstr "அனைத்தையும் பெரிதாக்கு (_X)"
 
+msgid "_Unmaximize All"
+msgstr "அனைத்தையும் பழைய அளவுக்கு மீட்டமை (_U)"
+
 msgid "_Close All"
 msgstr "அனைத்தையும் மூடு (_C)"
+
+msgid "Switch between open windows using buttons"
+msgstr "பொத்தான்களைப் பயன்படுத்தித் திறந்துள்ள சாளரங்களுக்கு இடையே மாறு"
 
 msgid "Desktop"
 msgstr "மேசைத்தளம்"
@@ -193,5 +1390,38 @@ msgstr "மேசைத்தளம்"
 msgid "No Windows"
 msgstr "சாளரங்கள் இல்லை"
 
+msgid "Urgent Windows"
+msgstr "அவசரச் சாளரங்கள்"
+
+msgid "Add Workspace"
+msgstr "பணியிடத்தைச் சேர்"
+
+msgid "Remove Workspace \"%s\""
+msgstr "\"%s\" பணியிடத்தை அகற்று"
+
+msgid "Remove Workspace %d"
+msgstr "பணியிடம் %d-ஐ அகற்று"
+
+msgid "Icon"
+msgstr "சின்னம்"
+
+msgid "Arrow"
+msgstr "அம்பு"
+
 msgid "Window Menu"
 msgstr "சாளரப் பட்டியல்"
+
+msgid "Button layout:"
+msgstr "பொத்தான் தளவமைப்பு:"
+
+msgid "Show workspace a_ctions"
+msgstr "பணியிடச் செயல்களைக் காட்டு (_C)"
+
+msgid "Show workspace _names"
+msgstr "பணியிடப் பெயர்களைக் காட்டு (_N)"
+
+msgid "Enable _urgency notification"
+msgstr "அவசர அறிவிப்பை இயக்கு (_U)"
+
+msgid "Switch between open windows using a menu"
+msgstr "பட்டியலைப் பயன்படுத்தித் திறந்துள்ள சாளரங்களுக்கு இடையே மாறு"

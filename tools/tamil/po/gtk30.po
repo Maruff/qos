@@ -1,9 +1,29 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "keyboard label"
 msgid "Home"
 msgstr "இல்லம்"
+
+msgctxt "keyboard label"
+msgid "Left"
+msgstr "இடம்"
+
+msgctxt "keyboard label"
+msgid "Up"
+msgstr "மேல்"
+
+msgctxt "keyboard label"
+msgid "Right"
+msgstr "வலம்"
+
+msgctxt "keyboard label"
+msgid "Down"
+msgstr "கீழ்"
+
+msgctxt "keyboard label"
+msgid "Insert"
+msgstr "செருகு"
 
 msgctxt "keyboard label"
 msgid "Delete"
@@ -30,12 +50,107 @@ msgid "Hibernate"
 msgstr "உறங்கு"
 
 msgctxt "keyboard label"
+msgid "Display"
+msgstr "திரை"
+
+msgctxt "keyboard label"
 msgid "Suspend"
 msgstr "இடைநிறுத்து"
+
+msgid "Starting %s"
+msgstr "%s தொடங்குகிறது"
+
+msgid "Opening %s"
+msgstr "%s திறக்கப்படுகிறது"
+
+msgid "Opening %d Item"
+msgid_plural "Opening %d Items"
+msgstr[0] "%d உருப்படி திறக்கப்படுகிறது"
+msgstr[1] "%d உருப்படிகள் திறக்கப்படுகின்றன"
+
+msgctxt "Action description"
+msgid "Toggles the cell"
+msgstr "கலத்தை நிலைமாற்றுகிறது"
+
+msgctxt "Action name"
+msgid "Toggle"
+msgstr "நிலைமாற்று"
+
+msgctxt "Action name"
+msgid "Click"
+msgstr "சொடுக்கு"
+
+msgctxt "Action description"
+msgid "Clicks the button"
+msgstr "பொத்தானைச் சொடுக்குகிறது"
+
+msgctxt "Action name"
+msgid "Expand or contract"
+msgstr "விரி அல்லது சுருக்கு"
 
 msgctxt "Action name"
 msgid "Edit"
 msgstr "திருத்து"
+
+msgctxt "Action name"
+msgid "Activate"
+msgstr "செயலாக்கு"
+
+msgctxt "Action description"
+msgid "Expands or contracts the row in the tree view containing this cell"
+msgstr "இந்தக் கலத்தைக் கொண்ட மரக் காட்சி வரிசையை விரிக்கிறது அல்லது சுருக்குகிறது"
+
+msgctxt "Action description"
+msgid "Creates a widget in which the contents of the cell can be edited"
+msgstr "கலத்தின் உள்ளடக்கத்தைத் திருத்தக்கூடிய ஒரு கூறினை உருவாக்குகிறது"
+
+msgctxt "Action description"
+msgid "Activates the cell"
+msgstr "கலத்தைச் செயலாக்குகிறது"
+
+msgctxt "Action name"
+msgid "Select"
+msgstr "தேர்ந்தெடு"
+
+msgctxt "Action name"
+msgid "Customize"
+msgstr "தனிப்பயனாக்கு"
+
+msgctxt "Action description"
+msgid "Selects the color"
+msgstr "நிறத்தைத் தேர்ந்தெடுக்கிறது"
+
+msgctxt "Action description"
+msgid "Activates the color"
+msgstr "நிறத்தைச் செயலாக்குகிறது"
+
+msgctxt "Action description"
+msgid "Customizes the color"
+msgstr "நிறத்தைத் தனிப்பயனாக்குகிறது"
+
+msgctxt "Action name"
+msgid "Press"
+msgstr "அழுத்து"
+
+msgctxt "Action description"
+msgid "Presses the combobox"
+msgstr "சேர்க்கைப் பெட்டியை அழுத்துகிறது"
+
+msgctxt "Action description"
+msgid "Activates the entry"
+msgstr "உள்ளீட்டைச் செயலாக்குகிறது"
+
+msgctxt "Action description"
+msgid "Activates the expander"
+msgstr "விரிப்பானைச் செயலாக்குகிறது"
+
+msgctxt "Action name"
+msgid "Show location"
+msgstr "இருப்பிடத்தைக் காட்டு"
+
+msgctxt "Action description"
+msgid "Show the File Chooser's Location text field"
+msgstr "கோப்புத் தேர்வியின் இருப்பிட உரைப் புலத்தைக் காட்டு"
 
 msgctxt "Stock label"
 msgid "_About"
@@ -44,6 +159,10 @@ msgstr "பற்றி (_A)"
 msgctxt "Stock label"
 msgid "_Add"
 msgstr "சேர் (_A)"
+
+msgctxt "Stock label"
+msgid "_Bold"
+msgstr "தடித்த (_B)"
 
 msgctxt "Stock label"
 msgid "_Clear"
@@ -79,6 +198,14 @@ msgid "Error"
 msgstr "பிழை"
 
 msgctxt "Stock label"
+msgid "Information"
+msgstr "தகவல்"
+
+msgctxt "Stock label"
+msgid "Question"
+msgstr "கேள்வி"
+
+msgctxt "Stock label"
 msgid "Warning"
 msgstr "எச்சரிக்கை"
 
@@ -95,16 +222,52 @@ msgid "_Find"
 msgstr "கண்டுபிடி (_F)"
 
 msgctxt "Stock label"
+msgid "Find and _Replace"
+msgstr "கண்டுபிடித்து மாற்றீடு செய் (_R)"
+
+msgctxt "Stock label"
+msgid "_Floppy"
+msgstr "நெகிழ் வட்டு (_F)"
+
+msgctxt "Stock label"
 msgid "_Fullscreen"
 msgstr "முழுத்திரை (_F)"
+
+msgctxt "Stock label, navigation"
+msgid "_Bottom"
+msgstr "கீழ்முனை (_B)"
+
+msgctxt "Stock label, navigation"
+msgid "_First"
+msgstr "முதல் (_F)"
+
+msgctxt "Stock label, navigation"
+msgid "_Last"
+msgstr "கடைசி (_L)"
+
+msgctxt "Stock label, navigation"
+msgid "_Top"
+msgstr "மேல்முனை (_T)"
 
 msgctxt "Stock label, navigation"
 msgid "_Back"
 msgstr "பின்செல் (_B)"
 
 msgctxt "Stock label, navigation"
+msgid "_Down"
+msgstr "கீழ் (_D)"
+
+msgctxt "Stock label, navigation"
 msgid "_Forward"
 msgstr "முன்செல் (_F)"
+
+msgctxt "Stock label, navigation"
+msgid "_Up"
+msgstr "மேல் (_U)"
+
+msgctxt "Stock label"
+msgid "_Hard Disk"
+msgstr "வன்வட்டு (_H)"
 
 msgctxt "Stock label"
 msgid "_Help"
@@ -115,6 +278,34 @@ msgid "_Home"
 msgstr "இல்லம் (_H)"
 
 msgctxt "Stock label"
+msgid "Increase Indent"
+msgstr "உள்தள்ளலை அதிகரி"
+
+msgctxt "Stock label"
+msgid "_Italic"
+msgstr "சாய்வு (_I)"
+
+msgctxt "Stock label"
+msgid "_Jump to"
+msgstr "இதற்குத் தாவு (_J)"
+
+msgctxt "Stock label"
+msgid "_Center"
+msgstr "மையம் (_C)"
+
+msgctxt "Stock label"
+msgid "_Fill"
+msgstr "நிரப்பு (_F)"
+
+msgctxt "Stock label"
+msgid "_Left"
+msgstr "இடம் (_L)"
+
+msgctxt "Stock label"
+msgid "_Right"
+msgstr "வலம் (_R)"
+
+msgctxt "Stock label"
 msgid "_Leave Fullscreen"
 msgstr "முழுத்திரையிலிருந்து வெளியேறு (_L)"
 
@@ -122,9 +313,37 @@ msgctxt "Stock label, media"
 msgid "_Forward"
 msgstr "முன்செல் (_F)"
 
+msgctxt "Stock label, media"
+msgid "_Next"
+msgstr "அடுத்து (_N)"
+
+msgctxt "Stock label, media"
+msgid "_Play"
+msgstr "இயக்கு (_P)"
+
+msgctxt "Stock label, media"
+msgid "Pre_vious"
+msgstr "முந்தையது (_V)"
+
+msgctxt "Stock label, media"
+msgid "_Record"
+msgstr "பதிவுசெய் (_R)"
+
+msgctxt "Stock label, media"
+msgid "R_ewind"
+msgstr "பின்சுற்று (_E)"
+
+msgctxt "Stock label, media"
+msgid "_Stop"
+msgstr "நிறுத்து (_S)"
+
 msgctxt "Stock label"
 msgid "_Network"
 msgstr "வலையமைப்பு (_N)"
+
+msgctxt "Stock label"
+msgid "_New"
+msgstr "புதியது (_N)"
 
 msgctxt "Stock label"
 msgid "_Open"
@@ -133,6 +352,10 @@ msgstr "திற (_O)"
 msgctxt "Stock label"
 msgid "_Paste"
 msgstr "ஒட்டு (_P)"
+
+msgctxt "Stock label"
+msgid "Print Pre_view"
+msgstr "அச்சு முன்தோற்றம் (_V)"
 
 msgctxt "Stock label"
 msgid "_Properties"
@@ -147,24 +370,68 @@ msgid "_Redo"
 msgstr "மீண்டும் செய் (_R)"
 
 msgctxt "Stock label"
+msgid "_Refresh"
+msgstr "புதுப்பி (_R)"
+
+msgctxt "Stock label"
 msgid "_Remove"
 msgstr "அகற்று (_R)"
+
+msgctxt "Stock label"
+msgid "_Revert"
+msgstr "பழைய நிலைக்குத் திருப்பு (_R)"
 
 msgctxt "Stock label"
 msgid "_Save"
 msgstr "சேமி (_S)"
 
 msgctxt "Stock label"
+msgid "Save _As"
+msgstr "இவ்வாறு சேமி (_A)"
+
+msgctxt "Stock label"
 msgid "Select _All"
 msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
+
+msgctxt "Stock label"
+msgid "_Ascending"
+msgstr "ஏறுவரிசை (_A)"
+
+msgctxt "Stock label"
+msgid "_Descending"
+msgstr "இறங்குவரிசை (_D)"
+
+msgctxt "Stock label"
+msgid "_Spell Check"
+msgstr "எழுத்துப்பிழை சரிபார் (_S)"
+
+msgctxt "Stock label"
+msgid "_Stop"
+msgstr "நிறுத்து (_S)"
+
+msgctxt "Stock label"
+msgid "_Strikethrough"
+msgstr "அடித்தல் (_S)"
+
+msgctxt "Stock label"
+msgid "_Underline"
+msgstr "அடிக்கோடு (_U)"
 
 msgctxt "Stock label"
 msgid "_Undo"
 msgstr "செயல்தவிர் (_U)"
 
 msgctxt "Stock label"
+msgid "Decrease Indent"
+msgstr "உள்தள்ளலைக் குறை"
+
+msgctxt "Stock label"
 msgid "_Normal Size"
 msgstr "இயல்பான அளவு (_N)"
+
+msgctxt "Stock label"
+msgid "Best _Fit"
+msgstr "சிறந்த பொருத்தம் (_F)"
 
 msgctxt "Stock label"
 msgid "Zoom _In"
@@ -174,11 +441,144 @@ msgctxt "Stock label"
 msgid "Zoom _Out"
 msgstr "தொலைவில் காட்டு (_O)"
 
+msgid "Menu"
+msgstr "பட்டியல்"
+
+msgctxt "Action description"
+msgid "Clicks the menuitem"
+msgstr "பட்டியல் உருப்படியைச் சொடுக்குகிறது"
+
+msgctxt "Action description"
+msgid "Pops up the slider"
+msgstr "நகர்த்தியைத் தோன்றச் செய்கிறது"
+
+msgctxt "Action description"
+msgid "Dismisses the slider"
+msgstr "நகர்த்தியை மறைக்கிறது"
+
+msgctxt "Action name"
+msgid "Popup"
+msgstr "தோன்றச் செய்"
+
+msgctxt "Action name"
+msgid "Dismiss"
+msgstr "விலக்கு"
+
+msgctxt "throbbing progress animation widget"
+msgid "Spinner"
+msgstr "சுழலி"
+
+msgid "Provides visual indication of progress"
+msgstr "முன்னேற்றத்தைக் காட்சியாகக் குறிக்கிறது"
+
+msgctxt "Action description"
+msgid "Toggles the switch"
+msgstr "நிலைமாற்றியை மாற்றுகிறது"
+
+msgid "Select the color you want from the outer ring. Select the darkness or lightness of that color using the inner triangle."
+msgstr "வெளி வளையத்திலிருந்து உங்களுக்கு வேண்டிய நிறத்தைத் தேர்ந்தெடுக்கவும். உள் முக்கோணத்தைக் கொண்டு அந்த நிறத்தின் அடர்வையோ வெளிர்வையோ தேர்ந்தெடுக்கவும்."
+
+msgid "Click the eyedropper, then click a color anywhere on your screen to select that color."
+msgstr "நிற உறிஞ்சியைச் சொடுக்கி, பின் திரையில் எங்காவது உள்ள ஒரு நிறத்தைச் சொடுக்கி அந்த நிறத்தைத் தேர்ந்தெடுக்கவும்."
+
+msgid "_Hue:"
+msgstr "சாயல்: (_H)"
+
+msgid "Position on the color wheel."
+msgstr "நிறச் சக்கரத்தில் உள்ள நிலை."
+
+msgid "S_aturation:"
+msgstr "செறிவு: (_A)"
+
+msgid "Intensity of the color."
+msgstr "நிறத்தின் அடர்த்தி."
+
+msgid "_Value:"
+msgstr "மதிப்பு: (_V)"
+
+msgid "Brightness of the color."
+msgstr "நிறத்தின் ஒளிர்வு."
+
+msgid "_Red:"
+msgstr "சிவப்பு: (_R)"
+
+msgid "Amount of red light in the color."
+msgstr "நிறத்தில் உள்ள சிவப்பு ஒளியின் அளவு."
+
+msgid "_Green:"
+msgstr "பச்சை: (_G)"
+
+msgid "Amount of green light in the color."
+msgstr "நிறத்தில் உள்ள பச்சை ஒளியின் அளவு."
+
+msgid "_Blue:"
+msgstr "நீலம்: (_B)"
+
+msgid "Amount of blue light in the color."
+msgstr "நிறத்தில் உள்ள நீல ஒளியின் அளவு."
+
+msgid "Op_acity:"
+msgstr "ஒளிபுகாமை: (_A)"
+
+msgid "Transparency of the color."
+msgstr "நிறத்தின் ஒளிபுகுதன்மை."
+
+msgid "Color _name:"
+msgstr "நிறத்தின் பெயர்: (_N)"
+
+msgid "You can enter an HTML-style hexadecimal color value, or simply a color name such as “orange” in this entry."
+msgstr "இந்த உள்ளீட்டில் HTML பாணி பதினறும நிற மதிப்பையோ, “orange” போன்ற நிறப் பெயரையோ உள்ளிடலாம்."
+
+msgid "_Palette:"
+msgstr "நிறத்தட்டு: (_P)"
+
+msgid "Color Wheel"
+msgstr "நிறச் சக்கரம்"
+
+msgid "The previously-selected color, for comparison to the color you’re selecting now. You can drag this color to a palette entry, or select this color as current by dragging it to the other color swatch alongside."
+msgstr "முன்பு தேர்ந்தெடுத்த நிறம்; இப்போது தேர்ந்தெடுக்கும் நிறத்துடன் ஒப்பிடுவதற்கு. இந்த நிறத்தை நிறத்தட்டு உள்ளீட்டுக்கு இழுக்கலாம், அல்லது அருகிலுள்ள மற்ற நிற மாதிரிக்கு இழுத்து இதைத் தற்போதைய நிறமாகத் தேர்ந்தெடுக்கலாம்."
+
+msgid "The color you’ve chosen. You can drag this color to a palette entry to save it for use in the future."
+msgstr "நீங்கள் தேர்ந்தெடுத்த நிறம். பின்னர் பயன்படுத்துவதற்காகச் சேமிக்க இந்த நிறத்தை நிறத்தட்டு உள்ளீட்டுக்கு இழுக்கலாம்."
+
+msgid "The previously-selected color, for comparison to the color you’re selecting now."
+msgstr "முன்பு தேர்ந்தெடுத்த நிறம்; இப்போது தேர்ந்தெடுக்கும் நிறத்துடன் ஒப்பிடுவதற்கு."
+
+msgid "The color you’ve chosen."
+msgstr "நீங்கள் தேர்ந்தெடுத்த நிறம்."
+
+msgid "_Save color here"
+msgstr "நிறத்தை இங்கே சேமி (_S)"
+
+msgid "Click this palette entry to make it the current color. To change this entry, drag a color swatch here or right-click it and select “Save color here.”"
+msgstr "இதைத் தற்போதைய நிறமாக்க இந்த நிறத்தட்டு உள்ளீட்டைச் சொடுக்கவும். இந்த உள்ளீட்டை மாற்ற, ஒரு நிற மாதிரியை இங்கே இழுக்கவும், அல்லது வலது சொடுக்கு செய்து “நிறத்தை இங்கே சேமி” என்பதைத் தேர்ந்தெடுக்கவும்."
+
 msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
 
+msgid "_Select"
+msgstr "தேர்ந்தெடு (_S)"
+
 msgid "_Help"
 msgstr "உதவி (_H)"
+
+msgid "Color Selection"
+msgstr "நிறத் தேர்வு"
+
+msgid "abcdefghijk ABCDEFGHIJK"
+msgstr "அஆஇஈஉ கஙசஞ abcdefghijk ABCDEFGHIJK"
+
+msgid "_Family:"
+msgstr "குடும்பம்: (_F)"
+
+msgid "_Style:"
+msgstr "பாணி: (_S)"
+
+msgid "Si_ze:"
+msgstr "அளவு: (_Z)"
+
+msgid "_Preview:"
+msgstr "முன்தோற்றம்: (_P)"
 
 msgid "_Apply"
 msgstr "செயல்படுத்து (_A)"
@@ -186,6 +586,9 @@ msgstr "செயல்படுத்து (_A)"
 msgid "_OK"
 msgstr "சரி (_O)"
 
+msgid "Font Selection"
+msgstr "எழுத்துருத் தேர்வு"
+
 msgctxt "Stock label"
 msgid "_Apply"
 msgstr "செயல்படுத்து (_A)"
@@ -195,8 +598,32 @@ msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
 
 msgctxt "Stock label"
+msgid "C_onnect"
+msgstr "இணை (_O)"
+
+msgctxt "Stock label"
+msgid "_Convert"
+msgstr "மாற்று (_C)"
+
+msgctxt "Stock label"
+msgid "_Discard"
+msgstr "கைவிடு (_D)"
+
+msgctxt "Stock label"
+msgid "_Disconnect"
+msgstr "துண்டி (_D)"
+
+msgctxt "Stock label"
 msgid "_Edit"
 msgstr "திருத்து (_E)"
+
+msgctxt "Stock label"
+msgid "_Index"
+msgstr "பொருளடக்கம் (_I)"
+
+msgctxt "Stock label"
+msgid "_Information"
+msgstr "தகவல் (_I)"
 
 msgctxt "Stock label"
 msgid "_No"
@@ -207,15 +634,449 @@ msgid "_OK"
 msgstr "சரி (_O)"
 
 msgctxt "Stock label"
+msgid "Landscape"
+msgstr "கிடைநிலை"
+
+msgctxt "Stock label"
+msgid "Portrait"
+msgstr "நெடுநிலை"
+
+msgctxt "Stock label"
+msgid "Reverse landscape"
+msgstr "தலைகீழ் கிடைநிலை"
+
+msgctxt "Stock label"
+msgid "Reverse portrait"
+msgstr "தலைகீழ் நெடுநிலை"
+
+msgctxt "Stock label"
+msgid "Page Set_up"
+msgstr "பக்க அமைப்பு (_U)"
+
+msgctxt "Stock label"
 msgid "_Preferences"
 msgstr "விருப்பங்கள் (_P)"
+
+msgctxt "Stock label"
+msgid "_Color"
+msgstr "நிறம் (_C)"
+
+msgctxt "Stock label"
+msgid "_Font"
+msgstr "எழுத்துரு (_F)"
+
+msgctxt "Stock label"
+msgid "_Undelete"
+msgstr "நீக்கியதை மீட்டெடு (_U)"
 
 msgctxt "Stock label"
 msgid "_Yes"
 msgstr "ஆம் (_Y)"
 
+msgid "Empty"
+msgstr "காலி"
+
+msgid "License"
+msgstr "உரிமம்"
+
+msgid "Custom License"
+msgstr "தனிப்பயன் உரிமம்"
+
+msgid "GNU General Public License, version 2 or later"
+msgstr "GNU General Public License, பதிப்பு 2 அல்லது பிந்தையது"
+
+msgid "GNU General Public License, version 3 or later"
+msgstr "GNU General Public License, பதிப்பு 3 அல்லது பிந்தையது"
+
+msgid "GNU Lesser General Public License, version 2.1 or later"
+msgstr "GNU Lesser General Public License, பதிப்பு 2.1 அல்லது பிந்தையது"
+
+msgid "GNU Lesser General Public License, version 3 or later"
+msgstr "GNU Lesser General Public License, பதிப்பு 3 அல்லது பிந்தையது"
+
+msgid "BSD 2-Clause License"
+msgstr "BSD 2-பிரிவு உரிமம்"
+
+msgid "The MIT License (MIT)"
+msgstr "MIT உரிமம் (MIT)"
+
+msgid "GNU General Public License, version 2 only"
+msgstr "GNU General Public License, பதிப்பு 2 மட்டும்"
+
+msgid "GNU General Public License, version 3 only"
+msgstr "GNU General Public License, பதிப்பு 3 மட்டும்"
+
+msgid "GNU Lesser General Public License, version 2.1 only"
+msgstr "GNU Lesser General Public License, பதிப்பு 2.1 மட்டும்"
+
+msgid "GNU Lesser General Public License, version 3 only"
+msgstr "GNU Lesser General Public License, பதிப்பு 3 மட்டும்"
+
+msgid "GNU Affero General Public License, version 3 or later"
+msgstr "GNU Affero General Public License, பதிப்பு 3 அல்லது பிந்தையது"
+
+msgid "GNU Affero General Public License, version 3 only"
+msgstr "GNU Affero General Public License, பதிப்பு 3 மட்டும்"
+
+msgid "BSD 3-Clause License"
+msgstr "BSD 3-பிரிவு உரிமம்"
+
+msgid "Apache License, Version 2.0"
+msgstr "Apache License, பதிப்பு 2.0"
+
+msgid "C_redits"
+msgstr "நன்றி (_R)"
+
+msgid "_License"
+msgstr "உரிமம் (_L)"
+
 msgid "_Close"
 msgstr "மூடு (_C)"
+
+msgid "Could not show link"
+msgstr "இணைப்பைக் காட்ட முடியவில்லை"
+
+msgid "Website"
+msgstr "இணையதளம்"
+
+msgid "About %s"
+msgstr "%s பற்றி"
+
+msgid "Created by"
+msgstr "உருவாக்கியவர்கள்"
+
+msgid "Documented by"
+msgstr "ஆவணமாக்கியவர்கள்"
+
+msgid "Translated by"
+msgstr "மொழிபெயர்த்தவர்கள்"
+
+msgid "Artwork by"
+msgstr "கலைப்படைப்பு"
+
+msgid "This program comes with absolutely no warranty.\nSee the <a href=\"%s\">%s</a> for details."
+msgstr "இந்த நிரலுக்கு எந்த உத்தரவாதமும் இல்லை.\nவிவரங்களுக்கு <a href=\"%s\">%s</a> பார்க்கவும்."
+
+msgctxt "keyboard label"
+msgid "Shift"
+msgstr "Shift"
+
+msgctxt "keyboard label"
+msgid "Alt"
+msgstr "Alt"
+
+msgid "Other application…"
+msgstr "வேறு செயலி…"
+
+msgid "Select Application"
+msgstr "செயலியைத் தேர்ந்தெடு"
+
+msgid "Opening “%s”."
+msgstr "“%s” திறக்கப்படுகிறது."
+
+msgid "No applications found for “%s”"
+msgstr "“%s” க்குச் செயலிகள் எதுவும் கிடைக்கவில்லை"
+
+msgid "Opening “%s” files."
+msgstr "“%s” கோப்புகள் திறக்கப்படுகின்றன."
+
+msgid "No applications found for “%s” files"
+msgstr "“%s” கோப்புகளுக்குச் செயலிகள் எதுவும் கிடைக்கவில்லை"
+
+msgid "Forget association"
+msgstr "தொடர்பை மற"
+
+msgid "Failed to start GNOME Software"
+msgstr "GNOME Software ஐத் தொடங்க முடியவில்லை"
+
+msgid "Default Application"
+msgstr "இயல்புநிலைச் செயலி"
+
+msgid "No applications found for “%s”."
+msgstr "“%s” க்குச் செயலிகள் எதுவும் கிடைக்கவில்லை."
+
+msgid "Recommended Applications"
+msgstr "பரிந்துரைக்கப்பட்ட செயலிகள்"
+
+msgid "Related Applications"
+msgstr "தொடர்புடைய செயலிகள்"
+
+msgid "Other Applications"
+msgstr "பிற செயலிகள்"
+
+msgid "Application"
+msgstr "செயலி"
+
+msgid "%s does not exist in the bookmarks list"
+msgstr "%s புத்தகக்குறிப் பட்டியலில் இல்லை"
+
+msgid "%s already exists in the bookmarks list"
+msgstr "%s ஏற்கெனவே புத்தகக்குறிப் பட்டியலில் உள்ளது"
+
+msgctxt "Accelerator"
+msgid "Disabled"
+msgstr "முடக்கப்பட்டது"
+
+msgctxt "Accelerator"
+msgid "Invalid"
+msgstr "செல்லாதது"
+
+msgid "New accelerator…"
+msgstr "புதிய குறுக்குவிசை…"
+
+msgid "Pick a Color"
+msgstr "ஒரு நிறத்தைத் தேர்ந்தெடு"
+
+msgid "Red %d%%, Green %d%%, Blue %d%%, Alpha %d%%"
+msgstr "சிவப்பு %d%%, பச்சை %d%%, நீலம் %d%%, ஆல்ஃபா %d%%"
+
+msgid "Red %d%%, Green %d%%, Blue %d%%"
+msgstr "சிவப்பு %d%%, பச்சை %d%%, நீலம் %d%%"
+
+msgid "Color: %s"
+msgstr "நிறம்: %s"
+
+msgctxt "Color name"
+msgid "Very Light Blue"
+msgstr "மிக வெளிர் நீலம்"
+
+msgctxt "Color name"
+msgid "Light Blue"
+msgstr "வெளிர் நீலம்"
+
+msgctxt "Color name"
+msgid "Blue"
+msgstr "நீலம்"
+
+msgctxt "Color name"
+msgid "Dark Blue"
+msgstr "அடர் நீலம்"
+
+msgctxt "Color name"
+msgid "Very Dark Blue"
+msgstr "மிக அடர் நீலம்"
+
+msgctxt "Color name"
+msgid "Very Light Green"
+msgstr "மிக வெளிர் பச்சை"
+
+msgctxt "Color name"
+msgid "Light Green"
+msgstr "வெளிர் பச்சை"
+
+msgctxt "Color name"
+msgid "Green"
+msgstr "பச்சை"
+
+msgctxt "Color name"
+msgid "Dark Green"
+msgstr "அடர் பச்சை"
+
+msgctxt "Color name"
+msgid "Very Dark Green"
+msgstr "மிக அடர் பச்சை"
+
+msgctxt "Color name"
+msgid "Very Light Yellow"
+msgstr "மிக வெளிர் மஞ்சள்"
+
+msgctxt "Color name"
+msgid "Light Yellow"
+msgstr "வெளிர் மஞ்சள்"
+
+msgctxt "Color name"
+msgid "Yellow"
+msgstr "மஞ்சள்"
+
+msgctxt "Color name"
+msgid "Dark Yellow"
+msgstr "அடர் மஞ்சள்"
+
+msgctxt "Color name"
+msgid "Very Dark Yellow"
+msgstr "மிக அடர் மஞ்சள்"
+
+msgctxt "Color name"
+msgid "Very Light Orange"
+msgstr "மிக வெளிர் ஆரஞ்சு"
+
+msgctxt "Color name"
+msgid "Light Orange"
+msgstr "வெளிர் ஆரஞ்சு"
+
+msgctxt "Color name"
+msgid "Orange"
+msgstr "ஆரஞ்சு"
+
+msgctxt "Color name"
+msgid "Dark Orange"
+msgstr "அடர் ஆரஞ்சு"
+
+msgctxt "Color name"
+msgid "Very Dark Orange"
+msgstr "மிக அடர் ஆரஞ்சு"
+
+msgctxt "Color name"
+msgid "Very Light Red"
+msgstr "மிக வெளிர் சிவப்பு"
+
+msgctxt "Color name"
+msgid "Light Red"
+msgstr "வெளிர் சிவப்பு"
+
+msgctxt "Color name"
+msgid "Red"
+msgstr "சிவப்பு"
+
+msgctxt "Color name"
+msgid "Dark Red"
+msgstr "அடர் சிவப்பு"
+
+msgctxt "Color name"
+msgid "Very Dark Red"
+msgstr "மிக அடர் சிவப்பு"
+
+msgctxt "Color name"
+msgid "Very Light Purple"
+msgstr "மிக வெளிர் ஊதா"
+
+msgctxt "Color name"
+msgid "Light Purple"
+msgstr "வெளிர் ஊதா"
+
+msgctxt "Color name"
+msgid "Purple"
+msgstr "ஊதா"
+
+msgctxt "Color name"
+msgid "Dark Purple"
+msgstr "அடர் ஊதா"
+
+msgctxt "Color name"
+msgid "Very Dark Purple"
+msgstr "மிக அடர் ஊதா"
+
+msgctxt "Color name"
+msgid "Very Light Brown"
+msgstr "மிக வெளிர் பழுப்பு"
+
+msgctxt "Color name"
+msgid "Light Brown"
+msgstr "வெளிர் பழுப்பு"
+
+msgctxt "Color name"
+msgid "Brown"
+msgstr "பழுப்பு"
+
+msgctxt "Color name"
+msgid "Dark Brown"
+msgstr "அடர் பழுப்பு"
+
+msgctxt "Color name"
+msgid "Very Dark Brown"
+msgstr "மிக அடர் பழுப்பு"
+
+msgctxt "Color name"
+msgid "White"
+msgstr "வெள்ளை"
+
+msgctxt "Color name"
+msgid "Light Gray 1"
+msgstr "வெளிர் சாம்பல் 1"
+
+msgctxt "Color name"
+msgid "Light Gray 2"
+msgstr "வெளிர் சாம்பல் 2"
+
+msgctxt "Color name"
+msgid "Light Gray 3"
+msgstr "வெளிர் சாம்பல் 3"
+
+msgctxt "Color name"
+msgid "Light Gray 4"
+msgstr "வெளிர் சாம்பல் 4"
+
+msgctxt "Color name"
+msgid "Dark Gray 1"
+msgstr "அடர் சாம்பல் 1"
+
+msgctxt "Color name"
+msgid "Dark Gray 2"
+msgstr "அடர் சாம்பல் 2"
+
+msgctxt "Color name"
+msgid "Dark Gray 3"
+msgstr "அடர் சாம்பல் 3"
+
+msgctxt "Color name"
+msgid "Dark Gray 4"
+msgstr "அடர் சாம்பல் 4"
+
+msgctxt "Color name"
+msgid "Black"
+msgstr "கருப்பு"
+
+msgid "Custom"
+msgstr "தனிப்பயன்"
+
+msgid "Custom color"
+msgstr "தனிப்பயன் நிறம்"
+
+msgid "Create a custom color"
+msgstr "தனிப்பயன் நிறத்தை உருவாக்கு"
+
+msgid "Custom color %d: %s"
+msgstr "தனிப்பயன் நிறம் %d: %s"
+
+msgid "Color Plane"
+msgstr "நிறத் தளம்"
+
+msgctxt "Color channel"
+msgid "Hue"
+msgstr "சாயல்"
+
+msgctxt "Color channel"
+msgid "Alpha"
+msgstr "ஆல்ஃபா"
+
+msgid "C_ustomize"
+msgstr "தனிப்பயனாக்கு (_U)"
+
+msgid "Manage Custom Sizes"
+msgstr "தனிப்பயன் அளவுகளை நிர்வகி"
+
+msgid "inch"
+msgstr "அங்குலம்"
+
+msgid "Margins from Printer…"
+msgstr "அச்சுப்பொறியின் ஓரங்கள்…"
+
+msgid "Custom Size %d"
+msgstr "தனிப்பயன் அளவு %d"
+
+msgid "_Width:"
+msgstr "அகலம்: (_W)"
+
+msgid "_Height:"
+msgstr "உயரம்: (_H)"
+
+msgid "Paper Size"
+msgstr "தாள் அளவு"
+
+msgid "_Top:"
+msgstr "மேல்: (_T)"
+
+msgid "_Bottom:"
+msgstr "கீழ்: (_B)"
+
+msgid "_Left:"
+msgstr "இடம்: (_L)"
+
+msgid "_Right:"
+msgstr "வலம்: (_R)"
+
+msgid "Paper Margins"
+msgstr "தாள் ஓரங்கள்"
 
 msgid "Cu_t"
 msgstr "வெட்டு (_T)"
@@ -232,6 +1093,12 @@ msgstr "நீக்கு (_D)"
 msgid "Select _All"
 msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
 
+msgid "Insert _Emoji"
+msgstr "உணர்வுருவைச் செருகு (_E)"
+
+msgid "Select all"
+msgstr "அனைத்தையும் தேர்ந்தெடு"
+
 msgid "Cut"
 msgstr "வெட்டு"
 
@@ -241,8 +1108,23 @@ msgstr "நகலெடு"
 msgid "Paste"
 msgstr "ஒட்டு"
 
+msgid "Caps Lock is on"
+msgstr "Caps Lock இயக்கத்தில் உள்ளது"
+
+msgid "Insert Emoji"
+msgstr "உணர்வுருவைச் செருகு"
+
+msgid "Select a File"
+msgstr "ஒரு கோப்பைத் தேர்ந்தெடு"
+
 msgid "Desktop"
 msgstr "மேசைத்தளம்"
+
+msgid "(None)"
+msgstr "(ஏதுமில்லை)"
+
+msgid "Other…"
+msgstr "பிற…"
 
 msgid "_Name"
 msgstr "பெயர் (_N)"
@@ -253,6 +1135,120 @@ msgstr "திற (_O)"
 msgid "_Save"
 msgstr "சேமி (_S)"
 
+msgid "Select which types of files are shown"
+msgstr "எந்த வகைக் கோப்புகள் காட்டப்பட வேண்டும் எனத் தேர்ந்தெடு"
+
+msgid "%1$s on %2$s"
+msgstr "%2$s இல் %1$s"
+
+msgid "Type name of new folder"
+msgstr "புதிய கோப்புறையின் பெயரைத் தட்டச்சிடவும்"
+
+msgid "The folder could not be created"
+msgstr "கோப்புறையை உருவாக்க முடியவில்லை"
+
+msgid "The folder could not be created, as a file with the same name already exists."
+msgstr "அதே பெயரில் ஒரு கோப்பு ஏற்கெனவே உள்ளதால் கோப்புறையை உருவாக்க முடியவில்லை."
+
+msgid "Try using a different name for the folder, or rename the file first."
+msgstr "கோப்புறைக்கு வேறு பெயரைப் பயன்படுத்தவும், அல்லது முதலில் அந்தக் கோப்பின் பெயரை மாற்றவும்."
+
+msgid "You need to choose a valid filename."
+msgstr "செல்லுபடியான கோப்புப் பெயரைத் தேர்ந்தெடுக்க வேண்டும்."
+
+msgid "Cannot create a file under %s as it is not a folder"
+msgstr "%s ஒரு கோப்புறை அல்ல என்பதால் அதன் கீழ் கோப்பை உருவாக்க முடியாது"
+
+msgid "Cannot create file as the filename is too long"
+msgstr "கோப்புப் பெயர் மிக நீளமாக இருப்பதால் கோப்பை உருவாக்க முடியாது"
+
+msgid "Try using a shorter name."
+msgstr "குறுகிய பெயரைப் பயன்படுத்திப் பார்க்கவும்."
+
+msgid "You may only select folders"
+msgstr "கோப்புறைகளை மட்டுமே தேர்ந்தெடுக்கலாம்"
+
+msgid "The item that you selected is not a folder try using a different item."
+msgstr "நீங்கள் தேர்ந்தெடுத்த உருப்படி கோப்புறை அல்ல; வேறு உருப்படியைப் பயன்படுத்திப் பார்க்கவும்."
+
+msgid "Invalid file name"
+msgstr "செல்லாத கோப்புப் பெயர்"
+
+msgid "The folder contents could not be displayed"
+msgstr "கோப்புறையின் உள்ளடக்கத்தைக் காட்ட முடியவில்லை"
+
+msgid "The file could not be deleted"
+msgstr "கோப்பை நீக்க முடியவில்லை"
+
+msgid "The file could not be moved to the Trash"
+msgstr "கோப்பைக் குப்பைத் தொட்டிக்கு நகர்த்த முடியவில்லை"
+
+msgid "A folder with that name already exists"
+msgstr "அந்தப் பெயரில் ஒரு கோப்புறை ஏற்கெனவே உள்ளது"
+
+msgid "A file with that name already exists"
+msgstr "அந்தப் பெயரில் ஒரு கோப்பு ஏற்கெனவே உள்ளது"
+
+msgid "A folder cannot be called “.”"
+msgstr "கோப்புறைக்கு “.” எனப் பெயரிட முடியாது"
+
+msgid "A file cannot be called “.”"
+msgstr "கோப்புக்கு “.” எனப் பெயரிட முடியாது"
+
+msgid "A folder cannot be called “..”"
+msgstr "கோப்புறைக்கு “..” எனப் பெயரிட முடியாது"
+
+msgid "A file cannot be called “..”"
+msgstr "கோப்புக்கு “..” எனப் பெயரிட முடியாது"
+
+msgid "Folder names cannot contain “/”"
+msgstr "கோப்புறைப் பெயர்களில் “/” இருக்கக் கூடாது"
+
+msgid "File names cannot contain “/”"
+msgstr "கோப்புப் பெயர்களில் “/” இருக்கக் கூடாது"
+
+msgid "Folder names should not begin with a space"
+msgstr "கோப்புறைப் பெயர்கள் இடைவெளியுடன் தொடங்கக் கூடாது"
+
+msgid "File names should not begin with a space"
+msgstr "கோப்புப் பெயர்கள் இடைவெளியுடன் தொடங்கக் கூடாது"
+
+msgid "Folder names should not end with a space"
+msgstr "கோப்புறைப் பெயர்கள் இடைவெளியுடன் முடியக் கூடாது"
+
+msgid "File names should not end with a space"
+msgstr "கோப்புப் பெயர்கள் இடைவெளியுடன் முடியக் கூடாது"
+
+msgid "Folder names starting with a “.” are hidden"
+msgstr "“.” உடன் தொடங்கும் கோப்புறைப் பெயர்கள் மறைக்கப்படும்"
+
+msgid "File names starting with a “.” are hidden"
+msgstr "“.” உடன் தொடங்கும் கோப்புப் பெயர்கள் மறைக்கப்படும்"
+
+msgid "Are you sure you want to permanently delete “%s”?"
+msgstr "“%s” ஐ நிரந்தரமாக நீக்க வேண்டும் என உறுதியாக உள்ளீர்களா?"
+
+msgid "If you delete an item, it will be permanently lost."
+msgstr "ஒரு உருப்படியை நீக்கினால், அது நிரந்தரமாக இழக்கப்படும்."
+
+msgid "The file could not be renamed"
+msgstr "கோப்பின் பெயரை மாற்ற முடியவில்லை"
+
+msgid "Could not select file"
+msgstr "கோப்பைத் தேர்ந்தெடுக்க முடியவில்லை"
+
+msgid "_Visit File"
+msgstr "கோப்புக்குச் செல் (_V)"
+
+msgid "_Open With File Manager"
+msgstr "கோப்பு மேலாளருடன் திற (_O)"
+
+msgid "_Copy Location"
+msgstr "இருப்பிடத்தை நகலெடு (_C)"
+
+msgid "_Add to Bookmarks"
+msgstr "புத்தகக்குறிகளில் சேர் (_A)"
+
 msgid "_Rename"
 msgstr "பெயர்மாற்று (_R)"
 
@@ -262,8 +1258,86 @@ msgstr "குப்பைத் தொட்டிக்கு நகர்த�
 msgid "Show _Hidden Files"
 msgstr "மறைந்த கோப்புகளைக் காட்டு (_H)"
 
+msgid "Show _Size Column"
+msgstr "அளவு நெடுவரிசையைக் காட்டு (_S)"
+
+msgid "Show T_ype Column"
+msgstr "வகை நெடுவரிசையைக் காட்டு (_Y)"
+
+msgid "Show _Time"
+msgstr "நேரத்தைக் காட்டு (_T)"
+
+msgid "Sort _Folders before Files"
+msgstr "கோப்புகளுக்கு முன் கோப்புறைகளை வரிசைப்படுத்து (_F)"
+
 msgid "Location"
 msgstr "இருப்பிடம்"
+
+msgid "_Name:"
+msgstr "பெயர்: (_N)"
+
+msgid "Searching in %s"
+msgstr "%s இல் தேடுகிறது"
+
+msgid "Searching"
+msgstr "தேடுகிறது"
+
+msgid "Enter location"
+msgstr "இருப்பிடத்தை உள்ளிடு"
+
+msgid "Enter location or URL"
+msgstr "இருப்பிடம் அல்லது URL ஐ உள்ளிடு"
+
+msgid "Modified"
+msgstr "மாற்றப்பட்டது"
+
+msgid "Could not read the contents of %s"
+msgstr "%s இன் உள்ளடக்கத்தைப் படிக்க முடியவில்லை"
+
+msgid "Could not read the contents of the folder"
+msgstr "கோப்புறையின் உள்ளடக்கத்தைப் படிக்க முடியவில்லை"
+
+msgid "Yesterday"
+msgstr "நேற்று"
+
+msgid "Program"
+msgstr "நிரல்"
+
+msgid "Audio"
+msgstr "ஒலி"
+
+msgid "Font"
+msgstr "எழுத்துரு"
+
+msgid "Image"
+msgstr "படம்"
+
+msgid "Archive"
+msgstr "காப்பகம்"
+
+msgid "Markup"
+msgstr "குறியீட்டு மொழி"
+
+msgid "Text"
+msgstr "உரை"
+
+msgid "Video"
+msgstr "காணொளி"
+
+msgid "Contacts"
+msgstr "தொடர்புகள்"
+
+msgid "Calendar"
+msgstr "நாட்காட்டி"
+
+msgid "Document"
+msgstr "ஆவணம்"
+
+msgid "Presentation"
+msgstr "விளக்கக்காட்சி"
+
+msgid "Spreadsheet"
+msgstr "விரிதாள்"
 
 msgid "Unknown"
 msgstr "தெரியவில்லை"
@@ -271,8 +1345,26 @@ msgstr "தெரியவில்லை"
 msgid "Home"
 msgstr "இல்லம்"
 
+msgid "Cannot change to folder because it is not local"
+msgstr "கோப்புறை உள்ளூரில் இல்லாததால் அதற்கு மாற முடியாது"
+
+msgid "A file named “%s” already exists.  Do you want to replace it?"
+msgstr "“%s” என்ற பெயரில் ஒரு கோப்பு ஏற்கெனவே உள்ளது. அதை மாற்றீடு செய்ய வேண்டுமா?"
+
+msgid "The file already exists in “%s”.  Replacing it will overwrite its contents."
+msgstr "இந்தக் கோப்பு “%s” இல் ஏற்கெனவே உள்ளது. மாற்றீடு செய்தால் அதன் உள்ளடக்கம் மேலெழுதப்படும்."
+
 msgid "_Replace"
 msgstr "மாற்றீடு செய் (_R)"
+
+msgid "You do not have access to the specified folder."
+msgstr "குறிப்பிட்ட கோப்புறையை அணுக உங்களுக்கு அனுமதி இல்லை."
+
+msgid "Could not send the search request"
+msgstr "தேடல் கோரிக்கையை அனுப்ப முடியவில்லை"
+
+msgid "Accessed"
+msgstr "அணுகப்பட்டது"
 
 msgid "Create Folder"
 msgstr "கோப்புறை உருவாக்கு"
@@ -280,19 +1372,79 @@ msgstr "கோப்புறை உருவாக்கு"
 msgid "File System"
 msgstr "கோப்பு முறைமை"
 
+msgid "Pick a Font"
+msgstr "ஒரு எழுத்துருவைத் தேர்ந்தெடு"
+
 msgctxt "font"
 msgid "None"
 msgstr "ஏதுமில்லை"
 
+msgid "Width"
+msgstr "அகலம்"
+
+msgid "Weight"
+msgstr "தடிமன்"
+
+msgid "Italic"
+msgstr "சாய்வு"
+
+msgid "Slant"
+msgstr "சாய்வு"
+
+msgid "Optical Size"
+msgstr "ஒளியியல் அளவு"
+
 msgid "Default"
 msgstr "இயல்புநிலை"
+
+msgid "Ligatures"
+msgstr "கூட்டெழுத்துகள்"
+
+msgid "Letter Case"
+msgstr "எழுத்து நிலை"
+
+msgid "Number Case"
+msgstr "எண் நிலை"
+
+msgid "Number Spacing"
+msgstr "எண் இடைவெளி"
+
+msgid "Number Formatting"
+msgstr "எண் வடிவமைப்பு"
+
+msgid "Character Variants"
+msgstr "எழுத்து மாறுபாடுகள்"
+
+msgid "Application menu"
+msgstr "செயலிப் பட்டியல்"
 
 msgid "Close"
 msgstr "மூடு"
 
+msgid "Failed to load icon"
+msgstr "சின்னத்தை ஏற்ற முடியவில்லை"
+
+msgctxt "input method menu"
+msgid "Simple"
+msgstr "எளியது"
+
 msgctxt "input method menu"
 msgid "None"
 msgstr "ஏதுமில்லை"
+
+msgctxt "input method menu"
+msgid "System"
+msgstr "முறைமை"
+
+msgctxt "input method menu"
+msgid "System (%s)"
+msgstr "முறைமை (%s)"
+
+msgid "Information"
+msgstr "தகவல்"
+
+msgid "Question"
+msgstr "கேள்வி"
 
 msgid "Warning"
 msgstr "எச்சரிக்கை"
@@ -300,20 +1452,242 @@ msgstr "எச்சரிக்கை"
 msgid "Error"
 msgstr "பிழை"
 
+msgid "_Open Link"
+msgstr "இணைப்பைத் திற (_O)"
+
+msgid "Copy _Link Address"
+msgstr "இணைப்பு முகவரியை நகலெடு (_L)"
+
+msgid "Copy URL"
+msgstr "URL ஐ நகலெடு"
+
+msgid "Invalid URI"
+msgstr "செல்லாத URI"
+
+msgid "Lock"
+msgstr "பூட்டு"
+
+msgid "Unlock"
+msgstr "பூட்டைத் திற"
+
+msgid "Dialog is unlocked.\nClick to prevent further changes"
+msgstr "உரையாடல் பூட்டப்படவில்லை.\nமேலும் மாற்றங்களைத் தடுக்கச் சொடுக்கவும்"
+
+msgid "Dialog is locked.\nClick to make changes"
+msgstr "உரையாடல் பூட்டப்பட்டுள்ளது.\nமாற்றங்கள் செய்யச் சொடுக்கவும்"
+
+msgid "System policy prevents changes.\nContact your system administrator"
+msgstr "முறைமைக் கொள்கை மாற்றங்களைத் தடுக்கிறது.\nஉங்கள் முறைமை நிர்வாகியைத் தொடர்புகொள்ளவும்"
+
 msgid "_No"
 msgstr "இல்லை (_N)"
 
 msgid "_Yes"
 msgstr "ஆம் (_Y)"
 
+msgid "Co_nnect"
+msgstr "இணை (_N)"
+
+msgid "Connect As"
+msgstr "இவ்வாறு இணை"
+
+msgid "_Anonymous"
+msgstr "பெயரிலி (_A)"
+
+msgid "Registered U_ser"
+msgstr "பதிவுசெய்த பயனர் (_S)"
+
+msgid "_Username"
+msgstr "பயனர்பெயர் (_U)"
+
+msgid "_Domain"
+msgstr "களம் (_D)"
+
+msgid "Volume type"
+msgstr "தொகுதி வகை"
+
+msgid "_Hidden"
+msgstr "மறைக்கப்பட்டது (_H)"
+
+msgid "_Windows system"
+msgstr "Windows முறைமை (_W)"
+
+msgid "_Password"
+msgstr "கடவுச்சொல் (_P)"
+
+msgid "Forget password _immediately"
+msgstr "கடவுச்சொல்லை உடனே மற (_I)"
+
+msgid "Remember password until you _logout"
+msgstr "வெளியேறும் வரை கடவுச்சொல்லை நினைவில் வை (_L)"
+
+msgid "Remember _forever"
+msgstr "எப்போதும் நினைவில் வை (_F)"
+
+msgid "Unknown Application (PID %d)"
+msgstr "தெரியாத செயலி (PID %d)"
+
+msgid "Unable to end process"
+msgstr "செயல்முறையை முடிக்க முடியவில்லை"
+
+msgid "_End Process"
+msgstr "செயல்முறையை முடி (_E)"
+
+msgid "Cannot kill process with PID %d. Operation is not implemented."
+msgstr "PID %d கொண்ட செயல்முறையை முடிக்க முடியாது. இந்தச் செயல் இன்னும் செயல்படுத்தப்படவில்லை."
+
+msgid "Terminal Pager"
+msgstr "முனையப் பக்கமாக்கி"
+
+msgid "Top Command"
+msgstr "top கட்டளை"
+
+msgid "Cannot end process with PID %d: %s"
+msgstr "PID %d கொண்ட செயல்முறையை முடிக்க முடியாது: %s"
+
+msgid "Page %u"
+msgstr "பக்கம் %u"
+
+msgid "Not a valid page setup file"
+msgstr "செல்லுபடியான பக்க அமைப்புக் கோப்பு அல்ல"
+
+msgid "Any Printer"
+msgstr "ஏதேனும் அச்சுப்பொறி"
+
+msgid "For portable documents"
+msgstr "கையடக்க ஆவணங்களுக்கு"
+
+msgid "Margins:\n Left: %s %s\n Right: %s %s\n Top: %s %s\n Bottom: %s %s"
+msgstr "ஓரங்கள்:\n இடம்: %s %s\n வலம்: %s %s\n மேல்: %s %s\n கீழ்: %s %s"
+
+msgid "Manage Custom Sizes…"
+msgstr "தனிப்பயன் அளவுகளை நிர்வகி…"
+
+msgid "Page Setup"
+msgstr "பக்க அமைப்பு"
+
+msgid "File System Root"
+msgstr "கோப்பு முறைமை வேர்"
+
+msgid "Open %s"
+msgstr "%s ஐத் திற"
+
 msgid "Recent"
 msgstr "அண்மையவை"
+
+msgid "Recent files"
+msgstr "அண்மைய கோப்புகள்"
+
+msgid "Starred"
+msgstr "நட்சத்திரமிட்டவை"
+
+msgid "Favorite files"
+msgstr "விருப்பமான கோப்புகள்"
+
+msgid "Open your personal folder"
+msgstr "உங்கள் சொந்தக் கோப்புறையைத் திற"
+
+msgid "Open the contents of your desktop in a folder"
+msgstr "உங்கள் மேசைத்தள உள்ளடக்கத்தை ஒரு கோப்புறையில் திற"
+
+msgid "Enter Location"
+msgstr "இருப்பிடத்தை உள்ளிடு"
+
+msgid "Manually enter a location"
+msgstr "இருப்பிடத்தைக் கைமுறையாக உள்ளிடு"
 
 msgid "Trash"
 msgstr "குப்பைத் தொட்டி"
 
+msgid "Open the trash"
+msgstr "குப்பைத் தொட்டியைத் திற"
+
+msgid "Mount and open “%s”"
+msgstr "“%s” ஐ ஏற்றித் திற"
+
+msgid "Open the contents of the file system"
+msgstr "கோப்பு முறைமையின் உள்ளடக்கத்தைத் திற"
+
+msgid "New bookmark"
+msgstr "புதிய புத்தகக்குறி"
+
+msgid "Add a new bookmark"
+msgstr "புதிய புத்தகக்குறியைச் சேர்"
+
+msgid "Connect to Server"
+msgstr "சேவையகத்துடன் இணை"
+
+msgid "Connect to a network server address"
+msgstr "வலையமைப்புச் சேவையக முகவரியுடன் இணை"
+
+msgid "Other Locations"
+msgstr "பிற இருப்பிடங்கள்"
+
+msgid "Show other locations"
+msgstr "பிற இருப்பிடங்களைக் காட்டு"
+
+msgid "_Start"
+msgstr "தொடங்கு (_S)"
+
+msgid "_Stop"
+msgstr "நிறுத்து (_S)"
+
+msgid "_Power On"
+msgstr "மின்னிணைப்பை இயக்கு (_P)"
+
+msgid "_Safely Remove Drive"
+msgstr "இயக்ககத்தைப் பாதுகாப்பாக அகற்று (_S)"
+
+msgid "_Connect Drive"
+msgstr "இயக்ககத்தை இணை (_C)"
+
+msgid "_Disconnect Drive"
+msgstr "இயக்ககத்தைத் துண்டி (_D)"
+
+msgid "_Start Multi-disk Device"
+msgstr "பல்வட்டுச் சாதனத்தைத் தொடங்கு (_S)"
+
+msgid "_Stop Multi-disk Device"
+msgstr "பல்வட்டுச் சாதனத்தை நிறுத்து (_S)"
+
+msgid "_Unlock Device"
+msgstr "சாதனத்தின் பூட்டைத் திற (_U)"
+
+msgid "_Lock Device"
+msgstr "சாதனத்தைப் பூட்டு (_L)"
+
+msgid "Unable to start “%s”"
+msgstr "“%s” ஐத் தொடங்க முடியவில்லை"
+
+msgid "Error unlocking “%s”"
+msgstr "“%s” இன் பூட்டைத் திறப்பதில் பிழை"
+
+msgid "Unable to access “%s”"
+msgstr "“%s” ஐ அணுக முடியவில்லை"
+
+msgid "This name is already taken"
+msgstr "இந்தப் பெயர் ஏற்கெனவே பயன்பாட்டில் உள்ளது"
+
 msgid "Name"
 msgstr "பெயர்"
+
+msgid "Unable to unmount “%s”"
+msgstr "“%s” ஐ இறக்க முடியவில்லை"
+
+msgid "Unable to stop “%s”"
+msgstr "“%s” ஐ நிறுத்த முடியவில்லை"
+
+msgid "Unable to eject “%s”"
+msgstr "“%s” ஐ வெளியேற்ற முடியவில்லை"
+
+msgid "Unable to eject %s"
+msgstr "%s ஐ வெளியேற்ற முடியவில்லை"
+
+msgid "Unable to poll “%s” for media changes"
+msgstr "ஊடக மாற்றங்களுக்காக “%s” ஐச் சோதிக்க முடியவில்லை"
+
+msgid "Open in New _Tab"
+msgstr "புதிய தாவலில் திற (_T)"
 
 msgid "Open in New _Window"
 msgstr "புதிய சாளரத்தில் திற (_W)"
@@ -336,17 +1710,325 @@ msgstr "இறக்கு (_U)"
 msgid "_Eject"
 msgstr "வெளியேற்று (_E)"
 
+msgid "_Detect Media"
+msgstr "ஊடகத்தைக் கண்டறி (_D)"
+
 msgid "Computer"
 msgstr "கணினி"
+
+msgid "Searching for network locations"
+msgstr "வலையமைப்பு இருப்பிடங்களைத் தேடுகிறது"
+
+msgid "No network locations found"
+msgstr "வலையமைப்பு இருப்பிடங்கள் எதுவும் கிடைக்கவில்லை"
+
+msgid "Unable to access location"
+msgstr "இருப்பிடத்தை அணுக முடியவில்லை"
+
+msgid "Con_nect"
+msgstr "இணை (_N)"
+
+msgid "Unable to unmount volume"
+msgstr "தொகுதியை இறக்க முடியவில்லை"
 
 msgid "Cance_l"
 msgstr "ரத்துசெய் (_L)"
 
+msgid "File Transfer Protocol"
+msgstr "கோப்புப் பரிமாற்ற நெறிமுறை"
+
+msgid "Network File System"
+msgstr "வலையமைப்புக் கோப்பு முறைமை"
+
+msgid "SSH File Transfer Protocol"
+msgstr "SSH கோப்புப் பரிமாற்ற நெறிமுறை"
+
+msgid "_Disconnect"
+msgstr "துண்டி (_D)"
+
+msgid "_Connect"
+msgstr "இணை (_C)"
+
+msgid "Unable to get remote server location"
+msgstr "தொலை சேவையக இருப்பிடத்தைப் பெற முடியவில்லை"
+
+msgid "Networks"
+msgstr "வலையமைப்புகள்"
+
+msgid "On This Computer"
+msgstr "இந்தக் கணினியில்"
+
+msgid "%s / %s available"
+msgid_plural "%s / %s available"
+msgstr[0] "%s / %s கிடைக்கிறது"
+msgstr[1] "%s / %s கிடைக்கிறது"
+
+msgid "Disconnect"
+msgstr "துண்டி"
+
 msgid "Unmount"
 msgstr "இறக்கு"
 
+msgid "Authentication"
+msgstr "அங்கீகாரம்"
+
+msgid "_Remember password"
+msgstr "கடவுச்சொல்லை நினைவில் வை (_R)"
+
+msgid "Select a filename"
+msgstr "ஒரு கோப்புப் பெயரைத் தேர்ந்தெடு"
+
+msgid "Not available"
+msgstr "கிடைக்கவில்லை"
+
+msgid "%s job #%d"
+msgstr "%s பணி #%d"
+
+msgctxt "print operation status"
+msgid "Initial state"
+msgstr "தொடக்க நிலை"
+
+msgctxt "print operation status"
+msgid "Preparing to print"
+msgstr "அச்சிடத் தயாராகிறது"
+
+msgctxt "print operation status"
+msgid "Generating data"
+msgstr "தரவை உருவாக்குகிறது"
+
+msgctxt "print operation status"
+msgid "Sending data"
+msgstr "தரவை அனுப்புகிறது"
+
+msgctxt "print operation status"
+msgid "Waiting"
+msgstr "காத்திருக்கிறது"
+
+msgctxt "print operation status"
+msgid "Blocking on issue"
+msgstr "சிக்கலால் தடைபட்டுள்ளது"
+
+msgctxt "print operation status"
+msgid "Printing"
+msgstr "அச்சிடுகிறது"
+
+msgctxt "print operation status"
+msgid "Finished"
+msgstr "முடிந்தது"
+
+msgctxt "print operation status"
+msgid "Finished with error"
+msgstr "பிழையுடன் முடிந்தது"
+
+msgid "Preparing %d"
+msgstr "%d தயாராகிறது"
+
+msgid "Preparing"
+msgstr "தயாராகிறது"
+
+msgid "Printing %d"
+msgstr "%d அச்சிடுகிறது"
+
+msgid "Error creating print preview"
+msgstr "அச்சு முன்தோற்றத்தை உருவாக்குவதில் பிழை"
+
+msgid "The most probable reason is that a temporary file could not be created."
+msgstr "ஒரு தற்காலிகக் கோப்பை உருவாக்க முடியாமல் போனதே பெரும்பாலும் காரணமாக இருக்கலாம்."
+
+msgid "Printer offline"
+msgstr "அச்சுப்பொறி இணைப்பில் இல்லை"
+
+msgid "Out of paper"
+msgstr "தாள் தீர்ந்துவிட்டது"
+
+msgid "Paused"
+msgstr "இடைநிறுத்தப்பட்டது"
+
+msgid "Need user intervention"
+msgstr "பயனர் தலையீடு தேவை"
+
+msgid "Custom size"
+msgstr "தனிப்பயன் அளவு"
+
+msgid "No printer found"
+msgstr "அச்சுப்பொறி எதுவும் கிடைக்கவில்லை"
+
+msgid "Not enough free memory"
+msgstr "போதுமான காலி நினைவகம் இல்லை"
+
+msgid "Unspecified error"
+msgstr "குறிப்பிடப்படாத பிழை"
+
+msgid "Pre_view"
+msgstr "முன்தோற்றம் (_V)"
+
+msgid "Getting printer information failed"
+msgstr "அச்சுப்பொறித் தகவலைப் பெற முடியவில்லை"
+
+msgid "Getting printer information…"
+msgstr "அச்சுப்பொறித் தகவலைப் பெறுகிறது…"
+
+msgid "Left to right, top to bottom"
+msgstr "இடமிருந்து வலம், மேலிருந்து கீழ்"
+
+msgid "Left to right, bottom to top"
+msgstr "இடமிருந்து வலம், கீழிருந்து மேல்"
+
+msgid "Right to left, top to bottom"
+msgstr "வலமிருந்து இடம், மேலிருந்து கீழ்"
+
+msgid "Right to left, bottom to top"
+msgstr "வலமிருந்து இடம், கீழிருந்து மேல்"
+
+msgid "Top to bottom, left to right"
+msgstr "மேலிருந்து கீழ், இடமிருந்து வலம்"
+
+msgid "Top to bottom, right to left"
+msgstr "மேலிருந்து கீழ், வலமிருந்து இடம்"
+
+msgid "Bottom to top, left to right"
+msgstr "கீழிருந்து மேல், இடமிருந்து வலம்"
+
+msgid "Bottom to top, right to left"
+msgstr "கீழிருந்து மேல், வலமிருந்து இடம்"
+
+msgid "Page Ordering"
+msgstr "பக்க வரிசைமுறை"
+
+msgid "Left to right"
+msgstr "இடமிருந்து வலம்"
+
+msgid "Right to left"
+msgstr "வலமிருந்து இடம்"
+
+msgid "Top to bottom"
+msgstr "மேலிருந்து கீழ்"
+
+msgid "Bottom to top"
+msgstr "கீழிருந்து மேல்"
+
+msgid "No item for URI '%s' found"
+msgstr "URI '%s' க்கான உருப்படி எதுவும் கிடைக்கவில்லை"
+
+msgid "Untitled filter"
+msgstr "பெயரிடப்படாத வடிகட்டி"
+
+msgid "Could not remove item"
+msgstr "உருப்படியை அகற்ற முடியவில்லை"
+
+msgid "Could not clear list"
+msgstr "பட்டியலை அழிக்க முடியவில்லை"
+
+msgid "Copy _Location"
+msgstr "இருப்பிடத்தை நகலெடு (_L)"
+
+msgid "_Remove From List"
+msgstr "பட்டியலிலிருந்து அகற்று (_R)"
+
+msgid "_Clear List"
+msgstr "பட்டியலை அழி (_C)"
+
+msgid "Show _Private Resources"
+msgstr "தனிப்பட்ட வளங்களைக் காட்டு (_P)"
+
+msgid "No items found"
+msgstr "உருப்படிகள் எதுவும் கிடைக்கவில்லை"
+
+msgid "No recently used resource found with URI '%s'"
+msgstr "URI '%s' கொண்ட அண்மையில் பயன்படுத்திய வளம் எதுவும் கிடைக்கவில்லை"
+
+msgid "Open '%s'"
+msgstr "'%s' ஐத் திற"
+
+msgid "Unknown item"
+msgstr "தெரியாத உருப்படி"
+
+msgid "Unable to find an item with URI '%s'"
+msgstr "URI '%s' கொண்ட உருப்படியைக் கண்டுபிடிக்க முடியவில்லை"
+
+msgid "Unable to move the item with URI '%s' to '%s'"
+msgstr "URI '%s' கொண்ட உருப்படியை '%s' க்கு நகர்த்த முடியவில்லை"
+
+msgid "No registered application with name '%s' for item with URI '%s' found"
+msgstr "'%s' என்ற பெயரில், URI '%s' கொண்ட உருப்படிக்கான பதிவுசெய்த செயலி எதுவும் கிடைக்கவில்லை"
+
 msgid "Search"
 msgstr "தேடு"
+
+msgid "_Show All"
+msgstr "அனைத்தையும் காட்டு (_S)"
+
+msgid "Two finger pinch"
+msgstr "இரு விரல் கிள்ளல்"
+
+msgid "Two finger stretch"
+msgstr "இரு விரல் விரிப்பு"
+
+msgid "Rotate clockwise"
+msgstr "கடிகாரத் திசையில் சுழற்று"
+
+msgid "Rotate counterclockwise"
+msgstr "கடிகார எதிர்த் திசையில் சுழற்று"
+
+msgid "Two finger swipe left"
+msgstr "இரு விரலால் இடப்புறம் தேய்த்தல்"
+
+msgid "Two finger swipe right"
+msgstr "இரு விரலால் வலப்புறம் தேய்த்தல்"
+
+msgid "Shortcuts"
+msgstr "குறுக்குவழிகள்"
+
+msgid "Search Results"
+msgstr "தேடல் முடிவுகள்"
+
+msgid "Search Shortcuts"
+msgstr "குறுக்குவழிகளைத் தேடு"
+
+msgid "No Results Found"
+msgstr "முடிவுகள் எதுவும் கிடைக்கவில்லை"
+
+msgid "Try a different search"
+msgstr "வேறு தேடலை முயற்சிக்கவும்"
+
+msgid "LRM _Left-to-right mark"
+msgstr "LRM இடமிருந்து வலம் குறி (_L)"
+
+msgid "RLM _Right-to-left mark"
+msgstr "RLM வலமிருந்து இடம் குறி (_R)"
+
+msgid "LRE Left-to-right _embedding"
+msgstr "LRE இடமிருந்து வலம் உட்பொதிவு (_E)"
+
+msgid "RLE Right-to-left e_mbedding"
+msgstr "RLE வலமிருந்து இடம் உட்பொதிவு (_M)"
+
+msgid "LRO Left-to-right _override"
+msgstr "LRO இடமிருந்து வலம் மேலெழுதல் (_O)"
+
+msgid "RLO Right-to-left o_verride"
+msgstr "RLO வலமிருந்து இடம் மேலெழுதல் (_V)"
+
+msgid "PDF _Pop directional formatting"
+msgstr "PDF திசை வடிவமைப்பை முடி (_P)"
+
+msgid "ZWS _Zero width space"
+msgstr "ZWS சுழி அகல இடைவெளி (_Z)"
+
+msgid "ZWJ Zero width _joiner"
+msgstr "ZWJ சுழி அகல இணைப்பி (_J)"
+
+msgid "ZWNJ Zero width _non-joiner"
+msgstr "ZWNJ சுழி அகல இணைப்பிலி (_N)"
+
+msgid "Adjusts the volume"
+msgstr "ஒலியளவைச் சரிசெய்கிறது"
+
+msgid "Muted"
+msgstr "ஒலியடக்கப்பட்டது"
+
+msgid "Full Volume"
+msgstr "முழு ஒலியளவு"
 
 msgid "Move"
 msgstr "நகர்த்து"
@@ -357,6 +2039,12 @@ msgstr "அளவை மாற்று"
 msgid "Always on Top"
 msgstr "எப்போதும் மேலே"
 
+msgid "Activate"
+msgstr "செயலாக்கு"
+
+msgid "Value"
+msgstr "மதிப்பு"
+
 msgctxt "GL version"
 msgid "None"
 msgstr "ஏதுமில்லை"
@@ -365,9 +2053,18 @@ msgctxt "GL vendor"
 msgid "None"
 msgstr "ஏதுமில்லை"
 
+msgid "Display"
+msgstr "திரை"
+
 msgctxt "event phase"
 msgid "None"
 msgstr "ஏதுமில்லை"
+
+msgid "Action"
+msgstr "செயல்"
+
+msgid "Icon"
+msgstr "சின்னம்"
 
 msgid "Properties"
 msgstr "பண்புகள்"
@@ -376,6 +2073,9 @@ msgctxt "type name"
 msgid "Unknown"
 msgstr "தெரியவில்லை"
 
+msgid "Model:"
+msgstr "மாதிரி:"
+
 msgctxt "property name"
 msgid "None"
 msgstr "ஏதுமில்லை"
@@ -383,11 +2083,26 @@ msgstr "ஏதுமில்லை"
 msgid "Reset"
 msgstr "மீட்டமை"
 
+msgid "Theme"
+msgstr "கருப்பொருள்"
+
+msgid "Property"
+msgstr "பண்பு"
+
 msgid "Type"
 msgstr "வகை"
 
 msgid "Size"
 msgstr "அளவு"
+
+msgid "Name:"
+msgstr "பெயர்:"
+
+msgid "Type:"
+msgstr "வகை:"
+
+msgid "Size:"
+msgstr "அளவு:"
 
 msgid "Yes"
 msgstr "ஆம்"
@@ -396,34 +2111,2107 @@ msgctxt "sizegroup mode"
 msgid "None"
 msgstr "ஏதுமில்லை"
 
+msgctxt "sizegroup mode"
+msgid "Horizontal"
+msgstr "கிடைமட்டம்"
+
+msgctxt "sizegroup mode"
+msgid "Vertical"
+msgstr "செங்குத்து"
+
+msgid "Animations"
+msgstr "அசைவூட்டங்கள்"
+
 msgid "Always"
 msgstr "எப்போதும்"
 
+msgid "Disabled"
+msgstr "முடக்கப்பட்டது"
+
+msgid "Actions"
+msgstr "செயல்கள்"
+
 msgid "General"
 msgstr "பொது"
+
+msgctxt "OpenType layout"
+msgid "Access All Alternates"
+msgstr "அனைத்து மாற்று வடிவங்களையும் அணுகு"
+
+msgctxt "OpenType layout"
+msgid "Above-base Forms"
+msgstr "அடிக்கு மேலான வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Above-base Mark Positioning"
+msgstr "அடிக்கு மேலான குறி இடமமைப்பு"
+
+msgctxt "OpenType layout"
+msgid "Above-base Substitutions"
+msgstr "அடிக்கு மேலான பதிலீடுகள்"
+
+msgctxt "OpenType layout"
+msgid "Alternative Fractions"
+msgstr "மாற்றுப் பின்னங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Akhands"
+msgstr "அகண்ட வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Below-base Forms"
+msgstr "அடிக்குக் கீழான வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Below-base Mark Positioning"
+msgstr "அடிக்குக் கீழான குறி இடமமைப்பு"
+
+msgctxt "OpenType layout"
+msgid "Below-base Substitutions"
+msgstr "அடிக்குக் கீழான பதிலீடுகள்"
+
+msgctxt "OpenType layout"
+msgid "Contextual Alternates"
+msgstr "சூழல்சார் மாற்று வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Case-Sensitive Forms"
+msgstr "எழுத்துவகை உணர் வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Glyph Composition / Decomposition"
+msgstr "வரியுருச் சேர்ப்பு / பிரிப்பு"
+
+msgctxt "OpenType layout"
+msgid "Conjunct Form After Ro"
+msgstr "Ro-க்குப் பின் கூட்டெழுத்து வடிவம்"
+
+msgctxt "OpenType layout"
+msgid "Conjunct Forms"
+msgstr "கூட்டெழுத்து வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Contextual Ligatures"
+msgstr "சூழல்சார் இணையெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Centered CJK Punctuation"
+msgstr "நடுவமைந்த CJK நிறுத்தக்குறிகள்"
+
+msgctxt "OpenType layout"
+msgid "Capital Spacing"
+msgstr "பேரெழுத்து இடைவெளி"
+
+msgctxt "OpenType layout"
+msgid "Contextual Swash"
+msgstr "சூழல்சார் அலங்கார வடிவம்"
+
+msgctxt "OpenType layout"
+msgid "Cursive Positioning"
+msgstr "தொடரெழுத்து இடமமைப்பு"
+
+msgctxt "OpenType layout"
+msgid "Petite Capitals From Capitals"
+msgstr "பேரெழுத்துகளிலிருந்து நுண் பேரெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Small Capitals From Capitals"
+msgstr "பேரெழுத்துகளிலிருந்து சிறு பேரெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Distances"
+msgstr "இடைவெளிகள்"
+
+msgctxt "OpenType layout"
+msgid "Discretionary Ligatures"
+msgstr "விருப்ப இணையெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Denominators"
+msgstr "பகுதி எண்கள்"
+
+msgctxt "OpenType layout"
+msgid "Dotless Forms"
+msgstr "புள்ளியற்ற வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Expert Forms"
+msgstr "நிபுணர் வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Final Glyph on Line Alternates"
+msgstr "வரியின் இறுதி வரியுரு மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Terminal Forms #2"
+msgstr "இறுதி வடிவங்கள் #2"
+
+msgctxt "OpenType layout"
+msgid "Terminal Forms #3"
+msgstr "இறுதி வடிவங்கள் #3"
+
+msgctxt "OpenType layout"
+msgid "Terminal Forms"
+msgstr "இறுதி வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Flattened accent forms"
+msgstr "தட்டையான ஒலிக்குறி வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Fractions"
+msgstr "பின்னங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Full Widths"
+msgstr "முழு அகலங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Half Forms"
+msgstr "அரை வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Halant Forms"
+msgstr "ஹலந்த் வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Alternate Half Widths"
+msgstr "மாற்று அரை அகலங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Historical Forms"
+msgstr "வரலாற்று வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Horizontal Kana Alternates"
+msgstr "கிடைமட்ட Kana மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Historical Ligatures"
+msgstr "வரலாற்று இணையெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Hangul"
+msgstr "ஹங்குல்"
+
+msgctxt "OpenType layout"
+msgid "Hojo Kanji Forms"
+msgstr "Hojo Kanji வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Half Widths"
+msgstr "அரை அகலங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Initial Forms"
+msgstr "தொடக்க வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Isolated Forms"
+msgstr "தனித்த வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Italics"
+msgstr "சாய்வெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Justification Alternates"
+msgstr "இருபுற ஒழுங்கமைப்பு மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "JIS78 Forms"
+msgstr "JIS78 வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "JIS83 Forms"
+msgstr "JIS83 வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "JIS90 Forms"
+msgstr "JIS90 வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "JIS2004 Forms"
+msgstr "JIS2004 வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Kerning"
+msgstr "எழுத்திடைச் சீரமைப்பு"
+
+msgctxt "OpenType layout"
+msgid "Left Bounds"
+msgstr "இடது எல்லைகள்"
+
+msgctxt "OpenType layout"
+msgid "Standard Ligatures"
+msgstr "நிலையான இணையெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Leading Jamo Forms"
+msgstr "தொடக்க Jamo வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Lining Figures"
+msgstr "வரிசை எண்ணுருக்கள்"
+
+msgctxt "OpenType layout"
+msgid "Localized Forms"
+msgstr "உள்ளூர்மயமாக்கிய வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Left-to-right alternates"
+msgstr "இடமிருந்து வலம் மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Left-to-right mirrored forms"
+msgstr "இடமிருந்து வலம் ஆடிப்பிம்ப வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Mark Positioning"
+msgstr "குறி இடமமைப்பு"
+
+msgctxt "OpenType layout"
+msgid "Medial Forms #2"
+msgstr "இடை வடிவங்கள் #2"
+
+msgctxt "OpenType layout"
+msgid "Medial Forms"
+msgstr "இடை வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Mathematical Greek"
+msgstr "கணித கிரேக்கம்"
+
+msgctxt "OpenType layout"
+msgid "Mark to Mark Positioning"
+msgstr "குறிக்குக் குறி இடமமைப்பு"
+
+msgctxt "OpenType layout"
+msgid "Mark Positioning via Substitution"
+msgstr "பதிலீடு மூலம் குறி இடமமைப்பு"
+
+msgctxt "OpenType layout"
+msgid "Alternate Annotation Forms"
+msgstr "மாற்றுக் குறிப்புரை வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "NLC Kanji Forms"
+msgstr "NLC Kanji வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Nukta Forms"
+msgstr "நுக்தா வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Numerators"
+msgstr "தொகுதி எண்கள்"
+
+msgctxt "OpenType layout"
+msgid "Oldstyle Figures"
+msgstr "பழைய பாணி எண்ணுருக்கள்"
+
+msgctxt "OpenType layout"
+msgid "Optical Bounds"
+msgstr "ஒளியியல் எல்லைகள்"
+
+msgctxt "OpenType layout"
+msgid "Ordinals"
+msgstr "வரிசை எண்கள்"
+
+msgctxt "OpenType layout"
+msgid "Ornaments"
+msgstr "அலங்காரங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Widths"
+msgstr "விகிதசம மாற்று அகலங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Petite Capitals"
+msgstr "நுண் பேரெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Proportional Kana"
+msgstr "விகிதசம Kana"
+
+msgctxt "OpenType layout"
+msgid "Proportional Figures"
+msgstr "விகிதசம எண்ணுருக்கள்"
+
+msgctxt "OpenType layout"
+msgid "Pre-Base Forms"
+msgstr "அடிக்கு முந்தைய வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Pre-base Substitutions"
+msgstr "அடிக்கு முந்தைய பதிலீடுகள்"
+
+msgctxt "OpenType layout"
+msgid "Post-base Forms"
+msgstr "அடிக்குப் பிந்தைய வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Post-base Substitutions"
+msgstr "அடிக்குப் பிந்தைய பதிலீடுகள்"
+
+msgctxt "OpenType layout"
+msgid "Proportional Widths"
+msgstr "விகிதசம அகலங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Quarter Widths"
+msgstr "கால் அகலங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Randomize"
+msgstr "சீரற்றதாக்கு"
+
+msgctxt "OpenType layout"
+msgid "Required Contextual Alternates"
+msgstr "தேவையான சூழல்சார் மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Rakar Forms"
+msgstr "ரகர வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Required Ligatures"
+msgstr "தேவையான இணையெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Reph Forms"
+msgstr "ரேஃப் வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Right Bounds"
+msgstr "வலது எல்லைகள்"
+
+msgctxt "OpenType layout"
+msgid "Right-to-left alternates"
+msgstr "வலமிருந்து இடம் மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Right-to-left mirrored forms"
+msgstr "வலமிருந்து இடம் ஆடிப்பிம்ப வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Ruby Notation Forms"
+msgstr "Ruby குறியீட்டு வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Required Variation Alternates"
+msgstr "தேவையான வேறுபாட்டு மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Alternates"
+msgstr "பாணி மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Scientific Inferiors"
+msgstr "அறிவியல் கீழெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Optical size"
+msgstr "ஒளியியல் அளவு"
+
+msgctxt "OpenType layout"
+msgid "Small Capitals"
+msgstr "சிறு பேரெழுத்துகள்"
+
+msgctxt "OpenType layout"
+msgid "Simplified Forms"
+msgstr "எளிமையாக்கிய வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 1"
+msgstr "பாணித் தொகுப்பு 1"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 2"
+msgstr "பாணித் தொகுப்பு 2"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 3"
+msgstr "பாணித் தொகுப்பு 3"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 4"
+msgstr "பாணித் தொகுப்பு 4"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 5"
+msgstr "பாணித் தொகுப்பு 5"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 6"
+msgstr "பாணித் தொகுப்பு 6"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 7"
+msgstr "பாணித் தொகுப்பு 7"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 8"
+msgstr "பாணித் தொகுப்பு 8"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 9"
+msgstr "பாணித் தொகுப்பு 9"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 10"
+msgstr "பாணித் தொகுப்பு 10"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 11"
+msgstr "பாணித் தொகுப்பு 11"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 12"
+msgstr "பாணித் தொகுப்பு 12"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 13"
+msgstr "பாணித் தொகுப்பு 13"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 14"
+msgstr "பாணித் தொகுப்பு 14"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 15"
+msgstr "பாணித் தொகுப்பு 15"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 16"
+msgstr "பாணித் தொகுப்பு 16"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 17"
+msgstr "பாணித் தொகுப்பு 17"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 18"
+msgstr "பாணித் தொகுப்பு 18"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 19"
+msgstr "பாணித் தொகுப்பு 19"
+
+msgctxt "OpenType layout"
+msgid "Stylistic Set 20"
+msgstr "பாணித் தொகுப்பு 20"
+
+msgctxt "OpenType layout"
+msgid "Math script style alternates"
+msgstr "கணித எழுத்துப் பாணி மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Stretching Glyph Decomposition"
+msgstr "நீளும் வரியுருப் பிரிப்பு"
+
+msgctxt "OpenType layout"
+msgid "Subscript"
+msgstr "கீழொட்டு"
+
+msgctxt "OpenType layout"
+msgid "Superscript"
+msgstr "மேலொட்டு"
+
+msgctxt "OpenType layout"
+msgid "Swash"
+msgstr "அலங்கார வடிவம்"
+
+msgctxt "OpenType layout"
+msgid "Titling"
+msgstr "தலைப்பு வடிவம்"
+
+msgctxt "OpenType layout"
+msgid "Trailing Jamo Forms"
+msgstr "இறுதி Jamo வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Traditional Name Forms"
+msgstr "பாரம்பரியப் பெயர் வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Tabular Figures"
+msgstr "அட்டவணை எண்ணுருக்கள்"
+
+msgctxt "OpenType layout"
+msgid "Traditional Forms"
+msgstr "பாரம்பரிய வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Third Widths"
+msgstr "மூன்றில் ஒரு பங்கு அகலங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Unicase"
+msgstr "ஒற்றை எழுத்துவகை"
+
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Metrics"
+msgstr "மாற்றுச் செங்குத்து அளவீடுகள்"
+
+msgctxt "OpenType layout"
+msgid "Vattu Variants"
+msgstr "வட்டு வேறுபாடுகள்"
+
+msgctxt "OpenType layout"
+msgid "Vertical Writing"
+msgstr "செங்குத்து எழுத்துமுறை"
+
+msgctxt "OpenType layout"
+msgid "Alternate Vertical Half Metrics"
+msgstr "மாற்றுச் செங்குத்து அரை அளவீடுகள்"
+
+msgctxt "OpenType layout"
+msgid "Vowel Jamo Forms"
+msgstr "உயிர் Jamo வடிவங்கள்"
+
+msgctxt "OpenType layout"
+msgid "Vertical Kana Alternates"
+msgstr "செங்குத்து Kana மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Vertical Kerning"
+msgstr "செங்குத்து எழுத்திடைச் சீரமைப்பு"
+
+msgctxt "OpenType layout"
+msgid "Proportional Alternate Vertical Metrics"
+msgstr "விகிதசம மாற்றுச் செங்குத்து அளவீடுகள்"
+
+msgctxt "OpenType layout"
+msgid "Vertical Alternates and Rotation"
+msgstr "செங்குத்து மாற்றுகளும் சுழற்சியும்"
+
+msgctxt "OpenType layout"
+msgid "Vertical Alternates for Rotation"
+msgstr "சுழற்சிக்கான செங்குத்து மாற்றுகள்"
+
+msgctxt "OpenType layout"
+msgid "Slashed Zero"
+msgstr "சாய்கோட்டுப் பூஜ்ஜியம்"
+
+msgctxt "paper size"
+msgid "A3 Extra"
+msgstr "A3 கூடுதல்"
+
+msgctxt "paper size"
+msgid "A4 Extra"
+msgstr "A4 கூடுதல்"
+
+msgctxt "paper size"
+msgid "A4 Tab"
+msgstr "A4 தாவல்"
+
+msgctxt "paper size"
+msgid "A5 Extra"
+msgstr "A5 கூடுதல்"
+
+msgctxt "paper size"
+msgid "B5 Extra"
+msgstr "B5 கூடுதல்"
+
+msgctxt "paper size"
+msgid "DL Envelope"
+msgstr "DL உறை"
+
+msgctxt "paper size"
+msgid "Choukei 2 Envelope"
+msgstr "Choukei 2 உறை"
+
+msgctxt "paper size"
+msgid "Choukei 3 Envelope"
+msgstr "Choukei 3 உறை"
+
+msgctxt "paper size"
+msgid "Choukei 4 Envelope"
+msgstr "Choukei 4 உறை"
+
+msgctxt "paper size"
+msgid "Choukei 40 Envelope"
+msgstr "Choukei 40 உறை"
+
+msgctxt "paper size"
+msgid "hagaki (postcard)"
+msgstr "hagaki (அஞ்சல் அட்டை)"
+
+msgctxt "paper size"
+msgid "kahu Envelope"
+msgstr "kahu உறை"
+
+msgctxt "paper size"
+msgid "kaku2 Envelope"
+msgstr "kaku2 உறை"
+
+msgctxt "paper size"
+msgid "kaku3 Envelope"
+msgstr "kaku3 உறை"
+
+msgctxt "paper size"
+msgid "kaku4 Envelope"
+msgstr "kaku4 உறை"
+
+msgctxt "paper size"
+msgid "kaku5 Envelope"
+msgstr "kaku5 உறை"
+
+msgctxt "paper size"
+msgid "kaku7 Envelope"
+msgstr "kaku7 உறை"
+
+msgctxt "paper size"
+msgid "kaku8 Envelope"
+msgstr "kaku8 உறை"
+
+msgctxt "paper size"
+msgid "oufuku (reply postcard)"
+msgstr "oufuku (பதில் அஞ்சல் அட்டை)"
+
+msgctxt "paper size"
+msgid "you4 Envelope"
+msgstr "you4 உறை"
+
+msgctxt "paper size"
+msgid "you6 Envelope"
+msgstr "you6 உறை"
+
+msgctxt "paper size"
+msgid "6×9 Envelope"
+msgstr "6×9 உறை"
+
+msgctxt "paper size"
+msgid "7×9 Envelope"
+msgstr "7×9 உறை"
+
+msgctxt "paper size"
+msgid "8×10 Envelope"
+msgstr "8×10 உறை"
+
+msgctxt "paper size"
+msgid "9×11 Envelope"
+msgstr "9×11 உறை"
+
+msgctxt "paper size"
+msgid "9×12 Envelope"
+msgstr "9×12 உறை"
+
+msgctxt "paper size"
+msgid "a2 Envelope"
+msgstr "a2 உறை"
+
+msgctxt "paper size"
+msgid "c5 Envelope"
+msgstr "c5 உறை"
+
+msgctxt "paper size"
+msgid "European edp"
+msgstr "ஐரோப்பிய edp"
+
+msgctxt "paper size"
+msgid "Executive"
+msgstr "எக்சிகியூட்டிவ்"
+
+msgctxt "paper size"
+msgid "Fan-Fold European"
+msgstr "விசிறி மடிப்பு ஐரோப்பிய"
+
+msgctxt "paper size"
+msgid "Fan-Fold US"
+msgstr "விசிறி மடிப்பு US"
+
+msgctxt "paper size"
+msgid "Fan-Fold German Legal"
+msgstr "விசிறி மடிப்பு ஜெர்மன் Legal"
+
+msgctxt "paper size"
+msgid "Government Legal"
+msgstr "அரசு Legal"
+
+msgctxt "paper size"
+msgid "Government Letter"
+msgstr "அரசு Letter"
+
+msgctxt "paper size"
+msgid "Index 3×5"
+msgstr "குறிப்பு அட்டை 3×5"
+
+msgctxt "paper size"
+msgid "Index 4×6 (postcard)"
+msgstr "குறிப்பு அட்டை 4×6 (அஞ்சல் அட்டை)"
+
+msgctxt "paper size"
+msgid "Index 4×6 ext"
+msgstr "குறிப்பு அட்டை 4×6 நீட்டிப்பு"
+
+msgctxt "paper size"
+msgid "Index 5×8"
+msgstr "குறிப்பு அட்டை 5×8"
+
+msgctxt "paper size"
+msgid "Invoice"
+msgstr "விலைப்பட்டியல்"
+
+msgctxt "paper size"
+msgid "Tabloid"
+msgstr "டேப்லாய்டு"
+
+msgctxt "paper size"
+msgid "US Legal Extra"
+msgstr "US Legal கூடுதல்"
+
+msgctxt "paper size"
+msgid "US Letter Extra"
+msgstr "US Letter கூடுதல்"
+
+msgctxt "paper size"
+msgid "US Letter Plus"
+msgstr "US Letter பிளஸ்"
+
+msgctxt "paper size"
+msgid "Monarch Envelope"
+msgstr "Monarch உறை"
+
+msgctxt "paper size"
+msgid "Oficio"
+msgstr "ஒஃபிசியோ"
+
+msgctxt "paper size"
+msgid "Personal Envelope"
+msgstr "தனிப்பட்ட உறை"
+
+msgctxt "paper size"
+msgid "Quarto"
+msgstr "குவார்ட்டோ"
+
+msgctxt "paper size"
+msgid "Super A"
+msgstr "சூப்பர் A"
+
+msgctxt "paper size"
+msgid "Super B"
+msgstr "சூப்பர் B"
+
+msgctxt "paper size"
+msgid "Wide Format"
+msgstr "அகல வடிவம்"
+
+msgctxt "paper size"
+msgid "Photo L"
+msgstr "புகைப்படம் L"
+
+msgctxt "paper size"
+msgid "Folio"
+msgstr "ஃபோலியோ"
+
+msgctxt "paper size"
+msgid "Folio sp"
+msgstr "ஃபோலியோ sp"
+
+msgctxt "paper size"
+msgid "Invite Envelope"
+msgstr "அழைப்பிதழ் உறை"
+
+msgctxt "paper size"
+msgid "Italian Envelope"
+msgstr "இத்தாலிய உறை"
+
+msgctxt "paper size"
+msgid "Large Photo"
+msgstr "பெரிய புகைப்படம்"
+
+msgctxt "paper size"
+msgid "Medium Photo"
+msgstr "நடுத்தரப் புகைப்படம்"
+
+msgctxt "paper size"
+msgid "Postfix Envelope"
+msgstr "Postfix உறை"
+
+msgctxt "paper size"
+msgid "Small Photo"
+msgstr "சிறிய புகைப்படம்"
+
+msgctxt "paper size"
+msgid "Wide Photo"
+msgstr "அகலப் புகைப்படம்"
+
+msgctxt "paper size"
+msgid "prc1 Envelope"
+msgstr "prc1 உறை"
+
+msgctxt "paper size"
+msgid "prc10 Envelope"
+msgstr "prc10 உறை"
+
+msgctxt "paper size"
+msgid "prc2 Envelope"
+msgstr "prc2 உறை"
+
+msgctxt "paper size"
+msgid "prc3 Envelope"
+msgstr "prc3 உறை"
+
+msgctxt "paper size"
+msgid "prc4 Envelope"
+msgstr "prc4 உறை"
+
+msgctxt "paper size"
+msgid "prc5 Envelope"
+msgstr "prc5 உறை"
+
+msgctxt "paper size"
+msgid "prc6 Envelope"
+msgstr "prc6 உறை"
+
+msgctxt "paper size"
+msgid "prc7 Envelope"
+msgstr "prc7 உறை"
+
+msgctxt "paper size"
+msgid "prc8 Envelope"
+msgstr "prc8 உறை"
+
+msgctxt "paper size"
+msgid "prc9 Envelope"
+msgstr "prc9 உறை"
+
+msgctxt "Script"
+msgid "Arabic"
+msgstr "அரபு"
+
+msgctxt "Script"
+msgid "Armenian"
+msgstr "ஆர்மீனியம்"
+
+msgctxt "Script"
+msgid "Bengali"
+msgstr "வங்காளம்"
+
+msgctxt "Script"
+msgid "Bopomofo"
+msgstr "போபோமோஃபோ"
+
+msgctxt "Script"
+msgid "Cherokee"
+msgstr "செரோக்கீ"
+
+msgctxt "Script"
+msgid "Coptic"
+msgstr "காப்டிக்"
+
+msgctxt "Script"
+msgid "Cyrillic"
+msgstr "சிரிலிக்"
+
+msgctxt "Script"
+msgid "Deseret"
+msgstr "டெசரெட்"
+
+msgctxt "Script"
+msgid "Devanagari"
+msgstr "தேவநாகரி"
+
+msgctxt "Script"
+msgid "Ethiopic"
+msgstr "எத்தியோப்பியம்"
+
+msgctxt "Script"
+msgid "Georgian"
+msgstr "ஜார்ஜியம்"
+
+msgctxt "Script"
+msgid "Gothic"
+msgstr "கோதிக்"
+
+msgctxt "Script"
+msgid "Greek"
+msgstr "கிரேக்கம்"
+
+msgctxt "Script"
+msgid "Gujarati"
+msgstr "குஜராத்தி"
+
+msgctxt "Script"
+msgid "Gurmukhi"
+msgstr "குர்முகி"
+
+msgctxt "Script"
+msgid "Han"
+msgstr "ஹான்"
+
+msgctxt "Script"
+msgid "Hangul"
+msgstr "ஹங்குல்"
+
+msgctxt "Script"
+msgid "Hebrew"
+msgstr "எபிரேயம்"
+
+msgctxt "Script"
+msgid "Hiragana"
+msgstr "ஹிரகனா"
+
+msgctxt "Script"
+msgid "Kannada"
+msgstr "கன்னடம்"
+
+msgctxt "Script"
+msgid "Katakana"
+msgstr "கடகனா"
+
+msgctxt "Script"
+msgid "Khmer"
+msgstr "கெமர்"
+
+msgctxt "Script"
+msgid "Lao"
+msgstr "லாவோ"
+
+msgctxt "Script"
+msgid "Latin"
+msgstr "இலத்தீன்"
+
+msgctxt "Script"
+msgid "Malayalam"
+msgstr "மலையாளம்"
+
+msgctxt "Script"
+msgid "Mongolian"
+msgstr "மங்கோலியம்"
+
+msgctxt "Script"
+msgid "Myanmar"
+msgstr "மியான்மர்"
+
+msgctxt "Script"
+msgid "Ogham"
+msgstr "ஓகம்"
+
+msgctxt "Script"
+msgid "Old Italic"
+msgstr "பழைய இத்தாலிக்"
+
+msgctxt "Script"
+msgid "Oriya"
+msgstr "ஒரியா"
+
+msgctxt "Script"
+msgid "Runic"
+msgstr "ரூனிக்"
+
+msgctxt "Script"
+msgid "Sinhala"
+msgstr "சிங்களம்"
+
+msgctxt "Script"
+msgid "Syriac"
+msgstr "சிரியாக்"
+
+msgctxt "Script"
+msgid "Tamil"
+msgstr "தமிழ்"
+
+msgctxt "Script"
+msgid "Telugu"
+msgstr "தெலுங்கு"
+
+msgctxt "Script"
+msgid "Thaana"
+msgstr "தானா"
+
+msgctxt "Script"
+msgid "Thai"
+msgstr "தாய்"
+
+msgctxt "Script"
+msgid "Tibetan"
+msgstr "திபெத்தியம்"
+
+msgctxt "Script"
+msgid "Canadian Aboriginal"
+msgstr "கனடியப் பழங்குடி"
+
+msgctxt "Script"
+msgid "Yi"
+msgstr "யீ"
+
+msgctxt "Script"
+msgid "Tagalog"
+msgstr "தகலாக்"
+
+msgctxt "Script"
+msgid "Hanunoo"
+msgstr "ஹனுனூ"
+
+msgctxt "Script"
+msgid "Buhid"
+msgstr "புஹித்"
+
+msgctxt "Script"
+msgid "Tagbanwa"
+msgstr "தக்பன்வா"
+
+msgctxt "Script"
+msgid "Braille"
+msgstr "பிரெயில்"
+
+msgctxt "Script"
+msgid "Cypriot"
+msgstr "சைப்ரியாட்"
+
+msgctxt "Script"
+msgid "Limbu"
+msgstr "லிம்பு"
+
+msgctxt "Script"
+msgid "Osmanya"
+msgstr "ஒஸ்மான்யா"
+
+msgctxt "Script"
+msgid "Shavian"
+msgstr "ஷேவியன்"
+
+msgctxt "Script"
+msgid "Linear B"
+msgstr "லீனியர் B"
+
+msgctxt "Script"
+msgid "Tai Le"
+msgstr "தை லே"
+
+msgctxt "Script"
+msgid "Ugaritic"
+msgstr "உகாரிடிக்"
+
+msgctxt "Script"
+msgid "New Tai Lue"
+msgstr "புதிய தை லூ"
+
+msgctxt "Script"
+msgid "Buginese"
+msgstr "புகினீஸ்"
+
+msgctxt "Script"
+msgid "Glagolitic"
+msgstr "கிளகோலிடிக்"
+
+msgctxt "Script"
+msgid "Tifinagh"
+msgstr "டிஃபினாக்"
+
+msgctxt "Script"
+msgid "Syloti Nagri"
+msgstr "சிலோட்டி நாகரி"
+
+msgctxt "Script"
+msgid "Old Persian"
+msgstr "பழைய பாரசீகம்"
+
+msgctxt "Script"
+msgid "Kharoshthi"
+msgstr "கரோஷ்டி"
 
 msgctxt "Script"
 msgid "Unknown"
 msgstr "தெரியவில்லை"
 
+msgctxt "Script"
+msgid "Balinese"
+msgstr "பாலினீஸ்"
+
+msgctxt "Script"
+msgid "Cuneiform"
+msgstr "ஆப்பெழுத்து"
+
+msgctxt "Script"
+msgid "Phoenician"
+msgstr "ஃபீனீசியம்"
+
+msgctxt "Script"
+msgid "Phags-pa"
+msgstr "பக்ஸ்-பா"
+
+msgctxt "Script"
+msgid "N'Ko"
+msgstr "என்கோ"
+
+msgctxt "Script"
+msgid "Kayah Li"
+msgstr "கயா லி"
+
+msgctxt "Script"
+msgid "Lepcha"
+msgstr "லெப்சா"
+
+msgctxt "Script"
+msgid "Rejang"
+msgstr "ரெஜாங்"
+
+msgctxt "Script"
+msgid "Sundanese"
+msgstr "சுண்டானீஸ்"
+
+msgctxt "Script"
+msgid "Saurashtra"
+msgstr "சௌராஷ்டிரா"
+
+msgctxt "Script"
+msgid "Cham"
+msgstr "சாம்"
+
+msgctxt "Script"
+msgid "Ol Chiki"
+msgstr "ஒல் சிகி"
+
+msgctxt "Script"
+msgid "Vai"
+msgstr "வாய்"
+
+msgctxt "Script"
+msgid "Carian"
+msgstr "கரியன்"
+
+msgctxt "Script"
+msgid "Lycian"
+msgstr "லிசியன்"
+
+msgctxt "Script"
+msgid "Lydian"
+msgstr "லிடியன்"
+
+msgctxt "Script"
+msgid "Avestan"
+msgstr "அவெஸ்தன்"
+
+msgctxt "Script"
+msgid "Bamum"
+msgstr "பாமும்"
+
+msgctxt "Script"
+msgid "Egyptian Hieroglyphs"
+msgstr "எகிப்திய சித்திர எழுத்துகள்"
+
+msgctxt "Script"
+msgid "Imperial Aramaic"
+msgstr "பேரரசு அரமேயம்"
+
+msgctxt "Script"
+msgid "Inscriptional Pahlavi"
+msgstr "கல்வெட்டு பஹ்லவி"
+
+msgctxt "Script"
+msgid "Inscriptional Parthian"
+msgstr "கல்வெட்டு பார்த்தியன்"
+
+msgctxt "Script"
+msgid "Javanese"
+msgstr "ஜாவானீஸ்"
+
+msgctxt "Script"
+msgid "Kaithi"
+msgstr "கைத்தி"
+
+msgctxt "Script"
+msgid "Lisu"
+msgstr "லிசு"
+
+msgctxt "Script"
+msgid "Meetei Mayek"
+msgstr "மெய்தெய் மயெக்"
+
+msgctxt "Script"
+msgid "Old South Arabian"
+msgstr "பழைய தென் அரபு"
+
+msgctxt "Script"
+msgid "Old Turkic"
+msgstr "பழைய துருக்கியம்"
+
+msgctxt "Script"
+msgid "Samaritan"
+msgstr "சமாரியம்"
+
+msgctxt "Script"
+msgid "Tai Tham"
+msgstr "தை தாம்"
+
+msgctxt "Script"
+msgid "Tai Viet"
+msgstr "தை வியட்"
+
+msgctxt "Script"
+msgid "Batak"
+msgstr "படாக்"
+
+msgctxt "Script"
+msgid "Brahmi"
+msgstr "பிராமி"
+
+msgctxt "Script"
+msgid "Mandaic"
+msgstr "மண்டேயிக்"
+
+msgctxt "Script"
+msgid "Chakma"
+msgstr "சக்மா"
+
+msgctxt "Script"
+msgid "Meroitic Cursive"
+msgstr "மெரோயிடிக் தொடரெழுத்து"
+
+msgctxt "Script"
+msgid "Meroitic Hieroglyphs"
+msgstr "மெரோயிடிக் சித்திர எழுத்துகள்"
+
+msgctxt "Script"
+msgid "Miao"
+msgstr "மியாவோ"
+
+msgctxt "Script"
+msgid "Sharada"
+msgstr "சாரதா"
+
+msgctxt "Script"
+msgid "Sora Sompeng"
+msgstr "சோரா சொம்பெங்"
+
+msgctxt "Script"
+msgid "Takri"
+msgstr "தாக்ரி"
+
+msgctxt "Script"
+msgid "Bassa"
+msgstr "பஸ்ஸா"
+
+msgctxt "Script"
+msgid "Caucasian Albanian"
+msgstr "காகசிய அல்பேனியம்"
+
+msgctxt "Script"
+msgid "Duployan"
+msgstr "டுப்ளோயன்"
+
+msgctxt "Script"
+msgid "Elbasan"
+msgstr "எல்பசான்"
+
+msgctxt "Script"
+msgid "Grantha"
+msgstr "கிரந்தம்"
+
+msgctxt "Script"
+msgid "Khojki"
+msgstr "கோஜ்கி"
+
+msgctxt "Script"
+msgid "Khudawadi, Sindhi"
+msgstr "குதாவாடி, சிந்தி"
+
+msgctxt "Script"
+msgid "Linear A"
+msgstr "லீனியர் A"
+
+msgctxt "Script"
+msgid "Mahajani"
+msgstr "மகாஜனி"
+
+msgctxt "Script"
+msgid "Manichaean"
+msgstr "மானிக்கேயம்"
+
+msgctxt "Script"
+msgid "Mende Kikakui"
+msgstr "மெண்டே கிகாகுய்"
+
+msgctxt "Script"
+msgid "Modi"
+msgstr "மோடி"
+
+msgctxt "Script"
+msgid "Mro"
+msgstr "ம்ரோ"
+
+msgctxt "Script"
+msgid "Nabataean"
+msgstr "நபடேயம்"
+
+msgctxt "Script"
+msgid "Old North Arabian"
+msgstr "பழைய வட அரபு"
+
+msgctxt "Script"
+msgid "Old Permic"
+msgstr "பழைய பெர்மிக்"
+
+msgctxt "Script"
+msgid "Pahawh Hmong"
+msgstr "பஹாவ் மொங்"
+
+msgctxt "Script"
+msgid "Palmyrene"
+msgstr "பல்மைரீன்"
+
+msgctxt "Script"
+msgid "Pau Cin Hau"
+msgstr "பாவ் சின் ஹாவ்"
+
+msgctxt "Script"
+msgid "Psalter Pahlavi"
+msgstr "சால்டர் பஹ்லவி"
+
+msgctxt "Script"
+msgid "Siddham"
+msgstr "சித்தம்"
+
+msgctxt "Script"
+msgid "Tirhuta"
+msgstr "திர்ஹுதா"
+
+msgctxt "Script"
+msgid "Warang Citi"
+msgstr "வராங் சிதி"
+
+msgctxt "Script"
+msgid "Ahom"
+msgstr "அஹோம்"
+
+msgctxt "Script"
+msgid "Anatolian Hieroglyphs"
+msgstr "அனத்தோலிய சித்திர எழுத்துகள்"
+
+msgctxt "Script"
+msgid "Hatran"
+msgstr "ஹத்ரான்"
+
+msgctxt "Script"
+msgid "Multani"
+msgstr "முல்தானி"
+
+msgctxt "Script"
+msgid "Old Hungarian"
+msgstr "பழைய அங்கேரியம்"
+
+msgctxt "Script"
+msgid "Signwriting"
+msgstr "சைகை எழுத்து"
+
+msgctxt "Script"
+msgid "Adlam"
+msgstr "அட்லாம்"
+
+msgctxt "Script"
+msgid "Bhaiksuki"
+msgstr "பைக்சுகி"
+
+msgctxt "Script"
+msgid "Marchen"
+msgstr "மார்ச்சென்"
+
+msgctxt "Script"
+msgid "Newa"
+msgstr "நேவா"
+
+msgctxt "Script"
+msgid "Osage"
+msgstr "ஓசேஜ்"
+
+msgctxt "Script"
+msgid "Tangut"
+msgstr "தங்குட்"
+
+msgctxt "Script"
+msgid "Masaram Gondi"
+msgstr "மசாரம் கோண்டி"
+
+msgctxt "Script"
+msgid "Nushu"
+msgstr "நுஷு"
+
+msgctxt "Script"
+msgid "Soyombo"
+msgstr "சோயோம்போ"
+
+msgctxt "Script"
+msgid "Zanabazar Square"
+msgstr "சனபசார் சதுரம்"
+
 msgid "About"
 msgstr "பற்றி"
+
+msgid "Credits"
+msgstr "நன்றி"
+
+msgid "_View All Applications"
+msgstr "அனைத்துச் செயலிகளையும் காட்டு (_V)"
+
+msgid "_Find New Applications"
+msgstr "புதிய செயலிகளைக் கண்டுபிடி (_F)"
+
+msgid "No applications found."
+msgstr "செயலிகள் எதுவும் கிடைக்கவில்லை."
 
 msgid "Preferences"
 msgstr "விருப்பங்கள்"
 
+msgid "Services"
+msgstr "சேவைகள்"
+
+msgid "Hide %s"
+msgstr "%s-ஐ மறை"
+
+msgid "Hide Others"
+msgstr "மற்றவற்றை மறை"
+
+msgid "Show All"
+msgstr "அனைத்தையும் காட்டு"
+
+msgid "Quit %s"
+msgstr "%s-இலிருந்து விலகு"
+
+msgid "_Next"
+msgstr "அடுத்து (_N)"
+
 msgid "_Back"
 msgstr "பின்செல் (_B)"
+
+msgid "_Finish"
+msgstr "முடி (_F)"
+
+msgid "Select a Color"
+msgstr "ஒரு நிறத்தைத் தேர்ந்தெடு"
+
+msgid "Pick a color from the screen"
+msgstr "திரையிலிருந்து ஒரு நிறத்தைத் தேர்ந்தெடு"
+
+msgid "Color Name"
+msgstr "நிறப் பெயர்"
+
+msgid "Alpha"
+msgstr "ஆல்ஃபா"
+
+msgid "Hue"
+msgstr "சாயல்"
+
+msgid "Saturation"
+msgstr "செறிவு"
+
+msgid "Smileys & People"
+msgstr "முகக்குறிகளும் மனிதர்களும்"
+
+msgid "Body & Clothing"
+msgstr "உடலும் ஆடையும்"
+
+msgid "Animals & Nature"
+msgstr "விலங்குகளும் இயற்கையும்"
+
+msgid "Food & Drink"
+msgstr "உணவும் பானமும்"
+
+msgid "Travel & Places"
+msgstr "பயணமும் இடங்களும்"
+
+msgid "Activities"
+msgstr "செயல்பாடுகள்"
+
+msgid "Symbols"
+msgstr "குறியீடுகள்"
+
+msgid "Flags"
+msgstr "கொடிகள்"
 
 msgid "Places"
 msgstr "இடங்கள்"
 
+msgid "Files"
+msgstr "கோப்புகள்"
+
+msgid "Remote location — only searching the current folder"
+msgstr "தொலை இருப்பிடம் — தற்போதைய கோப்புறையில் மட்டும் தேடுகிறது"
+
+msgid "Folder Name"
+msgstr "கோப்புறைப் பெயர்"
+
 msgid "_Create"
 msgstr "உருவாக்கு (_C)"
+
+msgid "Select Font"
+msgstr "எழுத்துருவைத் தேர்ந்தெடு"
+
+msgid "Search font name"
+msgstr "எழுத்துருப் பெயரைத் தேடு"
+
+msgid "Font Family"
+msgstr "எழுத்துருக் குடும்பம்"
+
+msgid "Preview text"
+msgstr "முன்னோட்ட உரை"
+
+msgid "No Fonts Found"
+msgstr "எழுத்துருக்கள் எதுவும் கிடைக்கவில்லை"
+
+msgid "_Format for:"
+msgstr "இதற்கான வடிவம்: (_F)"
+
+msgid "_Paper size:"
+msgstr "தாள் அளவு: (_P)"
+
+msgid "_Orientation:"
+msgstr "திசையமைவு: (_O)"
+
+msgid "Portrait"
+msgstr "நெடுநிலை"
+
+msgid "Reverse portrait"
+msgstr "தலைகீழ் நெடுநிலை"
+
+msgid "Landscape"
+msgstr "கிடைநிலை"
+
+msgid "Reverse landscape"
+msgstr "தலைகீழ் கிடைநிலை"
+
+msgid "Down Path"
+msgstr "கீழ்ப் பாதை"
+
+msgid "Up Path"
+msgstr "மேல் பாதை"
+
+msgid "Server Addresses"
+msgstr "சேவையக முகவரிகள்"
+
+msgid "Server addresses are made up of a protocol prefix and an address. Examples:"
+msgstr "சேவையக முகவரிகள் ஒரு நெறிமுறை முன்னொட்டையும் ஒரு முகவரியையும் கொண்டவை. எடுத்துக்காட்டுகள்:"
+
+msgid "Available Protocols"
+msgstr "கிடைக்கும் நெறிமுறைகள்"
+
+msgid "No recent servers found"
+msgstr "அண்மைய சேவையகங்கள் எதுவும் இல்லை"
+
+msgid "Recent Servers"
+msgstr "அண்மைய சேவையகங்கள்"
+
+msgid "No results found"
+msgstr "முடிவுகள் எதுவும் கிடைக்கவில்லை"
+
+msgid "Connect to _Server"
+msgstr "சேவையகத்துடன் இணை (_S)"
+
+msgid "Enter server address…"
+msgstr "சேவையக முகவரியை உள்ளிடு…"
+
+msgid "Printer"
+msgstr "அச்சுப்பொறி"
+
+msgid "Status"
+msgstr "நிலை"
+
+msgid "Range"
+msgstr "வரம்பு"
+
+msgid "_All Pages"
+msgstr "அனைத்துப் பக்கங்களும் (_A)"
+
+msgid "C_urrent Page"
+msgstr "தற்போதைய பக்கம் (_U)"
+
+msgid "Se_lection"
+msgstr "தேர்வு (_L)"
+
+msgid "Pag_es:"
+msgstr "பக்கங்கள்: (_E)"
+
+msgid "Specify one or more page ranges,\n e.g. 1–3, 7, 11"
+msgstr "ஒன்று அல்லது மேற்பட்ட பக்க வரம்புகளைக் குறிப்பிடுக,\n எ.கா. 1–3, 7, 11"
+
+msgid "Pages"
+msgstr "பக்கங்கள்"
+
+msgid "Copies"
+msgstr "நகல்கள்"
+
+msgid "Copie_s:"
+msgstr "நகல்கள்: (_S)"
+
+msgid "C_ollate"
+msgstr "வரிசைப்படுத்து (_O)"
+
+msgid "_Reverse"
+msgstr "தலைகீழ் (_R)"
+
+msgid "Layout"
+msgstr "தளவமைப்பு"
+
+msgid "T_wo-sided:"
+msgstr "இருபக்கம்: (_W)"
+
+msgid "Pages per _side:"
+msgstr "ஒரு பக்கத்தில் பக்கங்கள்: (_S)"
+
+msgid "Page or_dering:"
+msgstr "பக்க வரிசை: (_D)"
+
+msgid "_Only print:"
+msgstr "இவற்றை மட்டும் அச்சிடு: (_O)"
+
+msgid "All sheets"
+msgstr "அனைத்துத் தாள்களும்"
+
+msgid "Even sheets"
+msgstr "இரட்டைப்படைத் தாள்கள்"
+
+msgid "Odd sheets"
+msgstr "ஒற்றைப்படைத் தாள்கள்"
+
+msgid "Sc_ale:"
+msgstr "அளவுவிகிதம்: (_A)"
+
+msgid "Paper"
+msgstr "தாள்"
+
+msgid "Paper _type:"
+msgstr "தாள் வகை: (_T)"
+
+msgid "Paper _source:"
+msgstr "தாள் மூலம்: (_S)"
+
+msgid "Output t_ray:"
+msgstr "வெளியீட்டுத் தட்டு: (_R)"
+
+msgid "Or_ientation:"
+msgstr "திசையமைவு: (_I)"
+
+msgid "Job Details"
+msgstr "பணி விவரங்கள்"
+
+msgid "Pri_ority:"
+msgstr "முன்னுரிமை: (_O)"
+
+msgid "_Billing info:"
+msgstr "கட்டணத் தகவல்: (_B)"
+
+msgid "Print Document"
+msgstr "ஆவணத்தை அச்சிடு"
+
+msgid "_Now"
+msgstr "இப்போது (_N)"
+
+msgid "A_t:"
+msgstr "நேரம்: (_T)"
+
+msgid "Specify the time of print,\n e.g. 15∶30, 2∶35 pm, 14∶15∶20, 11∶46∶30 am, 4 pm"
+msgstr "அச்சிடும் நேரத்தைக் குறிப்பிடுக,\n எ.கா. 15∶30, 2∶35 pm, 14∶15∶20, 11∶46∶30 am, 4 pm"
+
+msgid "Time of print"
+msgstr "அச்சிடும் நேரம்"
+
+msgid "On _hold"
+msgstr "நிறுத்திவைப்பில் (_H)"
+
+msgid "Hold the job until it is explicitly released"
+msgstr "வெளிப்படையாக விடுவிக்கும் வரை பணியை நிறுத்திவை"
+
+msgid "Add Cover Page"
+msgstr "அட்டைப் பக்கம் சேர்"
+
+msgid "Be_fore:"
+msgstr "முன்: (_F)"
+
+msgid "_After:"
+msgstr "பின்: (_A)"
+
+msgid "Job"
+msgstr "பணி"
+
+msgid "Image Quality"
+msgstr "படத் தரம்"
+
+msgid "Color"
+msgstr "நிறம்"
+
+msgid "Finishing"
+msgstr "இறுதிச் செயலாக்கம்"
+
+msgid "Advanced"
+msgstr "மேம்பட்டவை"
+
+msgid "Some of the settings in the dialog conflict"
+msgstr "உரையாடலில் உள்ள சில அமைப்புகள் முரண்படுகின்றன"
+
+msgid "Select which type of documents are shown"
+msgstr "காட்டப்படும் ஆவணங்களின் வகையைத் தேர்ந்தெடு"
+
+msgid "Volume"
+msgstr "ஒலியளவு"
+
+msgid "Turns volume up or down"
+msgstr "ஒலியளவைக் கூட்டுகிறது அல்லது குறைக்கிறது"
+
+msgid "Volume Up"
+msgstr "ஒலியளவைக் கூட்டு"
+
+msgid "Increases the volume"
+msgstr "ஒலியளவைக் கூட்டுகிறது"
+
+msgid "Volume Down"
+msgstr "ஒலியளவைக் குறை"
+
+msgid "Decreases the volume"
+msgstr "ஒலியளவைக் குறைக்கிறது"
+
+msgid "Username:"
+msgstr "பயனர்பெயர்:"
+
+msgid "Password:"
+msgstr "கடவுச்சொல்:"
+
+msgid "Authentication is required to print document “%s” on printer %s"
+msgstr "“%s” ஆவணத்தை %s அச்சுப்பொறியில் அச்சிட அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to print a document on %s"
+msgstr "%s-இல் ஓர் ஆவணத்தை அச்சிட அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to get attributes of job “%s”"
+msgstr "“%s” பணியின் பண்புகளைப் பெற அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to get attributes of a job"
+msgstr "ஒரு பணியின் பண்புகளைப் பெற அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to get attributes of printer %s"
+msgstr "%s அச்சுப்பொறியின் பண்புகளைப் பெற அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to get attributes of a printer"
+msgstr "ஓர் அச்சுப்பொறியின் பண்புகளைப் பெற அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to get default printer of %s"
+msgstr "%s-இன் இயல்புநிலை அச்சுப்பொறியைப் பெற அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to get printers from %s"
+msgstr "%s-இலிருந்து அச்சுப்பொறிகளைப் பெற அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to get a file from %s"
+msgstr "%s-இலிருந்து ஒரு கோப்பைப் பெற அங்கீகாரம் தேவை"
+
+msgid "Authentication is required on %s"
+msgstr "%s-இல் அங்கீகாரம் தேவை"
+
+msgid "Domain:"
+msgstr "களம்:"
+
+msgid "Authentication is required to print document “%s”"
+msgstr "“%s” ஆவணத்தை அச்சிட அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to print this document on printer %s"
+msgstr "இந்த ஆவணத்தை %s அச்சுப்பொறியில் அச்சிட அங்கீகாரம் தேவை"
+
+msgid "Authentication is required to print this document"
+msgstr "இந்த ஆவணத்தை அச்சிட அங்கீகாரம் தேவை"
+
+msgid "Printer “%s” is low on toner."
+msgstr "“%s” அச்சுப்பொறியில் டோனர் குறைவாக உள்ளது."
+
+msgid "Printer “%s” has no toner left."
+msgstr "“%s” அச்சுப்பொறியில் டோனர் தீர்ந்துவிட்டது."
+
+msgid "Printer “%s” is low on developer."
+msgstr "“%s” அச்சுப்பொறியில் டெவலப்பர் குறைவாக உள்ளது."
+
+msgid "Printer “%s” is out of developer."
+msgstr "“%s” அச்சுப்பொறியில் டெவலப்பர் தீர்ந்துவிட்டது."
+
+msgid "Printer “%s” is low on at least one marker supply."
+msgstr "“%s” அச்சுப்பொறியில் குறைந்தது ஒரு மை இருப்பு குறைவாக உள்ளது."
+
+msgid "Printer “%s” is out of at least one marker supply."
+msgstr "“%s” அச்சுப்பொறியில் குறைந்தது ஒரு மை இருப்பு தீர்ந்துவிட்டது."
+
+msgid "The cover is open on printer “%s”."
+msgstr "“%s” அச்சுப்பொறியின் மூடி திறந்துள்ளது."
+
+msgid "The door is open on printer “%s”."
+msgstr "“%s” அச்சுப்பொறியின் கதவு திறந்துள்ளது."
+
+msgid "Printer “%s” is low on paper."
+msgstr "“%s” அச்சுப்பொறியில் தாள் குறைவாக உள்ளது."
+
+msgid "Printer “%s” is out of paper."
+msgstr "“%s” அச்சுப்பொறியில் தாள் தீர்ந்துவிட்டது."
+
+msgid "Printer “%s” is currently offline."
+msgstr "“%s” அச்சுப்பொறி தற்போது இணைப்பில் இல்லை."
+
+msgid "There is a problem on printer “%s”."
+msgstr "“%s” அச்சுப்பொறியில் ஒரு சிக்கல் உள்ளது."
+
+msgid "Paused; Rejecting Jobs"
+msgstr "இடைநிறுத்தப்பட்டது; பணிகளை ஏற்கவில்லை"
+
+msgid "Rejecting Jobs"
+msgstr "பணிகளை ஏற்கவில்லை"
+
+msgctxt "printing option"
+msgid "Two Sided"
+msgstr "இருபக்கம்"
+
+msgctxt "printing option"
+msgid "Paper Type"
+msgstr "தாள் வகை"
+
+msgctxt "printing option"
+msgid "Paper Source"
+msgstr "தாள் மூலம்"
+
+msgctxt "printing option"
+msgid "Output Tray"
+msgstr "வெளியீட்டுத் தட்டு"
+
+msgctxt "printing option"
+msgid "Resolution"
+msgstr "தெளிவுத்திறன்"
+
+msgctxt "printing option"
+msgid "GhostScript pre-filtering"
+msgstr "GhostScript முன்வடிகட்டல்"
+
+msgctxt "printing option value"
+msgid "One Sided"
+msgstr "ஒருபக்கம்"
+
+msgctxt "printing option value"
+msgid "Long Edge (Standard)"
+msgstr "நீள் விளிம்பு (நிலையானது)"
+
+msgctxt "printing option value"
+msgid "Short Edge (Flip)"
+msgstr "குறு விளிம்பு (புரட்டு)"
+
+msgctxt "printing option value"
+msgid "Auto Select"
+msgstr "தானியங்குத் தேர்வு"
+
+msgctxt "printing option value"
+msgid "Printer Default"
+msgstr "அச்சுப்பொறி இயல்புநிலை"
+
+msgctxt "printing option value"
+msgid "Embed GhostScript fonts only"
+msgstr "GhostScript எழுத்துருக்களை மட்டும் உட்பொதி"
+
+msgctxt "printing option value"
+msgid "Convert to PS level 1"
+msgstr "PS நிலை 1-க்கு மாற்று"
+
+msgctxt "printing option value"
+msgid "Convert to PS level 2"
+msgstr "PS நிலை 2-க்கு மாற்று"
+
+msgctxt "printing option value"
+msgid "No pre-filtering"
+msgstr "முன்வடிகட்டல் இல்லை"
+
+msgctxt "sides"
+msgid "One Sided"
+msgstr "ஒருபக்கம்"
+
+msgctxt "sides"
+msgid "Long Edge (Standard)"
+msgstr "நீள் விளிம்பு (நிலையானது)"
+
+msgctxt "sides"
+msgid "Short Edge (Flip)"
+msgstr "குறு விளிம்பு (புரட்டு)"
+
+msgctxt "output-bin"
+msgid "Top Bin"
+msgstr "மேல் தட்டு"
+
+msgctxt "output-bin"
+msgid "Middle Bin"
+msgstr "நடுத் தட்டு"
+
+msgctxt "output-bin"
+msgid "Bottom Bin"
+msgstr "கீழ்த் தட்டு"
+
+msgctxt "output-bin"
+msgid "Side Bin"
+msgstr "பக்கத் தட்டு"
+
+msgctxt "output-bin"
+msgid "Left Bin"
+msgstr "இடது தட்டு"
+
+msgctxt "output-bin"
+msgid "Right Bin"
+msgstr "வலது தட்டு"
+
+msgctxt "output-bin"
+msgid "Center Bin"
+msgstr "மையத் தட்டு"
+
+msgctxt "output-bin"
+msgid "Rear Bin"
+msgstr "பின் தட்டு"
+
+msgctxt "output-bin"
+msgid "Face Up Bin"
+msgstr "முகம் மேலான தட்டு"
+
+msgctxt "output-bin"
+msgid "Face Down Bin"
+msgstr "முகம் கீழான தட்டு"
+
+msgctxt "output-bin"
+msgid "Large Capacity Bin"
+msgstr "பெருங்கொள்ளளவுத் தட்டு"
+
+msgctxt "output-bin"
+msgid "Stacker %d"
+msgstr "அடுக்கி %d"
+
+msgctxt "output-bin"
+msgid "Mailbox %d"
+msgstr "அஞ்சல்பெட்டி %d"
+
+msgctxt "output-bin"
+msgid "My Mailbox"
+msgstr "என் அஞ்சல்பெட்டி"
+
+msgctxt "output-bin"
+msgid "Tray %d"
+msgstr "தட்டு %d"
+
+msgid "Printer Default"
+msgstr "அச்சுப்பொறி இயல்புநிலை"
+
+msgid "Urgent"
+msgstr "அவசரம்"
+
+msgid "High"
+msgstr "உயர்"
+
+msgid "Medium"
+msgstr "நடுத்தரம்"
+
+msgid "Low"
+msgstr "குறைவு"
+
+msgid "Job Priority"
+msgstr "பணி முன்னுரிமை"
+
+msgid "Billing Info"
+msgstr "கட்டணத் தகவல்"
 
 msgctxt "cover page"
 msgid "None"
 msgstr "ஏதுமில்லை"
 
+msgctxt "cover page"
+msgid "Classified"
+msgstr "வகைப்படுத்தப்பட்டது"
+
+msgctxt "cover page"
+msgid "Confidential"
+msgstr "அந்தரங்கமானது"
+
+msgctxt "cover page"
+msgid "Secret"
+msgstr "இரகசியம்"
+
+msgctxt "cover page"
+msgid "Standard"
+msgstr "நிலையானது"
+
+msgctxt "cover page"
+msgid "Top Secret"
+msgstr "மிக இரகசியம்"
+
+msgctxt "cover page"
+msgid "Unclassified"
+msgstr "வகைப்படுத்தப்படாதது"
+
+msgctxt "printer option"
+msgid "Pages per Sheet"
+msgstr "ஒரு தாளில் பக்கங்கள்"
+
+msgctxt "printer option"
+msgid "Page Ordering"
+msgstr "பக்க வரிசைமுறை"
+
+msgctxt "printer option"
+msgid "Before"
+msgstr "முன்"
+
+msgctxt "printer option"
+msgid "After"
+msgstr "பின்"
+
+msgctxt "printer option"
+msgid "Print at"
+msgstr "இந்நேரத்தில் அச்சிடு"
+
+msgctxt "printer option"
+msgid "Print at time"
+msgstr "குறித்த நேரத்தில் அச்சிடு"
+
+msgid "Custom %s×%s"
+msgstr "தனிப்பயன் %s×%s"
+
+msgctxt "printer option"
+msgid "Printer Profile"
+msgstr "அச்சுப்பொறி சுயவிவரம்"
+
+msgctxt "printer option value"
+msgid "Unavailable"
+msgstr "கிடைக்கவில்லை"
+
+msgid "Color management unavailable"
+msgstr "நிற மேலாண்மை கிடைக்கவில்லை"
+
+msgid "No profile available"
+msgstr "சுயவிவரம் எதுவும் கிடைக்கவில்லை"
+
+msgid "Unspecified profile"
+msgstr "குறிப்பிடப்படாத சுயவிவரம்"
+
+msgid "Print to File"
+msgstr "கோப்பில் அச்சிடு"
+
+msgid "Pages per _sheet:"
+msgstr "ஒரு தாளில் பக்கங்கள்: (_S)"
+
 msgid "File"
 msgstr "கோப்பு"
+
+msgid "_Output format"
+msgstr "வெளியீட்டு வடிவம் (_O)"
+
+msgid "Print to LPR"
+msgstr "LPR-க்கு அச்சிடு"
+
+msgid "Pages Per Sheet"
+msgstr "ஒரு தாளில் பக்கங்கள்"
+
+msgid "Command Line"
+msgstr "கட்டளை வரி"
+
+msgid "printer offline"
+msgstr "அச்சுப்பொறி இணைப்பில் இல்லை"
+
+msgid "ready to print"
+msgstr "அச்சிடத் தயார்"
+
+msgid "processing job"
+msgstr "பணியைச் செயலாக்குகிறது"
+
+msgid "paused"
+msgstr "இடைநிறுத்தப்பட்டது"
+
+msgid "unknown"
+msgstr "தெரியவில்லை"
+
+msgid "Print to Test Printer"
+msgstr "சோதனை அச்சுப்பொறியில் அச்சிடு"

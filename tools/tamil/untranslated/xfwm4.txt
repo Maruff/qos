@@ -1,0 +1,20 @@
+Session manager socket
+SOCKET ID
+Version information
+.
+%s: %s\nTry %s --help to see a full list of available command line options.\n
+Settings manager socket
+windows;management;settings;preferences;themes;styles;decorations;title bar;font;buttons;menu;minimize;maximize;shade;roll up;layout;keyboard shortcuts;focus;snapping;screen;workspaces;edges;corner;hide content;move;resize;moving;resizing;double click;
+windows;behavior;settings;preferences;cycling;cycle;switching;focus;raises;accessibility;key;dragging;move;moving;hide;frame;title bar;maximized;tile;screen;edge;hot corner;snapping;mouse wheel;roll up;workspaces;placement;compositor;compositing;enable;disable;shadows;decorations;opacity;resize;inactive;preview;compiz;transitions;
+workspaces;settings;preferences;virtual desktops;number;windows;screen;margins;
+Unsupported keyboard modifier '%s'
+Set the compositor mode
+Set the vblank mode
+Replace the existing window manager
+Print version information and exit
+Enable debug logging
+[ARGUMENTS...]
+Type \"%s --help\" for usage.
+%s: GtkMenu failed to grab the pointer\n
+Error reading data from child process: %s\n
+Cannot spawn helper-dialog: %s\n

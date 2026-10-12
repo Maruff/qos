@@ -1,5 +1,8 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "This window might be busy and is not responding.\nDo you want to terminate the application?"
+msgstr "இந்தச் சாளரம் வேலையாக இருக்கலாம், பதிலளிக்கவில்லை.\nசெயலியை முடித்துவிட வேண்டுமா?"
 
 msgid "Warning"
 msgstr "எச்சரிக்கை"
@@ -7,14 +10,62 @@ msgstr "எச்சரிக்கை"
 msgid "None"
 msgstr "ஏதுமில்லை"
 
+msgid "Workspace %d"
+msgstr "பணியிடம் %d"
+
+msgid "Workspace Name"
+msgstr "பணியிடப் பெயர்"
+
+msgid "Window Manager"
+msgstr "சாளர மேலாளர்"
+
+msgid "Configure window behavior and shortcuts"
+msgstr "சாளர நடத்தையையும் குறுக்குவிசைகளையும் அமை"
+
+msgid "Window Manager Tweaks"
+msgstr "சாளர மேலாளர் நுணுக்கங்கள்"
+
+msgid "Fine-tune window behaviour and effects"
+msgstr "சாளர நடத்தையையும் விளைவுகளையும் நுணுக்கமாகச் சீரமை"
+
 msgid "Workspaces"
 msgstr "பணியிடங்கள்"
+
+msgid "Configure layout, names and margins"
+msgstr "தளவமைப்பு, பெயர்கள், ஓர இடைவெளிகளை அமை"
 
 msgid "_Help"
 msgstr "உதவி (_H)"
 
 msgid "_Close"
 msgstr "மூடு (_C)"
+
+msgid "<b>The_me</b>"
+msgstr "<b>கருப்பொருள்</b> (_M)"
+
+msgid "<b>Title fon_t</b>"
+msgstr "<b>தலைப்பு எழுத்துரு</b> (_T)"
+
+msgid "<b>Title _alignment</b>"
+msgstr "<b>தலைப்புச் சீரமைவு</b> (_A)"
+
+msgid "Click and drag the buttons to change the layout"
+msgstr "தளவமைப்பை மாற்றப் பொத்தான்களைச் சொடுக்கி இழுக்கவும்"
+
+msgid "Title"
+msgstr "தலைப்பு"
+
+msgid "The window title cannot be removed"
+msgstr "சாளரத் தலைப்பை அகற்ற முடியாது"
+
+msgid "Active"
+msgstr "செயலில் உள்ளவை"
+
+msgid "Menu"
+msgstr "பட்டியல்"
+
+msgid "Stick"
+msgstr "நிலைநிறுத்து"
 
 msgid "Shade"
 msgstr "சுருட்டு"
@@ -28,17 +79,341 @@ msgstr "பெரிதாக்கு"
 msgid "Close"
 msgstr "மூடு"
 
+msgid "Hidden"
+msgstr "மறைந்தவை"
+
+msgid "<b>Button layout</b>"
+msgstr "<b>பொத்தான் தளவமைப்பு</b>"
+
+msgid "_Style"
+msgstr "பாணி (_S)"
+
+msgid "Define shortcuts to perform _window manager actions:"
+msgstr "சாளர மேலாளர் செயல்களைச் செய்வதற்கான குறுக்குவிசைகளை வரையறு: (_W)"
+
 msgid "_Edit"
 msgstr "திருத்து (_E)"
 
 msgid "_Clear"
 msgstr "அழி (_C)"
 
+msgid "_Reset to Defaults"
+msgstr "இயல்புநிலைக்கு மீட்டமை (_R)"
+
+msgid "_Keyboard"
+msgstr "விசைப்பலகை (_K)"
+
+msgid "Click to foc_us"
+msgstr "சொடுக்கினால் குவியம் (_U)"
+
+msgid "Focus follows _mouse"
+msgstr "குவியம் சுட்டியைப் பின்தொடரும் (_M)"
+
+msgid "_Delay before window receives focus:"
+msgstr "சாளரம் குவியம் பெறுவதற்கு முன் தாமதம்: (_D)"
+
+msgid "<i>Short</i>"
+msgstr "<i>குறைவு</i>"
+
+msgid "<i>Long</i>"
+msgstr "<i>அதிகம்</i>"
+
+msgid "<b>Focus model</b>"
+msgstr "<b>குவிய முறை</b>"
+
+msgid "Automatically give focus to _newly created windows"
+msgstr "புதிதாக உருவாக்கப்படும் சாளரங்களுக்குத் தானாகக் குவியம் கொடு (_N)"
+
+msgid "<b>New window focus</b>"
+msgstr "<b>புதிய சாளரக் குவியம்</b>"
+
+msgid "Automatically _raise windows when they receive focus"
+msgstr "சாளரங்கள் குவியம் பெறும்போது தானாக முன்கொணர் (_R)"
+
+msgid "Delay _before raising focused window:"
+msgstr "குவியம் பெற்ற சாளரத்தை முன்கொணர்வதற்கு முன் தாமதம்: (_B)"
+
+msgid "<b>Raise on focus</b>"
+msgstr "<b>குவியம் பெறும்போது முன்கொணர்</b>"
+
+msgid "Raise window when clicking _inside application window"
+msgstr "செயலிச் சாளரத்தினுள் சொடுக்கும்போது சாளரத்தை முன்கொணர் (_I)"
+
+msgid "<b>Raise on click</b>"
+msgstr "<b>சொடுக்கும்போது முன்கொணர்</b>"
+
+msgid "_Focus"
+msgstr "குவியம் (_F)"
+
+msgid "To screen _borders"
+msgstr "திரை ஓரங்களுடன் (_B)"
+
+msgid "To other _windows"
+msgstr "மற்ற சாளரங்களுடன் (_W)"
+
+msgid "Dis_tance:"
+msgstr "தொலைவு: (_T)"
+
+msgid "<i>Small</i>"
+msgstr "<i>சிறியது</i>"
+
+msgid "<i>Wide</i>"
+msgstr "<i>அகலமானது</i>"
+
+msgid "<b>Windows snapping</b>"
+msgstr "<b>சாளர ஒட்டிணைவு</b>"
+
+msgid "With the mouse _pointer"
+msgstr "சுட்டியைக் கொண்டு (_P)"
+
+msgid "With a _dragged window"
+msgstr "இழுக்கப்படும் சாளரத்தைக் கொண்டு (_D)"
+
+msgid "_Edge resistance:"
+msgstr "ஓர எதிர்ப்பு: (_E)"
+
+msgid "<b>Wrap workspaces when reaching the screen edge</b>"
+msgstr "<b>திரை ஓரத்தை அடையும்போது பணியிடங்களைச் சுற்றிச் செல்</b>"
+
+msgid "When _moving"
+msgstr "நகர்த்தும்போது (_M)"
+
+msgid "When _resizing"
+msgstr "அளவை மாற்றும்போது (_R)"
+
+msgid "<b>Hide content of windows</b>"
+msgstr "<b>சாளரங்களின் உள்ளடக்கத்தை மறை</b>"
+
+msgid "The action to perform when the title-bar is double-clicked"
+msgstr "தலைப்புப்பட்டையை இரட்டைச் சொடுக்கும்போது செய்ய வேண்டிய செயல்"
+
+msgid "<b>Double click _action</b>"
+msgstr "<b>இரட்டைச் சொடுக்குச் செயல்</b> (_A)"
+
+msgid "Ad_vanced"
+msgstr "மேம்பட்டவை (_V)"
+
+msgid "Shade window"
+msgstr "சாளரத்தைச் சுருட்டு"
+
+msgid "Hide window"
+msgstr "சாளரத்தை மறை"
+
+msgid "Maximize window"
+msgstr "சாளரத்தைப் பெரிதாக்கு"
+
+msgid "Fill window"
+msgstr "சாளரத்தை நிரப்பு"
+
+msgid "Always on top"
+msgstr "எப்போதும் மேலே"
+
+msgid "Nothing"
+msgstr "எதுவுமில்லை"
+
+msgid "Left"
+msgstr "இடம்"
+
+msgid "Center"
+msgstr "நடு"
+
+msgid "Right"
+msgstr "வலம்"
+
+msgid "Theme"
+msgstr "கருப்பொருள்"
+
+msgid "Action"
+msgstr "செயல்"
+
+msgid "Shortcut"
+msgstr "குறுக்குவிசை"
+
+msgid "Failed to initialize xfconf. Reason: %s"
+msgstr "xfconf-ஐத் தொடங்க முடியவில்லை. காரணம்: %s"
+
+msgid "Could not create the settings dialog."
+msgstr "அமைப்புகள் உரையாடலை உருவாக்க முடியவில்லை."
+
+msgid "This will reset all shortcuts to their default values. Do you really want to do this?"
+msgstr "இது அனைத்துக் குறுக்குவிசைகளையும் அவற்றின் இயல்புநிலை மதிப்புகளுக்கு மீட்டமைக்கும். உண்மையில் இதைச் செய்ய வேண்டுமா?"
+
+msgid "Reset to Defaults"
+msgstr "இயல்புநிலைக்கு மீட்டமை"
+
+msgid "S_kip windows that have \"skip pager\"\nor \"skip taskbar\" properties set"
+msgstr "\"skip pager\" அல்லது \"skip taskbar\"\nபண்புகள் அமைக்கப்பட்ட சாளரங்களைத் தவிர் (_K)"
+
+msgid "Cycle _through minimized windows in most recently used order"
+msgstr "சிறிதாக்கிய சாளரங்களை மிக அண்மையில் பயன்படுத்திய வரிசையில் சுழற்சி செய் (_T)"
+
+msgid "_Include hidden (i.e. iconified) windows"
+msgstr "மறைந்த (அதாவது சின்னமாக்கப்பட்ட) சாளரங்களையும் சேர் (_I)"
+
+msgid "Cycle _through windows on all workspaces"
+msgstr "அனைத்துப் பணியிடங்களிலும் உள்ள சாளரங்களைச் சுழற்சி செய் (_T)"
+
+msgid "_Draw frame around selected window while cycling"
+msgstr "சுழற்சியின்போது தேர்ந்தெடுத்த சாளரத்தைச் சுற்றிச் சட்டம் வரை (_D)"
+
+msgid "_Raise windows while cycling"
+msgstr "சுழற்சியின்போது சாளரங்களை முன்கொணர் (_R)"
+
+msgid "Cycle through windows in a _list"
+msgstr "சாளரங்களைப் பட்டியலாகச் சுழற்சி செய் (_L)"
+
+msgid "C_ycling"
+msgstr "சுழற்சி (_Y)"
+
+msgid "Activate foc_us stealing prevention"
+msgstr "குவியப் பறிப்புத் தடுப்பைச் செயல்படுத்து (_U)"
+
+msgid "Honor _standard ICCCM focus hint"
+msgstr "நிலையான ICCCM குவியக் குறிப்பை மதி (_S)"
+
+msgid "When a window raises itself:"
+msgstr "ஒரு சாளரம் தானாக முன்வரும்போது:"
+
+msgid "_Bring window on current workspace"
+msgstr "சாளரத்தை நடப்புப் பணியிடத்துக்குக் கொண்டுவா (_B)"
+
+msgid "Switch to win_dow's workspace"
+msgstr "சாளரத்தின் பணியிடத்துக்கு மாறு (_D)"
+
+msgid "Do _nothing"
+msgstr "எதுவும் செய்யாதே (_N)"
+
+msgid "Key used to _grab and move windows:"
+msgstr "சாளரங்களைப் பற்றி நகர்த்தப் பயன்படும் விசை: (_G)"
+
+msgid "_Raise windows when any mouse button is pressed"
+msgstr "ஏதேனும் சுட்டிப் பொத்தான் அழுத்தப்படும்போது சாளரங்களை முன்கொணர் (_R)"
+
+msgid "Hide frame of windows when ma_ximized"
+msgstr "பெரிதாக்கியிருக்கும்போது சாளரங்களின் சட்டத்தை மறை (_X)"
+
+msgid "Hide title of windows when maximized"
+msgstr "பெரிதாக்கியிருக்கும்போது சாளரங்களின் தலைப்பை மறை"
+
+msgid "Automatically _tile windows when moving toward the screen edge"
+msgstr "திரை ஓரத்தை நோக்கி நகர்த்தும்போது சாளரங்களைத் தானாக ஓடுகளாக அடுக்கு (_T)"
+
+msgid "Use _edge resistance instead of window snapping"
+msgstr "சாளர ஒட்டிணைவுக்குப் பதிலாக ஓர எதிர்ப்பைப் பயன்படுத்து (_E)"
+
+msgid "Use mouse wheel on title bar to ro_ll up the window"
+msgstr "சாளரத்தைச் சுருட்டத் தலைப்புப்பட்டையில் சுட்டிச் சக்கரத்தைப் பயன்படுத்து (_L)"
+
+msgid "Notify of _urgency by making window's decoration blink"
+msgstr "சாளர அலங்காரத்தை மின்னச் செய்து அவசரத்தை அறிவி (_U)"
+
+msgid "Keep urgent windows _blinking repeatedly"
+msgstr "அவசரச் சாளரங்களைத் தொடர்ந்து மின்னச் செய் (_B)"
+
+msgid "_Accessibility"
+msgstr "அணுகல்தன்மை (_A)"
+
+msgid "Use the _mouse wheel on the desktop to switch workspaces"
+msgstr "பணியிடங்களை மாற்ற மேசைத்தளத்தில் சுட்டிச் சக்கரத்தைப் பயன்படுத்து (_M)"
+
+msgid "_Remember and recall previous workspace\nwhen switching via keyboard shortcuts"
+msgstr "விசைப்பலகைக் குறுக்குவிசைகள் மூலம் மாறும்போது\nமுந்தைய பணியிடத்தை நினைவில் வைத்து மீட்டழை (_R)"
+
+msgid "Wrap workspaces depending on the actual desktop _layout"
+msgstr "உண்மையான மேசைத்தளத் தளவமைப்பைப் பொறுத்துப் பணியிடங்களைச் சுற்றிச் செல் (_L)"
+
+msgid "Wrap workspaces when _the first or the last workspace is reached"
+msgstr "முதல் அல்லது கடைசிப் பணியிடத்தை அடையும்போது பணியிடங்களைச் சுற்றிச் செல் (_T)"
+
 msgid "_Workspaces"
 msgstr "பணியிடங்கள் (_W)"
 
+msgid "_Minimum size of windows to trigger smart placement:"
+msgstr "சீரிய இடமளிப்பைத் தூண்டச் சாளரங்களின் குறைந்தபட்ச அளவு: (_M)"
+
+msgid "<i>Large</i>"
+msgstr "<i>பெரியது</i>"
+
+msgid "By default, place windows:"
+msgstr "இயல்பாகச் சாளரங்களை வைக்க வேண்டிய இடம்:"
+
+msgid "At the c_enter of the screen"
+msgstr "திரையின் நடுவில் (_E)"
+
+msgid "U_nder the mouse pointer"
+msgstr "சுட்டிக்குக் கீழே (_N)"
+
+msgid "_Placement"
+msgstr "இடமளிப்பு (_P)"
+
+msgid "_Enable display compositing"
+msgstr "காட்சிக் கூட்டிணைப்பை இயக்கு (_E)"
+
+msgid "Display _fullscreen overlay windows directly"
+msgstr "முழுத்திரை மேலடுக்குச் சாளரங்களை நேரடியாகக் காட்டு (_F)"
+
+msgid "Show windows preview in place of icons when cycling"
+msgstr "சுழற்சியின்போது சின்னங்களுக்குப் பதிலாகச் சாளர முன்தோற்றத்தைக் காட்டு"
+
+msgid "Show shadows under pop_up windows"
+msgstr "மேல்தோன்றும் சாளரங்களின் கீழ் நிழல்களைக் காட்டு (_U)"
+
+msgid "Show shadows under _dock windows"
+msgstr "நிறுத்தச் சாளரங்களின் கீழ் நிழல்களைக் காட்டு (_D)"
+
+msgid "Show shadows under _regular windows"
+msgstr "வழக்கமான சாளரங்களின் கீழ் நிழல்களைக் காட்டு (_R)"
+
+msgid "Zoom desktop with mouse wheel"
+msgstr "சுட்டிச் சக்கரத்தால் மேசைத்தளத்தைப் பெரிதாக்கிக் காட்டு"
+
+msgid "Zoom pointer along with the desktop"
+msgstr "மேசைத்தளத்துடன் சுட்டியையும் பெரிதாக்கிக் காட்டு"
+
+msgid "Opaci_ty of window decorations:"
+msgstr "சாளர அலங்காரங்களின் ஒளிபுகாமை: (_T)"
+
+msgid "<i>Transparent</i>"
+msgstr "<i>ஒளிபுகும்</i>"
+
+msgid "<i>Opaque</i>"
+msgstr "<i>ஒளிபுகா</i>"
+
+msgid "Opacity of _inactive windows:"
+msgstr "செயலற்ற சாளரங்களின் ஒளிபுகாமை: (_I)"
+
+msgid "Opacity of windows during _move:"
+msgstr "நகர்த்தும்போது சாளரங்களின் ஒளிபுகாமை: (_M)"
+
+msgid "Opacity of windows during resi_ze:"
+msgstr "அளவை மாற்றும்போது சாளரங்களின் ஒளிபுகாமை: (_Z)"
+
+msgid "Opacity of popup wi_ndows:"
+msgstr "மேல்தோன்றும் சாளரங்களின் ஒளிபுகாமை: (_N)"
+
+msgid "C_ompositor"
+msgstr "கூட்டிணைப்பி (_O)"
+
+msgid "_Number of workspaces:"
+msgstr "பணியிடங்களின் எண்ணிக்கை: (_N)"
+
+msgid "Layout"
+msgstr "தளவமைப்பு"
+
+msgid "Names"
+msgstr "பெயர்கள்"
+
 msgid "_General"
 msgstr "பொது (_G)"
+
+msgid "Margins are areas on the edges of the screen where no window will be placed"
+msgstr "ஓர இடைவெளிகள் என்பவை, எந்தச் சாளரமும் வைக்கப்படாத திரை ஓரப் பகுதிகள்"
+
+msgid "_Margins"
+msgstr "ஓர இடைவெளிகள் (_M)"
+
+msgid "%s (on %s)"
+msgstr "%s (%s இல்)"
 
 msgid "Ma_ximize"
 msgstr "பெரிதாக்கு (_X)"
@@ -64,14 +439,26 @@ msgstr "அளவை மாற்று (_R)"
 msgid "Always on _Top"
 msgstr "எப்போதும் மேலே (_T)"
 
+msgid "_Same as Other Windows"
+msgstr "மற்ற சாளரங்களைப் போலவே (_S)"
+
 msgid "Always _Below Other Windows"
 msgstr "எப்போதும் மற்ற சாளரங்களுக்குக் கீழே (_B)"
+
+msgid "Roll Window Up"
+msgstr "சாளரத்தைச் சுருட்டு"
+
+msgid "Roll Window Down"
+msgstr "சாளரத்தை விரி"
 
 msgid "_Fullscreen"
 msgstr "முழுத்திரை (_F)"
 
 msgid "Leave _Fullscreen"
 msgstr "முழுத்திரையிலிருந்து வெளியேறு (_F)"
+
+msgid "Context _Help"
+msgstr "சூழல் உதவி (_H)"
 
 msgid "Always on _Visible Workspace"
 msgstr "எப்போதும் தெரியும் பணியிடத்தில் (_V)"
@@ -81,6 +468,9 @@ msgstr "வேறு பணியிடத்துக்கு நகர்த�
 
 msgid "Move to Another Monitor"
 msgstr "வேறு திரைக்கு நகர்த்து"
+
+msgid "Destroy"
+msgstr "வலிந்து மூடு"
 
 msgid "_Quit"
 msgstr "விலகு (_Q)"

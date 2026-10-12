@@ -1,0 +1,837 @@
+# qos Desktop in Tamil: Thunar.
+# The file manager: windows, dialogs, preferences, bulk rename and custom actions.
+Edit Launcher	தொடக்கியைத் திருத்து
+Edit the selected launcher	தேர்ந்தெடுத்த தொடக்கியைத் திருத்து
+Open in new Tab	புதிய தாவலில் திற	%d புதிய தாவல்களில் திற
+Open in new Window	புதிய சாளரத்தில் திற	%d புதிய சாளரங்களில் திற
+Open Item Location	உருப்படியின் இருப்பிடத்தைத் திற
+Navigate to the folder in which the selected file is located	தேர்ந்தெடுத்த கோப்பு உள்ள கோப்புறைக்குச் செல்
+Choose another application with which to open the selected file	தேர்ந்தெடுத்த கோப்பைத் திறக்க வேறு செயலியைத் தேர்ந்தெடு
+Set Default Application	இயல்புநிலைச் செயலியை அமை
+Choose an application which should be used by default to open the selected file	தேர்ந்தெடுத்த கோப்பைத் திறக்க இயல்பாகப் பயன்படுத்த வேண்டிய செயலியைத் தேர்ந்தெடு
+Create bookmarks for all selected folders. If nothing is selected, the current folder is bookmarked.	தேர்ந்தெடுத்த அனைத்துக் கோப்புறைகளுக்கும் புத்தகக்குறிகளை உருவாக்கு. எதுவும் தேர்ந்தெடுக்கப்படவில்லை எனில், நடப்புக் கோப்புறைக்குப் புத்தகக்குறி இடப்படும்.
+Send to Desktop	மேசைத்தளத்துக்கு அனுப்பு
+View the properties of the selected file	தேர்ந்தெடுத்த கோப்பின் பண்புகளைக் காட்டு
+Make Link	இணைப்பு உருவாக்கு	இணைப்புகள் உருவாக்கு
+Delete all files and folders in the Trash	குப்பைத் தொட்டியிலுள்ள அனைத்துக் கோப்புகளையும் கோப்புறைகளையும் நீக்கு
+Remove from Recent	அண்மையவையிலிருந்து அகற்று
+Remove the selected files from Recent	தேர்ந்தெடுத்த கோப்புகளை அண்மையவையிலிருந்து அகற்று
+Create an empty folder within the current folder	நடப்புக் கோப்புறைக்குள் ஒரு வெற்றுக் கோப்புறையை உருவாக்கு
+Create a new document from a template	வார்ப்புருவிலிருந்து புதிய ஆவணத்தை உருவாக்கு
+Restore and Show	மீட்டெடுத்துக் காட்டு
+Move or copy files previously selected by a Cut or Copy command	வெட்டு அல்லது நகலெடு கட்டளையால் முன்பு தேர்ந்தெடுத்த கோப்புகளை நகர்த்து அல்லது நகலெடு
+Move or copy files previously selected by a Cut or Copy command into the selected folder	வெட்டு அல்லது நகலெடு கட்டளையால் முன்பு தேர்ந்தெடுத்த கோப்புகளைத் தேர்ந்தெடுத்த கோப்புறைக்குள் நகர்த்து அல்லது நகலெடு
+Mount the selected device	தேர்ந்தெடுத்த சாதனத்தை ஏற்று
+Unmount the selected device	தேர்ந்தெடுத்த சாதனத்தை இறக்கு
+Eject the selected device	தேர்ந்தெடுத்த சாதனத்தை வெளியேற்று
+Failed to execute file \"%s\" (%s)	\"%s\" கோப்பை இயக்க முடியவில்லை (%s)
+Failed to execute file \"%s\"	\"%s\" கோப்பை இயக்க முடியவில்லை
+Failed to open file \"%s\"	\"%s\" கோப்பைத் திறக்க முடியவில்லை
+Failed to open %d file	%d கோப்பைத் திறக்க முடியவில்லை	%d கோப்புகளைத் திறக்க முடியவில்லை
+Are you sure you want to open all folders?	அனைத்துக் கோப்புறைகளையும் உறுதியாகத் திறக்க வேண்டுமா?
+Open folders	கோப்புறைகளைத் திற
+This will open %d separate file manager window.	இது %d தனிக் கோப்பு மேலாளர் சாளரத்தைத் திறக்கும்.	இது %d தனிக் கோப்பு மேலாளர் சாளரங்களைத் திறக்கும்.
+Open %d New Window	%d புதிய சாளரத்தைத் திற	%d புதிய சாளரங்களைத் திற
+Failed to mount \"%s\"	\"%s\" ஐ ஏற்ற முடியவில்லை
+Failed to open \"%s\"	\"%s\" ஐத் திறக்க முடியவில்லை
+File does not exist anymore	கோப்பு இப்போது இல்லை
+Failed to open location for \"%s\"	\"%s\" இன் இருப்பிடத்தைத் திறக்க முடியவில்லை
+Open the selected file	தேர்ந்தெடுத்த கோப்பைத் திற	தேர்ந்தெடுத்த கோப்புகளைத் திற
+Execute the selected file	தேர்ந்தெடுத்த கோப்பை இயக்கு	தேர்ந்தெடுத்த கோப்புகளை இயக்கு
+Open the selected directory in new tab	தேர்ந்தெடுத்த கோப்புறையைப் புதிய தாவலில் திற	தேர்ந்தெடுத்த கோப்புறைகளை %d புதிய தாவல்களில் திற
+Open the selected directory in new window	தேர்ந்தெடுத்த கோப்புறையைப் புதிய சாளரத்தில் திற	தேர்ந்தெடுத்த கோப்புறைகளை %d புதிய சாளரங்களில் திற
+Create a symbolic link for the selected file	தேர்ந்தெடுத்த கோப்புக்குக் குறியீட்டு இணைப்பை உருவாக்கு	தேர்ந்தெடுத்த ஒவ்வொரு கோப்புக்கும் குறியீட்டு இணைப்பை உருவாக்கு
+Rename the selected file	தேர்ந்தெடுத்த கோப்பைப் பெயர்மாற்று	தேர்ந்தெடுத்த கோப்புகளைப் பெயர்மாற்று
+Restore the selected file to its original location	தேர்ந்தெடுத்த கோப்பை அதன் முந்தைய இருப்பிடத்துக்கு மீட்டெடு	தேர்ந்தெடுத்த கோப்புகளை அவற்றின் முந்தைய இருப்பிடத்துக்கு மீட்டெடு
+Restore the selected file to its original location and open the location in a new window/tab	தேர்ந்தெடுத்த கோப்பை அதன் முந்தைய இருப்பிடத்துக்கு மீட்டெடுத்து, அந்த இருப்பிடத்தைப் புதிய சாளரத்தில்/தாவலில் திற	தேர்ந்தெடுத்த கோப்புகளை அவற்றின் முந்தைய இருப்பிடங்களுக்கு மீட்டெடுத்து, அந்த இருப்பிடங்களைப் புதிய சாளரத்தில்/தாவலில் திற
+Move the selected file to the Trash	தேர்ந்தெடுத்த கோப்பைக் குப்பைத் தொட்டிக்கு நகர்த்து	தேர்ந்தெடுத்த கோப்புகளைக் குப்பைத் தொட்டிக்கு நகர்த்து
+Permanently delete the selected file	தேர்ந்தெடுத்த கோப்பை நிரந்தரமாக நீக்கு	தேர்ந்தெடுத்த கோப்புகளை நிரந்தரமாக நீக்கு
+Cut the selection	தேர்வை வெட்டு
+Prepare the selected file to be moved with a Paste command	தேர்ந்தெடுத்த கோப்பை ஒட்டு கட்டளையால் நகர்த்துவதற்குத் தயார்செய்	தேர்ந்தெடுத்த கோப்புகளை ஒட்டு கட்டளையால் நகர்த்துவதற்குத் தயார்செய்
+Copy the selection	தேர்வை நகலெடு
+Prepare the selected file to be copied with a Paste command	தேர்ந்தெடுத்த கோப்பை ஒட்டு கட்டளையால் நகலெடுப்பதற்குத் தயார்செய்	தேர்ந்தெடுத்த கோப்புகளை ஒட்டு கட்டளையால் நகலெடுப்பதற்குத் தயார்செய்
+Paste the clipboard	இடைநிலைப்பலகையில் உள்ளதை ஒட்டு
+Side Pane (Add Bookmark)	பக்கப் பலகம் (புத்தகக்குறி சேர்)	பக்கப் பலகம் (புத்தகக்குறிகள் சேர்)
+Add the selected folder to the shortcuts side pane	தேர்ந்தெடுத்த கோப்புறையைக் குறுக்குவழிப் பக்கப் பலகத்தில் சேர்	தேர்ந்தெடுத்த கோப்புறைகளைக் குறுக்குவழிப் பக்கப் பலகத்தில் சேர்
+Desktop (Create Link)	மேசைத்தளம் (இணைப்பு உருவாக்கு)	மேசைத்தளம் (இணைப்புகள் உருவாக்கு)
+Create a link to the selected file on the desktop	தேர்ந்தெடுத்த கோப்புக்கு மேசைத்தளத்தில் இணைப்பை உருவாக்கு	தேர்ந்தெடுத்த கோப்புகளுக்கு மேசைத்தளத்தில் இணைப்புகளை உருவாக்கு
+Send the selected file to \"%s\"	தேர்ந்தெடுத்த கோப்பை \"%s\" க்கு அனுப்பு	தேர்ந்தெடுத்த கோப்புகளை \"%s\" க்கு அனுப்பு
+Create New Folder	புதிய கோப்புறை உருவாக்கு
+Create Document from template \"%s\"	\"%s\" வார்ப்புருவிலிருந்து ஆவணம் உருவாக்கு
+No templates installed in\n\"%s\"	\"%s\" இல்\nவார்ப்புருக்கள் எதுவும் இல்லை
+Failed to eject \"%s\"	\"%s\" ஐ வெளியேற்ற முடியவில்லை
+Failed to unmount \"%s\"	\"%s\" ஐ இறக்க முடியவில்லை
+Use \"%s\" to open the selected file	தேர்ந்தெடுத்த கோப்பைத் திறக்க \"%s\" ஐப் பயன்படுத்து	தேர்ந்தெடுத்த கோப்புகளைத் திறக்க \"%s\" ஐப் பயன்படுத்து
+Open With \"%s\"	\"%s\" உடன் திற
+Open With Default Applications	இயல்புநிலைச் செயலிகளுடன் திற
+Open the selected files with the default applications	தேர்ந்தெடுத்த கோப்புகளை இயல்புநிலைச் செயலிகளுடன் திற
+Open the bulk rename dialog	தொகுப்புப் பெயர்மாற்ற உரையாடலைத் திற
+Failed to launch operation	செயல்பாட்டைத் தொடங்க முடியவில்லை
+Failed to open \"%s\" (%s)	\"%s\" ஐத் திறக்க முடியவில்லை (%s)
+Failed to open \"%s\": %s	\"%s\" ஐத் திறக்க முடியவில்லை: %s
+Failed to rename \"%s\" (%s)	\"%s\" ஐப் பெயர்மாற்ற முடியவில்லை (%s)
+Failed to rename \"%s\"	\"%s\" ஐப் பெயர்மாற்ற முடியவில்லை
+Rename Launcher Options	தொடக்கி பெயர்மாற்ற விருப்பங்கள்
+Do you want to rename the launcher, or the file itself?	தொடக்கியைப் பெயர்மாற்ற வேண்டுமா, அல்லது கோப்பையேவா?
+Rename Launcher	தொடக்கியைப் பெயர்மாற்று
+Rename File	கோப்பைப் பெயர்மாற்று
+New File	புதிய கோப்பு
+Create New File	புதிய கோப்பு உருவாக்கு
+Copying files	கோப்புகள் நகலெடுக்கப்படுகின்றன
+Copying files to \"%s\"	கோப்புகள் \"%s\" க்கு நகலெடுக்கப்படுகின்றன
+Creating symbolic links in \"%s\"	\"%s\" இல் குறியீட்டு இணைப்புகள் உருவாக்கப்படுகின்றன
+Moving files into \"%s\"	கோப்புகள் \"%s\" க்குள் நகர்த்தப்படுகின்றன
+Moving files 	கோப்புகள் நகர்த்தப்படுகின்றன
+Are you sure that you want to\npermanently delete \"%s\" (%s)?	\"%s\" (%s) ஐ\nநிரந்தரமாக நீக்க உறுதியாக விரும்புகிறீர்களா?
+Are you sure that you want to\npermanently delete \"%s\"?	\"%s\" ஐ\nநிரந்தரமாக நீக்க உறுதியாக விரும்புகிறீர்களா?
+Are you sure that you want to permanently\ndelete the selected file?	தேர்ந்தெடுத்த கோப்பை நிரந்தரமாக\nநீக்க உறுதியாக விரும்புகிறீர்களா?	தேர்ந்தெடுத்த %u கோப்புகளை நிரந்தரமாக\nநீக்க உறுதியாக விரும்புகிறீர்களா?
+Attention	கவனம்
+If you delete a file, it is permanently lost.	ஒரு கோப்பை நீக்கினால், அது நிரந்தரமாக இழக்கப்படும்.
+Deleting files	கோப்புகள் நீக்கப்படுகின்றன
+Are you sure that you want to\nmove \"%s\" (%s) to trash ?	\"%s\" (%s) ஐக்\nகுப்பைத் தொட்டிக்கு நகர்த்த உறுதியாக விரும்புகிறீர்களா?
+Are you sure that you want to\nmove \"%s\" to trash ?	\"%s\" ஐக்\nகுப்பைத் தொட்டிக்கு நகர்த்த உறுதியாக விரும்புகிறீர்களா?
+Are you sure that you want to\nmove the selected file to trash?	தேர்ந்தெடுத்த கோப்பைக்\nகுப்பைத் தொட்டிக்கு நகர்த்த உறுதியாக விரும்புகிறீர்களா?	தேர்ந்தெடுத்த %u கோப்புகளைக்\nகுப்பைத் தொட்டிக்கு நகர்த்த உறுதியாக விரும்புகிறீர்களா?
+Moving files into the trash	கோப்புகள் குப்பைத் தொட்டிக்கு நகர்த்தப்படுகின்றன
+Creating files	கோப்புகள் உருவாக்கப்படுகின்றன
+Creating directories	கோப்புறைகள் உருவாக்கப்படுகின்றன
+Remove all files and folders from the Trash?	குப்பைத் தொட்டியிலிருந்து அனைத்துக் கோப்புகளையும் கோப்புறைகளையும் அகற்றவா?
+If you choose to empty the Trash, all items in it will be permanently lost. Please note that you can also delete them separately.	குப்பைத் தொட்டியைக் காலியாக்கினால், அதிலுள்ள அனைத்து உருப்படிகளும் நிரந்தரமாக இழக்கப்படும். அவற்றைத் தனித்தனியாகவும் நீக்கலாம் என்பதைக் கவனிக்கவும்.
+Emptying the Trash	குப்பைத் தொட்டி காலியாக்கப்படுகிறது
+Failed to determine the original path for \"%s\" (%s)	\"%s\" இன் முந்தைய பாதையைக் கண்டறிய முடியவில்லை (%s)
+Failed to determine the original path for \"%s\"	\"%s\" இன் முந்தைய பாதையைக் கண்டறிய முடியவில்லை
+Could not restore \"%s\" (%s)	\"%s\" ஐ மீட்டெடுக்க முடியவில்லை (%s)
+Could not restore \"%s\"	\"%s\" ஐ மீட்டெடுக்க முடியவில்லை
+Restoring files	கோப்புகள் மீட்டெடுக்கப்படுகின்றன
+Failed to set default application for \"%s\" (%s)	\"%s\" க்கு இயல்புநிலைச் செயலியை அமைக்க முடியவில்லை (%s)
+Failed to set default application for \"%s\"	\"%s\" க்கு இயல்புநிலைச் செயலியை அமைக்க முடியவில்லை
+The selected application is used to open this and other files of type \"%s\".	இந்தக் கோப்பையும் \"%s\" வகையைச் சேர்ந்த பிற கோப்புகளையும் திறக்கத் தேர்ந்தெடுத்த செயலி பயன்படும்.
+No application selected	செயலி எதுவும் தேர்ந்தெடுக்கப்படவில்லை
+Other Application	வேறு செயலி
+Use a custom command:	தனிப்பயன் கட்டளையைப் பயன்படுத்து:
+Use a custom command for an application that is not available from the above application list.	மேலே உள்ள செயலிப் பட்டியலில் இல்லாத செயலிக்குத் தனிப்பயன் கட்டளையைப் பயன்படுத்து.
+Browse	உலாவு
+Use as default for this kind of file	இவ்வகைக் கோப்புகளுக்கு இயல்புநிலையாகப் பயன்படுத்து
+Failed to add new application \"%s\"	\"%s\" என்ற புதிய செயலியைச் சேர்க்க முடியவில்லை
+Failed to execute application \"%s\"	\"%s\" செயலியை இயக்க முடியவில்லை
+Remove Launcher	தொடக்கியை அகற்று
+Forget Association	தொடர்பை மற
+Open <i>%s (%s)</i> and other files of type \"%s\" with:	<i>%s (%s)</i> ஐயும் \"%s\" வகையைச் சேர்ந்த பிற கோப்புகளையும் இதனுடன் திற:
+Open <i>%s</i> and other files of type \"%s\" with:	<i>%s</i> ஐயும் \"%s\" வகையைச் சேர்ந்த பிற கோப்புகளையும் இதனுடன் திற:
+Browse the file system to select an application to open files of type \"%s\".	\"%s\" வகைக் கோப்புகளைத் திறக்க ஒரு செயலியைத் தேர்ந்தெடுக்கக் கோப்பு முறைமையில் உலாவு.
+Change the default application for files of type \"%s\" to the selected application.	\"%s\" வகைக் கோப்புகளுக்கான இயல்புநிலைச் செயலியைத் தேர்ந்தெடுத்த செயலிக்கு மாற்று.
+Are you sure that you want to remove \"%s\"?	\"%s\" ஐ உறுதியாக அகற்ற வேண்டுமா?
+Remove application launcher	செயலித் தொடக்கியை அகற்று
+This will remove the application launcher that appears in the file context menu, but will not uninstall the application itself.\n\nYou can only remove application launchers that were created using the custom command box in the \"Open With\" dialog of the file manager.	இது கோப்புச் சூழல் பட்டியலில் தோன்றும் செயலித் தொடக்கியை அகற்றும்; ஆனால் செயலியையே நிறுவல் நீக்காது.\n\nகோப்பு மேலாளரின் \"இதனுடன் திற\" உரையாடலில் உள்ள தனிப்பயன் கட்டளைப் பெட்டியைப் பயன்படுத்தி உருவாக்கிய செயலித் தொடக்கிகளை மட்டுமே அகற்ற முடியும்.
+Failed to remove \"%s\"	\"%s\" ஐ அகற்ற முடியவில்லை
+Are you sure that you want to forget \"%s\"?	\"%s\" ஐ உறுதியாக மறக்க வேண்டுமா?
+Forget application launcher	செயலித் தொடக்கியை மற
+Forget	மற
+This will dissociate the application launcher for this file type, but will not uninstall or remove the application launcher itself.	இது இந்தக் கோப்பு வகையிலிருந்து செயலித் தொடக்கியின் தொடர்பை நீக்கும்; ஆனால் செயலித் தொடக்கியை நிறுவல் நீக்கவோ அகற்றவோ செய்யாது.
+Failed to forget \"%s\"	\"%s\" ஐ மறக்க முடியவில்லை
+Select an Application	ஒரு செயலியைத் தேர்ந்தெடு
+All Files	அனைத்துக் கோப்புகளும்
+Executable Files	இயக்கக்கூடிய கோப்புகள்
+Perl Scripts	Perl உரைநிரல்கள்
+Python Scripts	Python உரைநிரல்கள்
+Ruby Scripts	Ruby உரைநிரல்கள்
+Shell Scripts	ஷெல் உரைநிரல்கள்
+None available	எதுவும் கிடைக்கவில்லை
+Default Application	இயல்புநிலைச் செயலி
+Recommended Applications	பரிந்துரைக்கப்படும் செயலிகள்
+Other Applications	பிற செயலிகள்
+Failed to remove \"%s\".	\"%s\" ஐ அகற்ற முடியவில்லை.
+There is nothing on the clipboard to paste	ஒட்டுவதற்கு இடைநிலைப்பலகையில் எதுவும் இல்லை
+Configure Columns in the Detailed List View	விரிவான பட்டியல் காட்சியில் நெடுவரிசைகளை அமை
+Visible Columns	காணக்கூடிய நெடுவரிசைகள்
+Choose the order of information to appear in the\ndetailed list view.	விரிவான பட்டியல் காட்சியில் தகவல் தோன்ற வேண்டிய\nவரிசையைத் தேர்ந்தெடு.
+Move Up	மேலே நகர்த்து
+Move Down	கீழே நகர்த்து
+Use Default	இயல்புநிலையைப் பயன்படுத்து
+Column Sizing	நெடுவரிசை அளவமைப்பு
+By default columns will be automatically expanded if\nneeded to ensure the text is fully visible. If you dis-\nable this behavior below the file manager will always\nuse the user defined column widths.	இயல்பாக, உரை முழுமையாகத் தெரியும்படி தேவைப்பட்டால்\nநெடுவரிசைகள் தானாக விரிவாக்கப்படும். கீழே இந்த நடத்தையை\nமுடக்கினால், கோப்பு மேலாளர் எப்போதும் பயனர் வரையறுத்த\nநெடுவரிசை அகலங்களையே பயன்படுத்தும்.
+Automatically expand columns as needed	தேவைக்கேற்ப நெடுவரிசைகளைத் தானாக விரிவாக்கு
+Size Column of Folders	கோப்புறைகளின் அளவு நெடுவரிசை
+Show number of containing items	உள்ளடங்கிய உருப்படிகளின் எண்ணிக்கையைக் காட்டு
+This column is reserved for special locations	இந்த நெடுவரிசை சிறப்பு இருப்பிடங்களுக்காக ஒதுக்கப்பட்டுள்ளது
+Compact directory listing	அடர் கோப்புறைப் பட்டியல்
+Compact view	அடர் காட்சி
+Invalid filename \"%s\"	தவறான கோப்புப்பெயர் \"%s\"
+The working directory must be an absolute path	பணிக் கோப்புறை முழுமையான பாதையாக இருக்க வேண்டும்
+At least one filename must be specified	குறைந்தது ஒரு கோப்புப்பெயராவது குறிப்பிடப்பட வேண்டும்
+At least one source filename must be specified	குறைந்தது ஒரு மூலக் கோப்புப்பெயராவது குறிப்பிடப்பட வேண்டும்
+The number of source and target filenames must be the same	மூல, இலக்குக் கோப்புப்பெயர்களின் எண்ணிக்கை சமமாக இருக்க வேண்டும்
+A destination directory must be specified	ஓர் இலக்குக் கோப்புறை குறிப்பிடப்பட வேண்டும்
+Configure Columns	நெடுவரிசைகளை அமை
+Configure the columns in the detailed list view	விரிவான பட்டியல் காட்சியில் நெடுவரிசைகளை அமை
+Expandable Folders	விரிக்கக்கூடிய கோப்புறைகள்
+Allow tree like expansion of folders	கோப்புறைகளை மரம் போல விரிக்க அனுமதி
+Detailed directory listing	விரிவான கோப்புறைப் பட்டியல்
+Details view	விவரக் காட்சி
+Safely Remove	பாதுகாப்பாக அகற்று
+Disconnect	துண்டி
+Stop the Multi-Disk Drive	பல்வட்டு இயக்கியை நிறுத்து
+Lock	பூட்டு
+Enter the name:	பெயரை உள்ளிடுக:
+Cannot convert filename \"%s\" to the local encoding	\"%s\" கோப்புப்பெயரை உள்ளூர்க் குறியாக்கத்துக்கு மாற்ற முடியவில்லை
+Rename \"%s\"	\"%s\" ஐப் பெயர்மாற்று
+Enter the new name:	புதிய பெயரை உள்ளிடுக:
+Yes to all	அனைத்துக்கும் ஆம்
+Replace All	அனைத்தையும் மாற்றீடு செய்
+Skip All	அனைத்தையும் தவிர்
+Rename All	அனைத்தையும் பெயர்மாற்று
+No to all	அனைத்துக்கும் இல்லை
+Retry	மீண்டும் முயல்
+Copy Anyway	இருப்பினும் நகலெடு
+Confirm to replace files	கோப்புகளை மாற்றீடு செய்வதை உறுதிசெய்
+This folder already contains a symbolic link \"%s\".	இந்தக் கோப்புறையில் ஏற்கெனவே \"%s\" என்ற குறியீட்டு இணைப்பு உள்ளது.
+This folder already contains a folder \"%s\".	இந்தக் கோப்புறையில் ஏற்கெனவே \"%s\" என்ற கோப்புறை உள்ளது.
+This folder already contains a file \"%s\" (%s).	இந்தக் கோப்புறையில் ஏற்கெனவே \"%s\" (%s) என்ற கோப்பு உள்ளது.
+This folder already contains a file \"%s\".	இந்தக் கோப்புறையில் ஏற்கெனவே \"%s\" என்ற கோப்பு உள்ளது.
+Replace the link in \"%s\"	\"%s\" இல் உள்ள இணைப்பை
+Replace the existing folder in \"%s\"	\"%s\" இல் ஏற்கெனவே உள்ள கோப்புறையை
+Replace the existing file in \"%s\"	\"%s\" இல் ஏற்கெனவே உள்ள கோப்பை
+Size:	அளவு:
+Modified:	மாற்றியது:
+with the following link?	பின்வரும் இணைப்பைக் கொண்டு மாற்றீடு செய்யவா?
+with the following folder?	பின்வரும் கோப்புறையைக் கொண்டு மாற்றீடு செய்யவா?
+with the following file?	பின்வரும் கோப்பைக் கொண்டு மாற்றீடு செய்யவா?
+Apply the action to all files and folders	இச்செயலை அனைத்துக் கோப்புகளுக்கும் கோப்புறைகளுக்கும் செயல்படுத்து
+/executable	/இயக்கக்கூடியது
+The desktop file %s is in an insecure location and not marked as secure%s. If you do not trust this program, click Cancel.\n\n	%s என்ற மேசைத்தளக் கோப்பு பாதுகாப்பற்ற இருப்பிடத்தில் உள்ளது; மேலும் பாதுகாப்பானது%s எனக் குறிக்கப்படவில்லை. இந்த நிரலை நம்பவில்லை எனில், ரத்துசெய் என்பதைச் சொடுக்கவும்.\n\n
+Launch Anyway	இருப்பினும் தொடங்கு
+Mark As Secure And Launch	பாதுகாப்பானது எனக் குறித்துத் தொடங்கு
+Close split pane with multiple tabs?	பல தாவல்கள் உள்ள பிரிப்புப் பலகத்தை மூடவா?
+The other split pane has multiple open tabs. Closing it will close all these tabs.	மற்றப் பிரிப்புப் பலகத்தில் பல தாவல்கள் திறந்துள்ளன. அதை மூடினால் இவை அனைத்தும் மூடப்படும்.
+Close Pane	பலகத்தை மூடு
+Do not ask me again	மீண்டும் கேட்காதே
+The file \"%s\" seems to be executable. What do you want to do with it?	\"%s\" கோப்பு இயக்கக்கூடியதாகத் தெரிகிறது. அதை என்ன செய்ய வேண்டும்?
+The selected files seem to be executable. What do you want to do with them?	தேர்ந்தெடுத்த கோப்புகள் இயக்கக்கூடியவையாகத் தெரிகின்றன. அவற்றை என்ன செய்ய வேண்டும்?
+Open Shell Script	ஷெல் உரைநிரலைத் திற
+Run In Terminal	முனையத்தில் இயக்கு
+Failed to edit launcher via command \"%s\"	\"%s\" கட்டளை மூலம் தொடக்கியைத் திருத்த முடியவில்லை
+Copy Here	இங்கே நகலெடு
+Move Here	இங்கே நகர்த்து
+Link Here	இங்கே இணைப்பு உருவாக்கு
+A maximum of %u emblems is supported per file.	ஒரு கோப்புக்கு அதிகபட்சம் %u முத்திரைகளே ஆதரிக்கப்படும்.
+Too many emblems selected	மிக அதிக முத்திரைகள் தேர்ந்தெடுக்கப்பட்டுள்ளன
+Name only	பெயர் மட்டும்
+Extension only	நீட்டிப்பு மட்டும்
+Name and Extension	பெயரும் நீட்டிப்பும்
+Date Created	உருவாக்கிய நாள்
+Date Accessed	அணுகிய நாள்
+Date Deleted	நீக்கிய நாள்
+Recency	அண்மைத்தன்மை
+Group	குழு
+MIME Type	MIME வகை
+Owner	உரிமையாளர்
+Permissions	அனுமதிகள்
+Size in Bytes	பைட்டுகளில் அளவு
+File Name	கோப்புப் பெயர்
+Only For Remote Location	தொலை இருப்பிடத்துக்கு மட்டும்
+Create File	கோப்பு உருவாக்கு
+Delete (opposite of create)	நீக்கு (உருவாக்குவதன் எதிர்)
+Restore (opposite of trash)	மீட்டெடு (குப்பைக்கு அனுப்புவதன் எதிர்)
+Link	இணைப்பு
+Unlink	இணைப்பு நீக்கு
+Log operations	செயல்பாடுகளைப் பதிவுசெய்
+Log no operations	எந்தச் செயல்பாட்டையும் பதிவுசெய்யாதே
+Log only timestamps	நேரமுத்திரைகளை மட்டும் பதிவுசெய்
+Standalone	தனித்தது
+Embedded	உட்பொதிந்தது
+Only for local files	உள்ளூர்க் கோப்புகளுக்கு மட்டும்
+The root folder has no parent	வேர்க் கோப்புறைக்கு மேல் கோப்புறை இல்லை
+Failed to parse the desktop file: %s	மேசைத்தளக் கோப்பைப் பகுக்க முடியவில்லை: %s
+Untrusted application launcher	நம்பகமற்ற செயலித் தொடக்கி
+No Exec field specified	Exec புலம் குறிப்பிடப்படவில்லை
+Untrusted link launcher	நம்பகமற்ற இணைப்புத் தொடக்கி
+No URL field specified	URL புலம் குறிப்பிடப்படவில்லை
+Invalid desktop file	தவறான மேசைத்தளக் கோப்பு
+broken link	உடைந்த இணைப்பு
+%s (link to %s)	%s (%s க்கான இணைப்பு)
+%s (mount point)	%s (ஏற்றப் புள்ளி)
+Solid State Drive	திண்மநிலை இயக்கி
+System Drive	கணினி இயக்கி
+USB Drive	USB இயக்கி
+Camera	கேமரா
+Harddisk	வன்வட்டு
+Optical Drive	ஒளியியல் இயக்கி
+Removable Drive	நீக்கக்கூடிய இயக்கி
+Flash Drive	ஃபிளாஷ் இயக்கி
+Floppy	நெகிழ்வட்டு
+Optical Media	ஒளியியல் ஊடகம்
+Tape	நாடா
+Multimedia Player	பல்லூடக இயக்கி
+PDA	PDA
+Phone	தொலைபேசி
+%s on %s	%s (%s இல்)
+%s used (%.0f%%)  |  %s free (%.0f%%)	%s பயன்பாட்டில் (%.0f%%)  |  %s காலி (%.0f%%)
+The item will be removed from the history	இந்த உருப்படி வரலாற்றிலிருந்து அகற்றப்படும்
+Could not find \"%s\"	\"%s\" ஐக் கண்டுபிடிக்க முடியவில்லை
+Icon based directory listing	சின்னங்களாகக் கோப்புறைப் பட்டியல்
+Icon view	சின்னக் காட்சி
+Error removing file: %s	கோப்பை அகற்றுவதில் பிழை: %s
+The file \"%s\" already exists	\"%s\" கோப்பு ஏற்கெனவே உள்ளது
+Failed to create empty file \"%s\": %s	\"%s\" என்ற வெற்றுக் கோப்பை உருவாக்க முடியவில்லை: %s
+Failed to create directory \"%s\": %s	\"%s\" கோப்புறையை உருவாக்க முடியவில்லை: %s
+Preparing	தயாராகிறது
+Could not delete file \"%s\": %s	\"%s\" கோப்பை நீக்க முடியவில்லை: %s
+Failed to change the owner of \"%s\": %s	\"%s\" இன் உரிமையாளரை மாற்ற முடியவில்லை: %s
+Failed to change the group of \"%s\": %s	\"%s\" இன் குழுவை மாற்ற முடியவில்லை: %s
+Failed to change the permissions of \"%s\": %s	\"%s\" இன் அனுமதிகளை மாற்ற முடியவில்லை: %s
+Selection: %s	தேர்வு: %s
+Free space: %s	காலி இடம்: %s
+%s (copy %u)%s	%s (நகல் %u)%s
+%s (copy %u)	%s (நகல் %u)
+The file \"%s\" (%s) already exists. Would you like to replace it?\n\nIf you replace an existing file, its contents will be overwritten.	\"%s\" (%s) கோப்பு ஏற்கெனவே உள்ளது. அதை மாற்றீடு செய்ய வேண்டுமா?\n\nஏற்கெனவே உள்ள கோப்பை மாற்றீடு செய்தால், அதன் உள்ளடக்கம் மேலெழுதப்படும்.
+The file \"%s\" already exists. Would you like to replace it?\n\nIf you replace an existing file, its contents will be overwritten.	\"%s\" கோப்பு ஏற்கெனவே உள்ளது. அதை மாற்றீடு செய்ய வேண்டுமா?\n\nஏற்கெனவே உள்ள கோப்பை மாற்றீடு செய்தால், அதன் உள்ளடக்கம் மேலெழுதப்படும்.
+Do you want to overwrite it?	அதை மேலெழுத வேண்டுமா?
+Do you want to permanently delete it?	அதை நிரந்தரமாக நீக்க வேண்டுமா?
+Do you want to create it?	அதை உருவாக்க வேண்டுமா?
+Do you want to skip it?	அதைத் தவிர்க்க வேண்டுமா?
+There is not enough space on the destination. Try to remove files to make space.	இலக்கில் போதுமான இடம் இல்லை. இடம் உருவாக்கச் சில கோப்புகளை அகற்றிப் பார்க்கவும்.
+%d file	%d கோப்பு	%d கோப்புகள்
+No operation which can be undone has been performed yet.\n(For some operations undo is not supported)	செயல்தவிர்க்கக்கூடிய எந்தச் செயல்பாடும் இதுவரை செய்யப்படவில்லை.\n(சில செயல்பாடுகளுக்குச் செயல்தவிர்ப்பு ஆதரிக்கப்படவில்லை)
+There is no operation to undo	செயல்தவிர்க்க எந்தச் செயல்பாடும் இல்லை
+The operation you are trying to undo does not have any files associated with it, and thus cannot be undone.	நீங்கள் செயல்தவிர்க்க முயலும் செயல்பாட்டுடன் தொடர்புடைய கோப்புகள் எதுவும் இல்லை; எனவே அதைச் செயல்தவிர்க்க முடியாது.
+%s operation cannot be undone	%s செயல்பாட்டைச் செயல்தவிர்க்க முடியாது
+The following files were overwritten in the operation you are trying to undo and cannot be restored:\n	நீங்கள் செயல்தவிர்க்க முயலும் செயல்பாட்டில் பின்வரும் கோப்புகள் மேலெழுதப்பட்டன; அவற்றை மீட்டெடுக்க முடியாது:\n
+%s operation can only be partially undone	%s செயல்பாட்டைப் பகுதியளவே செயல்தவிர்க்க முடியும்
+Failed to undo operation '%s'	'%s' செயல்பாட்டைச் செயல்தவிர்க்க முடியவில்லை
+No operation which can be redone available.\n	மீண்டும் செய்யக்கூடிய செயல்பாடு எதுவும் இல்லை.\n
+There is no operation to redo	மீண்டும் செய்ய எந்தச் செயல்பாடும் இல்லை
+The operation you are trying to redo does not have any files associated with it, and thus cannot be redone.	நீங்கள் மீண்டும் செய்ய முயலும் செயல்பாட்டுடன் தொடர்புடைய கோப்புகள் எதுவும் இல்லை; எனவே அதை மீண்டும் செய்ய முடியாது.
+%s operation cannot be redone	%s செயல்பாட்டை மீண்டும் செய்ய முடியாது
+The following files were overwritten in the operation you are trying to redo and cannot be restored:\n	நீங்கள் மீண்டும் செய்ய முயலும் செயல்பாட்டில் பின்வரும் கோப்புகள் மேலெழுதப்பட்டன; அவற்றை மீட்டெடுக்க முடியாது:\n
+%s operation can only be partially redone	%s செயல்பாட்டைப் பகுதியளவே மீண்டும் செய்ய முடியும்
+Failed to redo operation '%s'	'%s' செயல்பாட்டை மீண்டும் செய்ய முடியவில்லை
+Undo the latest '%s' operation (%s)	அண்மைய '%s' செயல்பாட்டைச் செயல்தவிர் (%s)
+Undo the latest operation	அண்மைய செயல்பாட்டைச் செயல்தவிர்
+Redo the latest '%s' operation (%s)	அண்மைய '%s' செயல்பாட்டை மீண்டும் செய் (%s)
+Redo the latest operation	அண்மைய செயல்பாட்டை மீண்டும் செய்
+unknown	தெரியவில்லை
+%u item	%u உருப்படி	%u உருப்படிகள்
+File does not exist	கோப்பு இல்லை
+Undo performed	செயல்தவிர்க்கப்பட்டது
+%s operation was undone	%s செயல்பாடு செயல்தவிர்க்கப்பட்டது
+Redo performed	மீண்டும் செய்யப்பட்டது
+%s operation was redone	%s செயல்பாடு மீண்டும் செய்யப்பட்டது
+Unmounting device	சாதனம் இறக்கப்படுகிறது
+The device \"%s\" is being unmounted by the system. Please do not remove the media or disconnect the drive	\"%s\" சாதனத்தை அமைப்பு இறக்கிக்கொண்டிருக்கிறது. ஊடகத்தை அகற்றவோ இயக்கியைத் துண்டிக்கவோ வேண்டாம்
+Writing data to device	சாதனத்தில் தரவு எழுதப்படுகிறது
+There is data that needs to be written to the device \"%s\" before it can be removed. Please do not remove the media or disconnect the drive	\"%s\" சாதனத்தை அகற்றுவதற்கு முன் அதில் எழுத வேண்டிய தரவு உள்ளது. ஊடகத்தை அகற்றவோ இயக்கியைத் துண்டிக்கவோ வேண்டாம்
+Ejecting device	சாதனம் வெளியேற்றப்படுகிறது
+The device \"%s\" is being ejected. This may take some time	\"%s\" சாதனம் வெளியேற்றப்படுகிறது. இதற்குச் சிறிது நேரம் ஆகலாம்
+Owner:	உரிமையாளர்:
+Access:	அணுக்கம்:
+Group:	குழு:
+Others	மற்றவர்கள்
+Program:	நிரல்:
+Allow this file to run as a program	இந்தக் கோப்பை நிரலாக இயக்க அனுமதி
+Allowing untrusted programs to run presents a security risk to your system.	நம்பகமற்ற நிரல்களை இயக்க அனுமதிப்பது உங்கள் கணினிக்குப் பாதுகாப்பு இடரை ஏற்படுத்தும்.
+The folder permissions are inconsistent, you may not be able to work with files in this folder.	கோப்புறை அனுமதிகள் முரண்பாடாக உள்ளன; இந்தக் கோப்புறையிலுள்ள கோப்புகளுடன் உங்களால் பணியாற்ற முடியாமல் போகலாம்.
+Correct folder permissions	கோப்புறை அனுமதிகளைச் சரிசெய்
+Click here to automatically fix the folder permissions.	கோப்புறை அனுமதிகளைத் தானாகச் சரிசெய்ய இங்கே சொடுக்கவும்.
+Please wait	காத்திருக்கவும்
+Stop applying permissions recursively.	அனுமதிகளை உட்கோப்புறைகளுக்கும் செயல்படுத்துவதை நிறுத்து.
+Question	கேள்வி
+Apply recursively?	உட்கோப்புறைகளுக்கும் செயல்படுத்தவா?
+Do you want to apply your changes recursively to\nall files and subfolders below the selected folder?	உங்கள் மாற்றங்களைத் தேர்ந்தெடுத்த கோப்புறைக்குக் கீழுள்ள\nஅனைத்துக் கோப்புகளுக்கும் உட்கோப்புறைகளுக்கும் செயல்படுத்த வேண்டுமா?
+If you select this option your choice will be remembered and you won't be asked again. You can use the preferences dialog to alter your choice afterwards.	இந்த விருப்பத்தைத் தேர்ந்தெடுத்தால் உங்கள் தேர்வு நினைவில் வைக்கப்படும்; மீண்டும் கேட்கப்படாது. பின்னர் விருப்பங்கள் உரையாடலில் உங்கள் தேர்வை மாற்றலாம்.
+Mixed file owners	கலவையான கோப்பு உரிமையாளர்கள்
+Unknown file owner	தெரியாத கோப்பு உரிமையாளர்
+Write only	எழுத மட்டும்
+Read only	படிக்க மட்டும்
+Read & Write	படிக்கவும் எழுதவும்
+Varying (no change)	வேறுபடுகிறது (மாற்றமில்லை)
+Correct folder permissions automatically?	கோப்புறை அனுமதிகளைத் தானாகச் சரிசெய்யவா?
+Folder permissions	கோப்புறை அனுமதிகள்
+The folder permissions will be reset to a consistent state. Only users allowed to read the contents of this folder will be allowed to enter the folder afterwards.	கோப்புறை அனுமதிகள் ஒத்திசைவான நிலைக்கு மீட்டமைக்கப்படும். இதன் பின், இந்தக் கோப்புறையின் உள்ளடக்கத்தைப் படிக்க அனுமதியுள்ள பயனர்கள் மட்டுமே கோப்புறைக்குள் நுழைய முடியும்.
+Error while changing file permissions	கோப்பு அனுமதிகளை மாற்றும்போது பிழை
+Thunar Preferences	Thunar விருப்பங்கள்
+Display	காட்சியமைப்பு
+Window Settings	சாளர அமைப்புகள்
+Use custom window decorations (only applied to new windows)	தனிப்பயன் சாளர அலங்கரிப்புகளைப் பயன்படுத்து (புதிய சாளரங்களுக்கு மட்டும்)
+Use custom, client-side window decorations instead of global, server-side ones. - Only applied to new Thunar windows	பொதுவான, சேவையகப் பக்கச் சாளர அலங்கரிப்புகளுக்குப் பதிலாகத் தனிப்பயன், கிளையன் பக்க அலங்கரிப்புகளைப் பயன்படுத்து. - புதிய Thunar சாளரங்களுக்கு மட்டுமே பொருந்தும்
+Use current folder icon as window icon	நடப்புக் கோப்புறைச் சின்னத்தைச் சாளரச் சின்னமாகப் பயன்படுத்து
+Select this option to use the current folder icon as window icon	நடப்புக் கோப்புறைச் சின்னத்தைச் சாளரச் சின்னமாகப் பயன்படுத்த இந்த விருப்பத்தைத் தேர்ந்தெடு
+View Settings	காட்சி அமைப்புகள்
+View new folders using:	புதிய கோப்புறைகளைக் காட்டும் முறை:
+Last Active View	கடைசியாகப் பயன்படுத்திய காட்சி
+Remember view settings for each folder	ஒவ்வொரு கோப்புறைக்கும் காட்சி அமைப்புகளை நினைவில் வை
+Select this option to remember view type, zoom level, sort column, and sort order individually for each folder	ஒவ்வொரு கோப்புறைக்கும் தனித்தனியாகக் காட்சி வகை, பெரிதாக்க நிலை, வரிசைப்படுத்தும் நெடுவரிசை, வரிசை முறை ஆகியவற்றை நினைவில் வைக்க இந்த விருப்பத்தைத் தேர்ந்தெடு
+gvfs metadata support is required	gvfs மீத்தரவு ஆதரவு தேவை
+Sort folders before files	கோப்புகளுக்கு முன் கோப்புறைகளை வரிசைப்படுத்து
+Select this option to list folders before files when you sort a folder.	ஒரு கோப்புறையை வரிசைப்படுத்தும்போது கோப்புகளுக்கு முன் கோப்புறைகளைப் பட்டியலிட இந்த விருப்பத்தைத் தேர்ந்தெடு.
+Show file size in binary format	கோப்பு அளவை இரும வடிவில் காட்டு
+Select this option to show file size in binary format instead of decimal.	கோப்பு அளவைத் தசம வடிவுக்குப் பதிலாக இரும வடிவில் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு.
+Thumbnails	சிறுபடங்கள்
+Show thumbnails:	சிறுபடங்களைக் காட்டு:
+Local Files Only	உள்ளூர்க் கோப்புகள் மட்டும்
+Only show thumbnails for files smaller than:	இதைவிடச் சிறிய கோப்புகளுக்கு மட்டும் சிறுபடங்களைக் காட்டு:
+Unlimited	வரம்பில்லை
+Draw frames around thumbnails	சிறுபடங்களைச் சுற்றிச் சட்டங்களை வரை
+Select this option to draw black frames around thumbnails.	சிறுபடங்களைச் சுற்றிக் கருப்புச் சட்டங்களை வரைய இந்த விருப்பத்தைத் தேர்ந்தெடு.
+Text beside icons	சின்னங்களுக்கு அருகில் உரை
+Select this option to place the icon captions for items beside the icon rather than below the icon.	உருப்படிகளின் சின்னத் தலைப்புகளைச் சின்னத்துக்குக் கீழே அல்லாமல் அருகில் வைக்க இந்த விருப்பத்தைத் தேர்ந்தெடு.
+Date	நாள்
+Format:	வடிவமைப்பு:
+Custom	தனிப்பயன்
+Today / Custom	இன்று / தனிப்பயன்
+Custom date format to apply.\n\nThe most common specifiers are:\n%d day of month\n%m month\n%Y year including century\n%H hour\n%M minute\n%S second\n\nFor a complete list, search 'Glib.DateTime.format'.	செயல்படுத்த வேண்டிய தனிப்பயன் நாள் வடிவமைப்பு.\n\nபொதுவான குறிப்பான்கள்:\n%d மாதத்தின் நாள்\n%m மாதம்\n%Y நூற்றாண்டு உட்பட ஆண்டு\n%H மணி\n%M நிமிடம்\n%S விநாடி\n\nமுழுப் பட்டியலுக்கு 'Glib.DateTime.format' எனத் தேடவும்.
+Shortcuts Pane	குறுக்குவழிப் பலகம்
+Icon Size:	சின்ன அளவு:
+Show Icon Emblems	சின்ன முத்திரைகளைக் காட்டு
+Select this option to display icon emblems in the shortcuts pane for all folders for which emblems have been defined in the folders properties dialog.	கோப்புறைப் பண்புகள் உரையாடலில் முத்திரைகள் வரையறுக்கப்பட்ட அனைத்துக் கோப்புறைகளுக்கும் குறுக்குவழிப் பலகத்தில் சின்ன முத்திரைகளைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு.
+Tree Pane	மரப் பலகம்
+Select this option to display icon emblems in the tree pane for all folders for which emblems have been defined in the folders properties dialog.	கோப்புறைப் பண்புகள் உரையாடலில் முத்திரைகள் வரையறுக்கப்பட்ட அனைத்துக் கோப்புறைகளுக்கும் மரப் பலகத்தில் சின்ன முத்திரைகளைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு.
+Icon Style	சின்னப் பாணி
+Use symbolic folder icons	குறியீட்டுக் கோப்புறைச் சின்னங்களைப் பயன்படுத்து
+Select this option to use symbolic folder icons instead of regular ones.	வழக்கமான சின்னங்களுக்குப் பதிலாகக் குறியீட்டுக் கோப்புறைச் சின்னங்களைப் பயன்படுத்த இந்த விருப்பத்தைத் தேர்ந்தெடு.
+Image Preview	பட முன்னோட்டம்
+Image Preview Mode:	பட முன்னோட்ட முறை:
+- Standalone: Image Preview uses a separate pane\n- Embedded: Image Preview is embedded in the left sidepane\n	- தனித்தது: பட முன்னோட்டம் தனிப் பலகத்தைப் பயன்படுத்தும்\n- உட்பொதிந்தது: பட முன்னோட்டம் இடப் பக்கப் பலகத்தில் உட்பொதிக்கப்படும்\n
+Behavior	நடத்தை
+Navigation	வழிசெலுத்தல்
+Single click to activate items	உருப்படிகளைச் செயல்படுத்த ஒற்றைச் சொடுக்கு
+Specify the delay before an item gets selected\nwhen the mouse pointer is paused over it:	சுட்டி ஓர் உருப்படியின் மேல் நிற்கும்போது அது தேர்ந்தெடுக்கப்படுவதற்கு\nமுன்னுள்ள தாமதத்தைக் குறிப்பிடுக:
+When single-click activation is enabled, pausing the mouse pointer over an item will automatically select that item after the chosen delay. You can disable this behavior by moving the slider to the left-most position. This behavior may be useful when single clicks activate items, and you want only to select the item without activating it.	ஒற்றைச் சொடுக்குச் செயல்படுத்தல் இயக்கப்பட்டிருந்தால், சுட்டியை ஓர் உருப்படியின் மேல் நிறுத்தும்போது தேர்ந்தெடுத்த தாமதத்துக்குப் பின் அந்த உருப்படி தானாகத் தேர்ந்தெடுக்கப்படும். நழுவியை இடக்கோடி நிலைக்கு நகர்த்தி இந்த நடத்தையை முடக்கலாம். ஒற்றைச் சொடுக்கு உருப்படிகளைச் செயல்படுத்தும்போது, உருப்படியைச் செயல்படுத்தாமல் தேர்ந்தெடுக்க மட்டும் விரும்பினால் இந்த நடத்தை பயனுள்ளதாக இருக்கும்.
+Disabled	முடக்கப்பட்டது
+Medium	நடுத்தரம்
+Long	நீளம்
+Double click to activate items	உருப்படிகளைச் செயல்படுத்த இரட்டைச் சொடுக்கு
+Tabs and Windows	தாவல்களும் சாளரங்களும்
+Open folders in new tabs on middle click	நடுச் சொடுக்கில் கோப்புறைகளைப் புதிய தாவல்களில் திற
+Select this option to open a new tab on middle click instead of a new window	நடுச் சொடுக்கில் புதிய சாளரத்துக்குப் பதிலாகப் புதிய தாவலைத் திறக்க இந்த விருப்பத்தைத் தேர்ந்தெடு
+Open new thunar instances as tabs	புதிய thunar நிகழ்வுகளைத் தாவல்களாகத் திற
+Select this option to open new thunar instances as tabs in an existing thunar window	புதிய thunar நிகழ்வுகளை ஏற்கெனவே உள்ள thunar சாளரத்தில் தாவல்களாகத் திறக்க இந்த விருப்பத்தைத் தேர்ந்தெடு
+Show full directory paths in tab titles	தாவல் தலைப்புகளில் முழுக் கோப்புறைப் பாதைகளைக் காட்டு
+Select this option to show the full directory path in the tab title instead of only the directory name	தாவல் தலைப்பில் கோப்புறைப் பெயருக்குப் பதிலாக முழுக் கோப்புறைப் பாதையைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு
+Restore tabs on startup	தொடக்கத்தில் தாவல்களை மீட்டெடு
+Select this option to restore your tabs as they were last time you used Thunar	கடைசியாக Thunar ஐப் பயன்படுத்தியபோது இருந்தபடியே உங்கள் தாவல்களை மீட்டெடுக்க இந்த விருப்பத்தைத் தேர்ந்தெடு
+Context Menu	சூழல் பட்டியல்
+Show action to permanently delete files and folders	கோப்புகளையும் கோப்புறைகளையும் நிரந்தரமாக நீக்கும் செயலைக் காட்டு
+Select this option to show the 'Delete' action in the context menu	சூழல் பட்டியலில் 'நீக்கு' செயலைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு
+Advanced	மேம்பட்டவை
+File Transfer	கோப்புப் பரிமாற்றம்
+Transfer files in parallel:	கோப்புகளை இணையாகப் பரிமாற்று:
+Indicates the behavior during multiple copies:\n- Always: all copies are done simultaneously\n- Local Files Only: simultaneous copies for local (not remote, not attached) files\n- Local Files Only (Same Devices): if all files are local but on different devices (disks, mount points), copies will be sequential\n- Local Files Only (Idle Devices): if all files are local but on busy devices (disks, mount points), copies will be sequential\n- Never: all copies are done sequentially	பல நகலெடுப்புகளின்போது நடத்தையைக் குறிக்கிறது:\n- எப்போதும்: அனைத்து நகலெடுப்புகளும் ஒரே நேரத்தில் நடக்கும்\n- உள்ளூர்க் கோப்புகள் மட்டும்: உள்ளூர்க் (தொலைவில் இல்லாத, இணைக்கப்படாத) கோப்புகளுக்கு ஒரே நேர நகலெடுப்பு\n- உள்ளூர்க் கோப்புகள் மட்டும் (ஒரே சாதனங்கள்): அனைத்துக் கோப்புகளும் உள்ளூரில் இருந்தாலும் வெவ்வேறு சாதனங்களில் (வட்டுகள், ஏற்றப் புள்ளிகள்) இருந்தால், நகலெடுப்புகள் ஒன்றன்பின் ஒன்றாக நடக்கும்\n- உள்ளூர்க் கோப்புகள் மட்டும் (ஓய்வுச் சாதனங்கள்): அனைத்துக் கோப்புகளும் உள்ளூரில் இருந்தாலும் பணிமிகுந்த சாதனங்களில் (வட்டுகள், ஏற்றப் புள்ளிகள்) இருந்தால், நகலெடுப்புகள் ஒன்றன்பின் ஒன்றாக நடக்கும்\n- ஒருபோதும் இல்லை: அனைத்து நகலெடுப்புகளும் ஒன்றன்பின் ஒன்றாக நடக்கும்
+Local Files Only (Same Devices)	உள்ளூர்க் கோப்புகள் மட்டும் (ஒரே சாதனங்கள்)
+Local Files Only (Idle Devices)	உள்ளூர்க் கோப்புகள் மட்டும் (ஓய்வுச் சாதனங்கள்)
+Use intermediate file on copy:	நகலெடுக்கும்போது இடைநிலைக் கோப்பைப் பயன்படுத்து:
+Use intermediate file '*.partial~' to copy files. This will prevent fragmented files. The new file will only be shown after the copy was successfully finished.	கோப்புகளை நகலெடுக்க '*.partial~' என்ற இடைநிலைக் கோப்பைப் பயன்படுத்து. இது முழுமையடையாத கோப்புகளைத் தடுக்கும். நகலெடுப்பு வெற்றிகரமாக முடிந்த பின்னரே புதிய கோப்பு காட்டப்படும்.
+Verify file contents on copy:	நகலெடுக்கும்போது கோப்பு உள்ளடக்கத்தைச் சரிபார்:
+Compare contents of original file and copy in order to detect corruption. While this will attempt to compare the actual contents that are on the destination media, Thunar may be unable to bypass filesystem caches, so this comparison may not detect all instances of corruption. Enabling this option will increase copy time.	சிதைவைக் கண்டறிய மூலக் கோப்பின் உள்ளடக்கத்தையும் நகலின் உள்ளடக்கத்தையும் ஒப்பிடு. இது இலக்கு ஊடகத்திலுள்ள உண்மையான உள்ளடக்கத்தை ஒப்பிட முயன்றாலும், Thunar ஆல் கோப்பு முறைமைத் தேக்ககங்களைத் தவிர்க்க முடியாமல் போகலாம்; எனவே இந்த ஒப்பீடு எல்லாச் சிதைவுகளையும் கண்டறியாமல் போகலாம். இந்த விருப்பத்தை இயக்கினால் நகலெடுக்கும் நேரம் அதிகரிக்கும்.
+Include subfolders:	உட்கோப்புறைகளையும் சேர்:
+Folder Permissions	கோப்புறை அனுமதிகள்
+When changing the permissions of a folder, you\ncan also apply the changes to the contents of the\nfolder. Select the default behavior below:	ஒரு கோப்புறையின் அனுமதிகளை மாற்றும்போது, அந்த மாற்றங்களைக்\nகோப்புறையின் உள்ளடக்கத்துக்கும் செயல்படுத்தலாம். கீழே\nஇயல்புநிலை நடத்தையைத் தேர்ந்தெடு:
+Ask every time	ஒவ்வொரு முறையும் கேள்
+Apply to Folder and Contents	கோப்புறைக்கும் உள்ளடக்கத்துக்கும் செயல்படுத்து
+Apply to Folder Only	கோப்புறைக்கு மட்டும் செயல்படுத்து
+Security	பாதுகாப்பு
+Execute shell scripts:	ஷெல் உரைநிரல்களை இயக்கு:
+Volume Management	தொகுதி மேலாண்மை
+Enable Volume Management	தொகுதி மேலாண்மையை இயக்கு
+<a href=\"volman-config:\">Configure</a> the management of removable drives,\ndevices and media.	நீக்கக்கூடிய இயக்கிகள், சாதனங்கள், ஊடகங்கள்\nஆகியவற்றின் மேலாண்மையை <a href=\"volman-config:\">அமை</a>.
+Missing dependencies	விடுபட்ட சார்புகள்
+It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\nImportant features including trash support,\nremovable media and remote location browsing\nwill not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnomevirtualfilesystem\">[Read more]</a>	<a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> கிடைக்கவில்லை எனத் தெரிகிறது.\nகுப்பைத் தொட்டி ஆதரவு, நீக்கக்கூடிய ஊடகம்,\nதொலை இருப்பிட உலாவல் உள்ளிட்ட முக்கிய வசதிகள்\nவேலை செய்யாது. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnomevirtualfilesystem\">[மேலும் படிக்க]</a>
+Shortcuts	குறுக்குவழிகள்
+Window	சாளரம்
+Launcher	தொடக்கி
+Status Bar	நிலைப்பட்டை
+The Shortcuts Editor requires a Thunar window to be present.	குறுக்குவழித் தொகுப்பிக்கு ஒரு Thunar சாளரம் திறந்திருக்க வேண்டும்.
+Failed to display the volume management settings	தொகுதி மேலாண்மை அமைப்புகளைக் காட்ட முடியவில்லை
+File Operation Progress	கோப்புச் செயல்பாட்டு முன்னேற்றம்
+Paused	இடைநிறுத்தப்பட்டது
+Starting... (User request)	தொடங்குகிறது... (பயனர் கோரிக்கை)
+Resuming	தொடர்கிறது
+Cancelling	ரத்துசெய்யப்படுகிறது
+Error while processing file operation	கோப்புச் செயல்பாட்டைச் செயலாக்கும்போது பிழை
+Job queued	பணி வரிசையில் உள்ளது
+Resuming job	பணி தொடர்கிறது
+Name:	பெயர்:
+Names:	பெயர்கள்:
+Kind:	வகை:
+Open With:	இதனுடன் திற:
+Link Target:	இணைப்பு இலக்கு:
+Original Path:	முந்தைய பாதை:
+Location:	இருப்பிடம்:
+Volume:	தொகுதி:
+Deleted:	நீக்கியது:
+Created:	உருவாக்கியது:
+Accessed:	அணுகியது:
+Size on Disk:	வட்டில் அளவு:
+Content:	உள்ளடக்கம்:
+Capacity:	கொள்ளளவு:
+Usage:	பயன்பாடு:
+Emblems	முத்திரைகள்
+Highlight	முன்னிலைப்படுத்தல்
+It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\nThis feature will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnomevirtualfilesystem\">[Read more]</a>	<a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> கிடைக்கவில்லை எனத் தெரிகிறது.\nஇந்த வசதி வேலை செய்யாது. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnomevirtualfilesystem\">[மேலும் படிக்க]</a>
+Set Foreground	முன்புல நிறத்தை அமை
+Set Background	பின்புல நிறத்தை அமை
+Select an Icon for \"%s\" (%s)	\"%s\" (%s) க்கு ஒரு சின்னத்தைத் தேர்ந்தெடு
+Select an Icon for \"%s\"	\"%s\" க்கு ஒரு சின்னத்தைத் தேர்ந்தெடு
+Failed to change icon of \"%s\" (%s)	\"%s\" இன் சின்னத்தை மாற்ற முடியவில்லை (%s)
+Failed to change icon of \"%s\"	\"%s\" இன் சின்னத்தை மாற்ற முடியவில்லை
+%s (%s) - Properties	%s (%s) - பண்புகள்
+%s - Properties	%s - பண்புகள்
+Link Targets:	இணைப்பு இலக்குகள்:
+mixed	கலவை
+Add Files	கோப்புகளைச் சேர்
+Include additional files in the list of files to be renamed	பெயர்மாற்ற வேண்டிய கோப்புகளின் பட்டியலில் கூடுதல் கோப்புகளைச் சேர்
+Clear the file list below	கீழுள்ள கோப்புப் பட்டியலை அழி
+Display information about Thunar Bulk Rename	Thunar தொகுப்புப் பெயர்மாற்றி பற்றிய தகவலைக் காட்டு
+Rename Multiple Files	பல கோப்புகளைப் பெயர்மாற்று
+Close this window, cancel further changes.	இந்தச் சாளரத்தை மூடு, மேலும் மாற்றங்களை ரத்துசெய்.
+Rename items listed above, keep this window open.	மேலே பட்டியலிட்ட உருப்படிகளைப் பெயர்மாற்று, இந்தச் சாளரத்தைத் திறந்தே வை.
+New Name	புதிய பெயர்
+Click here to view the documentation for the selected rename operation.	தேர்ந்தெடுத்த பெயர்மாற்றச் செயல்பாட்டுக்கான ஆவணங்களைக் காண இங்கே சொடுக்கவும்.
+No renamer modules were found on your system. Please check your\ninstallation or contact your system administrator. If you install Thunar\nfrom source, be sure to enable the \"Simple Builtin Renamers\" plugin.	உங்கள் கணினியில் பெயர்மாற்றிக் கூறுகள் எதுவும் கிடைக்கவில்லை. உங்கள்\nநிறுவலைச் சரிபார்க்கவும் அல்லது கணினி நிர்வாகியைத் தொடர்புகொள்ளவும். Thunar ஐ\nமூலக்குறியீட்டிலிருந்து நிறுவினால், \"Simple Builtin Renamers\" செருகுநிரலை இயக்க மறவாதீர்கள்.
+Remove File	கோப்பை அகற்று	கோப்புகளை அகற்று
+Remove the selected file from the list of files to be renamed	தேர்ந்தெடுத்த கோப்பைப் பெயர்மாற்ற வேண்டிய கோப்புகளின் பட்டியலிலிருந்து அகற்று	தேர்ந்தெடுத்த கோப்புகளைப் பெயர்மாற்ற வேண்டிய கோப்புகளின் பட்டியலிலிருந்து அகற்று
+Failed to open the documentation browser	ஆவண உலாவியைத் திறக்க முடியவில்லை
+Select files to rename	பெயர்மாற்ற வேண்டிய கோப்புகளைத் தேர்ந்தெடு
+Audio Files	ஒலிக் கோப்புகள்
+Image Files	படக் கோப்புகள்
+Video Files	காணொளிக் கோப்புகள்
+Thunar Bulk Rename is a powerful and extensible\ntool to rename multiple files at once.	Thunar தொகுப்புப் பெயர்மாற்றி, பல கோப்புகளை ஒரே நேரத்தில்\nபெயர்மாற்றும் வலிமையான, விரிவாக்கக்கூடிய கருவி.
+Bulk Rename - Rename Multiple Files	தொகுப்புப் பெயர்மாற்றம் - பல கோப்புகளைப் பெயர்மாற்று
+Failed to rename \"%s\" to \"%s\".	\"%s\" ஐ \"%s\" எனப் பெயர்மாற்ற முடியவில்லை.
+You can either choose to skip this file and continue to rename the remaining files, or revert the previously renamed files to their previous names, or cancel the operation without reverting previous changes.	இந்தக் கோப்பைத் தவிர்த்து மீதமுள்ள கோப்புகளைத் தொடர்ந்து பெயர்மாற்றலாம், அல்லது முன்பு பெயர்மாற்றிய கோப்புகளை அவற்றின் முந்தைய பெயர்களுக்குத் திருப்பலாம், அல்லது முந்தைய மாற்றங்களைத் திருப்பாமல் செயல்பாட்டை ரத்துசெய்யலாம்.
+Revert Changes	மாற்றங்களைத் திரும்பப்பெறு
+Skip This File	இந்தக் கோப்பைத் தவிர்
+Do you want to skip this file and continue to rename the remaining files?	இந்தக் கோப்பைத் தவிர்த்து மீதமுள்ள கோப்புகளைத் தொடர்ந்து பெயர்மாற்ற வேண்டுமா?
+Browse the file system	கோப்பு முறைமையில் உலாவு
+Mount and open %s (%s)	%s (%s) ஐ ஏற்றித் திற
+Trash contains %d file	குப்பைத் தொட்டியில் %d கோப்பு உள்ளது	குப்பைத் தொட்டியில் %d கோப்புகள் உள்ளன
+Browse local network connections	உள்ளூர் வலையமைப்பு இணைப்புகளில் உலாவு
+Open the home folder	இல்லக் கோப்புறையைத் திற
+Open the desktop folder	மேசைத்தளக் கோப்புறையைத் திற
+Browse the computer	கணினியில் உலாவு
+Browse recently used files	அண்மையில் பயன்படுத்திய கோப்புகளில் உலாவு
+Rename Shortcut	குறுக்குவழியைப் பெயர்மாற்று
+Remove Shortcut	குறுக்குவழியை அகற்று
+The path \"%s\" does not refer to a directory	\"%s\" என்ற பாதை ஒரு கோப்புறையைக் குறிக்கவில்லை
+Failed to add new shortcut	புதிய குறுக்குவழியைச் சேர்க்க முடியவில்லை
+Click here to stop calculating the total size of the folder.	கோப்புறையின் மொத்த அளவைக் கணக்கிடுவதை நிறுத்த இங்கே சொடுக்கவும்.
+Calculating	கணக்கிடுகிறது
+Calculation aborted	கணக்கீடு கைவிடப்பட்டது
+%d folder	%d கோப்புறை	%d கோப்புறைகள்
+%u item (%s, %s)	%u உருப்படி (%s, %s)	%u உருப்படிகள் (%s, %s)
+(some contents unreadable)	(சில உள்ளடக்கங்களைப் படிக்க முடியவில்லை)
+Permission denied	அனுமதி மறுக்கப்பட்டது
+Select all files in this window	இந்தச் சாளரத்திலுள்ள அனைத்துக் கோப்புகளையும் தேர்ந்தெடு
+Select all files that match a certain pattern	குறிப்பிட்ட வடிவத்துக்குப் பொருந்தும் அனைத்துக் கோப்புகளையும் தேர்ந்தெடு
+Select all files but not those currently selected	தற்போது தேர்ந்தெடுத்தவை தவிர மற்ற அனைத்துக் கோப்புகளையும் தேர்ந்தெடு
+Unselect all files in this window	இந்தச் சாளரத்திலுள்ள அனைத்துக் கோப்புகளின் தேர்வையும் நீக்கு
+Arrange Items	உருப்படிகளை அடுக்கு
+Reversed Order	தலைகீழ் வரிசை
+Reverse the sort order	வரிசை முறையைத் தலைகீழாக்கு
+By Name	பெயர்ப்படி
+Keep items sorted by their name	உருப்படிகளைப் பெயர்ப்படி வரிசைப்படுத்தி வை
+By Size	அளவுப்படி
+Keep items sorted by their size	உருப்படிகளை அளவுப்படி வரிசைப்படுத்தி வை
+By Type	வகைப்படி
+Keep items sorted by their type	உருப்படிகளை வகைப்படி வரிசைப்படுத்தி வை
+By Modification Date	மாற்றிய நாள்படி
+Keep items sorted by their modification date	உருப்படிகளை மாற்றிய நாள்படி வரிசைப்படுத்தி வை
+By Deletion Date	நீக்கிய நாள்படி
+Keep items sorted by their deletion date	உருப்படிகளை நீக்கிய நாள்படி வரிசைப்படுத்தி வை
+Ascending	ஏறுவரிசை
+Sort items in ascending order	உருப்படிகளை ஏறுவரிசையில் வரிசைப்படுத்து
+Descending	இறங்குவரிசை
+Sort items in descending order	உருப்படிகளை இறங்குவரிசையில் வரிசைப்படுத்து
+Loading folder contents	கோப்புறை உள்ளடக்கம் ஏற்றப்படுகிறது
+%d file found	%d கோப்பு கிடைத்தது	%d கோப்புகள் கிடைத்தன
+Failed to open the home folder	இல்லக் கோப்புறையைத் திறக்க முடியவில்லை
+Select	தேர்ந்தெடு
+Pattern:	வடிவம்:
+Files whose name matches the wildcard pattern you enter will be selected in the main window.	நீங்கள் உள்ளிடும் பொதுக்குறி வடிவத்துக்குப் பொருந்தும் பெயருடைய கோப்புகள் முதன்மைச் சாளரத்தில் தேர்ந்தெடுக்கப்படும்.
+? matches exactly one character,\n* matches any number of characters, including zero.\n\nFor example: *.txt, file??.png, pict\n\nWithout any * or ? wildcards, the pattern will match anywhere in a name. With wildcards, the pattern must match at both the start and the end of a name.	? சரியாக ஓர் எழுத்துக்குப் பொருந்தும்,\n* பூஜ்ஜியம் உட்பட எத்தனை எழுத்துகளுக்கும் பொருந்தும்.\n\nஎடுத்துக்காட்டு: *.txt, file??.png, pict\n\n* அல்லது ? பொதுக்குறிகள் இல்லையெனில், வடிவம் பெயரின் எந்த இடத்திலும் பொருந்தும். பொதுக்குறிகள் இருந்தால், வடிவம் பெயரின் தொடக்கத்திலும் முடிவிலும் பொருந்த வேண்டும்.
+Case sensitive	பெரிய/சிறிய எழுத்து வேறுபாடு பார்
+If enabled, letter case must match the pattern.\nExamp* would match Example.txt and not example.txt	இயக்கினால், பெரிய/சிறிய எழுத்து வடிவம் வடிவத்துக்குப் பொருந்த வேண்டும்.\nExamp* என்பது Example.txt க்குப் பொருந்தும், example.txt க்குப் பொருந்தாது
+Match diacritics	ஒலிக்குறிகளையும் பொருத்து
+If enabled, require accents to match the pattern.\nRés* would match Résumé.txt and not Resume.txt	இயக்கினால், ஒலிக்குறிகளும் வடிவத்துக்குப் பொருந்த வேண்டும்.\nRés* என்பது Résumé.txt க்குப் பொருந்தும், Resume.txt க்குப் பொருந்தாது
+Invalid filename provided by XDS drag site	XDS இழுப்புத் தளம் தவறான கோப்புப்பெயரைத் தந்தது
+Failed to create a link for the URL \"%s\"	\"%s\" URL க்கு இணைப்பை உருவாக்க முடியவில்லை
+Untitled document	தலைப்பில்லா ஆவணம்
+Failed to open directory \"%s\"	\"%s\" கோப்புறையைத் திறக்க முடியவில்லை
+Show size	அளவைக் காட்டு
+Size in bytes	பைட்டுகளில் அளவு
+Show size in bytes	அளவைப் பைட்டுகளில் காட்டு
+Filetype	கோப்பு வகை
+Show filetype	கோப்பு வகையைக் காட்டு
+Display Name	காட்சிப் பெயர்
+Show display name	காட்சிப் பெயரைக் காட்டு
+Last Modified	கடைசியாக மாற்றியது
+Show last modified	கடைசியாக மாற்றியதைக் காட்டு
+Hidden Files Count	மறைந்த கோப்புகளின் எண்ணிக்கை
+Show hidden files count	மறைந்த கோப்புகளின் எண்ணிக்கையைக் காட்டு
+Configure the Toolbar	கருவிப்பட்டையை அமை
+Configure the order and visibility of toolbar items.\nNote that toolbar items are always executed for the current directory.	கருவிப்பட்டை உருப்படிகளின் வரிசையையும் தெரிவுநிலையையும் அமை.\nகருவிப்பட்டை உருப்படிகள் எப்போதும் நடப்புக் கோப்புறைக்கே இயக்கப்படும் என்பதைக் கவனிக்கவும்.
+Default Order	இயல்புநிலை வரிசை
+Symbolic Icons	குறியீட்டுச் சின்னங்கள்
+Use symbolic icons instead of regular ones (if available).	வழக்கமான சின்னங்களுக்குப் பதிலாகக் குறியீட்டுச் சின்னங்களைப் பயன்படுத்து (கிடைத்தால்).
+Only visible when the menubar is hidden	பட்டிப்பட்டை மறைந்திருக்கும்போது மட்டும் தெரியும்
+Verifying file contents	கோப்பு உள்ளடக்கம் சரிபார்க்கப்படுகிறது
+Error while copying to \"%s\": %s more space is required to copy to the destination	\"%s\" க்கு நகலெடுக்கும்போது பிழை: இலக்குக்கு நகலெடுக்க மேலும் %s இடம் தேவை
+Trying to restore \"%s\"	\"%s\" ஐ மீட்டெடுக்க முயல்கிறது
+The folder \"%s\" does not exist anymore but is required to restore the file \"%s\" from the trash	\"%s\" கோப்புறை இப்போது இல்லை, ஆனால் குப்பைத் தொட்டியிலிருந்து \"%s\" கோப்பை மீட்டெடுக்க அது தேவை
+Failed to restore the folder \"%s\"	\"%s\" கோப்புறையை மீட்டெடுக்க முடியவில்லை
+Trying to move \"%s\"	\"%s\" ஐ நகர்த்த முயல்கிறது
+Could not move \"%s\" directly. Collecting files for copying	\"%s\" ஐ நேரடியாக நகர்த்த முடியவில்லை. நகலெடுப்பதற்காகக் கோப்புகள் சேகரிக்கப்படுகின்றன
+Collecting files	கோப்புகள் சேகரிக்கப்படுகின்றன
+%s of %s	%s, மொத்தம் %s
+%lu hour remaining (%s/sec)	%lu மணிநேரம் மீதமுள்ளது (%s/விநாடி)	%lu மணிநேரங்கள் மீதமுள்ளன (%s/விநாடி)
+%lu minute remaining (%s/sec)	%lu நிமிடம் மீதமுள்ளது (%s/விநாடி)	%lu நிமிடங்கள் மீதமுள்ளன (%s/விநாடி)
+%lu second remaining (%s/sec)	%lu விநாடி மீதமுள்ளது (%s/விநாடி)	%lu விநாடிகள் மீதமுள்ளன (%s/விநாடி)
+Loading	ஏற்றப்படுகிறது
+Invalid path	தவறான பாதை
+Unknown user \"%s\"	தெரியாத பயனர் \"%s\"
+Today	இன்று
+Today at %X	இன்று %X
+Yesterday	நேற்று
+Yesterday at %X	நேற்று %X
+%A at %X	%A, %X
+%x at %X	%x, %X
+%.*s (copy %u)%s	%.*s (நகல் %u)%s
+link to %.*s%s	%.*s%s க்கான இணைப்பு
+link %u to %.*s%s	இணைப்பு %u: %.*s%s க்கு
+Search: 	தேடல்: 
+%s (%d hidden)	%s (%d மறைந்தவை)
+0 items	0 உருப்படிகள்
+Last Modified: %s	கடைசியாக மாற்றியது: %s
+link to %s	%s க்கான இணைப்பு
+shortcut	குறுக்குவழி
+mountable	ஏற்றக்கூடியது
+mount point	ஏற்றப் புள்ளி
+Image Size:	பட அளவு:
+Open a new tab for the displayed location	காட்டப்படும் இருப்பிடத்துக்குப் புதிய தாவலைத் திற
+Open a new Thunar window for the displayed location	காட்டப்படும் இருப்பிடத்துக்குப் புதிய Thunar சாளரத்தைத் திற
+Open current folder in a new window	நடப்புக் கோப்புறையைப் புதிய சாளரத்தில் திற
+Close this folder	இந்தக் கோப்புறையை மூடு
+Close this window	இந்தச் சாளரத்தை மூடு
+Close all Thunar windows	அனைத்து Thunar சாளரங்களையும் மூடு
+Edit Thunar's Preferences	Thunar விருப்பங்களைத் திருத்து
+Reload the current folder	நடப்புக் கோப்புறையை மீளேற்று
+Open/Close Split View	பிரித்த காட்சியைத் திற/மூடு
+Switch Focused Split View Pane	கவனத்திலுள்ள பிரித்த காட்சிப் பலகத்தை மாற்று
+Text Style	உரைப் பாணி
+Traditional text box showing the current path	நடப்புப் பாதையைக் காட்டும் பாரம்பரிய உரைப்பெட்டி
+Buttons Style	பொத்தான் பாணி
+Modern approach with buttons that correspond to folders	கோப்புறைகளுக்கு ஒத்த பொத்தான்களுடன் நவீன அணுகுமுறை
+Toggles the visibility of the shortcuts pane	குறுக்குவழிப் பலகத்தின் தெரிவுநிலையை மாற்று
+Tree	மரம்
+Toggles the visibility of the tree pane	மரப் பலகத்தின் தெரிவுநிலையை மாற்று
+Change the visibility of this window's image preview	இந்தச் சாளரத்தின் பட முன்னோட்டத் தெரிவுநிலையை மாற்று
+Change the visibility of this window's statusbar	இந்தச் சாளரத்தின் நிலைப்பட்டைத் தெரிவுநிலையை மாற்று
+Change the visibility of this window's menubar	இந்தச் சாளரத்தின் பட்டிப்பட்டைத் தெரிவுநிலையை மாற்று
+Configure the toolbar	கருவிப்பட்டையை அமை
+Clear Saved Folder View Settings	சேமித்த கோப்புறைக் காட்சி அமைப்புகளை அழி
+Delete saved view settings for this folder	இந்தக் கோப்புறைக்குச் சேமித்த காட்சி அமைப்புகளை நீக்கு
+Toggles the display of hidden files in the current window	நடப்புச் சாளரத்தில் மறைந்த கோப்புகளைக் காட்டுவதை மாற்று
+Show File Highlight	கோப்பு முன்னிலைப்படுத்தலைக் காட்டு
+Toggles the display of file highlight which can be configured in the file specific property dialog	கோப்பு முன்னிலைப்படுத்தலைக் காட்டுவதை மாற்று; இதைக் கோப்பின் பண்புகள் உரையாடலில் அமைக்கலாம்
+Show the contents in more detail	உள்ளடக்கத்தை மேலும் விரிவாகக் காட்டு
+Show the contents in less detail	உள்ளடக்கத்தைக் குறைந்த விவரத்துடன் காட்டு
+Show the contents at the normal size	உள்ளடக்கத்தை இயல்பான அளவில் காட்டு
+Display folder content in an icon view	கோப்புறை உள்ளடக்கத்தைச் சின்னக் காட்சியில் காட்டு
+Display folder content in a detailed list view	கோப்புறை உள்ளடக்கத்தை விரிவான பட்டியல் காட்சியில் காட்டு
+Display folder content in a compact list view	கோப்புறை உள்ளடக்கத்தை அடர் பட்டியல் காட்சியில் காட்டு
+Go to the home folder	இல்லக் கோப்புறைக்குச் செல்
+Go to the desktop folder	மேசைத்தளக் கோப்புறைக்குச் செல்
+Browse all local and remote disks and folders accessible from this computer	இந்தக் கணினியிலிருந்து அணுகக்கூடிய அனைத்து உள்ளூர், தொலை வட்டுகளிலும் கோப்புறைகளிலும் உலாவு
+Display recently used files	அண்மையில் பயன்படுத்திய கோப்புகளைக் காட்டு
+Display the contents of the trash can	குப்பைத் தொட்டியின் உள்ளடக்கத்தைக் காட்டு
+Open the parent folder	மேல் கோப்புறையைத் திற
+Specify a location to open	திறக்க வேண்டிய இருப்பிடத்தைக் குறிப்பிடு
+Go to the templates folder	வார்ப்புருக்கள் கோப்புறைக்குச் செல்
+Display Thunar user manual	Thunar பயனர் கையேட்டைக் காட்டு
+Display information about Thunar	Thunar பற்றிய தகவலைக் காட்டு
+Go to the previous visited folder	முன்பு பார்வையிட்ட கோப்புறைக்குச் செல்
+Go to the next visited folder	அடுத்துப் பார்வையிட்ட கோப்புறைக்குச் செல்
+Switch to Previous Tab	முந்தைய தாவலுக்கு மாறு
+Switch to Next Tab	அடுத்த தாவலுக்கு மாறு
+Search for a specific file in the current folder and Recent	நடப்புக் கோப்புறையிலும் அண்மையவையிலும் குறிப்பிட்ட கோப்பைத் தேடு
+Cancel search for files	கோப்புத் தேடலை ரத்துசெய்
+Menu	பட்டி
+Show the menu	பட்டியைக் காட்டு
+Warning: you are using the root account. You may harm your system.	எச்சரிக்கை: நீங்கள் root கணக்கைப் பயன்படுத்துகிறீர்கள். உங்கள் கணினிக்குத் தீங்கு விளையலாம்.
+Size: 	அளவு: 
+Search with Catfish	Catfish மூலம் தேடு
+Restore Selected Items	தேர்ந்தெடுத்த உருப்படிகளை மீட்டெடு
+Close tab	தாவலை மூடு
+Open the location \"%s\"	\"%s\" இருப்பிடத்தைத் திற
+Failed to open parent folder	மேல் கோப்புறையைத் திறக்க முடியவில்லை
+The directory \"%s\" does not exist. Do you want to create it?	\"%s\" கோப்புறை இல்லை. அதை உருவாக்க வேண்டுமா?
+Create directory	கோப்புறையை உருவாக்கு
+Failed to browse the computer	கணினியில் உலாவ முடியவில்லை
+About Templates	வார்ப்புருக்கள் பற்றி
+All files in this folder will appear in the \"Create Document\" menu.	இந்தக் கோப்புறையிலுள்ள அனைத்துக் கோப்புகளும் \"ஆவணம் உருவாக்கு\" பட்டியில் தோன்றும்.
+If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Thunar will add an entry for this document in the \"Create Document\" menu.\n\nYou can then select the entry from the \"Create Document\" menu and a copy of the document will be created in the directory you are viewing.	குறிப்பிட்ட வகை ஆவணங்களை அடிக்கடி உருவாக்கினால், அவற்றில் ஒன்றின் நகலை இந்தக் கோப்புறையில் வைக்கவும். Thunar அந்த ஆவணத்துக்கு \"ஆவணம் உருவாக்கு\" பட்டியில் ஒரு பதிவைச் சேர்க்கும்.\n\nபின்னர் \"ஆவணம் உருவாக்கு\" பட்டியிலிருந்து அந்தப் பதிவைத் தேர்ந்தெடுத்தால், நீங்கள் பார்க்கும் கோப்புறையில் அந்த ஆவணத்தின் நகல் உருவாக்கப்படும்.
+Do not display this message again	இந்தச் செய்தியை மீண்டும் காட்டாதே
+Failed to open the file system root folder	கோப்பு முறைமையின் வேர்க் கோப்புறையைத் திறக்க முடியவில்லை
+Failed to display `Recent`	`அண்மையவை` ஐக் காட்ட முடியவில்லை
+Failed to display the contents of the trash can	குப்பைத் தொட்டியின் உள்ளடக்கத்தைக் காட்ட முடியவில்லை
+Failed to browse the network	வலையமைப்பில் உலாவ முடியவில்லை
+Thunar is a fast and easy to use file manager\nfor the Xfce Desktop Environment.	Thunar என்பது Xfce மேசைத்தளச் சூழலுக்கான வேகமான,\nஎளிதில் பயன்படுத்தக்கூடிய கோப்பு மேலாளர்.
+Select an image to preview	முன்னோட்டம் காண ஒரு படத்தைத் தேர்ந்தெடு
+Failed to launch search with Catfish	Catfish மூலம் தேடலைத் தொடங்க முடியவில்லை
+Change the active view type	செயலில் உள்ள காட்சி வகையை மாற்று
+View Switcher	காட்சி மாற்றி
+Location Bar	இருப்பிடப் பட்டை
+Description:	விவரம்:
+The generic name of the entry, for example \"Web Browser\" in case of Firefox.	உருப்படியின் பொதுப் பெயர்; எடுத்துக்காட்டாக, Firefox க்கு \"இணைய உலாவி\".
+Command:	கட்டளை:
+The program to execute, possibly with arguments.	இயக்க வேண்டிய நிரல்; தேவைப்பட்டால் அளபுருக்களுடன்.
+Working Directory:	பணிக் கோப்புறை:
+The working directory for the program.	நிரலுக்கான பணிக் கோப்புறை.
+URL:	URL:
+The URL to access.	அணுக வேண்டிய URL.
+Comment:	குறிப்பு:
+Tooltip for the entry, for example \"View sites on the Internet\" in case of Firefox. Should not be redundant with the name or the description.	உருப்படிக்கான கருவிக்குறிப்பு; எடுத்துக்காட்டாக, Firefox க்கு \"இணையத்தில் தளங்களைப் பார்\". பெயரையோ விவரத்தையோ மீண்டும் கூறுவதாக இருக்கக்கூடாது.
+Options:	விருப்பத்தேர்வுகள்:
+Use startup notification	தொடக்க அறிவிப்பைப் பயன்படுத்து
+Select this option to enable startup notification when the command is run from the file manager or the menu. Not every application supports startup notification.	கோப்பு மேலாளர் அல்லது பட்டியிலிருந்து கட்டளை இயக்கப்படும்போது தொடக்க அறிவிப்பை இயக்க இந்த விருப்பத்தைத் தேர்ந்தெடு. எல்லாச் செயலிகளும் தொடக்க அறிவிப்பை ஆதரிப்பதில்லை.
+Run in terminal	முனையத்தில் இயக்கு
+Select this option to run the command in a terminal window.	கட்டளையை முனையச் சாளரத்தில் இயக்க இந்த விருப்பத்தைத் தேர்ந்தெடு.
+Security:	பாதுகாப்பு:
+Allow this file to run as a .desktop file	இந்தக் கோப்பை .desktop கோப்பாக இயக்க அனுமதி
+Select this to enable executable permission bit(+x). Thunar will not launch the .desktop file if not set.	இயக்க அனுமதி பிட்டை (+x) இயக்க இதைத் தேர்ந்தெடு. இது அமைக்கப்படவில்லை எனில் Thunar அந்த .desktop கோப்பைத் தொடங்காது.
+Set this file as trusted	இந்தக் கோப்பை நம்பகமானதாக அமை
+Select this option to trust this .desktop file. This will generate a checksum of the file and store it via gvfs. The additional check will protect from malicious launchers which e.g. pretend to be a picture, having the executable flag pre-set	இந்த .desktop கோப்பை நம்ப இந்த விருப்பத்தைத் தேர்ந்தெடு. இது கோப்பின் சரிபார்ப்புத்தொகையை உருவாக்கி gvfs வழியாகச் சேமிக்கும். இந்தக் கூடுதல் சோதனை, எடுத்துக்காட்டாகப் படம் போலத் தோன்றி, இயக்கக் கொடி முன்பே அமைக்கப்பட்ட தீங்கிழைக்கும் தொடக்கிகளிலிருந்து பாதுகாக்கும்
+Failed to save \"%s\".	\"%s\" ஐச் சேமிக்க முடியவில்லை.
+Date Taken:	படம் எடுத்த நாள்:
+Camera Brand:	கேமரா நிறுவனம்:
+Camera Model:	கேமரா மாதிரி:
+Exposure Time:	வெளிப்பாட்டு நேரம்:
+Exposure Program:	வெளிப்பாட்டு நிரல்:
+Aperture Value:	துளை மதிப்பு:
+Metering Mode:	அளவீட்டு முறை:
+Flash Fired:	ஃபிளாஷ் ஒளிர்ந்ததா:
+Focal Length:	குவிய நீளம்:
+Shutter Speed:	மூடி வேகம்:
+ISO Speed Ratings:	ISO வேக மதிப்பீடுகள்:
+Software:	மென்பொருள்:
+Image	படம்
+Image Type:	பட வகை:
+%dx%d pixel	%dx%d படவணு	%dx%d படவணுக்கள்
+Convert to:	இதற்கு மாற்று:
+Uppercase / Lowercase	பெரிய எழுத்து / சிறிய எழுத்து
+Insert time:	நேரத்தைச் செருகு:
+The format describes the date and time parts to insert into the file name. For example, %Y will be substituted with the year, %m with the month and %d with the day. See the documentation of the date utility for additional information.	கோப்புப் பெயரில் செருக வேண்டிய நாள், நேரப் பகுதிகளை இந்த வடிவமைப்பு விவரிக்கிறது. எடுத்துக்காட்டாக, %Y ஆண்டாலும், %m மாதத்தாலும், %d நாளாலும் மாற்றப்படும். கூடுதல் தகவலுக்கு date பயன்பாட்டின் ஆவணங்களைப் பார்க்கவும்.
+At position:	இந்த நிலையில்:
+Insert Date / Time	நாள் / நேரத்தைச் செருகு
+lowercase	சிறிய எழுத்து
+UPPERCASE	பெரிய எழுத்து
+Title Case	தலைப்பு வடிவம்
+First character uppercase	முதல் எழுத்து பெரிய எழுத்து
+Insert	செருகு
+Overwrite	மேலெழுது
+From the front (left)	முன்பக்கத்திலிருந்து (இடது)
+From the back (right)	பின்பக்கத்திலிருந்து (வலது)
+Old Name - Text - Number	பழைய பெயர் - உரை - எண்
+Number - Text - Old Name	எண் - உரை - பழைய பெயர்
+Text - Number	உரை - எண்
+Number - Text	எண் - உரை
+Current	நடப்பு
+Date Picture Taken	படம் எடுத்த நாள்
+Text:	உரை:
+Insert / Overwrite	செருகு / மேலெழுது
+Number Format:	எண் வடிவமைப்பு:
+Start With:	இதிலிருந்து தொடங்கு:
+Text Format:	உரை வடிவமைப்பு:
+Numbering	எண்ணிடல்
+Remove From Position:	இந்த நிலையிலிருந்து அகற்று:
+To Position:	இந்த நிலை வரை:
+Remove Characters	எழுத்துகளை அகற்று
+Search For:	இதைத் தேடு:
+Enter the text to search for in the file names.	கோப்புப் பெயர்களில் தேட வேண்டிய உரையை உள்ளிடுக.
+Regular Expression	வழமைக் கோவை
+If you enable this option, the pattern will be treated as a regular expression and matched using the Perl-compatible regular expressions (PCRE). Check the documentation for details about the regular expression syntax.	இந்த விருப்பத்தை இயக்கினால், வடிவம் ஒரு வழமைக் கோவையாகக் கருதப்பட்டு Perl-இணக்க வழமைக் கோவைகளைக் (PCRE) கொண்டு பொருத்தப்படும். வழமைக் கோவை இலக்கணம் பற்றிய விவரங்களுக்கு ஆவணங்களைப் பார்க்கவும்.
+Replace With:	இதனால் மாற்றீடு செய்:
+Enter the text that should be used as replacement for the pattern above.	மேலுள்ள வடிவத்துக்கு மாற்றாகப் பயன்படுத்த வேண்டிய உரையை உள்ளிடுக.
+Case Sensitive Search	பெரிய/சிறிய எழுத்து வேறுபாடு பார்க்கும் தேடல்
+If you enable this option, the pattern will be searched in a case-sensitive manner. The default is to use a case-insensitive search.	இந்த விருப்பத்தை இயக்கினால், பெரிய/சிறிய எழுத்து வேறுபாட்டைப் பார்த்து வடிவம் தேடப்படும். இயல்பாக, வேறுபாடு பார்க்காத தேடல் பயன்படும்.
+Invalid regular expression, at character position %ld: %s	தவறான வழமைக் கோவை, எழுத்து நிலை %ld இல்: %s
+Search & Replace	தேடி மாற்றீடு செய்
+Send \"%s\" as compressed archive?	\"%s\" ஐச் சுருக்கிய காப்பகமாக அனுப்பவா?
+Send email	மின்னஞ்சல் அனுப்பு
+Send directly	நேரடியாக அனுப்பு
+Send compressed	சுருக்கி அனுப்பு
+When sending a file via email, you can either choose to send the file directly, as is, or compress the file before attaching it to an email. It is highly recommended to compress large files before sending them.	ஒரு கோப்பை மின்னஞ்சல் வழியாக அனுப்பும்போது, அதை உள்ளபடியே நேரடியாக அனுப்பலாம், அல்லது மின்னஞ்சலில் இணைப்பதற்கு முன் சுருக்கலாம். பெரிய கோப்புகளை அனுப்பும் முன் சுருக்குவது பெரிதும் பரிந்துரைக்கப்படுகிறது.
+Send %d file as compressed archive?	%d கோப்பைச் சுருக்கிய காப்பகமாக அனுப்பவா?	%d கோப்புகளைச் சுருக்கிய காப்பகமாக அனுப்பவா?
+Send as archive	காப்பகமாக அனுப்பு
+When sending multiple files via email, you can either choose to send the files directly, attaching multiple files to an email, or send all files compressed into a single archive file and attach the archive. It is highly recommended to send multiple large files as archive.	பல கோப்புகளை மின்னஞ்சல் வழியாக அனுப்பும்போது, அவற்றை நேரடியாக ஒரு மின்னஞ்சலில் இணைத்து அனுப்பலாம், அல்லது அனைத்துக் கோப்புகளையும் ஒரே காப்பகக் கோப்பாகச் சுருக்கி அந்தக் காப்பகத்தை இணைத்து அனுப்பலாம். பல பெரிய கோப்புகளைக் காப்பகமாக அனுப்புவது பெரிதும் பரிந்துரைக்கப்படுகிறது.
+Compressing files	கோப்புகள் சுருக்கப்படுகின்றன
+ZIP command terminated with error %d	ZIP கட்டளை %d பிழையுடன் நின்றது
+Failed to create temporary directory	தற்காலிகக் கோப்புறையை உருவாக்க முடியவில்லை
+Failed to create symbolic link for \"%s\"	\"%s\" க்குக் குறியீட்டு இணைப்பை உருவாக்க முடியவில்லை
+Failed to compress %d file	%d கோப்பைச் சுருக்க முடியவில்லை	%d கோப்புகளைச் சுருக்க முடியவில்லை
+Failed to compose new email	புதிய மின்னஞ்சலை எழுத முடியவில்லை
+Mail Recipient	மின்னஞ்சல் பெறுநர்
+Failed to connect to the Trash	குப்பைத் தொட்டியுடன் இணைக்க முடியவில்லை
+Trash contains files	குப்பைத் தொட்டியில் கோப்புகள் உள்ளன
+Trash Applet	குப்பைத் தொட்டிச் சிறுசெயலி
+Display the trash can	குப்பைத் தொட்டியைக் காட்டு
+Edit Action	செயலைத் திருத்து
+Create Action	செயலை உருவாக்கு
+Failed to save actions to disk.	செயல்களை வட்டில் சேமிக்க முடியவில்லை.
+Are you sure that you want to delete\naction \"%s\"?	\"%s\" என்ற செயலை\nஉறுதியாக நீக்க வேண்டுமா?
+Delete action	செயலை நீக்கு
+If you delete a custom action, it is permanently lost.	தனிப்பயன் செயலை நீக்கினால், அது நிரந்தரமாக இழக்கப்படும்.
+This keyboard shortcut is currently used by: '%s'	இந்த விசைப்பலகைக் குறுக்குவழியைத் தற்போது பயன்படுத்துவது: '%s'
+Keyboard shortcut already in use	விசைப்பலகைக் குறுக்குவழி ஏற்கெனவே பயன்பாட்டில் உள்ளது
+No icon	சின்னம் இல்லை
+Failed to determine save location for uca.xml	uca.xml ஐச் சேமிக்கும் இருப்பிடத்தைக் கண்டறிய முடியவில்லை
+Command not configured	கட்டளை அமைக்கப்படவில்லை
+Configure custom actions	தனிப்பயன் செயல்களை அமை
+Setup custom actions that will appear in the file managers context menus	கோப்பு மேலாளரின் சூழல் பட்டிகளில் தோன்றும் தனிப்பயன் செயல்களை அமை
+Failed to launch action \"%s\".	\"%s\" செயலைத் தொடங்க முடியவில்லை.
+The name of the action that will be displayed in the context menu.	சூழல் பட்டியலில் காட்டப்படும் செயலின் பெயர்.
+The description of the action that will be displayed as tooltip in the statusbar when selecting the item from the context menu.	சூழல் பட்டியிலிருந்து உருப்படியைத் தேர்ந்தெடுக்கும்போது நிலைப்பட்டையில் கருவிக்குறிப்பாகக் காட்டப்படும் செயலின் விவரம்.
+Submenu:	துணைப்பட்டி:
+The submenu in which the action will be displayed. Leave empty for no menu. Use '/' for nested menus.	செயல் காட்டப்படும் துணைப்பட்டி. பட்டி வேண்டாமெனில் வெறுமையாக விடவும். உள்ளமைந்த பட்டிகளுக்கு '/' ஐப் பயன்படுத்தவும்.
+The command (including the necessary parameters) to perform the action. See the command parameter legend below for a list of supported parameter variables, which will be substituted when launching the command. When upper-case letters (e.g. %F, %D, %N) are used, the action will be applicable even if more than one item is selected. Else the action will only be applicable if exactly one item is selected.	செயலைச் செய்வதற்கான கட்டளை (தேவையான அளபுருக்கள் உட்பட). ஆதரிக்கப்படும் அளபுரு மாறிகளின் பட்டியலுக்குக் கீழுள்ள கட்டளை அளபுரு விளக்கத்தைப் பார்க்கவும்; கட்டளையைத் தொடங்கும்போது அவை மாற்றியமைக்கப்படும். பெரிய எழுத்துகள் (எ.கா. %F, %D, %N) பயன்படுத்தப்பட்டால், ஒன்றுக்கு மேற்பட்ட உருப்படிகள் தேர்ந்தெடுக்கப்பட்டாலும் செயல் பொருந்தும். இல்லையெனில், சரியாக ஓர் உருப்படி தேர்ந்தெடுக்கப்பட்டால் மட்டுமே செயல் பொருந்தும்.
+Browse the file system to select an application to use for this action.	இந்தச் செயலுக்குப் பயன்படுத்த வேண்டிய செயலியைத் தேர்ந்தெடுக்கக் கோப்பு முறைமையில் உலாவு.
+Keyboard Shortcut:	விசைப்பலகைக் குறுக்குவழி:
+The keyboard shortcut for the action.	செயலுக்கான விசைப்பலகைக் குறுக்குவழி.
+Clear the keyboard shortcut for this action.	இந்தச் செயலுக்கான விசைப்பலகைக் குறுக்குவழியை அழி.
+Icon:	சின்னம்:
+Click this button to select an icon file that will be displayed in the context menu in addition to the action name chosen above.	மேலே தேர்ந்தெடுத்த செயல் பெயருடன் சூழல் பட்டியலில் காட்டப்பட வேண்டிய சின்னக் கோப்பைத் தேர்ந்தெடுக்க இந்தப் பொத்தானைச் சொடுக்கவும்.
+Use Startup Notification	தொடக்க அறிவிப்பைப் பயன்படுத்து
+Enable this option if you want a waiting cursor to be shown while the action is launched. This is also highly recommended if you have focus stealing prevention enabled in your window manager.	செயல் தொடங்கப்படும்போது காத்திருப்புச் சுட்டுக்குறி காட்டப்பட வேண்டுமெனில் இந்த விருப்பத்தை இயக்கவும். உங்கள் சாளர மேலாளரில் கவனம் பறிப்புத் தடுப்பு இயக்கப்பட்டிருந்தால் இது பெரிதும் பரிந்துரைக்கப்படுகிறது.
+The following command parameters will be substituted when launching the action:	செயலைத் தொடங்கும்போது பின்வரும் கட்டளை அளபுருக்கள் மாற்றியமைக்கப்படும்:
+file name of the selected file	தேர்ந்தெடுத்த கோப்பின் கோப்புப் பெயர்
+file names of all selected files	தேர்ந்தெடுத்த அனைத்துக் கோப்புகளின் கோப்புப் பெயர்கள்
+path of the selected file's directory	தேர்ந்தெடுத்த கோப்பின் கோப்புறைப் பாதை
+paths of all selected files' directories	தேர்ந்தெடுத்த அனைத்துக் கோப்புகளின் கோப்புறைப் பாதைகள்
+path of the selected file including the file name	கோப்புப் பெயர் உட்படத் தேர்ந்தெடுத்த கோப்பின் பாதை
+paths of all selected files including the file names	கோப்புப் பெயர்கள் உட்படத் தேர்ந்தெடுத்த அனைத்துக் கோப்புகளின் பாதைகள்
+Basic	அடிப்படை
+File Pattern:	கோப்பு வடிவம்:
+Enter a list of patterns that will be used to determine whether this action should be displayed for a selected file. If you specify more than one pattern here, the list items must be separated with semicolons (e.g. *.txt;*.doc).	தேர்ந்தெடுத்த கோப்புக்கு இந்தச் செயல் காட்டப்பட வேண்டுமா என்பதைத் தீர்மானிக்கப் பயன்படும் வடிவங்களின் பட்டியலை உள்ளிடுக. இங்கே ஒன்றுக்கு மேற்பட்ட வடிவங்களைக் குறிப்பிட்டால், பட்டியல் உருப்படிகள் அரைப்புள்ளிகளால் பிரிக்கப்பட வேண்டும் (எ.கா. *.txt;*.doc).
+Range (min-max):	வரம்பு (குறைந்தது-அதிகபட்சம்):
+If the command should operate on say two or three files, enter the numerical range 2-3. If there are no limits, this string should be empty.	கட்டளை இரண்டு அல்லது மூன்று கோப்புகளில் செயல்பட வேண்டுமெனில், 2-3 என்ற எண் வரம்பை உள்ளிடுக. வரம்புகள் இல்லையெனில், இது வெறுமையாக இருக்க வேண்டும்.
+Appears if selection contains:	தேர்வில் இவை இருந்தால் தோன்றும்:
+Directories **	கோப்புறைகள் **
+Text Files	உரைக் கோப்புகள்
+Other Files	பிற கோப்புகள்
+This page lists the conditions under which the action will appear in the file managers context menus. The file patterns are specified as a list of simple file patterns separated by semicolons (e.g. *.txt;*.doc). For an action to appear in the context menu of a file or folder, at least one of these patterns must match the name of the file or folder. Additionally, you can specify that the action should only appear for certain kinds of files.\n\n** The custom action will be eligible to appear in the toolbar.	கோப்பு மேலாளரின் சூழல் பட்டிகளில் செயல் தோன்றுவதற்கான நிபந்தனைகளை இந்தப் பக்கம் பட்டியலிடுகிறது. கோப்பு வடிவங்கள் அரைப்புள்ளிகளால் பிரிக்கப்பட்ட எளிய கோப்பு வடிவங்களின் பட்டியலாகக் குறிப்பிடப்படுகின்றன (எ.கா. *.txt;*.doc). ஒரு கோப்பு அல்லது கோப்புறையின் சூழல் பட்டியலில் செயல் தோன்ற, இவற்றில் குறைந்தது ஒரு வடிவமாவது அந்தக் கோப்பு அல்லது கோப்புறையின் பெயருக்குப் பொருந்த வேண்டும். கூடுதலாக, குறிப்பிட்ட வகைக் கோப்புகளுக்கு மட்டும் செயல் தோன்ற வேண்டும் எனக் குறிப்பிடலாம்.\n\n** இந்தத் தனிப்பயன் செயல் கருவிப்பட்டையில் தோன்றத் தகுதி பெறும்.
+Appearance Conditions	தோன்றுவதற்கான நிபந்தனைகள்
+Custom Actions	தனிப்பயன் செயல்கள்
+Configure custom actions that will appear in the file manager's context menus and/or toolbar.\nThese actions are applicable to folders or certain kinds of files.\n\nCheck the <a href=\"https://docs.xfce.org/xfce/thunar/custom-actions\">documentation</a> for a collection of custom action examples.	கோப்பு மேலாளரின் சூழல் பட்டிகளிலும்/அல்லது கருவிப்பட்டையிலும் தோன்றும் தனிப்பயன் செயல்களை அமை.\nஇந்தச் செயல்கள் கோப்புறைகளுக்கோ குறிப்பிட்ட வகைக் கோப்புகளுக்கோ பொருந்தும்.\n\nதனிப்பயன் செயல் எடுத்துக்காட்டுகளின் தொகுப்புக்கு <a href=\"https://docs.xfce.org/xfce/thunar/custom-actions\">ஆவணங்களைப்</a> பார்க்கவும்.
+Add a new custom action.	புதிய தனிப்பயன் செயலைச் சேர்.
+Edit the currently selected action.	தற்போது தேர்ந்தெடுத்த செயலைத் திருத்து.
+Delete the currently selected action.	தற்போது தேர்ந்தெடுத்த செயலை நீக்கு.
+Move the currently selected action up by one row.	தற்போது தேர்ந்தெடுத்த செயலை ஒரு வரிசை மேலே நகர்த்து.
+Move the currently selected action down by one row.	தற்போது தேர்ந்தெடுத்த செயலை ஒரு வரிசை கீழே நகர்த்து.
+Set as wallpaper	பின்னணிப் படமாக அமை
+Thunar File Manager	Thunar கோப்பு மேலாளர்
+Browse the filesystem with the file manager	கோப்பு மேலாளர் மூலம் கோப்பு முறைமையில் உலாவு
+File Manager	கோப்பு மேலாளர்
+Configure the Thunar file manager	Thunar கோப்பு மேலாளரை அமை
+File Browser	கோப்பு உலாவி
+Thunar is a file browser specifically designed for the Xfce Desktop, but also can serve as an alternate file browser for other Desktop environments. It has a simple, clean two-pane design for browsing all your files.	Thunar என்பது Xfce மேசைத்தளத்துக்கென்றே வடிவமைக்கப்பட்ட கோப்பு உலாவி; பிற மேசைத்தளச் சூழல்களுக்கும் மாற்றுக் கோப்பு உலாவியாகப் பயன்படலாம். உங்கள் அனைத்துக் கோப்புகளையும் உலாவ எளிமையான, தெளிவான இரு-பலக வடிவமைப்பைக் கொண்டுள்ளது.
+Screenshot of the XFCE Thunar File Browser User Interface	XFCE Thunar கோப்பு உலாவியின் பயனர் இடைமுகத் திரைப்பிடிப்பு
+Run Thunar as root	Thunar ஐ root ஆக இயக்கு
+Authentication is required to run Thunar as root.	Thunar ஐ root ஆக இயக்க அங்கீகாரம் தேவை.

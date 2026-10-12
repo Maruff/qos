@@ -1,0 +1,184 @@
+# qos Desktop in Tamil: shared dialogs (libxfce4ui).
+# The About Xfce window, keyboard-shortcut dialogs and other common dialogs.
+Failed to open web browser for online documentation	இணைய ஆவணங்களுக்காக இணைய உலாவியைத் திறக்க முடியவில்லை
+Do you want to read the %s manual online?	%s கையேட்டை இணையத்தில் படிக்க வேண்டுமா?
+Do you want to read the manual online?	கையேட்டை இணையத்தில் படிக்க வேண்டுமா?
+You will be redirected to the documentation website where the help pages are maintained and translated.	உதவிப் பக்கங்கள் பராமரிக்கப்பட்டு மொழிபெயர்க்கப்படும் ஆவண இணையதளத்துக்கு நீங்கள் திருப்பி அனுப்பப்படுவீர்கள்.
+Read the manual	கையேட்டைப் படி
+Read Online	இணையத்தில் படி
+Always go directly to the online documentation	எப்போதும் நேரடியாக இணைய ஆவணங்களுக்குச் செல்
+Close window with multiple tabs?	பல தாவல்கள் உள்ள சாளரத்தை மூட வேண்டுமா?
+This window has multiple tabs open. Closing this window will also close all its tabs.	இந்தச் சாளரத்தில் பல தாவல்கள் திறந்துள்ளன. இந்தச் சாளரத்தை மூடினால் அதன் அனைத்துத் தாவல்களும் மூடப்படும்.
+This window has %d tabs open. Closing this window will also close all its tabs.	இந்தச் சாளரத்தில் %d தாவல்கள் திறந்துள்ளன. இந்தச் சாளரத்தை மூடினால் அதன் அனைத்துத் தாவல்களும் மூடப்படும்.
+Do not ask me again	மீண்டும் கேட்காதே
+Failed to connect to the session manager: %s	அமர்வு மேலாளருடன் இணைக்க முடியவில்லை: %s
+Session manager did not return a valid client id	அமர்வு மேலாளர் சரியான கிளையன்ட் அடையாளத்தைத் தரவில்லை
+Working directory \"%s\" does not exist. It won't be used when spawning \"%s\".	பணி அடைவு \"%s\" இல்லை. \"%s\"-ஐத் தொடங்கும்போது அது பயன்படுத்தப்படாது.
+Filename is too long	கோப்புப் பெயர் மிக நீளமாக உள்ளது
+Directory separator illegal in file name	கோப்புப் பெயரில் அடைவுப் பிரிப்புக்குறி அனுமதிக்கப்படாது
+Filenames should not start or end with a space	கோப்புப் பெயர்கள் இடைவெளியுடன் தொடங்கவோ முடியவோ கூடாது
+This shortcut is already being used for the action '%s'. Which action do you want to use?	இந்தக் குறுக்குவழி ஏற்கெனவே '%s' என்ற செயலுக்குப் பயன்படுகிறது. எந்தச் செயலைப் பயன்படுத்த வேண்டும்?
+Use '%s'	'%s'-ஐப் பயன்படுத்து
+Keep '%s'	'%s'-ஐ வைத்திரு
+This shortcut is already being used for the command '%s'. Which action do you want to use?	இந்தக் குறுக்குவழி ஏற்கெனவே '%s' என்ற கட்டளைக்குப் பயன்படுகிறது. எந்தச் செயலைப் பயன்படுத்த வேண்டும்?
+This shortcut is already being used by the action '%s'. Which action do you want to use?	இந்தக் குறுக்குவழியை ஏற்கெனவே '%s' என்ற செயல் பயன்படுத்துகிறது. எந்தச் செயலைப் பயன்படுத்த வேண்டும்?
+Please use another key combination.	வேறொரு விசைச் சேர்க்கையைப் பயன்படுத்துங்கள்.
+%s already triggers this action.	%s ஏற்கெனவே இந்தச் செயலைத் தூண்டுகிறது.
+Conflicting actions for %s	%s-க்கு முரண்படும் செயல்கள்
+This shortcut is already being used for something else.	இந்தக் குறுக்குவழி ஏற்கெனவே வேறொன்றுக்குப் பயன்படுகிறது.
+Shortcuts Editor	குறுக்குவழித் திருத்தி
+The current shortcut. Click to edit	தற்போதைய குறுக்குவழி. திருத்தச் சொடுக்குங்கள்
+Clear the shortcut	குறுக்குவழியை அழி
+Restore the default shortcut	இயல்புநிலைக் குறுக்குவழியை மீட்டெடு
+This keyboard shortcut is currently used by: '%s'	இந்த விசைப்பலகைக் குறுக்குவழியைத் தற்போது பயன்படுத்துவது: '%s'
+Keyboard shortcut already in use	விசைப்பலகைக் குறுக்குவழி ஏற்கெனவே பயன்பாட்டில் உள்ளது
+Window Manager Action Shortcut	சாளர மேலாளர் செயல் குறுக்குவழி
+action	செயல்
+Command Shortcut	கட்டளைக் குறுக்குவழி
+command	கட்டளை
+Shortcut	குறுக்குவழி
+Press keyboard keys to trigger the %s '%s'.	%s '%s'-ஐத் தூண்ட விசைப்பலகை விசைகளை அழுத்துங்கள்.
+Please press a key	ஒரு விசையை அழுத்துங்கள்
+Could not grab the keyboard.	விசைப்பலகையைக் கைப்பற்ற முடியவில்லை.
+Window operations menu	சாளரச் செயல்பாடுகள் பட்டியல்
+Up	மேலே
+Down	கீழே
+Left	இடது
+Right	வலது
+Cycle windows	சாளரங்களைச் சுழற்சியாக மாற்று
+Cycle windows (Reverse)	சாளரங்களைச் சுழற்சியாக மாற்று (பின்னோக்கி)
+Switch window for same application	அதே செயலியின் சாளரத்துக்கு மாறு
+Switch application	செயலியை மாற்று
+Close window	சாளரத்தை மூடு
+Maximize window horizontally	சாளரத்தைக் கிடைமட்டமாகப் பெரிதாக்கு
+Maximize window vertically	சாளரத்தைச் செங்குத்தாகப் பெரிதாக்கு
+Maximize window	சாளரத்தைப் பெரிதாக்கு
+Hide window	சாளரத்தை மறை
+Move window	சாளரத்தை நகர்த்து
+Resize window	சாளரத்தின் அளவை மாற்று
+Shade window	சாளரத்தைச் சுருட்டு
+Stick window	சாளரத்தை எல்லாப் பணியிடங்களிலும் ஒட்டு
+Raise window	சாளரத்தை மேலே கொண்டுவா
+Lower window	சாளரத்தைக் கீழே இறக்கு
+Raise or lower window	சாளரத்தை மேலே கொண்டுவா அல்லது கீழே இறக்கு
+Fill window	சாளரத்தால் நிரப்பு
+Fill window horizontally	சாளரத்தால் கிடைமட்டமாக நிரப்பு
+Fill window vertically	சாளரத்தால் செங்குத்தாக நிரப்பு
+Toggle above	எப்போதும் மேலே என்பதை மாற்று
+Toggle fullscreen	முழுத்திரையை மாற்று
+Move window to lower monitor	சாளரத்தைக் கீழ்த் திரைக்கு நகர்த்து
+Move window to left monitor	சாளரத்தை இடது திரைக்கு நகர்த்து
+Move window to right monitor	சாளரத்தை வலது திரைக்கு நகர்த்து
+Move window to upper monitor	சாளரத்தை மேல் திரைக்கு நகர்த்து
+Move window to upper workspace	சாளரத்தை மேல் பணியிடத்துக்கு நகர்த்து
+Move window to bottom workspace	சாளரத்தைக் கீழ்ப் பணியிடத்துக்கு நகர்த்து
+Move window to left workspace	சாளரத்தை இடது பணியிடத்துக்கு நகர்த்து
+Move window to right workspace	சாளரத்தை வலது பணியிடத்துக்கு நகர்த்து
+Move window to previous workspace	சாளரத்தை முந்தைய பணியிடத்துக்கு நகர்த்து
+Move window to next workspace	சாளரத்தை அடுத்த பணியிடத்துக்கு நகர்த்து
+Move window to workspace 1	சாளரத்தைப் பணியிடம் 1-க்கு நகர்த்து
+Move window to workspace 2	சாளரத்தைப் பணியிடம் 2-க்கு நகர்த்து
+Move window to workspace 3	சாளரத்தைப் பணியிடம் 3-க்கு நகர்த்து
+Move window to workspace 4	சாளரத்தைப் பணியிடம் 4-க்கு நகர்த்து
+Move window to workspace 5	சாளரத்தைப் பணியிடம் 5-க்கு நகர்த்து
+Move window to workspace 6	சாளரத்தைப் பணியிடம் 6-க்கு நகர்த்து
+Move window to workspace 7	சாளரத்தைப் பணியிடம் 7-க்கு நகர்த்து
+Move window to workspace 8	சாளரத்தைப் பணியிடம் 8-க்கு நகர்த்து
+Move window to workspace 9	சாளரத்தைப் பணியிடம் 9-க்கு நகர்த்து
+Move window to workspace 10	சாளரத்தைப் பணியிடம் 10-க்கு நகர்த்து
+Move window to workspace 11	சாளரத்தைப் பணியிடம் 11-க்கு நகர்த்து
+Move window to workspace 12	சாளரத்தைப் பணியிடம் 12-க்கு நகர்த்து
+Tile window to the top	சாளரத்தை மேல்பகுதியில் பொருத்து
+Tile window to the bottom	சாளரத்தைக் கீழ்ப்பகுதியில் பொருத்து
+Tile window to the left	சாளரத்தை இடப்பகுதியில் பொருத்து
+Tile window to the right	சாளரத்தை வலப்பகுதியில் பொருத்து
+Tile window to the top-left	சாளரத்தை மேல்-இடப்பகுதியில் பொருத்து
+Tile window to the top-right	சாளரத்தை மேல்-வலப்பகுதியில் பொருத்து
+Tile window to the bottom-left	சாளரத்தைக் கீழ்-இடப்பகுதியில் பொருத்து
+Tile window to the bottom-right	சாளரத்தைக் கீழ்-வலப்பகுதியில் பொருத்து
+Show desktop	மேசைத்தளத்தைக் காட்டு
+Upper workspace	மேல் பணியிடம்
+Bottom workspace	கீழ்ப் பணியிடம்
+Left workspace	இடது பணியிடம்
+Right workspace	வலது பணியிடம்
+Previous workspace	முந்தைய பணியிடம்
+Next workspace	அடுத்த பணியிடம்
+Workspace 1	பணியிடம் 1
+Workspace 2	பணியிடம் 2
+Workspace 3	பணியிடம் 3
+Workspace 4	பணியிடம் 4
+Workspace 5	பணியிடம் 5
+Workspace 6	பணியிடம் 6
+Workspace 7	பணியிடம் 7
+Workspace 8	பணியிடம் 8
+Workspace 9	பணியிடம் 9
+Workspace 10	பணியிடம் 10
+Workspace 11	பணியிடம் 11
+Workspace 12	பணியிடம் 12
+Add workspace	பணியிடத்தைச் சேர்
+Add adjacent workspace	அடுத்துள்ள பணியிடத்தைச் சேர்
+Delete last workspace	கடைசிப் பணியிடத்தை நீக்கு
+Delete active workspace	இயங்கும் பணியிடத்தை நீக்கு
+GPUs	GPU-கள்
+Window Manager	சாளர மேலாளர்
+Handles the placement of windows on the screen.	திரையில் சாளரங்களின் இடவமைப்பைக் கையாள்கிறது.
+Provides a home for window buttons, launchers, app menu and more.	சாளரப் பொத்தான்கள், தொடக்கிகள், செயலிப் பட்டியல் போன்றவற்றுக்கு இடம் தருகிறது.
+Desktop Manager	மேசைத்தள மேலாளர்
+Sets desktop backgrounds, handles icons and more.	மேசைத்தளப் பின்னணிகளை அமைக்கிறது, சின்னங்கள் முதலியவற்றைக் கையாள்கிறது.
+File Manager	கோப்பு மேலாளர்
+Manages your files in a modern, easy-to-use and fast way.	உங்கள் கோப்புகளை நவீனமாக, எளிதாக, விரைவாக நிர்வகிக்கிறது.
+Volume Manager	தொகுதி மேலாளர்
+Manages removable drives and media for Thunar.	Thunar-க்காக நீக்கக்கூடிய இயக்ககங்களையும் ஊடகங்களையும் நிர்வகிக்கிறது.
+Session Manager	அமர்வு மேலாளர்
+Saves and restores your session, handles startup, autostart and shutdown.	உங்கள் அமர்வைச் சேமித்து மீட்டெடுக்கிறது; தொடக்கம், தானியக்கத் தொடக்கம், அணைத்தல் ஆகியவற்றைக் கையாள்கிறது.
+Settings Manager	அமைப்புகள் மேலாளர்
+Configures appearance, display, keyboard and mouse settings.	தோற்றம், காட்சித்திரை, விசைப்பலகை, சுட்டி அமைப்புகளை உள்ளமைக்கிறது.
+Application Finder	செயலி கண்டுபிடிப்பான்
+Quickly finds and launches applications installed on your system.	உங்கள் கணினியில் நிறுவிய செயலிகளை விரைவாகக் கண்டுபிடித்துத் தொடங்குகிறது.
+Settings Daemon	அமைப்புகள் பின்னணிச் சேவை
+Stores your settings in a D-Bus-based configuration system.	உங்கள் அமைப்புகளை D-Bus அடிப்படையிலான உள்ளமைவு முறைமையில் சேமிக்கிறது.
+A Menu Library	ஒரு பட்டியல் நூலகம்
+Implements a freedesktop.org compliant menu based on GLib and GIO.	GLib, GIO அடிப்படையில் freedesktop.org தரத்துக்கு இணங்கிய பட்டியலைச் செயல்படுத்துகிறது.
+Thumbnails Service	சிறுபடச் சேவை
+Implements the thumbnail management D-Bus specification.	சிறுபட மேலாண்மைக்கான D-Bus வரையறையைச் செயல்படுத்துகிறது.
+Please see <https://www.xfce.org/about/credits>	<https://www.xfce.org/about/credits> பக்கத்தைப் பாருங்கள்
+If you know of anyone missing from this list; don't hesitate and file a bug on <https://gitlab.xfce.org/xfce/libxfce4ui/-/issues> .	இந்தப் பட்டியலில் யாரேனும் விடுபட்டிருந்தால், தயங்காமல் <https://gitlab.xfce.org/xfce/libxfce4ui/-/issues> இல் பிழை அறிக்கை பதிவுசெய்யுங்கள்.
+Thanks to all who helped making this software available!	இந்த மென்பொருள் கிடைக்க உதவிய அனைவருக்கும் நன்றி!
+Xfce 4 is copyright Olivier Fourdan (fourdan@xfce.org). The different components are copyrighted by their respective authors.	Xfce 4 பதிப்புரிமை Olivier Fourdan (fourdan@xfce.org) அவர்களுக்கு உரியது. பல்வேறு கூறுகளின் பதிப்புரிமை அவற்றின் ஆசிரியர்களுக்கு உரியது.
+The libxfce4ui, libxfce4util and exo packages are distributed under the terms of the GNU Library General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.	libxfce4ui, libxfce4util, exo தொகுப்புகள் Free Software Foundation வெளியிட்ட GNU Library General Public License உரிம விதிமுறைகளின் கீழ் வழங்கப்படுகின்றன; அந்த உரிமத்தின் பதிப்பு 2, அல்லது (உங்கள் விருப்பப்படி) அதற்குப் பிந்தைய எந்தப் பதிப்பும்.
+The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.	thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfdesktop, xfwm4 தொகுப்புகள் Free Software Foundation வெளியிட்ட GNU General Public License உரிம விதிமுறைகளின் கீழ் வழங்கப்படுகின்றன; அந்த உரிமத்தின் பதிப்பு 2, அல்லது (உங்கள் விருப்பப்படி) அதற்குப் பிந்தைய எந்தப் பதிப்பும்.
+Failed to load interface	இடைமுகத்தை ஏற்ற முடியவில்லை
+Core developers	முதன்மை உருவாக்குநர்கள்
+Active contributors	செயலில் உள்ள பங்களிப்பாளர்கள்
+Servers maintained by	சேவையகங்களைப் பராமரிப்பவர்கள்
+Translations supervision	மொழிபெயர்ப்பு மேற்பார்வை
+Documentation supervision	ஆவண மேற்பார்வை
+Translators	மொழிபெயர்ப்பாளர்கள்
+Previous contributors	முந்தைய பங்களிப்பாளர்கள்
+About Xfce	Xfce பற்றி
+Information about the Xfce Desktop Environment	Xfce மேசைத்தளச் சூழல் பற்றிய தகவல்
+License	உரிமம்
+About the Xfce Desktop Environment	Xfce மேசைத்தளச் சூழல் பற்றி
+Device	சாதனம்
+OS Name	இயக்க முறைமைப் பெயர்
+OS Type	இயக்க முறைமை வகை
+Distributor	விநியோகிப்பாளர்
+Xfce Version	Xfce பதிப்பு
+GTK Version	GTK பதிப்பு
+Kernel Version	கருனிப் பதிப்பு
+Windowing System	சாளர முறைமை
+CPU	CPU
+Memory	நினைவகம்
+GPU	GPU
+System	அமைப்பு
+Xfce is a collection of programs that together provide a full-featured desktop environment.\nThe following programs are part of the Xfce core:	Xfce என்பது ஒன்றிணைந்து முழு வசதிகொண்ட மேசைத்தளச் சூழலை வழங்கும் நிரல்களின் தொகுப்பு.\nபின்வரும் நிரல்கள் Xfce அடிப்படைப் பகுதியைச் சேர்ந்தவை:
+Xfce is also a development platform providing several libraries that help programmers create applications that fit in well with the desktop environment.\n\nXfce components are licensed under free or open source licences; GPL or BSDL for applications and LGPL or BSDL for libraries. Look at the documentation, the source code or the Xfce website (<a href=\"https://www.xfce.org\">https://www.xfce.org</a>) for more information.\n\nThank you for your interest in Xfce.\n\n\t- The Xfce Development Team	Xfce ஒரு மேம்பாட்டுத் தளமும் ஆகும்; மேசைத்தளச் சூழலுடன் நன்கு பொருந்தும் செயலிகளை நிரலாளர்கள் உருவாக்க உதவும் பல நூலகங்களை அது வழங்குகிறது.\n\nXfce கூறுகள் கட்டற்ற அல்லது திறந்த மூல உரிமங்களின் கீழ் வழங்கப்படுகின்றன; செயலிகளுக்கு GPL அல்லது BSDL, நூலகங்களுக்கு LGPL அல்லது BSDL. மேலும் தகவலுக்கு ஆவணங்கள், மூலக் குறியீடு அல்லது Xfce இணையதளத்தைப் (<a href=\"https://www.xfce.org\">https://www.xfce.org</a>) பாருங்கள்.\n\nXfce மீது நீங்கள் காட்டும் ஆர்வத்துக்கு நன்றி.\n\n\t- Xfce மேம்பாட்டுக் குழு
+Credits	நன்றியுரை
+Copyright	பதிப்புரிமை
+64-bit (32-bit userspace)	64-பிட் (32-பிட் பயனர் வெளி)
+64-bit	64-பிட்
+32-bit	32-பிட்
+%s; Build ID: %s	%s; உருவாக்க அடையாளம்: %s
+A file named \"%s\" already exists in this directory, the file hasn't been added.	\"%s\" என்ற பெயரில் ஒரு கோப்பு இந்த அடைவில் ஏற்கெனவே உள்ளது; கோப்பு சேர்க்கப்படவில்லை.
+Failed to migrate the old panel configuration	பழைய பலக உள்ளமைவை இடம்பெயர்க்க முடியவில்லை
+Customize settings stored by Xfconf	Xfconf சேமித்துள்ள அமைப்புகளைத் தனிப்பயனாக்கு

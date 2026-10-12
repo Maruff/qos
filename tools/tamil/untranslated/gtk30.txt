@@ -1,0 +1,484 @@
+Broadway display type not supported: %s
+Error parsing option --gdk-debug
+Error parsing option --gdk-no-debug
+Program class as used by the window manager
+CLASS
+Program name as used by the window manager
+NAME
+X display to use
+DISPLAY
+GDK debugging flags to set
+FLAGS
+GDK debugging flags to unset
+GL support disabled via GDKDEBUG
+The current backend does not support OpenGL
+BackSpace
+Tab
+Return
+Pause
+ScrollLock
+SysReq
+Escape
+Multikey
+PageUp
+PageDown
+End
+Begin
+Print
+NumLock
+KPSpace
+KPTab
+KPEnter
+KPHome
+KPLeft
+KPUp
+KPRight
+KPDown
+KPPageUp
+KPPrior
+KPPageDown
+KPNext
+KPEnd
+KPBegin
+KPInsert
+KPDelete
+MonBrightnessUp
+MonBrightnessDown
+KbdBrightnessUp
+KbdBrightnessDown
+AudioMute
+AudioMicMute
+AudioLowerVolume
+AudioRaiseVolume
+AudioPlay
+AudioStop
+AudioNext
+AudioPrev
+AudioRecord
+AudioPause
+AudioRewind
+AudioMedia
+Explorer
+Calculator
+Mail
+WWW
+Tools
+ScreenSaver
+Battery
+Launch1
+Sleep
+WLAN
+WebCam
+TouchpadToggle
+WakeUp
+Unable to create a GL pixel format
+Unable to create a GL context
+No available configurations for the given pixel format
+No GL implementation is available
+Core GL is not available on EGL implementation
+No available configurations for the given RGBA pixel format
+CD-ROM
+%d
+Unexpected start tag '%s' on line %d char %d
+Unexpected character data on line %d char %d
+Output to this directory instead of cwd
+Invalid size %s\n
+Can't load file: %s\n
+Can't save file %s: %s\n
+Can't close stream
+Artistic License 2.0
+Mozilla Public License 2.0
+Ctrl
+Super
+Hyper
+Meta
+KP
+Space
+Backslash
+Element <%s> not allowed inside <%s>
+Element <%s> not allowed at toplevel
+Text may not appear inside <%s>
+Packing property %s::%s not found\n
+Cell property %s::%s not found\n
+Property %s::%s not found\n
+Couldn't parse value for %s::%s: %s\n
+Can't parse file: %s\n
+Usage:\n  gtk-builder-tool [COMMAND] FILE\n\nCommands:\n  validate           Validate the file\n  simplify [OPTIONS] Simplify the file\n  enumerate          List all named objects\n  preview [OPTIONS]  Preview the file\n\nSimplify Options:\n  --replace          Replace the file\n\nPreview Options:\n  --id=ID            Preview only the named object\n  --css=FILE         Use style from CSS file\n\nPerform various tasks on GtkBuilder .ui files.\n
+calendar:MY
+calendar:weekstart:0
+2000
+%Y
+%d %%
+default:mm
+mm
+%H:%M
+%l:%M %p
+%-e %b
+%-e %b %Y
+Sans 12
+OpenGL context creation failed
+Icon '%s' not present in theme %s
+Show program version
+APPLICATION [URI...] — launch an APPLICATION
+Launch an application (specified by its desktop file name),\noptionally passing one or more URIs as arguments.
+Error parsing commandline options: %s\n
+Try \"%s --help\" for more information.
+%s: missing application name
+Creating AppInfo from id not supported on non unix operating systems
+%s: no such application %s
+%s: error launching application: %s\n
+Load additional GTK+ modules
+MODULES
+Make all warnings fatal
+GTK+ debugging flags to set
+GTK+ debugging flags to unset
+Cannot open display: %s
+GTK+ Options
+Show GTK+ Options
+default:LTR
+PIM
+Bourne Again Shell
+Bourne Shell
+Z Shell
+AppleTalk
+ftp:// or ftps://
+Samba
+sftp:// or ssh://
+WebDAV
+dav:// or davs://
+Invalid argument to CreateDC
+Error from StartDoc
+Invalid argument to PrintDlgEx
+Invalid pointer to PrintDlgEx
+Invalid handle to PrintDlgEx
+%.0f %%
+_%d. %s
+%d. %s
+L
+R
+Unknown error when trying to deserialize %s
+No deserialize function found for format %s
+Both \"id\" and \"name\" were found on the <%s> element
+The attribute \"%s\" was found twice on the <%s> element
+<%s> element has invalid ID \"%s\"
+<%s> element has neither a \"name\" nor an \"id\" attribute
+Attribute \"%s\" repeated twice on the same <%s> element
+Attribute \"%s\" is invalid on <%s> element in this context
+Tag \"%s\" has not been defined.
+Anonymous tag found and tags can not be created.
+Tag \"%s\" does not exist in buffer and tags can not be created.
+Element <%s> is not allowed below <%s>
+\"%s\" is not a valid attribute type
+\"%s\" is not a valid attribute name
+\"%s\" could not be converted to a value of type \"%s\" for attribute \"%s\"
+\"%s\" is not a valid value for attribute \"%s\"
+Tag \"%s\" already defined
+Tag \"%s\" has invalid priority \"%s\"
+Outermost element in text must be <textviewmarkup> not <%s>
+A <%s> element has already been specified
+A <text> element can't occur before a <tags> element
+Serialized data is malformed
+Serialized data is malformed. First section isn't GTKTEXTBUFFERCONTENTS-0001
+Do you want to use GTK+ Inspector?
+GTK+ Inspector is an interactive debugger that lets you explore and modify the internals of any GTK+ application. Using it may cause the application to break or crash.
+Don't show this message again
+State
+Prefix
+Enabled
+Parameter Type
+You can type here any CSS rule recognized by GTK+.
+You can temporarily disable this custom CSS by clicking on the “Pause” button above.
+Changes are applied instantly and globally, for the whole application.
+Saving CSS failed
+Disable this custom CSS
+Save the current CSS
+ID
+Style Classes
+CSS Property
+Show data
+IM Context is hardcoded by GTKIMMODULE
+GTK+ Version
+GDK Backend
+Pango Fontmap
+Input Method
+Application ID
+Resource Path
+RGBA visual
+Composited
+GL Version
+GL Vendor
+Capture
+Bubble
+Target
+Unnamed section
+Label
+Address
+Reference count
+Buildable ID
+Default Widget
+Focus Widget
+Mnemonic Label
+Request mode
+Allocation
+Baseline
+Clip area
+Frame Clock
+Tick callback
+Frame count
+Frame rate
+Accessible role
+Accessible name
+Accessible description
+Mapped
+Realized
+Is Toplevel
+Child Visible
+Object
+Pointer: %p
+Object: %p (%s)
+Uneditable property type: %s
+Attribute mapping
+%p (%s)
+Column:
+Defined at: %p (%s)
+inverted
+bidirectional, inverted
+bidirectional
+Binding:
+Setting:
+Source:
+XSettings
+Attribute
+Defined At
+Path
+Count
+Selector
+Signal
+Connected
+Ignore hidden
+Mode
+Both
+GLib must be configured with --enable-debug
+Self 1
+Cumulative 1
+Self 2
+Cumulative 2
+Self
+Cumulative
+Enable statistics with GOBJECTDEBUG=instance-count
+Theme is hardcoded by GTKTHEME
+Backend does not support window scaling
+Setting is hardcoded by GTKTESTTOUCHSCREEN
+Not settable at runtime.\nUse GDKGL=always or GDKGL=disable instead
+GL rendering is disabled
+GTK+ Theme
+Dark Variant
+Cursor Theme
+Cursor Size
+Icon Theme
+Font Scale
+Text Direction
+Left-to-Right
+Right-to-Left
+Window scaling
+Slowdown
+Rendering Mode
+Similar
+Recording
+Show Graphic Updates
+Show Baselines
+Show Layout Borders
+Show Pixel Cache
+Show Widget Resizes
+Simulate touchscreen
+GL Rendering
+When needed
+Software GL
+Software Surfaces
+Texture Rectangle Extension
+Select an Object
+Show Details
+Show all Objects
+Collect Statistics
+Show all Resources
+Trace signal emissions on this object
+Clear log
+Miscellaneous
+Signals
+Child Properties
+Class Hierarchy
+CSS Selector
+CSS nodes
+Size Groups
+Data
+Gestures
+Magnifier
+Objects
+Statistics
+Resources
+CSS
+Visual
+asmef
+A0×2
+A0
+A0×3
+A1
+A10
+A1×3
+A1×4
+A2
+A2×3
+A2×4
+A2×5
+A3
+A3×3
+A3×4
+A3×5
+A3×6
+A3×7
+A4
+A4×3
+A4×4
+A4×5
+A4×6
+A4×7
+A4×8
+A4×9
+A5
+A6
+A7
+A8
+A9
+B0
+B1
+B10
+B2
+B3
+B4
+B5
+B6
+B6/C4
+B7
+B8
+B9
+C0
+C1
+C10
+C2
+C3
+C4
+C5
+C6
+C6/C5
+C7
+C7/C6
+C8
+C9
+RA0
+RA1
+RA2
+RA3
+RA4
+SRA0
+SRA1
+SRA2
+SRA3
+SRA4
+JB0
+JB1
+JB10
+JB2
+JB3
+JB4
+JB5
+JB6
+JB7
+JB8
+JB9
+jis exec
+10×11
+10×13
+10×14
+10×15
+11×12
+11×15
+12×19
+5×7
+Arch A
+Arch B
+Arch C
+Arch D
+Arch E
+b-plus
+c
+d
+e
+edp
+f
+US Legal
+US Letter
+#10 Envelope
+#11 Envelope
+#12 Envelope
+#14 Envelope
+#9 Envelope
+Dai-pa-kai
+juuro-ku-kai
+pa-kai
+prc 16k
+prc 32k
+ROC 16k
+ROC 8k
+A
+H
+S
+V
+File Chooser Widget
+Browse Header Revealer
+Browse Header Stack
+PathBar Layer
+Location Layer
+Search Layer
+Failed to write header\n
+Failed to write hash table\n
+Failed to write folder index\n
+Failed to rewrite header\n
+Failed to open file %s : %s\n
+Failed to write cache file: %s\n
+The generated cache was invalid.\n
+Could not rename %s to %s: %s, removing %s then.\n
+Could not rename %s to %s: %s\n
+Could not rename %s back to %s: %s.\n
+Cache file created successfully.\n
+Overwrite an existing cache, even if up to date
+Don't check for the existence of index.theme
+Don't include image data in the cache
+Include image data in the cache
+Output a C header file
+Turn off verbose output
+Validate existing icon cache
+File not found: %s\n
+Not a valid icon cache: %s\n
+No theme index file.\n
+No theme index file in '%s'.\nIf you really want to create an icon cache here, use --ignore-theme-index.\n
+Amharic (EZ+)
+Broadway
+Cedilla
+Cyrillic (Transliterated)
+Windows IME
+Inuktitut (Transliterated)
+IPA
+Multipress
+Mac OS X Quartz
+Thai-Lao
+Tigrigna-Eritrean (EZ+)
+Tigrigna-Ethiopian (EZ+)
+Vietnamese (VIQR)
+Wayland
+X Input Method
+; 
+output
+PDF
+Postscript
+SVG
+test-output.%s

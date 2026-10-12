@@ -1,5 +1,8 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Accessibility"
+msgstr "அணுகல்தன்மை"
 
 msgid "_Close"
 msgstr "மூடு (_C)"
@@ -7,17 +10,320 @@ msgstr "மூடு (_C)"
 msgid "_Help"
 msgstr "உதவி (_H)"
 
+msgid "When enabled, the session manager will start the required applications for screen readers and magnifiers."
+msgstr "இயக்கப்பட்டால், திரை வாசிப்பான்களுக்கும் உருப்பெருக்கிகளுக்கும் தேவையான செயலிகளை அமர்வு மேலாளர் தொடங்கும்."
+
+msgid "_Enable assistive technologies"
+msgstr "உதவித் தொழில்நுட்பங்களை இயக்கு (_E)"
+
+msgid "Start With Session"
+msgstr "அமர்வுடன் தொடங்கு"
+
+msgid "Assistive technologies will be available the next time you login"
+msgstr "அடுத்த முறை நீங்கள் உள்நுழையும்போது உதவித் தொழில்நுட்பங்கள் கிடைக்கும்"
+
+msgid "No AT-SPI provider was found on your system"
+msgstr "உங்கள் கணினியில் AT-SPI வழங்கி எதுவும் கண்டறியப்படவில்லை"
+
+msgid "Assistive _Technologies"
+msgstr "உதவித் தொழில்நுட்பங்கள் (_T)"
+
+msgid "When enabled, modifier keys (such as Control, Alt, and Shift) do not need to be held down (they can be pressed and then released) when multiple keys would normally need to be pressed at the same time."
+msgstr "இயக்கப்பட்டால், பல விசைகளை ஒரே நேரத்தில் அழுத்த வேண்டிய இடங்களில் மாற்றி விசைகளை (Control, Alt, Shift போன்றவை) அழுத்திப் பிடித்திருக்கத் தேவையில்லை (அழுத்தி விட்டுவிடலாம்)."
+
+msgid "_Use sticky keys"
+msgstr "ஒட்டும் விசைகளைப் பயன்படுத்து (_U)"
+
+msgid "_Lock sticky keys"
+msgstr "ஒட்டும் விசைகளைப் பூட்டு (_L)"
+
+msgid "When selected, modifier keys (such as Control, Alt, and Shift) will remain locked in the pressed state if they are pressed twice in a row, until pressed again once"
+msgstr "தேர்ந்தெடுத்தால், மாற்றி விசைகள் (Control, Alt, Shift போன்றவை) தொடர்ந்து இருமுறை அழுத்தப்பட்டால், மீண்டும் ஒருமுறை அழுத்தும் வரை அழுத்திய நிலையிலேயே பூட்டப்பட்டிருக்கும்"
+
+msgid "Disable sticky keys if two keys are _pressed"
+msgstr "இரண்டு விசைகள் அழுத்தப்பட்டால் ஒட்டும் விசைகளை முடக்கு (_P)"
+
+msgid "When selected, the \"sticky keys\" feature will be disabled if two keys are pressed simultaneously"
+msgstr "தேர்ந்தெடுத்தால், இரண்டு விசைகள் ஒரே நேரத்தில் அழுத்தப்படும்போது \"ஒட்டும் விசைகள்\" வசதி முடக்கப்படும்"
+
+msgid "Sticky Keys"
+msgstr "ஒட்டும் விசைகள்"
+
+msgid "To help prevent accidental keystrokes, slow keys requires that a key is held for a certain minimum amount of time before the keystroke will be accepted."
+msgstr "தவறுதலான விசை அழுத்தங்களைத் தடுக்க உதவ, ஒரு விசை அழுத்தம் ஏற்கப்படுவதற்கு முன் அந்த விசையைக் குறைந்தபட்ச நேரம் அழுத்திப் பிடித்திருக்க வேண்டும் என மெது விசைகள் கோருகின்றன."
+
+msgid "Use slow _keys"
+msgstr "மெது விசைகளைப் பயன்படுத்து (_K)"
+
+msgid "Acceptance _delay:"
+msgstr "ஏற்புத் தாமதம்: (_D)"
+
+msgid "The amount of time, in milliseconds, that must elapse before a keystroke will be accepted"
+msgstr "ஒரு விசை அழுத்தம் ஏற்கப்படுவதற்கு முன் கடக்க வேண்டிய நேரம் (மில்லிவிநாடிகளில்)"
+
+msgid "Slow Keys"
+msgstr "மெது விசைகள்"
+
+msgid "To help prevent accidental multiple keystrokes, bounce keys imposes a minimum delay between keystrokes."
+msgstr "தவறுதலாக ஒரே விசை பலமுறை அழுத்தப்படுவதைத் தடுக்க உதவ, துள்ளல் விசைகள் விசை அழுத்தங்களுக்கு இடையே குறைந்தபட்சத் தாமதத்தை விதிக்கின்றன."
+
+msgid "Use _bounce keys"
+msgstr "துள்ளல் விசைகளைப் பயன்படுத்து (_B)"
+
+msgid "K_eystroke delay:"
+msgstr "விசை அழுத்தத் தாமதம்: (_E)"
+
+msgid "The amount of time, in milliseconds, required between keystrokes"
+msgstr "விசை அழுத்தங்களுக்கு இடையே தேவையான நேரம் (மில்லிவிநாடிகளில்)"
+
+msgid "Bounce Keys"
+msgstr "துள்ளல் விசைகள்"
+
+msgid "Keyboa_rd"
+msgstr "விசைப்பலகை (_R)"
+
+msgid "When enabled, the mouse pointer can be controlled using the keyboard number pad."
+msgstr "இயக்கப்பட்டால், விசைப்பலகையின் எண் திண்டைக் கொண்டு சுட்டிக் குறியைக் கட்டுப்படுத்தலாம்."
+
+msgid "_Use mouse emulation"
+msgstr "சுட்டிப் போலியாக்கத்தைப் பயன்படுத்து (_U)"
+
+msgid "When selected, the mouse pointer can be controlled using the keyboard number pad"
+msgstr "தேர்ந்தெடுத்தால், விசைப்பலகையின் எண் திண்டைக் கொண்டு சுட்டிக் குறியைக் கட்டுப்படுத்தலாம்"
+
+msgid "msec"
+msgstr "மில்லிவிநாடி"
+
+msgid "The time, in milliseconds, between the initial key press and first repeated motion event"
+msgstr "முதல் விசை அழுத்தத்துக்கும் முதல் மீள் நகர்வு நிகழ்வுக்கும் இடையிலான நேரம் (மில்லிவிநாடிகளில்)"
+
+msgid "_Acceleration delay:"
+msgstr "முடுக்கத் தாமதம்: (_A)"
+
+msgid "R_epeat interval:"
+msgstr "மீள் இடைவெளி: (_E)"
+
+msgid "The time, in milliseconds, between repeated motion events"
+msgstr "மீள் நகர்வு நிகழ்வுகளுக்கு இடையிலான நேரம் (மில்லிவிநாடிகளில்)"
+
+msgid "Acceleration t_ime:"
+msgstr "முடுக்க நேரம்: (_I)"
+
+msgid "The time, in milliseconds, to get to maximum speed"
+msgstr "அதிகபட்ச வேகத்தை அடைய ஆகும் நேரம் (மில்லிவிநாடிகளில்)"
+
+msgid "Ma_ximum speed:"
+msgstr "அதிகபட்ச வேகம்: (_X)"
+
+msgid "The maximum pointer speed after acceleration"
+msgstr "முடுக்கத்துக்குப் பிறகு சுட்டிக் குறியின் அதிகபட்ச வேகம்"
+
+msgid "pixels/sec"
+msgstr "படப்புள்ளிகள்/விநாடி"
+
+msgid "Acceleration _profile:"
+msgstr "முடுக்க விவரக்கோவை: (_P)"
+
+msgid "The ramp used to reach maximum pointer speed"
+msgstr "சுட்டிக் குறியின் அதிகபட்ச வேகத்தை அடையப் பயன்படும் ஏற்ற வளைவு"
+
+msgid "Mouse Emulation"
+msgstr "சுட்டிப் போலியாக்கம்"
+
+msgid "Bind a keyboard shortcut to xfce4-find-cursor to get visual feedback of the mouse pointer's current location."
+msgstr "சுட்டிக் குறியின் தற்போதைய இருப்பிடத்தைக் கண்ணால் காண, xfce4-find-cursor க்கு ஒரு விசைப்பலகைக் குறுக்குவழியை இணையுங்கள்."
+
+msgid "Show location of pointer on keypress"
+msgstr "விசை அழுத்தும்போது சுட்டிக் குறியின் இருப்பிடத்தைக் காட்டு"
+
+msgid "Find Cursor"
+msgstr "இடஞ்சுட்டியைக் கண்டுபிடி"
+
+msgid "_Mouse"
+msgstr "சுட்டி (_M)"
+
 msgid "None"
 msgstr "ஏதுமில்லை"
+
+msgid "Slight"
+msgstr "சிறிதளவு"
+
+msgid "Medium"
+msgstr "நடுத்தரம்"
+
+msgid "Full"
+msgstr "முழுமை"
+
+msgid "Icons"
+msgstr "சின்னங்கள்"
+
+msgid "Text"
+msgstr "உரை"
+
+msgid "Text under icons"
+msgstr "சின்னங்களுக்குக் கீழே உரை"
+
+msgid "Text next to icons"
+msgstr "சின்னங்களுக்கு அருகில் உரை"
+
+msgid "1x (no scaling)"
+msgstr "1x (அளவுமாற்றம் இல்லை)"
+
+msgid "Appearance"
+msgstr "தோற்றம்"
 
 msgid "_Add"
 msgstr "சேர் (_A)"
 
+msgid "Set matching <a href=\"xfwm4-settings:\">Xfwm4 theme</a> if there is one"
+msgstr "பொருந்தும் <a href=\"xfwm4-settings:\">Xfwm4 கருப்பொருள்</a> இருந்தால் அதை அமை"
+
+msgid "St_yle"
+msgstr "பாணி (_Y)"
+
+msgid "_Icons"
+msgstr "சின்னங்கள் (_I)"
+
+msgid "This font will be used as the default font used when drawing user interface text"
+msgstr "பயனர் இடைமுக உரையை வரையும்போது இந்த எழுத்துரு இயல்புநிலை எழுத்துருவாகப் பயன்படுத்தப்படும்"
+
+msgid "Select a default font"
+msgstr "இயல்புநிலை எழுத்துருவைத் தேர்ந்தெடு"
+
+msgid "Default Fon_t"
+msgstr "இயல்புநிலை எழுத்துரு (_T)"
+
+msgid "This font will be used as the default monospace font, for example by terminal emulators."
+msgstr "இந்த எழுத்துரு இயல்புநிலை நிலையகல எழுத்துருவாகப் பயன்படுத்தப்படும்; எடுத்துக்காட்டாக முனைய முன்மாதிரிகளில்."
+
+msgid "Select a default monospace font"
+msgstr "இயல்புநிலை நிலையகல எழுத்துருவைத் தேர்ந்தெடு"
+
+msgid "Default _Monospace Font"
+msgstr "இயல்புநிலை நிலையகல எழுத்துரு (_M)"
+
+msgid "_Enable anti-aliasing"
+msgstr "விளிம்புமென்மையாக்கலை இயக்கு (_E)"
+
+msgid "Anti-aliasing, or font smoothing, can improve the look of text on the screen"
+msgstr "விளிம்புமென்மையாக்கல் (எழுத்துரு மென்மையாக்கல்) திரையில் உரையின் தோற்றத்தை மேம்படுத்தும்"
+
+msgid "Hintin_g:"
+msgstr "குறிப்பீடு: (_G)"
+
+msgid "Many fonts contain information that provides extra hints as to how best draw the font; pick whichever looks best according to personal preference"
+msgstr "பல எழுத்துருக்களில் அவற்றை எப்படிச் சிறப்பாக வரைவது என்பதற்கான கூடுதல் குறிப்புகள் உள்ளன; உங்கள் விருப்பப்படி எது சிறப்பாகத் தெரிகிறதோ அதைத் தேர்ந்தெடுங்கள்"
+
+msgid "Sub-_pixel order:"
+msgstr "துணைப்படப்புள்ளி வரிசை: (_P)"
+
+msgid "Font quality on a TFT or LCD screen can be greatly improved by choosing the correct sub-pixel order of the screen"
+msgstr "திரையின் சரியான துணைப்படப்புள்ளி வரிசையைத் தேர்ந்தெடுப்பதன் மூலம் TFT அல்லது LCD திரையில் எழுத்துருவின் தரத்தைப் பெரிதும் மேம்படுத்தலாம்"
+
+msgid "Rendering"
+msgstr "வரைவாக்கம்"
+
+msgid "Custom _DPI setting:"
+msgstr "தனிப்பயன் DPI அமைப்பு: (_D)"
+
+msgid "Override the detected monitor resolution if fonts look too large or too small"
+msgstr "எழுத்துருக்கள் மிகப் பெரிதாகவோ மிகச் சிறிதாகவோ தெரிந்தால், கண்டறியப்பட்ட திரைத் தெளிவுத்திறனை மீறி அமை"
+
+msgid "_Fonts"
+msgstr "எழுத்துருக்கள் (_F)"
+
+msgid "Show images on _buttons"
+msgstr "பொத்தான்களில் படங்களைக் காட்டு (_B)"
+
+msgid "Specify whether icons should be displayed next to text in buttons"
+msgstr "பொத்தான்களில் உரைக்கு அருகில் சின்னங்கள் காட்டப்பட வேண்டுமா எனக் குறிப்பிடு"
+
+msgid "Show images in _menus"
+msgstr "பட்டியல்களில் படங்களைக் காட்டு (_M)"
+
+msgid "Specify whether icons should be displayed next to items in menus"
+msgstr "பட்டியல் உருப்படிகளுக்கு அருகில் சின்னங்கள் காட்டப்பட வேண்டுமா எனக் குறிப்பிடு"
+
+msgid "Enable e_ditable accelerators"
+msgstr "திருத்தக்கூடிய முடுக்கிகளை இயக்கு (_D)"
+
+msgid "If selected, keyboard shortcuts for menu items can be changed by hovering the mouse over the menu item and pressing the new key combination for the shortcut"
+msgstr "தேர்ந்தெடுத்தால், பட்டியல் உருப்படியின் மேல் சுட்டியை வைத்துப் புதிய விசைச் சேர்க்கையை அழுத்துவதன் மூலம் அந்த உருப்படியின் விசைப்பலகைக் குறுக்குவழியை மாற்றலாம்"
+
+msgid "Enable header bars in dialo_gs"
+msgstr "உரையாடல் பெட்டிகளில் தலைப்புப் பட்டைகளை இயக்கு (_G)"
+
+msgid "Defines whether GTK dialogs may place widgets such as buttons in the dialog's header bar. Implies in Client Side Decoration. Only affects newly opened dialogs."
+msgstr "பொத்தான்கள் போன்ற கூறுகளை GTK உரையாடல் பெட்டிகள் தங்கள் தலைப்புப் பட்டையில் வைக்கலாமா என்பதை வரையறுக்கிறது. இது கிளையன்ட் பக்க அலங்கரிப்பைக் குறிக்கும். புதிதாகத் திறக்கப்படும் உரையாடல் பெட்டிகளை மட்டுமே பாதிக்கும்."
+
+msgid "Menus and Buttons"
+msgstr "பட்டியல்களும் பொத்தான்களும்"
+
+msgid "Enable _event sounds"
+msgstr "நிகழ்வு ஒலிகளை இயக்கு (_E)"
+
+msgid "Enable or disable event sounds globally (requires \"Canberra\" support)"
+msgstr "நிகழ்வு ஒலிகளை முழுமையாக இயக்கு அல்லது முடக்கு (\"Canberra\" ஆதரவு தேவை)"
+
+msgid "Enable input feedbac_k sounds"
+msgstr "உள்ளீட்டுப் பின்னூட்ட ஒலிகளை இயக்கு (_K)"
+
+msgid "Specify whether mouse clicks and other user input will cause event sounds to play"
+msgstr "சுட்டிச் சொடுக்குகளும் பிற பயனர் உள்ளீடுகளும் நிகழ்வு ஒலிகளை எழுப்ப வேண்டுமா எனக் குறிப்பிடு"
+
+msgid "Event sounds"
+msgstr "நிகழ்வு ஒலிகள்"
+
+msgid "Adjust the system-wide display scaling"
+msgstr "கணினி முழுவதற்குமான காட்சி அளவுமாற்றத்தைச் சரிசெய்"
+
+msgid "_Window Scaling"
+msgstr "சாளர அளவுமாற்றம் (_W)"
+
 msgid "Setti_ngs"
 msgstr "அமைப்புகள் (_N)"
 
+msgid "Color Profiles"
+msgstr "வண்ணச் சுயவிவரங்கள்"
+
+msgid "<b>No devices found.</b>"
+msgstr "<b>சாதனங்கள் எதுவும் கண்டறியப்படவில்லை.</b>"
+
+msgid "Model:"
+msgstr "மாதிரி:"
+
+msgid "Colorspace:"
+msgstr "வண்ணவெளி:"
+
+msgid "Vendor:"
+msgstr "விற்பனையாளர்:"
+
+msgid "Calibrate"
+msgstr "அளவுத்திருத்து"
+
+msgid "<b>No profiles for the selected device.</b>"
+msgstr "<b>தேர்ந்தெடுத்த சாதனத்துக்குச் சுயவிவரங்கள் இல்லை.</b>"
+
+msgid "Add a profile to the currently selected device"
+msgstr "தற்போது தேர்ந்தெடுத்த சாதனத்துக்கு ஒரு சுயவிவரத்தைச் சேர்"
+
 msgid "_Remove"
 msgstr "அகற்று (_R)"
+
+msgid "Delete the currently selected profile"
+msgstr "தற்போது தேர்ந்தெடுத்த சுயவிவரத்தை நீக்கு"
+
+msgid "Show detailed information about the selected profile"
+msgstr "தேர்ந்தெடுத்த சுயவிவரத்தின் விரிவான தகவலைக் காட்டு"
+
+msgid "Enable"
+msgstr "இயக்கு"
+
+msgid "Enable the selected profile"
+msgstr "தேர்ந்தெடுத்த சுயவிவரத்தை இயக்கு"
+
+msgid "Add Profile to Device"
+msgstr "சாதனத்துக்குச் சுயவிவரத்தைச் சேர்"
 
 msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
@@ -25,45 +331,640 @@ msgstr "ரத்துசெய் (_C)"
 msgid "_OK"
 msgstr "சரி (_O)"
 
+msgid "Import color profile files (*.icc)"
+msgstr "வண்ணச் சுயவிவரக் கோப்புகளை (*.icc) இறக்குமதி செய்"
+
+msgid "<b><big>Would you like to keep this configuration?</big></b>"
+msgstr "<b><big>இந்த உள்ளமைவை வைத்துக்கொள்ள விரும்புகிறீர்களா?</big></b>"
+
+msgid "The previous configuration will be restored in <b>10 seconds</b> if you do not reply to this question."
+msgstr "இந்தக் கேள்விக்கு நீங்கள் பதிலளிக்காவிட்டால், முந்தைய உள்ளமைவு <b>10 விநாடிகளில்</b> மீட்டெடுக்கப்படும்."
+
+msgid "Keep this configuration"
+msgstr "இந்த உள்ளமைவை வைத்துக்கொள்"
+
+msgid "Restore the previous configuration"
+msgstr "முந்தைய உள்ளமைவை மீட்டெடு"
+
 msgid "Never"
 msgstr "ஒருபோதும் இல்லை"
+
+msgid "When a display is connected"
+msgstr "ஒரு திரை இணைக்கப்படும்போது"
+
+msgid "When a display is disconnected"
+msgstr "ஒரு திரை துண்டிக்கப்படும்போது"
 
 msgid "Always"
 msgstr "எப்போதும்"
 
+msgid "Do nothing"
+msgstr "எதுவும் செய்யாதே"
+
+msgid "Show dialog"
+msgstr "உரையாடல் பெட்டியைக் காட்டு"
+
+msgid "Mirror"
+msgstr "ஒரே காட்சி"
+
+msgid "Extend"
+msgstr "நீட்டி"
+
+msgid "The primary display can be configured to show:"
+msgstr "முதன்மைத் திரையில் காட்டக்கூடியவை:"
+
+msgid "Xfce Panel"
+msgstr "Xfce பலகம்"
+
+msgid "Desktop icons"
+msgstr "மேசைத்தளச் சின்னங்கள்"
+
+msgid "Notifications"
+msgstr "அறிவிப்புகள்"
+
+msgid "Configure..."
+msgstr "உள்ளமை..."
+
+msgid "Display"
+msgstr "திரை"
+
+msgid "_Mirror displays"
+msgstr "திரைகளில் ஒரே காட்சி (_M)"
+
+msgid "Primary Display:"
+msgstr "முதன்மைத் திரை:"
+
+msgid "R_esolution:"
+msgstr "தெளிவுத்திறன்: (_E)"
+
+msgid "Refresh _rate:"
+msgstr "புதுப்பிப்பு வீதம்: (_R)"
+
+msgid "Ro_tation:"
+msgstr "சுழற்சி: (_T)"
+
+msgid "Ref_lection:"
+msgstr "பிரதிபலிப்பு: (_L)"
+
 msgid "A_pply"
 msgstr "செயல்படுத்து (_P)"
+
+msgid "_Scale:"
+msgstr "அளவுவிகிதம்: (_S)"
 
 msgid "_General"
 msgstr "பொது (_G)"
 
+msgid "<b>Profiles</b>"
+msgstr "<b>சுயவிவரங்கள்</b>"
+
+msgid "<b>Connecting Displays</b>"
+msgstr "<b>திரைகளை இணைத்தல்</b>"
+
+msgid "Delete the currently selected display profile."
+msgstr "தற்போது தேர்ந்தெடுத்த திரைச் சுயவிவரத்தை நீக்கு."
+
 msgid "Apply"
 msgstr "செயல்படுத்து"
+
+msgid "Apply the currently selected display profile."
+msgstr "தற்போது தேர்ந்தெடுத்த திரைச் சுயவிவரத்தைச் செயல்படுத்து."
+
+msgid "Create a new display profile."
+msgstr "புதிய திரைச் சுயவிவரத்தை உருவாக்கு."
+
+msgid "Update an existing profile."
+msgstr "ஏற்கெனவே உள்ள சுயவிவரத்தைப் புதுப்பி."
+
+msgid "First try to automatically enable a profile:"
+msgstr "முதலில் ஒரு சுயவிவரத்தைத் தானாக இயக்க முயல்க:"
+
+msgid "When a display is connected:"
+msgstr "ஒரு திரை இணைக்கப்படும்போது:"
+
+msgid "Show popup windows to identify displays"
+msgstr "திரைகளை அடையாளம் காட்ட மேல்தோன்றும் சாளரங்களைக் காட்டு"
+
+msgid "<b>Identifying Displays</b>"
+msgstr "<b>திரைகளை அடையாளம் காணுதல்</b>"
+
+msgid "_Advanced"
+msgstr "மேம்பட்டவை (_A)"
+
+msgid "<b>Profile Name</b>"
+msgstr "<b>சுயவிவரப் பெயர்</b>"
 
 msgid "Create"
 msgstr "உருவாக்கு"
 
+msgid "A profile of this name already exists."
+msgstr "இந்தப் பெயரில் ஒரு சுயவிவரம் ஏற்கெனவே உள்ளது."
+
+msgid "Extend right"
+msgstr "வலப்பக்கம் நீட்டி"
+
+msgid "Extend left"
+msgstr "இடப்பக்கம் நீட்டி"
+
+msgid "Extend up"
+msgstr "மேலே நீட்டி"
+
+msgid "Extend down"
+msgstr "கீழே நீட்டி"
+
+msgid "Displays"
+msgstr "திரைகள்"
+
+msgid "Only Display 1"
+msgstr "திரை 1 மட்டும்"
+
+msgid "Mirror Displays"
+msgstr "திரைகளில் ஒரே காட்சி"
+
+msgid "Extend to the right"
+msgstr "வலப்பக்கத்துக்கு நீட்டி"
+
+msgid "Only Display 2"
+msgstr "திரை 2 மட்டும்"
+
+msgid "Update Display Profile"
+msgstr "திரைச் சுயவிவரத்தைப் புதுப்பி"
+
+msgid "_Update"
+msgstr "புதுப்பி (_U)"
+
+msgid "<big><b>You have made changes to your previously active profile</b></big>"
+msgstr "<big><b>முன்பு செயலில் இருந்த சுயவிவரத்தில் மாற்றங்கள் செய்துள்ளீர்கள்</b></big>"
+
+msgid "If you don't update the profile your changes will be lost upon restarting your session or disconnecting or connecting a display."
+msgstr "சுயவிவரத்தைப் புதுப்பிக்காவிட்டால், உங்கள் அமர்வை மறுதொடக்கம் செய்யும்போதோ ஒரு திரையைத் துண்டிக்கும்போதோ இணைக்கும்போதோ உங்கள் மாற்றங்கள் இழக்கப்படும்."
+
+msgid "Keyboard layout selection"
+msgstr "விசைப்பலகை வடிவமைப்புத் தேர்வு"
+
+msgid "Keyboard"
+msgstr "விசைப்பலகை"
+
+msgid "Restore num l_ock state on startup"
+msgstr "தொடக்கத்தில் எண் பூட்டு நிலையை மீட்டெடு (_O)"
+
 msgid "General"
 msgstr "பொது"
+
+msgid "_Enable key repeat"
+msgstr "விசை மீளலை இயக்கு (_E)"
+
+msgid "When selected, pressing and holding down a key emits the same character over and over again"
+msgstr "தேர்ந்தெடுத்தால், ஒரு விசையை அழுத்திப் பிடித்திருக்கும்போது அதே எழுத்து மீண்டும் மீண்டும் உருவாகும்"
+
+msgid "_Repeat delay:"
+msgstr "மீள் தாமதம்: (_R)"
+
+msgid "The time, in milliseconds, before a pressed key begins repeating"
+msgstr "அழுத்திய விசை மீளத் தொடங்கும் முன் ஆகும் நேரம் (மில்லிவிநாடிகளில்)"
+
+msgid "Repe_at speed:"
+msgstr "மீள் வேகம்: (_A)"
+
+msgid "The rate at which keystrokes are generated while a key is pressed"
+msgstr "ஒரு விசை அழுத்தப்பட்டிருக்கும்போது விசை அழுத்தங்கள் உருவாகும் வீதம்"
+
+msgid "Typing Settings"
+msgstr "தட்டச்சு அமைப்புகள்"
+
+msgid "Show _blinking"
+msgstr "மின்னுதலைக் காட்டு (_B)"
+
+msgid "Specify whether or not the text cursor blinks"
+msgstr "உரை இடஞ்சுட்டி மின்ன வேண்டுமா என்பதைக் குறிப்பிடு"
+
+msgid "Blink _delay:"
+msgstr "மின்னல் தாமதம்: (_D)"
+
+msgid "The delay, in milliseconds, between successive blinks of the cursor"
+msgstr "இடஞ்சுட்டியின் அடுத்தடுத்த மின்னல்களுக்கு இடையிலான தாமதம் (மில்லிவிநாடிகளில்)"
+
+msgid "Cursor"
+msgstr "இடஞ்சுட்டி"
+
+msgid "_Test area:"
+msgstr "சோதனைப் பகுதி: (_T)"
+
+msgid "Beha_vior"
+msgstr "நடத்தை (_V)"
+
+msgid "Define shortcuts for la_unching applications:"
+msgstr "செயலிகளைத் தொடங்குவதற்கான குறுக்குவழிகளை வரையறு: (_U)"
 
 msgid "_Edit"
 msgstr "திருத்து (_E)"
 
+msgid "Reset to _Defaults"
+msgstr "இயல்புநிலைகளுக்கு மீட்டமை (_D)"
+
+msgid "A_pplication Shortcuts"
+msgstr "செயலிக் குறுக்குவழிகள் (_P)"
+
+msgid "<b>Use system defaults</b>"
+msgstr "<b>கணினியின் இயல்புநிலைகளைப் பயன்படுத்து</b>"
+
+msgid "_Keyboard model"
+msgstr "விசைப்பலகை மாதிரி (_K)"
+
+msgid "Change la_yout option"
+msgstr "வடிவமைப்பை மாற்றும் விருப்பம் (_Y)"
+
+msgid "Co_mpose key"
+msgstr "தொகுப்பு விசை (_M)"
+
+msgid "Move currently selected item up by one row"
+msgstr "தற்போது தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை மேலே நகர்த்து"
+
+msgid "Move currently selected item down by one row"
+msgstr "தற்போது தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை கீழே நகர்த்து"
+
+msgid "Key_board layout"
+msgstr "விசைப்பலகை வடிவமைப்பு (_B)"
+
+msgid "_Layout"
+msgstr "வடிவமைப்பு (_L)"
+
+msgid "Use bottom areas as left, middle or right buttons"
+msgstr "கீழ்ப் பகுதிகளை இடது, நடு அல்லது வலது பொத்தான்களாகப் பயன்படுத்து"
+
+msgid "Click with 1, 2 or 3 fingers as a left, right, or middle click"
+msgstr "1, 2 அல்லது 3 விரல்களால் சொடுக்குவது இடது, வலது அல்லது நடுச் சொடுக்காகும்"
+
+msgid "Disabled"
+msgstr "முடக்கப்பட்டது"
+
+msgid "Edge scrolling"
+msgstr "விளிம்பு உருட்டல்"
+
+msgid "Two-finger scrolling"
+msgstr "இரு விரல் உருட்டல்"
+
+msgid "Circular scrolling"
+msgstr "வட்ட உருட்டல்"
+
+msgid "Pen (absolute)"
+msgstr "பேனா (முழுமை)"
+
+msgid "Mouse (relative)"
+msgstr "சுட்டி (சார்பு)"
+
+msgid "None (right-handed)"
+msgstr "ஏதுமில்லை (வலக்கைப் பழக்கம்)"
+
+msgid "Half (left-handed)"
+msgstr "பாதி (இடக்கைப் பழக்கம்)"
+
+msgid "Clockwise"
+msgstr "கடிகாரத் திசையில்"
+
+msgid "Counterclockwise"
+msgstr "கடிகார எதிர்த் திசையில்"
+
+msgid "Mouse and Touchpad"
+msgstr "சுட்டியும் தொடுதிட்டும்"
+
+msgid "De_vice:"
+msgstr "சாதனம்: (_V)"
+
+msgid "Le_ft-handed"
+msgstr "இடக்கைப் பழக்கம் (_F)"
+
+msgid "Ri_ght-handed"
+msgstr "வலக்கைப் பழக்கம் (_G)"
+
+msgid "Reverse scroll d_irection"
+msgstr "உருட்டும் திசையைத் தலைகீழாக்கு (_I)"
+
+msgid "When selected, the scroll wheel will work in the opposite direction"
+msgstr "தேர்ந்தெடுத்தால், உருள் சக்கரம் எதிர்த் திசையில் செயல்படும்"
+
+msgid "Allow high _resolution scrolling (experimental)"
+msgstr "உயர் தெளிவுத்திறன் உருட்டலை அனுமதி (சோதனை நிலை) (_R)"
+
+msgid "Only supported on some mice (mostly Logitech) and requires driver support. On supported devices makes scrolling more precise."
+msgstr "சில சுட்டிகளில் மட்டுமே (பெரும்பாலும் Logitech) ஆதரிக்கப்படும்; இயக்கி ஆதரவும் தேவை. ஆதரிக்கும் சாதனங்களில் உருட்டலை மேலும் துல்லியமாக்கும்."
+
+msgid "Buttons"
+msgstr "பொத்தான்கள்"
+
+msgid "_Reset to Defaults"
+msgstr "இயல்புநிலைகளுக்கு மீட்டமை (_R)"
+
+msgid "Set the acceleration and sensitivity for the selected device to the default values"
+msgstr "தேர்ந்தெடுத்த சாதனத்தின் முடுக்கத்தையும் உணர்திறனையும் இயல்புநிலை மதிப்புகளுக்கு அமை"
+
+msgid "Sensitivit_y:"
+msgstr "உணர்திறன்: (_Y)"
+
+msgid "Acceleratio_n:"
+msgstr "முடுக்கம்: (_N)"
+
+msgid "The factor at which the pointer's speed will increase as the mouse is moved"
+msgstr "சுட்டி நகர்த்தப்படும்போது சுட்டிக் குறியின் வேகம் அதிகரிக்கும் காரணி"
+
+msgid "The number of pixels the pointer must move in a short time before it starts accelerating"
+msgstr "முடுக்கம் தொடங்கும் முன் சுட்டிக் குறி குறுகிய நேரத்தில் நகர வேண்டிய படப்புள்ளிகளின் எண்ணிக்கை"
+
+msgid "Adaptive pointer acceleration"
+msgstr "தகவமைவுச் சுட்டி முடுக்கம்"
+
+msgid "Toggles between adaptive and flat acceleration profile. Adaptive takes the current speed of the device into account when deciding on acceleration. Custom acceleration profile is not supported via xfce4-settings."
+msgstr "தகவமைவு, சீரான முடுக்க விவரக்கோவைகளுக்கு இடையே மாற்றுகிறது. தகவமைவு முறை முடுக்கத்தைத் தீர்மானிக்கும்போது சாதனத்தின் தற்போதைய வேகத்தைக் கணக்கில் கொள்ளும். தனிப்பயன் முடுக்க விவரக்கோவை xfce4-settings வழியாக ஆதரிக்கப்படவில்லை."
+
+msgid "Pointer Speed"
+msgstr "சுட்டிக் குறி வேகம்"
+
+msgid "B_uttons and Feedback"
+msgstr "பொத்தான்களும் பின்னூட்டமும் (_U)"
+
+msgid "Disable touchpad _while typing"
+msgstr "தட்டச்சு செய்யும்போது தொடுதிண்டை முடக்கு (_W)"
+
+msgid "When selected, the touchpad will be disabled when the keyboard is being used"
+msgstr "தேர்ந்தெடுத்தால், விசைப்பலகை பயன்பாட்டில் இருக்கும்போது தொடுதிட்டு முடக்கப்படும்"
+
+msgid "Duratio_n:"
+msgstr "கால அளவு: (_N)"
+
+msgid "Tap touchpad to clic_k"
+msgstr "சொடுக்க தொடுதிண்டைத் தட்டு (_K)"
+
+msgid "Click m_ethod:"
+msgstr "சொடுக்கு முறை: (_E)"
+
+msgid "Scrolling _mode:"
+msgstr "உருட்டல் முறை: (_M)"
+
+msgid "Enable hori_zontal scrolling"
+msgstr "கிடைமட்ட உருட்டலை இயக்கு (_Z)"
+
+msgid "Scrolling"
+msgstr "உருட்டல்"
+
+msgid "T_ouchpad"
+msgstr "தொடுதிட்டு (_O)"
+
+msgid "Trac_king mode:"
+msgstr "தடமறி முறை: (_K)"
+
+msgid "_Rotation:"
+msgstr "சுழற்சி: (_R)"
+
+msgid "Tab_let"
+msgstr "வரைபட்டிகை (_L)"
+
 msgid "_Devices"
 msgstr "சாதனங்கள் (_D)"
 
+msgid "Th_reshold:"
+msgstr "வரம்பு: (_R)"
+
+msgid "The number of pixels the pointer must move before a drag operation will start"
+msgstr "இழுத்தல் செயல் தொடங்கும் முன் சுட்டிக் குறி நகர வேண்டிய படப்புள்ளிகளின் எண்ணிக்கை"
+
+msgid "Drag and Drop"
+msgstr "இழுத்து விடுதல்"
+
+msgid "Ti_me:"
+msgstr "நேரம்: (_M)"
+
+msgid "Two mouse clicks in less than this length of time (in milliseconds) will be considered a double click"
+msgstr "இந்த நேரத்துக்குள் (மில்லிவிநாடிகளில்) செய்யப்படும் இரண்டு சுட்டிச் சொடுக்குகள் இரட்டைச் சொடுக்காகக் கருதப்படும்"
+
+msgid "D_istance:"
+msgstr "தொலைவு: (_I)"
+
+msgid "The mouse pointer cannot move farther than this distance between two clicks for them to be considered a double click"
+msgstr "இரண்டு சொடுக்குகள் இரட்டைச் சொடுக்காகக் கருதப்பட, அவற்றுக்கு இடையே சுட்டிக் குறி இந்தத் தொலைவுக்கு மேல் நகரக்கூடாது"
+
+msgid "Double Click"
+msgstr "இரட்டைச் சொடுக்கு"
+
+msgid "_Behavior"
+msgstr "நடத்தை (_B)"
+
+msgid "Cursor si_ze:"
+msgstr "இடஞ்சுட்டி அளவு: (_Z)"
+
 msgid "Size"
 msgstr "அளவு"
+
+msgid "Preview"
+msgstr "முன்னோட்டம்"
+
+msgid "_Theme"
+msgstr "கருப்பொருள் (_T)"
 
 msgctxt "Monitor vendor"
 msgid "Unknown"
 msgstr "தெரியவில்லை"
 
+msgid "Monitor"
+msgstr "கணினித் திரை"
+
+msgid "Television"
+msgstr "தொலைக்காட்சி"
+
+msgid "Digital display"
+msgstr "எண்ணிமத் திரை"
+
+msgid "Unable to query the version of the RandR extension being used"
+msgstr "பயன்படுத்தப்படும் RandR நீட்சியின் பதிப்பைக் கண்டறிய முடியவில்லை"
+
+msgid "Laptop"
+msgstr "மடிக்கணினி"
+
+msgid "The Xfce development team. All rights reserved."
+msgstr "Xfce உருவாக்கக் குழு. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+
+msgid "Improve keyboard and mouse accessibility"
+msgstr "விசைப்பலகை, சுட்டி ஆகியவற்றின் அணுகல்தன்மையை மேம்படுத்து"
+
+msgid "Failed to display Xfwm4 Settings"
+msgstr "Xfwm4 அமைப்புகளைக் காட்ட முடியவில்லை"
+
+msgid "Warning: this icon theme has no cache file. You can create this by running <i>gtk-update-icon-cache -f -t %s/</i> in a terminal emulator."
+msgstr "எச்சரிக்கை: இந்தச் சின்னக் கருப்பொருளுக்குத் தேக்கக் கோப்பு இல்லை. முனைய முன்மாதிரியில் <i>gtk-update-icon-cache -f -t %s/</i> என்பதை இயக்கி அதை உருவாக்கலாம்."
+
+msgid "Warning: this icon theme is incomplete. Some icons will be missing."
+msgstr "எச்சரிக்கை: இந்தச் சின்னக் கருப்பொருள் முழுமையற்றது. சில சின்னங்கள் இல்லாமல் இருக்கும்."
+
+msgid "Warning: this icon theme is incomplete. It only provides a base set of icons from which other themes can inherit."
+msgstr "எச்சரிக்கை: இந்தச் சின்னக் கருப்பொருள் முழுமையற்றது. பிற கருப்பொருள்கள் மரபுரிமையாகப் பெறக்கூடிய அடிப்படைச் சின்னங்களை மட்டுமே இது வழங்குகிறது."
+
+msgid "File is too large, installation aborted"
+msgstr "கோப்பு மிகப் பெரியது, நிறுவல் கைவிடப்பட்டது"
+
+msgid "Failed to create temporary directory"
+msgstr "தற்காலிகக் கோப்பகத்தை உருவாக்க முடியவில்லை"
+
+msgid "Failed to extract archive"
+msgstr "காப்பகத்தைப் பிரித்தெடுக்க முடியவில்லை"
+
+msgid "Unknown format, only archives and directories are supported"
+msgstr "தெரியாத வடிவம்; காப்பகங்களும் கோப்பகங்களும் மட்டுமே ஆதரிக்கப்படுகின்றன"
+
+msgid "Not a valid theme package"
+msgstr "செல்லுபடியான கருப்பொருள் தொகுப்பு அல்ல"
+
+msgid "An unknown error, exit code is %d"
+msgstr "தெரியாத பிழை, வெளியேறும் குறியீடு %d"
+
+msgid "Failed to install theme"
+msgstr "கருப்பொருளை நிறுவ முடியவில்லை"
+
+msgid "Install %s theme"
+msgstr "%s கருப்பொருளை நிறுவு"
+
 msgid "_Open"
 msgstr "திற (_O)"
 
+msgid "Vertical RGB"
+msgstr "செங்குத்து RGB"
+
+msgid "Vertical BGR"
+msgstr "செங்குத்து BGR"
+
+msgid "Customize the look of your desktop"
+msgstr "உங்கள் மேசைத்தளத்தின் தோற்றத்தைத் தனிப்பயனாக்கு"
+
+msgid "Scanner"
+msgstr "வருடி"
+
+msgid "Camera"
+msgstr "படக்கருவி"
+
+msgid "Printer"
+msgstr "அச்சுப்பொறி"
+
+msgid "Webcam"
+msgstr "இணையப் படக்கருவி"
+
+msgid "Laptop Screen"
+msgstr "மடிக்கணினித் திரை"
+
+msgid "Built-in Webcam"
+msgstr "உள்ளமைந்த இணையப் படக்கருவி"
+
+msgid "Enable color management for %s"
+msgstr "%s க்கு வண்ண மேலாண்மையை இயக்கு"
+
+msgid "Standard Space"
+msgstr "நிலையான வெளி"
+
+msgid "Test Profile"
+msgstr "சோதனைச் சுயவிவரம்"
+
+msgctxt "Automatically generated profile"
+msgid "Automatic"
+msgstr "தானியங்கி"
+
+msgctxt "Profile quality"
+msgid "Low Quality"
+msgstr "குறைந்த தரம்"
+
+msgctxt "Profile quality"
+msgid "Medium Quality"
+msgstr "நடுத்தரத் தரம்"
+
+msgctxt "Profile quality"
+msgid "High Quality"
+msgstr "உயர் தரம்"
+
+msgctxt "Colorspace fallback"
+msgid "Default RGB"
+msgstr "இயல்புநிலை RGB"
+
+msgctxt "Colorspace fallback"
+msgid "Default CMYK"
+msgstr "இயல்புநிலை CMYK"
+
+msgctxt "Colorspace fallback"
+msgid "Default Gray"
+msgstr "இயல்புநிலை சாம்பல்"
+
+msgid "Select ICC Profile File"
+msgstr "ICC சுயவிவரக் கோப்பைத் தேர்ந்தெடு"
+
+msgid "_Import"
+msgstr "இறக்குமதி செய் (_I)"
+
+msgid "Supported ICC profiles"
+msgstr "ஆதரிக்கப்படும் ICC சுயவிவரங்கள்"
+
+msgid "All files"
+msgstr "அனைத்துக் கோப்புகளும்"
+
+msgid "Default: "
+msgstr "இயல்புநிலை:"
+
+msgid "Colorspace: "
+msgstr "வண்ணவெளி:"
+
+msgid "Test profile: "
+msgstr "சோதனைச் சுயவிவரம்:"
+
+msgid "Compatible Profiles"
+msgstr "பொருந்தும் சுயவிவரங்கள்"
+
+msgid "Add Color Profile to %s"
+msgstr "%s க்கு வண்ணச் சுயவிவரத்தைச் சேர்"
+
+msgid "Device"
+msgstr "சாதனம்"
+
 msgid "Unknown"
 msgstr "தெரியவில்லை"
+
+msgid "Set color profiles"
+msgstr "வண்ணச் சுயவிவரங்களை அமை"
+
+msgid "Only %s (1)"
+msgstr "%s மட்டும் (1)"
+
+msgid "Only %s (2)"
+msgstr "%s மட்டும் (2)"
+
+msgid "Left"
+msgstr "இடது"
+
+msgid "Inverted"
+msgstr "தலைகீழ்"
+
+msgid "Right"
+msgstr "வலது"
+
+msgid "Horizontal"
+msgstr "கிடைமட்டம்"
+
+msgid "Vertical"
+msgstr "செங்குத்து"
+
+msgid "Horizontal and Vertical"
+msgstr "கிடைமட்டமும் செங்குத்தும்"
+
+msgid "The previous configuration will be restored in <b>%i seconds</b> if you do not reply to this question."
+msgstr "இந்தக் கேள்விக்கு நீங்கள் பதிலளிக்காவிட்டால், முந்தைய உள்ளமைவு <b>%i விநாடிகளில்</b> மீட்டெடுக்கப்படும்."
+
+msgid "The last active output must not be disabled, the system would be unusable."
+msgstr "கடைசியாகச் செயலில் உள்ள வெளியீட்டை முடக்கக்கூடாது; முடக்கினால் கணினியைப் பயன்படுத்த இயலாது."
+
+msgid "Selected output not disabled"
+msgstr "தேர்ந்தெடுத்த வெளியீடு முடக்கப்படவில்லை"
+
+msgid "Do you want to delete the display profile '%s'?"
+msgstr "'%s' திரைச் சுயவிவரத்தை நீக்க வேண்டுமா?"
+
+msgid "Delete Profile"
+msgstr "சுயவிவரத்தை நீக்கு"
+
+msgid "Once a display profile is deleted it cannot be restored."
+msgstr "ஒரு திரைச் சுயவிவரம் நீக்கப்பட்டால் அதை மீட்டெடுக்க இயலாது."
 
 msgid "Cancel"
 msgstr "ரத்துசெய்"
@@ -71,26 +972,481 @@ msgstr "ரத்துசெய்"
 msgid "Delete"
 msgstr "நீக்கு"
 
+msgid "%d Xfce Panel"
+msgid_plural "%d Xfce Panels"
+msgstr[0] "%d Xfce பலகம்"
+msgstr[1] "%d Xfce பலகங்கள்"
+
+msgid "Select a monitor to change its properties; drag it to rearrange its placement."
+msgstr "ஒரு திரையின் பண்புகளை மாற்ற அதைத் தேர்ந்தெடுங்கள்; அதன் இடத்தை மாற்ற இழுங்கள்."
+
+msgid "Mirror Screens"
+msgstr "திரைகளில் ஒரே காட்சி"
+
+msgid "(Disabled)"
+msgstr "(முடக்கப்பட்டது)"
+
+msgid "ATI Settings"
+msgstr "ATI அமைப்புகள்"
+
+msgid "Unable to start the Xfce Display Settings"
+msgstr "Xfce திரை அமைப்புகளைத் தொடங்க முடியவில்லை"
+
+msgid "Unable to launch the proprietary driver settings"
+msgstr "தனியுரிம இயக்கியின் அமைப்புகளைத் தொடங்க முடியவில்லை"
+
+msgid "Configure screen settings and layout"
+msgstr "திரை அமைப்புகளையும் தளவமைப்பையும் உள்ளமை"
+
+msgid "Display:"
+msgstr "திரை:"
+
+msgid "Resolution:"
+msgstr "தெளிவுத்திறன்:"
+
+msgid "Your compositor does not seem to support the wlr-output-management protocol"
+msgstr "உங்கள் கூட்டிணைப்பி wlr-output-management நெறிமுறையை ஆதரிப்பதாகத் தெரியவில்லை"
+
+msgid "Shortcut Command"
+msgstr "குறுக்குவழிக் கட்டளை"
+
+msgid "Enter the command you want to trigger with a shortcut."
+msgstr "குறுக்குவழி மூலம் இயக்க விரும்பும் கட்டளையை உள்ளிடுங்கள்."
+
+msgid "Shortcut:"
+msgstr "குறுக்குவழி:"
+
+msgid "Comm_and:"
+msgstr "கட்டளை: (_A)"
+
+msgid "Use _startup notification"
+msgstr "தொடக்க அறிவிப்பைப் பயன்படுத்து (_S)"
+
+msgid "The command may not be empty."
+msgstr "கட்டளை வெறுமையாக இருக்கக்கூடாது."
+
+msgid "Select command"
+msgstr "கட்டளையைத் தேர்ந்தெடு"
+
+msgid "All Files"
+msgstr "அனைத்துக் கோப்புகளும்"
+
+msgid "Executable Files"
+msgstr "இயக்கக்கூடிய கோப்புகள்"
+
+msgid "Perl Scripts"
+msgstr "Perl நிரல்கள்"
+
+msgid "Python Scripts"
+msgstr "Python நிரல்கள்"
+
+msgid "Ruby Scripts"
+msgstr "Ruby நிரல்கள்"
+
+msgid "Shell Scripts"
+msgstr "Shell நிரல்கள்"
+
+msgid "Failed to connect to xfconf daemon. Reason: %s"
+msgstr "xfconf பின்னணிச் சேவையுடன் இணைக்க முடியவில்லை. காரணம்: %s"
+
+msgid "Could not create the settings dialog."
+msgstr "அமைப்புகள் உரையாடல் பெட்டியை உருவாக்க முடியவில்லை."
+
+msgid "Command"
+msgstr "கட்டளை"
+
+msgid "Shortcut"
+msgstr "குறுக்குவழி"
+
+msgid "Layout"
+msgstr "வடிவமைப்பு"
+
+msgid "Variant"
+msgstr "மாறுபாடு"
+
+msgid "This will reset all shortcuts to their default values. Do you really want to do this?"
+msgstr "இது அனைத்துக் குறுக்குவழிகளையும் அவற்றின் இயல்புநிலை மதிப்புகளுக்கு மீட்டமைக்கும். உறுதியாக இதைச் செய்ய வேண்டுமா?"
+
+msgid "Reset to Defaults"
+msgstr "இயல்புநிலைகளுக்கு மீட்டமை"
+
 msgid "No"
 msgstr "இல்லை"
 
 msgid "Yes"
 msgstr "ஆம்"
 
+msgid "The system defaults will be restored next time you log in."
+msgstr "அடுத்த முறை நீங்கள் உள்நுழையும்போது கணினியின் இயல்புநிலைகள் மீட்டெடுக்கப்படும்."
+
 msgid "Warning"
 msgstr "எச்சரிக்கை"
+
+msgid "Edit keyboard settings and application shortcuts"
+msgstr "விசைப்பலகை அமைப்புகளையும் செயலிக் குறுக்குவழிகளையும் திருத்து"
+
+msgid "Could not create the mime dialog."
+msgstr "MIME உரையாடல் பெட்டியை உருவாக்க முடியவில்லை."
+
+msgid "Select Application"
+msgstr "செயலியைத் தேர்ந்தெடு"
 
 msgid "Open"
 msgstr "திற"
 
+msgid "Use a c_ustom command:"
+msgstr "தனிப்பயன் கட்டளையைப் பயன்படுத்து: (_U)"
+
+msgid "Use a custom command for an application that is not available from the above application list."
+msgstr "மேலே உள்ள செயலிப் பட்டியலில் இல்லாத ஒரு செயலிக்குத் தனிப்பயன் கட்டளையைப் பயன்படுத்து."
+
+msgid "_Browse..."
+msgstr "உலாவு (_B)..."
+
+msgid "Select an Application"
+msgstr "ஒரு செயலியைத் தேர்ந்தெடு"
+
+msgid "None available"
+msgstr "எதுவும் கிடைக்கவில்லை"
+
+msgid "Recommended Applications"
+msgstr "பரிந்துரைக்கப்படும் செயலிகள்"
+
+msgid "Other Applications"
+msgstr "பிற செயலிகள்"
+
+msgid "Open <i>%s</i> and other files of type \"%s\" with:"
+msgstr "<i>%s</i>, \"%s\" வகையின் பிற கோப்புகள் ஆகியவற்றை இதனுடன் திற:"
+
+msgid "Open <i>%s</i>, other files of type \"%s\", and %d other selected MIME type with:"
+msgid_plural "Open <i>%s</i>, other files of type \"%s\", and %d other selected MIME types with:"
+msgstr[0] "<i>%s</i>, \"%s\" வகையின் பிற கோப்புகள், தேர்ந்தெடுத்த வேறு %d MIME வகை ஆகியவற்றை இதனுடன் திற:"
+msgstr[1] "<i>%s</i>, \"%s\" வகையின் பிற கோப்புகள், தேர்ந்தெடுத்த வேறு %d MIME வகைகள் ஆகியவற்றை இதனுடன் திற:"
+
+msgid "Failed to add new application \"%s\""
+msgstr "புதிய செயலி \"%s\" ஐச் சேர்க்க முடியவில்லை"
+
+msgid "Press left mouse button to change the selected application."
+msgstr "தேர்ந்தெடுத்த செயலியை மாற்ற இடது சுட்டிப் பொத்தானை அழுத்துங்கள்."
+
+msgid "Application Chooser Button"
+msgstr "செயலித் தேர்வுப் பொத்தான்"
+
+msgid "No application selected"
+msgstr "செயலி எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+msgid "Failed to set default Web Browser"
+msgstr "இயல்புநிலை இணைய உலாவியை அமைக்க முடியவில்லை"
+
+msgid "Failed to set default Mail Reader"
+msgstr "இயல்புநிலை மின்னஞ்சல் படிப்பானை அமைக்க முடியவில்லை"
+
+msgid "Failed to set default File Manager"
+msgstr "இயல்புநிலை கோப்பு மேலாளரை அமைக்க முடியவில்லை"
+
+msgid "Failed to set default Terminal Emulator"
+msgstr "இயல்புநிலை முனைய முன்மாதிரியை அமைக்க முடியவில்லை"
+
+msgid "Select application"
+msgstr "செயலியைத் தேர்ந்தெடு"
+
+msgid "Choose a custom Web Browser"
+msgstr "தனிப்பயன் இணைய உலாவியைத் தேர்ந்தெடு"
+
+msgid "Choose a custom Mail Reader"
+msgstr "தனிப்பயன் மின்னஞ்சல் படிப்பானைத் தேர்ந்தெடு"
+
+msgid "Choose a custom File Manager"
+msgstr "தனிப்பயன் கோப்பு மேலாளரைத் தேர்ந்தெடு"
+
+msgid "Choose a custom Terminal Emulator"
+msgstr "தனிப்பயன் முனைய முன்மாதிரியைத் தேர்ந்தெடு"
+
+msgid "Specify the application you want to use\nas default Web Browser for Xfce:"
+msgstr "Xfce க்கான இயல்புநிலை இணைய உலாவியாகப்\nபயன்படுத்த விரும்பும் செயலியைக் குறிப்பிடுங்கள்:"
+
+msgid "Specify the application you want to use\nas default Mail Reader for Xfce:"
+msgstr "Xfce க்கான இயல்புநிலை மின்னஞ்சல் படிப்பானாகப்\nபயன்படுத்த விரும்பும் செயலியைக் குறிப்பிடுங்கள்:"
+
+msgid "Specify the application you want to use\nas default File Manager for Xfce:"
+msgstr "Xfce க்கான இயல்புநிலை கோப்பு மேலாளராகப்\nபயன்படுத்த விரும்பும் செயலியைக் குறிப்பிடுங்கள்:"
+
+msgid "Specify the application you want to use\nas default Terminal Emulator for Xfce:"
+msgstr "Xfce க்கான இயல்புநிலை முனைய முன்மாதிரியாகப்\nபயன்படுத்த விரும்பும் செயலியைக் குறிப்பிடுங்கள்:"
+
+msgid "Browse the file system to choose a custom command."
+msgstr "தனிப்பயன் கட்டளையைத் தேர்ந்தெடுக்கக் கோப்பு முறைமையில் உலாவு."
+
+msgid "_Other..."
+msgstr "பிற (_O)..."
+
+msgid "Use a custom application which is not included in the above list."
+msgstr "மேலே உள்ள பட்டியலில் இல்லாத ஒரு தனிப்பயன் செயலியைப் பயன்படுத்து."
+
+msgid "Choose Preferred Application"
+msgstr "விருப்பச் செயலியைத் தேர்ந்தெடு"
+
+msgid "Please choose your preferred Web\nBrowser now and click OK to proceed."
+msgstr "உங்கள் விருப்ப இணைய உலாவியை இப்போது\nதேர்ந்தெடுத்துத் தொடர சரி என்பதைச் சொடுக்குங்கள்."
+
+msgid "Please choose your preferred Mail Reader\nnow and click OK to proceed."
+msgstr "உங்கள் விருப்ப மின்னஞ்சல் படிப்பானை இப்போது\nதேர்ந்தெடுத்துத் தொடர சரி என்பதைச் சொடுக்குங்கள்."
+
+msgid "Please choose your preferred File Manager\nnow and click OK to proceed."
+msgstr "உங்கள் விருப்பக் கோப்பு மேலாளரை இப்போது\nதேர்ந்தெடுத்துத் தொடர சரி என்பதைச் சொடுக்குங்கள்."
+
+msgid "Please choose your preferred Terminal\nEmulator now and click OK to proceed."
+msgstr "உங்கள் விருப்ப முனைய முன்மாதிரியை இப்போது\nதேர்ந்தெடுத்துத் தொடர சரி என்பதைச் சொடுக்குங்கள்."
+
+msgid "Failed to execute default Web Browser"
+msgstr "இயல்புநிலை இணைய உலாவியை இயக்க முடியவில்லை"
+
+msgid "Failed to execute default Mail Reader"
+msgstr "இயல்புநிலை மின்னஞ்சல் படிப்பானை இயக்க முடியவில்லை"
+
+msgid "Failed to execute default File Manager"
+msgstr "இயல்புநிலை கோப்பு மேலாளரை இயக்க முடியவில்லை"
+
+msgid "Failed to execute default Terminal Emulator"
+msgstr "இயல்புநிலை முனைய முன்மாதிரியை இயக்க முடியவில்லை"
+
+msgid "Do _not show this message again"
+msgstr "இந்தச் செய்தியை மீண்டும் காட்டாதே (_N)"
+
+msgid "No helper defined for \"%s\"."
+msgstr "\"%s\" க்கு உதவி நிரல் எதுவும் வரையறுக்கப்படவில்லை."
+
+msgid "Failed to open %s for writing"
+msgstr "%s ஐ எழுதுவதற்குத் திறக்க முடியவில்லை"
+
+msgid "Default Applications"
+msgstr "இயல்புநிலைச் செயலிகள்"
+
+msgid "_Internet"
+msgstr "இணையம் (_I)"
+
+msgid "Web Browser"
+msgstr "இணைய உலாவி"
+
+msgid "The default Web Browser will be used to open hyperlinks and display help contents."
+msgstr "மீத்தொடுப்புகளைத் திறக்கவும் உதவி உள்ளடக்கத்தைக் காட்டவும் இயல்புநிலை இணைய உலாவி பயன்படுத்தப்படும்."
+
+msgid "Mail Reader"
+msgstr "மின்னஞ்சல் படிப்பான்"
+
+msgid "The default Mail Reader will be used to compose emails when you click on email addresses."
+msgstr "மின்னஞ்சல் முகவரிகளைச் சொடுக்கும்போது மின்னஞ்சல்களை எழுத இயல்புநிலை மின்னஞ்சல் படிப்பான் பயன்படுத்தப்படும்."
+
+msgid "_Utilities"
+msgstr "பயன்கருவிகள் (_U)"
+
+msgid "File Manager"
+msgstr "கோப்பு மேலாளர்"
+
+msgid "The default File Manager will be used to browse the contents of folders."
+msgstr "கோப்புறைகளின் உள்ளடக்கத்தில் உலாவ இயல்புநிலை கோப்பு மேலாளர் பயன்படுத்தப்படும்."
+
+msgid "Terminal Emulator"
+msgstr "முனைய முன்மாதிரி"
+
+msgid "The default Terminal Emulator will be used to run commands that require a CLI environment."
+msgstr "கட்டளை வரிச் சூழல் தேவைப்படும் கட்டளைகளை இயக்க இயல்புநிலை முனைய முன்மாதிரி பயன்படுத்தப்படும்."
+
+msgid "_Others"
+msgstr "பிறவை (_O)"
+
+msgid "_Filter:"
+msgstr "வடிகட்டி: (_F)"
+
+msgid "Clear filter"
+msgstr "வடிகட்டியை அழி"
+
+msgid "Open with..."
+msgstr "இதனுடன் திற..."
+
+msgid "MIME Type"
+msgstr "MIME வகை"
+
+msgid "Status"
+msgstr "நிலை"
+
+msgid "Default Application"
+msgstr "இயல்புநிலைச் செயலி"
+
+msgid "User Set"
+msgstr "பயனர் அமைத்தது"
+
 msgid "Default"
 msgstr "இயல்புநிலை"
+
+msgid "%d MIME type found"
+msgid_plural "%d MIME types found"
+msgstr[0] "%d MIME வகை கண்டறியப்பட்டது"
+msgstr[1] "%d MIME வகைகள் கண்டறியப்பட்டன"
+
+msgid "Failed to set application \"%s\" for mime type \"%s\"."
+msgstr "\"%s\" செயலியை \"%s\" MIME வகைக்கு அமைக்க முடியவில்லை."
+
+msgid "%d MIME type selected"
+msgid_plural "%d MIME types selected"
+msgstr[0] "%d MIME வகை தேர்ந்தெடுக்கப்பட்டது"
+msgstr[1] "%d MIME வகைகள் தேர்ந்தெடுக்கப்பட்டன"
+
+msgid "This will remove your custom mime-association and restore the system-wide default."
+msgstr "இது உங்கள் தனிப்பயன் MIME இணைப்பை அகற்றிக் கணினி முழுவதற்குமான இயல்புநிலையை மீட்டெடுக்கும்."
+
+msgid "Are you sure you want to reset content type \"%s\" to its default value?"
+msgstr "\"%s\" உள்ளடக்க வகையை அதன் இயல்புநிலை மதிப்புக்கு உறுதியாக மீட்டமைக்க வேண்டுமா?"
+
+msgid "Question"
+msgstr "கேள்வி"
+
+msgid "Reset to Default"
+msgstr "இயல்புநிலைக்கு மீட்டமை"
+
+msgid "Choose Application..."
+msgstr "செயலியைத் தேர்ந்தெடு..."
+
+msgid "Associate preferred applications with MIME types"
+msgstr "விருப்பச் செயலிகளை MIME வகைகளுடன் இணை"
+
+msgid "Browse the file system"
+msgstr "கோப்பு முறைமையில் உலாவு"
+
+msgid "Read your email"
+msgstr "உங்கள் மின்னஞ்சலைப் படி"
+
+msgid "Use the command line"
+msgstr "கட்டளை வரியைப் பயன்படுத்து"
+
+msgid "Browse the web"
+msgstr "இணையத்தில் உலாவு"
+
+msgid "Caja File Manager"
+msgstr "Caja கோப்பு மேலாளர்"
+
+msgid "Debian Sensible Browser"
+msgstr "Debian Sensible உலாவி"
+
+msgid "Debian X Terminal Emulator"
+msgstr "Debian X முனைய முன்மாதிரி"
+
+msgid "Epiphany Web Browser"
+msgstr "Epiphany இணைய உலாவி"
+
+msgid "Enlightened Terminal Emulator"
+msgstr "Enlightened முனைய முன்மாதிரி"
+
+msgid "Galeon Web Browser"
+msgstr "Galeon இணைய உலாவி"
+
+msgid "GNOME Terminal"
+msgstr "GNOME முனையம்"
+
+msgid "Konqueror Web Browser"
+msgstr "Konqueror இணைய உலாவி"
+
+msgid "Links Text Browser"
+msgstr "Links உரை உலாவி"
+
+msgid "Lynx Text Browser"
+msgstr "Lynx உரை உலாவி"
+
+msgid "Mozilla Browser"
+msgstr "Mozilla உலாவி"
+
+msgid "Mozilla Mail"
+msgstr "Mozilla அஞ்சல்"
+
+msgid "Opera Browser"
+msgstr "Opera உலாவி"
+
+msgid "PCMan File Manager"
+msgstr "PCMan கோப்பு மேலாளர்"
+
+msgid "PCManFM-Qt File Manager"
+msgstr "PCManFM-Qt கோப்பு மேலாளர்"
+
+msgid "Rodent File Manager"
+msgstr "Rodent கோப்பு மேலாளர்"
+
+msgid "W3M Text Browser"
+msgstr "W3M உரை உலாவி"
+
+msgid "Xfce Terminal"
+msgstr "Xfce முனையம்"
+
+msgid "Xfe File Manager"
+msgstr "Xfe கோப்பு மேலாளர்"
+
+msgid "X Terminal"
+msgstr "X முனையம்"
+
+msgid "Configure pointer device behavior and appearance"
+msgstr "சுட்டிச் சாதனத்தின் நடத்தையையும் தோற்றத்தையும் உள்ளமை"
+
+msgid "Settings Editor"
+msgstr "அமைப்புகள் திருத்தி"
+
+msgid "Channel"
+msgstr "அலைவரிசை"
+
+msgid "Property"
+msgstr "பண்பு"
 
 msgid "Type"
 msgstr "வகை"
 
+msgid "Locked"
+msgstr "பூட்டப்பட்டது"
+
+msgid "Value"
+msgstr "மதிப்பு"
+
+msgid "New property"
+msgstr "புதிய பண்பு"
+
+msgid "Edit selected property"
+msgstr "தேர்ந்தெடுத்த பண்பைத் திருத்து"
+
 msgid "_Reset"
 msgstr "மீட்டமை (_R)"
+
+msgid "Reset selected property"
+msgstr "தேர்ந்தெடுத்த பண்பை மீட்டமை"
+
+msgid "Empty"
+msgstr "வெறுமை"
+
+msgid "Array"
+msgstr "அணி"
+
+msgid "String"
+msgstr "சரம்"
+
+msgid "Integer"
+msgstr "முழு எண்"
+
+msgid "Boolean"
+msgstr "பூலியன்"
+
+msgid "Double"
+msgstr "இரட்டைத் துல்லிய எண்"
+
+msgid "Resetting a channel will permanently remove those custom settings."
+msgstr "ஓர் அலைவரிசையை மீட்டமைத்தால் அந்தத் தனிப்பயன் அமைப்புகள் நிரந்தரமாக அகற்றப்படும்."
+
+msgid "_Reset Channel"
+msgstr "அலைவரிசையை மீட்டமை (_R)"
+
+msgid "Are you sure you want to reset channel \"%s\" and all its properties?"
+msgstr "\"%s\" அலைவரிசையையும் அதன் அனைத்துப் பண்புகளையும் உறுதியாக மீட்டமைக்க வேண்டுமா?"
+
+msgid "reset"
+msgstr "மீட்டமைக்கப்பட்டது"
+
+msgid "Monitor %s"
+msgstr "%s ஐக் கண்காணி"
 
 msgid "Clear"
 msgstr "அழி"
@@ -98,8 +1454,116 @@ msgstr "அழி"
 msgid "Close"
 msgstr "மூடு"
 
+msgid "start monitoring channel \"%s\""
+msgstr "\"%s\" அலைவரிசையைக் கண்காணிக்கத் தொடங்கியது"
+
+msgid "_Monitor"
+msgstr "கணினித் திரை (_M)"
+
+msgid "Refresh"
+msgstr "புதுப்பி"
+
+msgid "Resetting a property will permanently remove those custom settings."
+msgstr "ஒரு பண்பை மீட்டமைத்தால் அந்தத் தனிப்பயன் அமைப்புகள் நிரந்தரமாக அகற்றப்படும்."
+
+msgid "Are you sure you want to reset property \"%s\"?"
+msgstr "\"%s\" பண்பை உறுதியாக மீட்டமைக்க வேண்டுமா?"
+
+msgid "Int"
+msgstr "முழு எண்"
+
+msgid "Unsigned Int"
+msgstr "குறியற்ற முழு எண்"
+
+msgid "Unsigned Int64"
+msgstr "குறியற்ற Int64"
+
+msgid "New Property"
+msgstr "புதிய பண்பு"
+
 msgid "Save"
 msgstr "சேமி"
 
+msgid "_Property:"
+msgstr "பண்பு: (_P)"
+
+msgid "_Type:"
+msgstr "வகை: (_T)"
+
+msgid "_Value:"
+msgstr "மதிப்பு: (_V)"
+
+msgid "Property names must start with a '/' character"
+msgstr "பண்புப் பெயர்கள் '/' எழுத்துடன் தொடங்க வேண்டும்"
+
+msgid "The root element ('/') is not a valid property name"
+msgstr "மூல உறுப்பு ('/') செல்லுபடியான பண்புப் பெயர் அல்ல"
+
+msgid "Property names can only include the ASCII characters A-Z, a-z, 0-9, '_', '-', ':', '.', ',', '[', ']', '{', '}', '<' and '>', as well as '/' as a separator"
+msgstr "பண்புப் பெயர்களில் A-Z, a-z, 0-9, '_', '-', ':', '.', ',', '[', ']', '{', '}', '<', '>' ஆகிய ASCII எழுத்துகளும், பிரிப்பானாக '/' உம் மட்டுமே இருக்கலாம்"
+
+msgid "Property names cannot have two or more consecutive '/' characters"
+msgstr "பண்புப் பெயர்களில் இரண்டு அல்லது அதற்கு மேற்பட்ட '/' எழுத்துகள் அடுத்தடுத்து இருக்கக்கூடாது"
+
+msgid "Property names cannot end with a '/' character"
+msgstr "பண்புப் பெயர்கள் '/' எழுத்துடன் முடியக்கூடாது"
+
+msgid "Edit Property"
+msgstr "பண்பைத் திருத்து"
+
+msgid "Graphical settings editor for Xfconf"
+msgstr "Xfconf க்கான வரைகலை அமைப்புகள் திருத்தி"
+
+msgid "All _Settings"
+msgstr "அனைத்து அமைப்புகளும் (_S)"
+
 msgid "Settings"
 msgstr "அமைப்புகள்"
+
+msgid "Unable to start \"%s\""
+msgstr "\"%s\" ஐத் தொடங்க முடியவில்லை"
+
+msgid "Settings Manager"
+msgstr "அமைப்புகள் மேலாளர்"
+
+msgid "Graphical Settings Manager for Xfce"
+msgstr "Xfce க்கான வரைகலை அமைப்புகள் மேலாளர்"
+
+msgid "Sticky keys are enabled"
+msgstr "ஒட்டும் விசைகள் இயக்கப்பட்டன"
+
+msgid "Sticky keys are disabled"
+msgstr "ஒட்டும் விசைகள் முடக்கப்பட்டன"
+
+msgid "Sticky keys"
+msgstr "ஒட்டும் விசைகள்"
+
+msgid "Slow keys are enabled"
+msgstr "மெது விசைகள் இயக்கப்பட்டன"
+
+msgid "Slow keys are disabled"
+msgstr "மெது விசைகள் முடக்கப்பட்டன"
+
+msgid "Slow keys"
+msgstr "மெது விசைகள்"
+
+msgid "Bounce keys are enabled"
+msgstr "துள்ளல் விசைகள் இயக்கப்பட்டன"
+
+msgid "Bounce keys are disabled"
+msgstr "துள்ளல் விசைகள் முடக்கப்பட்டன"
+
+msgid "Bounce keys"
+msgstr "துள்ளல் விசைகள்"
+
+msgid "Failed to launch shortcut \"%s\""
+msgstr "\"%s\" குறுக்குவழியைத் தொடங்க முடியவில்லை"
+
+msgid "Workspace %d"
+msgstr "பணியிடம் %d"
+
+msgid "Xfce Settings Daemon"
+msgstr "Xfce அமைப்புகள் பின்னணிச் சேவை"
+
+msgid "The Xfce Settings Daemon"
+msgstr "Xfce அமைப்புகள் பின்னணிச் சேவை"

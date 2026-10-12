@@ -1,5 +1,5 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "_Open"
 msgstr "திற (_O)"
@@ -7,8 +7,39 @@ msgstr "திற (_O)"
 msgid "_Execute"
 msgstr "இயக்கு (_E)"
 
+msgid "Edit _Launcher"
+msgstr "தொடக்கியைத் திருத்து (_L)"
+
+msgid "Edit the selected launcher"
+msgstr "தேர்ந்தெடுத்த தொடக்கியைத் திருத்து"
+
+msgid "Open in new _Tab"
+msgid_plural "Open in %d New _Tabs"
+msgstr[0] "புதிய தாவலில் திற (_T)"
+msgstr[1] "%d புதிய தாவல்களில் திற (_T)"
+
+msgid "Open in new _Window"
+msgid_plural "Open in %d New _Windows"
+msgstr[0] "புதிய சாளரத்தில் திற (_W)"
+msgstr[1] "%d புதிய சாளரங்களில் திற (_W)"
+
+msgid "Open Item _Location"
+msgstr "உருப்படியின் இருப்பிடத்தைத் திற (_L)"
+
+msgid "Navigate to the folder in which the selected file is located"
+msgstr "தேர்ந்தெடுத்த கோப்பு உள்ள கோப்புறைக்குச் செல்"
+
 msgid "Ope_n With Other Application..."
 msgstr "வேறு செயலியுடன் திற (_N)..."
+
+msgid "Choose another application with which to open the selected file"
+msgstr "தேர்ந்தெடுத்த கோப்பைத் திறக்க வேறு செயலியைத் தேர்ந்தெடு"
+
+msgid "Set Defa_ult Application..."
+msgstr "இயல்புநிலைச் செயலியை அமை (_U)..."
+
+msgid "Choose an application which should be used by default to open the selected file"
+msgstr "தேர்ந்தெடுத்த கோப்பைத் திறக்க இயல்பாகப் பயன்படுத்த வேண்டிய செயலியைத் தேர்ந்தெடு"
 
 msgid "_Send To"
 msgstr "இதற்கு அனுப்பு (_S)"
@@ -16,8 +47,22 @@ msgstr "இதற்கு அனுப்பு (_S)"
 msgid "_Add Bookmark"
 msgstr "புத்தகக்குறி சேர் (_A)"
 
+msgid "Create bookmarks for all selected folders. If nothing is selected, the current folder is bookmarked."
+msgstr "தேர்ந்தெடுத்த அனைத்துக் கோப்புறைகளுக்கும் புத்தகக்குறிகளை உருவாக்கு. எதுவும் தேர்ந்தெடுக்கப்படவில்லை எனில், நடப்புக் கோப்புறைக்குப் புத்தகக்குறி இடப்படும்."
+
+msgid "Send to _Desktop"
+msgstr "மேசைத்தளத்துக்கு அனுப்பு (_D)"
+
 msgid "_Properties..."
 msgstr "பண்புகள் (_P)..."
+
+msgid "View the properties of the selected file"
+msgstr "தேர்ந்தெடுத்த கோப்பின் பண்புகளைக் காட்டு"
+
+msgid "Ma_ke Link"
+msgid_plural "Ma_ke Links"
+msgstr[0] "இணைப்பு உருவாக்கு (_K)"
+msgstr[1] "இணைப்புகள் உருவாக்கு (_K)"
 
 msgid "Dup_licate"
 msgstr "நகல் உருவாக்கு (_L)"
@@ -28,14 +73,32 @@ msgstr "பெயர்மாற்று (_R)..."
 msgid "_Empty Trash"
 msgstr "குப்பைத் தொட்டியைக் காலியாக்கு (_E)"
 
+msgid "Delete all files and folders in the Trash"
+msgstr "குப்பைத் தொட்டியிலுள்ள அனைத்துக் கோப்புகளையும் கோப்புறைகளையும் நீக்கு"
+
+msgid "_Remove from Recent"
+msgstr "அண்மையவையிலிருந்து அகற்று (_R)"
+
+msgid "Remove the selected files from Recent"
+msgstr "தேர்ந்தெடுத்த கோப்புகளை அண்மையவையிலிருந்து அகற்று"
+
 msgid "Create _Folder..."
 msgstr "கோப்புறை உருவாக்கு (_F)..."
+
+msgid "Create an empty folder within the current folder"
+msgstr "நடப்புக் கோப்புறைக்குள் ஒரு வெற்றுக் கோப்புறையை உருவாக்கு"
 
 msgid "Create _Document"
 msgstr "ஆவணம் உருவாக்கு (_D)"
 
+msgid "Create a new document from a template"
+msgstr "வார்ப்புருவிலிருந்து புதிய ஆவணத்தை உருவாக்கு"
+
 msgid "_Restore"
 msgstr "மீட்டெடு (_R)"
+
+msgid "Restore and S_how"
+msgstr "மீட்டெடுத்துக் காட்டு (_H)"
 
 msgid "Mo_ve to Trash"
 msgstr "குப்பைத் தொட்டிக்கு நகர்த்து (_V)"
@@ -46,8 +109,14 @@ msgstr "நீக்கு (_D)"
 msgid "_Paste"
 msgstr "ஒட்டு (_P)"
 
+msgid "Move or copy files previously selected by a Cut or Copy command"
+msgstr "வெட்டு அல்லது நகலெடு கட்டளையால் முன்பு தேர்ந்தெடுத்த கோப்புகளை நகர்த்து அல்லது நகலெடு"
+
 msgid "_Paste Into Folder"
 msgstr "கோப்புறைக்குள் ஒட்டு (_P)"
+
+msgid "Move or copy files previously selected by a Cut or Copy command into the selected folder"
+msgstr "வெட்டு அல்லது நகலெடு கட்டளையால் முன்பு தேர்ந்தெடுத்த கோப்புகளைத் தேர்ந்தெடுத்த கோப்புறைக்குள் நகர்த்து அல்லது நகலெடு"
 
 msgid "_Copy"
 msgstr "நகலெடு (_C)"
@@ -58,20 +127,171 @@ msgstr "வெட்டு (_T)"
 msgid "_Mount"
 msgstr "ஏற்று (_M)"
 
+msgid "Mount the selected device"
+msgstr "தேர்ந்தெடுத்த சாதனத்தை ஏற்று"
+
 msgid "_Unmount"
 msgstr "இறக்கு (_U)"
+
+msgid "Unmount the selected device"
+msgstr "தேர்ந்தெடுத்த சாதனத்தை இறக்கு"
 
 msgid "_Eject"
 msgstr "வெளியேற்று (_E)"
 
+msgid "Eject the selected device"
+msgstr "தேர்ந்தெடுத்த சாதனத்தை வெளியேற்று"
+
+msgid "Failed to execute file \"%s\" (%s)"
+msgstr "\"%s\" கோப்பை இயக்க முடியவில்லை (%s)"
+
+msgid "Failed to execute file \"%s\""
+msgstr "\"%s\" கோப்பை இயக்க முடியவில்லை"
+
+msgid "Failed to open file \"%s\""
+msgstr "\"%s\" கோப்பைத் திறக்க முடியவில்லை"
+
+msgid "Failed to open %d file"
+msgid_plural "Failed to open %d files"
+msgstr[0] "%d கோப்பைத் திறக்க முடியவில்லை"
+msgstr[1] "%d கோப்புகளைத் திறக்க முடியவில்லை"
+
+msgid "Are you sure you want to open all folders?"
+msgstr "அனைத்துக் கோப்புறைகளையும் உறுதியாகத் திறக்க வேண்டுமா?"
+
+msgid "Open folders"
+msgstr "கோப்புறைகளைத் திற"
+
+msgid "This will open %d separate file manager window."
+msgid_plural "This will open %d separate file manager windows."
+msgstr[0] "இது %d தனிக் கோப்பு மேலாளர் சாளரத்தைத் திறக்கும்."
+msgstr[1] "இது %d தனிக் கோப்பு மேலாளர் சாளரங்களைத் திறக்கும்."
+
+msgid "Open %d New Window"
+msgid_plural "Open %d New Windows"
+msgstr[0] "%d புதிய சாளரத்தைத் திற"
+msgstr[1] "%d புதிய சாளரங்களைத் திற"
+
 msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
+
+msgid "Failed to mount \"%s\""
+msgstr "\"%s\" ஐ ஏற்ற முடியவில்லை"
+
+msgid "Failed to open \"%s\""
+msgstr "\"%s\" ஐத் திறக்க முடியவில்லை"
+
+msgid "File does not exist anymore"
+msgstr "கோப்பு இப்போது இல்லை"
+
+msgid "Failed to open location for \"%s\""
+msgstr "\"%s\" இன் இருப்பிடத்தைத் திறக்க முடியவில்லை"
+
+msgid "Open the selected file"
+msgid_plural "Open the selected files"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பைத் திற"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளைத் திற"
+
+msgid "Execute the selected file"
+msgid_plural "Execute the selected files"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பை இயக்கு"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளை இயக்கு"
+
+msgid "Open the selected directory in new tab"
+msgid_plural "Open the selected directories in %d new tabs"
+msgstr[0] "தேர்ந்தெடுத்த கோப்புறையைப் புதிய தாவலில் திற"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புறைகளை %d புதிய தாவல்களில் திற"
+
+msgid "Open the selected directory in new window"
+msgid_plural "Open the selected directories in %d new windows"
+msgstr[0] "தேர்ந்தெடுத்த கோப்புறையைப் புதிய சாளரத்தில் திற"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புறைகளை %d புதிய சாளரங்களில் திற"
+
+msgid "Create a symbolic link for the selected file"
+msgid_plural "Create a symbolic link for each selected file"
+msgstr[0] "தேர்ந்தெடுத்த கோப்புக்குக் குறியீட்டு இணைப்பை உருவாக்கு"
+msgstr[1] "தேர்ந்தெடுத்த ஒவ்வொரு கோப்புக்கும் குறியீட்டு இணைப்பை உருவாக்கு"
+
+msgid "Rename the selected file"
+msgid_plural "Rename the selected files"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பைப் பெயர்மாற்று"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளைப் பெயர்மாற்று"
 
 msgid "Bulk _Rename..."
 msgstr "தொகுப்பாகப் பெயர்மாற்று (_R)..."
 
+msgid "Restore the selected file to its original location"
+msgid_plural "Restore the selected files to its original location"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பை அதன் முந்தைய இருப்பிடத்துக்கு மீட்டெடு"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளை அவற்றின் முந்தைய இருப்பிடத்துக்கு மீட்டெடு"
+
+msgid "Restore the selected file to its original location and open the location in a new window/tab"
+msgid_plural "Restore the selected files to their original locations and open the locations in a new window/tab"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பை அதன் முந்தைய இருப்பிடத்துக்கு மீட்டெடுத்து, அந்த இருப்பிடத்தைப் புதிய சாளரத்தில்/தாவலில் திற"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளை அவற்றின் முந்தைய இருப்பிடங்களுக்கு மீட்டெடுத்து, அந்த இருப்பிடங்களைப் புதிய சாளரத்தில்/தாவலில் திற"
+
+msgid "Move the selected file to the Trash"
+msgid_plural "Move the selected files to the Trash"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பைக் குப்பைத் தொட்டிக்கு நகர்த்து"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளைக் குப்பைத் தொட்டிக்கு நகர்த்து"
+
+msgid "Permanently delete the selected file"
+msgid_plural "Permanently delete the selected files"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பை நிரந்தரமாக நீக்கு"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளை நிரந்தரமாக நீக்கு"
+
+msgid "Cut the selection"
+msgstr "தேர்வை வெட்டு"
+
+msgid "Prepare the selected file to be moved with a Paste command"
+msgid_plural "Prepare the selected files to be moved with a Paste command"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பை ஒட்டு கட்டளையால் நகர்த்துவதற்குத் தயார்செய்"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளை ஒட்டு கட்டளையால் நகர்த்துவதற்குத் தயார்செய்"
+
+msgid "Copy the selection"
+msgstr "தேர்வை நகலெடு"
+
+msgid "Prepare the selected file to be copied with a Paste command"
+msgid_plural "Prepare the selected files to be copied with a Paste command"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பை ஒட்டு கட்டளையால் நகலெடுப்பதற்குத் தயார்செய்"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளை ஒட்டு கட்டளையால் நகலெடுப்பதற்குத் தயார்செய்"
+
+msgid "Paste the clipboard"
+msgstr "இடைநிலைப்பலகையில் உள்ளதை ஒட்டு"
+
+msgid "Side Pane (Add Bookmark)"
+msgid_plural "Side Pane (Add Bookmarks)"
+msgstr[0] "பக்கப் பலகம் (புத்தகக்குறி சேர்)"
+msgstr[1] "பக்கப் பலகம் (புத்தகக்குறிகள் சேர்)"
+
+msgid "Add the selected folder to the shortcuts side pane"
+msgid_plural "Add the selected folders to the shortcuts side pane"
+msgstr[0] "தேர்ந்தெடுத்த கோப்புறையைக் குறுக்குவழிப் பக்கப் பலகத்தில் சேர்"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புறைகளைக் குறுக்குவழிப் பக்கப் பலகத்தில் சேர்"
+
+msgid "Desktop (Create Link)"
+msgid_plural "Desktop (Create Links)"
+msgstr[0] "மேசைத்தளம் (இணைப்பு உருவாக்கு)"
+msgstr[1] "மேசைத்தளம் (இணைப்புகள் உருவாக்கு)"
+
+msgid "Create a link to the selected file on the desktop"
+msgid_plural "Create links to the selected files on the desktop"
+msgstr[0] "தேர்ந்தெடுத்த கோப்புக்கு மேசைத்தளத்தில் இணைப்பை உருவாக்கு"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளுக்கு மேசைத்தளத்தில் இணைப்புகளை உருவாக்கு"
+
+msgid "Send the selected file to \"%s\""
+msgid_plural "Send the selected files to \"%s\""
+msgstr[0] "தேர்ந்தெடுத்த கோப்பை \"%s\" க்கு அனுப்பு"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளை \"%s\" க்கு அனுப்பு"
+
 msgid "New Folder"
 msgstr "புதிய கோப்புறை"
+
+msgid "Create New Folder"
+msgstr "புதிய கோப்புறை உருவாக்கு"
+
+msgid "Create Document from template \"%s\""
+msgstr "\"%s\" வார்ப்புருவிலிருந்து ஆவணம் உருவாக்கு"
 
 msgid "New Empty File"
 msgstr "புதிய வெற்றுக் கோப்பு"
@@ -79,32 +299,305 @@ msgstr "புதிய வெற்றுக் கோப்பு"
 msgid "New Empty File..."
 msgstr "புதிய வெற்றுக் கோப்பு..."
 
+msgid "No templates installed in\n\"%s\""
+msgstr "\"%s\" இல்\nவார்ப்புருக்கள் எதுவும் இல்லை"
+
 msgid "_Empty File"
 msgstr "வெற்றுக் கோப்பு (_E)"
+
+msgid "Failed to eject \"%s\""
+msgstr "\"%s\" ஐ வெளியேற்ற முடியவில்லை"
+
+msgid "Failed to unmount \"%s\""
+msgstr "\"%s\" ஐ இறக்க முடியவில்லை"
+
+msgid "Use \"%s\" to open the selected file"
+msgid_plural "Use \"%s\" to open the selected files"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பைத் திறக்க \"%s\" ஐப் பயன்படுத்து"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளைத் திறக்க \"%s\" ஐப் பயன்படுத்து"
+
+msgid "_Open With \"%s\""
+msgstr "\"%s\" உடன் திற (_O)"
+
+msgid "_Open With Default Applications"
+msgstr "இயல்புநிலைச் செயலிகளுடன் திற (_O)"
+
+msgid "Open the selected files with the default applications"
+msgstr "தேர்ந்தெடுத்த கோப்புகளை இயல்புநிலைச் செயலிகளுடன் திற"
 
 msgid "Ope_n With"
 msgstr "இதனுடன் திற (_N)"
 
+msgid "Open the bulk rename dialog"
+msgstr "தொகுப்புப் பெயர்மாற்ற உரையாடலைத் திற"
+
+msgid "Failed to launch operation"
+msgstr "செயல்பாட்டைத் தொடங்க முடியவில்லை"
+
+msgid "Failed to open \"%s\" (%s)"
+msgstr "\"%s\" ஐத் திறக்க முடியவில்லை (%s)"
+
+msgid "Failed to open \"%s\": %s"
+msgstr "\"%s\" ஐத் திறக்க முடியவில்லை: %s"
+
+msgid "Failed to rename \"%s\" (%s)"
+msgstr "\"%s\" ஐப் பெயர்மாற்ற முடியவில்லை (%s)"
+
+msgid "Failed to rename \"%s\""
+msgstr "\"%s\" ஐப் பெயர்மாற்ற முடியவில்லை"
+
+msgid "Rename Launcher Options"
+msgstr "தொடக்கி பெயர்மாற்ற விருப்பங்கள்"
+
+msgid "Do you want to rename the launcher, or the file itself?"
+msgstr "தொடக்கியைப் பெயர்மாற்ற வேண்டுமா, அல்லது கோப்பையேவா?"
+
+msgid "Rename _Launcher"
+msgstr "தொடக்கியைப் பெயர்மாற்று (_L)"
+
+msgid "Rename _File"
+msgstr "கோப்பைப் பெயர்மாற்று (_F)"
+
+msgid "New File"
+msgstr "புதிய கோப்பு"
+
+msgid "Create New File"
+msgstr "புதிய கோப்பு உருவாக்கு"
+
+msgid "Copying files..."
+msgstr "கோப்புகள் நகலெடுக்கப்படுகின்றன..."
+
+msgid "Copying files to \"%s\"..."
+msgstr "கோப்புகள் \"%s\" க்கு நகலெடுக்கப்படுகின்றன..."
+
+msgid "Creating symbolic links in \"%s\"..."
+msgstr "\"%s\" இல் குறியீட்டு இணைப்புகள் உருவாக்கப்படுகின்றன..."
+
+msgid "Moving files into \"%s\"..."
+msgstr "கோப்புகள் \"%s\" க்குள் நகர்த்தப்படுகின்றன..."
+
+msgid "Moving files ..."
+msgstr "கோப்புகள் நகர்த்தப்படுகின்றன..."
+
+msgid "Are you sure that you want to\npermanently delete \"%s\" (%s)?"
+msgstr "\"%s\" (%s) ஐ\nநிரந்தரமாக நீக்க உறுதியாக விரும்புகிறீர்களா?"
+
+msgid "Are you sure that you want to\npermanently delete \"%s\"?"
+msgstr "\"%s\" ஐ\nநிரந்தரமாக நீக்க உறுதியாக விரும்புகிறீர்களா?"
+
+msgid "Are you sure that you want to permanently\ndelete the selected file?"
+msgid_plural "Are you sure that you want to permanently\ndelete the %u selected files?"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பை நிரந்தரமாக\nநீக்க உறுதியாக விரும்புகிறீர்களா?"
+msgstr[1] "தேர்ந்தெடுத்த %u கோப்புகளை நிரந்தரமாக\nநீக்க உறுதியாக விரும்புகிறீர்களா?"
+
+msgid "Attention"
+msgstr "கவனம்"
+
+msgid "If you delete a file, it is permanently lost."
+msgstr "ஒரு கோப்பை நீக்கினால், அது நிரந்தரமாக இழக்கப்படும்."
+
+msgid "Deleting files..."
+msgstr "கோப்புகள் நீக்கப்படுகின்றன..."
+
+msgid "Are you sure that you want to\nmove \"%s\" (%s) to trash ?"
+msgstr "\"%s\" (%s) ஐக்\nகுப்பைத் தொட்டிக்கு நகர்த்த உறுதியாக விரும்புகிறீர்களா?"
+
+msgid "Are you sure that you want to\nmove \"%s\" to trash ?"
+msgstr "\"%s\" ஐக்\nகுப்பைத் தொட்டிக்கு நகர்த்த உறுதியாக விரும்புகிறீர்களா?"
+
+msgid "Are you sure that you want to\nmove the selected file to trash?"
+msgid_plural "Are you sure that you want to\nmove the %u selected files to trash?"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பைக்\nகுப்பைத் தொட்டிக்கு நகர்த்த உறுதியாக விரும்புகிறீர்களா?"
+msgstr[1] "தேர்ந்தெடுத்த %u கோப்புகளைக்\nகுப்பைத் தொட்டிக்கு நகர்த்த உறுதியாக விரும்புகிறீர்களா?"
+
 msgid "Move to Trash"
 msgstr "குப்பைத் தொட்டிக்கு நகர்த்து"
+
+msgid "Moving files into the trash..."
+msgstr "கோப்புகள் குப்பைத் தொட்டிக்கு நகர்த்தப்படுகின்றன..."
+
+msgid "Creating files..."
+msgstr "கோப்புகள் உருவாக்கப்படுகின்றன..."
+
+msgid "Creating directories..."
+msgstr "கோப்புறைகள் உருவாக்கப்படுகின்றன..."
+
+msgid "Remove all files and folders from the Trash?"
+msgstr "குப்பைத் தொட்டியிலிருந்து அனைத்துக் கோப்புகளையும் கோப்புறைகளையும் அகற்றவா?"
 
 msgid "Empty Trash"
 msgstr "குப்பைத் தொட்டியைக் காலியாக்கு"
 
+msgid "If you choose to empty the Trash, all items in it will be permanently lost. Please note that you can also delete them separately."
+msgstr "குப்பைத் தொட்டியைக் காலியாக்கினால், அதிலுள்ள அனைத்து உருப்படிகளும் நிரந்தரமாக இழக்கப்படும். அவற்றைத் தனித்தனியாகவும் நீக்கலாம் என்பதைக் கவனிக்கவும்."
+
+msgid "Emptying the Trash..."
+msgstr "குப்பைத் தொட்டி காலியாக்கப்படுகிறது..."
+
+msgid "Failed to determine the original path for \"%s\" (%s)"
+msgstr "\"%s\" இன் முந்தைய பாதையைக் கண்டறிய முடியவில்லை (%s)"
+
+msgid "Failed to determine the original path for \"%s\""
+msgstr "\"%s\" இன் முந்தைய பாதையைக் கண்டறிய முடியவில்லை"
+
+msgid "Could not restore \"%s\" (%s)"
+msgstr "\"%s\" ஐ மீட்டெடுக்க முடியவில்லை (%s)"
+
+msgid "Could not restore \"%s\""
+msgstr "\"%s\" ஐ மீட்டெடுக்க முடியவில்லை"
+
+msgid "Restoring files..."
+msgstr "கோப்புகள் மீட்டெடுக்கப்படுகின்றன..."
+
+msgid "Failed to set default application for \"%s\" (%s)"
+msgstr "\"%s\" க்கு இயல்புநிலைச் செயலியை அமைக்க முடியவில்லை (%s)"
+
+msgid "Failed to set default application for \"%s\""
+msgstr "\"%s\" க்கு இயல்புநிலைச் செயலியை அமைக்க முடியவில்லை"
+
+msgid "The selected application is used to open this and other files of type \"%s\"."
+msgstr "இந்தக் கோப்பையும் \"%s\" வகையைச் சேர்ந்த பிற கோப்புகளையும் திறக்கத் தேர்ந்தெடுத்த செயலி பயன்படும்."
+
+msgid "No application selected"
+msgstr "செயலி எதுவும் தேர்ந்தெடுக்கப்படவில்லை"
+
+msgid "Other Application..."
+msgstr "வேறு செயலி..."
+
 msgid "Open With"
 msgstr "இதனுடன் திற"
+
+msgid "Use a _custom command:"
+msgstr "தனிப்பயன் கட்டளையைப் பயன்படுத்து: (_C)"
+
+msgid "Use a custom command for an application that is not available from the above application list."
+msgstr "மேலே உள்ள செயலிப் பட்டியலில் இல்லாத செயலிக்குத் தனிப்பயன் கட்டளையைப் பயன்படுத்து."
+
+msgid "_Browse..."
+msgstr "உலாவு (_B)..."
+
+msgid "Use as _default for this kind of file"
+msgstr "இவ்வகைக் கோப்புகளுக்கு இயல்புநிலையாகப் பயன்படுத்து (_D)"
 
 msgid "_OK"
 msgstr "சரி (_O)"
 
+msgid "Failed to add new application \"%s\""
+msgstr "\"%s\" என்ற புதிய செயலியைச் சேர்க்க முடியவில்லை"
+
+msgid "Failed to execute application \"%s\""
+msgstr "\"%s\" செயலியை இயக்க முடியவில்லை"
+
+msgid "_Remove Launcher"
+msgstr "தொடக்கியை அகற்று (_R)"
+
+msgid "_Forget Association"
+msgstr "தொடர்பை மற (_F)"
+
+msgid "Open <i>%s (%s)</i> and other files of type \"%s\" with:"
+msgstr "<i>%s (%s)</i> ஐயும் \"%s\" வகையைச் சேர்ந்த பிற கோப்புகளையும் இதனுடன் திற:"
+
+msgid "Open <i>%s</i> and other files of type \"%s\" with:"
+msgstr "<i>%s</i> ஐயும் \"%s\" வகையைச் சேர்ந்த பிற கோப்புகளையும் இதனுடன் திற:"
+
+msgid "Browse the file system to select an application to open files of type \"%s\"."
+msgstr "\"%s\" வகைக் கோப்புகளைத் திறக்க ஒரு செயலியைத் தேர்ந்தெடுக்கக் கோப்பு முறைமையில் உலாவு."
+
+msgid "Change the default application for files of type \"%s\" to the selected application."
+msgstr "\"%s\" வகைக் கோப்புகளுக்கான இயல்புநிலைச் செயலியைத் தேர்ந்தெடுத்த செயலிக்கு மாற்று."
+
+msgid "Are you sure that you want to remove \"%s\"?"
+msgstr "\"%s\" ஐ உறுதியாக அகற்ற வேண்டுமா?"
+
+msgid "Remove application launcher"
+msgstr "செயலித் தொடக்கியை அகற்று"
+
 msgid "_Remove"
 msgstr "அகற்று (_R)"
+
+msgid "This will remove the application launcher that appears in the file context menu, but will not uninstall the application itself.\n\nYou can only remove application launchers that were created using the custom command box in the \"Open With\" dialog of the file manager."
+msgstr "இது கோப்புச் சூழல் பட்டியலில் தோன்றும் செயலித் தொடக்கியை அகற்றும்; ஆனால் செயலியையே நிறுவல் நீக்காது.\n\nகோப்பு மேலாளரின் \"இதனுடன் திற\" உரையாடலில் உள்ள தனிப்பயன் கட்டளைப் பெட்டியைப் பயன்படுத்தி உருவாக்கிய செயலித் தொடக்கிகளை மட்டுமே அகற்ற முடியும்."
+
+msgid "Failed to remove \"%s\""
+msgstr "\"%s\" ஐ அகற்ற முடியவில்லை"
+
+msgid "Are you sure that you want to forget \"%s\"?"
+msgstr "\"%s\" ஐ உறுதியாக மறக்க வேண்டுமா?"
+
+msgid "Forget application launcher"
+msgstr "செயலித் தொடக்கியை மற"
+
+msgid "_Forget"
+msgstr "மற (_F)"
+
+msgid "This will dissociate the application launcher for this file type, but will not uninstall or remove the application launcher itself."
+msgstr "இது இந்தக் கோப்பு வகையிலிருந்து செயலித் தொடக்கியின் தொடர்பை நீக்கும்; ஆனால் செயலித் தொடக்கியை நிறுவல் நீக்கவோ அகற்றவோ செய்யாது."
+
+msgid "Failed to forget \"%s\""
+msgstr "\"%s\" ஐ மறக்க முடியவில்லை"
+
+msgid "Select an Application"
+msgstr "ஒரு செயலியைத் தேர்ந்தெடு"
+
+msgid "All Files"
+msgstr "அனைத்துக் கோப்புகளும்"
+
+msgid "Executable Files"
+msgstr "இயக்கக்கூடிய கோப்புகள்"
+
+msgid "Perl Scripts"
+msgstr "Perl உரைநிரல்கள்"
+
+msgid "Python Scripts"
+msgstr "Python உரைநிரல்கள்"
+
+msgid "Ruby Scripts"
+msgstr "Ruby உரைநிரல்கள்"
+
+msgid "Shell Scripts"
+msgstr "ஷெல் உரைநிரல்கள்"
+
+msgid "Set Default Application"
+msgstr "இயல்புநிலைச் செயலியை அமை"
+
+msgid "None available"
+msgstr "எதுவும் கிடைக்கவில்லை"
+
+msgid "Default Application"
+msgstr "இயல்புநிலைச் செயலி"
+
+msgid "Recommended Applications"
+msgstr "பரிந்துரைக்கப்படும் செயலிகள்"
+
+msgid "Other Applications"
+msgstr "பிற செயலிகள்"
+
+msgid "Failed to remove \"%s\"."
+msgstr "\"%s\" ஐ அகற்ற முடியவில்லை."
+
+msgid "There is nothing on the clipboard to paste"
+msgstr "ஒட்டுவதற்கு இடைநிலைப்பலகையில் எதுவும் இல்லை"
 
 msgid "_Close"
 msgstr "மூடு (_C)"
 
+msgid "Configure Columns in the Detailed List View"
+msgstr "விரிவான பட்டியல் காட்சியில் நெடுவரிசைகளை அமை"
+
 msgid "_Help"
 msgstr "உதவி (_H)"
+
+msgid "Visible Columns"
+msgstr "காணக்கூடிய நெடுவரிசைகள்"
+
+msgid "Choose the order of information to appear in the\ndetailed list view."
+msgstr "விரிவான பட்டியல் காட்சியில் தகவல் தோன்ற வேண்டிய\nவரிசையைத் தேர்ந்தெடு."
+
+msgid "Move _Up"
+msgstr "மேலே நகர்த்து (_U)"
+
+msgid "Move Dow_n"
+msgstr "கீழே நகர்த்து (_N)"
 
 msgid "_Show"
 msgstr "காட்டு (_S)"
@@ -112,14 +605,101 @@ msgstr "காட்டு (_S)"
 msgid "Hi_de"
 msgstr "மறை (_D)"
 
+msgid "Use De_fault"
+msgstr "இயல்புநிலையைப் பயன்படுத்து (_F)"
+
+msgid "Column Sizing"
+msgstr "நெடுவரிசை அளவமைப்பு"
+
+msgid "By default columns will be automatically expanded if\nneeded to ensure the text is fully visible. If you dis-\nable this behavior below the file manager will always\nuse the user defined column widths."
+msgstr "இயல்பாக, உரை முழுமையாகத் தெரியும்படி தேவைப்பட்டால்\nநெடுவரிசைகள் தானாக விரிவாக்கப்படும். கீழே இந்த நடத்தையை\nமுடக்கினால், கோப்பு மேலாளர் எப்போதும் பயனர் வரையறுத்த\nநெடுவரிசை அகலங்களையே பயன்படுத்தும்."
+
+msgid "Automatically _expand columns as needed"
+msgstr "தேவைக்கேற்ப நெடுவரிசைகளைத் தானாக விரிவாக்கு (_E)"
+
+msgid "Size Column of Folders"
+msgstr "கோப்புறைகளின் அளவு நெடுவரிசை"
+
+msgid "Show number of containing items"
+msgstr "உள்ளடங்கிய உருப்படிகளின் எண்ணிக்கையைக் காட்டு"
+
+msgid "This column is reserved for special locations"
+msgstr "இந்த நெடுவரிசை சிறப்பு இருப்பிடங்களுக்காக ஒதுக்கப்பட்டுள்ளது"
+
 msgid "Unknown"
 msgstr "தெரியவில்லை"
+
+msgid "Compact directory listing"
+msgstr "அடர் கோப்புறைப் பட்டியல்"
+
+msgid "Compact view"
+msgstr "அடர் காட்சி"
+
+msgid "Invalid filename \"%s\""
+msgstr "தவறான கோப்புப்பெயர் \"%s\""
+
+msgid "The working directory must be an absolute path"
+msgstr "பணிக் கோப்புறை முழுமையான பாதையாக இருக்க வேண்டும்"
+
+msgid "At least one filename must be specified"
+msgstr "குறைந்தது ஒரு கோப்புப்பெயராவது குறிப்பிடப்பட வேண்டும்"
+
+msgid "At least one source filename must be specified"
+msgstr "குறைந்தது ஒரு மூலக் கோப்புப்பெயராவது குறிப்பிடப்பட வேண்டும்"
+
+msgid "The number of source and target filenames must be the same"
+msgstr "மூல, இலக்குக் கோப்புப்பெயர்களின் எண்ணிக்கை சமமாக இருக்க வேண்டும்"
+
+msgid "A destination directory must be specified"
+msgstr "ஓர் இலக்குக் கோப்புறை குறிப்பிடப்பட வேண்டும்"
+
+msgid "Configure _Columns..."
+msgstr "நெடுவரிசைகளை அமை (_C)..."
+
+msgid "Configure the columns in the detailed list view"
+msgstr "விரிவான பட்டியல் காட்சியில் நெடுவரிசைகளை அமை"
+
+msgid "E_xpandable Folders"
+msgstr "விரிக்கக்கூடிய கோப்புறைகள் (_X)"
+
+msgid "Allow tree like expansion of folders"
+msgstr "கோப்புறைகளை மரம் போல விரிக்க அனுமதி"
+
+msgid "Detailed directory listing"
+msgstr "விரிவான கோப்புறைப் பட்டியல்"
+
+msgid "Details view"
+msgstr "விவரக் காட்சி"
+
+msgid "Safely _Remove"
+msgstr "பாதுகாப்பாக அகற்று (_R)"
+
+msgid "_Disconnect"
+msgstr "துண்டி (_D)"
+
+msgid "Stop the _Multi-Disk Drive"
+msgstr "பல்வட்டு இயக்கியை நிறுத்து (_M)"
+
+msgid "_Lock"
+msgstr "பூட்டு (_L)"
 
 msgid "C_reate"
 msgstr "உருவாக்கு (_R)"
 
+msgid "Enter the name:"
+msgstr "பெயரை உள்ளிடுக:"
+
+msgid "Cannot convert filename \"%s\" to the local encoding"
+msgstr "\"%s\" கோப்புப்பெயரை உள்ளூர்க் குறியாக்கத்துக்கு மாற்ற முடியவில்லை"
+
+msgid "Rename \"%s\""
+msgstr "\"%s\" ஐப் பெயர்மாற்று"
+
 msgid "_Rename"
 msgstr "பெயர்மாற்று (_R)"
+
+msgid "Enter the new name:"
+msgstr "புதிய பெயரை உள்ளிடுக:"
 
 msgid "Error"
 msgstr "பிழை"
@@ -127,32 +707,185 @@ msgstr "பிழை"
 msgid "_Yes"
 msgstr "ஆம் (_Y)"
 
+msgid "Yes to _all"
+msgstr "அனைத்துக்கும் ஆம் (_A)"
+
 msgid "_Replace"
 msgstr "மாற்றீடு செய் (_R)"
+
+msgid "Replace _All"
+msgstr "அனைத்தையும் மாற்றீடு செய் (_A)"
 
 msgid "_Skip"
 msgstr "தவிர் (_S)"
 
+msgid "S_kip All"
+msgstr "அனைத்தையும் தவிர் (_K)"
+
 msgid "Re_name"
 msgstr "பெயர்மாற்று (_N)"
+
+msgid "Rena_me All"
+msgstr "அனைத்தையும் பெயர்மாற்று (_M)"
 
 msgid "_No"
 msgstr "இல்லை (_N)"
 
+msgid "N_o to all"
+msgstr "அனைத்துக்கும் இல்லை (_O)"
+
+msgid "_Retry"
+msgstr "மீண்டும் முயல் (_R)"
+
+msgid "Copy _Anyway"
+msgstr "இருப்பினும் நகலெடு (_A)"
+
+msgid "Confirm to replace files"
+msgstr "கோப்புகளை மாற்றீடு செய்வதை உறுதிசெய்"
+
+msgid "This folder already contains a symbolic link \"%s\"."
+msgstr "இந்தக் கோப்புறையில் ஏற்கெனவே \"%s\" என்ற குறியீட்டு இணைப்பு உள்ளது."
+
+msgid "This folder already contains a folder \"%s\"."
+msgstr "இந்தக் கோப்புறையில் ஏற்கெனவே \"%s\" என்ற கோப்புறை உள்ளது."
+
+msgid "This folder already contains a file \"%s\" (%s)."
+msgstr "இந்தக் கோப்புறையில் ஏற்கெனவே \"%s\" (%s) என்ற கோப்பு உள்ளது."
+
+msgid "This folder already contains a file \"%s\"."
+msgstr "இந்தக் கோப்புறையில் ஏற்கெனவே \"%s\" என்ற கோப்பு உள்ளது."
+
+msgid "Replace the link in \"%s\""
+msgstr "\"%s\" இல் உள்ள இணைப்பை"
+
+msgid "Replace the existing folder in \"%s\""
+msgstr "\"%s\" இல் ஏற்கெனவே உள்ள கோப்புறையை"
+
+msgid "Replace the existing file in \"%s\""
+msgstr "\"%s\" இல் ஏற்கெனவே உள்ள கோப்பை"
+
+msgid "Size:"
+msgstr "அளவு:"
+
+msgid "Modified:"
+msgstr "மாற்றியது:"
+
+msgid "with the following link?"
+msgstr "பின்வரும் இணைப்பைக் கொண்டு மாற்றீடு செய்யவா?"
+
+msgid "with the following folder?"
+msgstr "பின்வரும் கோப்புறையைக் கொண்டு மாற்றீடு செய்யவா?"
+
+msgid "with the following file?"
+msgstr "பின்வரும் கோப்பைக் கொண்டு மாற்றீடு செய்யவா?"
+
+msgid "_Apply the action to all files and folders"
+msgstr "இச்செயலை அனைத்துக் கோப்புகளுக்கும் கோப்புறைகளுக்கும் செயல்படுத்து (_A)"
+
+msgid "/executable"
+msgstr "/இயக்கக்கூடியது"
+
+msgid "The desktop file %s is in an insecure location and not marked as secure%s. If you do not trust this program, click Cancel.\n\n"
+msgstr "%s என்ற மேசைத்தளக் கோப்பு பாதுகாப்பற்ற இருப்பிடத்தில் உள்ளது; மேலும் பாதுகாப்பானது%s எனக் குறிக்கப்படவில்லை. இந்த நிரலை நம்பவில்லை எனில், ரத்துசெய் என்பதைச் சொடுக்கவும்.\n\n"
+
+msgid "_Launch Anyway"
+msgstr "இருப்பினும் தொடங்கு (_L)"
+
+msgid "Mark As _Secure And Launch"
+msgstr "பாதுகாப்பானது எனக் குறித்துத் தொடங்கு (_S)"
+
+msgid "Close split pane with multiple tabs?"
+msgstr "பல தாவல்கள் உள்ள பிரிப்புப் பலகத்தை மூடவா?"
+
+msgid "The other split pane has multiple open tabs. Closing it will close all these tabs."
+msgstr "மற்றப் பிரிப்புப் பலகத்தில் பல தாவல்கள் திறந்துள்ளன. அதை மூடினால் இவை அனைத்தும் மூடப்படும்."
+
 msgid "Warning"
 msgstr "எச்சரிக்கை"
+
+msgid "Close Pane"
+msgstr "பலகத்தை மூடு"
+
+msgid "Do _not ask me again"
+msgstr "மீண்டும் கேட்காதே (_N)"
+
+msgid "The file \"%s\" seems to be executable. What do you want to do with it?"
+msgstr "\"%s\" கோப்பு இயக்கக்கூடியதாகத் தெரிகிறது. அதை என்ன செய்ய வேண்டும்?"
+
+msgid "The selected files seem to be executable. What do you want to do with them?"
+msgstr "தேர்ந்தெடுத்த கோப்புகள் இயக்கக்கூடியவையாகத் தெரிகின்றன. அவற்றை என்ன செய்ய வேண்டும்?"
+
+msgid "Open Shell Script"
+msgstr "ஷெல் உரைநிரலைத் திற"
+
+msgid "Run In _Terminal"
+msgstr "முனையத்தில் இயக்கு (_T)"
+
+msgid "Failed to edit launcher via command \"%s\""
+msgstr "\"%s\" கட்டளை மூலம் தொடக்கியைத் திருத்த முடியவில்லை"
+
+msgid "Copy _Here"
+msgstr "இங்கே நகலெடு (_H)"
+
+msgid "_Move Here"
+msgstr "இங்கே நகர்த்து (_M)"
+
+msgid "_Link Here"
+msgstr "இங்கே இணைப்பு உருவாக்கு (_L)"
+
+msgid "A maximum of %u emblems is supported per file."
+msgstr "ஒரு கோப்புக்கு அதிகபட்சம் %u முத்திரைகளே ஆதரிக்கப்படும்."
+
+msgid "Too many emblems selected"
+msgstr "மிக அதிக முத்திரைகள் தேர்ந்தெடுக்கப்பட்டுள்ளன"
+
+msgid "Name only"
+msgstr "பெயர் மட்டும்"
+
+msgid "Extension only"
+msgstr "நீட்டிப்பு மட்டும்"
+
+msgid "Name and Extension"
+msgstr "பெயரும் நீட்டிப்பும்"
+
+msgid "Date Created"
+msgstr "உருவாக்கிய நாள்"
+
+msgid "Date Accessed"
+msgstr "அணுகிய நாள்"
 
 msgid "Date Modified"
 msgstr "மாற்றிய நாள்"
 
+msgid "Date Deleted"
+msgstr "நீக்கிய நாள்"
+
+msgid "Recency"
+msgstr "அண்மைத்தன்மை"
+
 msgid "Location"
 msgstr "இருப்பிடம்"
+
+msgid "Group"
+msgstr "குழு"
+
+msgid "MIME Type"
+msgstr "MIME வகை"
 
 msgid "Name"
 msgstr "பெயர்"
 
+msgid "Owner"
+msgstr "உரிமையாளர்"
+
+msgid "Permissions"
+msgstr "அனுமதிகள்"
+
 msgid "Size"
 msgstr "அளவு"
+
+msgid "Size in Bytes"
+msgstr "பைட்டுகளில் அளவு"
 
 msgid "Type"
 msgstr "வகை"
@@ -160,8 +893,14 @@ msgstr "வகை"
 msgid "File"
 msgstr "கோப்பு"
 
+msgid "File Name"
+msgstr "கோப்புப் பெயர்"
+
 msgid "Never"
 msgstr "ஒருபோதும் இல்லை"
+
+msgid "Only For Remote Location"
+msgstr "தொலை இருப்பிடத்துக்கு மட்டும்"
 
 msgid "Always"
 msgstr "எப்போதும்"
@@ -175,17 +914,414 @@ msgstr "நகர்த்து"
 msgid "Rename"
 msgstr "பெயர்மாற்று"
 
+msgid "Create File"
+msgstr "கோப்பு உருவாக்கு"
+
 msgid "Create Folder"
 msgstr "கோப்புறை உருவாக்கு"
+
+msgid "Delete (opposite of create)"
+msgstr "நீக்கு (உருவாக்குவதன் எதிர்)"
 
 msgid "Trash"
 msgstr "குப்பைத் தொட்டி"
 
+msgid "Restore (opposite of trash)"
+msgstr "மீட்டெடு (குப்பைக்கு அனுப்புவதன் எதிர்)"
+
+msgid "Link"
+msgstr "இணைப்பு"
+
+msgid "Unlink"
+msgstr "இணைப்பு நீக்கு"
+
+msgid "Log operations"
+msgstr "செயல்பாடுகளைப் பதிவுசெய்"
+
+msgid "Log no operations"
+msgstr "எந்தச் செயல்பாட்டையும் பதிவுசெய்யாதே"
+
+msgid "Log only timestamps"
+msgstr "நேரமுத்திரைகளை மட்டும் பதிவுசெய்"
+
+msgid "Standalone"
+msgstr "தனித்தது"
+
+msgid "Embedded"
+msgstr "உட்பொதிந்தது"
+
+msgid "Only for local files"
+msgstr "உள்ளூர்க் கோப்புகளுக்கு மட்டும்"
+
 msgid "File System"
 msgstr "கோப்பு முறைமை"
 
+msgid "The root folder has no parent"
+msgstr "வேர்க் கோப்புறைக்கு மேல் கோப்புறை இல்லை"
+
+msgid "Failed to parse the desktop file: %s"
+msgstr "மேசைத்தளக் கோப்பைப் பகுக்க முடியவில்லை: %s"
+
+msgid "Untrusted application launcher"
+msgstr "நம்பகமற்ற செயலித் தொடக்கி"
+
+msgid "No Exec field specified"
+msgstr "Exec புலம் குறிப்பிடப்படவில்லை"
+
+msgid "Untrusted link launcher"
+msgstr "நம்பகமற்ற இணைப்புத் தொடக்கி"
+
+msgid "No URL field specified"
+msgstr "URL புலம் குறிப்பிடப்படவில்லை"
+
+msgid "Invalid desktop file"
+msgstr "தவறான மேசைத்தளக் கோப்பு"
+
+msgid "broken link"
+msgstr "உடைந்த இணைப்பு"
+
+msgid "%s (link to %s)"
+msgstr "%s (%s க்கான இணைப்பு)"
+
+msgid "%s (mount point)"
+msgstr "%s (ஏற்றப் புள்ளி)"
+
+msgid "Solid State Drive"
+msgstr "திண்மநிலை இயக்கி"
+
+msgid "System Drive"
+msgstr "கணினி இயக்கி"
+
+msgid "USB Drive"
+msgstr "USB இயக்கி"
+
+msgid "Camera"
+msgstr "கேமரா"
+
+msgid "Harddisk"
+msgstr "வன்வட்டு"
+
+msgid "Optical Drive"
+msgstr "ஒளியியல் இயக்கி"
+
+msgid "Removable Drive"
+msgstr "நீக்கக்கூடிய இயக்கி"
+
+msgid "Flash Drive"
+msgstr "ஃபிளாஷ் இயக்கி"
+
+msgid "Floppy"
+msgstr "நெகிழ்வட்டு"
+
+msgid "Optical Media"
+msgstr "ஒளியியல் ஊடகம்"
+
+msgid "Tape"
+msgstr "நாடா"
+
+msgid "Multimedia Player"
+msgstr "பல்லூடக இயக்கி"
+
+msgid "PDA"
+msgstr "PDA"
+
+msgid "Phone"
+msgstr "தொலைபேசி"
+
+msgid "%s on %s"
+msgstr "%s (%s இல்)"
+
+msgid "%s used (%.0f%%)  |  %s free (%.0f%%)"
+msgstr "%s பயன்பாட்டில் (%.0f%%)  |  %s காலி (%.0f%%)"
+
+msgid "The item will be removed from the history"
+msgstr "இந்த உருப்படி வரலாற்றிலிருந்து அகற்றப்படும்"
+
+msgid "Could not find \"%s\""
+msgstr "\"%s\" ஐக் கண்டுபிடிக்க முடியவில்லை"
+
+msgid "Icon based directory listing"
+msgstr "சின்னங்களாகக் கோப்புறைப் பட்டியல்"
+
+msgid "Icon view"
+msgstr "சின்னக் காட்சி"
+
+msgid "Error removing file: %s"
+msgstr "கோப்பை அகற்றுவதில் பிழை: %s"
+
+msgid "The file \"%s\" already exists"
+msgstr "\"%s\" கோப்பு ஏற்கெனவே உள்ளது"
+
+msgid "Failed to create empty file \"%s\": %s"
+msgstr "\"%s\" என்ற வெற்றுக் கோப்பை உருவாக்க முடியவில்லை: %s"
+
+msgid "Failed to create directory \"%s\": %s"
+msgstr "\"%s\" கோப்புறையை உருவாக்க முடியவில்லை: %s"
+
+msgid "Preparing..."
+msgstr "தயாராகிறது..."
+
+msgid "Could not delete file \"%s\": %s"
+msgstr "\"%s\" கோப்பை நீக்க முடியவில்லை: %s"
+
+msgid "Failed to change the owner of \"%s\": %s"
+msgstr "\"%s\" இன் உரிமையாளரை மாற்ற முடியவில்லை: %s"
+
+msgid "Failed to change the group of \"%s\": %s"
+msgstr "\"%s\" இன் குழுவை மாற்ற முடியவில்லை: %s"
+
+msgid "Failed to change the permissions of \"%s\": %s"
+msgstr "\"%s\" இன் அனுமதிகளை மாற்ற முடியவில்லை: %s"
+
+msgid "Selection: %s"
+msgstr "தேர்வு: %s"
+
+msgid "Free space: %s"
+msgstr "காலி இடம்: %s"
+
+msgid "%s (copy %u)%s"
+msgstr "%s (நகல் %u)%s"
+
+msgid "%s (copy %u)"
+msgstr "%s (நகல் %u)"
+
+msgid "The file \"%s\" (%s) already exists. Would you like to replace it?\n\nIf you replace an existing file, its contents will be overwritten."
+msgstr "\"%s\" (%s) கோப்பு ஏற்கெனவே உள்ளது. அதை மாற்றீடு செய்ய வேண்டுமா?\n\nஏற்கெனவே உள்ள கோப்பை மாற்றீடு செய்தால், அதன் உள்ளடக்கம் மேலெழுதப்படும்."
+
+msgid "The file \"%s\" already exists. Would you like to replace it?\n\nIf you replace an existing file, its contents will be overwritten."
+msgstr "\"%s\" கோப்பு ஏற்கெனவே உள்ளது. அதை மாற்றீடு செய்ய வேண்டுமா?\n\nஏற்கெனவே உள்ள கோப்பை மாற்றீடு செய்தால், அதன் உள்ளடக்கம் மேலெழுதப்படும்."
+
+msgid "Do you want to overwrite it?"
+msgstr "அதை மேலெழுத வேண்டுமா?"
+
+msgid "Do you want to permanently delete it?"
+msgstr "அதை நிரந்தரமாக நீக்க வேண்டுமா?"
+
+msgid "Do you want to create it?"
+msgstr "அதை உருவாக்க வேண்டுமா?"
+
+msgid "Do you want to skip it?"
+msgstr "அதைத் தவிர்க்க வேண்டுமா?"
+
+msgid "There is not enough space on the destination. Try to remove files to make space."
+msgstr "இலக்கில் போதுமான இடம் இல்லை. இடம் உருவாக்கச் சில கோப்புகளை அகற்றிப் பார்க்கவும்."
+
+msgid "%d file"
+msgid_plural "%d files"
+msgstr[0] "%d கோப்பு"
+msgstr[1] "%d கோப்புகள்"
+
+msgid "No operation which can be undone has been performed yet.\n(For some operations undo is not supported)"
+msgstr "செயல்தவிர்க்கக்கூடிய எந்தச் செயல்பாடும் இதுவரை செய்யப்படவில்லை.\n(சில செயல்பாடுகளுக்குச் செயல்தவிர்ப்பு ஆதரிக்கப்படவில்லை)"
+
+msgid "There is no operation to undo"
+msgstr "செயல்தவிர்க்க எந்தச் செயல்பாடும் இல்லை"
+
+msgid "The operation you are trying to undo does not have any files associated with it, and thus cannot be undone."
+msgstr "நீங்கள் செயல்தவிர்க்க முயலும் செயல்பாட்டுடன் தொடர்புடைய கோப்புகள் எதுவும் இல்லை; எனவே அதைச் செயல்தவிர்க்க முடியாது."
+
+msgid "%s operation cannot be undone"
+msgstr "%s செயல்பாட்டைச் செயல்தவிர்க்க முடியாது"
+
+msgid "The following files were overwritten in the operation you are trying to undo and cannot be restored:\n"
+msgstr "நீங்கள் செயல்தவிர்க்க முயலும் செயல்பாட்டில் பின்வரும் கோப்புகள் மேலெழுதப்பட்டன; அவற்றை மீட்டெடுக்க முடியாது:\n"
+
+msgid "%s operation can only be partially undone"
+msgstr "%s செயல்பாட்டைப் பகுதியளவே செயல்தவிர்க்க முடியும்"
+
+msgid "Failed to undo operation '%s'"
+msgstr "'%s' செயல்பாட்டைச் செயல்தவிர்க்க முடியவில்லை"
+
+msgid "No operation which can be redone available.\n"
+msgstr "மீண்டும் செய்யக்கூடிய செயல்பாடு எதுவும் இல்லை.\n"
+
+msgid "There is no operation to redo"
+msgstr "மீண்டும் செய்ய எந்தச் செயல்பாடும் இல்லை"
+
+msgid "The operation you are trying to redo does not have any files associated with it, and thus cannot be redone."
+msgstr "நீங்கள் மீண்டும் செய்ய முயலும் செயல்பாட்டுடன் தொடர்புடைய கோப்புகள் எதுவும் இல்லை; எனவே அதை மீண்டும் செய்ய முடியாது."
+
+msgid "%s operation cannot be redone"
+msgstr "%s செயல்பாட்டை மீண்டும் செய்ய முடியாது"
+
+msgid "The following files were overwritten in the operation you are trying to redo and cannot be restored:\n"
+msgstr "நீங்கள் மீண்டும் செய்ய முயலும் செயல்பாட்டில் பின்வரும் கோப்புகள் மேலெழுதப்பட்டன; அவற்றை மீட்டெடுக்க முடியாது:\n"
+
+msgid "%s operation can only be partially redone"
+msgstr "%s செயல்பாட்டைப் பகுதியளவே மீண்டும் செய்ய முடியும்"
+
+msgid "Failed to redo operation '%s'"
+msgstr "'%s' செயல்பாட்டை மீண்டும் செய்ய முடியவில்லை"
+
+msgid "Undo the latest '%s' operation (%s)"
+msgstr "அண்மைய '%s' செயல்பாட்டைச் செயல்தவிர் (%s)"
+
+msgid "Undo the latest operation"
+msgstr "அண்மைய செயல்பாட்டைச் செயல்தவிர்"
+
+msgid "Redo the latest '%s' operation (%s)"
+msgstr "அண்மைய '%s' செயல்பாட்டை மீண்டும் செய் (%s)"
+
+msgid "Redo the latest operation"
+msgstr "அண்மைய செயல்பாட்டை மீண்டும் செய்"
+
+msgid "unknown"
+msgstr "தெரியவில்லை"
+
+msgid "%u item"
+msgid_plural "%u items"
+msgstr[0] "%u உருப்படி"
+msgstr[1] "%u உருப்படிகள்"
+
+msgid "File does not exist"
+msgstr "கோப்பு இல்லை"
+
+msgid "Undo performed"
+msgstr "செயல்தவிர்க்கப்பட்டது"
+
+msgid "%s operation was undone"
+msgstr "%s செயல்பாடு செயல்தவிர்க்கப்பட்டது"
+
+msgid "Redo performed"
+msgstr "மீண்டும் செய்யப்பட்டது"
+
+msgid "%s operation was redone"
+msgstr "%s செயல்பாடு மீண்டும் செய்யப்பட்டது"
+
+msgid "Unmounting device"
+msgstr "சாதனம் இறக்கப்படுகிறது"
+
+msgid "The device \"%s\" is being unmounted by the system. Please do not remove the media or disconnect the drive"
+msgstr "\"%s\" சாதனத்தை அமைப்பு இறக்கிக்கொண்டிருக்கிறது. ஊடகத்தை அகற்றவோ இயக்கியைத் துண்டிக்கவோ வேண்டாம்"
+
+msgid "Writing data to device"
+msgstr "சாதனத்தில் தரவு எழுதப்படுகிறது"
+
+msgid "There is data that needs to be written to the device \"%s\" before it can be removed. Please do not remove the media or disconnect the drive"
+msgstr "\"%s\" சாதனத்தை அகற்றுவதற்கு முன் அதில் எழுத வேண்டிய தரவு உள்ளது. ஊடகத்தை அகற்றவோ இயக்கியைத் துண்டிக்கவோ வேண்டாம்"
+
+msgid "Ejecting device"
+msgstr "சாதனம் வெளியேற்றப்படுகிறது"
+
+msgid "The device \"%s\" is being ejected. This may take some time"
+msgstr "\"%s\" சாதனம் வெளியேற்றப்படுகிறது. இதற்குச் சிறிது நேரம் ஆகலாம்"
+
+msgid "Owner:"
+msgstr "உரிமையாளர்:"
+
+msgid "_Access:"
+msgstr "அணுக்கம்: (_A)"
+
+msgid "Gro_up:"
+msgstr "குழு: (_U)"
+
+msgid "Acc_ess:"
+msgstr "அணுக்கம்: (_E)"
+
+msgid "Others"
+msgstr "மற்றவர்கள்"
+
+msgid "Acce_ss:"
+msgstr "அணுக்கம்: (_S)"
+
+msgid "Program:"
+msgstr "நிரல்:"
+
+msgid "Allow this file to _run as a program"
+msgstr "இந்தக் கோப்பை நிரலாக இயக்க அனுமதி (_R)"
+
+msgid "Allowing untrusted programs to run presents a security risk to your system."
+msgstr "நம்பகமற்ற நிரல்களை இயக்க அனுமதிப்பது உங்கள் கணினிக்குப் பாதுகாப்பு இடரை ஏற்படுத்தும்."
+
+msgid "The folder permissions are inconsistent, you may not be able to work with files in this folder."
+msgstr "கோப்புறை அனுமதிகள் முரண்பாடாக உள்ளன; இந்தக் கோப்புறையிலுள்ள கோப்புகளுடன் உங்களால் பணியாற்ற முடியாமல் போகலாம்."
+
+msgid "Correct _folder permissions..."
+msgstr "கோப்புறை அனுமதிகளைச் சரிசெய் (_F)..."
+
+msgid "Click here to automatically fix the folder permissions."
+msgstr "கோப்புறை அனுமதிகளைத் தானாகச் சரிசெய்ய இங்கே சொடுக்கவும்."
+
+msgid "Please wait..."
+msgstr "காத்திருக்கவும்..."
+
+msgid "Stop applying permissions recursively."
+msgstr "அனுமதிகளை உட்கோப்புறைகளுக்கும் செயல்படுத்துவதை நிறுத்து."
+
+msgid "Question"
+msgstr "கேள்வி"
+
+msgid "Apply recursively?"
+msgstr "உட்கோப்புறைகளுக்கும் செயல்படுத்தவா?"
+
+msgid "Do you want to apply your changes recursively to\nall files and subfolders below the selected folder?"
+msgstr "உங்கள் மாற்றங்களைத் தேர்ந்தெடுத்த கோப்புறைக்குக் கீழுள்ள\nஅனைத்துக் கோப்புகளுக்கும் உட்கோப்புறைகளுக்கும் செயல்படுத்த வேண்டுமா?"
+
+msgid "If you select this option your choice will be remembered and you won't be asked again. You can use the preferences dialog to alter your choice afterwards."
+msgstr "இந்த விருப்பத்தைத் தேர்ந்தெடுத்தால் உங்கள் தேர்வு நினைவில் வைக்கப்படும்; மீண்டும் கேட்கப்படாது. பின்னர் விருப்பங்கள் உரையாடலில் உங்கள் தேர்வை மாற்றலாம்."
+
+msgid "Mixed file owners"
+msgstr "கலவையான கோப்பு உரிமையாளர்கள்"
+
+msgid "Unknown file owner"
+msgstr "தெரியாத கோப்பு உரிமையாளர்"
+
 msgid "None"
 msgstr "ஏதுமில்லை"
+
+msgid "Write only"
+msgstr "எழுத மட்டும்"
+
+msgid "Read only"
+msgstr "படிக்க மட்டும்"
+
+msgid "Read & Write"
+msgstr "படிக்கவும் எழுதவும்"
+
+msgid "Varying (no change)"
+msgstr "வேறுபடுகிறது (மாற்றமில்லை)"
+
+msgid "Correct folder permissions automatically?"
+msgstr "கோப்புறை அனுமதிகளைத் தானாகச் சரிசெய்யவா?"
+
+msgid "Folder permissions"
+msgstr "கோப்புறை அனுமதிகள்"
+
+msgid "Correct _folder permissions"
+msgstr "கோப்புறை அனுமதிகளைச் சரிசெய் (_F)"
+
+msgid "The folder permissions will be reset to a consistent state. Only users allowed to read the contents of this folder will be allowed to enter the folder afterwards."
+msgstr "கோப்புறை அனுமதிகள் ஒத்திசைவான நிலைக்கு மீட்டமைக்கப்படும். இதன் பின், இந்தக் கோப்புறையின் உள்ளடக்கத்தைப் படிக்க அனுமதியுள்ள பயனர்கள் மட்டுமே கோப்புறைக்குள் நுழைய முடியும்."
+
+msgid "Error while changing file permissions"
+msgstr "கோப்பு அனுமதிகளை மாற்றும்போது பிழை"
+
+msgid "Thunar Preferences"
+msgstr "Thunar விருப்பங்கள்"
+
+msgid "Display"
+msgstr "காட்சியமைப்பு"
+
+msgid "Window Settings"
+msgstr "சாளர அமைப்புகள்"
+
+msgid "Use custom window decorations (only applied to new windows)"
+msgstr "தனிப்பயன் சாளர அலங்கரிப்புகளைப் பயன்படுத்து (புதிய சாளரங்களுக்கு மட்டும்)"
+
+msgid "Use custom, client-side window decorations instead of global, server-side ones. - Only applied to new Thunar windows"
+msgstr "பொதுவான, சேவையகப் பக்கச் சாளர அலங்கரிப்புகளுக்குப் பதிலாகத் தனிப்பயன், கிளையன் பக்க அலங்கரிப்புகளைப் பயன்படுத்து. - புதிய Thunar சாளரங்களுக்கு மட்டுமே பொருந்தும்"
+
+msgid "Use current folder icon as window icon"
+msgstr "நடப்புக் கோப்புறைச் சின்னத்தைச் சாளரச் சின்னமாகப் பயன்படுத்து"
+
+msgid "Select this option to use the current folder icon as window icon"
+msgstr "நடப்புக் கோப்புறைச் சின்னத்தைச் சாளரச் சின்னமாகப் பயன்படுத்த இந்த விருப்பத்தைத் தேர்ந்தெடு"
+
+msgid "View Settings"
+msgstr "காட்சி அமைப்புகள்"
+
+msgid "View _new folders using:"
+msgstr "புதிய கோப்புறைகளைக் காட்டும் முறை: (_N)"
 
 msgid "Icon View"
 msgstr "சின்னக் காட்சி"
@@ -196,17 +1332,353 @@ msgstr "பட்டியல் காட்சி"
 msgid "Compact View"
 msgstr "அடர் காட்சி"
 
+msgid "Last Active View"
+msgstr "கடைசியாகப் பயன்படுத்திய காட்சி"
+
+msgid "_Remember view settings for each folder"
+msgstr "ஒவ்வொரு கோப்புறைக்கும் காட்சி அமைப்புகளை நினைவில் வை (_R)"
+
+msgid "Select this option to remember view type, zoom level, sort column, and sort order individually for each folder"
+msgstr "ஒவ்வொரு கோப்புறைக்கும் தனித்தனியாகக் காட்சி வகை, பெரிதாக்க நிலை, வரிசைப்படுத்தும் நெடுவரிசை, வரிசை முறை ஆகியவற்றை நினைவில் வைக்க இந்த விருப்பத்தைத் தேர்ந்தெடு"
+
+msgid "gvfs metadata support is required"
+msgstr "gvfs மீத்தரவு ஆதரவு தேவை"
+
+msgid "Sort _folders before files"
+msgstr "கோப்புகளுக்கு முன் கோப்புறைகளை வரிசைப்படுத்து (_F)"
+
+msgid "Select this option to list folders before files when you sort a folder."
+msgstr "ஒரு கோப்புறையை வரிசைப்படுத்தும்போது கோப்புகளுக்கு முன் கோப்புறைகளைப் பட்டியலிட இந்த விருப்பத்தைத் தேர்ந்தெடு."
+
+msgid "Show file size in binary format"
+msgstr "கோப்பு அளவை இரும வடிவில் காட்டு"
+
+msgid "Select this option to show file size in binary format instead of decimal."
+msgstr "கோப்பு அளவைத் தசம வடிவுக்குப் பதிலாக இரும வடிவில் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு."
+
+msgid "Thumbnails"
+msgstr "சிறுபடங்கள்"
+
+msgid "Show thumbnails:"
+msgstr "சிறுபடங்களைக் காட்டு:"
+
+msgid "Local Files Only"
+msgstr "உள்ளூர்க் கோப்புகள் மட்டும்"
+
+msgid "Only show thumbnails for files smaller than:"
+msgstr "இதைவிடச் சிறிய கோப்புகளுக்கு மட்டும் சிறுபடங்களைக் காட்டு:"
+
+msgid "Unlimited"
+msgstr "வரம்பில்லை"
+
+msgid "Draw frames around thumbnails"
+msgstr "சிறுபடங்களைச் சுற்றிச் சட்டங்களை வரை"
+
+msgid "Select this option to draw black frames around thumbnails."
+msgstr "சிறுபடங்களைச் சுற்றிக் கருப்புச் சட்டங்களை வரைய இந்த விருப்பத்தைத் தேர்ந்தெடு."
+
+msgid "_Text beside icons"
+msgstr "சின்னங்களுக்கு அருகில் உரை (_T)"
+
+msgid "Select this option to place the icon captions for items beside the icon rather than below the icon."
+msgstr "உருப்படிகளின் சின்னத் தலைப்புகளைச் சின்னத்துக்குக் கீழே அல்லாமல் அருகில் வைக்க இந்த விருப்பத்தைத் தேர்ந்தெடு."
+
+msgid "Date"
+msgstr "நாள்"
+
+msgid "_Format:"
+msgstr "வடிவமைப்பு: (_F)"
+
+msgid "Custom"
+msgstr "தனிப்பயன்"
+
+msgid "Today / Custom"
+msgstr "இன்று / தனிப்பயன்"
+
+msgid "Custom date format to apply.\n\nThe most common specifiers are:\n%d day of month\n%m month\n%Y year including century\n%H hour\n%M minute\n%S second\n\nFor a complete list, search 'Glib.DateTime.format'."
+msgstr "செயல்படுத்த வேண்டிய தனிப்பயன் நாள் வடிவமைப்பு.\n\nபொதுவான குறிப்பான்கள்:\n%d மாதத்தின் நாள்\n%m மாதம்\n%Y நூற்றாண்டு உட்பட ஆண்டு\n%H மணி\n%M நிமிடம்\n%S விநாடி\n\nமுழுப் பட்டியலுக்கு 'Glib.DateTime.format' எனத் தேடவும்."
+
 msgid "Side Pane"
 msgstr "பக்கப் பலகம்"
+
+msgid "Shortcuts Pane"
+msgstr "குறுக்குவழிப் பலகம்"
+
+msgid "_Icon Size:"
+msgstr "சின்ன அளவு: (_I)"
+
+msgid "Show Icon _Emblems"
+msgstr "சின்ன முத்திரைகளைக் காட்டு (_E)"
+
+msgid "Select this option to display icon emblems in the shortcuts pane for all folders for which emblems have been defined in the folders properties dialog."
+msgstr "கோப்புறைப் பண்புகள் உரையாடலில் முத்திரைகள் வரையறுக்கப்பட்ட அனைத்துக் கோப்புறைகளுக்கும் குறுக்குவழிப் பலகத்தில் சின்ன முத்திரைகளைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு."
+
+msgid "Tree Pane"
+msgstr "மரப் பலகம்"
+
+msgid "Icon _Size:"
+msgstr "சின்ன அளவு: (_S)"
+
+msgid "Show Icon E_mblems"
+msgstr "சின்ன முத்திரைகளைக் காட்டு (_M)"
+
+msgid "Select this option to display icon emblems in the tree pane for all folders for which emblems have been defined in the folders properties dialog."
+msgstr "கோப்புறைப் பண்புகள் உரையாடலில் முத்திரைகள் வரையறுக்கப்பட்ட அனைத்துக் கோப்புறைகளுக்கும் மரப் பலகத்தில் சின்ன முத்திரைகளைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு."
+
+msgid "Icon Style"
+msgstr "சின்னப் பாணி"
+
+msgid "Use symbolic folder icons"
+msgstr "குறியீட்டுக் கோப்புறைச் சின்னங்களைப் பயன்படுத்து"
+
+msgid "Select this option to use symbolic folder icons instead of regular ones."
+msgstr "வழக்கமான சின்னங்களுக்குப் பதிலாகக் குறியீட்டுக் கோப்புறைச் சின்னங்களைப் பயன்படுத்த இந்த விருப்பத்தைத் தேர்ந்தெடு."
+
+msgid "Image Preview"
+msgstr "பட முன்னோட்டம்"
+
+msgid "Image Preview Mode:"
+msgstr "பட முன்னோட்ட முறை:"
+
+msgid "- Standalone: Image Preview uses a separate pane\n- Embedded: Image Preview is embedded in the left sidepane\n"
+msgstr "- தனித்தது: பட முன்னோட்டம் தனிப் பலகத்தைப் பயன்படுத்தும்\n- உட்பொதிந்தது: பட முன்னோட்டம் இடப் பக்கப் பலகத்தில் உட்பொதிக்கப்படும்\n"
+
+msgid "Behavior"
+msgstr "நடத்தை"
+
+msgid "Navigation"
+msgstr "வழிசெலுத்தல்"
+
+msgid "_Single click to activate items"
+msgstr "உருப்படிகளைச் செயல்படுத்த ஒற்றைச் சொடுக்கு (_S)"
+
+msgid "Specify the d_elay before an item gets selected\nwhen the mouse pointer is paused over it:"
+msgstr "சுட்டி ஓர் உருப்படியின் மேல் நிற்கும்போது அது தேர்ந்தெடுக்கப்படுவதற்கு\nமுன்னுள்ள தாமதத்தைக் குறிப்பிடுக: (_E)"
+
+msgid "When single-click activation is enabled, pausing the mouse pointer over an item will automatically select that item after the chosen delay. You can disable this behavior by moving the slider to the left-most position. This behavior may be useful when single clicks activate items, and you want only to select the item without activating it."
+msgstr "ஒற்றைச் சொடுக்குச் செயல்படுத்தல் இயக்கப்பட்டிருந்தால், சுட்டியை ஓர் உருப்படியின் மேல் நிறுத்தும்போது தேர்ந்தெடுத்த தாமதத்துக்குப் பின் அந்த உருப்படி தானாகத் தேர்ந்தெடுக்கப்படும். நழுவியை இடக்கோடி நிலைக்கு நகர்த்தி இந்த நடத்தையை முடக்கலாம். ஒற்றைச் சொடுக்கு உருப்படிகளைச் செயல்படுத்தும்போது, உருப்படியைச் செயல்படுத்தாமல் தேர்ந்தெடுக்க மட்டும் விரும்பினால் இந்த நடத்தை பயனுள்ளதாக இருக்கும்."
+
+msgid "Disabled"
+msgstr "முடக்கப்பட்டது"
+
+msgid "Medium"
+msgstr "நடுத்தரம்"
+
+msgid "Long"
+msgstr "நீளம்"
+
+msgid "_Double click to activate items"
+msgstr "உருப்படிகளைச் செயல்படுத்த இரட்டைச் சொடுக்கு (_D)"
+
+msgid "Tabs and Windows"
+msgstr "தாவல்களும் சாளரங்களும்"
+
+msgid "Open folders in new tabs on middle click"
+msgstr "நடுச் சொடுக்கில் கோப்புறைகளைப் புதிய தாவல்களில் திற"
+
+msgid "Select this option to open a new tab on middle click instead of a new window"
+msgstr "நடுச் சொடுக்கில் புதிய சாளரத்துக்குப் பதிலாகப் புதிய தாவலைத் திறக்க இந்த விருப்பத்தைத் தேர்ந்தெடு"
+
+msgid "Open new thunar instances as tabs"
+msgstr "புதிய thunar நிகழ்வுகளைத் தாவல்களாகத் திற"
+
+msgid "Select this option to open new thunar instances as tabs in an existing thunar window"
+msgstr "புதிய thunar நிகழ்வுகளை ஏற்கெனவே உள்ள thunar சாளரத்தில் தாவல்களாகத் திறக்க இந்த விருப்பத்தைத் தேர்ந்தெடு"
+
+msgid "Show full directory paths in tab titles"
+msgstr "தாவல் தலைப்புகளில் முழுக் கோப்புறைப் பாதைகளைக் காட்டு"
+
+msgid "Select this option to show the full directory path in the tab title instead of only the directory name"
+msgstr "தாவல் தலைப்பில் கோப்புறைப் பெயருக்குப் பதிலாக முழுக் கோப்புறைப் பாதையைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு"
+
+msgid "Restore tabs on startup"
+msgstr "தொடக்கத்தில் தாவல்களை மீட்டெடு"
+
+msgid "Select this option to restore your tabs as they were last time you used Thunar"
+msgstr "கடைசியாக Thunar ஐப் பயன்படுத்தியபோது இருந்தபடியே உங்கள் தாவல்களை மீட்டெடுக்க இந்த விருப்பத்தைத் தேர்ந்தெடு"
+
+msgid "Context Menu"
+msgstr "சூழல் பட்டியல்"
+
+msgid "Show action to permanently delete files and folders"
+msgstr "கோப்புகளையும் கோப்புறைகளையும் நிரந்தரமாக நீக்கும் செயலைக் காட்டு"
+
+msgid "Select this option to show the 'Delete' action in the context menu"
+msgstr "சூழல் பட்டியலில் 'நீக்கு' செயலைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடு"
+
+msgid "Advanced"
+msgstr "மேம்பட்டவை"
+
+msgid "File Transfer"
+msgstr "கோப்புப் பரிமாற்றம்"
+
+msgid "Transfer files in parallel:"
+msgstr "கோப்புகளை இணையாகப் பரிமாற்று:"
+
+msgid "Indicates the behavior during multiple copies:\n- Always: all copies are done simultaneously\n- Local Files Only: simultaneous copies for local (not remote, not attached) files\n- Local Files Only (Same Devices): if all files are local but on different devices (disks, mount points), copies will be sequential\n- Local Files Only (Idle Devices): if all files are local but on busy devices (disks, mount points), copies will be sequential\n- Never: all copies are done sequentially"
+msgstr "பல நகலெடுப்புகளின்போது நடத்தையைக் குறிக்கிறது:\n- எப்போதும்: அனைத்து நகலெடுப்புகளும் ஒரே நேரத்தில் நடக்கும்\n- உள்ளூர்க் கோப்புகள் மட்டும்: உள்ளூர்க் (தொலைவில் இல்லாத, இணைக்கப்படாத) கோப்புகளுக்கு ஒரே நேர நகலெடுப்பு\n- உள்ளூர்க் கோப்புகள் மட்டும் (ஒரே சாதனங்கள்): அனைத்துக் கோப்புகளும் உள்ளூரில் இருந்தாலும் வெவ்வேறு சாதனங்களில் (வட்டுகள், ஏற்றப் புள்ளிகள்) இருந்தால், நகலெடுப்புகள் ஒன்றன்பின் ஒன்றாக நடக்கும்\n- உள்ளூர்க் கோப்புகள் மட்டும் (ஓய்வுச் சாதனங்கள்): அனைத்துக் கோப்புகளும் உள்ளூரில் இருந்தாலும் பணிமிகுந்த சாதனங்களில் (வட்டுகள், ஏற்றப் புள்ளிகள்) இருந்தால், நகலெடுப்புகள் ஒன்றன்பின் ஒன்றாக நடக்கும்\n- ஒருபோதும் இல்லை: அனைத்து நகலெடுப்புகளும் ஒன்றன்பின் ஒன்றாக நடக்கும்"
+
+msgid "Local Files Only (Same Devices)"
+msgstr "உள்ளூர்க் கோப்புகள் மட்டும் (ஒரே சாதனங்கள்)"
+
+msgid "Local Files Only (Idle Devices)"
+msgstr "உள்ளூர்க் கோப்புகள் மட்டும் (ஓய்வுச் சாதனங்கள்)"
+
+msgid "Use intermediate file on copy:"
+msgstr "நகலெடுக்கும்போது இடைநிலைக் கோப்பைப் பயன்படுத்து:"
+
+msgid "Use intermediate file '*.partial~' to copy files. This will prevent fragmented files. The new file will only be shown after the copy was successfully finished."
+msgstr "கோப்புகளை நகலெடுக்க '*.partial~' என்ற இடைநிலைக் கோப்பைப் பயன்படுத்து. இது முழுமையடையாத கோப்புகளைத் தடுக்கும். நகலெடுப்பு வெற்றிகரமாக முடிந்த பின்னரே புதிய கோப்பு காட்டப்படும்."
+
+msgid "Verify file contents on copy:"
+msgstr "நகலெடுக்கும்போது கோப்பு உள்ளடக்கத்தைச் சரிபார்:"
+
+msgid "Compare contents of original file and copy in order to detect corruption. While this will attempt to compare the actual contents that are on the destination media, Thunar may be unable to bypass filesystem caches, so this comparison may not detect all instances of corruption. Enabling this option will increase copy time."
+msgstr "சிதைவைக் கண்டறிய மூலக் கோப்பின் உள்ளடக்கத்தையும் நகலின் உள்ளடக்கத்தையும் ஒப்பிடு. இது இலக்கு ஊடகத்திலுள்ள உண்மையான உள்ளடக்கத்தை ஒப்பிட முயன்றாலும், Thunar ஆல் கோப்பு முறைமைத் தேக்ககங்களைத் தவிர்க்க முடியாமல் போகலாம்; எனவே இந்த ஒப்பீடு எல்லாச் சிதைவுகளையும் கண்டறியாமல் போகலாம். இந்த விருப்பத்தை இயக்கினால் நகலெடுக்கும் நேரம் அதிகரிக்கும்."
 
 msgid "Search"
 msgstr "தேடு"
 
+msgid "Include subfolders:"
+msgstr "உட்கோப்புறைகளையும் சேர்:"
+
+msgid "Folder Permissions"
+msgstr "கோப்புறை அனுமதிகள்"
+
+msgid "When changing the permissions of a folder, you\ncan also apply the changes to the contents of the\nfolder. Select the default behavior below:"
+msgstr "ஒரு கோப்புறையின் அனுமதிகளை மாற்றும்போது, அந்த மாற்றங்களைக்\nகோப்புறையின் உள்ளடக்கத்துக்கும் செயல்படுத்தலாம். கீழே\nஇயல்புநிலை நடத்தையைத் தேர்ந்தெடு:"
+
+msgid "Ask every time"
+msgstr "ஒவ்வொரு முறையும் கேள்"
+
+msgid "Apply to Folder and Contents"
+msgstr "கோப்புறைக்கும் உள்ளடக்கத்துக்கும் செயல்படுத்து"
+
+msgid "Apply to Folder Only"
+msgstr "கோப்புறைக்கு மட்டும் செயல்படுத்து"
+
+msgid "Security"
+msgstr "பாதுகாப்பு"
+
+msgid "Execute shell scripts:"
+msgstr "ஷெல் உரைநிரல்களை இயக்கு:"
+
+msgid "Volume Management"
+msgstr "தொகுதி மேலாண்மை"
+
+msgid "Enable _Volume Management"
+msgstr "தொகுதி மேலாண்மையை இயக்கு (_V)"
+
+msgid "<a href=\"volman-config:\">Configure</a> the management of removable drives,\ndevices and media."
+msgstr "நீக்கக்கூடிய இயக்கிகள், சாதனங்கள், ஊடகங்கள்\nஆகியவற்றின் மேலாண்மையை <a href=\"volman-config:\">அமை</a>."
+
+msgid "Missing dependencies"
+msgstr "விடுபட்ட சார்புகள்"
+
+msgid "It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\nImportant features including trash support,\nremovable media and remote location browsing\nwill not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
+msgstr "<a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> கிடைக்கவில்லை எனத் தெரிகிறது.\nகுப்பைத் தொட்டி ஆதரவு, நீக்கக்கூடிய ஊடகம்,\nதொலை இருப்பிட உலாவல் உள்ளிட்ட முக்கிய வசதிகள்\nவேலை செய்யாது. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnomevirtualfilesystem\">[மேலும் படிக்க]</a> (_V)"
+
+msgid "Shortcuts"
+msgstr "குறுக்குவழிகள்"
+
+msgid "Window"
+msgstr "சாளரம்"
+
 msgid "View"
 msgstr "காட்சி"
 
+msgid "Launcher"
+msgstr "தொடக்கி"
+
+msgid "Status Bar"
+msgstr "நிலைப்பட்டை"
+
+msgid "The Shortcuts Editor requires a Thunar window to be present."
+msgstr "குறுக்குவழித் தொகுப்பிக்கு ஒரு Thunar சாளரம் திறந்திருக்க வேண்டும்."
+
+msgid "Failed to display the volume management settings"
+msgstr "தொகுதி மேலாண்மை அமைப்புகளைக் காட்ட முடியவில்லை"
+
+msgid "File Operation Progress"
+msgstr "கோப்புச் செயல்பாட்டு முன்னேற்றம்"
+
+msgid "Paused"
+msgstr "இடைநிறுத்தப்பட்டது"
+
+msgid "Starting... (User request)"
+msgstr "தொடங்குகிறது... (பயனர் கோரிக்கை)"
+
+msgid "Resuming..."
+msgstr "தொடர்கிறது..."
+
+msgid "Cancelling..."
+msgstr "ரத்துசெய்யப்படுகிறது..."
+
+msgid "Error while processing file operation"
+msgstr "கோப்புச் செயல்பாட்டைச் செயலாக்கும்போது பிழை"
+
+msgid "Job queued"
+msgstr "பணி வரிசையில் உள்ளது"
+
+msgid "Resuming job..."
+msgstr "பணி தொடர்கிறது..."
+
 msgid "General"
 msgstr "பொது"
+
+msgid "_Name:"
+msgstr "பெயர்: (_N)"
+
+msgid "Names:"
+msgstr "பெயர்கள்:"
+
+msgid "Kind:"
+msgstr "வகை:"
+
+msgid "_Open With:"
+msgstr "இதனுடன் திற: (_O)"
+
+msgid "Link Target:"
+msgstr "இணைப்பு இலக்கு:"
+
+msgid "Original Path:"
+msgstr "முந்தைய பாதை:"
+
+msgid "Location:"
+msgstr "இருப்பிடம்:"
+
+msgid "Volume:"
+msgstr "தொகுதி:"
+
+msgid "Deleted:"
+msgstr "நீக்கியது:"
+
+msgid "Created:"
+msgstr "உருவாக்கியது:"
+
+msgid "Accessed:"
+msgstr "அணுகியது:"
+
+msgid "Size on Disk:"
+msgstr "வட்டில் அளவு:"
+
+msgid "Content:"
+msgstr "உள்ளடக்கம்:"
+
+msgid "Capacity:"
+msgstr "கொள்ளளவு:"
+
+msgid "Usage:"
+msgstr "பயன்பாடு:"
+
+msgid "Emblems"
+msgstr "முத்திரைகள்"
+
+msgid "Highlight"
+msgstr "முன்னிலைப்படுத்தல்"
+
+msgid "It looks like <a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> is not available.\nThis feature will not work. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnome_virtual_file_system\">[Read more]</a>"
+msgstr "<a href=\"https://wiki.gnome.org/Projects/gvfs\">gvfs</a> கிடைக்கவில்லை எனத் தெரிகிறது.\nஇந்த வசதி வேலை செய்யாது. <a href=\"https://docs.xfce.org/xfce/thunar/unix-filesystem#gnomevirtualfilesystem\">[மேலும் படிக்க]</a> (_V)"
 
 msgid "_Apply"
 msgstr "செயல்படுத்து (_A)"
@@ -214,20 +1686,137 @@ msgstr "செயல்படுத்து (_A)"
 msgid "_Reset"
 msgstr "மீட்டமை (_R)"
 
+msgid "Set _Foreground"
+msgstr "முன்புல நிறத்தை அமை (_F)"
+
+msgid "Set _Background"
+msgstr "பின்புல நிறத்தை அமை (_B)"
+
+msgid "Select an Icon for \"%s\" (%s)"
+msgstr "\"%s\" (%s) க்கு ஒரு சின்னத்தைத் தேர்ந்தெடு"
+
+msgid "Select an Icon for \"%s\""
+msgstr "\"%s\" க்கு ஒரு சின்னத்தைத் தேர்ந்தெடு"
+
+msgid "Failed to change icon of \"%s\" (%s)"
+msgstr "\"%s\" இன் சின்னத்தை மாற்ற முடியவில்லை (%s)"
+
+msgid "Failed to change icon of \"%s\""
+msgstr "\"%s\" இன் சின்னத்தை மாற்ற முடியவில்லை"
+
+msgid "%s (%s) - Properties"
+msgstr "%s (%s) - பண்புகள்"
+
+msgid "%s - Properties"
+msgstr "%s - பண்புகள்"
+
 msgid "Properties"
 msgstr "பண்புகள்"
+
+msgid "Link Targets:"
+msgstr "இணைப்பு இலக்குகள்:"
+
+msgid "mixed"
+msgstr "கலவை"
+
+msgid "_Add Files..."
+msgstr "கோப்புகளைச் சேர் (_A)..."
+
+msgid "Include additional files in the list of files to be renamed"
+msgstr "பெயர்மாற்ற வேண்டிய கோப்புகளின் பட்டியலில் கூடுதல் கோப்புகளைச் சேர்"
 
 msgid "Clear"
 msgstr "அழி"
 
+msgid "Clear the file list below"
+msgstr "கீழுள்ள கோப்புப் பட்டியலை அழி"
+
 msgid "_About"
 msgstr "பற்றி (_A)"
+
+msgid "Display information about Thunar Bulk Rename"
+msgstr "Thunar தொகுப்புப் பெயர்மாற்றி பற்றிய தகவலைக் காட்டு"
+
+msgid "Rename Multiple Files"
+msgstr "பல கோப்புகளைப் பெயர்மாற்று"
+
+msgid "Close this window, cancel further changes."
+msgstr "இந்தச் சாளரத்தை மூடு, மேலும் மாற்றங்களை ரத்துசெய்."
+
+msgid "Rename items listed above, keep this window open."
+msgstr "மேலே பட்டியலிட்ட உருப்படிகளைப் பெயர்மாற்று, இந்தச் சாளரத்தைத் திறந்தே வை."
+
+msgid "New Name"
+msgstr "புதிய பெயர்"
+
+msgid "Click here to view the documentation for the selected rename operation."
+msgstr "தேர்ந்தெடுத்த பெயர்மாற்றச் செயல்பாட்டுக்கான ஆவணங்களைக் காண இங்கே சொடுக்கவும்."
+
+msgid "No renamer modules were found on your system. Please check your\ninstallation or contact your system administrator. If you install Thunar\nfrom source, be sure to enable the \"Simple Builtin Renamers\" plugin."
+msgstr "உங்கள் கணினியில் பெயர்மாற்றிக் கூறுகள் எதுவும் கிடைக்கவில்லை. உங்கள்\nநிறுவலைச் சரிபார்க்கவும் அல்லது கணினி நிர்வாகியைத் தொடர்புகொள்ளவும். Thunar ஐ\nமூலக்குறியீட்டிலிருந்து நிறுவினால், \"Simple Builtin Renamers\" செருகுநிரலை இயக்க மறவாதீர்கள்."
+
+msgid "Remove File"
+msgid_plural "Remove Files"
+msgstr[0] "கோப்பை அகற்று"
+msgstr[1] "கோப்புகளை அகற்று"
+
+msgid "Remove the selected file from the list of files to be renamed"
+msgid_plural "Remove the selected files from the list of files to be renamed"
+msgstr[0] "தேர்ந்தெடுத்த கோப்பைப் பெயர்மாற்ற வேண்டிய கோப்புகளின் பட்டியலிலிருந்து அகற்று"
+msgstr[1] "தேர்ந்தெடுத்த கோப்புகளைப் பெயர்மாற்ற வேண்டிய கோப்புகளின் பட்டியலிலிருந்து அகற்று"
+
+msgid "Failed to open the documentation browser"
+msgstr "ஆவண உலாவியைத் திறக்க முடியவில்லை"
+
+msgid "Select files to rename"
+msgstr "பெயர்மாற்ற வேண்டிய கோப்புகளைத் தேர்ந்தெடு"
+
+msgid "Audio Files"
+msgstr "ஒலிக் கோப்புகள்"
+
+msgid "Image Files"
+msgstr "படக் கோப்புகள்"
+
+msgid "Video Files"
+msgstr "காணொளிக் கோப்புகள்"
 
 msgid "Bulk Rename"
 msgstr "தொகுப்பாகப் பெயர்மாற்று"
 
+msgid "Thunar Bulk Rename is a powerful and extensible\ntool to rename multiple files at once."
+msgstr "Thunar தொகுப்புப் பெயர்மாற்றி, பல கோப்புகளை ஒரே நேரத்தில்\nபெயர்மாற்றும் வலிமையான, விரிவாக்கக்கூடிய கருவி."
+
+msgid "Bulk Rename - Rename Multiple Files"
+msgstr "தொகுப்புப் பெயர்மாற்றம் - பல கோப்புகளைப் பெயர்மாற்று"
+
+msgid "Failed to rename \"%s\" to \"%s\"."
+msgstr "\"%s\" ஐ \"%s\" எனப் பெயர்மாற்ற முடியவில்லை."
+
+msgid "You can either choose to skip this file and continue to rename the remaining files, or revert the previously renamed files to their previous names, or cancel the operation without reverting previous changes."
+msgstr "இந்தக் கோப்பைத் தவிர்த்து மீதமுள்ள கோப்புகளைத் தொடர்ந்து பெயர்மாற்றலாம், அல்லது முன்பு பெயர்மாற்றிய கோப்புகளை அவற்றின் முந்தைய பெயர்களுக்குத் திருப்பலாம், அல்லது முந்தைய மாற்றங்களைத் திருப்பாமல் செயல்பாட்டை ரத்துசெய்யலாம்."
+
+msgid "_Revert Changes"
+msgstr "மாற்றங்களைத் திரும்பப்பெறு (_R)"
+
+msgid "_Skip This File"
+msgstr "இந்தக் கோப்பைத் தவிர் (_S)"
+
+msgid "Do you want to skip this file and continue to rename the remaining files?"
+msgstr "இந்தக் கோப்பைத் தவிர்த்து மீதமுள்ள கோப்புகளைத் தொடர்ந்து பெயர்மாற்ற வேண்டுமா?"
+
+msgid "Browse the file system"
+msgstr "கோப்பு முறைமையில் உலாவு"
+
+msgid "Mount and open %s (%s)"
+msgstr "%s (%s) ஐ ஏற்றித் திற"
+
 msgid "Trash is empty"
 msgstr "குப்பைத் தொட்டி காலியாக உள்ளது"
+
+msgid "Trash contains %d file"
+msgid_plural "Trash contains %d files"
+msgstr[0] "குப்பைத் தொட்டியில் %d கோப்பு உள்ளது"
+msgstr[1] "குப்பைத் தொட்டியில் %d கோப்புகள் உள்ளன"
 
 msgid "Devices"
 msgstr "சாதனங்கள்"
@@ -238,26 +1827,152 @@ msgstr "வலையமைப்பு"
 msgid "Browse Network"
 msgstr "வலையமைப்பில் உலாவு"
 
+msgid "Browse local network connections"
+msgstr "உள்ளூர் வலையமைப்பு இணைப்புகளில் உலாவு"
+
 msgid "Places"
 msgstr "இடங்கள்"
+
+msgid "Open the home folder"
+msgstr "இல்லக் கோப்புறையைத் திற"
+
+msgid "Open the desktop folder"
+msgstr "மேசைத்தளக் கோப்புறையைத் திற"
 
 msgid "Computer"
 msgstr "கணினி"
 
+msgid "Browse the computer"
+msgstr "கணினியில் உலாவு"
+
 msgid "Recent"
 msgstr "அண்மையவை"
+
+msgid "Browse recently used files"
+msgstr "அண்மையில் பயன்படுத்திய கோப்புகளில் உலாவு"
+
+msgid "Re_name Shortcut"
+msgstr "குறுக்குவழியைப் பெயர்மாற்று (_N)"
+
+msgid "_Remove Shortcut"
+msgstr "குறுக்குவழியை அகற்று (_R)"
+
+msgid "The path \"%s\" does not refer to a directory"
+msgstr "\"%s\" என்ற பாதை ஒரு கோப்புறையைக் குறிக்கவில்லை"
+
+msgid "Failed to add new shortcut"
+msgstr "புதிய குறுக்குவழியைச் சேர்க்க முடியவில்லை"
+
+msgid "Click here to stop calculating the total size of the folder."
+msgstr "கோப்புறையின் மொத்த அளவைக் கணக்கிடுவதை நிறுத்த இங்கே சொடுக்கவும்."
+
+msgid "Calculating..."
+msgstr "கணக்கிடுகிறது..."
+
+msgid "Calculation aborted"
+msgstr "கணக்கீடு கைவிடப்பட்டது"
+
+msgid "%d folder"
+msgid_plural "%d folders"
+msgstr[0] "%d கோப்புறை"
+msgstr[1] "%d கோப்புறைகள்"
+
+msgid "%u item (%s, %s)"
+msgid_plural "%u items (%s, %s)"
+msgstr[0] "%u உருப்படி (%s, %s)"
+msgstr[1] "%u உருப்படிகள் (%s, %s)"
+
+msgid "(some contents unreadable)"
+msgstr "(சில உள்ளடக்கங்களைப் படிக்க முடியவில்லை)"
+
+msgid "Permission denied"
+msgstr "அனுமதி மறுக்கப்பட்டது"
 
 msgid "Select _all Files"
 msgstr "அனைத்துக் கோப்புகளையும் தேர்ந்தெடு (_A)"
 
+msgid "Select all files in this window"
+msgstr "இந்தச் சாளரத்திலுள்ள அனைத்துக் கோப்புகளையும் தேர்ந்தெடு"
+
 msgid "Select _by Pattern..."
 msgstr "வடிவத்தால் தேர்ந்தெடு (_B)..."
+
+msgid "Select all files that match a certain pattern"
+msgstr "குறிப்பிட்ட வடிவத்துக்குப் பொருந்தும் அனைத்துக் கோப்புகளையும் தேர்ந்தெடு"
 
 msgid "_Invert Selection"
 msgstr "தேர்வைத் தலைகீழாக்கு (_I)"
 
+msgid "Select all files but not those currently selected"
+msgstr "தற்போது தேர்ந்தெடுத்தவை தவிர மற்ற அனைத்துக் கோப்புகளையும் தேர்ந்தெடு"
+
 msgid "U_nselect all Files"
 msgstr "அனைத்துத் தேர்வையும் நீக்கு (_N)"
+
+msgid "Unselect all files in this window"
+msgstr "இந்தச் சாளரத்திலுள்ள அனைத்துக் கோப்புகளின் தேர்வையும் நீக்கு"
+
+msgid "Arran_ge Items"
+msgstr "உருப்படிகளை அடுக்கு (_G)"
+
+msgid "_Reversed Order"
+msgstr "தலைகீழ் வரிசை (_R)"
+
+msgid "Reverse the sort order"
+msgstr "வரிசை முறையைத் தலைகீழாக்கு"
+
+msgid "By _Name"
+msgstr "பெயர்ப்படி (_N)"
+
+msgid "Keep items sorted by their name"
+msgstr "உருப்படிகளைப் பெயர்ப்படி வரிசைப்படுத்தி வை"
+
+msgid "By _Size"
+msgstr "அளவுப்படி (_S)"
+
+msgid "Keep items sorted by their size"
+msgstr "உருப்படிகளை அளவுப்படி வரிசைப்படுத்தி வை"
+
+msgid "By _Type"
+msgstr "வகைப்படி (_T)"
+
+msgid "Keep items sorted by their type"
+msgstr "உருப்படிகளை வகைப்படி வரிசைப்படுத்தி வை"
+
+msgid "By _Modification Date"
+msgstr "மாற்றிய நாள்படி (_M)"
+
+msgid "Keep items sorted by their modification date"
+msgstr "உருப்படிகளை மாற்றிய நாள்படி வரிசைப்படுத்தி வை"
+
+msgid "By D_eletion Date"
+msgstr "நீக்கிய நாள்படி (_E)"
+
+msgid "Keep items sorted by their deletion date"
+msgstr "உருப்படிகளை நீக்கிய நாள்படி வரிசைப்படுத்தி வை"
+
+msgid "_Ascending"
+msgstr "ஏறுவரிசை (_A)"
+
+msgid "Sort items in ascending order"
+msgstr "உருப்படிகளை ஏறுவரிசையில் வரிசைப்படுத்து"
+
+msgid "_Descending"
+msgstr "இறங்குவரிசை (_D)"
+
+msgid "Sort items in descending order"
+msgstr "உருப்படிகளை இறங்குவரிசையில் வரிசைப்படுத்து"
+
+msgid "Loading folder contents..."
+msgstr "கோப்புறை உள்ளடக்கம் ஏற்றப்படுகிறது..."
+
+msgid "%d file found"
+msgid_plural "%d files found"
+msgstr[0] "%d கோப்பு கிடைத்தது"
+msgstr[1] "%d கோப்புகள் கிடைத்தன"
+
+msgid "Failed to open the home folder"
+msgstr "இல்லக் கோப்புறையைத் திறக்க முடியவில்லை"
 
 msgctxt "Select by Pattern dialog: title"
 msgid "Select by Pattern"
@@ -267,26 +1982,243 @@ msgctxt "Select by Pattern dialog: buttons"
 msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
 
+msgctxt "Select by Pattern dialog: buttons"
+msgid "_Select"
+msgstr "தேர்ந்தெடு (_S)"
+
+msgctxt "Select by Pattern dialog: labels: pattern entry textbox"
+msgid "_Pattern:"
+msgstr "வடிவம்: (_P)"
+
+msgid "Files whose name matches the wildcard pattern you enter will be selected in the main window."
+msgstr "நீங்கள் உள்ளிடும் பொதுக்குறி வடிவத்துக்குப் பொருந்தும் பெயருடைய கோப்புகள் முதன்மைச் சாளரத்தில் தேர்ந்தெடுக்கப்படும்."
+
+msgctxt "Select by Pattern dialog: tooltips: pattern entry text box"
+msgid "? matches exactly one character,\n* matches any number of characters, including zero.\n\nFor example: *.txt, file??.png, pict\n\nWithout any * or ? wildcards, the pattern will match anywhere in a name. With wildcards, the pattern must match at both the start and the end of a name."
+msgstr "? சரியாக ஓர் எழுத்துக்குப் பொருந்தும்,\n* பூஜ்ஜியம் உட்பட எத்தனை எழுத்துகளுக்கும் பொருந்தும்.\n\nஎடுத்துக்காட்டு: *.txt, file??.png, pict\n\n* அல்லது ? பொதுக்குறிகள் இல்லையெனில், வடிவம் பெயரின் எந்த இடத்திலும் பொருந்தும். பொதுக்குறிகள் இருந்தால், வடிவம் பெயரின் தொடக்கத்திலும் முடிவிலும் பொருந்த வேண்டும்."
+
+msgctxt "Select by Pattern dialog: labels: case sensitive checkbox"
+msgid "C_ase sensitive"
+msgstr "பெரிய/சிறிய எழுத்து வேறுபாடு பார் (_A)"
+
+msgctxt "Select by Pattern dialog: tooltips: case sensitive checkbox"
+msgid "If enabled, letter case must match the pattern.\nExamp* would match Example.txt and not example.txt"
+msgstr "இயக்கினால், பெரிய/சிறிய எழுத்து வடிவம் வடிவத்துக்குப் பொருந்த வேண்டும்.\nExamp* என்பது Example.txt க்குப் பொருந்தும், example.txt க்குப் பொருந்தாது"
+
+msgctxt "Select by Pattern dialog: labels: match diacritics checkbox"
+msgid "_Match diacritics"
+msgstr "ஒலிக்குறிகளையும் பொருத்து (_M)"
+
+msgctxt "Select by Pattern dialog: tooltips: match diacritics checkbox"
+msgid "If enabled, require accents to match the pattern.\nRés* would match Résumé.txt and not Resume.txt"
+msgstr "இயக்கினால், ஒலிக்குறிகளும் வடிவத்துக்குப் பொருந்த வேண்டும்.\nRés* என்பது Résumé.txt க்குப் பொருந்தும், Resume.txt க்குப் பொருந்தாது"
+
+msgid "Invalid filename provided by XDS drag site"
+msgstr "XDS இழுப்புத் தளம் தவறான கோப்புப்பெயரைத் தந்தது"
+
+msgid "Failed to create a link for the URL \"%s\""
+msgstr "\"%s\" URL க்கு இணைப்பை உருவாக்க முடியவில்லை"
+
+msgid "Untitled document"
+msgstr "தலைப்பில்லா ஆவணம்"
+
+msgid "Failed to open directory \"%s\""
+msgstr "\"%s\" கோப்புறையைத் திறக்க முடியவில்லை"
+
+msgid "Show size"
+msgstr "அளவைக் காட்டு"
+
+msgid "Size in bytes"
+msgstr "பைட்டுகளில் அளவு"
+
+msgid "Show size in bytes"
+msgstr "அளவைப் பைட்டுகளில் காட்டு"
+
+msgid "Filetype"
+msgstr "கோப்பு வகை"
+
+msgid "Show filetype"
+msgstr "கோப்பு வகையைக் காட்டு"
+
+msgid "Display Name"
+msgstr "காட்சிப் பெயர்"
+
+msgid "Show display name"
+msgstr "காட்சிப் பெயரைக் காட்டு"
+
+msgid "Last Modified"
+msgstr "கடைசியாக மாற்றியது"
+
+msgid "Show last modified"
+msgstr "கடைசியாக மாற்றியதைக் காட்டு"
+
+msgid "Hidden Files Count"
+msgstr "மறைந்த கோப்புகளின் எண்ணிக்கை"
+
+msgid "Show hidden files count"
+msgstr "மறைந்த கோப்புகளின் எண்ணிக்கையைக் காட்டு"
+
+msgid "Configure the Toolbar"
+msgstr "கருவிப்பட்டையை அமை"
+
+msgid "Configure the order and visibility of toolbar items.\nNote that toolbar items are always executed for the current directory."
+msgstr "கருவிப்பட்டை உருப்படிகளின் வரிசையையும் தெரிவுநிலையையும் அமை.\nகருவிப்பட்டை உருப்படிகள் எப்போதும் நடப்புக் கோப்புறைக்கே இயக்கப்படும் என்பதைக் கவனிக்கவும்."
+
+msgid "De_fault Order"
+msgstr "இயல்புநிலை வரிசை (_F)"
+
+msgid "_Symbolic Icons"
+msgstr "குறியீட்டுச் சின்னங்கள் (_S)"
+
+msgid "Use symbolic icons instead of regular ones (if available)."
+msgstr "வழக்கமான சின்னங்களுக்குப் பதிலாகக் குறியீட்டுச் சின்னங்களைப் பயன்படுத்து (கிடைத்தால்)."
+
+msgid "Only visible when the menubar is hidden"
+msgstr "பட்டிப்பட்டை மறைந்திருக்கும்போது மட்டும் தெரியும்"
+
+msgid "Verifying file contents..."
+msgstr "கோப்பு உள்ளடக்கம் சரிபார்க்கப்படுகிறது..."
+
+msgid "Error while copying to \"%s\": %s more space is required to copy to the destination"
+msgstr "\"%s\" க்கு நகலெடுக்கும்போது பிழை: இலக்குக்கு நகலெடுக்க மேலும் %s இடம் தேவை"
+
+msgid "Trying to restore \"%s\""
+msgstr "\"%s\" ஐ மீட்டெடுக்க முயல்கிறது"
+
+msgid "The folder \"%s\" does not exist anymore but is required to restore the file \"%s\" from the trash"
+msgstr "\"%s\" கோப்புறை இப்போது இல்லை, ஆனால் குப்பைத் தொட்டியிலிருந்து \"%s\" கோப்பை மீட்டெடுக்க அது தேவை"
+
+msgid "Failed to restore the folder \"%s\""
+msgstr "\"%s\" கோப்புறையை மீட்டெடுக்க முடியவில்லை"
+
+msgid "Trying to move \"%s\""
+msgstr "\"%s\" ஐ நகர்த்த முயல்கிறது"
+
+msgid "Could not move \"%s\" directly. Collecting files for copying..."
+msgstr "\"%s\" ஐ நேரடியாக நகர்த்த முடியவில்லை. நகலெடுப்பதற்காகக் கோப்புகள் சேகரிக்கப்படுகின்றன..."
+
+msgid "Collecting files..."
+msgstr "கோப்புகள் சேகரிக்கப்படுகின்றன..."
+
+msgid "%s of %s"
+msgstr "%s, மொத்தம் %s"
+
+msgid "%lu hour remaining (%s/sec)"
+msgid_plural "%lu hours remaining (%s/sec)"
+msgstr[0] "%lu மணிநேரம் மீதமுள்ளது (%s/விநாடி)"
+msgstr[1] "%lu மணிநேரங்கள் மீதமுள்ளன (%s/விநாடி)"
+
+msgid "%lu minute remaining (%s/sec)"
+msgid_plural "%lu minutes remaining (%s/sec)"
+msgstr[0] "%lu நிமிடம் மீதமுள்ளது (%s/விநாடி)"
+msgstr[1] "%lu நிமிடங்கள் மீதமுள்ளன (%s/விநாடி)"
+
+msgid "%lu second remaining (%s/sec)"
+msgid_plural "%lu seconds remaining (%s/sec)"
+msgstr[0] "%lu விநாடி மீதமுள்ளது (%s/விநாடி)"
+msgstr[1] "%lu விநாடிகள் மீதமுள்ளன (%s/விநாடி)"
+
+msgid "Loading..."
+msgstr "ஏற்றப்படுகிறது..."
+
+msgid "Invalid path"
+msgstr "தவறான பாதை"
+
+msgid "Unknown user \"%s\""
+msgstr "தெரியாத பயனர் \"%s\""
+
+msgid "Today"
+msgstr "இன்று"
+
+msgid "Today at %X"
+msgstr "இன்று %X"
+
+msgid "Yesterday"
+msgstr "நேற்று"
+
+msgid "Yesterday at %X"
+msgstr "நேற்று %X"
+
+msgid "%A at %X"
+msgstr "%A, %X"
+
+msgid "%x at %X"
+msgstr "%x, %X"
+
+msgid "%.*s (copy %u)%s"
+msgstr "%.*s (நகல் %u)%s"
+
+msgid "link to %.*s%s"
+msgstr "%.*s%s க்கான இணைப்பு"
+
+msgid "link %u to %.*s%s"
+msgstr "இணைப்பு %u: %.*s%s க்கு"
+
+msgid "Search: "
+msgstr "தேடல்: "
+
+msgid "%s (%d hidden)"
+msgstr "%s (%d மறைந்தவை)"
+
+msgid "0 items"
+msgstr "0 உருப்படிகள்"
+
+msgid "Last Modified: %s"
+msgstr "கடைசியாக மாற்றியது: %s"
+
+msgid "link to %s"
+msgstr "%s க்கான இணைப்பு"
+
+msgid "shortcut"
+msgstr "குறுக்குவழி"
+
+msgid "mountable"
+msgstr "ஏற்றக்கூடியது"
+
+msgid "mount point"
+msgstr "ஏற்றப் புள்ளி"
+
+msgid "Image Size:"
+msgstr "பட அளவு:"
+
 msgid "_File"
 msgstr "கோப்பு (_F)"
 
 msgid "New _Tab"
 msgstr "புதிய தாவல் (_T)"
 
+msgid "Open a new tab for the displayed location"
+msgstr "காட்டப்படும் இருப்பிடத்துக்குப் புதிய தாவலைத் திற"
+
 msgid "New _Window"
 msgstr "புதிய சாளரம் (_W)"
+
+msgid "Open a new Thunar window for the displayed location"
+msgstr "காட்டப்படும் இருப்பிடத்துக்குப் புதிய Thunar சாளரத்தைத் திற"
 
 msgid "Detac_h Tab"
 msgstr "தாவலைப் பிரி (_H)"
 
+msgid "Open current folder in a new window"
+msgstr "நடப்புக் கோப்புறையைப் புதிய சாளரத்தில் திற"
+
 msgid "Close Ta_b"
 msgstr "தாவலை மூடு (_B)"
+
+msgid "Close this folder"
+msgstr "இந்தக் கோப்புறையை மூடு"
 
 msgid "_Close Window"
 msgstr "சாளரத்தை மூடு (_C)"
 
+msgid "Close this window"
+msgstr "இந்தச் சாளரத்தை மூடு"
+
 msgid "Close _All Windows"
 msgstr "அனைத்துச் சாளரங்களையும் மூடு (_A)"
+
+msgid "Close all Thunar windows"
+msgstr "அனைத்து Thunar சாளரங்களையும் மூடு"
 
 msgid "_Edit"
 msgstr "திருத்து (_E)"
@@ -300,50 +2232,134 @@ msgstr "மீண்டும் செய் (_O)"
 msgid "Pr_eferences..."
 msgstr "விருப்பங்கள் (_E)..."
 
+msgid "Edit Thunar's Preferences"
+msgstr "Thunar விருப்பங்களைத் திருத்து"
+
 msgid "_View"
 msgstr "காட்சி (_V)"
 
 msgid "_Reload"
 msgstr "மீளேற்று (_R)"
 
+msgid "Reload the current folder"
+msgstr "நடப்புக் கோப்புறையை மீளேற்று"
+
 msgid "S_plit View"
 msgstr "பிரித்த காட்சி (_P)"
+
+msgid "Open/Close Split View"
+msgstr "பிரித்த காட்சியைத் திற/மூடு"
+
+msgid "Switch Focused Split View Pane"
+msgstr "கவனத்திலுள்ள பிரித்த காட்சிப் பலகத்தை மாற்று"
 
 msgid "Locatio_n Selector"
 msgstr "இருப்பிடத் தேர்வி (_N)"
 
+msgid "_Text Style"
+msgstr "உரைப் பாணி (_T)"
+
+msgid "Traditional text box showing the current path"
+msgstr "நடப்புப் பாதையைக் காட்டும் பாரம்பரிய உரைப்பெட்டி"
+
+msgid "_Buttons Style"
+msgstr "பொத்தான் பாணி (_B)"
+
+msgid "Modern approach with buttons that correspond to folders"
+msgstr "கோப்புறைகளுக்கு ஒத்த பொத்தான்களுடன் நவீன அணுகுமுறை"
+
 msgid "_Side Pane"
 msgstr "பக்கப் பலகம் (_S)"
+
+msgid "_Shortcuts"
+msgstr "குறுக்குவழிகள் (_S)"
+
+msgid "Toggles the visibility of the shortcuts pane"
+msgstr "குறுக்குவழிப் பலகத்தின் தெரிவுநிலையை மாற்று"
+
+msgid "_Tree"
+msgstr "மரம் (_T)"
+
+msgid "Toggles the visibility of the tree pane"
+msgstr "மரப் பலகத்தின் தெரிவுநிலையை மாற்று"
+
+msgid "_Image Preview"
+msgstr "பட முன்னோட்டம் (_I)"
+
+msgid "Change the visibility of this window's image preview"
+msgstr "இந்தச் சாளரத்தின் பட முன்னோட்டத் தெரிவுநிலையை மாற்று"
 
 msgid "St_atusbar"
 msgstr "நிலைப்பட்டை (_A)"
 
+msgid "Change the visibility of this window's statusbar"
+msgstr "இந்தச் சாளரத்தின் நிலைப்பட்டைத் தெரிவுநிலையை மாற்று"
+
 msgid "_Menubar"
 msgstr "பட்டிப்பட்டை (_M)"
+
+msgid "Change the visibility of this window's menubar"
+msgstr "இந்தச் சாளரத்தின் பட்டிப்பட்டைத் தெரிவுநிலையை மாற்று"
 
 msgid "Configure _Toolbar..."
 msgstr "கருவிப்பட்டையை அமை (_T)..."
 
+msgid "Configure the toolbar"
+msgstr "கருவிப்பட்டையை அமை"
+
+msgid "Cl_ear Saved Folder View Settings"
+msgstr "சேமித்த கோப்புறைக் காட்சி அமைப்புகளை அழி (_E)"
+
+msgid "Delete saved view settings for this folder"
+msgstr "இந்தக் கோப்புறைக்குச் சேமித்த காட்சி அமைப்புகளை நீக்கு"
+
 msgid "Show _Hidden Files"
 msgstr "மறைந்த கோப்புகளைக் காட்டு (_H)"
+
+msgid "Toggles the display of hidden files in the current window"
+msgstr "நடப்புச் சாளரத்தில் மறைந்த கோப்புகளைக் காட்டுவதை மாற்று"
+
+msgid "Show _File Highlight"
+msgstr "கோப்பு முன்னிலைப்படுத்தலைக் காட்டு (_F)"
+
+msgid "Toggles the display of file highlight which can be configured in the file specific property dialog"
+msgstr "கோப்பு முன்னிலைப்படுத்தலைக் காட்டுவதை மாற்று; இதைக் கோப்பின் பண்புகள் உரையாடலில் அமைக்கலாம்"
 
 msgid "Zoom I_n"
 msgstr "அருகில் காட்டு (_N)"
 
+msgid "Show the contents in more detail"
+msgstr "உள்ளடக்கத்தை மேலும் விரிவாகக் காட்டு"
+
 msgid "Zoom _Out"
 msgstr "தொலைவில் காட்டு (_O)"
+
+msgid "Show the contents in less detail"
+msgstr "உள்ளடக்கத்தைக் குறைந்த விவரத்துடன் காட்டு"
 
 msgid "Normal Si_ze"
 msgstr "இயல்பான அளவு (_Z)"
 
+msgid "Show the contents at the normal size"
+msgstr "உள்ளடக்கத்தை இயல்பான அளவில் காட்டு"
+
 msgid "_Icon View"
 msgstr "சின்னக் காட்சி (_I)"
+
+msgid "Display folder content in an icon view"
+msgstr "கோப்புறை உள்ளடக்கத்தைச் சின்னக் காட்சியில் காட்டு"
 
 msgid "_List View"
 msgstr "பட்டியல் காட்சி (_L)"
 
+msgid "Display folder content in a detailed list view"
+msgstr "கோப்புறை உள்ளடக்கத்தை விரிவான பட்டியல் காட்சியில் காட்டு"
+
 msgid "_Compact View"
 msgstr "அடர் காட்சி (_C)"
+
+msgid "Display folder content in a compact list view"
+msgstr "கோப்புறை உள்ளடக்கத்தை அடர் பட்டியல் காட்சியில் காட்டு"
 
 msgid "_Go"
 msgstr "செல் (_G)"
@@ -354,26 +2370,50 @@ msgstr "கோப்பு முறைமை (_I)"
 msgid "_Home"
 msgstr "இல்லம் (_H)"
 
+msgid "Go to the home folder"
+msgstr "இல்லக் கோப்புறைக்குச் செல்"
+
 msgid "_Desktop"
 msgstr "மேசைத்தளம் (_D)"
+
+msgid "Go to the desktop folder"
+msgstr "மேசைத்தளக் கோப்புறைக்குச் செல்"
 
 msgid "_Computer"
 msgstr "கணினி (_C)"
 
+msgid "Browse all local and remote disks and folders accessible from this computer"
+msgstr "இந்தக் கணினியிலிருந்து அணுகக்கூடிய அனைத்து உள்ளூர், தொலை வட்டுகளிலும் கோப்புறைகளிலும் உலாவு"
+
 msgid "_Recent"
 msgstr "அண்மையவை (_R)"
+
+msgid "Display recently used files"
+msgstr "அண்மையில் பயன்படுத்திய கோப்புகளைக் காட்டு"
 
 msgid "_Trash"
 msgstr "குப்பைத் தொட்டி (_T)"
 
+msgid "Display the contents of the trash can"
+msgstr "குப்பைத் தொட்டியின் உள்ளடக்கத்தைக் காட்டு"
+
 msgid "Open _Parent"
 msgstr "மேல் கோப்புறையைத் திற (_P)"
+
+msgid "Open the parent folder"
+msgstr "மேல் கோப்புறையைத் திற"
 
 msgid "_Open Location..."
 msgstr "இருப்பிடத்தைத் திற (_O)..."
 
+msgid "Specify a location to open"
+msgstr "திறக்க வேண்டிய இருப்பிடத்தைக் குறிப்பிடு"
+
 msgid "T_emplates"
 msgstr "வார்ப்புருக்கள் (_E)"
+
+msgid "Go to the templates folder"
+msgstr "வார்ப்புருக்கள் கோப்புறைக்குச் செல்"
 
 msgid "Browse _Network"
 msgstr "வலையமைப்பில் உலாவு (_N)"
@@ -384,20 +2424,611 @@ msgstr "புத்தகக்குறிகள் (_B)"
 msgid "_Contents"
 msgstr "உள்ளடக்கம் (_C)"
 
+msgid "Display Thunar user manual"
+msgstr "Thunar பயனர் கையேட்டைக் காட்டு"
+
+msgid "Display information about Thunar"
+msgstr "Thunar பற்றிய தகவலைக் காட்டு"
+
 msgid "_Back"
 msgstr "பின்செல் (_B)"
+
+msgid "Go to the previous visited folder"
+msgstr "முன்பு பார்வையிட்ட கோப்புறைக்குச் செல்"
 
 msgid "_Forward"
 msgstr "முன்செல் (_F)"
 
+msgid "Go to the next visited folder"
+msgstr "அடுத்துப் பார்வையிட்ட கோப்புறைக்குச் செல்"
+
 msgid "_Previous Tab"
 msgstr "முந்தைய தாவல் (_P)"
+
+msgid "Switch to Previous Tab"
+msgstr "முந்தைய தாவலுக்கு மாறு"
 
 msgid "_Next Tab"
 msgstr "அடுத்த தாவல் (_N)"
 
+msgid "Switch to Next Tab"
+msgstr "அடுத்த தாவலுக்கு மாறு"
+
 msgid "_Search for Files..."
 msgstr "கோப்புகளைத் தேடு (_S)..."
 
+msgid "Search for a specific file in the current folder and Recent"
+msgstr "நடப்புக் கோப்புறையிலும் அண்மையவையிலும் குறிப்பிட்ட கோப்பைத் தேடு"
+
+msgid "Cancel search for files"
+msgstr "கோப்புத் தேடலை ரத்துசெய்"
+
+msgid "Menu"
+msgstr "பட்டி"
+
+msgid "Show the menu"
+msgstr "பட்டியைக் காட்டு"
+
+msgid "Warning: you are using the root account. You may harm your system."
+msgstr "எச்சரிக்கை: நீங்கள் root கணக்கைப் பயன்படுத்துகிறீர்கள். உங்கள் கணினிக்குத் தீங்கு விளையலாம்."
+
+msgid "Size: "
+msgstr "அளவு: "
+
+msgid "Search with Catfish..."
+msgstr "Catfish மூலம் தேடு..."
+
+msgid "Restore Selected Items"
+msgstr "தேர்ந்தெடுத்த உருப்படிகளை மீட்டெடு"
+
+msgid "Close tab"
+msgstr "தாவலை மூடு"
+
+msgid "Open the location \"%s\""
+msgstr "\"%s\" இருப்பிடத்தைத் திற"
+
+msgid "Failed to open parent folder"
+msgstr "மேல் கோப்புறையைத் திறக்க முடியவில்லை"
+
+msgid "The directory \"%s\" does not exist. Do you want to create it?"
+msgstr "\"%s\" கோப்புறை இல்லை. அதை உருவாக்க வேண்டுமா?"
+
+msgid "Create directory"
+msgstr "கோப்புறையை உருவாக்கு"
+
+msgid "Failed to browse the computer"
+msgstr "கணினியில் உலாவ முடியவில்லை"
+
+msgid "About Templates"
+msgstr "வார்ப்புருக்கள் பற்றி"
+
+msgid "All files in this folder will appear in the \"Create Document\" menu."
+msgstr "இந்தக் கோப்புறையிலுள்ள அனைத்துக் கோப்புகளும் \"ஆவணம் உருவாக்கு\" பட்டியில் தோன்றும்."
+
+msgid "If you frequently create certain kinds  of documents, make a copy of one and put it in this folder. Thunar will add an entry for this document in the \"Create Document\" menu.\n\nYou can then select the entry from the \"Create Document\" menu and a copy of the document will be created in the directory you are viewing."
+msgstr "குறிப்பிட்ட வகை ஆவணங்களை அடிக்கடி உருவாக்கினால், அவற்றில் ஒன்றின் நகலை இந்தக் கோப்புறையில் வைக்கவும். Thunar அந்த ஆவணத்துக்கு \"ஆவணம் உருவாக்கு\" பட்டியில் ஒரு பதிவைச் சேர்க்கும்.\n\nபின்னர் \"ஆவணம் உருவாக்கு\" பட்டியிலிருந்து அந்தப் பதிவைத் தேர்ந்தெடுத்தால், நீங்கள் பார்க்கும் கோப்புறையில் அந்த ஆவணத்தின் நகல் உருவாக்கப்படும்."
+
+msgid "Do _not display this message again"
+msgstr "இந்தச் செய்தியை மீண்டும் காட்டாதே (_N)"
+
+msgid "Failed to open the file system root folder"
+msgstr "கோப்பு முறைமையின் வேர்க் கோப்புறையைத் திறக்க முடியவில்லை"
+
+msgid "Failed to display `Recent`"
+msgstr "`அண்மையவை` ஐக் காட்ட முடியவில்லை"
+
+msgid "Failed to display the contents of the trash can"
+msgstr "குப்பைத் தொட்டியின் உள்ளடக்கத்தைக் காட்ட முடியவில்லை"
+
+msgid "Failed to browse the network"
+msgstr "வலையமைப்பில் உலாவ முடியவில்லை"
+
+msgid "Thunar is a fast and easy to use file manager\nfor the Xfce Desktop Environment."
+msgstr "Thunar என்பது Xfce மேசைத்தளச் சூழலுக்கான வேகமான,\nஎளிதில் பயன்படுத்தக்கூடிய கோப்பு மேலாளர்."
+
+msgid "Select an image to preview"
+msgstr "முன்னோட்டம் காண ஒரு படத்தைத் தேர்ந்தெடு"
+
+msgid "Failed to launch search with Catfish"
+msgstr "Catfish மூலம் தேடலைத் தொடங்க முடியவில்லை"
+
+msgid "Change the active view type"
+msgstr "செயலில் உள்ள காட்சி வகையை மாற்று"
+
+msgid "View Switcher"
+msgstr "காட்சி மாற்றி"
+
+msgid "Location Bar"
+msgstr "இருப்பிடப் பட்டை"
+
+msgid "Description:"
+msgstr "விவரம்:"
+
+msgid "The generic name of the entry, for example \"Web Browser\" in case of Firefox."
+msgstr "உருப்படியின் பொதுப் பெயர்; எடுத்துக்காட்டாக, Firefox க்கு \"இணைய உலாவி\"."
+
+msgid "Command:"
+msgstr "கட்டளை:"
+
+msgid "The program to execute, possibly with arguments."
+msgstr "இயக்க வேண்டிய நிரல்; தேவைப்பட்டால் அளபுருக்களுடன்."
+
+msgid "Working Directory:"
+msgstr "பணிக் கோப்புறை:"
+
+msgid "The working directory for the program."
+msgstr "நிரலுக்கான பணிக் கோப்புறை."
+
+msgid "URL:"
+msgstr "URL:"
+
+msgid "The URL to access."
+msgstr "அணுக வேண்டிய URL."
+
+msgid "Comment:"
+msgstr "குறிப்பு:"
+
+msgid "Tooltip for the entry, for example \"View sites on the Internet\" in case of Firefox. Should not be redundant with the name or the description."
+msgstr "உருப்படிக்கான கருவிக்குறிப்பு; எடுத்துக்காட்டாக, Firefox க்கு \"இணையத்தில் தளங்களைப் பார்\". பெயரையோ விவரத்தையோ மீண்டும் கூறுவதாக இருக்கக்கூடாது."
+
+msgid "Options:"
+msgstr "விருப்பத்தேர்வுகள்:"
+
+msgid "Use _startup notification"
+msgstr "தொடக்க அறிவிப்பைப் பயன்படுத்து (_S)"
+
+msgid "Select this option to enable startup notification when the command is run from the file manager or the menu. Not every application supports startup notification."
+msgstr "கோப்பு மேலாளர் அல்லது பட்டியிலிருந்து கட்டளை இயக்கப்படும்போது தொடக்க அறிவிப்பை இயக்க இந்த விருப்பத்தைத் தேர்ந்தெடு. எல்லாச் செயலிகளும் தொடக்க அறிவிப்பை ஆதரிப்பதில்லை."
+
+msgid "Run in _terminal"
+msgstr "முனையத்தில் இயக்கு (_T)"
+
+msgid "Select this option to run the command in a terminal window."
+msgstr "கட்டளையை முனையச் சாளரத்தில் இயக்க இந்த விருப்பத்தைத் தேர்ந்தெடு."
+
+msgid "Security:"
+msgstr "பாதுகாப்பு:"
+
+msgid "Allow this file to _run as a .desktop file"
+msgstr "இந்தக் கோப்பை .desktop கோப்பாக இயக்க அனுமதி (_R)"
+
+msgid "Select this to enable executable permission bit(+x). Thunar will not launch the .desktop file if not set."
+msgstr "இயக்க அனுமதி பிட்டை (+x) இயக்க இதைத் தேர்ந்தெடு. இது அமைக்கப்படவில்லை எனில் Thunar அந்த .desktop கோப்பைத் தொடங்காது."
+
+msgid "Set this file as trusted"
+msgstr "இந்தக் கோப்பை நம்பகமானதாக அமை"
+
+msgid "Select this option to trust this .desktop file. This will generate a checksum of the file and store it via gvfs. The additional check will protect from malicious launchers which e.g. pretend to be a picture, having the executable flag pre-set"
+msgstr "இந்த .desktop கோப்பை நம்ப இந்த விருப்பத்தைத் தேர்ந்தெடு. இது கோப்பின் சரிபார்ப்புத்தொகையை உருவாக்கி gvfs வழியாகச் சேமிக்கும். இந்தக் கூடுதல் சோதனை, எடுத்துக்காட்டாகப் படம் போலத் தோன்றி, இயக்கக் கொடி முன்பே அமைக்கப்பட்ட தீங்கிழைக்கும் தொடக்கிகளிலிருந்து பாதுகாக்கும்"
+
+msgid "Failed to save \"%s\"."
+msgstr "\"%s\" ஐச் சேமிக்க முடியவில்லை."
+
+msgid "Date Taken:"
+msgstr "படம் எடுத்த நாள்:"
+
+msgid "Camera Brand:"
+msgstr "கேமரா நிறுவனம்:"
+
+msgid "Camera Model:"
+msgstr "கேமரா மாதிரி:"
+
+msgid "Exposure Time:"
+msgstr "வெளிப்பாட்டு நேரம்:"
+
+msgid "Exposure Program:"
+msgstr "வெளிப்பாட்டு நிரல்:"
+
+msgid "Aperture Value:"
+msgstr "துளை மதிப்பு:"
+
+msgid "Metering Mode:"
+msgstr "அளவீட்டு முறை:"
+
+msgid "Flash Fired:"
+msgstr "ஃபிளாஷ் ஒளிர்ந்ததா:"
+
+msgid "Focal Length:"
+msgstr "குவிய நீளம்:"
+
+msgid "Shutter Speed:"
+msgstr "மூடி வேகம்:"
+
+msgid "ISO Speed Ratings:"
+msgstr "ISO வேக மதிப்பீடுகள்:"
+
+msgid "Software:"
+msgstr "மென்பொருள்:"
+
+msgid "Image"
+msgstr "படம்"
+
+msgid "Image Type:"
+msgstr "பட வகை:"
+
+msgid "%dx%d pixel"
+msgid_plural "%dx%d pixels"
+msgstr[0] "%dx%d படவணு"
+msgstr[1] "%dx%d படவணுக்கள்"
+
+msgid "Con_vert to:"
+msgstr "இதற்கு மாற்று: (_V)"
+
+msgid "Uppercase / Lowercase"
+msgstr "பெரிய எழுத்து / சிறிய எழுத்து"
+
+msgid "Insert _time:"
+msgstr "நேரத்தைச் செருகு: (_T)"
+
+msgid "The format describes the date and time parts to insert into the file name. For example, %Y will be substituted with the year, %m with the month and %d with the day. See the documentation of the date utility for additional information."
+msgstr "கோப்புப் பெயரில் செருக வேண்டிய நாள், நேரப் பகுதிகளை இந்த வடிவமைப்பு விவரிக்கிறது. எடுத்துக்காட்டாக, %Y ஆண்டாலும், %m மாதத்தாலும், %d நாளாலும் மாற்றப்படும். கூடுதல் தகவலுக்கு date பயன்பாட்டின் ஆவணங்களைப் பார்க்கவும்."
+
+msgid "_At position:"
+msgstr "இந்த நிலையில்: (_A)"
+
+msgid "Insert Date / Time"
+msgstr "நாள் / நேரத்தைச் செருகு"
+
+msgid "lowercase"
+msgstr "சிறிய எழுத்து"
+
+msgid "UPPERCASE"
+msgstr "பெரிய எழுத்து"
+
+msgid "Title Case"
+msgstr "தலைப்பு வடிவம்"
+
+msgid "First character uppercase"
+msgstr "முதல் எழுத்து பெரிய எழுத்து"
+
+msgid "Insert"
+msgstr "செருகு"
+
+msgid "Overwrite"
+msgstr "மேலெழுது"
+
+msgid "From the front (left)"
+msgstr "முன்பக்கத்திலிருந்து (இடது)"
+
+msgid "From the back (right)"
+msgstr "பின்பக்கத்திலிருந்து (வலது)"
+
+msgid "Old Name - Text - Number"
+msgstr "பழைய பெயர் - உரை - எண்"
+
+msgid "Number - Text - Old Name"
+msgstr "எண் - உரை - பழைய பெயர்"
+
+msgid "Text - Number"
+msgstr "உரை - எண்"
+
+msgid "Number - Text"
+msgstr "எண் - உரை"
+
+msgid "Current"
+msgstr "நடப்பு"
+
+msgid "Date Picture Taken"
+msgstr "படம் எடுத்த நாள்"
+
+msgid "_Text:"
+msgstr "உரை: (_T)"
+
+msgid "Insert / Overwrite"
+msgstr "செருகு / மேலெழுது"
+
+msgid "_Number Format:"
+msgstr "எண் வடிவமைப்பு: (_N)"
+
+msgid "_Start With:"
+msgstr "இதிலிருந்து தொடங்கு: (_S)"
+
+msgid "Text _Format:"
+msgstr "உரை வடிவமைப்பு: (_F)"
+
+msgid "Numbering"
+msgstr "எண்ணிடல்"
+
+msgid "Remove _From Position:"
+msgstr "இந்த நிலையிலிருந்து அகற்று: (_F)"
+
+msgid "_To Position:"
+msgstr "இந்த நிலை வரை: (_T)"
+
+msgid "Remove Characters"
+msgstr "எழுத்துகளை அகற்று"
+
+msgid "_Search For:"
+msgstr "இதைத் தேடு: (_S)"
+
+msgid "Enter the text to search for in the file names."
+msgstr "கோப்புப் பெயர்களில் தேட வேண்டிய உரையை உள்ளிடுக."
+
+msgid "Regular _Expression"
+msgstr "வழமைக் கோவை (_E)"
+
+msgid "If you enable this option, the pattern will be treated as a regular expression and matched using the Perl-compatible regular expressions (PCRE). Check the documentation for details about the regular expression syntax."
+msgstr "இந்த விருப்பத்தை இயக்கினால், வடிவம் ஒரு வழமைக் கோவையாகக் கருதப்பட்டு Perl-இணக்க வழமைக் கோவைகளைக் (PCRE) கொண்டு பொருத்தப்படும். வழமைக் கோவை இலக்கணம் பற்றிய விவரங்களுக்கு ஆவணங்களைப் பார்க்கவும்."
+
+msgid "Replace _With:"
+msgstr "இதனால் மாற்றீடு செய்: (_W)"
+
+msgid "Enter the text that should be used as replacement for the pattern above."
+msgstr "மேலுள்ள வடிவத்துக்கு மாற்றாகப் பயன்படுத்த வேண்டிய உரையை உள்ளிடுக."
+
+msgid "C_ase Sensitive Search"
+msgstr "பெரிய/சிறிய எழுத்து வேறுபாடு பார்க்கும் தேடல் (_A)"
+
+msgid "If you enable this option, the pattern will be searched in a case-sensitive manner. The default is to use a case-insensitive search."
+msgstr "இந்த விருப்பத்தை இயக்கினால், பெரிய/சிறிய எழுத்து வேறுபாட்டைப் பார்த்து வடிவம் தேடப்படும். இயல்பாக, வேறுபாடு பார்க்காத தேடல் பயன்படும்."
+
+msgid "Invalid regular expression, at character position %ld: %s"
+msgstr "தவறான வழமைக் கோவை, எழுத்து நிலை %ld இல்: %s"
+
+msgid "Search & Replace"
+msgstr "தேடி மாற்றீடு செய்"
+
+msgid "Send \"%s\" as compressed archive?"
+msgstr "\"%s\" ஐச் சுருக்கிய காப்பகமாக அனுப்பவா?"
+
+msgid "Send email"
+msgstr "மின்னஞ்சல் அனுப்பு"
+
+msgid "Send _directly"
+msgstr "நேரடியாக அனுப்பு (_D)"
+
+msgid "Send com_pressed"
+msgstr "சுருக்கி அனுப்பு (_P)"
+
+msgid "When sending a file via email, you can either choose to send the file directly, as is, or compress the file before attaching it to an email. It is highly recommended to compress large files before sending them."
+msgstr "ஒரு கோப்பை மின்னஞ்சல் வழியாக அனுப்பும்போது, அதை உள்ளபடியே நேரடியாக அனுப்பலாம், அல்லது மின்னஞ்சலில் இணைப்பதற்கு முன் சுருக்கலாம். பெரிய கோப்புகளை அனுப்பும் முன் சுருக்குவது பெரிதும் பரிந்துரைக்கப்படுகிறது."
+
+msgid "Send %d file as compressed archive?"
+msgid_plural "Send %d files as compressed archive?"
+msgstr[0] "%d கோப்பைச் சுருக்கிய காப்பகமாக அனுப்பவா?"
+msgstr[1] "%d கோப்புகளைச் சுருக்கிய காப்பகமாக அனுப்பவா?"
+
+msgid "Send as _archive"
+msgstr "காப்பகமாக அனுப்பு (_A)"
+
+msgid "When sending multiple files via email, you can either choose to send the files directly, attaching multiple files to an email, or send all files compressed into a single archive file and attach the archive. It is highly recommended to send multiple large files as archive."
+msgstr "பல கோப்புகளை மின்னஞ்சல் வழியாக அனுப்பும்போது, அவற்றை நேரடியாக ஒரு மின்னஞ்சலில் இணைத்து அனுப்பலாம், அல்லது அனைத்துக் கோப்புகளையும் ஒரே காப்பகக் கோப்பாகச் சுருக்கி அந்தக் காப்பகத்தை இணைத்து அனுப்பலாம். பல பெரிய கோப்புகளைக் காப்பகமாக அனுப்புவது பெரிதும் பரிந்துரைக்கப்படுகிறது."
+
+msgid "Compressing files..."
+msgstr "கோப்புகள் சுருக்கப்படுகின்றன..."
+
+msgid "ZIP command terminated with error %d"
+msgstr "ZIP கட்டளை %d பிழையுடன் நின்றது"
+
+msgid "Failed to create temporary directory"
+msgstr "தற்காலிகக் கோப்புறையை உருவாக்க முடியவில்லை"
+
+msgid "Failed to create symbolic link for \"%s\""
+msgstr "\"%s\" க்குக் குறியீட்டு இணைப்பை உருவாக்க முடியவில்லை"
+
+msgid "Failed to compress %d file"
+msgid_plural "Failed to compress %d files"
+msgstr[0] "%d கோப்பைச் சுருக்க முடியவில்லை"
+msgstr[1] "%d கோப்புகளைச் சுருக்க முடியவில்லை"
+
+msgid "Failed to compose new email"
+msgstr "புதிய மின்னஞ்சலை எழுத முடியவில்லை"
+
+msgid "Mail Recipient"
+msgstr "மின்னஞ்சல் பெறுநர்"
+
+msgid "Failed to connect to the Trash"
+msgstr "குப்பைத் தொட்டியுடன் இணைக்க முடியவில்லை"
+
+msgid "Trash contains files"
+msgstr "குப்பைத் தொட்டியில் கோப்புகள் உள்ளன"
+
+msgid "Trash Applet"
+msgstr "குப்பைத் தொட்டிச் சிறுசெயலி"
+
+msgid "Display the trash can"
+msgstr "குப்பைத் தொட்டியைக் காட்டு"
+
+msgid "Edit Action"
+msgstr "செயலைத் திருத்து"
+
+msgid "Create Action"
+msgstr "செயலை உருவாக்கு"
+
+msgid "Failed to save actions to disk."
+msgstr "செயல்களை வட்டில் சேமிக்க முடியவில்லை."
+
+msgid "Are you sure that you want to delete\naction \"%s\"?"
+msgstr "\"%s\" என்ற செயலை\nஉறுதியாக நீக்க வேண்டுமா?"
+
+msgid "Delete action"
+msgstr "செயலை நீக்கு"
+
+msgid "If you delete a custom action, it is permanently lost."
+msgstr "தனிப்பயன் செயலை நீக்கினால், அது நிரந்தரமாக இழக்கப்படும்."
+
+msgid "This keyboard shortcut is currently used by: '%s'"
+msgstr "இந்த விசைப்பலகைக் குறுக்குவழியைத் தற்போது பயன்படுத்துவது: '%s'"
+
+msgid "Keyboard shortcut already in use"
+msgstr "விசைப்பலகைக் குறுக்குவழி ஏற்கெனவே பயன்பாட்டில் உள்ளது"
+
+msgid "No icon"
+msgstr "சின்னம் இல்லை"
+
+msgid "Failed to determine save location for uca.xml"
+msgstr "uca.xml ஐச் சேமிக்கும் இருப்பிடத்தைக் கண்டறிய முடியவில்லை"
+
+msgid "Command not configured"
+msgstr "கட்டளை அமைக்கப்படவில்லை"
+
+msgid "Confi_gure custom actions..."
+msgstr "தனிப்பயன் செயல்களை அமை (_G)..."
+
+msgid "Setup custom actions that will appear in the file managers context menus"
+msgstr "கோப்பு மேலாளரின் சூழல் பட்டிகளில் தோன்றும் தனிப்பயன் செயல்களை அமை"
+
+msgid "Failed to launch action \"%s\"."
+msgstr "\"%s\" செயலைத் தொடங்க முடியவில்லை."
+
+msgid "The name of the action that will be displayed in the context menu."
+msgstr "சூழல் பட்டியலில் காட்டப்படும் செயலின் பெயர்."
+
+msgid "_Description:"
+msgstr "விவரம்: (_D)"
+
+msgid "The description of the action that will be displayed as tooltip in the statusbar when selecting the item from the context menu."
+msgstr "சூழல் பட்டியிலிருந்து உருப்படியைத் தேர்ந்தெடுக்கும்போது நிலைப்பட்டையில் கருவிக்குறிப்பாகக் காட்டப்படும் செயலின் விவரம்."
+
+msgid "_Submenu:"
+msgstr "துணைப்பட்டி: (_S)"
+
+msgid "The submenu in which the action will be displayed. Leave empty for no menu. Use '/' for nested menus."
+msgstr "செயல் காட்டப்படும் துணைப்பட்டி. பட்டி வேண்டாமெனில் வெறுமையாக விடவும். உள்ளமைந்த பட்டிகளுக்கு '/' ஐப் பயன்படுத்தவும்."
+
+msgid "_Command:"
+msgstr "கட்டளை: (_C)"
+
+msgid "The command (including the necessary parameters) to perform the action. See the command parameter legend below for a list of supported parameter variables, which will be substituted when launching the command. When upper-case letters (e.g. %F, %D, %N) are used, the action will be applicable even if more than one item is selected. Else the action will only be applicable if exactly one item is selected."
+msgstr "செயலைச் செய்வதற்கான கட்டளை (தேவையான அளபுருக்கள் உட்பட). ஆதரிக்கப்படும் அளபுரு மாறிகளின் பட்டியலுக்குக் கீழுள்ள கட்டளை அளபுரு விளக்கத்தைப் பார்க்கவும்; கட்டளையைத் தொடங்கும்போது அவை மாற்றியமைக்கப்படும். பெரிய எழுத்துகள் (எ.கா. %F, %D, %N) பயன்படுத்தப்பட்டால், ஒன்றுக்கு மேற்பட்ட உருப்படிகள் தேர்ந்தெடுக்கப்பட்டாலும் செயல் பொருந்தும். இல்லையெனில், சரியாக ஓர் உருப்படி தேர்ந்தெடுக்கப்பட்டால் மட்டுமே செயல் பொருந்தும்."
+
+msgid "Browse the file system to select an application to use for this action."
+msgstr "இந்தச் செயலுக்குப் பயன்படுத்த வேண்டிய செயலியைத் தேர்ந்தெடுக்கக் கோப்பு முறைமையில் உலாவு."
+
+msgid "Keyboard _Shortcut:"
+msgstr "விசைப்பலகைக் குறுக்குவழி: (_S)"
+
+msgid "The keyboard shortcut for the action."
+msgstr "செயலுக்கான விசைப்பலகைக் குறுக்குவழி."
+
+msgid "Clear the keyboard shortcut for this action."
+msgstr "இந்தச் செயலுக்கான விசைப்பலகைக் குறுக்குவழியை அழி."
+
+msgid "_Icon:"
+msgstr "சின்னம்: (_I)"
+
+msgid "Click this button to select an icon file that will be displayed in the context menu in addition to the action name chosen above."
+msgstr "மேலே தேர்ந்தெடுத்த செயல் பெயருடன் சூழல் பட்டியலில் காட்டப்பட வேண்டிய சின்னக் கோப்பைத் தேர்ந்தெடுக்க இந்தப் பொத்தானைச் சொடுக்கவும்."
+
+msgid "Use Startup Notification"
+msgstr "தொடக்க அறிவிப்பைப் பயன்படுத்து"
+
+msgid "Enable this option if you want a waiting cursor to be shown while the action is launched. This is also highly recommended if you have focus stealing prevention enabled in your window manager."
+msgstr "செயல் தொடங்கப்படும்போது காத்திருப்புச் சுட்டுக்குறி காட்டப்பட வேண்டுமெனில் இந்த விருப்பத்தை இயக்கவும். உங்கள் சாளர மேலாளரில் கவனம் பறிப்புத் தடுப்பு இயக்கப்பட்டிருந்தால் இது பெரிதும் பரிந்துரைக்கப்படுகிறது."
+
+msgid "The following command parameters will be substituted when launching the action:"
+msgstr "செயலைத் தொடங்கும்போது பின்வரும் கட்டளை அளபுருக்கள் மாற்றியமைக்கப்படும்:"
+
+msgid "file name of the selected file"
+msgstr "தேர்ந்தெடுத்த கோப்பின் கோப்புப் பெயர்"
+
+msgid "file names of all selected files"
+msgstr "தேர்ந்தெடுத்த அனைத்துக் கோப்புகளின் கோப்புப் பெயர்கள்"
+
+msgid "path of the selected file's directory"
+msgstr "தேர்ந்தெடுத்த கோப்பின் கோப்புறைப் பாதை"
+
+msgid "paths of all selected files' directories"
+msgstr "தேர்ந்தெடுத்த அனைத்துக் கோப்புகளின் கோப்புறைப் பாதைகள்"
+
+msgid "path of the selected file including the file name"
+msgstr "கோப்புப் பெயர் உட்படத் தேர்ந்தெடுத்த கோப்பின் பாதை"
+
+msgid "paths of all selected files including the file names"
+msgstr "கோப்புப் பெயர்கள் உட்படத் தேர்ந்தெடுத்த அனைத்துக் கோப்புகளின் பாதைகள்"
+
+msgid "Basic"
+msgstr "அடிப்படை"
+
+msgid "_File Pattern:"
+msgstr "கோப்பு வடிவம்: (_F)"
+
+msgid "Enter a list of patterns that will be used to determine whether this action should be displayed for a selected file. If you specify more than one pattern here, the list items must be separated with semicolons (e.g. *.txt;*.doc)."
+msgstr "தேர்ந்தெடுத்த கோப்புக்கு இந்தச் செயல் காட்டப்பட வேண்டுமா என்பதைத் தீர்மானிக்கப் பயன்படும் வடிவங்களின் பட்டியலை உள்ளிடுக. இங்கே ஒன்றுக்கு மேற்பட்ட வடிவங்களைக் குறிப்பிட்டால், பட்டியல் உருப்படிகள் அரைப்புள்ளிகளால் பிரிக்கப்பட வேண்டும் (எ.கா. *.txt;*.doc)."
+
+msgid "_Range (min-max):"
+msgstr "வரம்பு (குறைந்தது-அதிகபட்சம்): (_R)"
+
+msgid "If the command should operate on say two or three files, enter the numerical range 2-3. If there are no limits, this string should be empty."
+msgstr "கட்டளை இரண்டு அல்லது மூன்று கோப்புகளில் செயல்பட வேண்டுமெனில், 2-3 என்ற எண் வரம்பை உள்ளிடுக. வரம்புகள் இல்லையெனில், இது வெறுமையாக இருக்க வேண்டும்."
+
+msgid "Appears if selection contains:"
+msgstr "தேர்வில் இவை இருந்தால் தோன்றும்:"
+
+msgid "_Directories **"
+msgstr "கோப்புறைகள் ** (_D)"
+
+msgid "_Audio Files"
+msgstr "ஒலிக் கோப்புகள் (_A)"
+
+msgid "_Image Files"
+msgstr "படக் கோப்புகள் (_I)"
+
+msgid "_Text Files"
+msgstr "உரைக் கோப்புகள் (_T)"
+
+msgid "_Video Files"
+msgstr "காணொளிக் கோப்புகள் (_V)"
+
+msgid "_Other Files"
+msgstr "பிற கோப்புகள் (_O)"
+
+msgid "This page lists the conditions under which the action will appear in the file managers context menus. The file patterns are specified as a list of simple file patterns separated by semicolons (e.g. *.txt;*.doc). For an action to appear in the context menu of a file or folder, at least one of these patterns must match the name of the file or folder. Additionally, you can specify that the action should only appear for certain kinds of files.\n\n** The custom action will be eligible to appear in the toolbar."
+msgstr "கோப்பு மேலாளரின் சூழல் பட்டிகளில் செயல் தோன்றுவதற்கான நிபந்தனைகளை இந்தப் பக்கம் பட்டியலிடுகிறது. கோப்பு வடிவங்கள் அரைப்புள்ளிகளால் பிரிக்கப்பட்ட எளிய கோப்பு வடிவங்களின் பட்டியலாகக் குறிப்பிடப்படுகின்றன (எ.கா. *.txt;*.doc). ஒரு கோப்பு அல்லது கோப்புறையின் சூழல் பட்டியலில் செயல் தோன்ற, இவற்றில் குறைந்தது ஒரு வடிவமாவது அந்தக் கோப்பு அல்லது கோப்புறையின் பெயருக்குப் பொருந்த வேண்டும். கூடுதலாக, குறிப்பிட்ட வகைக் கோப்புகளுக்கு மட்டும் செயல் தோன்ற வேண்டும் எனக் குறிப்பிடலாம்.\n\n** இந்தத் தனிப்பயன் செயல் கருவிப்பட்டையில் தோன்றத் தகுதி பெறும்."
+
+msgid "Appearance Conditions"
+msgstr "தோன்றுவதற்கான நிபந்தனைகள்"
+
+msgid "Custom Actions"
+msgstr "தனிப்பயன் செயல்கள்"
+
+msgid "Configure custom actions that will appear in the file manager's context menus and/or toolbar.\nThese actions are applicable to folders or certain kinds of files.\n\nCheck the <a href=\"https://docs.xfce.org/xfce/thunar/custom-actions\">documentation</a> for a collection of custom action examples."
+msgstr "கோப்பு மேலாளரின் சூழல் பட்டிகளிலும்/அல்லது கருவிப்பட்டையிலும் தோன்றும் தனிப்பயன் செயல்களை அமை.\nஇந்தச் செயல்கள் கோப்புறைகளுக்கோ குறிப்பிட்ட வகைக் கோப்புகளுக்கோ பொருந்தும்.\n\nதனிப்பயன் செயல் எடுத்துக்காட்டுகளின் தொகுப்புக்கு <a href=\"https://docs.xfce.org/xfce/thunar/custom-actions\">ஆவணங்களைப்</a> பார்க்கவும்."
+
+msgid "Add a new custom action."
+msgstr "புதிய தனிப்பயன் செயலைச் சேர்."
+
+msgid "Edit the currently selected action."
+msgstr "தற்போது தேர்ந்தெடுத்த செயலைத் திருத்து."
+
+msgid "Delete the currently selected action."
+msgstr "தற்போது தேர்ந்தெடுத்த செயலை நீக்கு."
+
+msgid "Move the currently selected action up by one row."
+msgstr "தற்போது தேர்ந்தெடுத்த செயலை ஒரு வரிசை மேலே நகர்த்து."
+
+msgid "Move the currently selected action down by one row."
+msgstr "தற்போது தேர்ந்தெடுத்த செயலை ஒரு வரிசை கீழே நகர்த்து."
+
+msgid "Set as wallpaper"
+msgstr "பின்னணிப் படமாக அமை"
+
+msgid "Thunar File Manager"
+msgstr "Thunar கோப்பு மேலாளர்"
+
+msgid "Browse the filesystem with the file manager"
+msgstr "கோப்பு மேலாளர் மூலம் கோப்பு முறைமையில் உலாவு"
+
+msgid "File Manager"
+msgstr "கோப்பு மேலாளர்"
+
 msgid "Home"
 msgstr "இல்லம்"
+
+msgid "Configure the Thunar file manager"
+msgstr "Thunar கோப்பு மேலாளரை அமை"
+
+msgid "File Browser"
+msgstr "கோப்பு உலாவி"
+
+msgid "Thunar is a file browser specifically designed for the Xfce Desktop, but also can serve as an alternate file browser for other Desktop environments. It has a simple, clean two-pane design for browsing all your files."
+msgstr "Thunar என்பது Xfce மேசைத்தளத்துக்கென்றே வடிவமைக்கப்பட்ட கோப்பு உலாவி; பிற மேசைத்தளச் சூழல்களுக்கும் மாற்றுக் கோப்பு உலாவியாகப் பயன்படலாம். உங்கள் அனைத்துக் கோப்புகளையும் உலாவ எளிமையான, தெளிவான இரு-பலக வடிவமைப்பைக் கொண்டுள்ளது."
+
+msgid "Screenshot of the XFCE Thunar File Browser User Interface"
+msgstr "XFCE Thunar கோப்பு உலாவியின் பயனர் இடைமுகத் திரைப்பிடிப்பு"
+
+msgid "Run Thunar as root"
+msgstr "Thunar ஐ root ஆக இயக்கு"
+
+msgid "Authentication is required to run Thunar as root."
+msgstr "Thunar ஐ root ஆக இயக்க அங்கீகாரம் தேவை."

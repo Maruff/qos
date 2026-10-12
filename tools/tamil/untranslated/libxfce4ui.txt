@@ -1,0 +1,13 @@
+Session management client ID
+ID
+Disable session management
+Session management options
+Show session management options
+Version information
+Type '%s --help' for usage information.
+Unable to initialize GTK+.
+Please report bugs to <%s>.
+label
+GPL
+LGPL
+BSD

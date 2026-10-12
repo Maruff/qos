@@ -1,0 +1,32 @@
+panels;settings;preferences;taskbar;autohide;application menu;start;buttons;launcher;notification area;status;icons;plugins;
+Show the 'Panel Preferences' dialog
+PANEL-NUMBER
+Show the 'Add New Items' dialog
+Save the panel configuration
+Add a new plugin to the panel
+PLUGIN-NAME
+Restart the running panel instance
+Quit the running panel instance
+Do not wait for a window manager on startup
+Print version information and exit
+[ARGUMENTS...]
+Type \"%s --help\" for usage.
+Please report bugs to <%s>.
+There is already a running instance
+Restarting
+Failed to show the preferences dialog
+Failed to show the add new items dialog
+Failed to save the panel configuration
+Failed to add a plugin to the panel
+Failed to restart the panel
+Failed to quit the panel
+Failed to send D-Bus message
+Invalid plugin event syntax specified. Use PLUGIN-NAME:NAME[:TYPE:VALUE].
+Invalid hint type \"%s\". Valid types are bool, double, int, string and uint.
+translator-credits
+OPTION
+Popup menu at current mouse position
+Show help options
+%R
+%Y-%m-%d
+%0 o'clock

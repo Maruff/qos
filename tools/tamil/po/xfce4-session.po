@@ -1,20 +1,125 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Xfce Session"
+msgstr "Xfce அமர்வு"
+
+msgid "Use this session to run Xfce as your desktop environment"
+msgstr "Xfce-ஐ உங்கள் மேசைத்தளச் சூழலாக இயக்க இந்த அமர்வைப் பயன்படுத்துங்கள்"
+
+msgid "Xfce Session (Wayland)"
+msgstr "Xfce அமர்வு (Wayland)"
+
+msgid "Session"
+msgstr "அமர்வு"
+
+msgid "Last accessed"
+msgstr "கடைசியாக அணுகியது"
+
+msgid "The Xfce development team. All rights reserved."
+msgstr "Xfce உருவாக்கக் குழு. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+
+msgid "Unable to contact settings server"
+msgstr "அமைப்புகள் சேவையகத்தைத் தொடர்புகொள்ள முடியவில்லை"
+
+msgid "Unable to create user interface from embedded definition data"
+msgstr "உட்பொதிந்த வரையறைத் தரவிலிருந்து பயனர் இடைமுகத்தை உருவாக்க முடியவில்லை"
+
+msgid "App_lication Autostart"
+msgstr "செயலிகளின் தானியங்குத் தொடக்கம் (_L)"
+
+msgid "Currently active session:"
+msgstr "தற்போது செயலில் உள்ள அமர்வு:"
+
+msgid "If running"
+msgstr "இயங்கினால்"
 
 msgid "Always"
 msgstr "எப்போதும்"
 
+msgid "Immediately"
+msgstr "உடனடியாக"
+
 msgid "Never"
 msgstr "ஒருபோதும் இல்லை"
+
+msgid "Session Save Error"
+msgstr "அமர்வைச் சேமிப்பதில் பிழை"
+
+msgid "Unable to save the session"
+msgstr "அமர்வைச் சேமிக்க முடியவில்லை"
 
 msgid "_Close"
 msgstr "மூடு (_C)"
 
+msgid "The saved states of your applications will not be restored during your next login."
+msgstr "உங்கள் செயலிகளின் சேமித்த நிலைகள் அடுத்த முறை நீங்கள் உள்நுழையும்போது மீட்டெடுக்கப்படாது."
+
+msgid "Clear sessions"
+msgstr "அமர்வுகளை அழி"
+
+msgid "Are you sure you want to empty the session cache?"
+msgstr "அமர்வுத் தேக்ககத்தை உறுதியாகக் காலியாக்க வேண்டுமா?"
+
 msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
 
+msgid "_Proceed"
+msgstr "தொடர் (_P)"
+
+msgid "You might need to delete some files manually in \"%s\"."
+msgstr "\"%s\"-இல் சில கோப்புகளை நீங்களே நீக்க வேண்டியிருக்கலாம்."
+
+msgid "All Xfce cache files could not be cleared"
+msgstr "Xfce தேக்ககக் கோப்புகள் அனைத்தையும் அழிக்க முடியவில்லை"
+
+msgid "Are you sure you want to terminate \"%s\"?"
+msgstr "\"%s\"-ஐ உறுதியாக நிறுத்த வேண்டுமா?"
+
+msgid "The application will lose any unsaved state and will not be restarted in your next session."
+msgstr "சேமிக்காத நிலை அனைத்தையும் செயலி இழக்கும்; அடுத்த அமர்வில் அது மறுதொடக்கம் செய்யப்படாது."
+
+msgid "Terminate Program"
+msgstr "நிரலை நிறுத்து"
+
+msgid "_Quit Program"
+msgstr "நிரலிலிருந்து விலகு (_Q)"
+
+msgid "Unable to terminate program."
+msgstr "நிரலை நிறுத்த முடியவில்லை."
+
+msgid "(Unknown program)"
+msgstr "(தெரியாத நிரல்)"
+
+msgid "Priority"
+msgstr "முன்னுரிமை"
+
+msgid "Program"
+msgstr "நிரல்"
+
+msgid "Restart Style"
+msgstr "மறுதொடக்க முறை"
+
 msgid "_OK"
 msgstr "சரி (_O)"
+
+msgid "Add application"
+msgstr "செயலியைச் சேர்"
+
+msgid "Name:"
+msgstr "பெயர்:"
+
+msgid "Description:"
+msgstr "விவரம்:"
+
+msgid "Command:"
+msgstr "கட்டளை:"
+
+msgid "Trigger:"
+msgstr "தூண்டல்:"
+
+msgid "Select a command"
+msgstr "கட்டளையைத் தேர்ந்தெடு"
 
 msgid "Cancel"
 msgstr "ரத்துசெய்"
@@ -22,20 +127,152 @@ msgstr "ரத்துசெய்"
 msgid "OK"
 msgstr "சரி"
 
+msgid "Edit application"
+msgstr "செயலியைத் திருத்து"
+
+msgid "on login"
+msgstr "உள்நுழையும்போது"
+
+msgid "on logout"
+msgstr "வெளியேறும்போது"
+
+msgid "on shutdown"
+msgstr "அணைக்கும்போது"
+
+msgid "on restart"
+msgstr "மறுதொடக்கத்தின்போது"
+
+msgid "on suspend"
+msgstr "இடைநிறுத்தும்போது"
+
+msgid "on hibernate"
+msgstr "உறங்கும்போது"
+
+msgid "on hybrid sleep"
+msgstr "கலப்பு உறக்கத்தின்போது"
+
+msgid "on switch user"
+msgstr "பயனரை மாற்றும்போது"
+
+msgid "Failed to open %s for writing"
+msgstr "எழுதுவதற்கு %s-ஐத் திறக்க முடியவில்லை"
+
+msgid "Failed to unlink %s: %s"
+msgstr "%s-ஐ நீக்க முடியவில்லை: %s"
+
+msgid "Failed to create file %s"
+msgstr "%s கோப்பை உருவாக்க முடியவில்லை"
+
+msgid "Failed to write file %s"
+msgstr "%s கோப்பில் எழுத முடியவில்லை"
+
+msgid "Failed to open %s for reading"
+msgstr "படிப்பதற்கு %s-ஐத் திறக்க முடியவில்லை"
+
+msgid "Failed to set run hook"
+msgstr "இயக்கக் கொக்கியை அமைக்க முடியவில்லை"
+
+msgid "Trigger"
+msgstr "தூண்டல்"
+
 msgid "Add"
 msgstr "சேர்"
 
 msgid "Remove"
 msgstr "அகற்று"
 
+msgid "Remove application"
+msgstr "செயலியை அகற்று"
+
 msgid "Edit"
 msgstr "திருத்து"
+
+msgid "Failed adding \"%s\""
+msgstr "\"%s\"-ஐச் சேர்க்க முடியவில்லை"
+
+msgid "Failed to remove item"
+msgstr "உருப்படியை அகற்ற முடியவில்லை"
+
+msgid "Failed to edit item"
+msgstr "உருப்படியைத் திருத்த முடியவில்லை"
+
+msgid "Failed to edit item \"%s\""
+msgstr "\"%s\" உருப்படியைத் திருத்த முடியவில்லை"
+
+msgid "Failed to toggle item"
+msgstr "உருப்படியை இயக்கவோ முடக்கவோ முடியவில்லை"
+
+msgid "Session Manager"
+msgstr "அமர்வு மேலாளர்"
+
+msgid "Choose the session you want to restore. You can simply double-click the session name to restore it."
+msgstr "மீட்டெடுக்க வேண்டிய அமர்வைத் தேர்ந்தெடுங்கள். அமர்வின் பெயரை இருமுறை சொடுக்கியும் அதை மீட்டெடுக்கலாம்."
+
+msgid "Create a new session."
+msgstr "புதிய அமர்வை உருவாக்கு."
+
+msgid "Delete a saved session."
+msgstr "சேமித்த அமர்வை நீக்கு."
 
 msgid "Log Out"
 msgstr "வெளியேறு"
 
+msgid "Cancel the login attempt and return to the login screen."
+msgstr "உள்நுழைவு முயற்சியை ரத்துசெய்து உள்நுழைவுத் திரைக்குத் திரும்பு."
+
+msgid "Start"
+msgstr "தொடங்கு"
+
+msgid "Start an existing session."
+msgstr "ஏற்கெனவே உள்ள அமர்வைத் தொடங்கு."
+
+msgid "(Unknown)"
+msgstr "(தெரியவில்லை)"
+
+msgid "Could not look up internet address for %s.\nThis will prevent Xfce from operating correctly.\nIt may be possible to correct the problem by adding\n%s to the file /etc/hosts on your system."
+msgstr "%s-க்கான இணைய முகவரியைக் கண்டறிய முடியவில்லை.\nஇதனால் Xfce சரியாகச் செயல்படாது.\nஉங்கள் கணினியில் உள்ள /etc/hosts கோப்பில்\n%s-ஐச் சேர்ப்பதன் மூலம் இச்சிக்கலைச் சரிசெய்ய முடியலாம்."
+
+msgid "Continue anyway"
+msgstr "எப்படியும் தொடர்"
+
+msgid "Try again"
+msgstr "மீண்டும் முயல்"
+
+msgid "Unable to determine failsafe session name.  Possible causes: xfconfd isn't running (D-Bus setup problem); environment variable $XDG_CONFIG_DIRS is set incorrectly (must include \"%s\"), or xfce4-session is installed incorrectly."
+msgstr "தோல்விக்காப்பு அமர்வின் பெயரைத் தீர்மானிக்க முடியவில்லை.  இயலக்கூடிய காரணங்கள்: xfconfd இயங்கவில்லை (D-Bus அமைப்புச் சிக்கல்); $XDGCONFIGDIRS சூழல் மாறி தவறாக அமைக்கப்பட்டுள்ளது (அதில் \"%s\" இருக்க வேண்டும்); அல்லது xfce4-session தவறாக நிறுவப்பட்டுள்ளது. (_C)"
+
+msgid "The specified failsafe session (\"%s\") is not marked as a failsafe session."
+msgstr "குறிப்பிட்ட தோல்விக்காப்பு அமர்வு (\"%s\") தோல்விக்காப்பு அமர்வாகக் குறிக்கப்படவில்லை."
+
+msgid "The list of applications in the failsafe session is empty."
+msgstr "தோல்விக்காப்பு அமர்வில் உள்ள செயலிகளின் பட்டியல் காலியாக உள்ளது."
+
+msgid "Name for the new session"
+msgstr "புதிய அமர்வுக்கான பெயர்"
+
+msgid "Session Manager Error"
+msgstr "அமர்வு மேலாளர் பிழை"
+
+msgid "Unable to load a failsafe session"
+msgstr "தோல்விக்காப்பு அமர்வை ஏற்ற முடியவில்லை"
+
 msgid "_Quit"
 msgstr "விலகு (_Q)"
+
+msgid "Shutdown Failed"
+msgstr "அணைக்க முடியவில்லை"
+
+msgid "Failed to suspend session"
+msgstr "அமர்வை இடைநிறுத்த முடியவில்லை"
+
+msgid "Failed to hibernate session"
+msgstr "அமர்வை உறங்கவைக்க முடியவில்லை"
+
+msgid "Failed to hybrid sleep session"
+msgstr "அமர்வைக் கலப்பு உறக்கத்தில் வைக்க முடியவில்லை"
+
+msgid "Failed to switch user"
+msgstr "பயனரை மாற்ற முடியவில்லை"
 
 msgid "Log out %s"
 msgstr "%s — வெளியேறு"
@@ -43,8 +280,14 @@ msgstr "%s — வெளியேறு"
 msgid "_Log Out"
 msgstr "வெளியேறு (_L)"
 
+msgid "_Restart and update"
+msgstr "மறுதொடக்கம் செய்து புதுப்பி (_R)"
+
 msgid "_Restart"
 msgstr "மறுதொடக்கம் (_R)"
+
+msgid "Update and Shut _Down"
+msgstr "புதுப்பித்து அணை (_D)"
 
 msgid "Shut _Down"
 msgstr "அணை (_D)"
@@ -61,14 +304,122 @@ msgstr "கலப்பு உறக்கம் (_Y)"
 msgid "Switch _User"
 msgstr "பயனரை மாற்று (_U)"
 
+msgid "An error occurred"
+msgstr "பிழை ஏற்பட்டது"
+
+msgid "Shutdown is blocked by the kiosk settings"
+msgstr "கியோஸ்க் அமைப்புகளால் அணைத்தல் தடுக்கப்பட்டுள்ளது"
+
+msgid "Unknown error"
+msgstr "தெரியாத பிழை"
+
+msgid "Received error while trying to log out"
+msgstr "வெளியேற முயலும்போது பிழை ஏற்பட்டது"
+
 msgid "Log out of the Xfce Desktop"
 msgstr "Xfce மேசைத்தளத்திலிருந்து வெளியேறு"
+
+msgid "Shutdown, restart, suspend, or hibernate the system"
+msgstr "கணினியை அணை, மறுதொடக்கம் செய், இடைநிறுத்து அல்லது உறங்கவை"
+
+msgid "Authentication is required to shutdown, restart, suspend, or hibernate the system."
+msgstr "கணினியை அணைக்க, மறுதொடக்கம் செய்ய, இடைநிறுத்த அல்லது உறங்கவைக்க அங்கீகாரம் தேவை."
+
+msgid "Session and Startup"
+msgstr "அமர்வும் தொடக்கமும்"
+
+msgid "Customize desktop startup"
+msgstr "மேசைத்தளத் தொடக்கத்தைத் தனிப்பயனாக்கு"
+
+msgid "These applications are a part of the currently-running session,\nand can be saved now or when you log out.\nChanges below will only take effect when the session is saved."
+msgstr "இந்தச் செயலிகள் தற்போது இயங்கும் அமர்வின் பகுதியாகும்;\nஇவற்றை இப்போதோ நீங்கள் வெளியேறும்போதோ சேமிக்கலாம்.\nஅமர்வு சேமிக்கப்படும்போது மட்டுமே கீழே உள்ள மாற்றங்கள் நடைமுறைக்கு வரும்."
 
 msgid "_Help"
 msgstr "உதவி (_H)"
 
+msgid "_Display chooser on login"
+msgstr "உள்நுழையும்போது தேர்வியைக் காட்டு (_D)"
+
+msgid "Display the session chooser every time Xfce starts"
+msgstr "Xfce தொடங்கும் ஒவ்வொரு முறையும் அமர்வுத் தேர்வியைக் காட்டு"
+
+msgid "<b>Session Chooser</b>"
+msgstr "<b>அமர்வுத் தேர்வி</b>"
+
+msgid "Automatically save session on logo_ut"
+msgstr "வெளியேறும்போது அமர்வைத் தானாகச் சேமி (_U)"
+
+msgid "Always save the session when logging out"
+msgstr "வெளியேறும்போது எப்போதும் அமர்வைச் சேமி"
+
+msgid "Pro_mpt on logout"
+msgstr "வெளியேறும்போது கேள் (_M)"
+
+msgid "Prompt for confirmation when logging out"
+msgstr "வெளியேறும்போது உறுதிப்படுத்தல் கேள்"
+
+msgid "<b>Logout Settings</b>"
+msgstr "<b>வெளியேறும் அமைப்புகள்</b>"
+
+msgid "Lock screen be_fore sleep"
+msgstr "உறங்கும் முன் திரையைப் பூட்டு (_F)"
+
+msgid "<b>Shutdown</b>"
+msgstr "<b>அணைத்தல்</b>"
+
 msgid "_General"
 msgstr "பொது (_G)"
 
+msgid "Save Sess_ion"
+msgstr "அமர்வைச் சேமி (_I)"
+
+msgid "Currently active session: <b>Default</b>"
+msgstr "தற்போது செயலில் உள்ள அமர்வு: <b>இயல்புநிலை</b>"
+
+msgid "Current Sessio_n"
+msgstr "தற்போதைய அமர்வு (_N)"
+
 msgid "_Remove"
 msgstr "அகற்று (_R)"
+
+msgid "Delete the selected session"
+msgstr "தேர்ந்தெடுத்த அமர்வை நீக்கு"
+
+msgid "Clear Save_d Sessions"
+msgstr "சேமித்த அமர்வுகளை அழி (_D)"
+
+msgid "Saved _Sessions"
+msgstr "சேமித்த அமர்வுகள் (_S)"
+
+msgid "Launch GN_OME services on startup"
+msgstr "தொடக்கத்தில் GNOME சேவைகளைத் தொடங்கு (_O)"
+
+msgid "Start GNOME services, such as gnome-keyring"
+msgstr "gnome-keyring போன்ற GNOME சேவைகளைத் தொடங்கு"
+
+msgid "Launch _KDE services on startup"
+msgstr "தொடக்கத்தில் KDE சேவைகளைத் தொடங்கு (_K)"
+
+msgid "Start KDE services, such as kdeinit"
+msgstr "kdeinit போன்ற KDE சேவைகளைத் தொடங்கு"
+
+msgid "<b>Compatibility</b>"
+msgstr "<b>இணக்கத்தன்மை</b>"
+
+msgid "Manage _remote applications"
+msgstr "தொலைநிலைச் செயலிகளை நிர்வகி (_R)"
+
+msgid "Manage remote applications over the network (this may be a security risk)"
+msgstr "வலையமைப்பு வழியாகத் தொலைநிலைச் செயலிகளை நிர்வகி (இது பாதுகாப்பு அபாயமாக இருக்கலாம்)"
+
+msgid "<b>Security</b>"
+msgstr "<b>பாதுகாப்பு</b>"
+
+msgid "Ad_vanced"
+msgstr "மேம்பட்டவை (_V)"
+
+msgid "Saving Session"
+msgstr "அமர்வு சேமிக்கப்படுகிறது"
+
+msgid "Your session is being saved.  If you do not wish to wait, you may close this window."
+msgstr "உங்கள் அமர்வு சேமிக்கப்படுகிறது.  காத்திருக்க விரும்பவில்லை எனில், இந்தச் சாளரத்தை மூடலாம்."

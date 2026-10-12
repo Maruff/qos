@@ -1,0 +1,51 @@
+OPTION
+General Options
+display
+directory
+Window or Tab Separators
+Tab Options
+title
+mode
+color
+Window Options
+geometry
+role
+string
+icon
+font
+zoom
+class
+See the %s man page for full explanation of the options above.
+Written by Benedikt Meurer <benny@xfce.org>,
+Nick Schermer <nick@xfce.org>,
+Igor Zakharov <f2404@yandex.ru>,
+Sergios - Anestis Kefalidis <sergioskefalidis@gmail.com>.
+Please report bugs to <%s>.
+User id mismatch
+Display mismatch
+Option \"--default-display\" requires specifying the default X display as its parameter
+Option \"--default-working-directory\" requires specifying the default working directory as its parameter
+Option \"--execute/-x\" requires specifying the command to run on the rest of the command line separated from \"--execute/-x\"
+Option \"--command/-e\" requires specifying the command to run as its parameter
+Option \"--working-directory\" requires specifying the working directory as its parameter
+Option \"--title/-T\" requires specifying the title as its parameter
+Option \"--dynamic-title-mode\" requires specifying the dynamic title mode as its parameter
+Invalid argument for option \"--dynamic-title-mode\": %s
+Option \"--initial-title\" requires specifying the initial title as its parameter
+Option \"%s\" requires specifying the color as its parameter
+Unable to parse color: %s
+Option \"--display\" requires specifying the X display as its parameter
+Option \"--geometry\" requires specifying the window geometry as its parameter
+Option \"--role\" requires specifying the window role as its parameter
+Option \"--workspace\" requires specifying the workspace number as its parameter
+Option \"--sm-client-id\" requires specifying the unique session id as its parameter
+Option \"--startup-id\" requires specifying the startup id as its parameter
+Option \"--icon/-I\" requires specifying an icon name or filename as its parameter
+Option \"--font\" requires specifying the font name as its parameter
+Option \"--zoom\" requires specifying the zoom (%d .. %d) as its parameter
+Option \"--class\" requires specifying the class name as its parameter
+Unknown option \"-%c\"
+Unknown option \"%s\"
+translator-credits
+terminal;command line;prompt;cli;cmd;xterm;bash;shell;dos;
+terminal;settings;preferences;configuration;configure;

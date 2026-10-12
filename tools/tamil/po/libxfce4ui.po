@@ -1,8 +1,29 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Failed to open web browser for online documentation"
+msgstr "இணைய ஆவணங்களுக்காக இணைய உலாவியைத் திறக்க முடியவில்லை"
+
+msgid "Do you want to read the %s manual online?"
+msgstr "%s கையேட்டை இணையத்தில் படிக்க வேண்டுமா?"
+
+msgid "Do you want to read the manual online?"
+msgstr "கையேட்டை இணையத்தில் படிக்க வேண்டுமா?"
+
+msgid "You will be redirected to the documentation website where the help pages are maintained and translated."
+msgstr "உதவிப் பக்கங்கள் பராமரிக்கப்பட்டு மொழிபெயர்க்கப்படும் ஆவண இணையதளத்துக்கு நீங்கள் திருப்பி அனுப்பப்படுவீர்கள்."
+
+msgid "Read the manual"
+msgstr "கையேட்டைப் படி"
 
 msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
+
+msgid "_Read Online"
+msgstr "இணையத்தில் படி (_R)"
+
+msgid "_Always go directly to the online documentation"
+msgstr "எப்போதும் நேரடியாக இணைய ஆவணங்களுக்குச் செல் (_A)"
 
 msgid "Close"
 msgstr "மூடு"
@@ -16,6 +37,15 @@ msgstr "ஆம்"
 msgid "Cancel"
 msgstr "ரத்துசெய்"
 
+msgid "Close window with multiple tabs?"
+msgstr "பல தாவல்கள் உள்ள சாளரத்தை மூட வேண்டுமா?"
+
+msgid "This window has multiple tabs open. Closing this window will also close all its tabs."
+msgstr "இந்தச் சாளரத்தில் பல தாவல்கள் திறந்துள்ளன. இந்தச் சாளரத்தை மூடினால் அதன் அனைத்துத் தாவல்களும் மூடப்படும்."
+
+msgid "This window has %d tabs open. Closing this window will also close all its tabs."
+msgstr "இந்தச் சாளரத்தில் %d தாவல்கள் திறந்துள்ளன. இந்தச் சாளரத்தை மூடினால் அதன் அனைத்துத் தாவல்களும் மூடப்படும்."
+
 msgid "Warning"
 msgstr "எச்சரிக்கை"
 
@@ -25,11 +55,461 @@ msgstr "தாவலை மூடு (_A)"
 msgid "Close _Window"
 msgstr "சாளரத்தை மூடு (_W)"
 
+msgid "Do _not ask me again"
+msgstr "மீண்டும் கேட்காதே (_N)"
+
+msgid "Failed to connect to the session manager: %s"
+msgstr "அமர்வு மேலாளருடன் இணைக்க முடியவில்லை: %s"
+
+msgid "Session manager did not return a valid client id"
+msgstr "அமர்வு மேலாளர் சரியான கிளையன்ட் அடையாளத்தைத் தரவில்லை"
+
+msgid "Working directory \"%s\" does not exist. It won't be used when spawning \"%s\"."
+msgstr "பணி அடைவு \"%s\" இல்லை. \"%s\"-ஐத் தொடங்கும்போது அது பயன்படுத்தப்படாது."
+
+msgid "Filename is too long"
+msgstr "கோப்புப் பெயர் மிக நீளமாக உள்ளது"
+
+msgid "Directory separator illegal in file name"
+msgstr "கோப்புப் பெயரில் அடைவுப் பிரிப்புக்குறி அனுமதிக்கப்படாது"
+
+msgid "Filenames should not start or end with a space"
+msgstr "கோப்புப் பெயர்கள் இடைவெளியுடன் தொடங்கவோ முடியவோ கூடாது"
+
+msgid "This shortcut is already being used for the action '%s'. Which action do you want to use?"
+msgstr "இந்தக் குறுக்குவழி ஏற்கெனவே '%s' என்ற செயலுக்குப் பயன்படுகிறது. எந்தச் செயலைப் பயன்படுத்த வேண்டும்?"
+
+msgid "Use '%s'"
+msgstr "'%s'-ஐப் பயன்படுத்து"
+
+msgid "Keep '%s'"
+msgstr "'%s'-ஐ வைத்திரு"
+
+msgid "This shortcut is already being used for the command '%s'. Which action do you want to use?"
+msgstr "இந்தக் குறுக்குவழி ஏற்கெனவே '%s' என்ற கட்டளைக்குப் பயன்படுகிறது. எந்தச் செயலைப் பயன்படுத்த வேண்டும்?"
+
+msgid "This shortcut is already being used by the action '%s'. Which action do you want to use?"
+msgstr "இந்தக் குறுக்குவழியை ஏற்கெனவே '%s' என்ற செயல் பயன்படுத்துகிறது. எந்தச் செயலைப் பயன்படுத்த வேண்டும்?"
+
+msgid "Please use another key combination."
+msgstr "வேறொரு விசைச் சேர்க்கையைப் பயன்படுத்துங்கள்."
+
+msgid "%s already triggers this action."
+msgstr "%s ஏற்கெனவே இந்தச் செயலைத் தூண்டுகிறது."
+
+msgid "Conflicting actions for %s"
+msgstr "%s-க்கு முரண்படும் செயல்கள்"
+
+msgid "This shortcut is already being used for something else."
+msgstr "இந்தக் குறுக்குவழி ஏற்கெனவே வேறொன்றுக்குப் பயன்படுகிறது."
+
+msgid "Shortcuts Editor"
+msgstr "குறுக்குவழித் திருத்தி"
+
+msgid "The current shortcut. Click to edit..."
+msgstr "தற்போதைய குறுக்குவழி. திருத்தச் சொடுக்குங்கள்..."
+
+msgid "Clear the shortcut"
+msgstr "குறுக்குவழியை அழி"
+
+msgid "Restore the default shortcut"
+msgstr "இயல்புநிலைக் குறுக்குவழியை மீட்டெடு"
+
+msgid "This keyboard shortcut is currently used by: '%s'"
+msgstr "இந்த விசைப்பலகைக் குறுக்குவழியைத் தற்போது பயன்படுத்துவது: '%s'"
+
+msgid "Keyboard shortcut already in use"
+msgstr "விசைப்பலகைக் குறுக்குவழி ஏற்கெனவே பயன்பாட்டில் உள்ளது"
+
+msgid "Window Manager Action Shortcut"
+msgstr "சாளர மேலாளர் செயல் குறுக்குவழி"
+
+msgid "action"
+msgstr "செயல்"
+
+msgid "Command Shortcut"
+msgstr "கட்டளைக் குறுக்குவழி"
+
+msgid "command"
+msgstr "கட்டளை"
+
+msgid "Shortcut"
+msgstr "குறுக்குவழி"
+
 msgid "Clear"
 msgstr "அழி"
 
+msgid "Press keyboard keys to trigger the %s '%s'."
+msgstr "%s '%s'-ஐத் தூண்ட விசைப்பலகை விசைகளை அழுத்துங்கள்."
+
+msgid "Please press a key"
+msgstr "ஒரு விசையை அழுத்துங்கள்"
+
+msgid "Could not grab the keyboard."
+msgstr "விசைப்பலகையைக் கைப்பற்ற முடியவில்லை."
+
+msgid "Window operations menu"
+msgstr "சாளரச் செயல்பாடுகள் பட்டியல்"
+
+msgid "Up"
+msgstr "மேலே"
+
+msgid "Down"
+msgstr "கீழே"
+
+msgid "Left"
+msgstr "இடது"
+
+msgid "Right"
+msgstr "வலது"
+
+msgid "Cycle windows"
+msgstr "சாளரங்களைச் சுழற்சியாக மாற்று"
+
+msgid "Cycle windows (Reverse)"
+msgstr "சாளரங்களைச் சுழற்சியாக மாற்று (பின்னோக்கி)"
+
+msgid "Switch window for same application"
+msgstr "அதே செயலியின் சாளரத்துக்கு மாறு"
+
+msgid "Switch application"
+msgstr "செயலியை மாற்று"
+
+msgid "Close window"
+msgstr "சாளரத்தை மூடு"
+
+msgid "Maximize window horizontally"
+msgstr "சாளரத்தைக் கிடைமட்டமாகப் பெரிதாக்கு"
+
+msgid "Maximize window vertically"
+msgstr "சாளரத்தைச் செங்குத்தாகப் பெரிதாக்கு"
+
+msgid "Maximize window"
+msgstr "சாளரத்தைப் பெரிதாக்கு"
+
+msgid "Hide window"
+msgstr "சாளரத்தை மறை"
+
+msgid "Move window"
+msgstr "சாளரத்தை நகர்த்து"
+
+msgid "Resize window"
+msgstr "சாளரத்தின் அளவை மாற்று"
+
+msgid "Shade window"
+msgstr "சாளரத்தைச் சுருட்டு"
+
+msgid "Stick window"
+msgstr "சாளரத்தை எல்லாப் பணியிடங்களிலும் ஒட்டு"
+
+msgid "Raise window"
+msgstr "சாளரத்தை மேலே கொண்டுவா"
+
+msgid "Lower window"
+msgstr "சாளரத்தைக் கீழே இறக்கு"
+
+msgid "Raise or lower window"
+msgstr "சாளரத்தை மேலே கொண்டுவா அல்லது கீழே இறக்கு"
+
+msgid "Fill window"
+msgstr "சாளரத்தால் நிரப்பு"
+
+msgid "Fill window horizontally"
+msgstr "சாளரத்தால் கிடைமட்டமாக நிரப்பு"
+
+msgid "Fill window vertically"
+msgstr "சாளரத்தால் செங்குத்தாக நிரப்பு"
+
+msgid "Toggle above"
+msgstr "எப்போதும் மேலே என்பதை மாற்று"
+
+msgid "Toggle fullscreen"
+msgstr "முழுத்திரையை மாற்று"
+
+msgid "Move window to lower monitor"
+msgstr "சாளரத்தைக் கீழ்த் திரைக்கு நகர்த்து"
+
+msgid "Move window to left monitor"
+msgstr "சாளரத்தை இடது திரைக்கு நகர்த்து"
+
+msgid "Move window to right monitor"
+msgstr "சாளரத்தை வலது திரைக்கு நகர்த்து"
+
+msgid "Move window to upper monitor"
+msgstr "சாளரத்தை மேல் திரைக்கு நகர்த்து"
+
+msgid "Move window to upper workspace"
+msgstr "சாளரத்தை மேல் பணியிடத்துக்கு நகர்த்து"
+
+msgid "Move window to bottom workspace"
+msgstr "சாளரத்தைக் கீழ்ப் பணியிடத்துக்கு நகர்த்து"
+
+msgid "Move window to left workspace"
+msgstr "சாளரத்தை இடது பணியிடத்துக்கு நகர்த்து"
+
+msgid "Move window to right workspace"
+msgstr "சாளரத்தை வலது பணியிடத்துக்கு நகர்த்து"
+
+msgid "Move window to previous workspace"
+msgstr "சாளரத்தை முந்தைய பணியிடத்துக்கு நகர்த்து"
+
+msgid "Move window to next workspace"
+msgstr "சாளரத்தை அடுத்த பணியிடத்துக்கு நகர்த்து"
+
+msgid "Move window to workspace 1"
+msgstr "சாளரத்தைப் பணியிடம் 1-க்கு நகர்த்து"
+
+msgid "Move window to workspace 2"
+msgstr "சாளரத்தைப் பணியிடம் 2-க்கு நகர்த்து"
+
+msgid "Move window to workspace 3"
+msgstr "சாளரத்தைப் பணியிடம் 3-க்கு நகர்த்து"
+
+msgid "Move window to workspace 4"
+msgstr "சாளரத்தைப் பணியிடம் 4-க்கு நகர்த்து"
+
+msgid "Move window to workspace 5"
+msgstr "சாளரத்தைப் பணியிடம் 5-க்கு நகர்த்து"
+
+msgid "Move window to workspace 6"
+msgstr "சாளரத்தைப் பணியிடம் 6-க்கு நகர்த்து"
+
+msgid "Move window to workspace 7"
+msgstr "சாளரத்தைப் பணியிடம் 7-க்கு நகர்த்து"
+
+msgid "Move window to workspace 8"
+msgstr "சாளரத்தைப் பணியிடம் 8-க்கு நகர்த்து"
+
+msgid "Move window to workspace 9"
+msgstr "சாளரத்தைப் பணியிடம் 9-க்கு நகர்த்து"
+
+msgid "Move window to workspace 10"
+msgstr "சாளரத்தைப் பணியிடம் 10-க்கு நகர்த்து"
+
+msgid "Move window to workspace 11"
+msgstr "சாளரத்தைப் பணியிடம் 11-க்கு நகர்த்து"
+
+msgid "Move window to workspace 12"
+msgstr "சாளரத்தைப் பணியிடம் 12-க்கு நகர்த்து"
+
+msgid "Tile window to the top"
+msgstr "சாளரத்தை மேல்பகுதியில் பொருத்து"
+
+msgid "Tile window to the bottom"
+msgstr "சாளரத்தைக் கீழ்ப்பகுதியில் பொருத்து"
+
+msgid "Tile window to the left"
+msgstr "சாளரத்தை இடப்பகுதியில் பொருத்து"
+
+msgid "Tile window to the right"
+msgstr "சாளரத்தை வலப்பகுதியில் பொருத்து"
+
+msgid "Tile window to the top-left"
+msgstr "சாளரத்தை மேல்-இடப்பகுதியில் பொருத்து"
+
+msgid "Tile window to the top-right"
+msgstr "சாளரத்தை மேல்-வலப்பகுதியில் பொருத்து"
+
+msgid "Tile window to the bottom-left"
+msgstr "சாளரத்தைக் கீழ்-இடப்பகுதியில் பொருத்து"
+
+msgid "Tile window to the bottom-right"
+msgstr "சாளரத்தைக் கீழ்-வலப்பகுதியில் பொருத்து"
+
+msgid "Show desktop"
+msgstr "மேசைத்தளத்தைக் காட்டு"
+
+msgid "Upper workspace"
+msgstr "மேல் பணியிடம்"
+
+msgid "Bottom workspace"
+msgstr "கீழ்ப் பணியிடம்"
+
+msgid "Left workspace"
+msgstr "இடது பணியிடம்"
+
+msgid "Right workspace"
+msgstr "வலது பணியிடம்"
+
+msgid "Previous workspace"
+msgstr "முந்தைய பணியிடம்"
+
+msgid "Next workspace"
+msgstr "அடுத்த பணியிடம்"
+
+msgid "Workspace 1"
+msgstr "பணியிடம் 1"
+
+msgid "Workspace 2"
+msgstr "பணியிடம் 2"
+
+msgid "Workspace 3"
+msgstr "பணியிடம் 3"
+
+msgid "Workspace 4"
+msgstr "பணியிடம் 4"
+
+msgid "Workspace 5"
+msgstr "பணியிடம் 5"
+
+msgid "Workspace 6"
+msgstr "பணியிடம் 6"
+
+msgid "Workspace 7"
+msgstr "பணியிடம் 7"
+
+msgid "Workspace 8"
+msgstr "பணியிடம் 8"
+
+msgid "Workspace 9"
+msgstr "பணியிடம் 9"
+
+msgid "Workspace 10"
+msgstr "பணியிடம் 10"
+
+msgid "Workspace 11"
+msgstr "பணியிடம் 11"
+
+msgid "Workspace 12"
+msgstr "பணியிடம் 12"
+
+msgid "Add workspace"
+msgstr "பணியிடத்தைச் சேர்"
+
+msgid "Add adjacent workspace"
+msgstr "அடுத்துள்ள பணியிடத்தைச் சேர்"
+
+msgid "Delete last workspace"
+msgstr "கடைசிப் பணியிடத்தை நீக்கு"
+
+msgid "Delete active workspace"
+msgstr "இயங்கும் பணியிடத்தை நீக்கு"
+
+msgid "GPUs"
+msgstr "GPU-கள்"
+
+msgid "Window Manager"
+msgstr "சாளர மேலாளர்"
+
+msgid "Handles the placement of windows on the screen."
+msgstr "திரையில் சாளரங்களின் இடவமைப்பைக் கையாள்கிறது."
+
 msgid "Panel"
 msgstr "பலகம்"
+
+msgid "Provides a home for window buttons, launchers, app menu and more."
+msgstr "சாளரப் பொத்தான்கள், தொடக்கிகள், செயலிப் பட்டியல் போன்றவற்றுக்கு இடம் தருகிறது."
+
+msgid "Desktop Manager"
+msgstr "மேசைத்தள மேலாளர்"
+
+msgid "Sets desktop backgrounds, handles icons and more."
+msgstr "மேசைத்தளப் பின்னணிகளை அமைக்கிறது, சின்னங்கள் முதலியவற்றைக் கையாள்கிறது."
+
+msgid "File Manager"
+msgstr "கோப்பு மேலாளர்"
+
+msgid "Manages your files in a modern, easy-to-use and fast way."
+msgstr "உங்கள் கோப்புகளை நவீனமாக, எளிதாக, விரைவாக நிர்வகிக்கிறது."
+
+msgid "Volume Manager"
+msgstr "தொகுதி மேலாளர்"
+
+msgid "Manages removable drives and media for Thunar."
+msgstr "Thunar-க்காக நீக்கக்கூடிய இயக்ககங்களையும் ஊடகங்களையும் நிர்வகிக்கிறது."
+
+msgid "Session Manager"
+msgstr "அமர்வு மேலாளர்"
+
+msgid "Saves and restores your session, handles startup, autostart and shutdown."
+msgstr "உங்கள் அமர்வைச் சேமித்து மீட்டெடுக்கிறது; தொடக்கம், தானியக்கத் தொடக்கம், அணைத்தல் ஆகியவற்றைக் கையாள்கிறது."
+
+msgid "Settings Manager"
+msgstr "அமைப்புகள் மேலாளர்"
+
+msgid "Configures appearance, display, keyboard and mouse settings."
+msgstr "தோற்றம், காட்சித்திரை, விசைப்பலகை, சுட்டி அமைப்புகளை உள்ளமைக்கிறது."
+
+msgid "Application Finder"
+msgstr "செயலி கண்டுபிடிப்பான்"
+
+msgid "Quickly finds and launches applications installed on your system."
+msgstr "உங்கள் கணினியில் நிறுவிய செயலிகளை விரைவாகக் கண்டுபிடித்துத் தொடங்குகிறது."
+
+msgid "Settings Daemon"
+msgstr "அமைப்புகள் பின்னணிச் சேவை"
+
+msgid "Stores your settings in a D-Bus-based configuration system."
+msgstr "உங்கள் அமைப்புகளை D-Bus அடிப்படையிலான உள்ளமைவு முறைமையில் சேமிக்கிறது."
+
+msgid "A Menu Library"
+msgstr "ஒரு பட்டியல் நூலகம்"
+
+msgid "Implements a freedesktop.org compliant menu based on GLib and GIO."
+msgstr "GLib, GIO அடிப்படையில் freedesktop.org தரத்துக்கு இணங்கிய பட்டியலைச் செயல்படுத்துகிறது."
+
+msgid "Thumbnails Service"
+msgstr "சிறுபடச் சேவை"
+
+msgid "Implements the thumbnail management D-Bus specification."
+msgstr "சிறுபட மேலாண்மைக்கான D-Bus வரையறையைச் செயல்படுத்துகிறது."
+
+msgid "Please see <https://www.xfce.org/about/credits>"
+msgstr "<https://www.xfce.org/about/credits> பக்கத்தைப் பாருங்கள்"
+
+msgid "If you know of anyone missing from this list; don't hesitate and file a bug on <https://gitlab.xfce.org/xfce/libxfce4ui/-/issues> ."
+msgstr "இந்தப் பட்டியலில் யாரேனும் விடுபட்டிருந்தால், தயங்காமல் <https://gitlab.xfce.org/xfce/libxfce4ui/-/issues> இல் பிழை அறிக்கை பதிவுசெய்யுங்கள்."
+
+msgid "Thanks to all who helped making this software available!"
+msgstr "இந்த மென்பொருள் கிடைக்க உதவிய அனைவருக்கும் நன்றி!"
+
+msgid "Xfce 4 is copyright Olivier Fourdan (fourdan@xfce.org). The different components are copyrighted by their respective authors."
+msgstr "Xfce 4 பதிப்புரிமை Olivier Fourdan (fourdan@xfce.org) அவர்களுக்கு உரியது. பல்வேறு கூறுகளின் பதிப்புரிமை அவற்றின் ஆசிரியர்களுக்கு உரியது."
+
+msgid "The libxfce4ui, libxfce4util and exo packages are distributed under the terms of the GNU Library General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "libxfce4ui, libxfce4util, exo தொகுப்புகள் Free Software Foundation வெளியிட்ட GNU Library General Public License உரிம விதிமுறைகளின் கீழ் வழங்கப்படுகின்றன; அந்த உரிமத்தின் பதிப்பு 2, அல்லது (உங்கள் விருப்பப்படி) அதற்குப் பிந்தைய எந்தப் பதிப்பும்."
+
+msgid "The packages thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfdesktop and xfwm4 are distributed under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version."
+msgstr "thunar, xfce4-appfinder, xfce4-panel, xfce4-session, xfce4-settings, xfconf, xfdesktop, xfwm4 தொகுப்புகள் Free Software Foundation வெளியிட்ட GNU General Public License உரிம விதிமுறைகளின் கீழ் வழங்கப்படுகின்றன; அந்த உரிமத்தின் பதிப்பு 2, அல்லது (உங்கள் விருப்பப்படி) அதற்குப் பிந்தைய எந்தப் பதிப்பும்."
+
+msgid "The Xfce development team. All rights reserved."
+msgstr "Xfce உருவாக்கக் குழு. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+
+msgid "Failed to load interface"
+msgstr "இடைமுகத்தை ஏற்ற முடியவில்லை"
+
+msgid "Core developers"
+msgstr "முதன்மை உருவாக்குநர்கள்"
+
+msgid "Active contributors"
+msgstr "செயலில் உள்ள பங்களிப்பாளர்கள்"
+
+msgid "Servers maintained by"
+msgstr "சேவையகங்களைப் பராமரிப்பவர்கள்"
+
+msgid "Translations supervision"
+msgstr "மொழிபெயர்ப்பு மேற்பார்வை"
+
+msgid "Documentation supervision"
+msgstr "ஆவண மேற்பார்வை"
+
+msgid "Translators"
+msgstr "மொழிபெயர்ப்பாளர்கள்"
+
+msgid "Previous contributors"
+msgstr "முந்தைய பங்களிப்பாளர்கள்"
+
+msgid "About Xfce"
+msgstr "Xfce பற்றி"
+
+msgid "Information about the Xfce Desktop Environment"
+msgstr "Xfce மேசைத்தளச் சூழல் பற்றிய தகவல்"
+
+msgid "License"
+msgstr "உரிமம்"
+
+msgid "About the Xfce Desktop Environment"
+msgstr "Xfce மேசைத்தளச் சூழல் பற்றி"
 
 msgid "_Help"
 msgstr "உதவி (_H)"
@@ -37,8 +517,77 @@ msgstr "உதவி (_H)"
 msgid "_Close"
 msgstr "மூடு (_C)"
 
+msgid "Device"
+msgstr "சாதனம்"
+
+msgid "OS Name"
+msgstr "இயக்க முறைமைப் பெயர்"
+
+msgid "OS Type"
+msgstr "இயக்க முறைமை வகை"
+
+msgid "Distributor"
+msgstr "விநியோகிப்பாளர்"
+
+msgid "Xfce Version"
+msgstr "Xfce பதிப்பு"
+
+msgid "GTK Version"
+msgstr "GTK பதிப்பு"
+
+msgid "Kernel Version"
+msgstr "கருனிப் பதிப்பு"
+
+msgid "Windowing System"
+msgstr "சாளர முறைமை"
+
+msgid "CPU"
+msgstr "CPU"
+
+msgid "Memory"
+msgstr "நினைவகம்"
+
+msgid "GPU"
+msgstr "GPU"
+
+msgid "System"
+msgstr "அமைப்பு"
+
+msgid "Xfce is a collection of programs that together provide a full-featured desktop environment.\nThe following programs are part of the Xfce core:"
+msgstr "Xfce என்பது ஒன்றிணைந்து முழு வசதிகொண்ட மேசைத்தளச் சூழலை வழங்கும் நிரல்களின் தொகுப்பு.\nபின்வரும் நிரல்கள் Xfce அடிப்படைப் பகுதியைச் சேர்ந்தவை:"
+
+msgid "Xfce is also a development platform providing several libraries that help programmers create applications that fit in well with the desktop environment.\n\nXfce components are licensed under free or open source licences; GPL or BSDL for applications and LGPL or BSDL for libraries. Look at the documentation, the source code or the Xfce website (<a href=\"https://www.xfce.org\">https://www.xfce.org</a>) for more information.\n\nThank you for your interest in Xfce.\n\n\t- The Xfce Development Team"
+msgstr "Xfce ஒரு மேம்பாட்டுத் தளமும் ஆகும்; மேசைத்தளச் சூழலுடன் நன்கு பொருந்தும் செயலிகளை நிரலாளர்கள் உருவாக்க உதவும் பல நூலகங்களை அது வழங்குகிறது.\n\nXfce கூறுகள் கட்டற்ற அல்லது திறந்த மூல உரிமங்களின் கீழ் வழங்கப்படுகின்றன; செயலிகளுக்கு GPL அல்லது BSDL, நூலகங்களுக்கு LGPL அல்லது BSDL. மேலும் தகவலுக்கு ஆவணங்கள், மூலக் குறியீடு அல்லது Xfce இணையதளத்தைப் (<a href=\"https://www.xfce.org\">https://www.xfce.org</a>) பாருங்கள்.\n\nXfce மீது நீங்கள் காட்டும் ஆர்வத்துக்கு நன்றி.\n\n\t- Xfce மேம்பாட்டுக் குழு"
+
 msgid "About"
 msgstr "பற்றி"
 
+msgid "Credits"
+msgstr "நன்றியுரை"
+
+msgid "Copyright"
+msgstr "பதிப்புரிமை"
+
 msgid "Unknown"
 msgstr "தெரியவில்லை"
+
+msgid "64-bit (32-bit userspace)"
+msgstr "64-பிட் (32-பிட் பயனர் வெளி)"
+
+msgid "64-bit"
+msgstr "64-பிட்"
+
+msgid "32-bit"
+msgstr "32-பிட்"
+
+msgid "%s; Build ID: %s"
+msgstr "%s; உருவாக்க அடையாளம்: %s"
+
+msgid "A file named \"%s\" already exists in this directory, the file hasn't been added."
+msgstr "\"%s\" என்ற பெயரில் ஒரு கோப்பு இந்த அடைவில் ஏற்கெனவே உள்ளது; கோப்பு சேர்க்கப்படவில்லை."
+
+msgid "Failed to migrate the old panel configuration"
+msgstr "பழைய பலக உள்ளமைவை இடம்பெயர்க்க முடியவில்லை"
+
+msgid "Customize settings stored by Xfconf"
+msgstr "Xfconf சேமித்துள்ள அமைப்புகளைத் தனிப்பயனாக்கு"

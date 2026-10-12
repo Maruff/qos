@@ -1,0 +1,367 @@
+# qos Desktop in Tamil: the panel.
+Create Launcher on the panel	பலகத்தில் தொடக்கி உருவாக்கு
+Add a new launcher to the panel based on the information of this desktop file	இந்த மேசைத்தளக் கோப்பின் தகவலைக் கொண்டு பலகத்தில் புதிய தொடக்கியைச் சேர்
+Customize the panel	பலகத்தைத் தனிப்பயனாக்கு
+Removing the item from the panel also means its configuration will be lost.	பலகத்திலிருந்து உருப்படியை அகற்றினால் அதன் உள்ளமைவும் இழக்கப்படும்.
+Are you sure that you want to remove \"%s\"?	\"%s\"-ஐ உறுதியாக அகற்ற வேண்டுமா?
+No running instance of %s was found	இயங்கும் %s நிகழ்வு எதுவும் காணப்படவில்லை
+Do you want to start the panel? If you do, make sure you save the session on logout, so the panel is automatically started the next time you login.	பலகத்தைத் தொடங்க வேண்டுமா? தொடங்கினால், வெளியேறும்போது அமர்வைச் சேமிப்பதை உறுதிசெய்யுங்கள்; அப்போதுதான் அடுத்த முறை நீங்கள் உள்நுழையும்போது பலகம் தானாகத் தொடங்கும்.
+Failed to launch the migration application	இடமாற்றச் செயலியைத் தொடங்க முடியவில்லை
+Plugin \"%s\" could not be loaded, do you want to remove it from xfce4-panel configuration?	\"%s\" செருகுநிரலை ஏற்ற முடியவில்லை. அதை xfce4-panel உள்ளமைவிலிருந்து அகற்ற வேண்டுமா?
+This plugin is in the current xfce4-panel configuration but could not be loaded, probably due to an installation issue. If you know what you're doing, you can remove it permanently, otherwise you'd better quit and make a backup of the current configuration using %s, before checking your installation and trying to start xfce4-panel again.	இந்தச் செருகுநிரல் தற்போதைய xfce4-panel உள்ளமைவில் உள்ளது, ஆனால் ஏற்ற முடியவில்லை; நிறுவலில் சிக்கல் இருக்கலாம். நீங்கள் செய்வது உங்களுக்குத் தெரிந்தால் அதை நிரந்தரமாக அகற்றலாம்; இல்லையெனில் வெளியேறி, %s மூலம் தற்போதைய உள்ளமைவின் காப்புப்பிரதியை எடுத்து, நிறுவலைச் சரிபார்த்த பின் xfce4-panel-ஐ மீண்டும் தொடங்குவது நல்லது.
+Plugin loading failure	செருகுநிரல் ஏற்றுவதில் தோல்வி
+This will create a new launcher plugin on the panel and inserts the dropped files as menu items.	இது பலகத்தில் புதிய தொடக்கிச் செருகுநிரலை உருவாக்கி, இழுத்துவிட்ட கோப்புகளைப் பட்டியல் உருப்படிகளாகச் சேர்க்கும்.
+Create new launcher from %d desktop file	%d மேசைத்தளக் கோப்பிலிருந்து புதிய தொடக்கி உருவாக்கு	%d மேசைத்தளக் கோப்புகளிலிருந்து புதிய தொடக்கி உருவாக்கு
+You have started X without session manager. Clicking Quit will close the X server.	அமர்வு மேலாளர் இல்லாமல் X-ஐத் தொடங்கியுள்ளீர்கள். விலகு என்பதைச் சொடுக்கினால் X சேவையகம் மூடப்படும்.
+Are you sure you want to quit the panel?	உறுதியாகப் பலகத்திலிருந்து விலக வேண்டுமா?
+Failed to execute command \"%s\"	\"%s\" கட்டளையை இயக்க முடியவில்லை
+Unable to open the e-mail address	மின்னஞ்சல் முகவரியைத் திறக்க முடியவில்லை
+The panel of the Xfce Desktop Environment	Xfce மேசைத்தளச் சூழலின் பலகம்
+Add New Item	புதிய உருப்படியைச் சேர்
+Please choose a panel for the new plugin:	புதிய செருகுநிரலுக்கு ஒரு பலகத்தைத் தேர்ந்தெடுங்கள்:
+Panel %d	பலகம் %d
+Because the panel is running in kiosk mode, you are not allowed to make changes to the panel configuration as a regular user	பலகம் கியோஸ்க் பயன்முறையில் இயங்குவதால், சாதாரணப் பயனராகப் பலக உள்ளமைவில் மாற்றங்கள் செய்ய உங்களுக்கு அனுமதி இல்லை
+Modifying the panel is not allowed	பலகத்தை மாற்ற அனுமதி இல்லை
+Search:	தேடு:
+Enter search phrase here	தேட வேண்டியதை இங்கே உள்ளிடுக
+Plugin \"%s\" unexpectedly left the panel, do you want to restart it?	\"%s\" செருகுநிரல் எதிர்பாராமல் பலகத்திலிருந்து வெளியேறியது. அதை மறுதொடக்கம் செய்ய வேண்டுமா?
+The plugin restarted more than once in the last %d seconds. If you press Execute the panel will try to restart the plugin otherwise it will be permanently removed from the panel.	கடந்த %d விநாடிகளில் இந்தச் செருகுநிரல் ஒன்றுக்கு மேற்பட்ட முறை மறுதொடக்கம் ஆனது. இயக்கு என்பதை அழுத்தினால் பலகம் செருகுநிரலை மறுதொடக்கம் செய்ய முயலும்; இல்லையெனில் அது பலகத்திலிருந்து நிரந்தரமாக அகற்றப்படும்.
+Plugin Restart	செருகுநிரல் மறுதொடக்கம்
+Automatic	தானியங்கி
+Primary	முதன்மை
+Monitor %d	திரை %d
+The panel and plugin configurations will be permanently removed	பலகமும் செருகுநிரல் உள்ளமைவுகளும் நிரந்தரமாக அகற்றப்படும்
+Are you sure you want to remove panel %d?	பலகம் %d-ஐ உறுதியாக அகற்ற வேண்டுமா?
+%s <span color=\"grey\" size=\"small\">(external)</span>	%s <span color=\"grey\" size=\"small\">(வெளிப்புறம்)</span>
+Internal name: %s-%d\nPID: %d	உள் பெயர்: %s-%d\nPID: %d
+Internal name: %s-%d	உள் பெயர்: %s-%d
+If you remove the item from the panel, it is permanently lost.	உருப்படியைப் பலகத்திலிருந்து அகற்றினால், அது நிரந்தரமாக இழக்கப்படும்.
+Are you sure that you want to remove these %d items?	இந்த %d உருப்படிகளை உறுதியாக அகற்ற வேண்டுமா?
+If you remove them from the panel, they are permanently lost.	அவற்றைப் பலகத்திலிருந்து அகற்றினால், அவை நிரந்தரமாக இழக்கப்படும்.
+Intelligently	அறிவார்ந்த முறையில்
+Horizontal	கிடைமட்டம்
+Vertical	செங்குத்து
+Deskbar	மேசைப்பட்டை
+None (use system style)	ஏதுமில்லை (கணினிப் பாணியைப் பயன்படுத்து)
+Solid color	ஒற்றை நிறம்
+Background image	பின்னணிப் படம்
+Profiles:	சுயவிவரங்கள்:
+Backup and restore	காப்புப்பிரதியும் மீட்டெடுப்பும்
+Switch between panel presets	பலக முன்னமைவுகளுக்கு இடையே மாறு
+Add a new panel	புதிய பலகத்தைச் சேர்
+Remove the currently selected panel	தற்போது தேர்ந்தெடுத்த பலகத்தை அகற்று
+<b>General</b>	<b>பொது</b>
+Mode:	பயன்முறை:
+Span monitors	திரைகள் முழுவதும் பரப்பு
+Select this option to extend the panel over multiple monitors.	பலகத்தைப் பல திரைகளில் நீட்டிக்க இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்.
+Lock panel	பலகத்தைப் பூட்டு
+Select this option to hide the handles of the panel and lock its position.	பலகத்தின் பிடிகளை மறைத்து அதன் இருப்பிடத்தைப் பூட்ட இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்.
+Reserve space on screen edges for the panel	திரையின் விளிம்புகளில் பலகத்துக்கு இடத்தை ஒதுக்கு
+Select this option if you don't want maximized windows to cover the area behind the panel. This only works when the panel is attached to a screen edge.	பெரிதாக்கிய சாளரங்கள் பலகத்தின் பின்னுள்ள பகுதியை மறைக்கக் கூடாது எனில் இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள். பலகம் திரையின் விளிம்பில் இணைந்திருக்கும்போது மட்டுமே இது செயல்படும்.
+Automatically hide the panel:	பலகத்தைத் தானாக மறை:
+Output:	வெளியீடு:
+<b>Measurements</b>	<b>அளவீடுகள்</b>
+Row size (pixels):	வரிசை அளவு (படவணுக்கள்):
+Number of rows:	வரிசைகளின் எண்ணிக்கை:
+Length (pixels):	நீளம் (படவணுக்கள்):
+Border width (pixels):	விளிம்பு அகலம் (படவணுக்கள்):
+Automatically increase the length	நீளத்தைத் தானாக அதிகரி
+Select this option to automatically increase the length of the panel if the plugins request more space.	செருகுநிரல்கள் கூடுதல் இடம் கோரினால் பலகத்தின் நீளத்தைத் தானாக அதிகரிக்க இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்.
+Display	திரை
+Dark mode	இருண்ட பயன்முறை
+<b>Background</b>	<b>பின்னணி</b>
+Style:	பாணி:
+Color:	நிறம்:
+Pick a Panel Color	பலக நிறத்தைத் தேர்ந்தெடு
+File:	கோப்பு:
+Select A Background Image	பின்னணிப் படத்தைத் தேர்ந்தெடு
+<b>Icons</b>	<b>சின்னங்கள்</b>
+Adjust size automatically	அளவைத் தானாகச் சரிசெய்
+Fixed icon size (pixels):	நிலையான சின்ன அளவு (படவணுக்கள்):
+<b>Opacity</b>	<b>ஒளிபுகாமை</b>
+Configure	அமை
+<b>Compositing is currently disabled</b>\nEnable compositing in the window manager for opacity settings in the panel.	<b>தொகுப்பாக்கம் தற்போது முடக்கப்பட்டுள்ளது</b>\nபலகத்தில் ஒளிபுகாமை அமைப்புகளைப் பயன்படுத்த, சாளர மேலாளரில் தொகுப்பாக்கத்தை இயக்குங்கள்.
+Enter:	நுழையும்போது:
+Leave:	விலகும்போது:
+Transparency when the pointer is not hovering over the panel, with 0 being fully transparent and 100 fully opaque.	சுட்டி பலகத்தின் மேல் இல்லாதபோது உள்ள ஒளிபுகுதன்மை; 0 என்பது முழுமையாக ஒளிபுகும், 100 என்பது முழுமையாக ஒளிபுகாது.
+Appearance	தோற்றம்
+Add new item to this panel	இந்தப் பலகத்தில் புதிய உருப்படியைச் சேர்
+Remove currently selected item	தற்போது தேர்ந்தெடுத்த உருப்படியை அகற்று
+Edit the currently selected item	தற்போது தேர்ந்தெடுத்த உருப்படியைத் திருத்து
+Show about information of the currently selected item	தற்போது தேர்ந்தெடுத்த உருப்படியின் விவரங்களைக் காட்டு
+Move currently selected item up by one row	தற்போது தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை மேலே நகர்த்து
+Move currently selected item down by one row	தற்போது தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை கீழே நகர்த்து
+Items	உருப்படிகள்
+New Game	புதிய ஆட்டம்
+Level:	நிலை:
+Novice	தொடக்கநிலை
+Intermediate	இடைநிலை
+Experienced	அனுபவம் வாய்ந்தவர்
+Expert	நிபுணர்
+Failed to load the default configuration	இயல்புநிலை உள்ளமைவை ஏற்ற முடியவில்லை
+Panel config needs migration	பலக உள்ளமைவை இடமாற்ற வேண்டும்
+Failed to migrate the existing configuration	ஏற்கெனவே உள்ள உள்ளமைவை இடமாற்ற முடியவில்லை
+Panel configuration has been updated.	பலக உள்ளமைவு புதுப்பிக்கப்பட்டது.
+Action Buttons	செயல் பொத்தான்கள்
+Session Menu	அமர்வுப் பட்டியல்
+Full Name	முழுப் பெயர்
+Username	பயனர்பெயர்
+User ID	பயனர் அடையாள எண்
+Custom	தனிப்பயன்
+Appearance:	தோற்றம்:
+Title:	தலைப்பு:
+Custom title:	தனிப்பயன் தலைப்பு:
+Visible	தெரியும்
+Action	செயல்
+Show confirmation dialog	உறுதிப்படுத்தல் உரையாடலைக் காட்டு
+Show a confirmation dialog with a 30 second timeout for some of the actions.	சில செயல்களுக்கு 30 விநாடி காலக்கெடுவுடன் உறுதிப்படுத்தல் உரையாடலைக் காட்டு.
+Actions	செயல்கள்
+Are you sure you want to log out?	உறுதியாக வெளியேற வேண்டுமா?
+Logging out in %d seconds.	%d விநாடிகளில் வெளியேறுகிறது.
+Do you want to suspend to disk?	வட்டுக்கு இடைநிறுத்த வேண்டுமா?
+Hibernating computer in %d seconds.	%d விநாடிகளில் கணினி உறங்கும்.
+Do you want to hibernate and suspend the system?	கணினியை உறங்கவைத்து இடைநிறுத்த வேண்டுமா?
+Hibernating and Suspending computer in %d seconds.	%d விநாடிகளில் கணினி உறங்கி இடைநிறுத்தப்படும்.
+Do you want to suspend to RAM?	RAM-க்கு இடைநிறுத்த வேண்டுமா?
+Suspending computer in %d seconds.	%d விநாடிகளில் கணினி இடைநிறுத்தப்படும்.
+Are you sure you want to restart?	உறுதியாக மறுதொடக்கம் செய்ய வேண்டுமா?
+Restarting computer in %d seconds.	%d விநாடிகளில் கணினி மறுதொடக்கம் செய்யப்படும்.
+Turning off computer in %d seconds.	%d விநாடிகளில் கணினி அணைக்கப்படும்.
+Failed to run action \"%s\"	\"%s\" செயலை இயக்க முடியவில்லை
+Little Mouse	குட்டிச் சுண்டெலி
+Log out, lock or other system actions	வெளியேறுதல், பூட்டுதல் அல்லது பிற கணினிச் செயல்கள்
+Icon:	சின்னம்:
+Button title:	பொத்தான் தலைப்பு:
+Show button on one line	பொத்தானை ஒரே வரியில் காட்டு
+Show button title	பொத்தான் தலைப்பைக் காட்டு
+Show application description in tooltip	உதவிக்குறிப்பில் செயலியின் விவரத்தைக் காட்டு
+Show icons in menu	பட்டியலில் சின்னங்களைக் காட்டு
+Show generic application names	செயலிகளின் பொதுப் பெயர்களைக் காட்டு
+Select this option to show the generic application name in the menu, for example \"File Manager\" instead of \"Thunar\"	பட்டியலில் செயலியின் பொதுப் பெயரைக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்; எடுத்துக்காட்டாக \"Thunar\" என்பதற்குப் பதிலாக \"கோப்பு மேலாளர்\"
+Use the default menu	இயல்புநிலைப் பட்டியலைப் பயன்படுத்து
+Edit Menu	பட்டியலைத் திருத்து
+Use custom menu file:	தனிப்பயன் பட்டியல் கோப்பைப் பயன்படுத்து:
+Menu file:	பட்டியல் கோப்பு:
+Select A Menu File	பட்டியல் கோப்பைத் தேர்ந்தெடு
+Menu File	பட்டியல் கோப்பு
+Select An Icon	சின்னத்தைத் தேர்ந்தெடு
+Failed to execute command \"%s\".	\"%s\" கட்டளையை இயக்க முடியவில்லை.
+Show a menu containing categories of installed applications	நிறுவிய செயலிகளின் வகைகளைக் கொண்ட பட்டியலைக் காட்டு
+%A %d %B %Y	%A, %d %B %Y
+Week %V	வாரம் %V
+Failed to execute clock command	கடிகாரக் கட்டளையை இயக்க முடியவில்லை
+Custom Format	தனிப்பயன் வடிவம்
+Decimal	பதின்மம்
+Sexagesimal	அறுபதின்மம்
+Binary time	இரும நேரம்
+Date, then time	தேதி, பின் நேரம்
+Time, then date	நேரம், பின் தேதி
+Date Only	தேதி மட்டும்
+Time Only	நேரம் மட்டும்
+Analog	முள் கடிகாரம்
+Binary	இருமம்
+Digital	எண்முறை
+Fuzzy	தோராயம்
+LCD	LCD
+Name of a timezone corresponding a file in the zoneinfo database, for example \"America/NewYork\". Leave empty to use the localtime.	zoneinfo தரவுத்தளத்தில் உள்ள ஒரு கோப்புக்கு இணையான நேர மண்டலத்தின் பெயர்; எடுத்துக்காட்டாக \"America/NewYork\". உள்ளூர் நேரத்தைப் பயன்படுத்த வெறுமையாக விடுங்கள்.
+Timezone:	நேர மண்டலம்:
+Time and Date Settings	நேரம் மற்றும் தேதி அமைப்புகள்
+Time Settings	நேர அமைப்புகள்
+If set, this command is run when the plugin is left-clicked, instead of displaying the default calendar.	அமைத்தால், செருகுநிரலை இடது சொடுக்கும்போது இயல்புநிலை நாள்காட்டியைக் காட்டுவதற்குப் பதிலாக இந்தக் கட்டளை இயங்கும்.
+Command:	கட்டளை:
+Show week numbers	வார எண்களைக் காட்டு
+Calendar	நாள்காட்டி
+The format describes the date and time parts to insert into the panel. For example, %Y will be substituted with the year, %m with the month and %d with the day. Similarly, <b></b> tags will make the text bold. See the \"Help\" page for additional information.	பலகத்தில் இட வேண்டிய தேதி, நேரப் பகுதிகளை வடிவம் விவரிக்கிறது. எடுத்துக்காட்டாக, %Y ஆண்டாலும், %m மாதத்தாலும், %d நாளாலும் மாற்றப்படும். அதுபோல, <b></b> குறிகள் உரையைத் தடித்ததாக்கும். கூடுதல் தகவலுக்கு \"உதவி\" பக்கத்தைப் பாருங்கள்.
+Tooltip format:	உதவிக்குறிப்பு வடிவம்:
+Layout:	தளவமைப்பு:
+Show AM/PM	AM/PM காட்டு
+Flash time separators	நேரப் பிரிப்பான்களை மின்னச்செய்
+24-hour clock	24 மணி நேரக் கடிகாரம்
+Binary mode:	இரும முறை:
+Display seconds	விநாடிகளைக் காட்டு
+Fuzziness:	தோராய அளவு:
+Show inactive segments	செயலற்ற பகுதிகளைக் காட்டு
+Show grid	கட்டத்தைக் காட்டு
+Font:	எழுத்துரு:
+Format:	வடிவம்:
+The format describes the date and time parts to insert into the panel. For example, %Y will be substituted with the year, %m with the month and %d with the day. Similarly, &lt;b&gt;&lt;/b&gt; tags will make the text bold. See the &quot;Help&quot; page for additional information.	பலகத்தில் இட வேண்டிய தேதி, நேரப் பகுதிகளை வடிவம் விவரிக்கிறது. எடுத்துக்காட்டாக, %Y ஆண்டாலும், %m மாதத்தாலும், %d நாளாலும் மாற்றப்படும். அதுபோல, &lt;b&gt;&lt;/b&gt; குறிகள் உரையைத் தடித்ததாக்கும். கூடுதல் தகவலுக்கு &quot;உதவி&quot; பக்கத்தைப் பாருங்கள்.
+Date	தேதி
+Time	நேரம்
+Clock Options	கடிகார விருப்பங்கள்
+Night	இரவு
+Early morning	அதிகாலை
+Morning	காலை
+Almost noon	கிட்டத்தட்ட நண்பகல்
+Noon	நண்பகல்
+Afternoon	பிற்பகல்
+Evening	மாலை
+Late evening	முன்னிரவு
+five past %0	%0 மணி ஐந்து நிமிடம்
+ten past %0	%0 மணி பத்து நிமிடம்
+quarter past %0	%0 மணி பதினைந்து நிமிடம்
+twenty past %0	%0 மணி இருபது நிமிடம்
+twenty five past %0	%0 மணி இருபத்தைந்து நிமிடம்
+half past %0	%0 மணி முப்பது நிமிடம்
+twenty five to %1	%1 மணிக்கு இருபத்தைந்து நிமிடம்
+twenty to %1	%1 மணிக்கு இருபது நிமிடம்
+quarter to %1	%1 மணிக்குப் பதினைந்து நிமிடம்
+ten to %1	%1 மணிக்குப் பத்து நிமிடம்
+five to %1	%1 மணிக்கு ஐந்து நிமிடம்
+%1 o'clock	%1 மணி
+one	ஒன்று
+two	இரண்டு
+three	மூன்று
+four	நான்கு
+five	ஐந்து
+six	ஆறு
+seven	ஏழு
+eight	எட்டு
+nine	ஒன்பது
+ten	பத்து
+eleven	பதினொன்று
+twelve	பன்னிரண்டு
+What time is it?	மணி என்ன?
+Directory Menu	கோப்புறைப் பட்டியல்
+Failed to launch application \"%s\"	\"%s\" செயலியைத் தொடங்க முடியவில்லை
+Failed to query content type for \"%s\"	\"%s\"-இன் உள்ளடக்க வகையை அறிய முடியவில்லை
+No default application found for \"%s\"	\"%s\"-க்கு இயல்புநிலைச் செயலி எதுவும் இல்லை
+Failed to launch default application for \"%s\"	\"%s\"-க்கான இயல்புநிலைச் செயலியைத் தொடங்க முடியவில்லை
+Failed to execute the preferred application for category \"%s\"	\"%s\" வகைக்கான விருப்பச் செயலியை இயக்க முடியவில்லை
+Create New Folder	புதிய கோப்புறை உருவாக்கு
+Create New Text Document	புதிய உரை ஆவணம் உருவாக்கு
+Create & Open	உருவாக்கித் திற
+Enter the new name:	புதிய பெயரை உள்ளிடுக:
+Failed to create folder: %s	கோப்புறையை உருவாக்க முடியவில்லை: %s
+Open Folder	கோப்புறையைத் திற
+Open in Terminal	முனையத்தில் திற
+Create Text Document	உரை ஆவணம் உருவாக்கு
+Show a directory tree in a menu	கோப்புறை மரத்தைப் பட்டியலாகக் காட்டு
+Select A Directory	கோப்புறையைத் தேர்ந்தெடு
+Base Directory:	அடிப்படைக் கோப்புறை:
+Show 'New Text Document'	'புதிய உரை ஆவணம்' காட்டு
+Show 'New Folder'	'புதிய கோப்புறை' காட்டு
+Show 'Open in Terminal'	'முனையத்தில் திற' காட்டு
+Show 'Open Folder'	'கோப்புறையைத் திற' காட்டு
+Menu	பட்டியல்
+Show hidden files	மறைந்த கோப்புகளைக் காட்டு
+Enter a list of patterns that will be used to determine which files are visible in a directory. If you specify more than one pattern here, the list items must be separated with semicolons (e.g. *.txt;*.doc).	ஒரு கோப்புறையில் எந்தக் கோப்புகள் தெரிய வேண்டும் என்பதைத் தீர்மானிக்கும் வடிவங்களின் பட்டியலை உள்ளிடுக. ஒன்றுக்கு மேற்பட்ட வடிவங்களைக் குறிப்பிட்டால், அவற்றை அரைப்புள்ளியால் பிரிக்க வேண்டும் (எ.கா. *.txt;*.doc).
+File Pattern:	கோப்பு வடிவம்:
+Filtering	வடிகட்டல்
+Open launcher menu	தொடக்கிப் பட்டியலைத் திற
+Unnamed Item	பெயரிடாத உருப்படி
+No items	உருப்படிகள் இல்லை
+Failed to open desktop item editor	மேசைத்தள உருப்படித் திருத்தியைத் திறக்க முடியவில்லை
+If you delete an item, it will be permanently removed	ஒரு உருப்படியை நீக்கினால், அது நிரந்தரமாக அகற்றப்படும்
+Unnamed item	பெயரிடாத உருப்படி
+Are you sure you want to remove \"%s\"?	\"%s\"-ஐ உறுதியாக அகற்ற வேண்டுமா?
+North	வடக்கு
+West	மேற்கு
+East	கிழக்கு
+South	தெற்கு
+Inside Button	பொத்தானுக்குள்
+Up	மேலே
+Down	கீழே
+Edit Item	உருப்படியைத் திருத்து
+Delete Item	உருப்படியை நீக்கு
+Add Application	செயலியைச் சேர்
+New Application	புதிய செயலி
+New Link	புதிய இணைப்பு
+Add one or more existing items to the launcher	ஏற்கெனவே உள்ள ஒன்று அல்லது பல உருப்படிகளைத் தொடக்கியில் சேர்
+Launcher	தொடக்கி
+Delete the currently selected item	தற்போது தேர்ந்தெடுத்த உருப்படியை நீக்கு
+Add a new empty item	புதிய வெற்று உருப்படியைச் சேர்
+Add a new hyperlink	புதிய மீயிணைப்பைச் சேர்
+Disable tooltips	உதவிக்குறிப்புகளை முடக்கு
+Select this option to disable the tooltips when moving over the panel button or menu items.	பலகப் பொத்தான் அல்லது பட்டியல் உருப்படிகள் மேல் சுட்டி நகரும்போது உதவிக்குறிப்புகளை முடக்க இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்.
+Show label instead of icon	சின்னத்துக்குப் பதிலாகச் சிட்டையைக் காட்டு
+Show last used item in panel	கடைசியாகப் பயன்படுத்திய உருப்படியைப் பலகத்தில் காட்டு
+Select this option to move the clicked menu item to the panel.	சொடுக்கிய பட்டியல் உருப்படியைப் பலகத்துக்கு நகர்த்த இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்.
+Arrow button position:	அம்புப் பொத்தானின் இருப்பிடம்:
+Advanced	மேம்பட்டவை
+Program launcher with optional menu	விருப்பப் பட்டியலுடன் கூடிய நிரல் தொடக்கி
+Workspace Settings	பணியிட அமைப்புகள்
+Unable to open the workspace settings	பணியிட அமைப்புகளைத் திறக்க முடியவில்லை
+Workspace %d	பணியிடம் %d
+Buttons	பொத்தான்கள்
+Miniature View	சிறுவடிவக் காட்சி
+Show workspace number	பணியிட எண்ணைக் காட்டு
+Switch workspaces using the mouse wheel	சுட்டிச் சக்கரத்தால் பணியிடங்களை மாற்று
+Wrap around workspaces	பணியிடங்களைச் சுழற்சியாக மாற்று
+<b>Appearance</b>	<b>தோற்றம்</b>
+Switch between virtual desktops	மெய்நிகர் மேசைத்தளங்களுக்கு இடையே மாறு
+Transparent	ஒளிபுகும்
+Handle	பிடி
+Dots	புள்ளிகள்
+Expand	விரிவாக்கு
+Adds a separator or space between panel items	பலக உருப்படிகளுக்கு இடையே பிரிப்பானையோ இடைவெளியையோ சேர்க்கும்
+Restore the minimized windows	சிறிதாக்கிய சாளரங்களை மீட்டமை
+Minimize all open windows and show the desktop	திறந்துள்ள அனைத்துச் சாளரங்களையும் சிறிதாக்கி மேசைத்தளத்தைக் காட்டு
+Show on mouse hover	சுட்டி மேலே வரும்போது காட்டு
+Behavior	நடத்தை
+Hide all windows and show the desktop	அனைத்துச் சாளரங்களையும் மறைத்து மேசைத்தளத்தைக் காட்டு
+Are you sure you want to clear the list of known items?	அறியப்பட்ட உருப்படிகளின் பட்டியலை உறுதியாக அழிக்க வேண்டுமா?
+Status Tray Items	நிலைத்தட்டு உருப்படிகள்
+Clear Known Items	அறியப்பட்ட உருப்படிகளை அழி
+Resets the list of items and their visibility settings	உருப்படிகளின் பட்டியலையும் அவற்றின் தெரிவுநிலை அமைப்புகளையும் மீட்டமைக்கும்
+Icons	சின்னங்கள்
+Arrange items in a single row	உருப்படிகளை ஒரே வரிசையில் அடுக்கு
+If enabled, ensure that the items are laid out in a single row	இயக்கினால், உருப்படிகள் ஒரே வரிசையில் அமைவதை உறுதிசெய்யும்
+Hide items by default	இயல்பாக உருப்படிகளை மறை
+When enabled, all new items will be marked as \"Hidden\"	இயக்கினால், புதிய உருப்படிகள் அனைத்தும் \"மறைக்கப்பட்டது\" எனக் குறிக்கப்படும்
+Square items	சதுர உருப்படிகள்
+Item buttons will take a square when it's possible	இயன்றபோது உருப்படிப் பொத்தான்கள் சதுர வடிவம் பெறும்
+Item	உருப்படி
+Hidden	மறைக்கப்பட்டது
+Move the selected item one row up	தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை மேலே நகர்த்து
+Move the selected item one row down	தேர்ந்தெடுத்த உருப்படியை ஒரு வரிசை கீழே நகர்த்து
+Known Items	அறியப்பட்ட உருப்படிகள்
+Menu is primary action	பட்டியலே முதன்மைச் செயல்
+Left click will always display the menu for item	இடது சொடுக்கு எப்போதும் உருப்படியின் பட்டியலைக் காட்டும்
+Request symbolic icons	குறியீட்டுச் சின்னங்களைக் கோரு
+Load symbolic icons if available	கிடைத்தால் குறியீட்டுச் சின்னங்களை ஏற்று
+Features	அம்சங்கள்
+Status Notifiers	நிலை அறிவிப்பிகள்
+Systray Icons	கணினித்தட்டுச் சின்னங்கள்
+Unable to start the notification area	அறிவிப்புப் பகுதியைத் தொடங்க முடியவில்லை
+Most likely another widget took over the function of a notification area. This area will be unused.	பெரும்பாலும் வேறொரு கருவி அறிவிப்புப் பகுதியின் பணியை எடுத்துக்கொண்டிருக்கலாம். இந்தப் பகுதி பயன்படுத்தப்படாது.
+The notification area lost selection	அறிவிப்புப் பகுதி தேர்வை இழந்தது
+Failed to acquire manager selection for screen %d	திரை %d-க்கான மேலாளர் தேர்வைப் பெற முடியவில்லை
+Status Tray Plugin	நிலைத்தட்டுச் செருகுநிரல்
+Provides status notifier items (application indicators) and legacy systray items	நிலை அறிவிப்பி உருப்படிகளையும் (செயலிக் குறிகாட்டிகள்) பழைய கணினித்தட்டு உருப்படிகளையும் வழங்குகிறது
+Nothing	எதுவுமில்லை
+New Instance	புதிய நிகழ்வு
+Timestamp	நேரமுத்திரை
+Group title and timestamp	குழுத் தலைப்பும் நேரமுத்திரையும்
+Window title	சாளரத் தலைப்பு
+Group title and window title	குழுத் தலைப்பும் சாளரத் தலைப்பும்
+None, allow drag-and-drop	ஏதுமில்லை, இழுத்துவிடலை அனுமதி
+Show button labels	பொத்தான் சிட்டைகளைக் காட்டு
+Show flat buttons	தட்டையான பொத்தான்களைக் காட்டு
+Show handle	பிடியைக் காட்டு
+Show tooltips	உதவிக்குறிப்புகளைக் காட்டு
+Sorting order:	வரிசைப்படுத்தும் முறை:
+Middle click action:	நடுச் சொடுக்குச் செயல்:
+Group windows by application	சாளரங்களைச் செயலிவாரியாகக் குழுவாக்கு
+Restore minimized windows to current workspace	சிறிதாக்கிய சாளரங்களைத் தற்போதைய பணியிடத்தில் மீட்டமை
+Draw window frame when hovering a button	பொத்தான் மேல் சுட்டி இருக்கும்போது சாளரச் சட்டகத்தை வரை
+Switch windows using the mouse wheel	சுட்டிச் சக்கரத்தால் சாளரங்களை மாற்று
+Behaviour	நடத்தை
+Show windows from all workspaces	அனைத்துப் பணியிடங்களின் சாளரங்களையும் காட்டு
+Show windows from all monitors	அனைத்துத் திரைகளின் சாளரங்களையும் காட்டு
+Show only minimized windows	சிறிதாக்கிய சாளரங்களை மட்டும் காட்டு
+Unable to start new instance of '%s'	'%s'-இன் புதிய நிகழ்வைத் தொடங்க முடியவில்லை
+Launch New Instance	புதிய நிகழ்வைத் தொடங்கு
+Minimize All	அனைத்தையும் சிறிதாக்கு
+Unmaximize All	அனைத்தையும் பழைய அளவுக்கு மீட்டமை
+Switch between open windows using buttons	பொத்தான்களைப் பயன்படுத்தித் திறந்துள்ள சாளரங்களுக்கு இடையே மாறு
+Urgent Windows	அவசரச் சாளரங்கள்
+Add Workspace	பணியிடத்தைச் சேர்
+Remove Workspace \"%s\"	\"%s\" பணியிடத்தை அகற்று
+Remove Workspace %d	பணியிடம் %d-ஐ அகற்று
+Icon	சின்னம்
+Arrow	அம்பு
+Button layout:	பொத்தான் தளவமைப்பு:
+Show workspace actions	பணியிடச் செயல்களைக் காட்டு
+Show workspace names	பணியிடப் பெயர்களைக் காட்டு
+Enable urgency notification	அவசர அறிவிப்பை இயக்கு
+Switch between open windows using a menu	பட்டியலைப் பயன்படுத்தித் திறந்துள்ள சாளரங்களுக்கு இடையே மாறு

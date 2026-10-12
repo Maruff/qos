@@ -1,14 +1,35 @@
 msgid ""
-msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\n"
+msgstr "Content-Type: text/plain; charset=UTF-8\nLanguage: ta\nPlural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgid "_Reload"
 msgstr "மீளேற்று (_R)"
 
+msgid "Activate _Primary Menu"
+msgstr "முதன்மைப் பட்டியலைத் திற (_P)"
+
+msgid "Activate _Secondary Menu"
+msgstr "இரண்டாம் பட்டியலைத் திற (_S)"
+
+msgid "Cycle Next Background"
+msgstr "அடுத்த பின்னணிக்கு மாறு"
+
+msgid "_Activate Icon"
+msgstr "சின்னத்தைச் செயல்படுத்து (_A)"
+
+msgid "_Toggle Cursor Icon"
+msgstr "சுட்டி இருக்கும் சின்னத்தைத் தேர்ந்தெடு அல்லது நீக்கு (_T)"
+
 msgid "Select _All"
 msgstr "அனைத்தையும் தேர்ந்தெடு (_A)"
 
+msgid "U_nselect All"
+msgstr "அனைத்துத் தேர்வையும் நீக்கு (_N)"
+
 msgid "A_rrange Icons"
 msgstr "சின்னங்களை அடுக்கு (_R)"
+
+msgid "Un_minimize Window"
+msgstr "சாளரத்தைச் சிறிதாக்கலிலிருந்து மீட்டமை (_M)"
 
 msgid "_Close Window"
 msgstr "சாளரத்தை மூடு (_C)"
@@ -24,6 +45,15 @@ msgstr "திற (_O)"
 
 msgid "Ope_n With Other Application"
 msgstr "வேறு செயலியுடன் திற (_N)"
+
+msgid "Open _Filesystem"
+msgstr "கோப்பு முறைமையைத் திற (_F)"
+
+msgid "Open _Home"
+msgstr "இல்லத்தைத் திற (_H)"
+
+msgid "Open _Trash"
+msgstr "குப்பைத் தொட்டியைத் திற (_T)"
 
 msgid "_Rename"
 msgstr "பெயர்மாற்று (_R)"
@@ -55,8 +85,14 @@ msgstr "மறைந்த கோப்புகளைக் காட்டு 
 msgid "_Properties"
 msgstr "பண்புகள் (_P)"
 
+msgid "The Xfce development team. All rights reserved."
+msgstr "Xfce உருவாக்கக் குழு. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
+
 msgid "Desktop Settings"
 msgstr "மேசைத்தள அமைப்புகள்"
+
+msgid "Unable to contact settings server"
+msgstr "அமைப்புகள் சேவையகத்தைத் தொடர்புகொள்ள முடியவில்லை"
 
 msgid "Quit"
 msgstr "விலகு"
@@ -64,8 +100,56 @@ msgstr "விலகு"
 msgid "Desktop"
 msgstr "மேசைத்தளம்"
 
+msgid "Set desktop background and menu and icon behavior"
+msgstr "மேசைத்தளப் பின்னணி, பட்டியல், சின்னங்களின் நடத்தை ஆகியவற்றை அமை"
+
+msgid "Choose the folder to select wallpapers from."
+msgstr "பின்னணிப் படங்களைத் தேர்ந்தெடுக்க வேண்டிய கோப்புறையைத் தேர்வுசெய்."
+
+msgid "<b>%s</b>\nType: %s\nSize: %s"
+msgstr "<b>%s</b>\nவகை: %s\nஅளவு: %s"
+
+msgid "Unable to load images from folder \"%s\""
+msgstr "\"%s\" கோப்புறையிலிருந்து படங்களை ஏற்ற முடியவில்லை"
+
+msgid "Wallpaper for Monitor %d (%s)"
+msgstr "திரை %d (%s)-க்கான பின்னணி"
+
+msgid "Wallpaper for Monitor %d"
+msgstr "திரை %d-க்கான பின்னணி"
+
+msgid "Move this dialog to the display you want to edit the settings for."
+msgstr "அமைப்புகளைத் திருத்த வேண்டிய திரைக்கு இந்த உரையாடலை நகர்த்துங்கள்."
+
+msgid "Wallpaper for %s on Monitor %d (%s)"
+msgstr "திரை %d-இல் %s-க்கான பின்னணி (%s)"
+
+msgid "Wallpaper for %s on Monitor %d"
+msgstr "திரை %d-இல் %s-க்கான பின்னணி"
+
+msgid "Move this dialog to the display and workspace you want to edit the settings for."
+msgstr "அமைப்புகளைத் திருத்த வேண்டிய திரைக்கும் பணியிடத்துக்கும் இந்த உரையாடலை நகர்த்துங்கள்."
+
 msgid "Wallpaper for my desktop"
 msgstr "என் மேசைத்தளப் பின்னணி"
+
+msgid "Wallpaper for %s"
+msgstr "%s-க்கான பின்னணி"
+
+msgid "Move this dialog to the workspace you want to edit the settings for."
+msgstr "அமைப்புகளைத் திருத்த வேண்டிய பணியிடத்துக்கு இந்த உரையாடலை நகர்த்துங்கள்."
+
+msgid "Image selection is unavailable while the image style is set to None."
+msgstr "படப் பாணி \"ஏதுமில்லை\" என அமைந்திருக்கும்போது படத்தைத் தேர்ந்தெடுக்க முடியாது."
+
+msgid "Spanning screens"
+msgstr "திரைகள் முழுவதும் பரவியது"
+
+msgid "Image files"
+msgstr "படக் கோப்புகள்"
+
+msgid "Select a Directory"
+msgstr "ஒரு அடைவைத் தேர்ந்தெடு"
 
 msgid "Home"
 msgstr "இல்லம்"
@@ -79,29 +163,362 @@ msgstr "குப்பைத் தொட்டி"
 msgid "Devices"
 msgstr "சாதனங்கள்"
 
+msgid "Network Shares"
+msgstr "வலையமைப்புப் பகிர்வுகள்"
+
 msgid "Removable Disks and Drives"
 msgstr "நீக்கக்கூடிய வட்டுகள்"
+
+msgid "Fixed Disks and Drives"
+msgstr "நிலையான வட்டுகள்"
+
+msgid "Other Devices"
+msgstr "பிற சாதனங்கள்"
+
+msgid "Would you like to arrange all existing\nicons according to the selected orientation?"
+msgstr "ஏற்கெனவே உள்ள அனைத்துச் சின்னங்களையும்\nதேர்ந்தெடுத்த திசையமைவின்படி அடுக்க வேண்டுமா?"
+
+msgid "Arrange icons"
+msgstr "சின்னங்களை அடுக்கு"
+
+msgid "Unable to launch \"%s\":"
+msgstr "\"%s\"-ஐத் தொடங்க முடியவில்லை:"
+
+msgid "Launch Error"
+msgstr "தொடக்கப் பிழை"
 
 msgid "_Close"
 msgstr "மூடு (_C)"
 
+msgid "Icons"
+msgstr "சின்னங்கள்"
+
+msgid "Window Icons"
+msgstr "சாளரச் சின்னங்கள்"
+
+msgid "File Icons"
+msgstr "கோப்புச் சின்னங்கள்"
+
+msgid "Solid color"
+msgstr "ஒற்றை நிறம்"
+
+msgid "Horizontal gradient"
+msgstr "கிடைமட்ட நிறச்சரிவு"
+
+msgid "Vertical gradient"
+msgstr "செங்குத்து நிறச்சரிவு"
+
+msgid "Transparent"
+msgstr "ஒளிபுகும்"
+
 msgid "Apply"
 msgstr "செயல்படுத்து"
+
+msgid "St_yle:"
+msgstr "பாணி: (_Y)"
+
+msgid "Specify how the image will be resized to fit the screen."
+msgstr "திரைக்குப் பொருந்தப் படம் எவ்வாறு அளவுமாற்றப்பட வேண்டும் எனக் குறிப்பிடுங்கள்."
 
 msgid "None"
 msgstr "ஏதுமில்லை"
 
+msgid "Centered"
+msgstr "நடுவில்"
+
+msgid "Tiled"
+msgstr "ஓடுகளாக"
+
+msgid "Stretched"
+msgstr "நீட்டியது"
+
+msgid "Scaled"
+msgstr "அளவிட்டது"
+
+msgid "Zoomed"
+msgstr "பெரிதாக்கியது"
+
+msgid "Spanning Screens"
+msgstr "திரைகள் முழுவதும் பரவியது"
+
+msgid "Specify the style of the color drawn behind the backdrop image."
+msgstr "பின்னணிப் படத்துக்குப் பின்னால் வரையப்படும் நிறத்தின் பாணியைக் குறிப்பிடுங்கள்."
+
+msgid "Specifies the solid color, or the \"left\" or \"top\" color of the gradient."
+msgstr "ஒற்றை நிறத்தை, அல்லது நிறச்சரிவின் \"இடது\" அல்லது \"மேல்\" நிறத்தைக் குறிப்பிடுகிறது."
+
+msgid "Select First Color"
+msgstr "முதல் நிறத்தைத் தேர்ந்தெடு"
+
+msgid "Specifies the \"right\" or \"bottom\" color of the gradient."
+msgstr "நிறச்சரிவின் \"வலது\" அல்லது \"கீழ்\" நிறத்தைக் குறிப்பிடுகிறது."
+
+msgid "Select Second Color"
+msgstr "இரண்டாம் நிறத்தைத் தேர்ந்தெடு"
+
+msgid "Apply to all _workspaces"
+msgstr "அனைத்துப் பணியிடங்களுக்கும் செயல்படுத்து (_W)"
+
+msgid "_Folder:"
+msgstr "கோப்புறை: (_F)"
+
+msgid "C_olor:"
+msgstr "நிறம்: (_O)"
+
+msgid "Change the _background "
+msgstr "பின்னணியை மாற்று (_B)"
+
+msgid "Automatically select a different background from the current directory."
+msgstr "தற்போதைய அடைவிலிருந்து வேறொரு பின்னணியைத் தானாகத் தேர்ந்தெடு."
+
+msgid "Specify how often the background will change."
+msgstr "பின்னணி எத்தனை முறை மாற வேண்டும் எனக் குறிப்பிடுங்கள்."
+
+msgid "in seconds:"
+msgstr "வினாடிகளில்:"
+
+msgid "in minutes:"
+msgstr "நிமிடங்களில்:"
+
+msgid "in hours:"
+msgstr "மணிநேரங்களில்:"
+
+msgid "at start up"
+msgstr "தொடக்கத்தில்"
+
+msgid "every hour"
+msgstr "ஒவ்வொரு மணிநேரமும்"
+
+msgid "every day"
+msgstr "ஒவ்வொரு நாளும்"
+
+msgid "chronologically"
+msgstr "காலவரிசைப்படி"
+
+msgid "Amount of time before a different background is selected."
+msgstr "வேறொரு பின்னணி தேர்ந்தெடுக்கப்படுவதற்கு முன் உள்ள நேர அளவு."
+
+msgid "_Random Order"
+msgstr "சீரற்ற வரிசை (_R)"
+
+msgid "Randomly selects another image from the same directory when the wallpaper is to cycle."
+msgstr "பின்னணி மாற வேண்டிய நேரத்தில் அதே அடைவிலிருந்து வேறொரு படத்தைச் சீரற்ற முறையில் தேர்ந்தெடுக்கிறது."
+
+msgid "Left"
+msgstr "இடது"
+
+msgid "Middle"
+msgstr "நடு"
+
+msgid "Right"
+msgstr "வலது"
+
+msgid "Shift"
+msgstr "Shift"
+
+msgid "Alt"
+msgstr "Alt"
+
+msgid "Control"
+msgstr "Control"
+
+msgid "Minimized application icons"
+msgstr "சிறிதாக்கிய செயலிச் சின்னங்கள்"
+
+msgid "File/launcher icons"
+msgstr "கோப்பு/தொடக்கிச் சின்னங்கள்"
+
+msgid "Top Left Vertical"
+msgstr "மேல் இடது, செங்குத்தாக"
+
+msgid "Top Left Horizontal"
+msgstr "மேல் இடது, கிடைமட்டமாக"
+
+msgid "Top Right Vertical"
+msgstr "மேல் வலது, செங்குத்தாக"
+
+msgid "Top Right Horizontal"
+msgstr "மேல் வலது, கிடைமட்டமாக"
+
+msgid "Bottom Left Vertical"
+msgstr "கீழ் இடது, செங்குத்தாக"
+
+msgid "Bottom Left Horizontal"
+msgstr "கீழ் இடது, கிடைமட்டமாக"
+
+msgid "Bottom Right Vertical"
+msgstr "கீழ் வலது, செங்குத்தாக"
+
+msgid "Bottom Right Horizontal"
+msgstr "கீழ் வலது, கிடைமட்டமாக"
+
 msgid "_Help"
 msgstr "உதவி (_H)"
 
+msgid "_Background"
+msgstr "பின்னணி (_B)"
+
+msgid "Include applications menu on _desktop right click"
+msgstr "மேசைத்தளத்தில் வலது சொடுக்கும்போது செயலிகள் பட்டியலையும் சேர் (_D)"
+
+msgid "_Button:"
+msgstr "பொத்தான்: (_B)"
+
+msgid "Mo_difier:"
+msgstr "மாற்றி விசை: (_D)"
+
+msgid "Show _application icons in menu"
+msgstr "பட்டியலில் செயலிச் சின்னங்களைக் காட்டு (_A)"
+
+msgid "_Edit desktop menu"
+msgstr "மேசைத்தளப் பட்டியலைத் திருத்து (_E)"
+
+msgid "<b>Desktop Menu</b>"
+msgstr "<b>மேசைத்தளப் பட்டியல்</b>"
+
+msgid "Show _window list menu on desktop middle click"
+msgstr "மேசைத்தளத்தில் நடுச் சொடுக்கும்போது சாளரப் பட்டியலைக் காட்டு (_W)"
+
+msgid "B_utton:"
+msgstr "பொத்தான்: (_U)"
+
+msgid "Modi_fier:"
+msgstr "மாற்றி விசை: (_F)"
+
+msgid "Sh_ow application icons in menu"
+msgstr "பட்டியலில் செயலிச் சின்னங்களைக் காட்டு (_O)"
+
+msgid "List windows on a_ll workspaces"
+msgstr "அனைத்துப் பணியிடங்களிலும் உள்ள சாளரங்களைப் பட்டியலிடு (_L)"
+
+msgid "Show workspace _names in list"
+msgstr "பட்டியலில் பணியிடப் பெயர்களைக் காட்டு (_N)"
+
+msgid "Use _submenus for the windows in each workspace"
+msgstr "ஒவ்வொரு பணியிடத்தின் சாளரங்களுக்கும் துணைப்பட்டியல்களைப் பயன்படுத்து (_S)"
+
+msgid "Show s_ticky windows only in active workspace"
+msgstr "ஒட்டிய சாளரங்களை இயங்கும் பணியிடத்தில் மட்டும் காட்டு (_T)"
+
+msgid "Show a section listing all _urgent windows on other workspaces"
+msgstr "பிற பணியிடங்களில் உள்ள அவசரச் சாளரங்கள் அனைத்தையும் பட்டியலிடும் பகுதியைக் காட்டு (_U)"
+
+msgid "Show a_dd and remove workspace options in list"
+msgstr "பணியிடத்தைச் சேர்க்கும், அகற்றும் விருப்பங்களைப் பட்டியலில் காட்டு (_D)"
+
+msgid "<b>Window List Menu</b>"
+msgstr "<b>சாளரப் பட்டியல் பட்டியல்</b>"
+
+msgid "_Menus"
+msgstr "பட்டியல்கள் (_M)"
+
+msgid "Icon _type:"
+msgstr "சின்ன வகை: (_T)"
+
+msgid "Icon _size:"
+msgstr "சின்ன அளவு: (_S)"
+
+msgid "Fo_nt size:"
+msgstr "எழுத்துரு அளவு: (_N)"
+
+msgid "Show icon toolt_ips. Size:"
+msgstr "சின்னக் குறிப்புரைகளைக் காட்டு. அளவு: (_I)"
+
+msgid "Size of the tooltip preview image."
+msgstr "குறிப்புரை முன்தோற்றப் படத்தின் அளவு."
+
+msgid "Font co_lor:"
+msgstr "எழுத்துரு நிறம்: (_L)"
+
+msgid "Label bac_kground color:"
+msgstr "பெயர்ச்சீட்டுப் பின்னணி நிறம்: (_K)"
+
+msgid "<b>Appearance</b>"
+msgstr "<b>தோற்றம்</b>"
+
+msgid "Placement _direction:"
+msgstr "அடுக்கும் திசை: (_D)"
+
+msgid "Show icons only on _primary display"
+msgstr "முதன்மைத் திரையில் மட்டும் சின்னங்களைக் காட்டு (_P)"
+
+msgid "Single click to _activate items"
+msgstr "உருப்படிகளைச் செயல்படுத்த ஒற்றைச் சொடுக்கு (_A)"
+
+msgid "_Underline text on hover"
+msgstr "சுட்டி மேலே வரும்போது உரைக்கு அடிக்கோடிடு (_U)"
+
+msgid "Show confirmation dialog before arran_ging icons"
+msgstr "சின்னங்களை அடுக்கும் முன் உறுதிப்படுத்தும் உரையாடலைக் காட்டு (_G)"
+
+msgid "Behavior"
+msgstr "நடத்தை"
+
+msgid "Desktop _Icons"
+msgstr "மேசைத்தளச் சின்னங்கள் (_I)"
+
+msgid "File/Launcher icons are not enabled. You can enable them from the \"Desktop Icons\" tab."
+msgstr "கோப்பு/தொடக்கிச் சின்னங்கள் இயக்கப்படவில்லை. அவற்றை \"மேசைத்தளச் சின்னங்கள்\" தாவலில் இயக்கலாம்."
+
+msgid "Show hidden files on the desktop"
+msgstr "மேசைத்தளத்தில் மறைந்த கோப்புகளைக் காட்டு"
+
+msgid "Show t_humbnails"
+msgstr "சிறுபடங்களைக் காட்டு (_H)"
+
+msgid "Select this option to display preview-able files on the desktop as automatically generated thumbnail icons."
+msgstr "முன்தோற்றம் காட்டக்கூடிய கோப்புகளை மேசைத்தளத்தில் தானாக உருவாக்கப்படும் சிறுபடச் சின்னங்களாகக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்."
+
+msgid "Show \"Delete\" option in file context menu"
+msgstr "கோப்புச் சூழல் பட்டியலில் \"நீக்கு\" விருப்பத்தைக் காட்டு"
+
+msgid "_Arrange folders before files"
+msgstr "கோப்புகளுக்கு முன் கோப்புறைகளை அடுக்கு (_A)"
+
 msgid "General"
 msgstr "பொது"
+
+msgid "Default Icons"
+msgstr "இயல்புநிலைச் சின்னங்கள்"
+
+msgid "_File/Launcher Icons"
+msgstr "கோப்பு/தொடக்கிச் சின்னங்கள் (_F)"
+
+msgid "_Keyboard Shortcuts"
+msgstr "விசைப்பலகைக் குறுக்குவழிகள் (_K)"
 
 msgid "_Applications"
 msgstr "செயலிகள் (_A)"
 
 msgid "Window List"
 msgstr "சாளரப் பட்டியல்"
+
+msgid "Rename Error"
+msgstr "பெயர்மாற்றப் பிழை"
+
+msgid "The files could not be renamed"
+msgstr "கோப்புகளைப் பெயர்மாற்ற முடியவில்லை"
+
+msgid "None of the icons selected support being renamed."
+msgstr "தேர்ந்தெடுத்த சின்னங்கள் எதையும் பெயர்மாற்ற முடியாது."
+
+msgid "_Open With \"%s\""
+msgstr "\"%s\" உடன் திற (_O)"
+
+msgid "Open With \"%s\""
+msgstr "\"%s\" உடன் திற"
+
+msgid "Unable to launch \"exo-desktop-item-edit\", which is required to create and edit launchers and links on the desktop."
+msgstr "\"exo-desktop-item-edit\"-ஐத் தொடங்க முடியவில்லை; மேசைத்தளத்தில் தொடக்கிகளையும் இணைப்புகளையும் உருவாக்கவும் திருத்தவும் அது தேவை."
+
+msgid "Would you like to assign an existing desktop icon layout to monitor <b>%s</b>?"
+msgstr "ஏற்கெனவே உள்ள மேசைத்தளச் சின்ன அமைப்பை <b>%s</b> திரைக்கு ஒதுக்க வேண்டுமா?"
+
+msgid "Monitors"
+msgstr "திரைகள்"
+
+msgid "_Open all"
+msgstr "அனைத்தையும் திற (_O)"
 
 msgid "Create _Launcher..."
 msgstr "தொடக்கி உருவாக்கு (_L)..."
@@ -124,11 +541,17 @@ msgstr "அனைத்தையும் திற (_O)"
 msgid "_Execute"
 msgstr "இயக்கு (_E)"
 
+msgid "Edit _Launcher"
+msgstr "தொடக்கியைத் திருத்து (_L)"
+
 msgid "Ope_n With"
 msgstr "இதனுடன் திற (_N)"
 
 msgid "Ope_n With Other Application..."
 msgstr "வேறு செயலியுடன் திற (_N)..."
+
+msgid "Set Defa_ult Application..."
+msgstr "இயல்புநிலைச் செயலியாக அமை (_U)..."
 
 msgid "Paste Into Folder"
 msgstr "கோப்புறைக்குள் ஒட்டு"
@@ -151,29 +574,242 @@ msgstr "மேசைத்தள அமைப்புகள் (_S)..."
 msgid "_Properties..."
 msgstr "பண்புகள் (_P)..."
 
+msgid "Failed to save dropped file to '%s'"
+msgstr "இழுத்துவிட்ட கோப்பை '%s'-இல் சேமிக்க முடியவில்லை"
+
+msgid "Drop Failure"
+msgstr "இழுத்துவிடுதல் தோல்வி"
+
 msgid "_OK"
 msgstr "சரி (_O)"
+
+msgid "Copy _Here"
+msgstr "இங்கே நகலெடு (_H)"
+
+msgid "_Move Here"
+msgstr "இங்கே நகர்த்து (_M)"
+
+msgid "_Link Here"
+msgstr "இங்கே இணைப்பு உருவாக்கு (_L)"
 
 msgid "_Cancel"
 msgstr "ரத்துசெய் (_C)"
 
+msgid "Could not create the desktop folder \"%s\""
+msgstr "மேசைத்தளக் கோப்புறை \"%s\"-ஐ உருவாக்க முடியவில்லை"
+
+msgid "Failed to load the desktop folder"
+msgstr "மேசைத்தளக் கோப்புறையை ஏற்ற முடியவில்லை"
+
+msgid "A desktop file icon error occurred"
+msgstr "மேசைத்தளக் கோப்புச் சின்னத்தில் பிழை ஏற்பட்டது"
+
+msgid "Desktop Folder Error"
+msgstr "மேசைத்தளக் கோப்புறைப் பிழை"
+
+msgid "A normal file with the same name already exists. Please delete or rename it."
+msgstr "அதே பெயரில் ஒரு சாதாரணக் கோப்பு ஏற்கெனவே உள்ளது. அதை நீக்குங்கள் அல்லது பெயர்மாற்றுங்கள்."
+
+msgid "Today at %X"
+msgstr "இன்று %X மணிக்கு"
+
+msgid "Yesterday at %X"
+msgstr "நேற்று %X மணிக்கு"
+
+msgid "%A at %X"
+msgstr "%A %X மணிக்கு"
+
+msgid "%x at %X"
+msgstr "%x %X மணிக்கு"
+
 msgid "Unknown"
 msgstr "தெரியவில்லை"
+
+msgid "The folder could not be opened"
+msgstr "கோப்புறையைத் திறக்க முடியவில்லை"
 
 msgid "Error"
 msgstr "பிழை"
 
+msgid "The requested operation could not be completed"
+msgstr "கோரிய செயல்பாட்டை முடிக்க முடியவில்லை"
+
+msgid "The file could not be renamed"
+msgstr "கோப்பைப் பெயர்மாற்ற முடியவில்லை"
+
+msgid "This feature requires a file manager service to be present (such as the one supplied by Thunar)."
+msgstr "இந்த வசதிக்குக் கோப்பு மேலாளர் சேவை (Thunar வழங்குவது போன்றது) இருக்க வேண்டும்."
+
+msgid "Delete Error"
+msgstr "நீக்கல் பிழை"
+
+msgid "The selected files could not be deleted"
+msgstr "தேர்ந்தெடுத்த கோப்புகளை நீக்க முடியவில்லை"
+
+msgid "Trash Error"
+msgstr "குப்பைத் தொட்டிப் பிழை"
+
+msgid "The selected files could not be moved to the trash"
+msgstr "தேர்ந்தெடுத்த கோப்புகளைக் குப்பைத் தொட்டிக்கு நகர்த்த முடியவில்லை"
+
+msgid "This feature requires a trash service to be present (such as the one supplied by Thunar)."
+msgstr "இந்த வசதிக்குக் குப்பைத் தொட்டிச் சேவை (Thunar வழங்குவது போன்றது) இருக்க வேண்டும்."
+
+msgid "Could not empty the trash"
+msgstr "குப்பைத் தொட்டியைக் காலியாக்க முடியவில்லை"
+
+msgid "Unable to create new file \"%1$s\" from template file \"%2$s\": %3$s"
+msgstr "\"%2$s\" வார்ப்புருக் கோப்பிலிருந்து \"%1$s\" என்ற புதிய கோப்பை உருவாக்க முடியவில்லை: %3$s"
+
+msgid "Create File Error"
+msgstr "கோப்பு உருவாக்கப் பிழை"
+
+msgid "Could not create a new file"
+msgstr "புதிய கோப்பை உருவாக்க முடியவில்லை"
+
 msgid "New Empty File"
 msgstr "புதிய வெற்றுக் கோப்பு"
+
+msgid "Unable to create new folder \"%1$s\": %2$s"
+msgstr "\"%1$s\" என்ற புதிய கோப்புறையை உருவாக்க முடியவில்லை: %2$s"
+
+msgid "Could not create a new folder"
+msgstr "புதிய கோப்புறையை உருவாக்க முடியவில்லை"
 
 msgid "C_reate"
 msgstr "உருவாக்கு (_R)"
 
+msgid "Cannot convert filename \"%s\" to the local encoding"
+msgstr "\"%s\" என்ற கோப்புப் பெயரை உள்ளூர் குறியாக்கத்துக்கு மாற்ற முடியவில்லை"
+
+msgid "Create Document from template \"%s\""
+msgstr "\"%s\" வார்ப்புருவிலிருந்து ஆவணம் உருவாக்கு"
+
+msgid "Enter the name:"
+msgstr "பெயரை உள்ளிடுங்கள்:"
+
 msgid "New Folder"
 msgstr "புதிய கோப்புறை"
+
+msgid "Create New Folder"
+msgstr "புதிய கோப்புறையை உருவாக்கு"
+
+msgid "File Properties Error"
+msgstr "கோப்புப் பண்புகள் பிழை"
+
+msgid "The file properties dialog could not be opened"
+msgstr "கோப்புப் பண்புகள் உரையாடலைத் திறக்க முடியவில்லை"
+
+msgid "The file could not be opened"
+msgstr "கோப்பைத் திறக்க முடியவில்லை"
+
+msgid "Failed to run \"%s\""
+msgstr "\"%s\"-ஐ இயக்க முடியவில்லை"
+
+msgid "The application chooser could not be opened"
+msgstr "செயலித் தேர்வியைத் திறக்க முடியவில்லை"
+
+msgid "Transfer Error"
+msgstr "இடமாற்றப் பிழை"
+
+msgid "The file transfer could not be performed"
+msgstr "கோப்பு இடமாற்றத்தைச் செய்ய முடியவில்லை"
 
 msgid "Arrange Icons"
 msgstr "சின்னங்களை அடுக்கு"
 
+msgid "This will reorder all desktop items and place them on different screen positions.\nAre you sure?"
+msgstr "இது அனைத்து மேசைத்தள உருப்படிகளையும் மறுவரிசைப்படுத்தி, திரையில் வேறு இடங்களில் வைக்கும்.\nஉறுதியாகத் தொடர வேண்டுமா?"
+
+msgid "Do _not ask me again"
+msgstr "மீண்டும் கேட்காதே (_N)"
+
+msgid "Unmounting device"
+msgstr "சாதனம் இறக்கப்படுகிறது"
+
+msgid "The device \"%s\" is being unmounted by the system. Please do not remove the media or disconnect the drive"
+msgstr "\"%s\" சாதனத்தை அமைப்பு இறக்கிக்கொண்டிருக்கிறது. ஊடகத்தை அகற்றவோ இயக்ககத்தைத் துண்டிக்கவோ வேண்டாம்"
+
+msgid "Writing data to device"
+msgstr "சாதனத்தில் தரவு எழுதப்படுகிறது"
+
+msgid "There is data that needs to be written to the device \"%s\" before it can be removed. Please do not remove the media or disconnect the drive"
+msgstr "\"%s\" சாதனத்தை அகற்றும் முன் அதில் எழுத வேண்டிய தரவு உள்ளது. ஊடகத்தை அகற்றவோ இயக்ககத்தைத் துண்டிக்கவோ வேண்டாம்"
+
+msgid "Unmount Finished"
+msgstr "இறக்கம் முடிந்தது"
+
+msgid "The device \"%s\" has been safely removed from the system. "
+msgstr "\"%s\" சாதனம் அமைப்பிலிருந்து பாதுகாப்பாக அகற்றப்பட்டது."
+
+msgid "Ejecting device"
+msgstr "சாதனம் வெளியேற்றப்படுகிறது"
+
+msgid "The device \"%s\" is being ejected. This may take some time"
+msgstr "\"%s\" சாதனம் வெளியேற்றப்படுகிறது. இதற்குச் சிறிது நேரம் ஆகலாம்"
+
+msgid "Eject Finished"
+msgstr "வெளியேற்றம் முடிந்தது"
+
+msgid "Name: %s\nType: %s\nSize: %s\nLast modified: %s"
+msgstr "பெயர்: %s\nவகை: %s\nஅளவு: %s\nகடைசியாக மாற்றியது: %s"
+
 msgid "Trash is empty"
 msgstr "குப்பைத் தொட்டி காலியாக உள்ளது"
+
+msgid "Trash contains one item"
+msgstr "குப்பைத் தொட்டியில் ஓர் உருப்படி உள்ளது"
+
+msgid "Trash contains %d items"
+msgstr "குப்பைத் தொட்டியில் %d உருப்படிகள் உள்ளன"
+
+msgid "%s\nSize: %s\nLast modified: %s"
+msgstr "%s\nஅளவு: %s\nகடைசியாக மாற்றியது: %s"
+
+msgid "(not mounted)"
+msgstr "(ஏற்றப்படவில்லை)"
+
+msgid "(unknown)"
+msgstr "(தெரியவில்லை)"
+
+msgid "Name: %s\nType: %s\nMounted at: %s\nSize: %s\nFree Space: %s"
+msgstr "பெயர்: %s\nவகை: %s\nஏற்றிய இடம்: %s\nஅளவு: %s\nகாலி இடம்: %s"
+
+msgid "Removable Volume"
+msgstr "நீக்கக்கூடிய தொகுதி"
+
+msgid "Failed to eject \"%s\""
+msgstr "\"%s\"-ஐ வெளியேற்ற முடியவில்லை"
+
+msgid "Eject Failed"
+msgstr "வெளியேற்றம் தோல்வி"
+
+msgid "Failed to mount \"%s\""
+msgstr "\"%s\"-ஐ ஏற்ற முடியவில்லை"
+
+msgid "Mount Failed"
+msgstr "ஏற்றம் தோல்வி"
+
+msgid "Safely _Remove Volume"
+msgstr "தொகுதியைப் பாதுகாப்பாக அகற்று (_R)"
+
+msgid "_Disconnect Volume"
+msgstr "தொகுதியைத் துண்டி (_D)"
+
+msgid "Stop the _Multi-Disk Drive"
+msgstr "பல்வட்டு இயக்ககத்தை நிறுத்து (_M)"
+
+msgid "_Lock Volume"
+msgstr "தொகுதியைப் பூட்டு (_L)"
+
+msgid "_Eject Volume"
+msgstr "தொகுதியை வெளியேற்று (_E)"
+
+msgid "_Unmount Volume"
+msgstr "தொகுதியை இறக்கு (_U)"
+
+msgid "_Mount Volume"
+msgstr "தொகுதியை ஏற்று (_M)"
+
+msgid "_Run Program..."
+msgstr "நிரலை இயக்கு (_R)..."

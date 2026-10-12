@@ -1,0 +1,29 @@
+xfce;session;desktop;environment;window manager;gui;
+xfce;wayland;desktop;environment;session;
+Settings manager socket
+SOCKET ID
+Version information
+Type '%s --help' for usage.
+Please report bugs to <%s>.
+PID
+Disable binding to TCP ports
+Print version information and exit
+Can only terminate clients when in the idle state
+Session manager must be in idle state when requesting a checkpoint
+Session manager must be in idle state when requesting a shutdown
+Session manager must be in idle state when requesting a restart
+Session manager must be in idle state when requesting a sleep
+Session manager must be in idle state when requesting a user switch
+Unknown shutdown method %d
+Log out without displaying the logout dialog
+Halt without displaying the logout dialog
+Reboot without displaying the logout dialog
+Suspend without displaying the logout dialog
+Hibernate without displaying the logout dialog
+Hybrid Sleep without displaying the logout dialog
+Switch user without displaying the logout dialog
+Log out quickly; don't save the session
+Written by Benedikt Meurer <benny@xfce.org>
+and Brian Tarricone <kelnos@xfce.org>.
+logout;exit;quit;shutdown;
+session;settings;preferences;manager;startup;login;logout;shutdown;lock screen;application;autostart;launch;services;daemon;agent;

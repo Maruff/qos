@@ -1,0 +1,72 @@
+# qos Desktop in Tamil: helper applications (exo).
+# Preferred applications, the desktop-item editor and helper dialogs.
+Failed to open file \"%s\": %s	\"%s\" கோப்பைத் திறக்க முடியவில்லை: %s
+Failed to read file \"%s\": %s	\"%s\" கோப்பைப் படிக்க முடியவில்லை: %s
+Failed to load image \"%s\": Unknown reason, probably a corrupt image file	\"%s\" படத்தை ஏற்ற முடியவில்லை: காரணம் தெரியவில்லை; படக் கோப்பு சிதைந்திருக்கலாம்
+Failed to open \"%s\".	\"%s\"-ஐத் திறக்க முடியவில்லை.
+Action Icons	செயல் சின்னங்கள்
+Animations	அசைவூட்டங்கள்
+Application Icons	செயலிச் சின்னங்கள்
+Menu Icons	பட்டியல் சின்னங்கள்
+Device Icons	சாதனச் சின்னங்கள்
+Emblems	அடையாளச் சின்னங்கள்
+Emoticons	உணர்வுக்குறிகள்
+File Type Icons	கோப்பு வகைச் சின்னங்கள்
+Location Icons	இருப்பிடச் சின்னங்கள்
+Status Icons	நிலைச் சின்னங்கள்
+Stock Icons	இருப்புச் சின்னங்கள்
+Uncategorized Icons	வகைப்படுத்தாத சின்னங்கள்
+All Icons	அனைத்துச் சின்னங்களும்
+Image Files	படக் கோப்புகள்
+No Icon	சின்னம் இல்லை
+Select icon from:	சின்னத்தைத் தேர்ந்தெடுக்க வேண்டிய இடம்:
+Search icon:	சின்னத்தைத் தேடு:
+Clear search field	தேடல் புலத்தை அழி
+Preview	முன்தோற்றம்
+No file selected	கோப்பு எதுவும் தேர்ந்தெடுக்கப்படவில்லை
+Block Device	தொகுப்புச் சாதனம்
+Character Device	எழுத்துச் சாதனம்
+Folder	கோப்புறை
+Socket	சாக்கெட்
+Select an Application	ஒரு செயலியைத் தேர்ந்தெடு
+All Files	அனைத்துக் கோப்புகளும்
+Executable Files	இயக்கக்கூடிய கோப்புகள்
+Perl Scripts	Perl நிரல்கள்
+Python Scripts	Python நிரல்கள்
+Ruby Scripts	Ruby நிரல்கள்
+Shell Scripts	Shell நிரல்கள்
+Create Launcher <b>%s</b>	<b>%s</b> தொடக்கியை உருவாக்கு
+Name:	பெயர்:
+Comment:	குறிப்பு:
+Command:	கட்டளை:
+URL:	URL:
+Working Directory:	பணி அடைவு:
+Icon:	சின்னம்:
+No icon	சின்னம் இல்லை
+Options:	விருப்பங்கள்:
+Use startup notification	தொடக்க அறிவிப்பைப் பயன்படுத்து
+Select this option to enable startup notification when the command is run from the file manager or the menu. Not every application supports startup notification.	கோப்பு மேலாளரிலிருந்தோ பட்டியலிலிருந்தோ கட்டளை இயக்கப்படும்போது தொடக்க அறிவிப்பை இயக்க இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள். எல்லாச் செயலிகளும் தொடக்க அறிவிப்பை ஆதரிப்பதில்லை.
+Run in terminal	முனையத்தில் இயக்கு
+Select this option to run the command in a terminal window.	கட்டளையை முனையச் சாளரத்தில் இயக்க இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்.
+Select an icon	ஒரு சின்னத்தைத் தேர்ந்தெடு
+Select a working directory	ஒரு பணி அடைவைத் தேர்ந்தெடு
+File location is not a regular file or directory	கோப்பு இருப்பிடம் வழக்கமான கோப்போ அடைவோ அல்ல
+Create Link	இணைப்பு உருவாக்கு
+Create Directory	அடைவு உருவாக்கு
+Edit Launcher	தொடக்கியைத் திருத்து
+Edit Link	இணைப்பைத் திருத்து
+Edit Directory	அடைவைத் திருத்து
+Failed to open display	காட்சித்திரையைத் திறக்க முடியவில்லை
+No file/folder specified	கோப்போ கோப்புறையோ குறிப்பிடப்படவில்லை
+Failed to load contents from \"%s\": %s	\"%s\"-இலிருந்து உள்ளடக்கத்தை ஏற்ற முடியவில்லை: %s
+The file \"%s\" contains no data	\"%s\" கோப்பில் தரவு எதுவும் இல்லை
+Failed to parse contents of \"%s\": %s	\"%s\"-இன் உள்ளடக்கத்தைப் பகுக்க முடியவில்லை: %s
+File \"%s\" has no type key	\"%s\" கோப்பில் வகை விசை இல்லை
+Unsupported desktop file type \"%s\"	ஆதரிக்கப்படாத மேசைத்தளக் கோப்பு வகை \"%s\"
+Choose filename	கோப்புப் பெயரைத் தேர்ந்தெடு
+Failed to create \"%s\".	\"%s\"-ஐ உருவாக்க முடியவில்லை.
+Failed to save \"%s\".	\"%s\"-ஐச் சேமிக்க முடியவில்லை.
+Launching desktop files is not supported when %s is compiled without GIO-Unix features.	%s GIO-Unix வசதிகள் இல்லாமல் தொகுக்கப்பட்டிருக்கும்போது மேசைத்தளக் கோப்புகளைத் தொடங்க இயலாது.
+Failed to launch preferred application for category \"%s\".	\"%s\" வகைக்கான விருப்பச் செயலியைத் தொடங்க முடியவில்லை.
+Unable to detect the URI-scheme of \"%s\".	\"%s\"-இன் URI திட்டத்தைக் கண்டறிய முடியவில்லை.
+Failed to open URI.	URI-ஐத் திறக்க முடியவில்லை.

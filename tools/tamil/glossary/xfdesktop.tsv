@@ -1,0 +1,209 @@
+# qos Desktop in Tamil: the desktop (xfdesktop).
+# Desktop icons, menus, wallpaper and the Desktop settings dialog.
+Activate Primary Menu	முதன்மைப் பட்டியலைத் திற
+Activate Secondary Menu	இரண்டாம் பட்டியலைத் திற
+Cycle Next Background	அடுத்த பின்னணிக்கு மாறு
+Activate Icon	சின்னத்தைச் செயல்படுத்து
+Toggle Cursor Icon	சுட்டி இருக்கும் சின்னத்தைத் தேர்ந்தெடு அல்லது நீக்கு
+Unselect All	அனைத்துத் தேர்வையும் நீக்கு
+Unminimize Window	சாளரத்தைச் சிறிதாக்கலிலிருந்து மீட்டமை
+Open Filesystem	கோப்பு முறைமையைத் திற
+Open Home	இல்லத்தைத் திற
+Open Trash	குப்பைத் தொட்டியைத் திற
+Unable to contact settings server	அமைப்புகள் சேவையகத்தைத் தொடர்புகொள்ள முடியவில்லை
+Set desktop background and menu and icon behavior	மேசைத்தளப் பின்னணி, பட்டியல், சின்னங்களின் நடத்தை ஆகியவற்றை அமை
+Choose the folder to select wallpapers from.	பின்னணிப் படங்களைத் தேர்ந்தெடுக்க வேண்டிய கோப்புறையைத் தேர்வுசெய்.
+<b>%s</b>\nType: %s\nSize: %s	<b>%s</b>\nவகை: %s\nஅளவு: %s
+Unable to load images from folder \"%s\"	\"%s\" கோப்புறையிலிருந்து படங்களை ஏற்ற முடியவில்லை
+Wallpaper for Monitor %d (%s)	திரை %d (%s)-க்கான பின்னணி
+Wallpaper for Monitor %d	திரை %d-க்கான பின்னணி
+Move this dialog to the display you want to edit the settings for.	அமைப்புகளைத் திருத்த வேண்டிய திரைக்கு இந்த உரையாடலை நகர்த்துங்கள்.
+Wallpaper for %s on Monitor %d (%s)	திரை %d-இல் %s-க்கான பின்னணி (%s)
+Wallpaper for %s on Monitor %d	திரை %d-இல் %s-க்கான பின்னணி
+Move this dialog to the display and workspace you want to edit the settings for.	அமைப்புகளைத் திருத்த வேண்டிய திரைக்கும் பணியிடத்துக்கும் இந்த உரையாடலை நகர்த்துங்கள்.
+Wallpaper for %s	%s-க்கான பின்னணி
+Move this dialog to the workspace you want to edit the settings for.	அமைப்புகளைத் திருத்த வேண்டிய பணியிடத்துக்கு இந்த உரையாடலை நகர்த்துங்கள்.
+Image selection is unavailable while the image style is set to None.	படப் பாணி \"ஏதுமில்லை\" என அமைந்திருக்கும்போது படத்தைத் தேர்ந்தெடுக்க முடியாது.
+Spanning screens	திரைகள் முழுவதும் பரவியது
+Image files	படக் கோப்புகள்
+Select a Directory	ஒரு அடைவைத் தேர்ந்தெடு
+Network Shares	வலையமைப்புப் பகிர்வுகள்
+Fixed Disks and Drives	நிலையான வட்டுகள்
+Other Devices	பிற சாதனங்கள்
+Would you like to arrange all existing\nicons according to the selected orientation?	ஏற்கெனவே உள்ள அனைத்துச் சின்னங்களையும்\nதேர்ந்தெடுத்த திசையமைவின்படி அடுக்க வேண்டுமா?
+Arrange icons	சின்னங்களை அடுக்கு
+Unable to launch \"%s\":	\"%s\"-ஐத் தொடங்க முடியவில்லை:
+Launch Error	தொடக்கப் பிழை
+Icons	சின்னங்கள்
+Window Icons	சாளரச் சின்னங்கள்
+File Icons	கோப்புச் சின்னங்கள்
+Solid color	ஒற்றை நிறம்
+Horizontal gradient	கிடைமட்ட நிறச்சரிவு
+Vertical gradient	செங்குத்து நிறச்சரிவு
+Transparent	ஒளிபுகும்
+Style:	பாணி:
+Specify how the image will be resized to fit the screen.	திரைக்குப் பொருந்தப் படம் எவ்வாறு அளவுமாற்றப்பட வேண்டும் எனக் குறிப்பிடுங்கள்.
+Centered	நடுவில்
+Tiled	ஓடுகளாக
+Stretched	நீட்டியது
+Scaled	அளவிட்டது
+Zoomed	பெரிதாக்கியது
+Spanning Screens	திரைகள் முழுவதும் பரவியது
+Specify the style of the color drawn behind the backdrop image.	பின்னணிப் படத்துக்குப் பின்னால் வரையப்படும் நிறத்தின் பாணியைக் குறிப்பிடுங்கள்.
+Specifies the solid color, or the \"left\" or \"top\" color of the gradient.	ஒற்றை நிறத்தை, அல்லது நிறச்சரிவின் \"இடது\" அல்லது \"மேல்\" நிறத்தைக் குறிப்பிடுகிறது.
+Select First Color	முதல் நிறத்தைத் தேர்ந்தெடு
+Specifies the \"right\" or \"bottom\" color of the gradient.	நிறச்சரிவின் \"வலது\" அல்லது \"கீழ்\" நிறத்தைக் குறிப்பிடுகிறது.
+Select Second Color	இரண்டாம் நிறத்தைத் தேர்ந்தெடு
+Apply to all workspaces	அனைத்துப் பணியிடங்களுக்கும் செயல்படுத்து
+Folder:	கோப்புறை:
+Color:	நிறம்:
+Change the background 	பின்னணியை மாற்று
+Automatically select a different background from the current directory.	தற்போதைய அடைவிலிருந்து வேறொரு பின்னணியைத் தானாகத் தேர்ந்தெடு.
+Specify how often the background will change.	பின்னணி எத்தனை முறை மாற வேண்டும் எனக் குறிப்பிடுங்கள்.
+in seconds:	வினாடிகளில்:
+in minutes:	நிமிடங்களில்:
+in hours:	மணிநேரங்களில்:
+at start up	தொடக்கத்தில்
+every hour	ஒவ்வொரு மணிநேரமும்
+every day	ஒவ்வொரு நாளும்
+chronologically	காலவரிசைப்படி
+Amount of time before a different background is selected.	வேறொரு பின்னணி தேர்ந்தெடுக்கப்படுவதற்கு முன் உள்ள நேர அளவு.
+Random Order	சீரற்ற வரிசை
+Randomly selects another image from the same directory when the wallpaper is to cycle.	பின்னணி மாற வேண்டிய நேரத்தில் அதே அடைவிலிருந்து வேறொரு படத்தைச் சீரற்ற முறையில் தேர்ந்தெடுக்கிறது.
+Left	இடது
+Middle	நடு
+Right	வலது
+Shift	Shift
+Alt	Alt
+Control	Control
+Minimized application icons	சிறிதாக்கிய செயலிச் சின்னங்கள்
+File/launcher icons	கோப்பு/தொடக்கிச் சின்னங்கள்
+Top Left Vertical	மேல் இடது, செங்குத்தாக
+Top Left Horizontal	மேல் இடது, கிடைமட்டமாக
+Top Right Vertical	மேல் வலது, செங்குத்தாக
+Top Right Horizontal	மேல் வலது, கிடைமட்டமாக
+Bottom Left Vertical	கீழ் இடது, செங்குத்தாக
+Bottom Left Horizontal	கீழ் இடது, கிடைமட்டமாக
+Bottom Right Vertical	கீழ் வலது, செங்குத்தாக
+Bottom Right Horizontal	கீழ் வலது, கிடைமட்டமாக
+Background	பின்னணி
+Include applications menu on desktop right click	மேசைத்தளத்தில் வலது சொடுக்கும்போது செயலிகள் பட்டியலையும் சேர்
+Button:	பொத்தான்:
+Modifier:	மாற்றி விசை:
+Show application icons in menu	பட்டியலில் செயலிச் சின்னங்களைக் காட்டு
+Edit desktop menu	மேசைத்தளப் பட்டியலைத் திருத்து
+<b>Desktop Menu</b>	<b>மேசைத்தளப் பட்டியல்</b>
+Show window list menu on desktop middle click	மேசைத்தளத்தில் நடுச் சொடுக்கும்போது சாளரப் பட்டியலைக் காட்டு
+List windows on all workspaces	அனைத்துப் பணியிடங்களிலும் உள்ள சாளரங்களைப் பட்டியலிடு
+Show workspace names in list	பட்டியலில் பணியிடப் பெயர்களைக் காட்டு
+Use submenus for the windows in each workspace	ஒவ்வொரு பணியிடத்தின் சாளரங்களுக்கும் துணைப்பட்டியல்களைப் பயன்படுத்து
+Show sticky windows only in active workspace	ஒட்டிய சாளரங்களை இயங்கும் பணியிடத்தில் மட்டும் காட்டு
+Show a section listing all urgent windows on other workspaces	பிற பணியிடங்களில் உள்ள அவசரச் சாளரங்கள் அனைத்தையும் பட்டியலிடும் பகுதியைக் காட்டு
+Show add and remove workspace options in list	பணியிடத்தைச் சேர்க்கும், அகற்றும் விருப்பங்களைப் பட்டியலில் காட்டு
+<b>Window List Menu</b>	<b>சாளரப் பட்டியல் பட்டியல்</b>
+Menus	பட்டியல்கள்
+Icon type:	சின்ன வகை:
+Icon size:	சின்ன அளவு:
+Font size:	எழுத்துரு அளவு:
+Show icon tooltips. Size:	சின்னக் குறிப்புரைகளைக் காட்டு. அளவு:
+Size of the tooltip preview image.	குறிப்புரை முன்தோற்றப் படத்தின் அளவு.
+Font color:	எழுத்துரு நிறம்:
+Label background color:	பெயர்ச்சீட்டுப் பின்னணி நிறம்:
+<b>Appearance</b>	<b>தோற்றம்</b>
+Placement direction:	அடுக்கும் திசை:
+Show icons only on primary display	முதன்மைத் திரையில் மட்டும் சின்னங்களைக் காட்டு
+Single click to activate items	உருப்படிகளைச் செயல்படுத்த ஒற்றைச் சொடுக்கு
+Underline text on hover	சுட்டி மேலே வரும்போது உரைக்கு அடிக்கோடிடு
+Show confirmation dialog before arranging icons	சின்னங்களை அடுக்கும் முன் உறுதிப்படுத்தும் உரையாடலைக் காட்டு
+Behavior	நடத்தை
+Desktop Icons	மேசைத்தளச் சின்னங்கள்
+File/Launcher icons are not enabled. You can enable them from the \"Desktop Icons\" tab.	கோப்பு/தொடக்கிச் சின்னங்கள் இயக்கப்படவில்லை. அவற்றை \"மேசைத்தளச் சின்னங்கள்\" தாவலில் இயக்கலாம்.
+Show hidden files on the desktop	மேசைத்தளத்தில் மறைந்த கோப்புகளைக் காட்டு
+Show thumbnails	சிறுபடங்களைக் காட்டு
+Select this option to display preview-able files on the desktop as automatically generated thumbnail icons.	முன்தோற்றம் காட்டக்கூடிய கோப்புகளை மேசைத்தளத்தில் தானாக உருவாக்கப்படும் சிறுபடச் சின்னங்களாகக் காட்ட இந்த விருப்பத்தைத் தேர்ந்தெடுங்கள்.
+Show \"Delete\" option in file context menu	கோப்புச் சூழல் பட்டியலில் \"நீக்கு\" விருப்பத்தைக் காட்டு
+Arrange folders before files	கோப்புகளுக்கு முன் கோப்புறைகளை அடுக்கு
+Default Icons	இயல்புநிலைச் சின்னங்கள்
+File/Launcher Icons	கோப்பு/தொடக்கிச் சின்னங்கள்
+Keyboard Shortcuts	விசைப்பலகைக் குறுக்குவழிகள்
+Rename Error	பெயர்மாற்றப் பிழை
+The files could not be renamed	கோப்புகளைப் பெயர்மாற்ற முடியவில்லை
+None of the icons selected support being renamed.	தேர்ந்தெடுத்த சின்னங்கள் எதையும் பெயர்மாற்ற முடியாது.
+Open With \"%s\"	\"%s\" உடன் திற
+Unable to launch \"exo-desktop-item-edit\", which is required to create and edit launchers and links on the desktop.	\"exo-desktop-item-edit\"-ஐத் தொடங்க முடியவில்லை; மேசைத்தளத்தில் தொடக்கிகளையும் இணைப்புகளையும் உருவாக்கவும் திருத்தவும் அது தேவை.
+Would you like to assign an existing desktop icon layout to monitor <b>%s</b>?	ஏற்கெனவே உள்ள மேசைத்தளச் சின்ன அமைப்பை <b>%s</b> திரைக்கு ஒதுக்க வேண்டுமா?
+Monitors	திரைகள்
+Open all	அனைத்தையும் திற
+Edit Launcher	தொடக்கியைத் திருத்து
+Set Default Application	இயல்புநிலைச் செயலியாக அமை
+Failed to save dropped file to '%s'	இழுத்துவிட்ட கோப்பை '%s'-இல் சேமிக்க முடியவில்லை
+Drop Failure	இழுத்துவிடுதல் தோல்வி
+Copy Here	இங்கே நகலெடு
+Move Here	இங்கே நகர்த்து
+Link Here	இங்கே இணைப்பு உருவாக்கு
+Could not create the desktop folder \"%s\"	மேசைத்தளக் கோப்புறை \"%s\"-ஐ உருவாக்க முடியவில்லை
+Failed to load the desktop folder	மேசைத்தளக் கோப்புறையை ஏற்ற முடியவில்லை
+A desktop file icon error occurred	மேசைத்தளக் கோப்புச் சின்னத்தில் பிழை ஏற்பட்டது
+Desktop Folder Error	மேசைத்தளக் கோப்புறைப் பிழை
+A normal file with the same name already exists. Please delete or rename it.	அதே பெயரில் ஒரு சாதாரணக் கோப்பு ஏற்கெனவே உள்ளது. அதை நீக்குங்கள் அல்லது பெயர்மாற்றுங்கள்.
+Today at %X	இன்று %X மணிக்கு
+Yesterday at %X	நேற்று %X மணிக்கு
+%A at %X	%A %X மணிக்கு
+%x at %X	%x %X மணிக்கு
+The folder could not be opened	கோப்புறையைத் திறக்க முடியவில்லை
+The requested operation could not be completed	கோரிய செயல்பாட்டை முடிக்க முடியவில்லை
+The file could not be renamed	கோப்பைப் பெயர்மாற்ற முடியவில்லை
+This feature requires a file manager service to be present (such as the one supplied by Thunar).	இந்த வசதிக்குக் கோப்பு மேலாளர் சேவை (Thunar வழங்குவது போன்றது) இருக்க வேண்டும்.
+Delete Error	நீக்கல் பிழை
+The selected files could not be deleted	தேர்ந்தெடுத்த கோப்புகளை நீக்க முடியவில்லை
+Trash Error	குப்பைத் தொட்டிப் பிழை
+The selected files could not be moved to the trash	தேர்ந்தெடுத்த கோப்புகளைக் குப்பைத் தொட்டிக்கு நகர்த்த முடியவில்லை
+This feature requires a trash service to be present (such as the one supplied by Thunar).	இந்த வசதிக்குக் குப்பைத் தொட்டிச் சேவை (Thunar வழங்குவது போன்றது) இருக்க வேண்டும்.
+Could not empty the trash	குப்பைத் தொட்டியைக் காலியாக்க முடியவில்லை
+Unable to create new file \"%1$s\" from template file \"%2$s\": %3$s	\"%2$s\" வார்ப்புருக் கோப்பிலிருந்து \"%1$s\" என்ற புதிய கோப்பை உருவாக்க முடியவில்லை: %3$s
+Create File Error	கோப்பு உருவாக்கப் பிழை
+Could not create a new file	புதிய கோப்பை உருவாக்க முடியவில்லை
+Unable to create new folder \"%1$s\": %2$s	\"%1$s\" என்ற புதிய கோப்புறையை உருவாக்க முடியவில்லை: %2$s
+Could not create a new folder	புதிய கோப்புறையை உருவாக்க முடியவில்லை
+Cannot convert filename \"%s\" to the local encoding	\"%s\" என்ற கோப்புப் பெயரை உள்ளூர் குறியாக்கத்துக்கு மாற்ற முடியவில்லை
+Create Document from template \"%s\"	\"%s\" வார்ப்புருவிலிருந்து ஆவணம் உருவாக்கு
+Enter the name:	பெயரை உள்ளிடுங்கள்:
+Create New Folder	புதிய கோப்புறையை உருவாக்கு
+File Properties Error	கோப்புப் பண்புகள் பிழை
+The file properties dialog could not be opened	கோப்புப் பண்புகள் உரையாடலைத் திறக்க முடியவில்லை
+The file could not be opened	கோப்பைத் திறக்க முடியவில்லை
+Failed to run \"%s\"	\"%s\"-ஐ இயக்க முடியவில்லை
+The application chooser could not be opened	செயலித் தேர்வியைத் திறக்க முடியவில்லை
+Transfer Error	இடமாற்றப் பிழை
+The file transfer could not be performed	கோப்பு இடமாற்றத்தைச் செய்ய முடியவில்லை
+This will reorder all desktop items and place them on different screen positions.\nAre you sure?	இது அனைத்து மேசைத்தள உருப்படிகளையும் மறுவரிசைப்படுத்தி, திரையில் வேறு இடங்களில் வைக்கும்.\nஉறுதியாகத் தொடர வேண்டுமா?
+Do not ask me again	மீண்டும் கேட்காதே
+Unmounting device	சாதனம் இறக்கப்படுகிறது
+The device \"%s\" is being unmounted by the system. Please do not remove the media or disconnect the drive	\"%s\" சாதனத்தை அமைப்பு இறக்கிக்கொண்டிருக்கிறது. ஊடகத்தை அகற்றவோ இயக்ககத்தைத் துண்டிக்கவோ வேண்டாம்
+Writing data to device	சாதனத்தில் தரவு எழுதப்படுகிறது
+There is data that needs to be written to the device \"%s\" before it can be removed. Please do not remove the media or disconnect the drive	\"%s\" சாதனத்தை அகற்றும் முன் அதில் எழுத வேண்டிய தரவு உள்ளது. ஊடகத்தை அகற்றவோ இயக்ககத்தைத் துண்டிக்கவோ வேண்டாம்
+Unmount Finished	இறக்கம் முடிந்தது
+The device \"%s\" has been safely removed from the system. 	\"%s\" சாதனம் அமைப்பிலிருந்து பாதுகாப்பாக அகற்றப்பட்டது.
+Ejecting device	சாதனம் வெளியேற்றப்படுகிறது
+The device \"%s\" is being ejected. This may take some time	\"%s\" சாதனம் வெளியேற்றப்படுகிறது. இதற்குச் சிறிது நேரம் ஆகலாம்
+Eject Finished	வெளியேற்றம் முடிந்தது
+Name: %s\nType: %s\nSize: %s\nLast modified: %s	பெயர்: %s\nவகை: %s\nஅளவு: %s\nகடைசியாக மாற்றியது: %s
+Trash contains one item	குப்பைத் தொட்டியில் ஓர் உருப்படி உள்ளது
+Trash contains %d items	குப்பைத் தொட்டியில் %d உருப்படிகள் உள்ளன
+%s\nSize: %s\nLast modified: %s	%s\nஅளவு: %s\nகடைசியாக மாற்றியது: %s
+(not mounted)	(ஏற்றப்படவில்லை)
+(unknown)	(தெரியவில்லை)
+Name: %s\nType: %s\nMounted at: %s\nSize: %s\nFree Space: %s	பெயர்: %s\nவகை: %s\nஏற்றிய இடம்: %s\nஅளவு: %s\nகாலி இடம்: %s
+Removable Volume	நீக்கக்கூடிய தொகுதி
+Failed to eject \"%s\"	\"%s\"-ஐ வெளியேற்ற முடியவில்லை
+Eject Failed	வெளியேற்றம் தோல்வி
+Failed to mount \"%s\"	\"%s\"-ஐ ஏற்ற முடியவில்லை
+Mount Failed	ஏற்றம் தோல்வி
+Safely Remove Volume	தொகுதியைப் பாதுகாப்பாக அகற்று
+Disconnect Volume	தொகுதியைத் துண்டி
+Stop the Multi-Disk Drive	பல்வட்டு இயக்ககத்தை நிறுத்து
+Lock Volume	தொகுதியைப் பூட்டு
+Eject Volume	தொகுதியை வெளியேற்று
+Unmount Volume	தொகுதியை இறக்கு
+Mount Volume	தொகுதியை ஏற்று
+Run Program	நிரலை இயக்கு

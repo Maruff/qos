@@ -1,0 +1,555 @@
+# qos Desktop in Tamil: GTK (second half).
+# English<TAB>Tamil, or English<TAB>Tamil-one<TAB>Tamil-many for plural forms.
+LRM Left-to-right mark	LRM இடமிருந்து வலம் குறி
+RLM Right-to-left mark	RLM வலமிருந்து இடம் குறி
+LRE Left-to-right embedding	LRE இடமிருந்து வலம் உட்பொதிவு
+RLE Right-to-left embedding	RLE வலமிருந்து இடம் உட்பொதிவு
+LRO Left-to-right override	LRO இடமிருந்து வலம் மேலெழுதல்
+RLO Right-to-left override	RLO வலமிருந்து இடம் மேலெழுதல்
+PDF Pop directional formatting	PDF திசை வடிவமைப்பை முடி
+ZWS Zero width space	ZWS சுழி அகல இடைவெளி
+ZWJ Zero width joiner	ZWJ சுழி அகல இணைப்பி
+ZWNJ Zero width non-joiner	ZWNJ சுழி அகல இணைப்பிலி
+Adjusts the volume	ஒலியளவைச் சரிசெய்கிறது
+Muted	ஒலியடக்கப்பட்டது
+Full Volume	முழு ஒலியளவு
+Access All Alternates	அனைத்து மாற்று வடிவங்களையும் அணுகு
+Above-base Forms	அடிக்கு மேலான வடிவங்கள்
+Above-base Mark Positioning	அடிக்கு மேலான குறி இடமமைப்பு
+Above-base Substitutions	அடிக்கு மேலான பதிலீடுகள்
+Alternative Fractions	மாற்றுப் பின்னங்கள்
+Akhands	அகண்ட வடிவங்கள்
+Below-base Forms	அடிக்குக் கீழான வடிவங்கள்
+Below-base Mark Positioning	அடிக்குக் கீழான குறி இடமமைப்பு
+Below-base Substitutions	அடிக்குக் கீழான பதிலீடுகள்
+Contextual Alternates	சூழல்சார் மாற்று வடிவங்கள்
+Case-Sensitive Forms	எழுத்துவகை உணர் வடிவங்கள்
+Glyph Composition / Decomposition	வரியுருச் சேர்ப்பு / பிரிப்பு
+Conjunct Form After Ro	Ro-க்குப் பின் கூட்டெழுத்து வடிவம்
+Conjunct Forms	கூட்டெழுத்து வடிவங்கள்
+Contextual Ligatures	சூழல்சார் இணையெழுத்துகள்
+Centered CJK Punctuation	நடுவமைந்த CJK நிறுத்தக்குறிகள்
+Capital Spacing	பேரெழுத்து இடைவெளி
+Contextual Swash	சூழல்சார் அலங்கார வடிவம்
+Cursive Positioning	தொடரெழுத்து இடமமைப்பு
+Petite Capitals From Capitals	பேரெழுத்துகளிலிருந்து நுண் பேரெழுத்துகள்
+Small Capitals From Capitals	பேரெழுத்துகளிலிருந்து சிறு பேரெழுத்துகள்
+Distances	இடைவெளிகள்
+Discretionary Ligatures	விருப்ப இணையெழுத்துகள்
+Denominators	பகுதி எண்கள்
+Dotless Forms	புள்ளியற்ற வடிவங்கள்
+Expert Forms	நிபுணர் வடிவங்கள்
+Final Glyph on Line Alternates	வரியின் இறுதி வரியுரு மாற்றுகள்
+Terminal Forms #2	இறுதி வடிவங்கள் #2
+Terminal Forms #3	இறுதி வடிவங்கள் #3
+Terminal Forms	இறுதி வடிவங்கள்
+Flattened accent forms	தட்டையான ஒலிக்குறி வடிவங்கள்
+Fractions	பின்னங்கள்
+Full Widths	முழு அகலங்கள்
+Half Forms	அரை வடிவங்கள்
+Halant Forms	ஹலந்த் வடிவங்கள்
+Alternate Half Widths	மாற்று அரை அகலங்கள்
+Historical Forms	வரலாற்று வடிவங்கள்
+Horizontal Kana Alternates	கிடைமட்ட Kana மாற்றுகள்
+Historical Ligatures	வரலாற்று இணையெழுத்துகள்
+Hangul	ஹங்குல்
+Hojo Kanji Forms	Hojo Kanji வடிவங்கள்
+Half Widths	அரை அகலங்கள்
+Initial Forms	தொடக்க வடிவங்கள்
+Isolated Forms	தனித்த வடிவங்கள்
+Italics	சாய்வெழுத்துகள்
+Justification Alternates	இருபுற ஒழுங்கமைப்பு மாற்றுகள்
+JIS78 Forms	JIS78 வடிவங்கள்
+JIS83 Forms	JIS83 வடிவங்கள்
+JIS90 Forms	JIS90 வடிவங்கள்
+JIS2004 Forms	JIS2004 வடிவங்கள்
+Kerning	எழுத்திடைச் சீரமைப்பு
+Left Bounds	இடது எல்லைகள்
+Standard Ligatures	நிலையான இணையெழுத்துகள்
+Leading Jamo Forms	தொடக்க Jamo வடிவங்கள்
+Lining Figures	வரிசை எண்ணுருக்கள்
+Localized Forms	உள்ளூர்மயமாக்கிய வடிவங்கள்
+Left-to-right alternates	இடமிருந்து வலம் மாற்றுகள்
+Left-to-right mirrored forms	இடமிருந்து வலம் ஆடிப்பிம்ப வடிவங்கள்
+Mark Positioning	குறி இடமமைப்பு
+Medial Forms #2	இடை வடிவங்கள் #2
+Medial Forms	இடை வடிவங்கள்
+Mathematical Greek	கணித கிரேக்கம்
+Mark to Mark Positioning	குறிக்குக் குறி இடமமைப்பு
+Mark Positioning via Substitution	பதிலீடு மூலம் குறி இடமமைப்பு
+Alternate Annotation Forms	மாற்றுக் குறிப்புரை வடிவங்கள்
+NLC Kanji Forms	NLC Kanji வடிவங்கள்
+Nukta Forms	நுக்தா வடிவங்கள்
+Numerators	தொகுதி எண்கள்
+Oldstyle Figures	பழைய பாணி எண்ணுருக்கள்
+Optical Bounds	ஒளியியல் எல்லைகள்
+Ordinals	வரிசை எண்கள்
+Ornaments	அலங்காரங்கள்
+Proportional Alternate Widths	விகிதசம மாற்று அகலங்கள்
+Petite Capitals	நுண் பேரெழுத்துகள்
+Proportional Kana	விகிதசம Kana
+Proportional Figures	விகிதசம எண்ணுருக்கள்
+Pre-Base Forms	அடிக்கு முந்தைய வடிவங்கள்
+Pre-base Substitutions	அடிக்கு முந்தைய பதிலீடுகள்
+Post-base Forms	அடிக்குப் பிந்தைய வடிவங்கள்
+Post-base Substitutions	அடிக்குப் பிந்தைய பதிலீடுகள்
+Proportional Widths	விகிதசம அகலங்கள்
+Quarter Widths	கால் அகலங்கள்
+Randomize	சீரற்றதாக்கு
+Required Contextual Alternates	தேவையான சூழல்சார் மாற்றுகள்
+Rakar Forms	ரகர வடிவங்கள்
+Required Ligatures	தேவையான இணையெழுத்துகள்
+Reph Forms	ரேஃப் வடிவங்கள்
+Right Bounds	வலது எல்லைகள்
+Right-to-left alternates	வலமிருந்து இடம் மாற்றுகள்
+Right-to-left mirrored forms	வலமிருந்து இடம் ஆடிப்பிம்ப வடிவங்கள்
+Ruby Notation Forms	Ruby குறியீட்டு வடிவங்கள்
+Required Variation Alternates	தேவையான வேறுபாட்டு மாற்றுகள்
+Stylistic Alternates	பாணி மாற்றுகள்
+Scientific Inferiors	அறிவியல் கீழெழுத்துகள்
+Optical size	ஒளியியல் அளவு
+Small Capitals	சிறு பேரெழுத்துகள்
+Simplified Forms	எளிமையாக்கிய வடிவங்கள்
+Stylistic Set 1	பாணித் தொகுப்பு 1
+Stylistic Set 2	பாணித் தொகுப்பு 2
+Stylistic Set 3	பாணித் தொகுப்பு 3
+Stylistic Set 4	பாணித் தொகுப்பு 4
+Stylistic Set 5	பாணித் தொகுப்பு 5
+Stylistic Set 6	பாணித் தொகுப்பு 6
+Stylistic Set 7	பாணித் தொகுப்பு 7
+Stylistic Set 8	பாணித் தொகுப்பு 8
+Stylistic Set 9	பாணித் தொகுப்பு 9
+Stylistic Set 10	பாணித் தொகுப்பு 10
+Stylistic Set 11	பாணித் தொகுப்பு 11
+Stylistic Set 12	பாணித் தொகுப்பு 12
+Stylistic Set 13	பாணித் தொகுப்பு 13
+Stylistic Set 14	பாணித் தொகுப்பு 14
+Stylistic Set 15	பாணித் தொகுப்பு 15
+Stylistic Set 16	பாணித் தொகுப்பு 16
+Stylistic Set 17	பாணித் தொகுப்பு 17
+Stylistic Set 18	பாணித் தொகுப்பு 18
+Stylistic Set 19	பாணித் தொகுப்பு 19
+Stylistic Set 20	பாணித் தொகுப்பு 20
+Math script style alternates	கணித எழுத்துப் பாணி மாற்றுகள்
+Stretching Glyph Decomposition	நீளும் வரியுருப் பிரிப்பு
+Subscript	கீழொட்டு
+Superscript	மேலொட்டு
+Swash	அலங்கார வடிவம்
+Titling	தலைப்பு வடிவம்
+Trailing Jamo Forms	இறுதி Jamo வடிவங்கள்
+Traditional Name Forms	பாரம்பரியப் பெயர் வடிவங்கள்
+Tabular Figures	அட்டவணை எண்ணுருக்கள்
+Traditional Forms	பாரம்பரிய வடிவங்கள்
+Third Widths	மூன்றில் ஒரு பங்கு அகலங்கள்
+Unicase	ஒற்றை எழுத்துவகை
+Alternate Vertical Metrics	மாற்றுச் செங்குத்து அளவீடுகள்
+Vattu Variants	வட்டு வேறுபாடுகள்
+Vertical Writing	செங்குத்து எழுத்துமுறை
+Alternate Vertical Half Metrics	மாற்றுச் செங்குத்து அரை அளவீடுகள்
+Vowel Jamo Forms	உயிர் Jamo வடிவங்கள்
+Vertical Kana Alternates	செங்குத்து Kana மாற்றுகள்
+Vertical Kerning	செங்குத்து எழுத்திடைச் சீரமைப்பு
+Proportional Alternate Vertical Metrics	விகிதசம மாற்றுச் செங்குத்து அளவீடுகள்
+Vertical Alternates and Rotation	செங்குத்து மாற்றுகளும் சுழற்சியும்
+Vertical Alternates for Rotation	சுழற்சிக்கான செங்குத்து மாற்றுகள்
+Slashed Zero	சாய்கோட்டுப் பூஜ்ஜியம்
+A3 Extra	A3 கூடுதல்
+A4 Extra	A4 கூடுதல்
+A4 Tab	A4 தாவல்
+A5 Extra	A5 கூடுதல்
+B5 Extra	B5 கூடுதல்
+DL Envelope	DL உறை
+Choukei 2 Envelope	Choukei 2 உறை
+Choukei 3 Envelope	Choukei 3 உறை
+Choukei 4 Envelope	Choukei 4 உறை
+Choukei 40 Envelope	Choukei 40 உறை
+hagaki (postcard)	hagaki (அஞ்சல் அட்டை)
+kahu Envelope	kahu உறை
+kaku2 Envelope	kaku2 உறை
+kaku3 Envelope	kaku3 உறை
+kaku4 Envelope	kaku4 உறை
+kaku5 Envelope	kaku5 உறை
+kaku7 Envelope	kaku7 உறை
+kaku8 Envelope	kaku8 உறை
+oufuku (reply postcard)	oufuku (பதில் அஞ்சல் அட்டை)
+you4 Envelope	you4 உறை
+you6 Envelope	you6 உறை
+6×9 Envelope	6×9 உறை
+7×9 Envelope	7×9 உறை
+8×10 Envelope	8×10 உறை
+9×11 Envelope	9×11 உறை
+9×12 Envelope	9×12 உறை
+a2 Envelope	a2 உறை
+c5 Envelope	c5 உறை
+European edp	ஐரோப்பிய edp
+Executive	எக்சிகியூட்டிவ்
+Fan-Fold European	விசிறி மடிப்பு ஐரோப்பிய
+Fan-Fold US	விசிறி மடிப்பு US
+Fan-Fold German Legal	விசிறி மடிப்பு ஜெர்மன் Legal
+Government Legal	அரசு Legal
+Government Letter	அரசு Letter
+Index 3×5	குறிப்பு அட்டை 3×5
+Index 4×6 (postcard)	குறிப்பு அட்டை 4×6 (அஞ்சல் அட்டை)
+Index 4×6 ext	குறிப்பு அட்டை 4×6 நீட்டிப்பு
+Index 5×8	குறிப்பு அட்டை 5×8
+Invoice	விலைப்பட்டியல்
+Tabloid	டேப்லாய்டு
+US Legal Extra	US Legal கூடுதல்
+US Letter Extra	US Letter கூடுதல்
+US Letter Plus	US Letter பிளஸ்
+Monarch Envelope	Monarch உறை
+#10 Envelope	#10 உறை
+#11 Envelope	#11 உறை
+#12 Envelope	#12 உறை
+#14 Envelope	#14 உறை
+#9 Envelope	#9 உறை
+Oficio	ஒஃபிசியோ
+Personal Envelope	தனிப்பட்ட உறை
+Quarto	குவார்ட்டோ
+Super A	சூப்பர் A
+Super B	சூப்பர் B
+Wide Format	அகல வடிவம்
+Photo L	புகைப்படம் L
+Folio	ஃபோலியோ
+Folio sp	ஃபோலியோ sp
+Invite Envelope	அழைப்பிதழ் உறை
+Italian Envelope	இத்தாலிய உறை
+Large Photo	பெரிய புகைப்படம்
+Medium Photo	நடுத்தரப் புகைப்படம்
+Postfix Envelope	Postfix உறை
+Small Photo	சிறிய புகைப்படம்
+Wide Photo	அகலப் புகைப்படம்
+prc1 Envelope	prc1 உறை
+prc10 Envelope	prc10 உறை
+prc2 Envelope	prc2 உறை
+prc3 Envelope	prc3 உறை
+prc4 Envelope	prc4 உறை
+prc5 Envelope	prc5 உறை
+prc6 Envelope	prc6 உறை
+prc7 Envelope	prc7 உறை
+prc8 Envelope	prc8 உறை
+prc9 Envelope	prc9 உறை
+Arabic	அரபு
+Armenian	ஆர்மீனியம்
+Bengali	வங்காளம்
+Bopomofo	போபோமோஃபோ
+Cherokee	செரோக்கீ
+Coptic	காப்டிக்
+Cyrillic	சிரிலிக்
+Deseret	டெசரெட்
+Devanagari	தேவநாகரி
+Ethiopic	எத்தியோப்பியம்
+Georgian	ஜார்ஜியம்
+Gothic	கோதிக்
+Greek	கிரேக்கம்
+Gujarati	குஜராத்தி
+Gurmukhi	குர்முகி
+Han	ஹான்
+Hebrew	எபிரேயம்
+Hiragana	ஹிரகனா
+Kannada	கன்னடம்
+Katakana	கடகனா
+Khmer	கெமர்
+Lao	லாவோ
+Latin	இலத்தீன்
+Malayalam	மலையாளம்
+Mongolian	மங்கோலியம்
+Myanmar	மியான்மர்
+Ogham	ஓகம்
+Old Italic	பழைய இத்தாலிக்
+Oriya	ஒரியா
+Runic	ரூனிக்
+Sinhala	சிங்களம்
+Syriac	சிரியாக்
+Tamil	தமிழ்
+Telugu	தெலுங்கு
+Thaana	தானா
+Thai	தாய்
+Tibetan	திபெத்தியம்
+Canadian Aboriginal	கனடியப் பழங்குடி
+Yi	யீ
+Tagalog	தகலாக்
+Hanunoo	ஹனுனூ
+Buhid	புஹித்
+Tagbanwa	தக்பன்வா
+Braille	பிரெயில்
+Cypriot	சைப்ரியாட்
+Limbu	லிம்பு
+Osmanya	ஒஸ்மான்யா
+Shavian	ஷேவியன்
+Linear B	லீனியர் B
+Tai Le	தை லே
+Ugaritic	உகாரிடிக்
+New Tai Lue	புதிய தை லூ
+Buginese	புகினீஸ்
+Glagolitic	கிளகோலிடிக்
+Tifinagh	டிஃபினாக்
+Syloti Nagri	சிலோட்டி நாகரி
+Old Persian	பழைய பாரசீகம்
+Kharoshthi	கரோஷ்டி
+Balinese	பாலினீஸ்
+Cuneiform	ஆப்பெழுத்து
+Phoenician	ஃபீனீசியம்
+Phags-pa	பக்ஸ்-பா
+N'Ko	என்கோ
+Kayah Li	கயா லி
+Lepcha	லெப்சா
+Rejang	ரெஜாங்
+Sundanese	சுண்டானீஸ்
+Saurashtra	சௌராஷ்டிரா
+Cham	சாம்
+Ol Chiki	ஒல் சிகி
+Vai	வாய்
+Carian	கரியன்
+Lycian	லிசியன்
+Lydian	லிடியன்
+Avestan	அவெஸ்தன்
+Bamum	பாமும்
+Egyptian Hieroglyphs	எகிப்திய சித்திர எழுத்துகள்
+Imperial Aramaic	பேரரசு அரமேயம்
+Inscriptional Pahlavi	கல்வெட்டு பஹ்லவி
+Inscriptional Parthian	கல்வெட்டு பார்த்தியன்
+Javanese	ஜாவானீஸ்
+Kaithi	கைத்தி
+Lisu	லிசு
+Meetei Mayek	மெய்தெய் மயெக்
+Old South Arabian	பழைய தென் அரபு
+Old Turkic	பழைய துருக்கியம்
+Samaritan	சமாரியம்
+Tai Tham	தை தாம்
+Tai Viet	தை வியட்
+Batak	படாக்
+Brahmi	பிராமி
+Mandaic	மண்டேயிக்
+Chakma	சக்மா
+Meroitic Cursive	மெரோயிடிக் தொடரெழுத்து
+Meroitic Hieroglyphs	மெரோயிடிக் சித்திர எழுத்துகள்
+Miao	மியாவோ
+Sharada	சாரதா
+Sora Sompeng	சோரா சொம்பெங்
+Takri	தாக்ரி
+Bassa	பஸ்ஸா
+Caucasian Albanian	காகசிய அல்பேனியம்
+Duployan	டுப்ளோயன்
+Elbasan	எல்பசான்
+Grantha	கிரந்தம்
+Khojki	கோஜ்கி
+Khudawadi, Sindhi	குதாவாடி, சிந்தி
+Linear A	லீனியர் A
+Mahajani	மகாஜனி
+Manichaean	மானிக்கேயம்
+Mende Kikakui	மெண்டே கிகாகுய்
+Modi	மோடி
+Mro	ம்ரோ
+Nabataean	நபடேயம்
+Old North Arabian	பழைய வட அரபு
+Old Permic	பழைய பெர்மிக்
+Pahawh Hmong	பஹாவ் மொங்
+Palmyrene	பல்மைரீன்
+Pau Cin Hau	பாவ் சின் ஹாவ்
+Psalter Pahlavi	சால்டர் பஹ்லவி
+Siddham	சித்தம்
+Tirhuta	திர்ஹுதா
+Warang Citi	வராங் சிதி
+Ahom	அஹோம்
+Anatolian Hieroglyphs	அனத்தோலிய சித்திர எழுத்துகள்
+Hatran	ஹத்ரான்
+Multani	முல்தானி
+Old Hungarian	பழைய அங்கேரியம்
+Signwriting	சைகை எழுத்து
+Adlam	அட்லாம்
+Bhaiksuki	பைக்சுகி
+Marchen	மார்ச்சென்
+Newa	நேவா
+Osage	ஓசேஜ்
+Tangut	தங்குட்
+Masaram Gondi	மசாரம் கோண்டி
+Nushu	நுஷு
+Soyombo	சோயோம்போ
+Zanabazar Square	சனபசார் சதுரம்
+View All Applications	அனைத்துச் செயலிகளையும் காட்டு
+Find New Applications	புதிய செயலிகளைக் கண்டுபிடி
+No applications found.	செயலிகள் எதுவும் கிடைக்கவில்லை.
+Services	சேவைகள்
+Hide %s	%s-ஐ மறை
+Hide Others	மற்றவற்றை மறை
+Quit %s	%s-இலிருந்து விலகு
+Finish	முடி
+Select a Color	ஒரு நிறத்தைத் தேர்ந்தெடு
+Pick a color from the screen	திரையிலிருந்து ஒரு நிறத்தைத் தேர்ந்தெடு
+Color Name	நிறப் பெயர்
+Saturation	செறிவு
+Smileys & People	முகக்குறிகளும் மனிதர்களும்
+Body & Clothing	உடலும் ஆடையும்
+Animals & Nature	விலங்குகளும் இயற்கையும்
+Food & Drink	உணவும் பானமும்
+Travel & Places	பயணமும் இடங்களும்
+Activities	செயல்பாடுகள்
+Symbols	குறியீடுகள்
+Flags	கொடிகள்
+Files	கோப்புகள்
+Remote location — only searching the current folder	தொலை இருப்பிடம் — தற்போதைய கோப்புறையில் மட்டும் தேடுகிறது
+Folder Name	கோப்புறைப் பெயர்
+Select Font	எழுத்துருவைத் தேர்ந்தெடு
+Search font name	எழுத்துருப் பெயரைத் தேடு
+Font Family	எழுத்துருக் குடும்பம்
+Preview text	முன்னோட்ட உரை
+No Fonts Found	எழுத்துருக்கள் எதுவும் கிடைக்கவில்லை
+Format for:	இதற்கான வடிவம்:
+Paper size:	தாள் அளவு:
+Orientation:	திசையமைவு:
+Down Path	கீழ்ப் பாதை
+Up Path	மேல் பாதை
+Server Addresses	சேவையக முகவரிகள்
+Server addresses are made up of a protocol prefix and an address. Examples:	சேவையக முகவரிகள் ஒரு நெறிமுறை முன்னொட்டையும் ஒரு முகவரியையும் கொண்டவை. எடுத்துக்காட்டுகள்:
+Available Protocols	கிடைக்கும் நெறிமுறைகள்
+No recent servers found	அண்மைய சேவையகங்கள் எதுவும் இல்லை
+Recent Servers	அண்மைய சேவையகங்கள்
+No results found	முடிவுகள் எதுவும் கிடைக்கவில்லை
+Enter server address	சேவையக முகவரியை உள்ளிடு
+Printer	அச்சுப்பொறி
+Status	நிலை
+Range	வரம்பு
+All Pages	அனைத்துப் பக்கங்களும்
+Current Page	தற்போதைய பக்கம்
+Selection	தேர்வு
+Pages:	பக்கங்கள்:
+Specify one or more page ranges,\n e.g. 1–3, 7, 11	ஒன்று அல்லது மேற்பட்ட பக்க வரம்புகளைக் குறிப்பிடுக,\n எ.கா. 1–3, 7, 11
+Pages	பக்கங்கள்
+Copies	நகல்கள்
+Copies:	நகல்கள்:
+Collate	வரிசைப்படுத்து
+Reverse	தலைகீழ்
+Layout	தளவமைப்பு
+Two-sided:	இருபக்கம்:
+Pages per side:	ஒரு பக்கத்தில் பக்கங்கள்:
+Page ordering:	பக்க வரிசை:
+Only print:	இவற்றை மட்டும் அச்சிடு:
+All sheets	அனைத்துத் தாள்களும்
+Even sheets	இரட்டைப்படைத் தாள்கள்
+Odd sheets	ஒற்றைப்படைத் தாள்கள்
+Scale:	அளவுவிகிதம்:
+Paper	தாள்
+Paper type:	தாள் வகை:
+Paper source:	தாள் மூலம்:
+Output tray:	வெளியீட்டுத் தட்டு:
+Job Details	பணி விவரங்கள்
+Priority:	முன்னுரிமை:
+Billing info:	கட்டணத் தகவல்:
+Print Document	ஆவணத்தை அச்சிடு
+Now	இப்போது
+At:	நேரம்:
+Specify the time of print,\n e.g. 15∶30, 2∶35 pm, 14∶15∶20, 11∶46∶30 am, 4 pm	அச்சிடும் நேரத்தைக் குறிப்பிடுக,\n எ.கா. 15∶30, 2∶35 pm, 14∶15∶20, 11∶46∶30 am, 4 pm
+Time of print	அச்சிடும் நேரம்
+On hold	நிறுத்திவைப்பில்
+Hold the job until it is explicitly released	வெளிப்படையாக விடுவிக்கும் வரை பணியை நிறுத்திவை
+Add Cover Page	அட்டைப் பக்கம் சேர்
+Before:	முன்:
+After:	பின்:
+Job	பணி
+Image Quality	படத் தரம்
+Finishing	இறுதிச் செயலாக்கம்
+Advanced	மேம்பட்டவை
+Some of the settings in the dialog conflict	உரையாடலில் உள்ள சில அமைப்புகள் முரண்படுகின்றன
+Select which type of documents are shown	காட்டப்படும் ஆவணங்களின் வகையைத் தேர்ந்தெடு
+Volume	ஒலியளவு
+Turns volume up or down	ஒலியளவைக் கூட்டுகிறது அல்லது குறைக்கிறது
+Volume Up	ஒலியளவைக் கூட்டு
+Increases the volume	ஒலியளவைக் கூட்டுகிறது
+Volume Down	ஒலியளவைக் குறை
+Decreases the volume	ஒலியளவைக் குறைக்கிறது
+Username:	பயனர்பெயர்:
+Password:	கடவுச்சொல்:
+Authentication is required to print document “%s” on printer %s	“%s” ஆவணத்தை %s அச்சுப்பொறியில் அச்சிட அங்கீகாரம் தேவை
+Authentication is required to print a document on %s	%s-இல் ஓர் ஆவணத்தை அச்சிட அங்கீகாரம் தேவை
+Authentication is required to get attributes of job “%s”	“%s” பணியின் பண்புகளைப் பெற அங்கீகாரம் தேவை
+Authentication is required to get attributes of a job	ஒரு பணியின் பண்புகளைப் பெற அங்கீகாரம் தேவை
+Authentication is required to get attributes of printer %s	%s அச்சுப்பொறியின் பண்புகளைப் பெற அங்கீகாரம் தேவை
+Authentication is required to get attributes of a printer	ஓர் அச்சுப்பொறியின் பண்புகளைப் பெற அங்கீகாரம் தேவை
+Authentication is required to get default printer of %s	%s-இன் இயல்புநிலை அச்சுப்பொறியைப் பெற அங்கீகாரம் தேவை
+Authentication is required to get printers from %s	%s-இலிருந்து அச்சுப்பொறிகளைப் பெற அங்கீகாரம் தேவை
+Authentication is required to get a file from %s	%s-இலிருந்து ஒரு கோப்பைப் பெற அங்கீகாரம் தேவை
+Authentication is required on %s	%s-இல் அங்கீகாரம் தேவை
+Domain:	களம்:
+Authentication is required to print document “%s”	“%s” ஆவணத்தை அச்சிட அங்கீகாரம் தேவை
+Authentication is required to print this document on printer %s	இந்த ஆவணத்தை %s அச்சுப்பொறியில் அச்சிட அங்கீகாரம் தேவை
+Authentication is required to print this document	இந்த ஆவணத்தை அச்சிட அங்கீகாரம் தேவை
+Printer “%s” is low on toner.	“%s” அச்சுப்பொறியில் டோனர் குறைவாக உள்ளது.
+Printer “%s” has no toner left.	“%s” அச்சுப்பொறியில் டோனர் தீர்ந்துவிட்டது.
+Printer “%s” is low on developer.	“%s” அச்சுப்பொறியில் டெவலப்பர் குறைவாக உள்ளது.
+Printer “%s” is out of developer.	“%s” அச்சுப்பொறியில் டெவலப்பர் தீர்ந்துவிட்டது.
+Printer “%s” is low on at least one marker supply.	“%s” அச்சுப்பொறியில் குறைந்தது ஒரு மை இருப்பு குறைவாக உள்ளது.
+Printer “%s” is out of at least one marker supply.	“%s” அச்சுப்பொறியில் குறைந்தது ஒரு மை இருப்பு தீர்ந்துவிட்டது.
+The cover is open on printer “%s”.	“%s” அச்சுப்பொறியின் மூடி திறந்துள்ளது.
+The door is open on printer “%s”.	“%s” அச்சுப்பொறியின் கதவு திறந்துள்ளது.
+Printer “%s” is low on paper.	“%s” அச்சுப்பொறியில் தாள் குறைவாக உள்ளது.
+Printer “%s” is out of paper.	“%s” அச்சுப்பொறியில் தாள் தீர்ந்துவிட்டது.
+Printer “%s” is currently offline.	“%s” அச்சுப்பொறி தற்போது இணைப்பில் இல்லை.
+There is a problem on printer “%s”.	“%s” அச்சுப்பொறியில் ஒரு சிக்கல் உள்ளது.
+Paused; Rejecting Jobs	இடைநிறுத்தப்பட்டது; பணிகளை ஏற்கவில்லை
+Rejecting Jobs	பணிகளை ஏற்கவில்லை
+Two Sided	இருபக்கம்
+Paper Type	தாள் வகை
+Paper Source	தாள் மூலம்
+Output Tray	வெளியீட்டுத் தட்டு
+Resolution	தெளிவுத்திறன்
+GhostScript pre-filtering	GhostScript முன்வடிகட்டல்
+One Sided	ஒருபக்கம்
+Long Edge (Standard)	நீள் விளிம்பு (நிலையானது)
+Short Edge (Flip)	குறு விளிம்பு (புரட்டு)
+Auto Select	தானியங்குத் தேர்வு
+Printer Default	அச்சுப்பொறி இயல்புநிலை
+Embed GhostScript fonts only	GhostScript எழுத்துருக்களை மட்டும் உட்பொதி
+Convert to PS level 1	PS நிலை 1-க்கு மாற்று
+Convert to PS level 2	PS நிலை 2-க்கு மாற்று
+No pre-filtering	முன்வடிகட்டல் இல்லை
+Top Bin	மேல் தட்டு
+Middle Bin	நடுத் தட்டு
+Bottom Bin	கீழ்த் தட்டு
+Side Bin	பக்கத் தட்டு
+Left Bin	இடது தட்டு
+Right Bin	வலது தட்டு
+Center Bin	மையத் தட்டு
+Rear Bin	பின் தட்டு
+Face Up Bin	முகம் மேலான தட்டு
+Face Down Bin	முகம் கீழான தட்டு
+Large Capacity Bin	பெருங்கொள்ளளவுத் தட்டு
+Stacker %d	அடுக்கி %d
+Mailbox %d	அஞ்சல்பெட்டி %d
+My Mailbox	என் அஞ்சல்பெட்டி
+Tray %d	தட்டு %d
+Urgent	அவசரம்
+High	உயர்
+Medium	நடுத்தரம்
+Low	குறைவு
+Job Priority	பணி முன்னுரிமை
+Billing Info	கட்டணத் தகவல்
+Classified	வகைப்படுத்தப்பட்டது
+Confidential	அந்தரங்கமானது
+Secret	இரகசியம்
+Standard	நிலையானது
+Top Secret	மிக இரகசியம்
+Unclassified	வகைப்படுத்தப்படாதது
+Pages per Sheet	ஒரு தாளில் பக்கங்கள்
+Before	முன்
+After	பின்
+Print at	இந்நேரத்தில் அச்சிடு
+Print at time	குறித்த நேரத்தில் அச்சிடு
+Custom %s×%s	தனிப்பயன் %s×%s
+Printer Profile	அச்சுப்பொறி சுயவிவரம்
+Unavailable	கிடைக்கவில்லை
+Color management unavailable	நிற மேலாண்மை கிடைக்கவில்லை
+No profile available	சுயவிவரம் எதுவும் கிடைக்கவில்லை
+Unspecified profile	குறிப்பிடப்படாத சுயவிவரம்
+Print to File	கோப்பில் அச்சிடு
+Pages per sheet:	ஒரு தாளில் பக்கங்கள்:
+Output format	வெளியீட்டு வடிவம்
+Print to LPR	LPR-க்கு அச்சிடு
+Pages Per Sheet	ஒரு தாளில் பக்கங்கள்
+Command Line	கட்டளை வரி
+printer offline	அச்சுப்பொறி இணைப்பில் இல்லை
+ready to print	அச்சிடத் தயார்
+processing job	பணியைச் செயலாக்குகிறது
+paused	இடைநிறுத்தப்பட்டது
+unknown	தெரியவில்லை
+Print to Test Printer	சோதனை அச்சுப்பொறியில் அச்சிடு

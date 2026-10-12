@@ -1,0 +1,28 @@
+Settings manager socket
+SOCKET ID
+Version information
+Enable debug messages
+Type '%s --help' for usage.
+Please report bugs to <%s>.
+desktop;background;wallpaper;settings;xfce;
+48
+12
+64
+Display version information
+Reload all settings
+Advance to the next wallpaper on the current workspace
+Pop up the menu (at the current mouse position)
+Pop up the window list (at the current mouse position)
+Automatically arrange all the icons on the desktop
+Disable debug messages
+Do not wait for a window manager on startup
+Cause xfdesktop to quit
+This is %s version %s, running on Xfce %s.\n
+Built with GTK+ %d.%d.%d, linked with GTK+ %d.%d.%d.
+Build options:\n
+    Desktop Menu:        %s\n
+enabled
+disabled
+    Desktop Icons:       %s\n
+    Desktop File Icons:  %s\n
+%.*s %u%s

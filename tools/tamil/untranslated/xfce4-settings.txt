@@ -1,0 +1,80 @@
+2x
+DPI
+Settings manager socket
+SOCKET ID
+Version information
+Type '%s --help' for usage.
+Please report bugs to <%s>.
+assistive;technologies;keys;sticky;bounce;emulation;screen readers;magnifiers;a11y;i18n;l10n;AT-SPI;ATK;impairment;
+RGB
+BGR
+themes;user interface;styles;icons;fonts;anti-aliasing;hinting;sub-pixel;subpixel;rendering;ClearType;DPI;RGB;BGR;menu accelerators;keyboard shortcuts;event;sounds;window scaling;HiDPI;Retina display;
+color;settings;management;display;monitors;printers;webcams;scanners;
+Minimal interface to set up an external output
+%.2f Hz
+(%i, %i)
+display;settings;screen;resolution;refresh;rate;rotation;external;projectors;monitors;LCD;CRT;HiDPI;
+Unable to initialize GTK+.
+numlock;keyboard;layout;shortcuts;
+Print version information and exit
+Launch the default helper of TYPE with the optional PARAMETER, where TYPE is one of the following values.
+TYPE [PARAMETER]
+Query the default helper of TYPE, where TYPE is one of the following values.
+The following TYPEs are supported for the --launch and --query commands:\n\n  WebBrowser       - The preferred Web Browser.\n  MailReader       - The preferred Mail Reader.\n  FileManager      - The preferred File Manager.\n  TerminalEmulator - The preferred Terminal Emulator.
+Invalid helper type \"%s\"
+%s (Xfce %s)\n\nCopyright (c) 2003-2006\n        os-cillation e.K. All rights reserved.\n\nWritten by Benedikt Meurer <benny@xfce.org>.\n\nBuilt with Gtk+-%d.%d.%d, running Gtk+-%d.%d.%d.\n\nPlease report bugs to <%s>.\n
+No command specified
+file;type;extension;association;open with;web browser;mail reader;file manager;terminal emulator;
+file;manager;explorer;browse;filesystem;directory;folder;xfce;
+email;mail;inbox;message;communication;
+terminal;command line;shell;console;xfce;
+internet;web;browser;surf;explore;xfce;
+Alacritty
+aterm
+Balsa
+Brave
+Chromium
+Dillo
+Encompass
+Evolution
+Mozilla Firefox
+Geary
+Google Chrome
+Icecat
+Icedove
+Iceweasel
+Jumanji
+kitty
+KMail
+Midori
+Mutt
+Nautilus
+Netscape Navigator
+NXterm
+QTerminal
+qtFM
+QupZilla
+ROX-Filer
+Sakura
+Surf
+Sylpheed
+Claws Mail
+Terminator
+Thunar
+Mozilla Thunderbird
+RXVT Unicode
+Vimprobable2
+Active device in the dialog
+DEVICE NAME
+%g px
+%g ms
+%.1f s
+settings;buttons;scroll;direction;pointer;speed;double click;theme;wheel;
+Int64
+registry;regedit;configuration file;
+Settings dialog to show
+control;panel;center;system;settings;personalize;hardware;
+Fork to the background
+Do not wait for a window manager on startup
+Replace running xsettings daemon (if any)
+settings;daemon;xfce;configuration;preferences;system;manage;

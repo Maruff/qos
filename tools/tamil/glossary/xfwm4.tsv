@@ -1,0 +1,130 @@
+# qos Desktop in Tamil: windows (xfwm4).
+This window might be busy and is not responding.\nDo you want to terminate the application?	இந்தச் சாளரம் வேலையாக இருக்கலாம், பதிலளிக்கவில்லை.\nசெயலியை முடித்துவிட வேண்டுமா?
+Workspace %d	பணியிடம் %d
+Workspace Name	பணியிடப் பெயர்
+Window Manager	சாளர மேலாளர்
+Configure window behavior and shortcuts	சாளர நடத்தையையும் குறுக்குவிசைகளையும் அமை
+Window Manager Tweaks	சாளர மேலாளர் நுணுக்கங்கள்
+Fine-tune window behaviour and effects	சாளர நடத்தையையும் விளைவுகளையும் நுணுக்கமாகச் சீரமை
+Configure layout, names and margins	தளவமைப்பு, பெயர்கள், ஓர இடைவெளிகளை அமை
+<b>Theme</b>	<b>கருப்பொருள்</b>
+<b>Title font</b>	<b>தலைப்பு எழுத்துரு</b>
+<b>Title alignment</b>	<b>தலைப்புச் சீரமைவு</b>
+Click and drag the buttons to change the layout	தளவமைப்பை மாற்றப் பொத்தான்களைச் சொடுக்கி இழுக்கவும்
+Title	தலைப்பு
+The window title cannot be removed	சாளரத் தலைப்பை அகற்ற முடியாது
+Active	செயலில் உள்ளவை
+Menu	பட்டியல்
+Stick	நிலைநிறுத்து
+Hidden	மறைந்தவை
+<b>Button layout</b>	<b>பொத்தான் தளவமைப்பு</b>
+Style	பாணி
+Define shortcuts to perform window manager actions:	சாளர மேலாளர் செயல்களைச் செய்வதற்கான குறுக்குவிசைகளை வரையறு:
+Reset to Defaults	இயல்புநிலைக்கு மீட்டமை
+Keyboard	விசைப்பலகை
+Click to focus	சொடுக்கினால் குவியம்
+Focus follows mouse	குவியம் சுட்டியைப் பின்தொடரும்
+Delay before window receives focus:	சாளரம் குவியம் பெறுவதற்கு முன் தாமதம்:
+<i>Short</i>	<i>குறைவு</i>
+<i>Long</i>	<i>அதிகம்</i>
+<b>Focus model</b>	<b>குவிய முறை</b>
+Automatically give focus to newly created windows	புதிதாக உருவாக்கப்படும் சாளரங்களுக்குத் தானாகக் குவியம் கொடு
+<b>New window focus</b>	<b>புதிய சாளரக் குவியம்</b>
+Automatically raise windows when they receive focus	சாளரங்கள் குவியம் பெறும்போது தானாக முன்கொணர்
+Delay before raising focused window:	குவியம் பெற்ற சாளரத்தை முன்கொணர்வதற்கு முன் தாமதம்:
+<b>Raise on focus</b>	<b>குவியம் பெறும்போது முன்கொணர்</b>
+Raise window when clicking inside application window	செயலிச் சாளரத்தினுள் சொடுக்கும்போது சாளரத்தை முன்கொணர்
+<b>Raise on click</b>	<b>சொடுக்கும்போது முன்கொணர்</b>
+Focus	குவியம்
+To screen borders	திரை ஓரங்களுடன்
+To other windows	மற்ற சாளரங்களுடன்
+Distance:	தொலைவு:
+<i>Small</i>	<i>சிறியது</i>
+<i>Wide</i>	<i>அகலமானது</i>
+<b>Windows snapping</b>	<b>சாளர ஒட்டிணைவு</b>
+With the mouse pointer	சுட்டியைக் கொண்டு
+With a dragged window	இழுக்கப்படும் சாளரத்தைக் கொண்டு
+Edge resistance:	ஓர எதிர்ப்பு:
+<b>Wrap workspaces when reaching the screen edge</b>	<b>திரை ஓரத்தை அடையும்போது பணியிடங்களைச் சுற்றிச் செல்</b>
+When moving	நகர்த்தும்போது
+When resizing	அளவை மாற்றும்போது
+<b>Hide content of windows</b>	<b>சாளரங்களின் உள்ளடக்கத்தை மறை</b>
+The action to perform when the title-bar is double-clicked	தலைப்புப்பட்டையை இரட்டைச் சொடுக்கும்போது செய்ய வேண்டிய செயல்
+<b>Double click action</b>	<b>இரட்டைச் சொடுக்குச் செயல்</b>
+Advanced	மேம்பட்டவை
+Shade window	சாளரத்தைச் சுருட்டு
+Hide window	சாளரத்தை மறை
+Maximize window	சாளரத்தைப் பெரிதாக்கு
+Fill window	சாளரத்தை நிரப்பு
+Always on top	எப்போதும் மேலே
+Nothing	எதுவுமில்லை
+Left	இடம்
+Center	நடு
+Right	வலம்
+Theme	கருப்பொருள்
+Action	செயல்
+Shortcut	குறுக்குவிசை
+Failed to initialize xfconf. Reason: %s	xfconf-ஐத் தொடங்க முடியவில்லை. காரணம்: %s
+Could not create the settings dialog.	அமைப்புகள் உரையாடலை உருவாக்க முடியவில்லை.
+This will reset all shortcuts to their default values. Do you really want to do this?	இது அனைத்துக் குறுக்குவிசைகளையும் அவற்றின் இயல்புநிலை மதிப்புகளுக்கு மீட்டமைக்கும். உண்மையில் இதைச் செய்ய வேண்டுமா?
+Skip windows that have \"skip pager\"\nor \"skip taskbar\" properties set	\"skip pager\" அல்லது \"skip taskbar\"\nபண்புகள் அமைக்கப்பட்ட சாளரங்களைத் தவிர்
+Cycle through minimized windows in most recently used order	சிறிதாக்கிய சாளரங்களை மிக அண்மையில் பயன்படுத்திய வரிசையில் சுழற்சி செய்
+Include hidden (i.e. iconified) windows	மறைந்த (அதாவது சின்னமாக்கப்பட்ட) சாளரங்களையும் சேர்
+Cycle through windows on all workspaces	அனைத்துப் பணியிடங்களிலும் உள்ள சாளரங்களைச் சுழற்சி செய்
+Draw frame around selected window while cycling	சுழற்சியின்போது தேர்ந்தெடுத்த சாளரத்தைச் சுற்றிச் சட்டம் வரை
+Raise windows while cycling	சுழற்சியின்போது சாளரங்களை முன்கொணர்
+Cycle through windows in a list	சாளரங்களைப் பட்டியலாகச் சுழற்சி செய்
+Cycling	சுழற்சி
+Activate focus stealing prevention	குவியப் பறிப்புத் தடுப்பைச் செயல்படுத்து
+Honor standard ICCCM focus hint	நிலையான ICCCM குவியக் குறிப்பை மதி
+When a window raises itself:	ஒரு சாளரம் தானாக முன்வரும்போது:
+Bring window on current workspace	சாளரத்தை நடப்புப் பணியிடத்துக்குக் கொண்டுவா
+Switch to window's workspace	சாளரத்தின் பணியிடத்துக்கு மாறு
+Do nothing	எதுவும் செய்யாதே
+Key used to grab and move windows:	சாளரங்களைப் பற்றி நகர்த்தப் பயன்படும் விசை:
+Raise windows when any mouse button is pressed	ஏதேனும் சுட்டிப் பொத்தான் அழுத்தப்படும்போது சாளரங்களை முன்கொணர்
+Hide frame of windows when maximized	பெரிதாக்கியிருக்கும்போது சாளரங்களின் சட்டத்தை மறை
+Hide title of windows when maximized	பெரிதாக்கியிருக்கும்போது சாளரங்களின் தலைப்பை மறை
+Automatically tile windows when moving toward the screen edge	திரை ஓரத்தை நோக்கி நகர்த்தும்போது சாளரங்களைத் தானாக ஓடுகளாக அடுக்கு
+Use edge resistance instead of window snapping	சாளர ஒட்டிணைவுக்குப் பதிலாக ஓர எதிர்ப்பைப் பயன்படுத்து
+Use mouse wheel on title bar to roll up the window	சாளரத்தைச் சுருட்டத் தலைப்புப்பட்டையில் சுட்டிச் சக்கரத்தைப் பயன்படுத்து
+Notify of urgency by making window's decoration blink	சாளர அலங்காரத்தை மின்னச் செய்து அவசரத்தை அறிவி
+Keep urgent windows blinking repeatedly	அவசரச் சாளரங்களைத் தொடர்ந்து மின்னச் செய்
+Accessibility	அணுகல்தன்மை
+Use the mouse wheel on the desktop to switch workspaces	பணியிடங்களை மாற்ற மேசைத்தளத்தில் சுட்டிச் சக்கரத்தைப் பயன்படுத்து
+Remember and recall previous workspace\nwhen switching via keyboard shortcuts	விசைப்பலகைக் குறுக்குவிசைகள் மூலம் மாறும்போது\nமுந்தைய பணியிடத்தை நினைவில் வைத்து மீட்டழை
+Wrap workspaces depending on the actual desktop layout	உண்மையான மேசைத்தளத் தளவமைப்பைப் பொறுத்துப் பணியிடங்களைச் சுற்றிச் செல்
+Wrap workspaces when the first or the last workspace is reached	முதல் அல்லது கடைசிப் பணியிடத்தை அடையும்போது பணியிடங்களைச் சுற்றிச் செல்
+Minimum size of windows to trigger smart placement:	சீரிய இடமளிப்பைத் தூண்டச் சாளரங்களின் குறைந்தபட்ச அளவு:
+<i>Large</i>	<i>பெரியது</i>
+By default, place windows:	இயல்பாகச் சாளரங்களை வைக்க வேண்டிய இடம்:
+At the center of the screen	திரையின் நடுவில்
+Under the mouse pointer	சுட்டிக்குக் கீழே
+Placement	இடமளிப்பு
+Enable display compositing	காட்சிக் கூட்டிணைப்பை இயக்கு
+Display fullscreen overlay windows directly	முழுத்திரை மேலடுக்குச் சாளரங்களை நேரடியாகக் காட்டு
+Show windows preview in place of icons when cycling	சுழற்சியின்போது சின்னங்களுக்குப் பதிலாகச் சாளர முன்தோற்றத்தைக் காட்டு
+Show shadows under popup windows	மேல்தோன்றும் சாளரங்களின் கீழ் நிழல்களைக் காட்டு
+Show shadows under dock windows	நிறுத்தச் சாளரங்களின் கீழ் நிழல்களைக் காட்டு
+Show shadows under regular windows	வழக்கமான சாளரங்களின் கீழ் நிழல்களைக் காட்டு
+Zoom desktop with mouse wheel	சுட்டிச் சக்கரத்தால் மேசைத்தளத்தைப் பெரிதாக்கிக் காட்டு
+Zoom pointer along with the desktop	மேசைத்தளத்துடன் சுட்டியையும் பெரிதாக்கிக் காட்டு
+Opacity of window decorations:	சாளர அலங்காரங்களின் ஒளிபுகாமை:
+<i>Transparent</i>	<i>ஒளிபுகும்</i>
+<i>Opaque</i>	<i>ஒளிபுகா</i>
+Opacity of inactive windows:	செயலற்ற சாளரங்களின் ஒளிபுகாமை:
+Opacity of windows during move:	நகர்த்தும்போது சாளரங்களின் ஒளிபுகாமை:
+Opacity of windows during resize:	அளவை மாற்றும்போது சாளரங்களின் ஒளிபுகாமை:
+Opacity of popup windows:	மேல்தோன்றும் சாளரங்களின் ஒளிபுகாமை:
+Compositor	கூட்டிணைப்பி
+Number of workspaces:	பணியிடங்களின் எண்ணிக்கை:
+Layout	தளவமைப்பு
+Names	பெயர்கள்
+Margins are areas on the edges of the screen where no window will be placed	ஓர இடைவெளிகள் என்பவை, எந்தச் சாளரமும் வைக்கப்படாத திரை ஓரப் பகுதிகள்
+Margins	ஓர இடைவெளிகள்
+%s (on %s)	%s (%s இல்)
+Same as Other Windows	மற்ற சாளரங்களைப் போலவே
+Roll Window Up	சாளரத்தைச் சுருட்டு
+Roll Window Down	சாளரத்தை விரி
+Context Help	சூழல் உதவி
+Destroy	வலிந்து மூடு

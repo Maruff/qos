@@ -1,0 +1,61 @@
+Thunar
+Force open in a new window
+Run in daemon mode
+Quit a running Thunar instance
+Print version information and exit
+Acquired the session message bus '%s'\n
+Acquired the name '%s' on the session message bus\n
+Name '%s' lost on the message dbus.
+The Thunar development team. All rights reserved.
+Written by Benedikt Meurer <benny@xfce.org>.
+Please report bugs to <%s>.
+translator-credits
+iPod touch
+iPad
+iPhone
+Icon size
+The icon size for the path entry
+512KiB
+1MiB
+10MiB
+100MiB
+1GiB
+10GiB
+16px
+24px
+32px
+48px
+64px
+96px
+128px
+160px
+192px
+256px
+512px
+1024px
+Example.txt
+%.*s %u%s
+%s: %s
+\"%s\" (%s)
+\"%s\"
+Label
+Text of the page's label
+Label widget
+A widget to display in place of the usual page label
+Resident
+Don't unload the plugin from memory
+Help URL
+The URL to the documentation of the renamer
+The user visible name of the renamer
+1, 2, 3, 
+01, 02, 03, 
+001, 002, 003, 
+0001, 0002, 0003, 
+00001, 00002, 00003, 
+a, b, c, d, 
+End element handler called while in root context
+Unknown closing element <%s>
+*
+file manager;explorer;finder;browser;folders;directory;directories;partitions;drives;network;devices;rename;move;copy;delete;permissions;home;trash;
+bulk;renamer;renaming;thunar;files;folders;directory;directories;
+thunar;settings;preferences;configure;thumbnails;file size;date format;shortcuts pane;tree view;tabs;

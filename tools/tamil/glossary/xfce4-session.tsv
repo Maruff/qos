@@ -1,0 +1,117 @@
+# qos Desktop in Tamil: the session.
+Xfce Session	Xfce அமர்வு
+Use this session to run Xfce as your desktop environment	Xfce-ஐ உங்கள் மேசைத்தளச் சூழலாக இயக்க இந்த அமர்வைப் பயன்படுத்துங்கள்
+Xfce Session (Wayland)	Xfce அமர்வு (Wayland)
+Session	அமர்வு
+Last accessed	கடைசியாக அணுகியது
+Unable to contact settings server	அமைப்புகள் சேவையகத்தைத் தொடர்புகொள்ள முடியவில்லை
+Unable to create user interface from embedded definition data	உட்பொதிந்த வரையறைத் தரவிலிருந்து பயனர் இடைமுகத்தை உருவாக்க முடியவில்லை
+Application Autostart	செயலிகளின் தானியங்குத் தொடக்கம்
+Currently active session:	தற்போது செயலில் உள்ள அமர்வு:
+If running	இயங்கினால்
+Immediately	உடனடியாக
+Session Save Error	அமர்வைச் சேமிப்பதில் பிழை
+Unable to save the session	அமர்வைச் சேமிக்க முடியவில்லை
+The saved states of your applications will not be restored during your next login.	உங்கள் செயலிகளின் சேமித்த நிலைகள் அடுத்த முறை நீங்கள் உள்நுழையும்போது மீட்டெடுக்கப்படாது.
+Clear sessions	அமர்வுகளை அழி
+Are you sure you want to empty the session cache?	அமர்வுத் தேக்ககத்தை உறுதியாகக் காலியாக்க வேண்டுமா?
+Proceed	தொடர்
+You might need to delete some files manually in \"%s\".	\"%s\"-இல் சில கோப்புகளை நீங்களே நீக்க வேண்டியிருக்கலாம்.
+All Xfce cache files could not be cleared	Xfce தேக்ககக் கோப்புகள் அனைத்தையும் அழிக்க முடியவில்லை
+Are you sure you want to terminate \"%s\"?	\"%s\"-ஐ உறுதியாக நிறுத்த வேண்டுமா?
+The application will lose any unsaved state and will not be restarted in your next session.	சேமிக்காத நிலை அனைத்தையும் செயலி இழக்கும்; அடுத்த அமர்வில் அது மறுதொடக்கம் செய்யப்படாது.
+Terminate Program	நிரலை நிறுத்து
+Quit Program	நிரலிலிருந்து விலகு
+Unable to terminate program.	நிரலை நிறுத்த முடியவில்லை.
+(Unknown program)	(தெரியாத நிரல்)
+Priority	முன்னுரிமை
+Program	நிரல்
+Restart Style	மறுதொடக்க முறை
+Add application	செயலியைச் சேர்
+Name:	பெயர்:
+Description:	விவரம்:
+Command:	கட்டளை:
+Trigger:	தூண்டல்:
+Select a command	கட்டளையைத் தேர்ந்தெடு
+Edit application	செயலியைத் திருத்து
+on login	உள்நுழையும்போது
+on logout	வெளியேறும்போது
+on shutdown	அணைக்கும்போது
+on restart	மறுதொடக்கத்தின்போது
+on suspend	இடைநிறுத்தும்போது
+on hibernate	உறங்கும்போது
+on hybrid sleep	கலப்பு உறக்கத்தின்போது
+on switch user	பயனரை மாற்றும்போது
+Failed to open %s for writing	எழுதுவதற்கு %s-ஐத் திறக்க முடியவில்லை
+Failed to unlink %s: %s	%s-ஐ நீக்க முடியவில்லை: %s
+Failed to create file %s	%s கோப்பை உருவாக்க முடியவில்லை
+Failed to write file %s	%s கோப்பில் எழுத முடியவில்லை
+Failed to open %s for reading	படிப்பதற்கு %s-ஐத் திறக்க முடியவில்லை
+Failed to set run hook	இயக்கக் கொக்கியை அமைக்க முடியவில்லை
+Trigger	தூண்டல்
+Remove application	செயலியை அகற்று
+Failed adding \"%s\"	\"%s\"-ஐச் சேர்க்க முடியவில்லை
+Failed to remove item	உருப்படியை அகற்ற முடியவில்லை
+Failed to edit item	உருப்படியைத் திருத்த முடியவில்லை
+Failed to edit item \"%s\"	\"%s\" உருப்படியைத் திருத்த முடியவில்லை
+Failed to toggle item	உருப்படியை இயக்கவோ முடக்கவோ முடியவில்லை
+Session Manager	அமர்வு மேலாளர்
+Choose the session you want to restore. You can simply double-click the session name to restore it.	மீட்டெடுக்க வேண்டிய அமர்வைத் தேர்ந்தெடுங்கள். அமர்வின் பெயரை இருமுறை சொடுக்கியும் அதை மீட்டெடுக்கலாம்.
+Create a new session.	புதிய அமர்வை உருவாக்கு.
+Delete a saved session.	சேமித்த அமர்வை நீக்கு.
+Cancel the login attempt and return to the login screen.	உள்நுழைவு முயற்சியை ரத்துசெய்து உள்நுழைவுத் திரைக்குத் திரும்பு.
+Start	தொடங்கு
+Start an existing session.	ஏற்கெனவே உள்ள அமர்வைத் தொடங்கு.
+(Unknown)	(தெரியவில்லை)
+Could not look up internet address for %s.\nThis will prevent Xfce from operating correctly.\nIt may be possible to correct the problem by adding\n%s to the file /etc/hosts on your system.	%s-க்கான இணைய முகவரியைக் கண்டறிய முடியவில்லை.\nஇதனால் Xfce சரியாகச் செயல்படாது.\nஉங்கள் கணினியில் உள்ள /etc/hosts கோப்பில்\n%s-ஐச் சேர்ப்பதன் மூலம் இச்சிக்கலைச் சரிசெய்ய முடியலாம்.
+Continue anyway	எப்படியும் தொடர்
+Try again	மீண்டும் முயல்
+Unable to determine failsafe session name.  Possible causes: xfconfd isn't running (D-Bus setup problem); environment variable $XDGCONFIGDIRS is set incorrectly (must include \"%s\"), or xfce4-session is installed incorrectly.	தோல்விக்காப்பு அமர்வின் பெயரைத் தீர்மானிக்க முடியவில்லை.  இயலக்கூடிய காரணங்கள்: xfconfd இயங்கவில்லை (D-Bus அமைப்புச் சிக்கல்); $XDGCONFIGDIRS சூழல் மாறி தவறாக அமைக்கப்பட்டுள்ளது (அதில் \"%s\" இருக்க வேண்டும்); அல்லது xfce4-session தவறாக நிறுவப்பட்டுள்ளது.
+The specified failsafe session (\"%s\") is not marked as a failsafe session.	குறிப்பிட்ட தோல்விக்காப்பு அமர்வு (\"%s\") தோல்விக்காப்பு அமர்வாகக் குறிக்கப்படவில்லை.
+The list of applications in the failsafe session is empty.	தோல்விக்காப்பு அமர்வில் உள்ள செயலிகளின் பட்டியல் காலியாக உள்ளது.
+Name for the new session	புதிய அமர்வுக்கான பெயர்
+Session Manager Error	அமர்வு மேலாளர் பிழை
+Unable to load a failsafe session	தோல்விக்காப்பு அமர்வை ஏற்ற முடியவில்லை
+Shutdown Failed	அணைக்க முடியவில்லை
+Failed to suspend session	அமர்வை இடைநிறுத்த முடியவில்லை
+Failed to hibernate session	அமர்வை உறங்கவைக்க முடியவில்லை
+Failed to hybrid sleep session	அமர்வைக் கலப்பு உறக்கத்தில் வைக்க முடியவில்லை
+Failed to switch user	பயனரை மாற்ற முடியவில்லை
+Restart and update	மறுதொடக்கம் செய்து புதுப்பி
+Update and Shut Down	புதுப்பித்து அணை
+An error occurred	பிழை ஏற்பட்டது
+Shutdown is blocked by the kiosk settings	கியோஸ்க் அமைப்புகளால் அணைத்தல் தடுக்கப்பட்டுள்ளது
+Unknown error	தெரியாத பிழை
+Received error while trying to log out	வெளியேற முயலும்போது பிழை ஏற்பட்டது
+Shutdown, restart, suspend, or hibernate the system	கணினியை அணை, மறுதொடக்கம் செய், இடைநிறுத்து அல்லது உறங்கவை
+Authentication is required to shutdown, restart, suspend, or hibernate the system.	கணினியை அணைக்க, மறுதொடக்கம் செய்ய, இடைநிறுத்த அல்லது உறங்கவைக்க அங்கீகாரம் தேவை.
+Session and Startup	அமர்வும் தொடக்கமும்
+Customize desktop startup	மேசைத்தளத் தொடக்கத்தைத் தனிப்பயனாக்கு
+These applications are a part of the currently-running session,\nand can be saved now or when you log out.\nChanges below will only take effect when the session is saved.	இந்தச் செயலிகள் தற்போது இயங்கும் அமர்வின் பகுதியாகும்;\nஇவற்றை இப்போதோ நீங்கள் வெளியேறும்போதோ சேமிக்கலாம்.\nஅமர்வு சேமிக்கப்படும்போது மட்டுமே கீழே உள்ள மாற்றங்கள் நடைமுறைக்கு வரும்.
+Display chooser on login	உள்நுழையும்போது தேர்வியைக் காட்டு
+Display the session chooser every time Xfce starts	Xfce தொடங்கும் ஒவ்வொரு முறையும் அமர்வுத் தேர்வியைக் காட்டு
+<b>Session Chooser</b>	<b>அமர்வுத் தேர்வி</b>
+Automatically save session on logout	வெளியேறும்போது அமர்வைத் தானாகச் சேமி
+Always save the session when logging out	வெளியேறும்போது எப்போதும் அமர்வைச் சேமி
+Prompt on logout	வெளியேறும்போது கேள்
+Prompt for confirmation when logging out	வெளியேறும்போது உறுதிப்படுத்தல் கேள்
+<b>Logout Settings</b>	<b>வெளியேறும் அமைப்புகள்</b>
+Lock screen before sleep	உறங்கும் முன் திரையைப் பூட்டு
+<b>Shutdown</b>	<b>அணைத்தல்</b>
+Save Session	அமர்வைச் சேமி
+Currently active session: <b>Default</b>	தற்போது செயலில் உள்ள அமர்வு: <b>இயல்புநிலை</b>
+Current Session	தற்போதைய அமர்வு
+Delete the selected session	தேர்ந்தெடுத்த அமர்வை நீக்கு
+Clear Saved Sessions	சேமித்த அமர்வுகளை அழி
+Saved Sessions	சேமித்த அமர்வுகள்
+Launch GNOME services on startup	தொடக்கத்தில் GNOME சேவைகளைத் தொடங்கு
+Start GNOME services, such as gnome-keyring	gnome-keyring போன்ற GNOME சேவைகளைத் தொடங்கு
+Launch KDE services on startup	தொடக்கத்தில் KDE சேவைகளைத் தொடங்கு
+Start KDE services, such as kdeinit	kdeinit போன்ற KDE சேவைகளைத் தொடங்கு
+<b>Compatibility</b>	<b>இணக்கத்தன்மை</b>
+Manage remote applications	தொலைநிலைச் செயலிகளை நிர்வகி
+Manage remote applications over the network (this may be a security risk)	வலையமைப்பு வழியாகத் தொலைநிலைச் செயலிகளை நிர்வகி (இது பாதுகாப்பு அபாயமாக இருக்கலாம்)
+<b>Security</b>	<b>பாதுகாப்பு</b>
+Advanced	மேம்பட்டவை
+Saving Session	அமர்வு சேமிக்கப்படுகிறது
+Your session is being saved.  If you do not wish to wait, you may close this window.	உங்கள் அமர்வு சேமிக்கப்படுகிறது.  காத்திருக்க விரும்பவில்லை எனில், இந்தச் சாளரத்தை மூடலாம்.
