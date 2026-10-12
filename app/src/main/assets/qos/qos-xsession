@@ -149,46 +149,46 @@ brand_panel() {
 
 # The dock (the bottom panel), once (marker desktop-dock-1):
 # - its gear is XFCE's Application Finder, which Termux's XFCE does not have, so
-#   that empty launcher opens the Settings Manager instead;
+#   that empty launcher is replaced by one for the Settings Manager;
 # - two launchers are added after its first separator: Android's home screen,
 #   and qos's Apps screen, a touch-friendly list of every Android app.
-dock_launcher() { # dock_launcher ID FILE.desktop: point a launcher plugin at one entry
-    mkdir -p "$HOME/.config/xfce4/panel/launcher-$1"
-    cp "$2" "$HOME/.config/xfce4/panel/launcher-$1/"
-    xfconf-query -c xfce4-panel -p "/plugins/plugin-$1/items" -n -a -t string -s "${2##*/}"
+# New launchers rather than changed ones: the panel saves its launchers' own
+# settings as it restarts, over anything changed in them meanwhile.
+dock_launcher() { # dock_launcher FILE.desktop: a new launcher plugin for one entry; prints its id
+    last=$((last + 1))
+    xfconf-query -c xfce4-panel -p "/plugins/plugin-$last" -n -t string -s launcher
+    mkdir -p "$HOME/.config/xfce4/panel/launcher-$last"
+    cp "$1" "$HOME/.config/xfce4/panel/launcher-$last/"
+    xfconf-query -c xfce4-panel -p "/plugins/plugin-$last/items" -n -a -t string -s "${1##*/}"
 }
 dock_panel() {
-    local id ids new last panel=/panels/panel-2/plugin-ids
+    local id ids kind last android=() settings="" args=() placed=0 panel=/panels/panel-2/plugin-ids
     for _ in $(seq 1 60); do
         xfconf-query -c xfce4-panel -p "$panel" > /dev/null 2>&1 && break
         sleep 1
     done
     ids="$(xfconf-query -c xfce4-panel -p "$panel" 2>/dev/null | grep -E '^[0-9]+$')"
     [ -n "$ids" ] || return
-    for id in $ids; do
-        if [ "$(xfconf-query -c xfce4-panel -p "/plugins/plugin-$id" 2>/dev/null)" = launcher ] &&
-            ! xfconf-query -c xfce4-panel -p "/plugins/plugin-$id/items" 2>/dev/null | grep -q '\.desktop$'; then
-            dock_launcher "$id" "$PREFIX/share/applications/xfce-settings-manager.desktop"
-        fi
-    done
     last="$(xfconf-query -c xfce4-panel -l | grep -oE '^/plugins/plugin-[0-9]+$' | grep -oE '[0-9]+$' | sort -n | tail -1)"
     for entry in qos-android-home qos-android-apps; do
-        last=$((last + 1))
-        xfconf-query -c xfce4-panel -p "/plugins/plugin-$last" -n -t string -s launcher
-        dock_launcher "$last" "$HOME/.local/share/applications/$entry.desktop"
-        new="$new $last"
+        dock_launcher "$HOME/.local/share/applications/$entry.desktop"
+        android+=("$last")
     done
-    # The new launchers go after the first separator.
-    local args=() placed=0 kind
     for id in $ids; do
-        args+=(-t int -s "$id")
         kind="$(xfconf-query -c xfce4-panel -p "/plugins/plugin-$id" 2>/dev/null)"
+        if [ "$kind" = launcher ] && [ -z "$settings" ] &&
+            ! xfconf-query -c xfce4-panel -p "/plugins/plugin-$id/items" 2>/dev/null | grep -q '\.desktop$'; then
+            dock_launcher "$PREFIX/share/applications/xfce-settings-manager.desktop"
+            settings="$last"
+            id="$settings"
+        fi
+        args+=(-t int -s "$id")
         if [ "$placed" = 0 ] && [ "$kind" = separator ]; then
-            for id in $new; do args+=(-t int -s "$id"); done
+            for id in "${android[@]}"; do args+=(-t int -s "$id"); done
             placed=1
         fi
     done
-    [ "$placed" = 1 ] || for id in $new; do args+=(-t int -s "$id"); done
+    [ "$placed" = 1 ] || for id in "${android[@]}"; do args+=(-t int -s "$id"); done
     xfconf-query -c xfce4-panel -p "$panel" -a "${args[@]}"
     date > "$DOCK_MARKER"
     xfce4-panel -r
