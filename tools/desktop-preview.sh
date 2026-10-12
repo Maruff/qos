@@ -131,6 +131,9 @@ sleep 5; shot 4-about
 
 xfce4-session-logout > /dev/null 2>&1 &
 sleep 5; shot 6-logout
+xdotool key Escape; sleep 1
+xfce4-settings-manager > /dev/null 2>&1 &
+sleep 6; shot 7-settings
 
 xrandr --query > "$OUT/xrandr.txt" 2>&1
 for c in xsettings xfce4-desktop xfce4-panel xfwm4; do
