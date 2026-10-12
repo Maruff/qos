@@ -162,7 +162,7 @@ dock_launcher() { # dock_launcher FILE.desktop: a new launcher plugin for one en
     xfconf-query -c xfce4-panel -p "/plugins/plugin-$last/items" -n -a -t string -s "${1##*/}"
 }
 dock_panel() {
-    local id ids kind last android=() settings="" args=() placed=0 panel=/panels/panel-2/plugin-ids
+    local id ids kind items last android=() settings="" args=() placed=0 panel=/panels/panel-2/plugin-ids
     for _ in $(seq 1 60); do
         xfconf-query -c xfce4-panel -p "$panel" > /dev/null 2>&1 && break
         sleep 1
@@ -176,8 +176,11 @@ dock_panel() {
     done
     for id in $ids; do
         kind="$(xfconf-query -c xfce4-panel -p "/plugins/plugin-$id" 2>/dev/null)"
-        if [ "$kind" = launcher ] && [ -z "$settings" ] &&
-            ! xfconf-query -c xfce4-panel -p "/plugins/plugin-$id/items" 2>/dev/null | grep -q '\.desktop$'; then
+        # The Application Finder launcher: listing xfce4-appfinder.desktop, or nothing once
+        # the panel has found that missing.
+        items="$(xfconf-query -c xfce4-panel -p "/plugins/plugin-$id/items" 2>/dev/null | grep '\.desktop$')"
+        if [ "$kind" = launcher ] && [ -z "$settings" ] && ! command -v xfce4-appfinder > /dev/null &&
+            { [ -z "$items" ] || [ "$items" = xfce4-appfinder.desktop ]; }; then
             dock_launcher "$PREFIX/share/applications/xfce-settings-manager.desktop"
             settings="$last"
             id="$settings"
