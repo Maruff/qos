@@ -9,6 +9,20 @@
         app:persistent="false"
         app:useSimpleSummaryProvider="true" />
 
+    <!-- qos: qos as the home screen (QosHome). -->
+    <Preference
+        app:key="qos_home_app"
+        app:title="@string/qos_home_app_title"
+        app:summary="@string/qos_home_app_summary" />
+
+    <ListPreference
+        app:key="qos_home_opens"
+        app:title="@string/qos_home_opens_title"
+        app:entries="@array/qos_home_opens_entries"
+        app:entryValues="@array/qos_home_opens_values"
+        app:defaultValue="terminal"
+        app:useSimpleSummaryProvider="true" />
+
     <Preference
         app:key="termux"
         app:title="@string/termux_preferences_title"

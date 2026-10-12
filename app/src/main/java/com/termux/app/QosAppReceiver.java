@@ -8,7 +8,8 @@ import android.widget.Toast;
 import com.termux.R;
 
 /**
- * qos: opens Android apps for qos-open, and refreshes qos Desktop's Android menu for qos-desktop.
+ * qos: opens Android apps and Android's home screen for qos-open, and refreshes qos Desktop's
+ * Android menu for qos-desktop.
  *
  * Not exported: only qos's own user, which the terminal and qos Desktop run as, can reach it. A
  * broadcast rather than "am start" because Termux's am refuses activity starts without the
@@ -18,6 +19,7 @@ public final class QosAppReceiver extends BroadcastReceiver {
 
     public static final String ACTION_OPEN = "com.termux.qos.OPEN_APP";
     public static final String ACTION_SYNC = "com.termux.qos.SYNC_APPS";
+    public static final String ACTION_HOME = "com.termux.qos.OPEN_ANDROID_HOME";
     public static final String EXTRA_PACKAGE = "package";
 
     @Override
@@ -26,6 +28,11 @@ public final class QosAppReceiver extends BroadcastReceiver {
             String pkg = intent.getStringExtra(EXTRA_PACKAGE);
             if (pkg == null || !QosApps.open(context, pkg))
                 Toast.makeText(context, context.getString(R.string.apps_not_found, String.valueOf(pkg)), Toast.LENGTH_LONG).show();
+        } else if (ACTION_HOME.equals(intent.getAction())) {
+            // With several home screens and none chosen yet, qos asks which.
+            if (!QosHome.openAndroidHome(context))
+                context.startActivity(new Intent(context, TermuxActivity.class)
+                    .putExtra("com.termux.qos.open", "android-home").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
         } else if (ACTION_SYNC.equals(intent.getAction())) {
             PendingResult result = goAsync();
             new Thread(() -> {

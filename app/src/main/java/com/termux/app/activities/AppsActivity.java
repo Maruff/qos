@@ -8,6 +8,7 @@ import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -19,14 +20,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.termux.R;
 import com.termux.app.QosApps;
+import com.termux.app.QosHome;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
 /**
- * qos: the phone's Android apps, to open from qos. Opening it also refreshes qos Desktop's
- * Android menu, so an app installed since shows up there too.
+ * qos: the phone's Android apps, to open from qos, and Android's own home screen. Opening it
+ * also refreshes qos Desktop's Android menu, so an app installed since shows up there too.
  */
 public final class AppsActivity extends AppCompatActivity {
 
@@ -55,6 +57,12 @@ public final class AppsActivity extends AppCompatActivity {
             @Override public void afterTextChanged(Editable s) { show(); }
         });
         root.addView(mSearch);
+
+        // First: the way back to Android's own home screen, for when qos is the home screen.
+        Button androidHome = new Button(this, null, android.R.attr.buttonBarButtonStyle);
+        androidHome.setText(R.string.android_home);
+        androidHome.setOnClickListener(v -> QosHome.openAndroidHome(this));
+        root.addView(androidHome);
 
         PackageManager pm = getPackageManager();
         ListView list = new ListView(this);

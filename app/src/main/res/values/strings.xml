@@ -82,6 +82,15 @@
     <string name="apps_title">Android apps</string>
     <string name="apps_search">Search apps</string>
     <string name="apps_not_found">No app to open for %1$s</string>
+    <!-- qos: qos as the home screen, and the way back to Android's. -->
+    <string name="android_home">Android home screen</string>
+    <string name="android_home_choose">Which home screen?</string>
+    <string name="android_home_none">No other home screen is installed.</string>
+    <string name="qos_home_app_title">qos as the home screen</string>
+    <string name="qos_home_app_summary">Choose qos as the Home app: the phone then starts in qos, and Home opens it. Android\'s home screen is first in Apps.</string>
+    <string name="qos_home_opens_title">Home opens</string>
+    <string name="qos_home_terminal">The terminal</string>
+    <string name="qos_home_desktop">The desktop</string>
     <!-- qos: the app's language, and the VS Code screen. -->
     <string name="qos_language_title">Language / மொழி</string>
     <string name="qos_language_system">Phone\'s language</string>

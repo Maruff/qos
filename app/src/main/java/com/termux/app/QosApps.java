@@ -93,8 +93,15 @@ public final class QosApps {
                 "[Desktop Entry]\nVersion=1.0\nType=Directory\nName=Android\nName[ta]=ஆண்ட்ராய்டு\n" +
                 "Icon=" + TermuxConstants.TERMUX_PREFIX_DIR_PATH + "/share/pixmaps/qos.png\n");
 
+            // First in the Android menu: the way back to Android's own home screen.
+            write(new File(applications, DESKTOP_PREFIX + "home.desktop"),
+                "[Desktop Entry]\nVersion=1.0\nType=Application\n" +
+                "Name=Android home screen\nName[ta]=ஆண்ட்ராய்டு முகப்புத் திரை\n" +
+                "Exec=qos-open --home\nIcon=go-home\nTerminal=false\nCategories=X-Qos-Android;\n");
+
             PackageManager pm = context.getPackageManager();
             Set<String> current = new HashSet<>();
+            current.add("home");
             for (App app : list(context)) {
                 current.add(app.packageName);
                 File icon = new File(icons, app.packageName + ".png");

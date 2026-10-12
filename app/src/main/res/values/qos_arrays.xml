@@ -11,4 +11,14 @@
         <item>en</item>
         <item>ta</item>
     </string-array>
+
+    <!-- qos: what the Home button opens when qos is the home screen (QosHome). -->
+    <string-array name="qos_home_opens_entries">
+        <item>@string/qos_home_terminal</item>
+        <item>@string/qos_home_desktop</item>
+    </string-array>
+    <string-array name="qos_home_opens_values" translatable="false">
+        <item>terminal</item>
+        <item>desktop</item>
+    </string-array>
 </resources>

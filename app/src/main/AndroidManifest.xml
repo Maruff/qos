@@ -81,6 +81,14 @@
             android:exported="true"
             android:targetActivity=".app.TermuxActivity">
 
+            <!-- qos: a Home app, so qos can be the phone's home screen and open when it starts. -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.HOME" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
             <!-- Launch activity automatically on boot on Android Things devices -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

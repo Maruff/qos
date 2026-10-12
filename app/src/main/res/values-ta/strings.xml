@@ -89,6 +89,14 @@
     <string name="apps_title">ஆண்ட்ராய்டு செயலிகள்</string>
     <string name="apps_search">செயலிகளைத் தேடுங்கள்</string>
     <string name="apps_not_found">%1$s-க்குத் திறக்க செயலி இல்லை</string>
+    <string name="android_home">ஆண்ட்ராய்டு முகப்புத் திரை</string>
+    <string name="android_home_choose">எந்த முகப்புத் திரை?</string>
+    <string name="android_home_none">வேறு முகப்புத் திரை எதுவும் நிறுவப்படவில்லை.</string>
+    <string name="qos_home_app_title">qos-ஐ முகப்புத் திரையாக்கு</string>
+    <string name="qos_home_app_summary">qos-ஐ முகப்புச் செயலியாகத் தேர்ந்தெடுங்கள்: கைபேசி qos-இல் தொடங்கும், முகப்புப் பொத்தான் qos-ஐத் திறக்கும். ஆண்ட்ராய்டு முகப்புத் திரை செயலிகளில் முதலாவதாக இருக்கும்.</string>
+    <string name="qos_home_opens_title">முகப்புப் பொத்தான் திறப்பது</string>
+    <string name="qos_home_terminal">முனையம்</string>
+    <string name="qos_home_desktop">மேசைத்தளம்</string>
     <string name="qos_language_title">மொழி / Language</string>
     <string name="qos_language_system">கைபேசியின் மொழி</string>
     <string name="code_not_installed">VS Code இன்னும் நிறுவப்படவில்லை.\n\nமுனையத்தைத் திறந்து இயக்குங்கள்:\nqos-setup</string>

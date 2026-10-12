@@ -60,6 +60,7 @@ public class SettingsActivity extends AppCompatActivity {
 
             setPreferencesFromResource(R.xml.root_preferences, rootKey);
             configureLanguagePreference();
+            configureHomePreference();
 
             new Thread() {
                 @Override
@@ -72,6 +73,20 @@ public class SettingsActivity extends AppCompatActivity {
                     configureDonatePreference(context);
                 }
             }.start();
+        }
+
+        /** qos: the Home app setting is Android's own; this opens it. */
+        private void configureHomePreference() {
+            Preference home = findPreference("qos_home_app");
+            if (home == null) return;
+            home.setOnPreferenceClickListener(preference -> {
+                try {
+                    startActivity(new android.content.Intent(android.provider.Settings.ACTION_HOME_SETTINGS));
+                } catch (android.content.ActivityNotFoundException e) {
+                    startActivity(new android.content.Intent(android.provider.Settings.ACTION_SETTINGS));
+                }
+                return true;
+            });
         }
 
         /** qos: English, Tamil, or the phone's language, applied at once by AppCompat. */

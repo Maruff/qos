@@ -593,13 +593,38 @@ public final class TermuxActivity extends AppCompatActivity implements ServiceCo
         if (mTermuxService != null) openQosShortcut(intent);
     }
 
-    /** qos: act on a home-screen shortcut, if the intent came from one. */
+    /** qos: whether this process has started the desktop for the Home button. The desktop's X
+     * server runs in a qos session, so it lasts as long as this process does. */
+    private static boolean sDesktopStartedForHome;
+
+    /** qos: act on a home-screen shortcut, or on the Home button when qos is the home screen. */
     private void openQosShortcut(Intent intent) {
+        if (intent != null && intent.hasCategory(Intent.CATEGORY_HOME) && QosHome.opensDesktop(this)) {
+            if (!sDesktopStartedForHome) {
+                sDesktopStartedForHome = true;
+                openDesktop();
+            } else {
+                showDesktop();
+            }
+            return;
+        }
         String open = intent == null ? null : intent.getStringExtra(EXTRA_QOS_OPEN);
         if ("desktop".equals(open))
             openDesktop();
         else if ("code".equals(open))
             startActivity(new Intent(this, CodeActivity.class));
+        else if ("android-home".equals(open))
+            QosHome.openAndroidHome(this);
+    }
+
+    /** qos: bring qos Desktop forward, with the desktop already running. */
+    private void showDesktop() {
+        try {
+            startActivity(new Intent().setClassName("com.termux.x11", "com.termux.x11.MainActivity")
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+        } catch (android.content.ActivityNotFoundException e) {
+            openDesktop();
+        }
     }
 
     /** qos: the request code for the Packages screen. */
